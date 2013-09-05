@@ -1,0 +1,802 @@
+# Translation of userdrake.po to Romanian
+# Copyright (c) 1999-2010 Mandriva
+#
+# Vă rugăm să nu actualizaţi fișierul, cu excepția cazului în care sînteți
+# sigur de calitatea traducerii dumneavoastră, de gramatică și de ortografie.
+# Acestea din urmă sînt de prea multe ori aproximative.
+# Corectarea lor ulterioară nu are nici un alt rezultat decît acela de
+# pierdere de timp pentru toata lumea.
+#
+# VĂ RUGĂM SĂ RESPECTAȚI SEMNELE DE PUNCTUAȚIE ALE LIMBII ROMÂNE!
+#
+# Nu suprimați spațiul care urmează unui semn de punctuație de sfîrșit de
+# frază; trebuie respectată versiunea originală. În acest caz, este foarte
+# probabil ca programul să afișeze un mesaj la sfîrșit. Suprimînd acel spațiu,
+# cele două cuvintele vor fi afișate legat.
+#
+# Traduceți de manieră INTELIGENTĂ (de ce nu și prin comparație cu alte
+# traduceri ale acestui fișier în alte limbi) și nu cuvînt cu cuvînt. Unele
+# astfel de traduceri nu au nici un sens în limba română.
+#
+# ATENȚIE LA FONTURILE UTILIZATE! Pentru a reda corect diacriticele folosiți
+# disponerea tastaturii românească standard, codarea de caractere UTF-8 și
+# asigurați-vă că fonturile utilizate sînt cu virgulițe, NU CU SEDILE!
+# Exemplu:
+#          font incorect (cu sedile): şŞ ţŢ
+#          font corect (cu virgule): șȘ țȚ
+#
+# Pentru a vă asigura că folosiți fonturile corecte, vizitați:
+#          http://i18n.ro/Fonturi_romanesti/testare
+#
+# Vă mulțumim pentru înțelegere.
+#                                                       Echipa de traducători,
+#                                                       www.Mandrivausers.ro
+#
+# Traducători de-a lungul timpului:
+#
+#
+# Harald ERSCH <hersch@romatsa.ro>, 2002, 2003.
+# Ovidiu CONSTANTIN <ovidiu.constantin@gmx.net>, 2003.
+# Ovidiu CONSTANTIN <ovidiusoft@gmail.com>, 2004.
+# Cristian Ionuț PÎRÎU <piriu.cristian@rdslink.ro>, 2008.
+# Florin Cătălin RUSSEN <cfrussen@yahoo.co.uk>, 2009, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: userdrake\n"
+"Report-Msgid-Bugs-To: https://qa.mandriva.com\n"
+"POT-Creation-Date: 2010-02-02 03:03+0100\n"
+"PO-Revision-Date: 2010-05-30 14:07+0100\n"
+"Last-Translator: Cătălin Florin RUSSEN <cfrussen@yahoo.co.uk>\n"
+"Language-Team: Romanian <cooker-i18n@mandrivalinux.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3;plural=(n==1?0:(((n%100>19)||((n%100==0)&&(n!=0)))?"
+"2:1))\n"
+"X-Generator: Lokalize 1.0\n"
+
+#: ../USER/USER.xs:86
+#, c-format
+msgid "Error reading `%s': %s"
+msgstr "Eroare la citirea „%s”: %s"
+
+#: ../USER/USER.xs:93 ../USER/USER.xs:526
+#, c-format
+msgid "Error creating `%s': %s"
+msgstr "Eroare la crearea „%s”: %s"
+
+#: ../USER/USER.xs:205 ../USER/USER.xs:234 ../USER/USER.xs:250
+#, c-format
+msgid "Error removing `%s': %s"
+msgstr "Eroare la înlăturarea „%s”: %s"
+
+#: ../USER/USER.xs:490
+#, c-format
+msgid "Account creation failed: '%s'.\n"
+msgstr "Crearea contului a eșuat: „%s”.\n"
+
+#: ../USER/USER.xs:503
+msgid "Cannot get Uid number"
+msgstr "Nu se poate obține numărul Uid"
+
+#: ../USER/USER.xs:515
+msgid "Cannot retrieve value"
+msgstr "Nu se poate prelua valoarea"
+
+#: ../USER/USER.xs:532
+msgid "Error creating mail spool.\n"
+msgstr "Eroare la crearea cozii de mesaje.\n"
+
+#: ../USER/USER.xs:582
+#, c-format
+msgid "User could not be modified: '%s'.\n"
+msgstr "Utilizatorul nu poate fi modificat: „%s”.\n"
+
+#: ../USER/USER.xs:592
+#, c-format
+msgid "User Could Not be deleted: '%s'.\n"
+msgstr "Utilizatorul nu poate fi șters: „%s”.\n"
+
+#: ../USER/USER.xs:618
+#, c-format
+msgid "Failed to set password: '%s'.\n"
+msgstr "Configurarea parolei a eșuat: „%s”.\n"
+
+#: ../USER/USER.xs:618
+msgid "unknown error"
+msgstr "eroare necunoscută"
+
+#: ../USER/USER.xs:685
+msgid "Group creation failed.\n"
+msgstr "Crearea grupului a eșuat.\n"
+
+#: ../USER/USER.xs:695
+#, c-format
+msgid "Group could not be modified: '%s'.\n"
+msgstr "Grupul nu poate fi modificat: „%s”.\n"
+
+#: ../USER/USER.xs:705
+#, c-format
+msgid "Group could not be deleted: '%s'.\n"
+msgstr "Grupul nu poate fi șters: „%s”.\n"
+
+#: ../USER/USER.xs:863
+msgid "No home directory for the user.\n"
+msgstr "Utilizatorul nu are director personal.\n"
+
+#: ../USER/USER.xs:869 ../USER/USER.xs:871
+#, c-format
+msgid "Home Directory Could Not be deleted: '%s'.\n"
+msgstr "Directorul personal nu poate fi șters: „%s”.\n"
+
+#: ../USER/USER.xs:881
+msgid "Error deleting mail spool.\n"
+msgstr "Eroare la ștergerea cozii de mesaje.\n"
+
+#: ../userdrake:59 ../userdrake:1275
+#, c-format
+msgid "Userdrake"
+msgstr "Userdrake"
+
+#: ../userdrake:64
+#, c-format
+msgid "Loading Users and Groups... Please wait"
+msgstr "Se încarcă utilizatorii și grupurile... Aașteptați vă rog"
+
+#: ../userdrake:83
+#, c-format
+msgid "Mandriva Linux Users Management Tool"
+msgstr "Unealta Mandriva Linux de gestionat utilizatori"
+
+#: ../userdrake:96
+#, c-format
+msgid "/_Install guest account"
+msgstr "/_Instalează contul invitat"
+
+#: ../userdrake:97
+#, c-format
+msgid "/_Uninstall guest account"
+msgstr "/_Dezinstalează contul invitat"
+
+#: ../userdrake:101 ../userdrake:102 ../userdrake:103 ../userdrake:114
+#: ../userdrake:115 ../userdrake:116
+#, c-format
+msgid "/_Actions"
+msgstr "/_Acțiuni"
+
+#: ../userdrake:101
+#, c-format
+msgid "/_Edit"
+msgstr "/_Editează"
+
+#: ../userdrake:102
+#, c-format
+msgid "/_Delete"
+msgstr "/_Șterge"
+
+#: ../userdrake:104 ../userdrake:120
+#, c-format
+msgid "/_Options"
+msgstr "/_Opțiuni"
+
+#: ../userdrake:104
+#, c-format
+msgid "/_Filter system users"
+msgstr "/_Filtrare utilizatori sistem"
+
+#: ../userdrake:109 ../userdrake:110 ../userdrake:113
+#, c-format
+msgid "/_File"
+msgstr "/_Fișier"
+
+#: ../userdrake:110
+#, c-format
+msgid "/_Refresh"
+msgstr "/_Împrospătare"
+
+#: ../userdrake:113
+#, c-format
+msgid "/_Quit"
+msgstr "/_Terminare"
+
+#: ../userdrake:113
+#, c-format
+msgid "<control>Q"
+msgstr "<control>Q"
+
+#: ../userdrake:115
+#, c-format
+msgid "/_Add User"
+msgstr "/_Adaugă un utilizator"
+
+#: ../userdrake:116
+#, c-format
+msgid "/Add _Group"
+msgstr "/Adaugă un _grup"
+
+#: ../userdrake:125 ../userdrake:126 ../userdrake:127 ../userdrake:130
+#, c-format
+msgid "/_Help"
+msgstr "/_Ajutor"
+
+#: ../userdrake:127
+#, c-format
+msgid "/_Report Bug"
+msgstr "/_Raportare eroare"
+
+#: ../userdrake:130
+#, c-format
+msgid "/_About..."
+msgstr "/_Despre..."
+
+#: ../userdrake:148
+#, c-format
+msgid "Search:"
+msgstr "Căutare: "
+
+#: ../userdrake:154
+#, c-format
+msgid "Apply filter"
+msgstr "Aplică filtru"
+
+#: ../userdrake:158
+#, c-format
+msgid "Users"
+msgstr "Utilizatori"
+
+#: ../userdrake:162 ../userdrake:1041
+#, c-format
+msgid "Groups"
+msgstr "Grupuri"
+
+#. -PO: do not translate, this is already translated in mcc
+#: ../userdrake:168
+#, c-format
+msgid "Users and groups"
+msgstr "Utilizatori și grupuri"
+
+#: ../userdrake:186
+#, c-format
+msgid "User Name"
+msgstr "Nume utilizator"
+
+#: ../userdrake:186
+#, c-format
+msgid "User ID"
+msgstr "ID utilizator"
+
+#: ../userdrake:186 ../userdrake:1038
+#, c-format
+msgid "Primary Group"
+msgstr "Grup principal"
+
+#: ../userdrake:187
+#, c-format
+msgid "Full Name"
+msgstr "Nume complet"
+
+#: ../userdrake:187
+#, c-format
+msgid "Login Shell"
+msgstr "Interpretor de comenzi"
+
+#: ../userdrake:187
+#, c-format
+msgid "Home Directory"
+msgstr "Director personal"
+
+#: ../userdrake:187
+#, c-format
+msgid "Status"
+msgstr "Stare"
+
+#: ../userdrake:194
+#, c-format
+msgid "Group Name"
+msgstr "Nume grup"
+
+#: ../userdrake:194
+#, c-format
+msgid "Group ID"
+msgstr "ID Grup"
+
+#: ../userdrake:194
+#, c-format
+msgid "Group Members"
+msgstr "Membrii grupului"
+
+# broken into two lines to avoid too large a button
+#: ../userdrake:196
+#, c-format
+msgid "Add User"
+msgstr ""
+"Adaugă un\n"
+"utilizator"
+
+#: ../userdrake:196
+#, c-format
+msgid "Add a user to the system"
+msgstr "Adăugați un utilizator în sistem"
+
+# broken into two lines to avoid too large a button
+#: ../userdrake:197
+#, c-format
+msgid "Add Group"
+msgstr ""
+"Adaugă\n"
+"un grup"
+
+#: ../userdrake:197
+#, c-format
+msgid "Add a group to the system"
+msgstr "Adăugați un grup în sistem"
+
+#: ../userdrake:198 ../userdrake:739
+#, c-format
+msgid "Edit"
+msgstr "Editează"
+
+#: ../userdrake:198
+#, c-format
+msgid "Edit selected row"
+msgstr "Editați rîndul selectat"
+
+#: ../userdrake:199 ../userdrake:674 ../userdrake:707 ../userdrake:739
+#, c-format
+msgid "Delete"
+msgstr "Șterge"
+
+#: ../userdrake:199
+#, c-format
+msgid "Delete selected row"
+msgstr "Ștergeți rîndul selectat"
+
+#: ../userdrake:200
+#, c-format
+msgid "Refresh"
+msgstr "Împrospătare"
+
+#: ../userdrake:200
+#, c-format
+msgid "Refresh the list"
+msgstr "Împrospătează lista"
+
+#: ../userdrake:263
+#, c-format
+msgid "Locked"
+msgstr "Blocat"
+
+#: ../userdrake:263
+#, c-format
+msgid "Expired"
+msgstr "Expirat"
+
+#: ../userdrake:339
+#, c-format
+msgid "Click on the icon to change it"
+msgstr "Faceți clic pe pictogramă pentru a o schimba"
+
+#: ../userdrake:385
+#, c-format
+msgid "Create New User"
+msgstr "Creați un utilizator nou"
+
+#: ../userdrake:391
+#, c-format
+msgid "Create Home Directory"
+msgstr "Creează directorul personal"
+
+#: ../userdrake:393
+#, c-format
+msgid "Home Directory: "
+msgstr "Director personal: "
+
+#: ../userdrake:396
+#, c-format
+msgid "Create a private group for the user"
+msgstr "Creează un grup privat pentru utilizator"
+
+#: ../userdrake:397
+#, c-format
+msgid "Specify user ID manually"
+msgstr "Specificați manual ID utilizator"
+
+#: ../userdrake:414
+#, c-format
+msgid "User already exists, please choose another User Name"
+msgstr "Acest utilizator există deja, folosiți un alt nume de utilizator"
+
+#: ../userdrake:419 ../userdrake:860
+#, c-format
+msgid "Password Mismatch"
+msgstr "Nepotrivire de parolă"
+
+#: ../userdrake:422 ../userdrake:863
+#, c-format
+msgid ""
+"This password is too simple. \n"
+" Good passwords should be > 6 characters"
+msgstr ""
+"Această parolă este prea simplă. \n"
+" Parolele bune ar trebui să fie > de 6 caractere"
+
+#: ../userdrake:434
+#, c-format
+msgid "User Uid is < 500"
+msgstr "Identificatorul utilizatorului este < 500"
+
+#: ../userdrake:435
+#, c-format
+msgid ""
+"Creating a user with a UID less than 500 is not recommended.\n"
+" Are you sure you want to do this?\n"
+"\n"
+msgstr ""
+"Nu se recomandă crearea unui utilizator cu un identificator mai mic de 500.\n"
+" Chiar doriți acest lucru?\n"
+"\n"
+
+#: ../userdrake:450
+#, c-format
+msgid "Putting %s to 'users' group"
+msgstr "Se adaugă %s în grupul „users”"
+
+#: ../userdrake:457
+#, c-format
+msgid "Creating new group: %s"
+msgstr "Se creează un grup nou: %s"
+
+#: ../userdrake:466
+#, c-format
+msgid "Adding user: %s"
+msgstr "Se adaugă utilizatorul: %s"
+
+#: ../userdrake:478
+#, c-format
+msgid "Migration wizard"
+msgstr "Asistent de migrare"
+
+#: ../userdrake:479
+#, c-format
+msgid ""
+"Do you want to run the migration wizard in order to import Windows documents "
+"and settings in your Mandriva Linux distribution?"
+msgstr ""
+"Doriți să rulați asistentul de migrare pentru a prelua documentele și "
+"configurările din Windows în distribuția Mandriva Linux?"
+
+#: ../userdrake:484 ../userdrake:528 ../userdrake:587 ../userdrake:674
+#: ../userdrake:707 ../userdrake:1166
+#, c-format
+msgid "Cancel"
+msgstr "Anulează"
+
+#: ../userdrake:484 ../userdrake:521 ../userdrake:587 ../userdrake:1166
+#: ../userdrake:1317
+#, c-format
+msgid "Ok"
+msgstr "Ok"
+
+#: ../userdrake:497
+#, c-format
+msgid "UID: "
+msgstr "UID: "
+
+#: ../userdrake:510
+#, c-format
+msgid "Choose group"
+msgstr "Alegeți grupul"
+
+#: ../userdrake:512 ../userdrake:513
+#, c-format
+msgid "Add to the existing group"
+msgstr "Adaugă la grupul existent"
+
+#: ../userdrake:514
+#, c-format
+msgid "Add to the 'users' group"
+msgstr "Adaugă la grupul „users”"
+
+#: ../userdrake:516
+#, c-format
+msgid "A group with this name already exists.  What would you like to do?"
+msgstr "Un grup cu acest nume există deja. Ce doriți să faceți?"
+
+#: ../userdrake:546
+#, c-format
+msgid "Create New Group"
+msgstr "Creează un grup nou"
+
+#: ../userdrake:551
+#, c-format
+msgid "Specify group ID manually"
+msgstr "Specificați manual ID grup"
+
+#: ../userdrake:567
+#, c-format
+msgid "Group already exists, please choose another Group Name"
+msgstr "Grupul cu acest nume există deja, alegeți un alt nume pentru grup."
+
+#: ../userdrake:573
+#, c-format
+msgid " Group Gid is < 500"
+msgstr " Identificatorul grupului este < 500"
+
+#: ../userdrake:574
+#, c-format
+msgid ""
+"Creating a group with a GID less than 500 is not recommended.\n"
+" Are you sure you want to do this?\n"
+"\n"
+msgstr ""
+"Nu se recomandă crearea unui grup cu un identificator mai mic de 500.\n"
+" Chiar doriți acest lucru?\n"
+"\n"
+
+#: ../userdrake:581
+#, c-format
+msgid "Adding group: %s "
+msgstr "Se adaugă grupul: %s "
+
+#: ../userdrake:591
+#, c-format
+msgid "GID: "
+msgstr "GID: "
+
+#: ../userdrake:636
+#, c-format
+msgid "Delete files or not?"
+msgstr "Ștergeți sau nu fișierele?"
+
+#: ../userdrake:639
+#, c-format
+msgid ""
+"Deleting user %s\n"
+" Also perform the following actions\n"
+msgstr ""
+"Se șterge utilizatorul %s\n"
+" Se mai efectuează și următoarele acțiuni\n"
+
+#: ../userdrake:641
+#, c-format
+msgid "Delete Home Directory: %s"
+msgstr "Șterge directorul personal: %s"
+
+#: ../userdrake:642
+#, c-format
+msgid "Delete Mailbox: /var/spool/mail/%s"
+msgstr "Șterge căsuța poștală: /var/spool/mail/%s"
+
+#: ../userdrake:651
+#, c-format
+msgid "Removing user: %s"
+msgstr "Se șterge utilizatorul: %s"
+
+#: ../userdrake:684
+#, c-format
+msgid "Do you really want to delete the group %s?"
+msgstr "Sigur doriți să ștergeți grupul %s?"
+
+#: ../userdrake:697
+#, c-format
+msgid ""
+"%s is a primary group for user %s\n"
+" Remove the user first"
+msgstr ""
+"%s este grupul principal pentru utilizatorul %s\n"
+" Ștergeți mai întîi utilizatorul"
+
+#: ../userdrake:702
+#, c-format
+msgid "Removing group: %s"
+msgstr "Se înlătură grupul: %s"
+
+#: ../userdrake:798
+#, c-format
+msgid "Full Name:"
+msgstr "Nume complet: "
+
+#: ../userdrake:800
+#, c-format
+msgid "Login:"
+msgstr "Autentificare: "
+
+#: ../userdrake:802
+#, c-format
+msgid "Password:"
+msgstr "Parolă: "
+
+#: ../userdrake:804
+#, c-format
+msgid "Confirm Password:"
+msgstr "Confirmare parolă: "
+
+#: ../userdrake:806
+#, c-format
+msgid "Login Shell:"
+msgstr "Interpretor de comenzi: "
+
+#: ../userdrake:820
+#, c-format
+msgid "Group Name:"
+msgstr "Nume grup: "
+
+#: ../userdrake:894
+#, c-format
+msgid "Please select at least one group for the user"
+msgstr "Selectați cel putin un grup pentru utilizator"
+
+#: ../userdrake:904
+#, c-format
+msgid ""
+"Please specify Year, Month and Day \n"
+" for Account Expiration "
+msgstr ""
+"Specificați anul, luna și ziua \n"
+" de expirare a contului "
+
+#: ../userdrake:914
+#, c-format
+msgid "Please fill up all fields in password aging\n"
+msgstr "Completați toate cîmpurile de expirare a parolei\n"
+
+#: ../userdrake:965
+#, c-format
+msgid "You cannot remove user '%s' from their primary group"
+msgstr "Nu se poate înlătura utilizatorul „%s” din grupul său principal"
+
+#: ../userdrake:986
+#, c-format
+msgid "Home:"
+msgstr "Director personal: "
+
+#: ../userdrake:988
+#, c-format
+msgid "User Data"
+msgstr "Date despre utilizator"
+
+#: ../userdrake:992
+#, c-format
+msgid "Enable account expiration"
+msgstr "Activează expirarea contului"
+
+#: ../userdrake:994
+#, c-format
+msgid "Account expires (YYYY-MM-DD):"
+msgstr "Contul expiră (YYYY-MM-DD): "
+
+#: ../userdrake:1002
+#, c-format
+msgid "Lock User Account"
+msgstr "Blochează contul utilizator"
+
+#: ../userdrake:1005
+#, c-format
+msgid "Account Info"
+msgstr "Informații despre cont"
+
+#: ../userdrake:1010
+#, c-format
+msgid "User last changed password on: "
+msgstr "Utilizatorul a modificat parola ultima dată în: "
+
+#: ../userdrake:1017
+#, c-format
+msgid "Enable Password Expiration"
+msgstr "Activează expirarea parolei"
+
+#: ../userdrake:1022
+#, c-format
+msgid "Days before change allowed:"
+msgstr "Numărul de zile înainte de a permite schimbarea: "
+
+#: ../userdrake:1024
+#, c-format
+msgid "Days before change required:"
+msgstr "Numărul de zile înaintea schimbării: "
+
+#: ../userdrake:1026
+#, c-format
+msgid "Days warning before change:"
+msgstr "Numărul de zile înaintea avertizării: "
+
+#: ../userdrake:1028
+#, c-format
+msgid "Days before account inactive:"
+msgstr "Numărul de zile înaintea dezactivării contului: "
+
+#: ../userdrake:1031
+#, c-format
+msgid "Password Info"
+msgstr "Informații despre parolă"
+
+#: ../userdrake:1035
+#, c-format
+msgid "Select the groups that the user will be a member of:"
+msgstr "Selectați grupurile cărora utilizatorul va aparține: "
+
+#: ../userdrake:1102
+#, c-format
+msgid "Group Data"
+msgstr "Date despre grup"
+
+#: ../userdrake:1105
+#, c-format
+msgid "Select the users to join this group:"
+msgstr "Selectați utilizatorii ce vor aparține acestui grup: "
+
+#: ../userdrake:1107
+#, c-format
+msgid "Group Users"
+msgstr "Membrii grupului"
+
+#: ../userdrake:1127
+#, c-format
+msgid "Edit Groups / Users"
+msgstr "Editare grupuri / utilizatori"
+
+#: ../userdrake:1159
+#, c-format
+msgid "An error occurred:"
+msgstr "S-a produs o eroare:"
+
+#: ../userdrake:1267
+#, c-format
+msgid "Close"
+msgstr "Închide"
+
+#: ../userdrake:1277
+#, c-format
+msgid "Copyright (C) %s by Mandriva"
+msgstr "Drepturi de autor (C) %s Mandriva"
+
+#: ../userdrake:1280
+#, c-format
+msgid "Users Management"
+msgstr "Gestionare utilizatori"
+
+#: ../userdrake:1282
+#, c-format
+msgid "Mandriva Linux"
+msgstr "Mandriva Linux"
+
+#. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
+#: ../userdrake:1288
+#, c-format
+msgid "_: Translator(s) name(s) & email(s)\n"
+msgstr ""
+"_: Traducători & @mail\n"
+"Harald ERSCH <hersch@romatsa.ro>, 2002, 2003\n"
+"Ovidiu CONSTANTIN <ovidiu.constantin@gmx.net>, 2003\n"
+"Ovidiu CONSTANTIN <ovidiusoft@gmail.com>, 2004\n"
+"Cristian Ionuț PÎRÎU <piriu.cristian@rdslink.ro>, 2008\n"
+"Florin Cătălin RUSSEN <cfrussen@yahoo.co.uk>, 2009, 2010.\n"
+
+#: ../userdrake:1295
+#, c-format
+msgid "Name field is empty please provide a name"
+msgstr "Cîmpul numelui nu poate fi gol, indicați un nume"
+
+#: ../userdrake:1297
+#, c-format
+msgid ""
+"The name must contain only lower cased latin letters, numbers, `-' and `_'"
+msgstr "Numele trebuie să conțină numai litere mici, numere, „-” și „_”"
+
+#: ../userdrake:1300
+#, c-format
+msgid "Name is too long"
+msgstr "Numele este prea lung"
+
+#: ../userdrake:1313
+#, c-format
+msgid "Error"
+msgstr "Eroare"
+
+#, fuzzy
+#~ msgid "Unknown error"
+#~ msgstr "eroare necunoscută"
+
+#, fuzzy
+#~ msgid "Error creating %s: %s.\n"
+#~ msgstr "Eroare la crearea `%s': %s"

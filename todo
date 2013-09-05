@@ -1,0 +1,92 @@
+Features:
+- dynamic processing of filters (shrink list as typing)
+- Bind checkboxes (users , groups) to space key. (done)
+- Ldap server configuration
+- change User/Group Gid
+- tell us that the account is locked or expired ? (done)
+
+Bugs:
+- if primary group empty, gray ok button (won't fix)
+- check numeric/positive  values in account and password expiration. (done)
+
+---------------------------------------------------------------------------
+For Interface team:
+Barre de menus
+  - Icônes à enlever dans les menus. C'est interdit dans nos 
+spécifications. C'est le texte qui est important. L'icône ne fait que 
+distraire l'utilisateur
+
+Barre d'outils :
+  - Bouton "Help" à supprimer. Il est redondant avec le menu "Help".
+  - Bouton "Refresh" à supprimer. Les listes doivent être dynamiques. Idem 
+pour le File -> Refresh
+
+Boutons :
+  - Icônes à supprimer. C'est interdit dans nos spécifications. C'est le 
+texte qui est important. L'icône ne fait que distraire l'utilisateur
+
+Pop-up apparaissant lors d'un clic sur "Add User"
+  - Login shell : ne pas utliser une combo box éditable mais un combo box 
+non éditable
+  - Home directory : à griser lorsque "Create home directory" n'est pas 
+coché
+  - Create home directory : remplacer le h de home par un H ou supprimer la 
+majuscule à Directory
+  - UID : à placer sous le S de Specify user ID manually
+
+Pop-up apparaissant lors d'un clic sur "Delete"
+  - demander à l'utilisateur s'il désirer réellement supprimer 
+l'utilisateur. Ne pas supposer que l'utilisateur n'a pas fait d'erreur en 
+sélectionnant le compte à supprimer. Rajouter une case à cocher dans la 
+boîte de dialogue pour s'assurer que l'utilisateur désire également 
+effacer le Home du compte supprimé. Cette case à cocher doit être décochée 
+par défaut
+  - ne pas faire supprimer à la main l'utilisateur quand on cherche à 
+supprimer un groupe et que l'utilisateur existe toujours. Demander si on 
+veut également supprimer l'utilisateur.
+
+Champ précédent le bouton "Apply filter"
+  - à aligner sur la gauche
+
+Pop-up apparaissant lors d'un clic sur "Add Group"
+   - GID : à placer sous le S de Specify user ID manually
+
+Propriétés de l'utilisateur :
+  - onglet "User Data"
+    * "Login shell" : ne pas utiliser de combox éditable mais une combo box 
+non éditable
+  - onglet "Account Info"
+    * Remplacer "YYYY-MM-DD" par "Year Month Day". C'est plus 
+compréhensible pour l'utilisateur
+    * Expliquer ce que veut signifie "Lock User Accounr"
+  - onglet "Password Info"
+    * Remplacer les champs par des combo box éditables. Utiliser des 
+"Never" au lieu de "99999". Ceci n'est pas compréhensible par 
+l'utilisateur
+  - onglet "Groups"
+    * cases à cocher. Utiliser les cases à cocher de GTK et non celles de 
+Mandrake.
+    * menu déroulant "Primary group" : ne pas utiliser une combo box 
+éditable mais une non éditable
+
+Options -> Filter system users -> select a system user -> Options -> Filter 
+system users -> Actions -> Edit or Delete = Crash
+
+Select a user -> Options -> Filter system users = perte de l'utilisateur 
+sélectionné
+
+Menu Actions -> Edit : plantage si aucun utilisateur n'est sélectionné
+
+Tri sur header non autorisé. C'est dommage.
+
+Help -> Report bug = installation d'un paquetage. C'est interdit. Tous les 
+paquetages nécessaires au bon fonctionnement de l'application doivent être 
+installés par défaut
+
+Help -> Report bug = lance KDE Help Center. Pourquoi ?
+
+
+
+Toutes pop-up ou actions : ajouter des explications. Ne pas supposer que 
+l'utilisateur sait ce qu'il doit faire.
+----------------------------------------------------------------------------

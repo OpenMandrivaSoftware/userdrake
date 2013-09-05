@@ -1,0 +1,1034 @@
+#
+# Latest versions of po files are at http://www.mandrivalinux.org/l10n/lt.php3
+#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2001 Free Software Foundation, Inc.
+# Mykolas Norvaišas <myka@centras.lt>, 2001.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: userdrake-lt\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-02-02 03:03+0100\n"
+"PO-Revision-Date: 2005-08-11 16:47+0200\n"
+"Last-Translator: Arvydas Svirka <arvydas@arvis.lt>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Lithuanian\n"
+"X-Poedit-Country: LITHUANIA\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%"
+"100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: ../USER/USER.xs:86
+#, c-format
+msgid "Error reading `%s': %s"
+msgstr "Klaida skaitant `%s': %s"
+
+#: ../USER/USER.xs:93 ../USER/USER.xs:526
+#, c-format
+msgid "Error creating `%s': %s"
+msgstr "Klaida sukuriant `%s': %s"
+
+#: ../USER/USER.xs:205 ../USER/USER.xs:234 ../USER/USER.xs:250
+#, c-format
+msgid "Error removing `%s': %s"
+msgstr "Klaida pašalinant `%s': %s"
+
+#: ../USER/USER.xs:490
+#, fuzzy, c-format
+msgid "Account creation failed: '%s'.\n"
+msgstr "Pašto sankaupos sukūrimo klaida.\n"
+
+#: ../USER/USER.xs:503
+msgid "Cannot get Uid number"
+msgstr ""
+
+#: ../USER/USER.xs:515
+msgid "Cannot retrieve value"
+msgstr ""
+
+#: ../USER/USER.xs:532
+msgid "Error creating mail spool.\n"
+msgstr "Pašto sankaupos sukūrimo klaida.\n"
+
+#: ../USER/USER.xs:582
+#, fuzzy, c-format
+msgid "User could not be modified: '%s'.\n"
+msgstr "Pašto sankaupos sukūrimo klaida.\n"
+
+#: ../USER/USER.xs:592
+#, c-format
+msgid "User Could Not be deleted: '%s'.\n"
+msgstr ""
+
+#: ../USER/USER.xs:618
+#, c-format
+msgid "Failed to set password: '%s'.\n"
+msgstr ""
+
+#: ../USER/USER.xs:618
+msgid "unknown error"
+msgstr "nežinoma klaida"
+
+#: ../USER/USER.xs:685
+#, fuzzy
+msgid "Group creation failed.\n"
+msgstr "Pašto sankaupos sukūrimo klaida.\n"
+
+#: ../USER/USER.xs:695
+#, c-format
+msgid "Group could not be modified: '%s'.\n"
+msgstr ""
+
+#: ../USER/USER.xs:705
+#, c-format
+msgid "Group could not be deleted: '%s'.\n"
+msgstr ""
+
+#: ../USER/USER.xs:863
+msgid "No home directory for the user.\n"
+msgstr ""
+
+#: ../USER/USER.xs:869 ../USER/USER.xs:871
+#, c-format
+msgid "Home Directory Could Not be deleted: '%s'.\n"
+msgstr ""
+
+#: ../USER/USER.xs:881
+msgid "Error deleting mail spool.\n"
+msgstr "Pašto sankaupos ištrynimo klaida.\n"
+
+#: ../userdrake:59 ../userdrake:1275
+#, c-format
+msgid "Userdrake"
+msgstr "Userdrake"
+
+#: ../userdrake:64
+#, c-format
+msgid "Loading Users and Groups... Please wait"
+msgstr "Įkraunami vartotojai ir grupės... Palaukite"
+
+#: ../userdrake:83
+#, c-format
+msgid "Mandriva Linux Users Management Tool"
+msgstr "Mandriva Linux vartotojų valdymo įrankis"
+
+#: ../userdrake:96
+#, c-format
+msgid "/_Install guest account"
+msgstr ""
+
+#: ../userdrake:97
+#, c-format
+msgid "/_Uninstall guest account"
+msgstr ""
+
+#: ../userdrake:101 ../userdrake:102 ../userdrake:103 ../userdrake:114
+#: ../userdrake:115 ../userdrake:116
+#, c-format
+msgid "/_Actions"
+msgstr "/_Veiksmai"
+
+#: ../userdrake:101
+#, c-format
+msgid "/_Edit"
+msgstr "/_Taisyti"
+
+#: ../userdrake:102
+#, c-format
+msgid "/_Delete"
+msgstr "/_Pašalinti"
+
+#: ../userdrake:104 ../userdrake:120
+#, c-format
+msgid "/_Options"
+msgstr "/_Pasirinktys"
+
+#: ../userdrake:104
+#, c-format
+msgid "/_Filter system users"
+msgstr "/_Filtruoti sistemos vartotojus"
+
+#: ../userdrake:109 ../userdrake:110 ../userdrake:113
+#, c-format
+msgid "/_File"
+msgstr "/_Byla"
+
+#: ../userdrake:110
+#, c-format
+msgid "/_Refresh"
+msgstr "/_Atnaujinti"
+
+#: ../userdrake:113
+#, c-format
+msgid "/_Quit"
+msgstr "/I_šeiti"
+
+#: ../userdrake:113
+#, c-format
+msgid "<control>Q"
+msgstr "<control>Q"
+
+#: ../userdrake:115
+#, c-format
+msgid "/_Add User"
+msgstr "/Pridėti _vartotoją"
+
+#: ../userdrake:116
+#, c-format
+msgid "/Add _Group"
+msgstr "/Pridėti _grupę"
+
+#: ../userdrake:125 ../userdrake:126 ../userdrake:127 ../userdrake:130
+#, c-format
+msgid "/_Help"
+msgstr "/_Pagalba"
+
+#: ../userdrake:127
+#, c-format
+msgid "/_Report Bug"
+msgstr "/_Pranešti apie klaidą"
+
+#: ../userdrake:130
+#, c-format
+msgid "/_About..."
+msgstr "/_Apie..."
+
+#: ../userdrake:148
+#, c-format
+msgid "Search:"
+msgstr "Ieškoti:"
+
+#: ../userdrake:154
+#, c-format
+msgid "Apply filter"
+msgstr "Pritaikyti filtrą"
+
+#: ../userdrake:158
+#, c-format
+msgid "Users"
+msgstr "Vartotojai"
+
+#: ../userdrake:162 ../userdrake:1041
+#, c-format
+msgid "Groups"
+msgstr "Grupės"
+
+#. -PO: do not translate, this is already translated in mcc
+#: ../userdrake:168
+#, c-format
+msgid "Users and groups"
+msgstr "Vartotojai ir grupės"
+
+#: ../userdrake:186
+#, c-format
+msgid "User Name"
+msgstr "Vartotojo vardas"
+
+#: ../userdrake:186
+#, c-format
+msgid "User ID"
+msgstr "Vartotojo ID"
+
+#: ../userdrake:186 ../userdrake:1038
+#, c-format
+msgid "Primary Group"
+msgstr "Pirminė grupė"
+
+#: ../userdrake:187
+#, c-format
+msgid "Full Name"
+msgstr "Vardas, pavardė"
+
+#: ../userdrake:187
+#, c-format
+msgid "Login Shell"
+msgstr "Prisijungimo apvalkalas"
+
+#: ../userdrake:187
+#, c-format
+msgid "Home Directory"
+msgstr "Pradinis katalogas"
+
+#: ../userdrake:187
+#, c-format
+msgid "Status"
+msgstr "Būsena"
+
+#: ../userdrake:194
+#, c-format
+msgid "Group Name"
+msgstr "Grupės pavadinimas"
+
+#: ../userdrake:194
+#, c-format
+msgid "Group ID"
+msgstr "Grupės ID"
+
+#: ../userdrake:194
+#, c-format
+msgid "Group Members"
+msgstr "Grupės nariai"
+
+#: ../userdrake:196
+#, c-format
+msgid "Add User"
+msgstr "Pridėti vartotoją"
+
+#: ../userdrake:196
+#, c-format
+msgid "Add a user to the system"
+msgstr "Įtraukti sistemos vartotoją"
+
+#: ../userdrake:197
+#, c-format
+msgid "Add Group"
+msgstr "Pridėti grupę"
+
+#: ../userdrake:197
+#, c-format
+msgid "Add a group to the system"
+msgstr "Į sistemą įtraukti grupę"
+
+#: ../userdrake:198 ../userdrake:739
+#, c-format
+msgid "Edit"
+msgstr "Taisyti"
+
+#: ../userdrake:198
+#, c-format
+msgid "Edit selected row"
+msgstr "Keisti išrinktą eilutę"
+
+#: ../userdrake:199 ../userdrake:674 ../userdrake:707 ../userdrake:739
+#, c-format
+msgid "Delete"
+msgstr "Ištrinti"
+
+#: ../userdrake:199
+#, c-format
+msgid "Delete selected row"
+msgstr "Ištrinti išrinktą eilutę"
+
+#: ../userdrake:200
+#, c-format
+msgid "Refresh"
+msgstr "Atnaujinti"
+
+#: ../userdrake:200
+#, c-format
+msgid "Refresh the list"
+msgstr "Atnaujinti sąrašą"
+
+#: ../userdrake:263
+#, c-format
+msgid "Locked"
+msgstr "Užrakinta"
+
+#: ../userdrake:263
+#, c-format
+msgid "Expired"
+msgstr "Pasibaigęs"
+
+#: ../userdrake:339
+#, c-format
+msgid "Click on the icon to change it"
+msgstr "Pakeitimui spragtelėkite ant kriptogramos"
+
+#: ../userdrake:385
+#, c-format
+msgid "Create New User"
+msgstr "Sukurti naują vartotoją"
+
+#: ../userdrake:391
+#, c-format
+msgid "Create Home Directory"
+msgstr "Sukurti pradinį katalogą"
+
+#: ../userdrake:393
+#, c-format
+msgid "Home Directory: "
+msgstr "Pradinis katalogas: "
+
+#: ../userdrake:396
+#, c-format
+msgid "Create a private group for the user"
+msgstr "Vartotojui sukurti privačią grupę"
+
+#: ../userdrake:397
+#, c-format
+msgid "Specify user ID manually"
+msgstr "Vartotojo ID nurodyti rankiniu būdu"
+
+#: ../userdrake:414
+#, c-format
+msgid "User already exists, please choose another User Name"
+msgstr "Toks vartotojas jau yra, parinkite kitą vartotojo vardą"
+
+#: ../userdrake:419 ../userdrake:860
+#, c-format
+msgid "Password Mismatch"
+msgstr "Slaptažodžiai neatitinka"
+
+#: ../userdrake:422 ../userdrake:863
+#, c-format
+msgid ""
+"This password is too simple. \n"
+" Good passwords should be > 6 characters"
+msgstr ""
+"Slaptažodis per daug paprastas. \n"
+" Tinkamas slaptažodis turėtų būti ne trumpesnis kaip 6 simbolių"
+
+#: ../userdrake:434
+#, c-format
+msgid "User Uid is < 500"
+msgstr "Vartotojo Uid yra < 500"
+
+#: ../userdrake:435
+#, c-format
+msgid ""
+"Creating a user with a UID less than 500 is not recommended.\n"
+" Are you sure you want to do this?\n"
+"\n"
+msgstr ""
+"Naujo vartotojo, kurio UID mažiau kaip 500, sukūrimas nerekomenduojamas.\n"
+" Ar tikrai norite tai padaryti?\n"
+"\n"
+
+#: ../userdrake:450
+#, c-format
+msgid "Putting %s to 'users' group"
+msgstr "%s įkeliamas į grupę 'vartotojai'"
+
+#: ../userdrake:457
+#, c-format
+msgid "Creating new group: %s"
+msgstr "Sukuriama nauja grupė: %s"
+
+#: ../userdrake:466
+#, c-format
+msgid "Adding user: %s"
+msgstr "Įtraukiamas vartotojas: %s"
+
+#: ../userdrake:478
+#, c-format
+msgid "Migration wizard"
+msgstr ""
+
+#: ../userdrake:479
+#, c-format
+msgid ""
+"Do you want to run the migration wizard in order to import Windows documents "
+"and settings in your Mandriva Linux distribution?"
+msgstr ""
+
+#: ../userdrake:484 ../userdrake:528 ../userdrake:587 ../userdrake:674
+#: ../userdrake:707 ../userdrake:1166
+#, c-format
+msgid "Cancel"
+msgstr "Atšaukti"
+
+#: ../userdrake:484 ../userdrake:521 ../userdrake:587 ../userdrake:1166
+#: ../userdrake:1317
+#, c-format
+msgid "Ok"
+msgstr "Gerai"
+
+#: ../userdrake:497
+#, c-format
+msgid "UID: "
+msgstr "UID: "
+
+#: ../userdrake:510
+#, c-format
+msgid "Choose group"
+msgstr "Pasirinkite grupę"
+
+#: ../userdrake:512 ../userdrake:513
+#, c-format
+msgid "Add to the existing group"
+msgstr "Įtraukti į esančią grupę"
+
+#: ../userdrake:514
+#, c-format
+msgid "Add to the 'users' group"
+msgstr "Įtraukti į grupę 'vartotojai'"
+
+#: ../userdrake:516
+#, c-format
+msgid "A group with this name already exists.  What would you like to do?"
+msgstr "Grupė tokiu vardu jau yra.  Ką norėtumėte daryti?"
+
+#: ../userdrake:546
+#, c-format
+msgid "Create New Group"
+msgstr "Sukurti naują grupę"
+
+#: ../userdrake:551
+#, c-format
+msgid "Specify group ID manually"
+msgstr "Grupės ID nurodyti rankiniu būdu"
+
+#: ../userdrake:567
+#, c-format
+msgid "Group already exists, please choose another Group Name"
+msgstr "Tokia grupė jau yra, pasirinkite kitą grupės vardą"
+
+#: ../userdrake:573
+#, c-format
+msgid " Group Gid is < 500"
+msgstr " Grupės Gid yra < 500"
+
+#: ../userdrake:574
+#, c-format
+msgid ""
+"Creating a group with a GID less than 500 is not recommended.\n"
+" Are you sure you want to do this?\n"
+"\n"
+msgstr ""
+"Naujo vartotojo, kurio GID mažiau kaip 500, sukūrimas nerekomenduojamas.\n"
+" Ar tikrai norite tai padaryti?\n"
+"\n"
+
+#: ../userdrake:581
+#, c-format
+msgid "Adding group: %s "
+msgstr "Įtraukiama grupė: %s "
+
+#: ../userdrake:591
+#, c-format
+msgid "GID: "
+msgstr "GID: "
+
+#: ../userdrake:636
+#, c-format
+msgid "Delete files or not?"
+msgstr "Ištrinti bylas ar ne?"
+
+#: ../userdrake:639
+#, c-format
+msgid ""
+"Deleting user %s\n"
+" Also perform the following actions\n"
+msgstr ""
+"Ištrinams vartotojas %s\n"
+" Taip pat įvykdyti sekančius veiksmus\n"
+
+#: ../userdrake:641
+#, c-format
+msgid "Delete Home Directory: %s"
+msgstr "Ištrinti pradinį katalogą: %s"
+
+#: ../userdrake:642
+#, c-format
+msgid "Delete Mailbox: /var/spool/mail/%s"
+msgstr "Ištrinti pašto dėžutę: /var/spool/mail/%s"
+
+#: ../userdrake:651
+#, c-format
+msgid "Removing user: %s"
+msgstr "Pašalinamas vartotojas: %s"
+
+#: ../userdrake:684
+#, c-format
+msgid "Do you really want to delete the group %s?"
+msgstr "Ar tikrai norite ištrinti grupę %s?"
+
+#: ../userdrake:697
+#, c-format
+msgid ""
+"%s is a primary group for user %s\n"
+" Remove the user first"
+msgstr ""
+"%s yra pirminė %s vartotojo grupė\n"
+" Pirmiausia pašalinkite vartotoją"
+
+#: ../userdrake:702
+#, c-format
+msgid "Removing group: %s"
+msgstr "Pašalinama grupė: %s"
+
+#: ../userdrake:798
+#, c-format
+msgid "Full Name:"
+msgstr "Vardas, pavardė:"
+
+#: ../userdrake:800
+#, c-format
+msgid "Login:"
+msgstr "Pasijungimas:"
+
+#: ../userdrake:802
+#, c-format
+msgid "Password:"
+msgstr "Slaptažodis:"
+
+#: ../userdrake:804
+#, c-format
+msgid "Confirm Password:"
+msgstr "Patvirtinkite slaptažodį:"
+
+#: ../userdrake:806
+#, c-format
+msgid "Login Shell:"
+msgstr "Prisijungimo apvalkalas:"
+
+#: ../userdrake:820
+#, c-format
+msgid "Group Name:"
+msgstr "Grupės pavadinimas:"
+
+#: ../userdrake:894
+#, c-format
+msgid "Please select at least one group for the user"
+msgstr "Vartotojui parinkite nors vieną grupę"
+
+#: ../userdrake:904
+#, c-format
+msgid ""
+"Please specify Year, Month and Day \n"
+" for Account Expiration "
+msgstr ""
+"Nurodykite metus, mėnesį ir dieną, \n"
+" kada baigsis abonento galiojimas"
+
+#: ../userdrake:914
+#, c-format
+msgid "Please fill up all fields in password aging\n"
+msgstr "Užpildykite visus slaptažodžio laiko laukelius\n"
+
+#: ../userdrake:965
+#, c-format
+msgid "You cannot remove user '%s' from their primary group"
+msgstr "Jūs negalite pašalinti vartotojo '%s' iš jo pirminės grupės"
+
+#: ../userdrake:986
+#, c-format
+msgid "Home:"
+msgstr "Pradinis:"
+
+#: ../userdrake:988
+#, c-format
+msgid "User Data"
+msgstr "Vartotojo duomenys"
+
+#: ../userdrake:992
+#, c-format
+msgid "Enable account expiration"
+msgstr "Įgalinti ribotą abonento galiojimo laiką"
+
+#: ../userdrake:994
+#, c-format
+msgid "Account expires (YYYY-MM-DD):"
+msgstr "Abonentas galioja iki (YYYY-MM-DD):"
+
+#: ../userdrake:1002
+#, c-format
+msgid "Lock User Account"
+msgstr "Užrakinti vartotojo abonentą"
+
+#: ../userdrake:1005
+#, c-format
+msgid "Account Info"
+msgstr "Abonento informacija"
+
+#: ../userdrake:1010
+#, c-format
+msgid "User last changed password on: "
+msgstr "Paskutinis vartotojo pakeistas slaptažodis čia: "
+
+#: ../userdrake:1017
+#, c-format
+msgid "Enable Password Expiration"
+msgstr "Įgalinti ribotą slaptažodžio galiojimo laiką"
+
+#: ../userdrake:1022
+#, c-format
+msgid "Days before change allowed:"
+msgstr "Po kiek dienų leidžiami pakeitimai:"
+
+#: ../userdrake:1024
+#, c-format
+msgid "Days before change required:"
+msgstr "Po kiek dienų reikalaujama pakeitimų:"
+
+#: ../userdrake:1026
+#, c-format
+msgid "Days warning before change:"
+msgstr "Prieš kiek dienų įspėjama iki pakeitimo:"
+
+#: ../userdrake:1028
+#, c-format
+msgid "Days before account inactive:"
+msgstr "Po keik dienų abonentas nebegalios:"
+
+#: ../userdrake:1031
+#, c-format
+msgid "Password Info"
+msgstr "Slaptažodžio informacija"
+
+#: ../userdrake:1035
+#, c-format
+msgid "Select the groups that the user will be a member of:"
+msgstr "Parinkite grupę, kurios nariu bus vartotojas:"
+
+#: ../userdrake:1102
+#, c-format
+msgid "Group Data"
+msgstr "Grupės duomenys"
+
+#: ../userdrake:1105
+#, c-format
+msgid "Select the users to join this group:"
+msgstr "Išrinkite vartotojus šiai grupei:"
+
+#: ../userdrake:1107
+#, c-format
+msgid "Group Users"
+msgstr "Grupės vartoptojai"
+
+#: ../userdrake:1127
+#, c-format
+msgid "Edit Groups / Users"
+msgstr "Tvarkyti grupes / vartotojus"
+
+#: ../userdrake:1159
+#, fuzzy, c-format
+msgid "An error occurred:"
+msgstr "Įvyko klaida"
+
+#: ../userdrake:1267
+#, c-format
+msgid "Close"
+msgstr "Uždaryti"
+
+#: ../userdrake:1277
+#, c-format
+msgid "Copyright (C) %s by Mandriva"
+msgstr ""
+
+#: ../userdrake:1280
+#, c-format
+msgid "Users Management"
+msgstr "Vartotojų valdymas"
+
+#: ../userdrake:1282
+#, c-format
+msgid "Mandriva Linux"
+msgstr "Mandriva Linux"
+
+#. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
+#: ../userdrake:1288
+#, c-format
+msgid "_: Translator(s) name(s) & email(s)\n"
+msgstr ""
+
+#: ../userdrake:1295
+#, c-format
+msgid "Name field is empty please provide a name"
+msgstr "Vardo laukelis yra tuščias, įrašykite vardą"
+
+#: ../userdrake:1297
+#, c-format
+msgid ""
+"The name must contain only lower cased latin letters, numbers, `-' and `_'"
+msgstr ""
+"Vardas turi būti sudarytas iš mažųjų lotyniškų raidžių, skaičių, `-' ir `_'"
+
+#: ../userdrake:1300
+#, c-format
+msgid "Name is too long"
+msgstr "Vardas per ilgas"
+
+#: ../userdrake:1313
+#, c-format
+msgid "Error"
+msgstr "Klaida"
+
+#, fuzzy
+#~ msgid "Unknown error"
+#~ msgstr "nežinoma klaida"
+
+#, fuzzy
+#~ msgid "Error creating %s: %s.\n"
+#~ msgstr "Klaida sukuriant `%s': %s"
+
+#~ msgid "Authors: "
+#~ msgstr "Autoriai: "
+
+#~ msgid "Yes"
+#~ msgstr "Taip"
+
+#~ msgid "No"
+#~ msgstr "Ne"
+
+#~ msgid "Help"
+#~ msgstr "Pagalba"
+
+#~ msgid "Reload"
+#~ msgstr "Vėl įkelti"
+
+#~ msgid "Save"
+#~ msgstr "Išsaugoti"
+
+#~ msgid "Exit"
+#~ msgstr "Išeiti"
+
+#~ msgid "Settings"
+#~ msgstr "Nuostatos"
+
+#~ msgid "Show tools bar"
+#~ msgstr "Parodyti įrankių juostą"
+
+#~ msgid "View users"
+#~ msgstr "Rodyti vartotojus"
+
+#~ msgid "Preferences"
+#~ msgstr "Nustatymai"
+
+#~ msgid "Save change"
+#~ msgstr "Išsaugoti pakeitimą"
+
+#~ msgid "Add"
+#~ msgstr "Pridėti"
+
+#~ msgid "Edit user(s)"
+#~ msgstr "Redaguoti vartotoją(us)"
+
+#~ msgid "Remove"
+#~ msgstr "Pašalinti"
+
+#~ msgid "Edit group(s)"
+#~ msgstr "Redaguoti grupę(es)"
+
+#~ msgid "User id"
+#~ msgstr "Vartotojo id"
+
+#~ msgid "Group id"
+#~ msgstr "Grupės id"
+
+#~ msgid "Comments"
+#~ msgstr "Komentarai"
+
+#~ msgid "Shell"
+#~ msgstr "Aplinka"
+
+#~ msgid "name"
+#~ msgstr "vardas"
+
+#~ msgid "gid"
+#~ msgstr "gid"
+
+#~ msgid "passwd"
+#~ msgstr "slapt"
+
+#~ msgid "users"
+#~ msgstr "vartotojai"
+
+#~ msgid "Parameters"
+#~ msgstr "Parametrai"
+
+#~ msgid "Active autologin support"
+#~ msgstr "Aktyvus automatinio pasijungimo palaikymas"
+
+#~ msgid "Default shell:"
+#~ msgstr "Aplinka pagal nutylėjimą:"
+
+#~ msgid "Default home dir:"
+#~ msgstr "Namų katalogas pagal nutylėjimą:"
+
+#~ msgid "Default face:"
+#~ msgstr "Veidas pagal nutylėjimą:"
+
+#~ msgid "Default group:"
+#~ msgstr "Grupė pagal nutylėjimą:"
+
+#~ msgid "General"
+#~ msgstr "Bendras"
+
+#~ msgid "Don't show user with id less than 500"
+#~ msgstr "Nerodyti vartotojų kurių id mažesnė negu 500"
+
+#~ msgid "User identifier"
+#~ msgstr "Vartotojo indentifikatorius"
+
+#~ msgid "Default Group"
+#~ msgstr "Grupė pagal nutylėjimą"
+
+#~ msgid "Groups list"
+#~ msgstr "Grupių sąrašas"
+
+#~ msgid "Users View"
+#~ msgstr "Vartotojo vaizdas"
+
+#~ msgid "Group identifier"
+#~ msgstr "Grupės indentifikatorius"
+
+#~ msgid "Groups View"
+#~ msgstr "Grupių vaizdas"
+
+#~ msgid "/bin/bash"
+#~ msgstr "/bin/bash"
+
+#~ msgid "uid:"
+#~ msgstr "uid:"
+
+#~ msgid "Comment:"
+#~ msgstr "Komentaras:"
+
+#~ msgid "Shell:"
+#~ msgstr "Aplinka:"
+
+#~ msgid "Home dir:"
+#~ msgstr "Namų katalogas:"
+
+#~ msgid "passwd:"
+#~ msgstr "slapt"
+
+#~ msgid "Retype passwd:"
+#~ msgstr "Pakartoti slapt:"
+
+#~ msgid "Identity"
+#~ msgstr "Identifikacija"
+
+#~ msgid "Available groups"
+#~ msgstr "Galimos grupės"
+
+#~ msgid "Extended"
+#~ msgstr "Išplėstinis"
+
+#~ msgid "About UserDrake"
+#~ msgstr "Apie UserDrake"
+
+#~ msgid "Name:"
+#~ msgstr "Vardas:"
+
+#~ msgid "gid:"
+#~ msgstr "gid:"
+
+#~ msgid "Not in group"
+#~ msgstr "Ne grupėje"
+
+#~ msgid "Quit userdrake?"
+#~ msgstr "Išeiti iš userdrake?"
+
+#~ msgid ""
+#~ "You have made changes\n"
+#~ "since the last save.\n"
+#~ "Do you really want to quit\n"
+#~ "userdrake?"
+#~ msgstr ""
+#~ "Po paskutinio išsaugojimo\n"
+#~ "tu padarei pakeitimų.\n"
+#~ "Ar tikrai nori išeiti iš\n"
+#~ "userdrake?"
+
+#~ msgid "Enter new passwd"
+#~ msgstr "Įveskite naują slapt"
+
+#~ msgid "new passwd:"
+#~ msgstr "naujas slapt:"
+
+#~ msgid "Change"
+#~ msgstr "Pasikeitimas"
+
+#~ msgid "Change face"
+#~ msgstr "Pakeisti veidą"
+
+#~ msgid "Set passwd"
+#~ msgstr "Nustatyti slapt"
+
+#~ msgid "User autologin"
+#~ msgstr "Vartotojo autopasijungimas"
+
+#~ msgid "couldn't find blue color in /usr/lib/X11/rgb.txt file"
+#~ msgstr "negaliu rasti mėlynos spalvos /usr/lib/X11/rgb.txt byloje"
+
+#~ msgid "couldn't find grey color in /usr/lib/X11/rgb.txt file"
+#~ msgstr "negaliu rasti pilkos spalvos /usr/lib/X11/rgb.txt byloje"
+
+#~ msgid "couldn't find black color in /usr/lib/X11/rgb.txt file"
+#~ msgstr "negaliu rasti juodos spalvos /usr/lib/X11/rgb.txt byloje"
+
+#~ msgid "login empty"
+#~ msgstr "tuščias pasijungimas"
+
+#~ msgid "This login already exists on the system"
+#~ msgstr "Šis pasijungimo vardas sistemoje jau yra"
+
+#~ msgid "The login is similar to a name's group"
+#~ msgstr "Pasijungimo vardas yra tokspats kaip grupės"
+
+#~ msgid ""
+#~ "%s\n"
+#~ "User id already in use"
+#~ msgstr ""
+#~ "%s\n"
+#~ "Vartotojo id jau naudojamas"
+
+#~ msgid "User id already in use"
+#~ msgstr "Vartotojo id jau naudojamas"
+
+#~ msgid "name empty"
+#~ msgstr "tuščias vardas"
+
+#~ msgid ""
+#~ "%s\n"
+#~ "Group id already in use"
+#~ msgstr ""
+#~ "%s\n"
+#~ "Grupės id jau naudojamas"
+
+#~ msgid "Group id already in use"
+#~ msgstr "Grupės id jau naudojamas"
+
+#~ msgid "Couldn't find pixmap file: %s"
+#~ msgstr "Negaliu rasti pixmap bylos: %s"
+
+#~ msgid "%s: the file %s is busy (%s present)\n"
+#~ msgstr "%s: byla %s yra užimta (%s egzistuoja)\n"
+
+#~ msgid "%s: can't link %s: %s\n"
+#~ msgstr "%s: negaliu sujungti %s: %s\n"
+
+#~ msgid "%s: can't unlock %s: %s (your changes are still in %s)\n"
+#~ msgstr "%s: negaliu atrakinti %s: %s (jūsų pakeitimai vis dar %s)\n"
+
+#~ msgid "Error in stat on tmp files when i try to unlock lib\n"
+#~ msgstr "Stat klaida tmp bylose, kai bandžiau atrakinti biblioteką\n"
+
+#~ msgid "%s: no changes made\n"
+#~ msgstr "%s: nepakeistas\n"
+
+#~ msgid "The passwords string aren't the same!"
+#~ msgstr "Slaptažodžiai yra skirtingi!"
+
+#~ msgid "cannot launch UserDrake"
+#~ msgstr "negaliu startuoti UserDrake"
+
+#~ msgid "You must be root to use userdrake"
+#~ msgstr "Jūs turite būti root norėdami naudoti userdrake"
+
+#~ msgid ""
+#~ "Cannot lock user lib,\n"
+#~ "file /etc/ptmp or /etc/gtmp exist"
+#~ msgstr ""
+#~ "Negaliu užrakinti vartotojo lib,\n"
+#~ "bylos /etc/ptmp arba /etc/gtmp jau egzistuoja"
+
+#~ msgid "What do you want to show in user list?"
+#~ msgstr "Ką jūs norite rodyti vartotojų sąraše?"
+
+#~ msgid "What do you want to show in group list?"
+#~ msgstr "Ką jūs norite rodyti grupių sąraše?"
+
+#~ msgid "/bin/ash"
+#~ msgstr "/bin/ash"
+
+#~ msgid "/bin/csh"
+#~ msgstr "/bin/csh"
+
+#~ msgid "/bin/zsh"
+#~ msgstr "/bin/zsh"

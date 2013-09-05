@@ -1,0 +1,25 @@
+A new version of userdrake is released. It is completly
+rewritten from C to Perl (More precisely Gui is now in perl-Gtk2
+and backend is in XS). the XS part relies on libuser.
+The new userdrake comes with many features and the Gui is now more
+consistent (isn't it?). 
+Some of the features are:
+
+- Easy way to add/remove users in groups and vice versa
+- Dialog box for deleting user's home and user mail spool when removing user
+- libuser API (security when accessing users files)
+- Ability to put Uid and Gid manually when adding user/group
+- Change of the primary group of users
+- 2 filters for system and normal users (pattern matching)
+- Password aging
+- Ability to lock user's account
+- User's account expiration
+...
+
+Missing features:
+- LDAP configuration (coming up)
+
+userdrake2 requires libuser1-0.51.7-2mdk.i586.rpm or higher to work properly
+
+Please test and report bug. 
+

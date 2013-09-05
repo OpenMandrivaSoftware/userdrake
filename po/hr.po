@@ -1,0 +1,759 @@
+# translation of userdrake-hr.po to 
+#
+# Latest versions of po files are at http://www.mandrivalinux.org/l10n/hr.php3
+#
+# Croatian Translation for UserDrake.
+# Copyright (C) 2000, 2005 Free Software Foundation, Inc.
+# Vlatko Kosturjak <kost@iname.com>, 2000, 2005.
+# Matija Blagus <Matija.Blagus@public.srce.hr>, 2004.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: userdrake-hr\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-02-02 03:03+0100\n"
+"PO-Revision-Date: 2005-08-23 11:37+0200\n"
+"Last-Translator: Vlatko Kosturjak\n"
+"Language-Team:  <en@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.9.1\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
+"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: ../USER/USER.xs:86
+#, c-format
+msgid "Error reading `%s': %s"
+msgstr "Ne mogu učitati `%s': %s"
+
+#: ../USER/USER.xs:93 ../USER/USER.xs:526
+#, c-format
+msgid "Error creating `%s': %s"
+msgstr "Ne mogu napraviti `%s': %s"
+
+#: ../USER/USER.xs:205 ../USER/USER.xs:234 ../USER/USER.xs:250
+#, c-format
+msgid "Error removing `%s': %s"
+msgstr "Greška kod uklanjanja `%s': %s "
+
+#: ../USER/USER.xs:490
+#, fuzzy, c-format
+msgid "Account creation failed: '%s'.\n"
+msgstr "Ne mogu učitati mail spool.\n"
+
+#: ../USER/USER.xs:503
+msgid "Cannot get Uid number"
+msgstr ""
+
+#: ../USER/USER.xs:515
+msgid "Cannot retrieve value"
+msgstr ""
+
+#: ../USER/USER.xs:532
+msgid "Error creating mail spool.\n"
+msgstr "Ne mogu učitati mail spool.\n"
+
+#: ../USER/USER.xs:582
+#, fuzzy, c-format
+msgid "User could not be modified: '%s'.\n"
+msgstr "Ne mogu učitati mail spool.\n"
+
+#: ../USER/USER.xs:592
+#, c-format
+msgid "User Could Not be deleted: '%s'.\n"
+msgstr ""
+
+#: ../USER/USER.xs:618
+#, c-format
+msgid "Failed to set password: '%s'.\n"
+msgstr ""
+
+#: ../USER/USER.xs:618
+msgid "unknown error"
+msgstr "Nepoznata greška"
+
+#: ../USER/USER.xs:685
+#, fuzzy
+msgid "Group creation failed.\n"
+msgstr "Ne mogu učitati mail spool.\n"
+
+#: ../USER/USER.xs:695
+#, c-format
+msgid "Group could not be modified: '%s'.\n"
+msgstr ""
+
+#: ../USER/USER.xs:705
+#, c-format
+msgid "Group could not be deleted: '%s'.\n"
+msgstr ""
+
+#: ../USER/USER.xs:863
+msgid "No home directory for the user.\n"
+msgstr ""
+
+#: ../USER/USER.xs:869 ../USER/USER.xs:871
+#, c-format
+msgid "Home Directory Could Not be deleted: '%s'.\n"
+msgstr ""
+
+#: ../USER/USER.xs:881
+msgid "Error deleting mail spool.\n"
+msgstr "Greška kod brisanja sandučića za poštu.\n"
+
+#: ../userdrake:59 ../userdrake:1275
+#, c-format
+msgid "Userdrake"
+msgstr "Userdrake"
+
+#: ../userdrake:64
+#, c-format
+msgid "Loading Users and Groups... Please wait"
+msgstr "Učitavam korisnike i grupe... Molimo pričekajte"
+
+#: ../userdrake:83
+#, c-format
+msgid "Mandriva Linux Users Management Tool"
+msgstr "Mandriva Linux alat za upravljanje korisnicima"
+
+#: ../userdrake:96
+#, c-format
+msgid "/_Install guest account"
+msgstr ""
+
+#: ../userdrake:97
+#, c-format
+msgid "/_Uninstall guest account"
+msgstr ""
+
+#: ../userdrake:101 ../userdrake:102 ../userdrake:103 ../userdrake:114
+#: ../userdrake:115 ../userdrake:116
+#, c-format
+msgid "/_Actions"
+msgstr "/_Akcije"
+
+#: ../userdrake:101
+#, c-format
+msgid "/_Edit"
+msgstr "/_Promjeni"
+
+#: ../userdrake:102
+#, c-format
+msgid "/_Delete"
+msgstr "/_Ukloni"
+
+#: ../userdrake:104 ../userdrake:120
+#, c-format
+msgid "/_Options"
+msgstr "/_Postavke"
+
+#: ../userdrake:104
+#, c-format
+msgid "/_Filter system users"
+msgstr "/_Filter sistemskih korisnika"
+
+#: ../userdrake:109 ../userdrake:110 ../userdrake:113
+#, c-format
+msgid "/_File"
+msgstr "/_Datoteka"
+
+#: ../userdrake:110
+#, c-format
+msgid "/_Refresh"
+msgstr "/_Osvježi"
+
+#: ../userdrake:113
+#, c-format
+msgid "/_Quit"
+msgstr "/_Izlaz"
+
+#: ../userdrake:113
+#, c-format
+msgid "<control>Q"
+msgstr "<control>Q"
+
+#: ../userdrake:115
+#, c-format
+msgid "/_Add User"
+msgstr "/Dodaj _korisnika"
+
+#: ../userdrake:116
+#, c-format
+msgid "/Add _Group"
+msgstr "/Dodaj _grupu"
+
+#: ../userdrake:125 ../userdrake:126 ../userdrake:127 ../userdrake:130
+#, c-format
+msgid "/_Help"
+msgstr "/_Pomoć"
+
+#: ../userdrake:127
+#, c-format
+msgid "/_Report Bug"
+msgstr "/_Prijavi bug"
+
+#: ../userdrake:130
+#, c-format
+msgid "/_About..."
+msgstr "/_O programu..."
+
+#: ../userdrake:148
+#, c-format
+msgid "Search:"
+msgstr "Traži:"
+
+#: ../userdrake:154
+#, c-format
+msgid "Apply filter"
+msgstr "Primjeni filter"
+
+#: ../userdrake:158
+#, c-format
+msgid "Users"
+msgstr "Korisnici"
+
+#: ../userdrake:162 ../userdrake:1041
+#, c-format
+msgid "Groups"
+msgstr "Grupe"
+
+#. -PO: do not translate, this is already translated in mcc
+#: ../userdrake:168
+#, c-format
+msgid "Users and groups"
+msgstr "Korisnici i grupe"
+
+#: ../userdrake:186
+#, c-format
+msgid "User Name"
+msgstr "Korisničko ime"
+
+#: ../userdrake:186
+#, c-format
+msgid "User ID"
+msgstr "Korisnički ID"
+
+#: ../userdrake:186 ../userdrake:1038
+#, c-format
+msgid "Primary Group"
+msgstr "Primarna grupa"
+
+#: ../userdrake:187
+#, c-format
+msgid "Full Name"
+msgstr "Puno ime"
+
+#: ../userdrake:187
+#, c-format
+msgid "Login Shell"
+msgstr "Login školjka"
+
+#: ../userdrake:187
+#, c-format
+msgid "Home Directory"
+msgstr "Početni direktorij"
+
+#: ../userdrake:187
+#, c-format
+msgid "Status"
+msgstr "Stanje"
+
+#: ../userdrake:194
+#, c-format
+msgid "Group Name"
+msgstr "Ime grupe"
+
+#: ../userdrake:194
+#, c-format
+msgid "Group ID"
+msgstr "ID grupe"
+
+#: ../userdrake:194
+#, c-format
+msgid "Group Members"
+msgstr "Članovi grupe"
+
+#: ../userdrake:196
+#, c-format
+msgid "Add User"
+msgstr "Dodaj korisnika"
+
+#: ../userdrake:196
+#, c-format
+msgid "Add a user to the system"
+msgstr "Dodak korisnika u sistem"
+
+#: ../userdrake:197
+#, c-format
+msgid "Add Group"
+msgstr "Dodaj grupu"
+
+#: ../userdrake:197
+#, c-format
+msgid "Add a group to the system"
+msgstr "Dodaj grupu u sistem"
+
+#: ../userdrake:198 ../userdrake:739
+#, c-format
+msgid "Edit"
+msgstr "Podesi"
+
+#: ../userdrake:198
+#, c-format
+msgid "Edit selected row"
+msgstr "Promjeni odabrani red"
+
+#: ../userdrake:199 ../userdrake:674 ../userdrake:707 ../userdrake:739
+#, c-format
+msgid "Delete"
+msgstr "Ukloni"
+
+#: ../userdrake:199
+#, c-format
+msgid "Delete selected row"
+msgstr "Obriši odabrani red"
+
+#: ../userdrake:200
+#, c-format
+msgid "Refresh"
+msgstr "Osvježi"
+
+#: ../userdrake:200
+#, c-format
+msgid "Refresh the list"
+msgstr "Osvježi listu korisnika"
+
+#: ../userdrake:263
+#, c-format
+msgid "Locked"
+msgstr "Zaključano"
+
+#: ../userdrake:263
+#, c-format
+msgid "Expired"
+msgstr "Isteklo"
+
+#: ../userdrake:339
+#, c-format
+msgid "Click on the icon to change it"
+msgstr "Kliknite na ikonu da ju promjenite"
+
+#: ../userdrake:385
+#, c-format
+msgid "Create New User"
+msgstr "Napravi novog korisnika"
+
+#: ../userdrake:391
+#, c-format
+msgid "Create Home Directory"
+msgstr "Napravi početni direktorij"
+
+#: ../userdrake:393
+#, c-format
+msgid "Home Directory: "
+msgstr "Početni direktorij:"
+
+#: ../userdrake:396
+#, c-format
+msgid "Create a private group for the user"
+msgstr "Napravi privatnu grupu za korisnika"
+
+#: ../userdrake:397
+#, c-format
+msgid "Specify user ID manually"
+msgstr "Odredi korisnički ID ručno"
+
+#: ../userdrake:414
+#, c-format
+msgid "User already exists, please choose another User Name"
+msgstr "Ovaj korisnik već postoji, molimo odaberite drugo korisničko ime"
+
+#: ../userdrake:419 ../userdrake:860
+#, c-format
+msgid "Password Mismatch"
+msgstr "Lozinka se ne slaže"
+
+#: ../userdrake:422 ../userdrake:863
+#, c-format
+msgid ""
+"This password is too simple. \n"
+" Good passwords should be > 6 characters"
+msgstr ""
+"Lozinka je previše jednostavna. \n"
+" Dobra lozinka mora imati > 6 znakova"
+
+#: ../userdrake:434
+#, c-format
+msgid "User Uid is < 500"
+msgstr "Korisnički Uid je < 500"
+
+#: ../userdrake:435
+#, c-format
+msgid ""
+"Creating a user with a UID less than 500 is not recommended.\n"
+" Are you sure you want to do this?\n"
+"\n"
+msgstr ""
+"Stvaranje korisnika sa UIDom manjim od 500 nije preporučeno.\n"
+" Da li stvarno želite to učiniti?\n"
+"\n"
+
+#: ../userdrake:450
+#, c-format
+msgid "Putting %s to 'users' group"
+msgstr "Stavljam %s u 'korinsičku' grupu"
+
+#: ../userdrake:457
+#, c-format
+msgid "Creating new group: %s"
+msgstr "Stvaram novu grupu: %s"
+
+#: ../userdrake:466
+#, c-format
+msgid "Adding user: %s"
+msgstr "Dodajem korisnika: %s"
+
+#: ../userdrake:478
+#, c-format
+msgid "Migration wizard"
+msgstr ""
+
+#: ../userdrake:479
+#, c-format
+msgid ""
+"Do you want to run the migration wizard in order to import Windows documents "
+"and settings in your Mandriva Linux distribution?"
+msgstr ""
+
+#: ../userdrake:484 ../userdrake:528 ../userdrake:587 ../userdrake:674
+#: ../userdrake:707 ../userdrake:1166
+#, c-format
+msgid "Cancel"
+msgstr "Odustani"
+
+#: ../userdrake:484 ../userdrake:521 ../userdrake:587 ../userdrake:1166
+#: ../userdrake:1317
+#, c-format
+msgid "Ok"
+msgstr "U redu"
+
+#: ../userdrake:497
+#, c-format
+msgid "UID: "
+msgstr "UID: "
+
+#: ../userdrake:510
+#, c-format
+msgid "Choose group"
+msgstr "Odaberi grupu"
+
+#: ../userdrake:512 ../userdrake:513
+#, c-format
+msgid "Add to the existing group"
+msgstr "Dodaj postojećoj grupi"
+
+#: ../userdrake:514
+#, c-format
+msgid "Add to the 'users' group"
+msgstr "Dodaj 'korisničkoj' grupi"
+
+#: ../userdrake:516
+#, c-format
+msgid "A group with this name already exists.  What would you like to do?"
+msgstr "Grupa sa tim imenom već postoji. Što želite učiniti?"
+
+#: ../userdrake:546
+#, c-format
+msgid "Create New Group"
+msgstr "Napravni novu grupu"
+
+#: ../userdrake:551
+#, c-format
+msgid "Specify group ID manually"
+msgstr "Odredi ID grupe ručno"
+
+#: ../userdrake:567
+#, c-format
+msgid "Group already exists, please choose another Group Name"
+msgstr "Grupa već postoji, molimo odaberite drugo ime grupe"
+
+#: ../userdrake:573
+#, c-format
+msgid " Group Gid is < 500"
+msgstr "Gid grupe je < 500"
+
+#: ../userdrake:574
+#, c-format
+msgid ""
+"Creating a group with a GID less than 500 is not recommended.\n"
+" Are you sure you want to do this?\n"
+"\n"
+msgstr ""
+"Stvaranje grupe sa GIDom manjim od 500 nije preporučeno.\n"
+" Da li stvarno to želite učiniti?\n"
+"\n"
+
+#: ../userdrake:581
+#, c-format
+msgid "Adding group: %s "
+msgstr "Dodajem grupu: %s"
+
+#: ../userdrake:591
+#, c-format
+msgid "GID: "
+msgstr "GID: "
+
+#: ../userdrake:636
+#, c-format
+msgid "Delete files or not?"
+msgstr "Da obrišem datoteke?"
+
+#: ../userdrake:639
+#, c-format
+msgid ""
+"Deleting user %s\n"
+" Also perform the following actions\n"
+msgstr ""
+"Brišem korisnika %s\n"
+" Također izvodim slijedeće akcije\n"
+
+#: ../userdrake:641
+#, c-format
+msgid "Delete Home Directory: %s"
+msgstr "Brišem početni direktorij: %s"
+
+#: ../userdrake:642
+#, c-format
+msgid "Delete Mailbox: /var/spool/mail/%s"
+msgstr "Obriši Mailbox :/var/spool/mail/%s"
+
+#: ../userdrake:651
+#, c-format
+msgid "Removing user: %s"
+msgstr "Uklanjam korisnika: %s"
+
+#: ../userdrake:684
+#, c-format
+msgid "Do you really want to delete the group %s?"
+msgstr "Da li stvarno želite izbrisate grupu %s?"
+
+#: ../userdrake:697
+#, c-format
+msgid ""
+"%s is a primary group for user %s\n"
+" Remove the user first"
+msgstr ""
+"%s je primarna grupa za korisnika %s\n"
+" Prvo uklonite korisnika"
+
+#: ../userdrake:702
+#, c-format
+msgid "Removing group: %s"
+msgstr "Uklonjam grupu: %s"
+
+#: ../userdrake:798
+#, c-format
+msgid "Full Name:"
+msgstr "Puno ime:"
+
+#: ../userdrake:800
+#, c-format
+msgid "Login:"
+msgstr "Korisnička oznaka:"
+
+#: ../userdrake:802
+#, c-format
+msgid "Password:"
+msgstr "Lozinka:"
+
+#: ../userdrake:804
+#, c-format
+msgid "Confirm Password:"
+msgstr "Potvrda lozinke:"
+
+#: ../userdrake:806
+#, c-format
+msgid "Login Shell:"
+msgstr "Login školjka:"
+
+#: ../userdrake:820
+#, c-format
+msgid "Group Name:"
+msgstr "Ime grupe:"
+
+#: ../userdrake:894
+#, c-format
+msgid "Please select at least one group for the user"
+msgstr "Molimo odaberite najmanje jednu grupu za ovog korisnika"
+
+#: ../userdrake:904
+#, c-format
+msgid ""
+"Please specify Year, Month and Day \n"
+" for Account Expiration "
+msgstr ""
+"Molimo odaberite godinu, mjesec i dan \n"
+" za prestanak valjanosti računa "
+
+#: ../userdrake:914
+#, c-format
+msgid "Please fill up all fields in password aging\n"
+msgstr "Molimo popunite sva polja u lozinki ponovo\n"
+
+#: ../userdrake:965
+#, c-format
+msgid "You cannot remove user '%s' from their primary group"
+msgstr "Ne možete izbrisati korisnika '%s' iz njegove primarne grupe"
+
+#: ../userdrake:986
+#, c-format
+msgid "Home:"
+msgstr "Početni direktorij:"
+
+#: ../userdrake:988
+#, c-format
+msgid "User Data"
+msgstr "Podaci o korisniku"
+
+#: ../userdrake:992
+#, c-format
+msgid "Enable account expiration"
+msgstr "Uključi prestanak valjanosti računa"
+
+#: ../userdrake:994
+#, c-format
+msgid "Account expires (YYYY-MM-DD):"
+msgstr "Račun prestaje valjati (YYYY-MM-DD):"
+
+#: ../userdrake:1002
+#, c-format
+msgid "Lock User Account"
+msgstr "Zaključaj korisnikov račun"
+
+#: ../userdrake:1005
+#, c-format
+msgid "Account Info"
+msgstr "Informacije o računu"
+
+#: ../userdrake:1010
+#, c-format
+msgid "User last changed password on: "
+msgstr "Korisnik zadnji put promjenio lozinku:"
+
+#: ../userdrake:1017
+#, c-format
+msgid "Enable Password Expiration"
+msgstr "Uključi prestanak valjanosti lozinke"
+
+#: ../userdrake:1022
+#, c-format
+msgid "Days before change allowed:"
+msgstr "Dani prije kada su promjene dozvoljene:"
+
+#: ../userdrake:1024
+#, c-format
+msgid "Days before change required:"
+msgstr "Dani prije potrebe promjena: "
+
+#: ../userdrake:1026
+#, c-format
+msgid "Days warning before change:"
+msgstr "Dani upozorenja prije promjena:"
+
+#: ../userdrake:1028
+#, c-format
+msgid "Days before account inactive:"
+msgstr "Dani prije neaktivnosti računa:"
+
+#: ../userdrake:1031
+#, c-format
+msgid "Password Info"
+msgstr "Informacije o lozinki"
+
+#: ../userdrake:1035
+#, c-format
+msgid "Select the groups that the user will be a member of:"
+msgstr "Odaberiter gurpe u kojima će korisnik biti član:"
+
+#: ../userdrake:1102
+#, c-format
+msgid "Group Data"
+msgstr "Podaci o grupama"
+
+#: ../userdrake:1105
+#, c-format
+msgid "Select the users to join this group:"
+msgstr "Odaberite korisnike koji se pridružuju ovoj grupi:"
+
+#: ../userdrake:1107
+#, c-format
+msgid "Group Users"
+msgstr "Članovi grupe"
+
+#: ../userdrake:1127
+#, c-format
+msgid "Edit Groups / Users"
+msgstr "Mijenjaj grupe / korisnike"
+
+#: ../userdrake:1159
+#, fuzzy, c-format
+msgid "An error occurred:"
+msgstr "Pojavila se greška"
+
+#: ../userdrake:1267
+#, c-format
+msgid "Close"
+msgstr "Zatvori"
+
+#: ../userdrake:1277
+#, c-format
+msgid "Copyright (C) %s by Mandriva"
+msgstr ""
+
+#: ../userdrake:1280
+#, c-format
+msgid "Users Management"
+msgstr "Upravljanje korisnicima"
+
+#: ../userdrake:1282
+#, c-format
+msgid "Mandriva Linux"
+msgstr "Mandriva Linux"
+
+#. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
+#: ../userdrake:1288
+#, c-format
+msgid "_: Translator(s) name(s) & email(s)\n"
+msgstr "Croatian <lokalizacija@linux.hr>\n"
+
+#: ../userdrake:1295
+#, c-format
+msgid "Name field is empty please provide a name"
+msgstr "Polje imena je prazno, molimo upišite ime"
+
+#: ../userdrake:1297
+#, c-format
+msgid ""
+"The name must contain only lower cased latin letters, numbers, `-' and `_'"
+msgstr "Ime mora sadržavati samo mala latinska slova, brojeve, `-' i `_'"
+
+#: ../userdrake:1300
+#, c-format
+msgid "Name is too long"
+msgstr "Ime je predugačko"
+
+#: ../userdrake:1313
+#, c-format
+msgid "Error"
+msgstr "Greška"
+
+#, fuzzy
+#~ msgid "Unknown error"
+#~ msgstr "Nepoznata greška"
+
+#, fuzzy
+#~ msgid "Error creating %s: %s.\n"
+#~ msgstr "Ne mogu napraviti `%s': %s"
+
+#~ msgid "Authors: "
+#~ msgstr "Autori: "

@@ -1,0 +1,805 @@
+# translation of userdrake-uz@Cyrl.po to Uzbek
+# ###
+# ### Cyrilic version atuomatically built from the latin one;
+# ### Needs proofreading!
+# ###
+#
+# Latest versions of po files are at http://www.mandrivalinux.org/l10n/uz@Cyrl.php3
+#
+# Suppor for Uzbek language in userdrake.
+# Copyright (C) 2003 Free Software Foundation, Inc.
+# Copyright (C) 2003 Mandriva.
+# Mashrab Kuvatov <kmashrab@uni-bremen.de>, 2003.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: userdrake-uz\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-02-02 03:03+0100\n"
+"PO-Revision-Date: 2003-11-16 10:52+0100\n"
+"Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
+"Language-Team: Uzbek <uz-li@yahoogroups.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: KBabel 1.0.2\n"
+
+#: ../USER/USER.xs:86
+#, c-format
+msgid "Error reading `%s': %s"
+msgstr ""
+
+#: ../USER/USER.xs:93 ../USER/USER.xs:526
+#, c-format
+msgid "Error creating `%s': %s"
+msgstr ""
+
+#: ../USER/USER.xs:205 ../USER/USER.xs:234 ../USER/USER.xs:250
+#, fuzzy, c-format
+msgid "Error removing `%s': %s"
+msgstr "Foydalanuvchi olib tashlanmoqda: %s"
+
+#: ../USER/USER.xs:490
+#, c-format
+msgid "Account creation failed: '%s'.\n"
+msgstr ""
+
+#: ../USER/USER.xs:503
+msgid "Cannot get Uid number"
+msgstr ""
+
+#: ../USER/USER.xs:515
+msgid "Cannot retrieve value"
+msgstr ""
+
+#: ../USER/USER.xs:532
+msgid "Error creating mail spool.\n"
+msgstr ""
+
+#: ../USER/USER.xs:582
+#, c-format
+msgid "User could not be modified: '%s'.\n"
+msgstr ""
+
+#: ../USER/USER.xs:592
+#, c-format
+msgid "User Could Not be deleted: '%s'.\n"
+msgstr ""
+
+#: ../USER/USER.xs:618
+#, c-format
+msgid "Failed to set password: '%s'.\n"
+msgstr ""
+
+#: ../USER/USER.xs:618
+msgid "unknown error"
+msgstr "noma'lum xato"
+
+#: ../USER/USER.xs:685
+msgid "Group creation failed.\n"
+msgstr ""
+
+#: ../USER/USER.xs:695
+#, c-format
+msgid "Group could not be modified: '%s'.\n"
+msgstr ""
+
+#: ../USER/USER.xs:705
+#, c-format
+msgid "Group could not be deleted: '%s'.\n"
+msgstr ""
+
+#: ../USER/USER.xs:863
+msgid "No home directory for the user.\n"
+msgstr ""
+
+#: ../USER/USER.xs:869 ../USER/USER.xs:871
+#, c-format
+msgid "Home Directory Could Not be deleted: '%s'.\n"
+msgstr ""
+
+#: ../USER/USER.xs:881
+msgid "Error deleting mail spool.\n"
+msgstr ""
+
+#: ../userdrake:59 ../userdrake:1275
+#, c-format
+msgid "Userdrake"
+msgstr "Userdrake - foydalanuvchilarni boshqarish"
+
+#: ../userdrake:64
+#, c-format
+msgid "Loading Users and Groups... Please wait"
+msgstr "Foydalanuvchi va guruhlar yuklanmoqda, iltimos kutib turing..."
+
+#: ../userdrake:83
+#, c-format
+msgid "Mandriva Linux Users Management Tool"
+msgstr "Mandriva Linux uchun foydalanuvchilarni boshqarish vositasi"
+
+#: ../userdrake:96
+#, c-format
+msgid "/_Install guest account"
+msgstr ""
+
+#: ../userdrake:97
+#, c-format
+msgid "/_Uninstall guest account"
+msgstr ""
+
+#: ../userdrake:101 ../userdrake:102 ../userdrake:103 ../userdrake:114
+#: ../userdrake:115 ../userdrake:116
+#, c-format
+msgid "/_Actions"
+msgstr "/_Amallar"
+
+#: ../userdrake:101
+#, c-format
+msgid "/_Edit"
+msgstr "/_Tuzatish"
+
+#: ../userdrake:102
+#, c-format
+msgid "/_Delete"
+msgstr "/_O'chirish"
+
+#: ../userdrake:104 ../userdrake:120
+#, c-format
+msgid "/_Options"
+msgstr "/_Parametrlar"
+
+#: ../userdrake:104
+#, c-format
+msgid "/_Filter system users"
+msgstr "/_Sistema foydalanuvchilarini filterlash"
+
+#: ../userdrake:109 ../userdrake:110 ../userdrake:113
+#, c-format
+msgid "/_File"
+msgstr "/_Fayl"
+
+#: ../userdrake:110
+#, c-format
+msgid "/_Refresh"
+msgstr "/_Yangilash"
+
+#: ../userdrake:113
+#, c-format
+msgid "/_Quit"
+msgstr "/Chi_qish"
+
+#: ../userdrake:113
+#, c-format
+msgid "<control>Q"
+msgstr "<control>Q"
+
+#: ../userdrake:115
+#, c-format
+msgid "/_Add User"
+msgstr "/_Foydalanuvchini qo'shish"
+
+#: ../userdrake:116
+#, c-format
+msgid "/Add _Group"
+msgstr "/_Guruhni qo'shish"
+
+#: ../userdrake:125 ../userdrake:126 ../userdrake:127 ../userdrake:130
+#, c-format
+msgid "/_Help"
+msgstr "/_Yordam"
+
+#: ../userdrake:127
+#, c-format
+msgid "/_Report Bug"
+msgstr "/_Xato haqida xabar qilish"
+
+#: ../userdrake:130
+#, c-format
+msgid "/_About..."
+msgstr "/_Haqida"
+
+#: ../userdrake:148
+#, c-format
+msgid "Search:"
+msgstr "Qidirish:"
+
+#: ../userdrake:154
+#, c-format
+msgid "Apply filter"
+msgstr "Filterni qo'llash"
+
+#: ../userdrake:158
+#, c-format
+msgid "Users"
+msgstr "Foydalanuvchilar"
+
+#: ../userdrake:162 ../userdrake:1041
+#, c-format
+msgid "Groups"
+msgstr "Guruhlar"
+
+#. -PO: do not translate, this is already translated in mcc
+#: ../userdrake:168
+#, c-format
+msgid "Users and groups"
+msgstr "Foydalanuvchi va guruhlar"
+
+#: ../userdrake:186
+#, c-format
+msgid "User Name"
+msgstr "Foydalanuvchi"
+
+#: ../userdrake:186
+#, c-format
+msgid "User ID"
+msgstr "Foydalanuvchining ID'si"
+
+#: ../userdrake:186 ../userdrake:1038
+#, c-format
+msgid "Primary Group"
+msgstr "Asosiy guruh"
+
+#: ../userdrake:187
+#, c-format
+msgid "Full Name"
+msgstr "To'liq ismi"
+
+#: ../userdrake:187
+#, c-format
+msgid "Login Shell"
+msgstr "Kirish konsoli"
+
+#: ../userdrake:187
+#, c-format
+msgid "Home Directory"
+msgstr "Uy direktoriyasi"
+
+#: ../userdrake:187
+#, c-format
+msgid "Status"
+msgstr "Holati"
+
+#: ../userdrake:194
+#, c-format
+msgid "Group Name"
+msgstr "Guruhning nomi"
+
+#: ../userdrake:194
+#, c-format
+msgid "Group ID"
+msgstr "Guruhning ID'si"
+
+#: ../userdrake:194
+#, c-format
+msgid "Group Members"
+msgstr "Guruh a'zolari"
+
+#: ../userdrake:196
+#, c-format
+msgid "Add User"
+msgstr "Foydalanuvchini qo'shish"
+
+#: ../userdrake:196
+#, c-format
+msgid "Add a user to the system"
+msgstr "Sistemaga foydalanuvchini qo'shish"
+
+#: ../userdrake:197
+#, c-format
+msgid "Add Group"
+msgstr "Guruhni qo'shish"
+
+#: ../userdrake:197
+#, c-format
+msgid "Add a group to the system"
+msgstr "Sistemaga guruhni qo'shish"
+
+#: ../userdrake:198 ../userdrake:739
+#, c-format
+msgid "Edit"
+msgstr "Tuzatish"
+
+#: ../userdrake:198
+#, c-format
+msgid "Edit selected row"
+msgstr "Belgilangan qatorni tuzatish"
+
+#: ../userdrake:199 ../userdrake:674 ../userdrake:707 ../userdrake:739
+#, c-format
+msgid "Delete"
+msgstr "O'chirish"
+
+#: ../userdrake:199
+#, c-format
+msgid "Delete selected row"
+msgstr "Belgilangan qatorni o'chirish"
+
+#: ../userdrake:200
+#, c-format
+msgid "Refresh"
+msgstr "Yangilash"
+
+#: ../userdrake:200
+#, c-format
+msgid "Refresh the list"
+msgstr "Ro'yxatni yangilash"
+
+#: ../userdrake:263
+#, c-format
+msgid "Locked"
+msgstr "Qulflangan"
+
+#: ../userdrake:263
+#, c-format
+msgid "Expired"
+msgstr "Muddati o'tgan"
+
+#: ../userdrake:339
+#, c-format
+msgid "Click on the icon to change it"
+msgstr "Buni o'zgartirish uchun nishonchani bosing"
+
+#: ../userdrake:385
+#, c-format
+msgid "Create New User"
+msgstr "Yangi foydalanuvchini yaratish"
+
+#: ../userdrake:391
+#, c-format
+msgid "Create Home Directory"
+msgstr "Uy direktoriyani yaratish"
+
+#: ../userdrake:393
+#, c-format
+msgid "Home Directory: "
+msgstr "Uy direktoriyasi: "
+
+#: ../userdrake:396
+#, c-format
+msgid "Create a private group for the user"
+msgstr "Foydalanuvchi uchun shaxsiy guruhni yaratish"
+
+#: ../userdrake:397
+#, c-format
+msgid "Specify user ID manually"
+msgstr ""
+
+#: ../userdrake:414
+#, c-format
+msgid "User already exists, please choose another User Name"
+msgstr ""
+"Foydalanuvchi allaqachon mavjud, iltimos boshqa foydalanuvchini tanlang"
+
+#: ../userdrake:419 ../userdrake:860
+#, c-format
+msgid "Password Mismatch"
+msgstr "Maxfiy so'z mos kelmadi"
+
+#: ../userdrake:422 ../userdrake:863
+#, c-format
+msgid ""
+"This password is too simple. \n"
+" Good passwords should be > 6 characters"
+msgstr ""
+"Bu maxfiy so'z juda sodda. \n"
+"Yaxshi maxfiy so'z 6 belgidan ko'p bo'lishi kerak"
+
+#: ../userdrake:434
+#, c-format
+msgid "User Uid is < 500"
+msgstr "Foydalanuvchining UID'si 500 dan kam"
+
+#: ../userdrake:435
+#, c-format
+msgid ""
+"Creating a user with a UID less than 500 is not recommended.\n"
+" Are you sure you want to do this?\n"
+"\n"
+msgstr ""
+"UID'si 500 dan kam bo'lgan foydalanuvchini yaratish tavsiya qilinmaydi.\n"
+" Buni bajarishga ishonchingiz komilmi?\n"
+"\n"
+
+#: ../userdrake:450
+#, c-format
+msgid "Putting %s to 'users' group"
+msgstr "%s \"users\" guruhiga qo'shilmoqda"
+
+#: ../userdrake:457
+#, c-format
+msgid "Creating new group: %s"
+msgstr "Yangi guruh yaratilmoqda: %s"
+
+#: ../userdrake:466
+#, c-format
+msgid "Adding user: %s"
+msgstr "Foydalanuvchi qo'shilmoqda: %s"
+
+#: ../userdrake:478
+#, c-format
+msgid "Migration wizard"
+msgstr ""
+
+#: ../userdrake:479
+#, c-format
+msgid ""
+"Do you want to run the migration wizard in order to import Windows documents "
+"and settings in your Mandriva Linux distribution?"
+msgstr ""
+
+#: ../userdrake:484 ../userdrake:528 ../userdrake:587 ../userdrake:674
+#: ../userdrake:707 ../userdrake:1166
+#, c-format
+msgid "Cancel"
+msgstr "Bekor qilish"
+
+#: ../userdrake:484 ../userdrake:521 ../userdrake:587 ../userdrake:1166
+#: ../userdrake:1317
+#, c-format
+msgid "Ok"
+msgstr "Ok"
+
+#: ../userdrake:497
+#, c-format
+msgid "UID: "
+msgstr "UID: "
+
+#: ../userdrake:510
+#, fuzzy, c-format
+msgid "Choose group"
+msgstr "Guruhni tanlang"
+
+#: ../userdrake:512 ../userdrake:513
+#, c-format
+msgid "Add to the existing group"
+msgstr "Mavjud bo'lgan guruhga qo'shish"
+
+#: ../userdrake:514
+#, c-format
+msgid "Add to the 'users' group"
+msgstr "\"users\" guruhiga qo'shish"
+
+#: ../userdrake:516
+#, c-format
+msgid "A group with this name already exists.  What would you like to do?"
+msgstr "Bunday nomli guruh allaqachon mavjud. Siz nimani bajarishni istaysiz?"
+
+#: ../userdrake:546
+#, c-format
+msgid "Create New Group"
+msgstr "Yangi guruhni yaratish"
+
+#: ../userdrake:551
+#, c-format
+msgid "Specify group ID manually"
+msgstr ""
+
+#: ../userdrake:567
+#, c-format
+msgid "Group already exists, please choose another Group Name"
+msgstr "Guruh allaqachon mavjud, iltimos boshqa guruh nomini tanlang"
+
+#: ../userdrake:573
+#, c-format
+msgid " Group Gid is < 500"
+msgstr "Guruhning GID'si 500 dan kam"
+
+#: ../userdrake:574
+#, c-format
+msgid ""
+"Creating a group with a GID less than 500 is not recommended.\n"
+" Are you sure you want to do this?\n"
+"\n"
+msgstr ""
+"GID'si 500 dan kam bo'lgan guruhni yaratish tavsiya qilinmaydi.\n"
+" Buni bajarishga ishonchingiz komilmi?\n"
+"\n"
+
+#: ../userdrake:581
+#, c-format
+msgid "Adding group: %s "
+msgstr "Guruh qo'shilmoqda: %s "
+
+#: ../userdrake:591
+#, c-format
+msgid "GID: "
+msgstr "GID: "
+
+#: ../userdrake:636
+#, fuzzy, c-format
+msgid "Delete files or not?"
+msgstr "Belgilangan qatorni o'chirish"
+
+#: ../userdrake:639
+#, c-format
+msgid ""
+"Deleting user %s\n"
+" Also perform the following actions\n"
+msgstr ""
+"Foydalanuvchi %s o'chirilmoqda\n"
+" Budan tashqari quyidagi amallarni bajarish\n"
+
+#: ../userdrake:641
+#, c-format
+msgid "Delete Home Directory: %s"
+msgstr "Uy direktoriyasini o'chirish: %s"
+
+#: ../userdrake:642
+#, c-format
+msgid "Delete Mailbox: /var/spool/mail/%s"
+msgstr "Pochta qutisini o'chirish :/var/spool/mail/%s"
+
+#: ../userdrake:651
+#, c-format
+msgid "Removing user: %s"
+msgstr "Foydalanuvchi olib tashlanmoqda: %s"
+
+#: ../userdrake:684
+#, c-format
+msgid "Do you really want to delete the group %s?"
+msgstr "Rostdan \"%s\" guruhini o'chirmoqchimisiz?"
+
+#: ../userdrake:697
+#, c-format
+msgid ""
+"%s is a primary group for user %s\n"
+" Remove the user first"
+msgstr ""
+"Guruh %s foydalanuvchi %s uchun asosiy\n"
+" Avvalo foydalanuvchini o'chiring"
+
+#: ../userdrake:702
+#, c-format
+msgid "Removing group: %s"
+msgstr "Guruh olib tashlanmoqda: %s"
+
+#: ../userdrake:798
+#, c-format
+msgid "Full Name:"
+msgstr "To'liq ismi:"
+
+#: ../userdrake:800
+#, c-format
+msgid "Login:"
+msgstr "Foydalanuvchi:"
+
+#: ../userdrake:802
+#, c-format
+msgid "Password:"
+msgstr "Maxfiy so'z:"
+
+#: ../userdrake:804
+#, c-format
+msgid "Confirm Password:"
+msgstr "Maxfiy so'zni tasdiqlang:"
+
+#: ../userdrake:806
+#, c-format
+msgid "Login Shell:"
+msgstr "Kirish konsoli:"
+
+#: ../userdrake:820
+#, c-format
+msgid "Group Name:"
+msgstr "Guruhning nomi:"
+
+#: ../userdrake:894
+#, c-format
+msgid "Please select at least one group for the user"
+msgstr "Iltimos foydalanuvchi uchun eng kamida bitta guruhni tanlang"
+
+#: ../userdrake:904
+#, c-format
+msgid ""
+"Please specify Year, Month and Day \n"
+" for Account Expiration "
+msgstr ""
+"Iltimos hisob muddati o'tish\n"
+" yilni, oyni va kunni ko'rsating "
+
+#: ../userdrake:914
+#, c-format
+msgid "Please fill up all fields in password aging\n"
+msgstr ""
+
+#: ../userdrake:965
+#, c-format
+msgid "You cannot remove user '%s' from their primary group"
+msgstr "Foydalanuvchini \"%s\" asosiy guruhidan o'chirib bo'lmaydi"
+
+#: ../userdrake:986
+#, c-format
+msgid "Home:"
+msgstr "Uy direktoriya:"
+
+#: ../userdrake:988
+#, c-format
+msgid "User Data"
+msgstr "Foydalanuvchining ma'lumotlari"
+
+#: ../userdrake:992
+#, c-format
+msgid "Enable account expiration"
+msgstr "Hisob muddati o'tishini yoqish"
+
+#: ../userdrake:994
+#, c-format
+msgid "Account expires (YYYY-MM-DD):"
+msgstr "Hisobning muddati o'tadi (YYYY-OO-KK):"
+
+#: ../userdrake:1002
+#, c-format
+msgid "Lock User Account"
+msgstr "Foydalanuvchining hisobini qulflash"
+
+#: ../userdrake:1005
+#, c-format
+msgid "Account Info"
+msgstr "Hisob haqida ma'lumot"
+
+#: ../userdrake:1010
+#, c-format
+msgid "User last changed password on: "
+msgstr "Foydalanuvchi oxirgi marta maxfiy so'zni o'zgartirgan sana : "
+
+#: ../userdrake:1017
+#, c-format
+msgid "Enable Password Expiration"
+msgstr "Maxfiy so'z muddati o'tishini yoqish"
+
+#: ../userdrake:1022
+#, c-format
+msgid "Days before change allowed:"
+msgstr "Shuncha kundan so'ng o'zgartirish mumkin :"
+
+#: ../userdrake:1024
+#, c-format
+msgid "Days before change required:"
+msgstr "Shuncha kundan so'ng o'zgartirish talab qilinadi :"
+
+#: ../userdrake:1026
+#, c-format
+msgid "Days warning before change:"
+msgstr ""
+
+#: ../userdrake:1028
+#, c-format
+msgid "Days before account inactive:"
+msgstr "Shuncha kundan so'ng hisob qulflanadi :"
+
+#: ../userdrake:1031
+#, c-format
+msgid "Password Info"
+msgstr "Maxfiy so'z haqida ma'lumot"
+
+#: ../userdrake:1035
+#, c-format
+msgid "Select the groups that the user will be a member of:"
+msgstr "Foydalanuvchi a'zo bo'ladigan guruhni tanlang:"
+
+#: ../userdrake:1102
+#, c-format
+msgid "Group Data"
+msgstr "Guruhning ma'lumoti"
+
+#: ../userdrake:1105
+#, c-format
+msgid "Select the users to join this group:"
+msgstr "Bu guruhga a'zo bo'ladigan foydalanuvchilarni tanlang:"
+
+#: ../userdrake:1107
+#, c-format
+msgid "Group Users"
+msgstr "Guruh foydalanuvchilari"
+
+#: ../userdrake:1127
+#, fuzzy, c-format
+msgid "Edit Groups / Users"
+msgstr "Guruh foydalanuvchilari"
+
+#: ../userdrake:1159
+#, c-format
+msgid "An error occurred:"
+msgstr "Xato roʻy berdi:"
+
+#: ../userdrake:1267
+#, c-format
+msgid "Close"
+msgstr "Yopish"
+
+#: ../userdrake:1277
+#, c-format
+msgid "Copyright (C) %s by Mandriva"
+msgstr "Copyright (C) %s by Mandriva"
+
+#: ../userdrake:1280
+#, c-format
+msgid "Users Management"
+msgstr "Foydalanuvchilar boshqaruvi"
+
+#: ../userdrake:1282
+#, c-format
+msgid "Mandriva Linux"
+msgstr "Mandriva Linux"
+
+#. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
+#: ../userdrake:1288
+#, c-format
+msgid "_: Translator(s) name(s) & email(s)\n"
+msgstr "Mashrab Quvatov <kmashrab@uni-bremen.de>\n"
+
+#: ../userdrake:1295
+#, c-format
+msgid "Name field is empty please provide a name"
+msgstr "Foydalanuvchi maydoni bo'sh. Iltimos foydalanuvchini kiriting."
+
+#: ../userdrake:1297
+#, c-format
+msgid ""
+"The name must contain only lower cased latin letters, numbers, `-' and `_'"
+msgstr ""
+"Foydalanuvchi faqat kichik lotin harflar, sonlar. \"-\" va \"_\" "
+"belgilaridan iborat bo'lishi mumkin"
+
+#: ../userdrake:1300
+#, c-format
+msgid "Name is too long"
+msgstr "Foydalanuvchining ismi juda uzun"
+
+#: ../userdrake:1313
+#, c-format
+msgid "Error"
+msgstr "Xato"
+
+#, fuzzy
+#~ msgid "Unknown error"
+#~ msgstr "noma'lum xato"
+
+#, fuzzy
+#~ msgid "Error creating %s: %s.\n"
+#~ msgstr "Foydalanuvchi olib tashlanmoqda: %s"
+
+#~ msgid "Authors: "
+#~ msgstr "Mualliflar: "
+
+#~ msgid "Yes"
+#~ msgstr "Ha"
+
+#~ msgid "No"
+#~ msgstr "Yo'q"
+
+#, fuzzy
+#~ msgid "Delete files or not"
+#~ msgstr "Belgilangan qatorni o'chirish"
+
+#~ msgid "Warning : Deleting User"
+#~ msgstr "Diqqat: Foydalanuvchi o'chirilmoqda"
+
+#~ msgid "Warning : Deleting Group"
+#~ msgstr "Diqqat: Guruh o'chirilmoqda"
+
+#~ msgid "Generic help on userdrake"
+#~ msgstr "Userdrake bo'yicha umumiy yordam"
+
+#~ msgid "Help"
+#~ msgstr "Yordam"
+
+#~ msgid ""
+#~ "This password is too simple. \n"
+#~ " Good passwords should be > 6 caracters"
+#~ msgstr ""
+#~ "Bu maxfiy so'z juda sodda. \n"
+#~ "Yaxshi maxfiy so'z 6 belgidan ko'p bo'lishi kerak"
+
+#~ msgid "Delete User"
+#~ msgstr "Foydalanuvchini o'chirish"
+
+#~ msgid "The name must contain only lower cased letters, numbers, `-' and `_'"
+#~ msgstr ""
+#~ "Foydalanuvchi faqat kichik harflar, sonlar. \"-\" va \"_\" belgilaridan "
+#~ "iborat bo'lishi mumkin"
+
+#, fuzzy
+#~ msgid " Remove Home Directory"
+#~ msgstr "Foydalanuvchining uy direktoriyasi"

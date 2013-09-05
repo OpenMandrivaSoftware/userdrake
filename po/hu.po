@@ -1,0 +1,784 @@
+# translation of userdrake to Hungarian
+#
+# Latest versions of po files are at http://www.mandrivalinux.org/l10n/hu.php3
+#
+# Tamas Szanto <tszanto@mol.hu>, 2001.
+# Arpad Biro <biro.arpad gmail>, 2002,2003, 2004, 2007.
+# Gergely Lónyai <aleph@mandriva.org>, 2007, 2008, 2009, 2010.
+# Copyright (C) 2001,2003, 2004, 2007 Free Software Foundation, Inc.
+msgid ""
+msgstr ""
+"Project-Id-Version: userdrake2-2010.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-02-02 03:03+0100\n"
+"PO-Revision-Date: 2010-04-19 11:20+0100\n"
+"Last-Translator: Gergely Lónyai <aleph@mandriva.org>\n"
+"Language-Team: Hungarian <aleph@mandriva.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"X-Poedit-Language: Hungarian\n"
+"X-Poedit-Country: HUNGARY\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: ../USER/USER.xs:86
+#, c-format
+msgid "Error reading `%s': %s"
+msgstr "Hiba `%s' olvasásakor: %s"
+
+#: ../USER/USER.xs:93
+#: ../USER/USER.xs:526
+#, c-format
+msgid "Error creating `%s': %s"
+msgstr "Hiba `%s' létrehozásakor: %s"
+
+#: ../USER/USER.xs:205
+#: ../USER/USER.xs:234
+#: ../USER/USER.xs:250
+#, c-format
+msgid "Error removing `%s': %s"
+msgstr "Hiba `%s' eltávolításakor: %s"
+
+#: ../USER/USER.xs:490
+#, c-format
+msgid "Account creation failed: '%s'.\n"
+msgstr "Hiba a hozzáférés létrehozásakor: '%s'.\n"
+
+#: ../USER/USER.xs:503
+msgid "Cannot get Uid number"
+msgstr "Az UID szám beszerzése sikertelen"
+
+#: ../USER/USER.xs:515
+msgid "Cannot retrieve value"
+msgstr "Az értéket nem lehet lekérdezni"
+
+#: ../USER/USER.xs:532
+msgid "Error creating mail spool.\n"
+msgstr "Hiba a levéltároló létrehozásakor.\n"
+
+#: ../USER/USER.xs:582
+#, c-format
+msgid "User could not be modified: '%s'.\n"
+msgstr "A felhasználót nem lehetett módosítani: '%s'.\n"
+
+#: ../USER/USER.xs:592
+#, c-format
+msgid "User Could Not be deleted: '%s'.\n"
+msgstr "Nem sikerült törölni a felhasználót: '%s'.\n"
+
+#: ../USER/USER.xs:618
+#, c-format
+msgid "Failed to set password: '%s'.\n"
+msgstr "Nem sikerült beállítani a jelszót: '%s'\n"
+
+#: ../USER/USER.xs:618
+msgid "unknown error"
+msgstr "ismeretlen hiba"
+
+#: ../USER/USER.xs:685
+msgid "Group creation failed.\n"
+msgstr "Hiba a csoport létrehozásakor.\n"
+
+#: ../USER/USER.xs:695
+#, c-format
+msgid "Group could not be modified: '%s'.\n"
+msgstr "Nem sikerült módosítani a csoportot: '%s'.\n"
+
+#: ../USER/USER.xs:705
+#, c-format
+msgid "Group could not be deleted: '%s'.\n"
+msgstr "Nem sikerült törölni a csoportot: '%s'.\n"
+
+#: ../USER/USER.xs:863
+msgid "No home directory for the user.\n"
+msgstr "A felhasználónak nincs saját könyvtára.\n"
+
+#: ../USER/USER.xs:869
+#: ../USER/USER.xs:871
+#, c-format
+msgid "Home Directory Could Not be deleted: '%s'.\n"
+msgstr "A felhasználó könyvtára nem lett törölve: '%s'.\n"
+
+#: ../USER/USER.xs:881
+msgid "Error deleting mail spool.\n"
+msgstr "Hiba a levéltároló törlésekor.\n"
+
+#: ../userdrake:59
+#: ../userdrake:1275
+#, c-format
+msgid "Userdrake"
+msgstr "UserDrake"
+
+#: ../userdrake:64
+#, c-format
+msgid "Loading Users and Groups... Please wait"
+msgstr "Felhasználók és csoportok betöltése..."
+
+#: ../userdrake:83
+#, c-format
+msgid "Mandriva Linux Users Management Tool"
+msgstr "Mandriva Linux felhasználókezelő eszköz"
+
+#: ../userdrake:96
+#, c-format
+msgid "/_Install guest account"
+msgstr "/A vendég (guest) felhasználó _telepítése"
+
+#: ../userdrake:97
+#, c-format
+msgid "/_Uninstall guest account"
+msgstr "/A vendég (guest) felhasználó _eltávolítása"
+
+#: ../userdrake:101
+#: ../userdrake:102
+#: ../userdrake:103
+#: ../userdrake:114
+#: ../userdrake:115
+#: ../userdrake:116
+#, c-format
+msgid "/_Actions"
+msgstr "/Mű_veletek"
+
+#: ../userdrake:101
+#, c-format
+msgid "/_Edit"
+msgstr "/Mó_dosítás"
+
+#: ../userdrake:102
+#, c-format
+msgid "/_Delete"
+msgstr "/_Törlés"
+
+#: ../userdrake:104
+#: ../userdrake:120
+#, c-format
+msgid "/_Options"
+msgstr "/Beá_llítások"
+
+#: ../userdrake:104
+#, c-format
+msgid "/_Filter system users"
+msgstr "/A r_endszerfelhasználók kiszűrése"
+
+#: ../userdrake:109
+#: ../userdrake:110
+#: ../userdrake:113
+#, c-format
+msgid "/_File"
+msgstr "/_Fájl"
+
+#: ../userdrake:110
+#, c-format
+msgid "/_Refresh"
+msgstr "/F_rissítés"
+
+#: ../userdrake:113
+#, c-format
+msgid "/_Quit"
+msgstr "/_Kilépés"
+
+#: ../userdrake:113
+#, c-format
+msgid "<control>Q"
+msgstr "<control>Q"
+
+#: ../userdrake:115
+#, c-format
+msgid "/_Add User"
+msgstr "/Új _felhasználó"
+
+#: ../userdrake:116
+#, c-format
+msgid "/Add _Group"
+msgstr "/Új _csoport"
+
+#: ../userdrake:125
+#: ../userdrake:126
+#: ../userdrake:127
+#: ../userdrake:130
+#, c-format
+msgid "/_Help"
+msgstr "/_Segítség"
+
+#: ../userdrake:127
+#, c-format
+msgid "/_Report Bug"
+msgstr "/_Hibabejelentés"
+
+#: ../userdrake:130
+#, c-format
+msgid "/_About..."
+msgstr "/Név_jegy..."
+
+#: ../userdrake:148
+#, c-format
+msgid "Search:"
+msgstr "Keresés:"
+
+#: ../userdrake:154
+#, c-format
+msgid "Apply filter"
+msgstr "Szűrő alkalmazása"
+
+#: ../userdrake:158
+#, c-format
+msgid "Users"
+msgstr "Felhasználók"
+
+#: ../userdrake:162
+#: ../userdrake:1041
+#, c-format
+msgid "Groups"
+msgstr "Csoportok"
+
+#. -PO: do not translate, this is already translated in mcc
+#: ../userdrake:168
+#, c-format
+msgid "Users and groups"
+msgstr "Felhasználók és csoportok"
+
+#: ../userdrake:186
+#, c-format
+msgid "User Name"
+msgstr "Felhasználónév"
+
+#: ../userdrake:186
+#, c-format
+msgid "User ID"
+msgstr "Felh.-azonosító"
+
+#: ../userdrake:186
+#: ../userdrake:1038
+#, c-format
+msgid "Primary Group"
+msgstr "Elsődleges csoport"
+
+#: ../userdrake:187
+#, c-format
+msgid "Full Name"
+msgstr "Teljes név"
+
+#: ../userdrake:187
+#, c-format
+msgid "Login Shell"
+msgstr "Parancsértelmező"
+
+#: ../userdrake:187
+#, c-format
+msgid "Home Directory"
+msgstr "Saját könyvtár"
+
+#: ../userdrake:187
+#, c-format
+msgid "Status"
+msgstr "Állapot"
+
+#: ../userdrake:194
+#, c-format
+msgid "Group Name"
+msgstr "Csoportnév"
+
+#: ../userdrake:194
+#, c-format
+msgid "Group ID"
+msgstr "Csoportazonosító"
+
+#: ../userdrake:194
+#, c-format
+msgid "Group Members"
+msgstr "A csoport tagjai"
+
+#: ../userdrake:196
+#, c-format
+msgid "Add User"
+msgstr "Új felhasználó"
+
+#: ../userdrake:196
+#, c-format
+msgid "Add a user to the system"
+msgstr "Új felhasználó létrehozása"
+
+#: ../userdrake:197
+#, c-format
+msgid "Add Group"
+msgstr "Új csoport"
+
+#: ../userdrake:197
+#, c-format
+msgid "Add a group to the system"
+msgstr "Új csoport létrehozása"
+
+#: ../userdrake:198
+#: ../userdrake:739
+#, c-format
+msgid "Edit"
+msgstr "Módosítás"
+
+#: ../userdrake:198
+#, c-format
+msgid "Edit selected row"
+msgstr "A kijelölt sor szerkesztése"
+
+#: ../userdrake:199
+#: ../userdrake:674
+#: ../userdrake:707
+#: ../userdrake:739
+#, c-format
+msgid "Delete"
+msgstr "Törlés"
+
+#: ../userdrake:199
+#, c-format
+msgid "Delete selected row"
+msgstr "A kijelölt sor törlése"
+
+#: ../userdrake:200
+#, c-format
+msgid "Refresh"
+msgstr "Frissítés"
+
+#: ../userdrake:200
+#, c-format
+msgid "Refresh the list"
+msgstr "A lista frissítése"
+
+#: ../userdrake:263
+#, c-format
+msgid "Locked"
+msgstr "Zárolt"
+
+#: ../userdrake:263
+#, c-format
+msgid "Expired"
+msgstr "Lejárt"
+
+#: ../userdrake:339
+#, c-format
+msgid "Click on the icon to change it"
+msgstr "Kattintson az ikonra annak megváltoztatásához"
+
+#: ../userdrake:385
+#, c-format
+msgid "Create New User"
+msgstr "Új felhasználó létrehozása"
+
+#: ../userdrake:391
+#, c-format
+msgid "Create Home Directory"
+msgstr "Saját könyvtár létrehozása"
+
+#: ../userdrake:393
+#, c-format
+msgid "Home Directory: "
+msgstr "A saját könyvtár: "
+
+#: ../userdrake:396
+#, c-format
+msgid "Create a private group for the user"
+msgstr "Privát csoport létrehozása a felhasználóhoz"
+
+#: ../userdrake:397
+#, c-format
+msgid "Specify user ID manually"
+msgstr "A felhasználóazonosító megadása"
+
+#: ../userdrake:414
+#, c-format
+msgid "User already exists, please choose another User Name"
+msgstr "Már létezik ilyen nevű felhasználó, válasszon más nevet."
+
+#: ../userdrake:419
+#: ../userdrake:860
+#, c-format
+msgid "Password Mismatch"
+msgstr "A jelszavak nem egyeznek meg"
+
+#: ../userdrake:422
+#: ../userdrake:863
+#, c-format
+msgid ""
+"This password is too simple. \n"
+" Good passwords should be > 6 characters"
+msgstr ""
+"A megadott jelszó túlságosan egyszerű. \n"
+" Legalább 7 karakter hosszú jelszót érdemes választani."
+
+#: ../userdrake:434
+#, c-format
+msgid "User Uid is < 500"
+msgstr "A felhasználó azonosítója kisebb 500-nál"
+
+#: ../userdrake:435
+#, c-format
+msgid ""
+"Creating a user with a UID less than 500 is not recommended.\n"
+" Are you sure you want to do this?\n"
+"\n"
+msgstr ""
+"500-nál kisebb azonosítójú felhasználót nem ajánlott létrehozni.\n"
+" Biztosan ezt szeretné?\n"
+"\n"
+
+#: ../userdrake:450
+#, c-format
+msgid "Putting %s to 'users' group"
+msgstr "%s hozzáadása a 'users' nevű csoporthoz"
+
+#: ../userdrake:457
+#, c-format
+msgid "Creating new group: %s"
+msgstr "Új csoport létrehozása: %s"
+
+#: ../userdrake:466
+#, c-format
+msgid "Adding user: %s"
+msgstr "%s felhasználó felvétele"
+
+#: ../userdrake:478
+#, c-format
+msgid "Migration wizard"
+msgstr "Importálási varázsló"
+
+#: ../userdrake:479
+#, c-format
+msgid "Do you want to run the migration wizard in order to import Windows documents and settings in your Mandriva Linux distribution?"
+msgstr "Szeretné elindítani az importálási varázslót, amellyel áthozhatja windowsos dokumentumait és beállításait a Mandriva Linux rendszerbe?"
+
+#: ../userdrake:484
+#: ../userdrake:528
+#: ../userdrake:587
+#: ../userdrake:674
+#: ../userdrake:707
+#: ../userdrake:1166
+#, c-format
+msgid "Cancel"
+msgstr "Mégsem"
+
+#: ../userdrake:484
+#: ../userdrake:521
+#: ../userdrake:587
+#: ../userdrake:1166
+#: ../userdrake:1317
+#, c-format
+msgid "Ok"
+msgstr "OK"
+
+#: ../userdrake:497
+#, c-format
+msgid "UID: "
+msgstr "Felhasználóazonosító: "
+
+#: ../userdrake:510
+#, c-format
+msgid "Choose group"
+msgstr "Válasszon csoportot"
+
+#: ../userdrake:512
+#: ../userdrake:513
+#, c-format
+msgid "Add to the existing group"
+msgstr "Hozzáadás a már létező csoporthoz"
+
+#: ../userdrake:514
+#, c-format
+msgid "Add to the 'users' group"
+msgstr "Hozzáadás a 'users' nevű csoporthoz"
+
+#: ../userdrake:516
+#, c-format
+msgid "A group with this name already exists.  What would you like to do?"
+msgstr "Már létezik ilyen nevű csoport. Mit szeretne tenni?"
+
+#: ../userdrake:546
+#, c-format
+msgid "Create New Group"
+msgstr "Új csoport létrehozása"
+
+#: ../userdrake:551
+#, c-format
+msgid "Specify group ID manually"
+msgstr "A csoportazonosító megadása"
+
+#: ../userdrake:567
+#, c-format
+msgid "Group already exists, please choose another Group Name"
+msgstr "Ilyen nevű csoport már létezik, válasszon más nevet."
+
+#: ../userdrake:573
+#, c-format
+msgid " Group Gid is < 500"
+msgstr " A csoportazonosító kisebb 500-nál"
+
+#: ../userdrake:574
+#, c-format
+msgid ""
+"Creating a group with a GID less than 500 is not recommended.\n"
+" Are you sure you want to do this?\n"
+"\n"
+msgstr ""
+"500-nál kisebb azonosítójú csoportot nem ajánlott létrehozni.\n"
+" Biztosan ezt szeretné?\n"
+"\n"
+
+#: ../userdrake:581
+#, c-format
+msgid "Adding group: %s "
+msgstr "%s csoport felvétele"
+
+#: ../userdrake:591
+#, c-format
+msgid "GID: "
+msgstr "Csoportazonosító: "
+
+#: ../userdrake:636
+#, c-format
+msgid "Delete files or not?"
+msgstr "Törlésre kerüljenek a fájlok?"
+
+#: ../userdrake:639
+#, c-format
+msgid ""
+"Deleting user %s\n"
+" Also perform the following actions\n"
+msgstr ""
+"\"%s\" felhasználó törlése\n"
+"A következők is végre lesznek hajtva:\n"
+
+#: ../userdrake:641
+#, c-format
+msgid "Delete Home Directory: %s"
+msgstr "Saját könyvtár törlése: %s"
+
+#: ../userdrake:642
+#, c-format
+msgid "Delete Mailbox: /var/spool/mail/%s"
+msgstr "Postaláda törlése: /var/spool/mail/%s"
+
+#: ../userdrake:651
+#, c-format
+msgid "Removing user: %s"
+msgstr "%s felhasználó eltávolítása"
+
+#: ../userdrake:684
+#, c-format
+msgid "Do you really want to delete the group %s?"
+msgstr "Valóban törölni kívánja a(z) %s csoportot?"
+
+#: ../userdrake:697
+#, c-format
+msgid ""
+"%s is a primary group for user %s\n"
+" Remove the user first"
+msgstr ""
+"A(z) %s csoport a(z) %s felhasználó elsődleges csoportja.\n"
+" Először a felhasználót kell törölni"
+
+#: ../userdrake:702
+#, c-format
+msgid "Removing group: %s"
+msgstr "%s csoport eltávolítása"
+
+#: ../userdrake:798
+#, c-format
+msgid "Full Name:"
+msgstr "Teljes név:"
+
+#: ../userdrake:800
+#, c-format
+msgid "Login:"
+msgstr "Bejelentkezési név:"
+
+#: ../userdrake:802
+#, c-format
+msgid "Password:"
+msgstr "Jelszó:"
+
+#: ../userdrake:804
+#, c-format
+msgid "Confirm Password:"
+msgstr "Jelszó (még egyszer):"
+
+#: ../userdrake:806
+#, c-format
+msgid "Login Shell:"
+msgstr "Parancsértelmező:"
+
+#: ../userdrake:820
+#, c-format
+msgid "Group Name:"
+msgstr "Csoportnév:"
+
+#: ../userdrake:894
+#, c-format
+msgid "Please select at least one group for the user"
+msgstr "Legalább egy csoportot ki kell választani"
+
+#: ../userdrake:904
+#, c-format
+msgid ""
+"Please specify Year, Month and Day \n"
+" for Account Expiration "
+msgstr ""
+"Adja meg a felhasználónév lejárásának dátumát\n"
+" (év, hónap, nap) "
+
+#: ../userdrake:914
+#, c-format
+msgid "Please fill up all fields in password aging\n"
+msgstr "A lejárattal kapcsolatos összes mezőt ki kell tölteni\n"
+
+#: ../userdrake:965
+#, c-format
+msgid "You cannot remove user '%s' from their primary group"
+msgstr "A(z) '%s' felhasználónév nem távolítható el az elsődleges csoportjából"
+
+#: ../userdrake:986
+#, c-format
+msgid "Home:"
+msgstr "Saját könyvtár:"
+
+#: ../userdrake:988
+#, c-format
+msgid "User Data"
+msgstr "Felhasználói adatok"
+
+#: ../userdrake:992
+#, c-format
+msgid "Enable account expiration"
+msgstr "A felhasználónevek lejárásának bekapcsolása"
+
+#: ../userdrake:994
+#, c-format
+msgid "Account expires (YYYY-MM-DD):"
+msgstr "A lejárás dátuma (ÉÉÉÉ-HH-NN):"
+
+#: ../userdrake:1002
+#, c-format
+msgid "Lock User Account"
+msgstr "A felhasználónév zárolása"
+
+#: ../userdrake:1005
+#, c-format
+msgid "Account Info"
+msgstr "A felhasználó jellemzői"
+
+#: ../userdrake:1010
+#, c-format
+msgid "User last changed password on: "
+msgstr "A legutóbbi jelszóváltoztatás dátuma: "
+
+#: ../userdrake:1017
+#, c-format
+msgid "Enable Password Expiration"
+msgstr "A jelszó lejárásának bekapcsolása"
+
+#: ../userdrake:1022
+#, c-format
+msgid "Days before change allowed:"
+msgstr "Jelszómódosítás legkorábban ennyi nap múlva:"
+
+#: ../userdrake:1024
+#, c-format
+msgid "Days before change required:"
+msgstr "Jelszómódosítás legkésőbb ennyi nap múlva:"
+
+#: ../userdrake:1026
+#, c-format
+msgid "Days warning before change:"
+msgstr "Figyelmeztetés a jelszómódosításra ennyi nappal korábban:"
+
+#: ../userdrake:1028
+#, c-format
+msgid "Days before account inactive:"
+msgstr "A felhasználónév letiltása ennyi nap elteltével:"
+
+#: ../userdrake:1031
+#, c-format
+msgid "Password Info"
+msgstr "A jelszó jellemzői"
+
+#: ../userdrake:1035
+#, c-format
+msgid "Select the groups that the user will be a member of:"
+msgstr "Válassza ki, hogy a felhasználó mely csoportokhoz tartozzon:"
+
+#: ../userdrake:1102
+#, c-format
+msgid "Group Data"
+msgstr "A csoport adatai"
+
+#: ../userdrake:1105
+#, c-format
+msgid "Select the users to join this group:"
+msgstr "Válassza ki, mely felhasználókat szeretné a csoporthoz adni:"
+
+#: ../userdrake:1107
+#, c-format
+msgid "Group Users"
+msgstr "A csoport felhasználói"
+
+#: ../userdrake:1127
+#, c-format
+msgid "Edit Groups / Users"
+msgstr "Csoportok / felhasználók szerkesztése"
+
+#: ../userdrake:1159
+#, c-format
+msgid "An error occurred:"
+msgstr "Hiba lépett fel:"
+
+#: ../userdrake:1267
+#, c-format
+msgid "Close"
+msgstr "Bezárás"
+
+#: ../userdrake:1277
+#, c-format
+msgid "Copyright (C) %s by Mandriva"
+msgstr "Copyright (C) %s, Mandriva"
+
+#: ../userdrake:1280
+#, c-format
+msgid "Users Management"
+msgstr "Felhasználókezelés"
+
+#: ../userdrake:1282
+#, c-format
+msgid "Mandriva Linux"
+msgstr "Mandriva Linux"
+
+#. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
+#: ../userdrake:1288
+#, c-format
+msgid "_: Translator(s) name(s) & email(s)\n"
+msgstr "Arpad Biro <biro.arpad gmail>\n"
+
+#: ../userdrake:1295
+#, c-format
+msgid "Name field is empty please provide a name"
+msgstr "A 'név' mező nem lehet üres"
+
+#: ../userdrake:1297
+#, c-format
+msgid "The name must contain only lower cased latin letters, numbers, `-' and `_'"
+msgstr "A névben csak angol kisbetűk, számjegyek, a '-' és az '_' karakterek szerepelhetnek"
+
+#: ../userdrake:1300
+#, c-format
+msgid "Name is too long"
+msgstr "A megadott név túl hosszú"
+
+#: ../userdrake:1313
+#, c-format
+msgid "Error"
+msgstr "Hiba történt"
+
+#, fuzzy
+#~ msgid "Unknown error"
+#~ msgstr "ismeretlen hiba"
+
+#, fuzzy
+#~ msgid "Error creating %s: %s.\n"
+#~ msgstr "Hiba \"%s\" létrehozásakor: %s"

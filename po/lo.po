@@ -1,0 +1,751 @@
+# translation of userdrake.pot to Lao
+# Copyright (C) 2004 Free Software Foundation, Inc.
+# Thinnaphavong SIPHACHANH <laonuke@yahoo.com>, 2001, 2004.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: userdrake-lo\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-02-02 03:03+0100\n"
+"PO-Revision-Date: 2005-01-13 14:57+0700\n"
+"Last-Translator: Thinnaphavong SIPHACHANH <laonuke@yahoo.com>\n"
+"Language-Team: lo <lo@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../USER/USER.xs:86
+#, c-format
+msgid "Error reading `%s': %s"
+msgstr "ເກີດການຜິດພາດເວລາອ່ານ `%s': %s"
+
+#: ../USER/USER.xs:93 ../USER/USER.xs:526
+#, c-format
+msgid "Error creating `%s': %s"
+msgstr "ເກີດການຜິດພາດເວລາສ້າງ `%s': %s"
+
+#: ../USER/USER.xs:205 ../USER/USER.xs:234 ../USER/USER.xs:250
+#, c-format
+msgid "Error removing `%s': %s"
+msgstr "ເກີດການຜິດພາດເວລາລຶບ `%s': %s"
+
+#: ../USER/USER.xs:490
+#, fuzzy, c-format
+msgid "Account creation failed: '%s'.\n"
+msgstr "ເກີດການຜິດພາດເວລາສ້າງ mail spool.\n"
+
+#: ../USER/USER.xs:503
+msgid "Cannot get Uid number"
+msgstr ""
+
+#: ../USER/USER.xs:515
+msgid "Cannot retrieve value"
+msgstr ""
+
+#: ../USER/USER.xs:532
+msgid "Error creating mail spool.\n"
+msgstr "ເກີດການຜິດພາດເວລາສ້າງ mail spool.\n"
+
+#: ../USER/USER.xs:582
+#, fuzzy, c-format
+msgid "User could not be modified: '%s'.\n"
+msgstr "ເກີດການຜິດພາດເວລາສ້າງ mail spool.\n"
+
+#: ../USER/USER.xs:592
+#, c-format
+msgid "User Could Not be deleted: '%s'.\n"
+msgstr ""
+
+#: ../USER/USER.xs:618
+#, c-format
+msgid "Failed to set password: '%s'.\n"
+msgstr ""
+
+#: ../USER/USER.xs:618
+msgid "unknown error"
+msgstr "ເກີດການຜິດພາດແບບບໍ່ຮູ້ສາເຫດ"
+
+#: ../USER/USER.xs:685
+#, fuzzy
+msgid "Group creation failed.\n"
+msgstr "ເກີດການຜິດພາດເວລາສ້າງ mail spool.\n"
+
+#: ../USER/USER.xs:695
+#, c-format
+msgid "Group could not be modified: '%s'.\n"
+msgstr ""
+
+#: ../USER/USER.xs:705
+#, c-format
+msgid "Group could not be deleted: '%s'.\n"
+msgstr ""
+
+#: ../USER/USER.xs:863
+msgid "No home directory for the user.\n"
+msgstr ""
+
+#: ../USER/USER.xs:869 ../USER/USER.xs:871
+#, c-format
+msgid "Home Directory Could Not be deleted: '%s'.\n"
+msgstr ""
+
+#: ../USER/USER.xs:881
+msgid "Error deleting mail spool.\n"
+msgstr "ເກີດການຜິດພາດເວລາລຶບ mail spool.\n"
+
+#: ../userdrake:59 ../userdrake:1275
+#, c-format
+msgid "Userdrake"
+msgstr "Userdrake"
+
+#: ../userdrake:64
+#, c-format
+msgid "Loading Users and Groups... Please wait"
+msgstr "ກຳລັງອ່ານຄ່າ ຜູ້ໃຊ້ ແລະ ກຸ່ມ... ກະລຸນາຖ້າ"
+
+#: ../userdrake:83
+#, c-format
+msgid "Mandriva Linux Users Management Tool"
+msgstr "ເຄື່ອງມືຈັດການຜູ້ໃຊ້ສຳລັບ Mandriva Linux"
+
+#: ../userdrake:96
+#, c-format
+msgid "/_Install guest account"
+msgstr ""
+
+#: ../userdrake:97
+#, c-format
+msgid "/_Uninstall guest account"
+msgstr ""
+
+#: ../userdrake:101 ../userdrake:102 ../userdrake:103 ../userdrake:114
+#: ../userdrake:115 ../userdrake:116
+#, c-format
+msgid "/_Actions"
+msgstr "/_ແບບການເຮັດວຽກ"
+
+#: ../userdrake:101
+#, c-format
+msgid "/_Edit"
+msgstr "/_ແກ້ໄຂ"
+
+#: ../userdrake:102
+#, c-format
+msgid "/_Delete"
+msgstr "/_ລຶບ"
+
+#: ../userdrake:104 ../userdrake:120
+#, c-format
+msgid "/_Options"
+msgstr "/_ທາງເລືອກ"
+
+#: ../userdrake:104
+#, c-format
+msgid "/_Filter system users"
+msgstr "/_ຕອງລະບົບຜູ້ໃຊ້"
+
+#: ../userdrake:109 ../userdrake:110 ../userdrake:113
+#, c-format
+msgid "/_File"
+msgstr "/_ໄຟລ໌"
+
+#: ../userdrake:110
+#, c-format
+msgid "/_Refresh"
+msgstr "/_ອ່ານຄ່າໃຫມ່"
+
+#: ../userdrake:113
+#, c-format
+msgid "/_Quit"
+msgstr "/_ອອກ"
+
+#: ../userdrake:113
+#, c-format
+msgid "<control>Q"
+msgstr "<control>Q"
+
+#: ../userdrake:115
+#, c-format
+msgid "/_Add User"
+msgstr "/_ຕື່ມຜູ້ໃຊ້"
+
+#: ../userdrake:116
+#, c-format
+msgid "/Add _Group"
+msgstr "/_ຕື່ມກຸ່ມ"
+
+#: ../userdrake:125 ../userdrake:126 ../userdrake:127 ../userdrake:130
+#, c-format
+msgid "/_Help"
+msgstr "/_ຊ່ວຍເຫລືອ"
+
+#: ../userdrake:127
+#, c-format
+msgid "/_Report Bug"
+msgstr "/_ລາຍງານຂໍ້ຜິດພາດ"
+
+#: ../userdrake:130
+#, c-format
+msgid "/_About..."
+msgstr "/_ກ່ຽວກັບ..."
+
+#: ../userdrake:148
+#, c-format
+msgid "Search:"
+msgstr "ຊອກຫາ:"
+
+#: ../userdrake:154
+#, c-format
+msgid "Apply filter"
+msgstr "ໃຊ້ລະບົບຕອງ"
+
+#: ../userdrake:158
+#, c-format
+msgid "Users"
+msgstr "ຜູ້ໃຊ້"
+
+#: ../userdrake:162 ../userdrake:1041
+#, c-format
+msgid "Groups"
+msgstr "ກຸ່ມ"
+
+#. -PO: do not translate, this is already translated in mcc
+#: ../userdrake:168
+#, c-format
+msgid "Users and groups"
+msgstr ""
+
+#: ../userdrake:186
+#, c-format
+msgid "User Name"
+msgstr "ຊື່ຜູ້ໃຊ້"
+
+#: ../userdrake:186
+#, c-format
+msgid "User ID"
+msgstr "ລະຫັດຜູ້ໃຊ້"
+
+#: ../userdrake:186 ../userdrake:1038
+#, c-format
+msgid "Primary Group"
+msgstr "ກຸ່ມທຳອິດ"
+
+#: ../userdrake:187
+#, c-format
+msgid "Full Name"
+msgstr "ຊື່ແທ້"
+
+#: ../userdrake:187
+#, c-format
+msgid "Login Shell"
+msgstr "ລ໋ອກອິນແຊວ"
+
+#: ../userdrake:187
+#, c-format
+msgid "Home Directory"
+msgstr "Home Directory"
+
+#: ../userdrake:187
+#, c-format
+msgid "Status"
+msgstr "ສະຖານະ"
+
+#: ../userdrake:194
+#, c-format
+msgid "Group Name"
+msgstr "ຊື່ກຸ່ມ"
+
+#: ../userdrake:194
+#, c-format
+msgid "Group ID"
+msgstr "ລະຫັດກຸ່ມ"
+
+#: ../userdrake:194
+#, c-format
+msgid "Group Members"
+msgstr "ສະມາຊິກກຸ່ມ"
+
+#: ../userdrake:196
+#, c-format
+msgid "Add User"
+msgstr "ຕື່ມຜູ້ໃຊ້"
+
+#: ../userdrake:196
+#, c-format
+msgid "Add a user to the system"
+msgstr "ຕື່ມຜູ້ໃຊ້ເຂົ້າລະບົບ"
+
+#: ../userdrake:197
+#, c-format
+msgid "Add Group"
+msgstr "ຕື່ມກຸ່ມ"
+
+#: ../userdrake:197
+#, c-format
+msgid "Add a group to the system"
+msgstr "ຕື່ມກຸ່ມເຂົ້າລະບບົ"
+
+#: ../userdrake:198 ../userdrake:739
+#, c-format
+msgid "Edit"
+msgstr "ແກ້ໄຂ"
+
+#: ../userdrake:198
+#, c-format
+msgid "Edit selected row"
+msgstr "ແກ້ໄຂແຖວທີ່ເລືອກ"
+
+#: ../userdrake:199 ../userdrake:674 ../userdrake:707 ../userdrake:739
+#, c-format
+msgid "Delete"
+msgstr "ລຶບ"
+
+#: ../userdrake:199
+#, c-format
+msgid "Delete selected row"
+msgstr "ລຶບແຖວທີ່ເລືອກ"
+
+#: ../userdrake:200
+#, c-format
+msgid "Refresh"
+msgstr "ອ່ານຄ່າໃຫມ່"
+
+#: ../userdrake:200
+#, c-format
+msgid "Refresh the list"
+msgstr "ອ່ານຄ່າລາຍການໃຫມ່"
+
+#: ../userdrake:263
+#, c-format
+msgid "Locked"
+msgstr "ລ໋ອກ"
+
+#: ../userdrake:263
+#, c-format
+msgid "Expired"
+msgstr "ຫມົດອາຍຸ"
+
+#: ../userdrake:339
+#, c-format
+msgid "Click on the icon to change it"
+msgstr "ກົດທີ່ຮູບເພື່ອປ່ຽນແປງ"
+
+#: ../userdrake:385
+#, c-format
+msgid "Create New User"
+msgstr "ສ້າງຜູ້ໃຊ້ໃຫມ່"
+
+#: ../userdrake:391
+#, c-format
+msgid "Create Home Directory"
+msgstr "ສ້າງ Home Directory"
+
+#: ../userdrake:393
+#, c-format
+msgid "Home Directory: "
+msgstr "Home Directory: "
+
+#: ../userdrake:396
+#, c-format
+msgid "Create a private group for the user"
+msgstr "ສ້າງກຸ່ມສ່ວນໂຕສຳລັບຜູ້ໃຊ້"
+
+#: ../userdrake:397
+#, c-format
+msgid "Specify user ID manually"
+msgstr "ໃສ່ລະຫັດຜຸ້ໃຊ້ເອົາເອງ"
+
+#: ../userdrake:414
+#, c-format
+msgid "User already exists, please choose another User Name"
+msgstr "ຊື່ນີ້ມີແລ້ວ, ກະລຸນາໃຊ້ຊື່ອື່ນ"
+
+#: ../userdrake:419 ../userdrake:860
+#, c-format
+msgid "Password Mismatch"
+msgstr "ລະຫັດຜ່ານບໍ່ຖືກຕ້ອງ"
+
+#: ../userdrake:422 ../userdrake:863
+#, c-format
+msgid ""
+"This password is too simple. \n"
+" Good passwords should be > 6 characters"
+msgstr ""
+"ລະຫັດຜ່ານນີ້ງ່າຍເກີນໄປ. \n"
+" ລະຫັດຜ່ານທີ່ດີຕ້ອງມີຫລາຍກວ່າ 6 ໂຕອັກສອນ"
+
+#: ../userdrake:434
+#, c-format
+msgid "User Uid is < 500"
+msgstr "ລະຫັດຜູ້ໃຊ້ຫນ້ອຍກວ່າ 500"
+
+#: ../userdrake:435
+#, c-format
+msgid ""
+"Creating a user with a UID less than 500 is not recommended.\n"
+" Are you sure you want to do this?\n"
+"\n"
+msgstr ""
+"ບໍ່ແນະນຳໃຫ້ສ້າງຜູ້ໃຊ້ທີ່ລະຫັດຕ່ຳກວ່າ 500\n"
+"ເຈົ້າແນ່ໃຈບໍ່ວ່າເຈົ້າຕ້ອງການສ້າງ?\n"
+"\n"
+
+#: ../userdrake:450
+#, c-format
+msgid "Putting %s to 'users' group"
+msgstr "ຕື່ມ %s ໃສ່ກຸ່ມ 'users' "
+
+#: ../userdrake:457
+#, c-format
+msgid "Creating new group: %s"
+msgstr "ສ້າງກຸ່ມໃຫມ່: %s"
+
+#: ../userdrake:466
+#, c-format
+msgid "Adding user: %s"
+msgstr "ຕື່ມຜູ້ໃຊ້: %s"
+
+#: ../userdrake:478
+#, c-format
+msgid "Migration wizard"
+msgstr ""
+
+#: ../userdrake:479
+#, c-format
+msgid ""
+"Do you want to run the migration wizard in order to import Windows documents "
+"and settings in your Mandriva Linux distribution?"
+msgstr ""
+
+#: ../userdrake:484 ../userdrake:528 ../userdrake:587 ../userdrake:674
+#: ../userdrake:707 ../userdrake:1166
+#, c-format
+msgid "Cancel"
+msgstr "ຍົກເລີກ"
+
+#: ../userdrake:484 ../userdrake:521 ../userdrake:587 ../userdrake:1166
+#: ../userdrake:1317
+#, c-format
+msgid "Ok"
+msgstr "ຕົກລົງ"
+
+#: ../userdrake:497
+#, c-format
+msgid "UID: "
+msgstr "ລະຫັດ: "
+
+#: ../userdrake:510
+#, c-format
+msgid "Choose group"
+msgstr "ເລືອກກຸ່ມ"
+
+#: ../userdrake:512 ../userdrake:513
+#, c-format
+msgid "Add to the existing group"
+msgstr "ຕື່ມເຂົ້າກຸ່ມທີ່ມີຢູ່ແລ້ວ"
+
+#: ../userdrake:514
+#, c-format
+msgid "Add to the 'users' group"
+msgstr "ຕື່ມໃສ່ກຸ່ມ 'users'"
+
+#: ../userdrake:516
+#, c-format
+msgid "A group with this name already exists.  What would you like to do?"
+msgstr "ຊື່ກຸ່ມນີ້ມີຢູ່ແລ້ວ. ເຈົ້າຈະເຮັດຈັ່ງໃດຕໍ່ໄປ?"
+
+#: ../userdrake:546
+#, c-format
+msgid "Create New Group"
+msgstr "ສ້າງກຸ່ມໃຫມ່"
+
+#: ../userdrake:551
+#, c-format
+msgid "Specify group ID manually"
+msgstr "ໃສ່ລະຫັດກຸ່ມເອົາເອງ"
+
+#: ../userdrake:567
+#, c-format
+msgid "Group already exists, please choose another Group Name"
+msgstr "ຊື່ກຸ່ມນີ້ມີຢູ່ແລ້ວ, ກະລຸນາເລືອກຊື່ອື່ນ"
+
+#: ../userdrake:573
+#, c-format
+msgid " Group Gid is < 500"
+msgstr "ລະຫັດກຸ່ມຫນ້ອຍກວ່າ 500"
+
+#: ../userdrake:574
+#, c-format
+msgid ""
+"Creating a group with a GID less than 500 is not recommended.\n"
+" Are you sure you want to do this?\n"
+"\n"
+msgstr ""
+"ບໍ່ແນະນຳໃຫ້ສ້າງກຸ່ມຜູ້ໃຊ້ທີ່ມີລະຫັດຕ່ຳກວ່າ 500\n"
+"ເຈົ້າແນ່ໃຈບໍ່ວ່າເຈົ້າຕ້ອງການເຮັດແບບນັ້ນ?\n"
+"\n"
+
+#: ../userdrake:581
+#, c-format
+msgid "Adding group: %s "
+msgstr "ຕື່ມກຸ່ມ: %s "
+
+#: ../userdrake:591
+#, c-format
+msgid "GID: "
+msgstr "ລະຫັດກຸ່ມ: "
+
+#: ../userdrake:636
+#, c-format
+msgid "Delete files or not?"
+msgstr "ລຶບໄຟລ໌ຫລືບໍ່?"
+
+#: ../userdrake:639
+#, c-format
+msgid ""
+"Deleting user %s\n"
+" Also perform the following actions\n"
+msgstr ""
+"ກຳລັງລຶບຜູ້ໃຊ້ %s\n"
+" ແລະກຳລັງເຮັດສິ່ງຕໍ່ໄປນີ້\n"
+
+#: ../userdrake:641
+#, c-format
+msgid "Delete Home Directory: %s"
+msgstr "ລຶບ Home Directory: %s"
+
+#: ../userdrake:642
+#, c-format
+msgid "Delete Mailbox: /var/spool/mail/%s"
+msgstr "ລຶບ ຕູ້ຈົດຫມາຍ :/var/spool/mail/%s"
+
+#: ../userdrake:651
+#, c-format
+msgid "Removing user: %s"
+msgstr "ລຶບຜູ້ໃຊ້: %s"
+
+#: ../userdrake:684
+#, c-format
+msgid "Do you really want to delete the group %s?"
+msgstr "ເຈົ້າຫມັ້ນໃຈບໍ່ວ່າຈະລຶບກຸ່ມ %s?"
+
+#: ../userdrake:697
+#, c-format
+msgid ""
+"%s is a primary group for user %s\n"
+" Remove the user first"
+msgstr ""
+"%s ແມ່ນກຸ່ມທຳອິດຂອງ %s\n"
+" ລຶບຜູ້ໃຊ້ນີ້ກ່ອນ"
+
+#: ../userdrake:702
+#, c-format
+msgid "Removing group: %s"
+msgstr "ລຶບກຸ່ມ: %s"
+
+#: ../userdrake:798
+#, c-format
+msgid "Full Name:"
+msgstr "ຊື່ແທ້:"
+
+#: ../userdrake:800
+#, c-format
+msgid "Login:"
+msgstr "ລ໋ອກອິນ:"
+
+#: ../userdrake:802
+#, c-format
+msgid "Password:"
+msgstr "ລະຫັດຜ່ານ:"
+
+#: ../userdrake:804
+#, c-format
+msgid "Confirm Password:"
+msgstr "ຢືນຢັນລະຫັດຜ່ານ:"
+
+#: ../userdrake:806
+#, c-format
+msgid "Login Shell:"
+msgstr "ລ໋ອກອິນແຊວ:"
+
+#: ../userdrake:820
+#, c-format
+msgid "Group Name:"
+msgstr "ຊື່ກຸ່ມ:"
+
+#: ../userdrake:894
+#, c-format
+msgid "Please select at least one group for the user"
+msgstr "ກະລຸນາເລືອກຢ່າງຫນ້ອຍຫນຶ່ງກຸ່ມສຳລັບຜູ້ໃຊ້"
+
+#: ../userdrake:904
+#, c-format
+msgid ""
+"Please specify Year, Month and Day \n"
+" for Account Expiration "
+msgstr ""
+"ກະລຸນາກຳນົດປີ, ເດືອນ ແລະ ມື້ \n"
+"ທີ່ບັນຊີຈະຫມົດອາຍຸ"
+
+#: ../userdrake:914
+#, c-format
+msgid "Please fill up all fields in password aging\n"
+msgstr "ກະລຸນາຕື່ມໃສ່ທຸກຫ້ອງໃນອາຍຸຂອງລະຫັດລັບ\n"
+
+#: ../userdrake:965
+#, c-format
+msgid "You cannot remove user '%s' from their primary group"
+msgstr "ເຈົ້າບໍ່ສາມາດລຶບຜຸ້ໃຊ້ '%s' ຈາກກຸ່ມທຳອິດຂອງເຂົາ"
+
+#: ../userdrake:986
+#, c-format
+msgid "Home:"
+msgstr "ເຮືອນ:"
+
+#: ../userdrake:988
+#, c-format
+msgid "User Data"
+msgstr "ຂໍ້ມູນຜູ້ໃຊ້"
+
+#: ../userdrake:992
+#, c-format
+msgid "Enable account expiration"
+msgstr "ໃຊ້ການຈັບເວລາການຫມົດອາຍຸຂອງບັນຊີ"
+
+#: ../userdrake:994
+#, c-format
+msgid "Account expires (YYYY-MM-DD):"
+msgstr "ບັນຊີຫມົດອາຍຸ (ປປປປ-ດດ-ທທ):"
+
+#: ../userdrake:1002
+#, c-format
+msgid "Lock User Account"
+msgstr "ລ໋ອກບັນຊີຜູ້ໃຊ້"
+
+#: ../userdrake:1005
+#, c-format
+msgid "Account Info"
+msgstr "ຂໍ້ມູນບັນຊີ"
+
+#: ../userdrake:1010
+#, c-format
+msgid "User last changed password on: "
+msgstr "ຜູ້ໃຊ້ປ່ຽນລະຫັດຜ່ານຄັ້ງຫລ້າສຸດຕອນ: "
+
+#: ../userdrake:1017
+#, c-format
+msgid "Enable Password Expiration"
+msgstr "ໃຊ້ກຳນົດມື້ຫມົດອາຍຸຂອງລະຫັດຜ່ານ"
+
+#: ../userdrake:1022
+#, c-format
+msgid "Days before change allowed:"
+msgstr "ຈຳນວນມື້ກ່ອນທີ່ຈະປ່ຽນໄດ້:"
+
+#: ../userdrake:1024
+#, c-format
+msgid "Days before change required:"
+msgstr "ຈຳນວນມື້ກ່ອນປ່ຽນທີ່ຕ້ອງການ:"
+
+#: ../userdrake:1026
+#, c-format
+msgid "Days warning before change:"
+msgstr "ຈຳນວນມື້ທີ່ຈະເຕືອນກ່ອນປ່ຽນ:"
+
+#: ../userdrake:1028
+#, c-format
+msgid "Days before account inactive:"
+msgstr "ຈຳນວນມື້ກ່ອນທີ່ບັນຊີຈະບໍ່ເຮັດວຽກ"
+
+#: ../userdrake:1031
+#, c-format
+msgid "Password Info"
+msgstr "ຂໍ້ມູນລະຫັດຜ່ານ"
+
+#: ../userdrake:1035
+#, c-format
+msgid "Select the groups that the user will be a member of:"
+msgstr "ເລືອກກຸ່ມທີ່ຜູ້ໃຊ້ຈະເປັນສະມາຊິກ"
+
+#: ../userdrake:1102
+#, c-format
+msgid "Group Data"
+msgstr "ຂໍ້ມູນກຸ່ມ"
+
+#: ../userdrake:1105
+#, c-format
+msgid "Select the users to join this group:"
+msgstr "ເລືອກຜູ້ໃຊ້ສຳລັບກຸ່ມນີ້:"
+
+#: ../userdrake:1107
+#, c-format
+msgid "Group Users"
+msgstr "ກຸ່ມຜູ້ໃຊ້"
+
+#: ../userdrake:1127
+#, c-format
+msgid "Edit Groups / Users"
+msgstr "ແກ້ໄຂກຸ່ມ / ຜູ້ໃຊ້"
+
+#: ../userdrake:1159
+#, c-format
+msgid "An error occurred:"
+msgstr ""
+
+#: ../userdrake:1267
+#, c-format
+msgid "Close"
+msgstr "ອອກ"
+
+#: ../userdrake:1277
+#, c-format
+msgid "Copyright (C) %s by Mandriva"
+msgstr ""
+
+#: ../userdrake:1280
+#, c-format
+msgid "Users Management"
+msgstr "ການບໍລິຫານຜູ້ໃຊ້"
+
+#: ../userdrake:1282
+#, c-format
+msgid "Mandriva Linux"
+msgstr ""
+
+#. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
+#: ../userdrake:1288
+#, c-format
+msgid "_: Translator(s) name(s) & email(s)\n"
+msgstr ""
+
+#: ../userdrake:1295
+#, c-format
+msgid "Name field is empty please provide a name"
+msgstr "ບໍ່ມີຊື່ ກະລຸນາໃສ່ຊື່ແນ່"
+
+#: ../userdrake:1297
+#, c-format
+msgid ""
+"The name must contain only lower cased latin letters, numbers, `-' and `_'"
+msgstr "ຊື່ຕ້ອງເປັນໂຕຫນັງສືລາຕິນແບບໂຕນ້ອຍ, ໂຕເລກ,  `-' ແລະ `_'"
+
+#: ../userdrake:1300
+#, c-format
+msgid "Name is too long"
+msgstr "ຊື່ຍາວໂພດ"
+
+#: ../userdrake:1313
+#, c-format
+msgid "Error"
+msgstr "ເກີດການຜິດພາດ"
+
+#, fuzzy
+#~ msgid "Unknown error"
+#~ msgstr "ເກີດການຜິດພາດແບບບໍ່ຮູ້ສາເຫດ"
+
+#, fuzzy
+#~ msgid "Error creating %s: %s.\n"
+#~ msgstr "ເກີດການຜິດພາດເວລາສ້າງ `%s': %s"
+
+#~ msgid "Authors: "
+#~ msgstr "ຜູ້ແຕ່ງ: "

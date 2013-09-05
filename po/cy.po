@@ -1,0 +1,760 @@
+#
+# Latest versions of po files are at http://www.mandrivalinux.org/l10n/cy.php3
+#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# Rhoslyn Prys <rhoslyn.prys@ntlworld.com>, 2002
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: userdrake2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-02-02 03:03+0100\n"
+"PO-Revision-Date: 2007-09-24 19:02+0100\n"
+"Last-Translator: Rhoslyn Prys <post@meddal.com>\n"
+"Language-Team: Cymraeg/Welsh <post@meddal.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Welsh\n"
+"X-Poedit-Country: UK\n"
+"Plural-Forms: nplurals=2; plural=(n == 2) ? 1 : 0;\n"
+
+#: ../USER/USER.xs:86
+#, c-format
+msgid "Error reading `%s': %s"
+msgstr "Gwall darllen `%s': %s"
+
+#: ../USER/USER.xs:93 ../USER/USER.xs:526
+#, c-format
+msgid "Error creating `%s': %s"
+msgstr "Gwall greu `%s': %s"
+
+#: ../USER/USER.xs:205 ../USER/USER.xs:234 ../USER/USER.xs:250
+#, c-format
+msgid "Error removing `%s': %s"
+msgstr "Gwall tynnu `%s': %s"
+
+#: ../USER/USER.xs:490
+#, fuzzy, c-format
+msgid "Account creation failed: '%s'.\n"
+msgstr "Gwall creu sbŵl e-bost.\n"
+
+#: ../USER/USER.xs:503
+msgid "Cannot get Uid number"
+msgstr ""
+
+#: ../USER/USER.xs:515
+msgid "Cannot retrieve value"
+msgstr ""
+
+#: ../USER/USER.xs:532
+msgid "Error creating mail spool.\n"
+msgstr "Gwall creu sbŵl e-bost.\n"
+
+#: ../USER/USER.xs:582
+#, fuzzy, c-format
+msgid "User could not be modified: '%s'.\n"
+msgstr "Gwall creu sbŵl e-bost.\n"
+
+#: ../USER/USER.xs:592
+#, c-format
+msgid "User Could Not be deleted: '%s'.\n"
+msgstr ""
+
+#: ../USER/USER.xs:618
+#, c-format
+msgid "Failed to set password: '%s'.\n"
+msgstr ""
+
+#: ../USER/USER.xs:618
+msgid "unknown error"
+msgstr "gwall anhysbys"
+
+#: ../USER/USER.xs:685
+#, fuzzy
+msgid "Group creation failed.\n"
+msgstr "Gwall creu sbŵl e-bost.\n"
+
+#: ../USER/USER.xs:695
+#, c-format
+msgid "Group could not be modified: '%s'.\n"
+msgstr ""
+
+#: ../USER/USER.xs:705
+#, c-format
+msgid "Group could not be deleted: '%s'.\n"
+msgstr ""
+
+#: ../USER/USER.xs:863
+msgid "No home directory for the user.\n"
+msgstr ""
+
+#: ../USER/USER.xs:869 ../USER/USER.xs:871
+#, c-format
+msgid "Home Directory Could Not be deleted: '%s'.\n"
+msgstr ""
+
+#: ../USER/USER.xs:881
+msgid "Error deleting mail spool.\n"
+msgstr "Gwall dileu'r sbŵl e-bost.\n"
+
+#: ../userdrake:59 ../userdrake:1275
+#, c-format
+msgid "Userdrake"
+msgstr "Userdrake"
+
+#: ../userdrake:64
+#, c-format
+msgid "Loading Users and Groups... Please wait"
+msgstr "Llwytho Defnyddwyr a Grwpiau... Arhoswch"
+
+#: ../userdrake:83
+#, c-format
+msgid "Mandriva Linux Users Management Tool"
+msgstr "Offeryn Rheoli Defnyddwyr Mandriva Linux"
+
+#: ../userdrake:96
+#, c-format
+msgid "/_Install guest account"
+msgstr ""
+
+#: ../userdrake:97
+#, c-format
+msgid "/_Uninstall guest account"
+msgstr ""
+
+#: ../userdrake:101 ../userdrake:102 ../userdrake:103 ../userdrake:114
+#: ../userdrake:115 ../userdrake:116
+#, c-format
+msgid "/_Actions"
+msgstr "/_Gweithredoedd"
+
+#: ../userdrake:101
+#, c-format
+msgid "/_Edit"
+msgstr "/+Golygu"
+
+#: ../userdrake:102
+#, c-format
+msgid "/_Delete"
+msgstr "/_Dileu"
+
+#: ../userdrake:104 ../userdrake:120
+#, c-format
+msgid "/_Options"
+msgstr "/_Dewisiadau"
+
+#: ../userdrake:104
+#, c-format
+msgid "/_Filter system users"
+msgstr "/_Hidlo defnyddwyr y system"
+
+#: ../userdrake:109 ../userdrake:110 ../userdrake:113
+#, c-format
+msgid "/_File"
+msgstr "/_Ffeil"
+
+#: ../userdrake:110
+#, c-format
+msgid "/_Refresh"
+msgstr "/_Adnewyddu"
+
+#: ../userdrake:113
+#, c-format
+msgid "/_Quit"
+msgstr "/_Gadael"
+
+#: ../userdrake:113
+#, c-format
+msgid "<control>Q"
+msgstr "<control>Q"
+
+#: ../userdrake:115
+#, c-format
+msgid "/_Add User"
+msgstr "/_Ychwanegu Defnyddiwr"
+
+#: ../userdrake:116
+#, c-format
+msgid "/Add _Group"
+msgstr "/Ychwanegu_Grŵp"
+
+#: ../userdrake:125 ../userdrake:126 ../userdrake:127 ../userdrake:130
+#, c-format
+msgid "/_Help"
+msgstr "/_Cymorth"
+
+#: ../userdrake:127
+#, c-format
+msgid "/_Report Bug"
+msgstr "/_Adroddiad Gwall"
+
+#: ../userdrake:130
+#, c-format
+msgid "/_About..."
+msgstr "/_Ynghylch"
+
+#: ../userdrake:148
+#, c-format
+msgid "Search:"
+msgstr "Chwilio:"
+
+#: ../userdrake:154
+#, c-format
+msgid "Apply filter"
+msgstr "Gosod Hidl"
+
+#: ../userdrake:158
+#, c-format
+msgid "Users"
+msgstr "Defnyddwyr"
+
+#: ../userdrake:162 ../userdrake:1041
+#, c-format
+msgid "Groups"
+msgstr "Grwpiau"
+
+#. -PO: do not translate, this is already translated in mcc
+#: ../userdrake:168
+#, c-format
+msgid "Users and groups"
+msgstr "Defnyddwyr a grwpiau"
+
+#: ../userdrake:186
+#, c-format
+msgid "User Name"
+msgstr "Enw Defnyddiwr"
+
+#: ../userdrake:186
+#, c-format
+msgid "User ID"
+msgstr "Enw Defnyddiwr"
+
+#: ../userdrake:186 ../userdrake:1038
+#, c-format
+msgid "Primary Group"
+msgstr "Grŵp Cynradd"
+
+#: ../userdrake:187
+#, c-format
+msgid "Full Name"
+msgstr "Enw Llawn"
+
+#: ../userdrake:187
+#, c-format
+msgid "Login Shell"
+msgstr "Cragen Mewngofnod"
+
+#: ../userdrake:187
+#, c-format
+msgid "Home Directory"
+msgstr "Cyfeiriadur Cartref"
+
+#: ../userdrake:187
+#, c-format
+msgid "Status"
+msgstr "Statws"
+
+#: ../userdrake:194
+#, c-format
+msgid "Group Name"
+msgstr "Enw Grŵp"
+
+#: ../userdrake:194
+#, c-format
+msgid "Group ID"
+msgstr "Enw Grŵp"
+
+#: ../userdrake:194
+#, c-format
+msgid "Group Members"
+msgstr "Aelodau Grŵp"
+
+#: ../userdrake:196
+#, c-format
+msgid "Add User"
+msgstr "Ychwanegu Defnyddiwr"
+
+#: ../userdrake:196
+#, c-format
+msgid "Add a user to the system"
+msgstr "Ychwanegu defnyddiwr i'r system"
+
+#: ../userdrake:197
+#, c-format
+msgid "Add Group"
+msgstr "Ychwanegu Grŵp"
+
+#: ../userdrake:197
+#, c-format
+msgid "Add a group to the system"
+msgstr "Ychwanegu grŵp i'r system"
+
+#: ../userdrake:198 ../userdrake:739
+#, c-format
+msgid "Edit"
+msgstr "Golygu"
+
+#: ../userdrake:198
+#, c-format
+msgid "Edit selected row"
+msgstr "Golygu'r rhes yma"
+
+#: ../userdrake:199 ../userdrake:674 ../userdrake:707 ../userdrake:739
+#, c-format
+msgid "Delete"
+msgstr "Dileu"
+
+#: ../userdrake:199
+#, c-format
+msgid "Delete selected row"
+msgstr "Dileu rhes"
+
+#: ../userdrake:200
+#, c-format
+msgid "Refresh"
+msgstr "Adnewyddu"
+
+#: ../userdrake:200
+#, c-format
+msgid "Refresh the list"
+msgstr "Adnewyddu'r rhestr"
+
+#: ../userdrake:263
+#, c-format
+msgid "Locked"
+msgstr "Clowyd"
+
+#: ../userdrake:263
+#, c-format
+msgid "Expired"
+msgstr "Dod i Ben:"
+
+#: ../userdrake:339
+#, c-format
+msgid "Click on the icon to change it"
+msgstr "Cliciwch ar yr eicon i'w newid"
+
+#: ../userdrake:385
+#, c-format
+msgid "Create New User"
+msgstr "Creu Defnyddiwr Newydd"
+
+#: ../userdrake:391
+#, c-format
+msgid "Create Home Directory"
+msgstr "Creu Cyfeiriadur Cartref"
+
+#: ../userdrake:393
+#, c-format
+msgid "Home Directory: "
+msgstr "Cyfeiriadur Cartref:"
+
+#: ../userdrake:396
+#, c-format
+msgid "Create a private group for the user"
+msgstr "Creu grŵp preifat ar gyfer y defnyddiwr"
+
+#: ../userdrake:397
+#, c-format
+msgid "Specify user ID manually"
+msgstr "Enwch enw'r defnyddiwr gyda llaw"
+
+#: ../userdrake:414
+#, c-format
+msgid "User already exists, please choose another User Name"
+msgstr "Mae'r defnyddiwr yn bodoli eisoes, dewiswch Enw Defnyddiwr arall"
+
+#: ../userdrake:419 ../userdrake:860
+#, c-format
+msgid "Password Mismatch"
+msgstr "Cyfrinair Anghywir"
+
+#: ../userdrake:422 ../userdrake:863
+#, c-format
+msgid ""
+"This password is too simple. \n"
+" Good passwords should be > 6 characters"
+msgstr ""
+"Mae'r cyfrinair yn rhy syml.\n"
+"Mae cyfrineiriau effeithiol yn fwy na 6 nod"
+
+#: ../userdrake:434
+#, c-format
+msgid "User Uid is < 500"
+msgstr "UID Defnyddiwr < 500"
+
+#: ../userdrake:435
+#, c-format
+msgid ""
+"Creating a user with a UID less than 500 is not recommended.\n"
+" Are you sure you want to do this?\n"
+"\n"
+msgstr ""
+"Nid yw creu defnyddiwr gydag UID llai na 500 yn cael ei argymell\n"
+"Ydych chi'n siŵr eich bod am wneud hyn?\n"
+"\n"
+
+#: ../userdrake:450
+#, c-format
+msgid "Putting %s to 'users' group"
+msgstr "Rhoi '%s' yn grŵp 'defnyddwyr'"
+
+#: ../userdrake:457
+#, c-format
+msgid "Creating new group: %s"
+msgstr "Creu grŵp newydd: %s"
+
+#: ../userdrake:466
+#, c-format
+msgid "Adding user: %s"
+msgstr "Ychwanegu defnyddiwr: %s"
+
+#: ../userdrake:478
+#, c-format
+msgid "Migration wizard"
+msgstr "Dewin mudo"
+
+#: ../userdrake:479
+#, c-format
+msgid ""
+"Do you want to run the migration wizard in order to import Windows documents "
+"and settings in your Mandriva Linux distribution?"
+msgstr ""
+"Hoffech chi redeg y dewin mudo er mwyn mewnforio eich holl dogfennau a'ch "
+"gosodiadau Windows i'ch dosbarthiad Mandriva Linux?"
+
+#: ../userdrake:484 ../userdrake:528 ../userdrake:587 ../userdrake:674
+#: ../userdrake:707 ../userdrake:1166
+#, c-format
+msgid "Cancel"
+msgstr "Dileu"
+
+#: ../userdrake:484 ../userdrake:521 ../userdrake:587 ../userdrake:1166
+#: ../userdrake:1317
+#, c-format
+msgid "Ok"
+msgstr "Iawn"
+
+#: ../userdrake:497
+#, c-format
+msgid "UID: "
+msgstr "UID: "
+
+#: ../userdrake:510
+#, c-format
+msgid "Choose group"
+msgstr "Dewis grŵp"
+
+#: ../userdrake:512 ../userdrake:513
+#, c-format
+msgid "Add to the existing group"
+msgstr "Ychwanegu at y grŵp presennol"
+
+#: ../userdrake:514
+#, c-format
+msgid "Add to the 'users' group"
+msgstr "Ychwanegu at y grŵp 'defnyddwyr'."
+
+#: ../userdrake:516
+#, c-format
+msgid "A group with this name already exists.  What would you like to do?"
+msgstr "Mae grŵp gyda'r enw hwn yn bodoli eisoes. Beth hoffech ei wneud?"
+
+#: ../userdrake:546
+#, c-format
+msgid "Create New Group"
+msgstr "Creu Grŵp Newydd"
+
+#: ../userdrake:551
+#, c-format
+msgid "Specify group ID manually"
+msgstr "Enwch enw'r grŵp gyda llaw"
+
+#: ../userdrake:567
+#, c-format
+msgid "Group already exists, please choose another Group Name"
+msgstr "Mae'r grŵp yn bodoli eisoes, dewiswch Enw Grŵp arall"
+
+#: ../userdrake:573
+#, c-format
+msgid " Group Gid is < 500"
+msgstr " Gid Grŵp < 500"
+
+#: ../userdrake:574
+#, c-format
+msgid ""
+"Creating a group with a GID less than 500 is not recommended.\n"
+" Are you sure you want to do this?\n"
+"\n"
+msgstr ""
+"Nid y'n cael ei argymell creu grŵp gyda llai na 500.\n"
+"Ydych chi'n siwr eich bod am wneud hyn?\n"
+"\n"
+
+#: ../userdrake:581
+#, c-format
+msgid "Adding group: %s "
+msgstr "Ychwanegu grŵp: %s"
+
+#: ../userdrake:591
+#, c-format
+msgid "GID: "
+msgstr "GID: "
+
+#: ../userdrake:636
+#, c-format
+msgid "Delete files or not?"
+msgstr "Dileu ffeil neu beidio?"
+
+#: ../userdrake:639
+#, c-format
+msgid ""
+"Deleting user %s\n"
+" Also perform the following actions\n"
+msgstr ""
+"Dileu defnyddiwr %s\n"
+" Hefyd cyflawni'r gweithredoedd canlynol\n"
+
+#: ../userdrake:641
+#, c-format
+msgid "Delete Home Directory: %s"
+msgstr "Dileu Cyfeiriadur Cartref: %s"
+
+#: ../userdrake:642
+#, c-format
+msgid "Delete Mailbox: /var/spool/mail/%s"
+msgstr "Dileu'r Blwch E-bost: /var/spool/mail/%s"
+
+#: ../userdrake:651
+#, c-format
+msgid "Removing user: %s"
+msgstr "Tynnu defnyddiwr: %s"
+
+#: ../userdrake:684
+#, c-format
+msgid "Do you really want to delete the group %s?"
+msgstr "Ydych chi wir eisiau dileu grŵp %s?"
+
+#: ../userdrake:697
+#, c-format
+msgid ""
+"%s is a primary group for user %s\n"
+" Remove the user first"
+msgstr ""
+"%s yw'r grŵp cynradd ar gyfer defnyddiwr %s\n"
+" Tynnwch y defnyddiwr yn gyntaf"
+
+#: ../userdrake:702
+#, c-format
+msgid "Removing group: %s"
+msgstr "Tynnu grŵp: %s"
+
+#: ../userdrake:798
+#, c-format
+msgid "Full Name:"
+msgstr "Enw Llawn:"
+
+#: ../userdrake:800
+#, c-format
+msgid "Login:"
+msgstr "Mewngofnod:"
+
+#: ../userdrake:802
+#, c-format
+msgid "Password:"
+msgstr "Cyfrinair:"
+
+#: ../userdrake:804
+#, c-format
+msgid "Confirm Password:"
+msgstr "Cadarnhau Cyfrinair:"
+
+#: ../userdrake:806
+#, c-format
+msgid "Login Shell:"
+msgstr "Cragen Mewngofnod:"
+
+#: ../userdrake:820
+#, c-format
+msgid "Group Name:"
+msgstr "Enw Grŵp:"
+
+#: ../userdrake:894
+#, c-format
+msgid "Please select at least one group for the user"
+msgstr "Dewiswch o leiaf un grŵp ar gyfer y defnyddiwr"
+
+#: ../userdrake:904
+#, c-format
+msgid ""
+"Please specify Year, Month and Day \n"
+" for Account Expiration "
+msgstr ""
+"Nodwch Flwyddyn, Mis a Diwrnod\n"
+"i'r Cyfrif Ddod i Ben"
+
+#: ../userdrake:914
+#, c-format
+msgid "Please fill up all fields in password aging\n"
+msgstr "Llanwch yr holl feysydd yn y cyfrinair eto\n"
+
+#: ../userdrake:965
+#, c-format
+msgid "You cannot remove user '%s' from their primary group"
+msgstr "Nid oes modd tynnu defnyddiwr '%s; o'u grŵp cynradd"
+
+#: ../userdrake:986
+#, c-format
+msgid "Home:"
+msgstr "Cartref:"
+
+#: ../userdrake:988
+#, c-format
+msgid "User Data"
+msgstr "Data Defnyddiwr"
+
+#: ../userdrake:992
+#, c-format
+msgid "Enable account expiration"
+msgstr "Galluogi trefnu'r cyfrif"
+
+#: ../userdrake:994
+#, c-format
+msgid "Account expires (YYYY-MM-DD):"
+msgstr "Cyfrif yn dod i ben: (BBBB-MMM-DD)"
+
+#: ../userdrake:1002
+#, c-format
+msgid "Lock User Account"
+msgstr "Cloi Cyfrif Defnyddiwr"
+
+#: ../userdrake:1005
+#, c-format
+msgid "Account Info"
+msgstr "Gwybodaeth Cyfrif"
+
+#: ../userdrake:1010
+#, c-format
+msgid "User last changed password on: "
+msgstr "Newidiodd y defnyddiwr gyfrinair ar:"
+
+#: ../userdrake:1017
+#, c-format
+msgid "Enable Password Expiration"
+msgstr "Galluogi Terfyn Amser i Gyfrinair"
+
+#: ../userdrake:1022
+#, c-format
+msgid "Days before change allowed:"
+msgstr "Diwrnod cyn caniatáu newid"
+
+#: ../userdrake:1024
+#, c-format
+msgid "Days before change required:"
+msgstr "Diwrnod cyn bo angen newid"
+
+#: ../userdrake:1026
+#, c-format
+msgid "Days warning before change:"
+msgstr "Dangos rhybudd cyn newid:"
+
+#: ../userdrake:1028
+#, c-format
+msgid "Days before account inactive:"
+msgstr "Diwrnod cyn i'r cyfrif ddod i ben:"
+
+#: ../userdrake:1031
+#, c-format
+msgid "Password Info"
+msgstr "Gwybodaeth am Gyfrinair"
+
+#: ../userdrake:1035
+#, c-format
+msgid "Select the groups that the user will be a member of:"
+msgstr "Dewis y grwpiau y bydd yr a defnyddiwr yn aelod ohonynt:"
+
+#: ../userdrake:1102
+#, c-format
+msgid "Group Data"
+msgstr "Data Grŵp"
+
+#: ../userdrake:1105
+#, c-format
+msgid "Select the users to join this group:"
+msgstr "Dewis defnyddwyr i ymuno â'r grŵp"
+
+#: ../userdrake:1107
+#, c-format
+msgid "Group Users"
+msgstr "Defnyddwyr Grwpiau"
+
+#: ../userdrake:1127
+#, c-format
+msgid "Edit Groups / Users"
+msgstr "Golygu Grwpiau / Defnyddwyr"
+
+#: ../userdrake:1159
+#, c-format
+msgid "An error occurred:"
+msgstr "Digwyddodd gwall:"
+
+#: ../userdrake:1267
+#, c-format
+msgid "Close"
+msgstr "Cau"
+
+#: ../userdrake:1277
+#, c-format
+msgid "Copyright (C) %s by Mandriva"
+msgstr "Hawlfraint (C) %s  Mandriva"
+
+#: ../userdrake:1280
+#, c-format
+msgid "Users Management"
+msgstr "Rheoli Defnyddwyr"
+
+#: ../userdrake:1282
+#, c-format
+msgid "Mandriva Linux"
+msgstr "Mandriva Linux"
+
+#. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
+#: ../userdrake:1288
+#, c-format
+msgid "_: Translator(s) name(s) & email(s)\n"
+msgstr "Rhoslyn Prys <post@meddal.com>\n"
+
+#: ../userdrake:1295
+#, c-format
+msgid "Name field is empty please provide a name"
+msgstr "Mae'r maes enw'n wag cynigwch enw"
+
+#: ../userdrake:1297
+#, c-format
+msgid ""
+"The name must contain only lower cased latin letters, numbers, `-' and `_'"
+msgstr ""
+"Rhaid i'r enw gynnwys dim ond llythrennau Lladinaidd bach, rhifau `-' a `_'"
+
+#: ../userdrake:1300
+#, c-format
+msgid "Name is too long"
+msgstr "Mae'r enw'n rhy hir"
+
+#: ../userdrake:1313
+#, c-format
+msgid "Error"
+msgstr "Gwall"
+
+#, fuzzy
+#~ msgid "Unknown error"
+#~ msgstr "gwall anhysbys"
+
+#, fuzzy
+#~ msgid "Error creating %s: %s.\n"
+#~ msgstr "Gwall greu `%s': %s"
+
+#~ msgid "Authors: "
+#~ msgstr "Awduron:"

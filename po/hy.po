@@ -1,0 +1,770 @@
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-02-02 03:03+0100\n"
+"PO-Revision-Date: 2004-03-16 02:28+0300\n"
+"Last-Translator: Artyom Abgaryan <tyoma@freenet.am>\n"
+"Language-Team: Arm <tyoma@freenet.am>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+
+#: ../USER/USER.xs:86
+#, c-format
+msgid "Error reading `%s': %s"
+msgstr ""
+
+#: ../USER/USER.xs:93 ../USER/USER.xs:526
+#, c-format
+msgid "Error creating `%s': %s"
+msgstr ""
+
+#: ../USER/USER.xs:205 ../USER/USER.xs:234 ../USER/USER.xs:250
+#, fuzzy, c-format
+msgid "Error removing `%s': %s"
+msgstr "Հեռացնում եմ %s օգտագործողին"
+
+#: ../USER/USER.xs:490
+#, c-format
+msgid "Account creation failed: '%s'.\n"
+msgstr ""
+
+#: ../USER/USER.xs:503
+msgid "Cannot get Uid number"
+msgstr ""
+
+#: ../USER/USER.xs:515
+msgid "Cannot retrieve value"
+msgstr ""
+
+#: ../USER/USER.xs:532
+msgid "Error creating mail spool.\n"
+msgstr ""
+
+#: ../USER/USER.xs:582
+#, c-format
+msgid "User could not be modified: '%s'.\n"
+msgstr ""
+
+#: ../USER/USER.xs:592
+#, c-format
+msgid "User Could Not be deleted: '%s'.\n"
+msgstr ""
+
+#: ../USER/USER.xs:618
+#, c-format
+msgid "Failed to set password: '%s'.\n"
+msgstr ""
+
+#: ../USER/USER.xs:618
+msgid "unknown error"
+msgstr ""
+
+#: ../USER/USER.xs:685
+msgid "Group creation failed.\n"
+msgstr ""
+
+#: ../USER/USER.xs:695
+#, c-format
+msgid "Group could not be modified: '%s'.\n"
+msgstr ""
+
+#: ../USER/USER.xs:705
+#, c-format
+msgid "Group could not be deleted: '%s'.\n"
+msgstr ""
+
+#: ../USER/USER.xs:863
+msgid "No home directory for the user.\n"
+msgstr ""
+
+#: ../USER/USER.xs:869 ../USER/USER.xs:871
+#, c-format
+msgid "Home Directory Could Not be deleted: '%s'.\n"
+msgstr ""
+
+#: ../USER/USER.xs:881
+msgid "Error deleting mail spool.\n"
+msgstr ""
+
+#: ../userdrake:59 ../userdrake:1275
+#, c-format
+msgid "Userdrake"
+msgstr "Userdrake"
+
+#: ../userdrake:64
+#, c-format
+msgid "Loading Users and Groups... Please wait"
+msgstr "Բեռնավորում եմ Գործածողների և Խմբերի ցանկը... Սպասեք"
+
+#: ../userdrake:83
+#, c-format
+msgid "Mandriva Linux Users Management Tool"
+msgstr "Mandriva Linux Գործածողների Կառավարման Գործիք"
+
+#: ../userdrake:96
+#, c-format
+msgid "/_Install guest account"
+msgstr ""
+
+#: ../userdrake:97
+#, c-format
+msgid "/_Uninstall guest account"
+msgstr ""
+
+#: ../userdrake:101 ../userdrake:102 ../userdrake:103 ../userdrake:114
+#: ../userdrake:115 ../userdrake:116
+#, c-format
+msgid "/_Actions"
+msgstr "/_Գործողություններ"
+
+#: ../userdrake:101
+#, c-format
+msgid "/_Edit"
+msgstr "/_Խմբագրում"
+
+#: ../userdrake:102
+#, c-format
+msgid "/_Delete"
+msgstr "/_Ջնջել"
+
+# ԾԾԾԾԾԾԾԾԾԾԾԾԾԾԾԾԾԾԾ
+#: ../userdrake:104 ../userdrake:120
+#, c-format
+msgid "/_Options"
+msgstr "/_Օպցիաներ"
+
+#: ../userdrake:104
+#, c-format
+msgid "/_Filter system users"
+msgstr "/_Ֆիլտրել համակարգի օգտագործողներին"
+
+#: ../userdrake:109 ../userdrake:110 ../userdrake:113
+#, c-format
+msgid "/_File"
+msgstr "/_Ֆայլ"
+
+#: ../userdrake:110
+#, c-format
+msgid "/_Refresh"
+msgstr "/_Թարմացնել"
+
+#: ../userdrake:113
+#, c-format
+msgid "/_Quit"
+msgstr "/_Անջատել"
+
+#: ../userdrake:113
+#, c-format
+msgid "<control>Q"
+msgstr "<control>Q"
+
+#: ../userdrake:115
+#, c-format
+msgid "/_Add User"
+msgstr "/_Ավելացնել Օգտագործող"
+
+#: ../userdrake:116
+#, c-format
+msgid "/Add _Group"
+msgstr "/Ավելացնել _Խումբ"
+
+#: ../userdrake:125 ../userdrake:126 ../userdrake:127 ../userdrake:130
+#, c-format
+msgid "/_Help"
+msgstr "/_Օգնություն"
+
+# ԾԾԾԾԾԾԾԾԾԾԾԾԾԾԾԾԾԾԾ
+#: ../userdrake:127
+#, c-format
+msgid "/_Report Bug"
+msgstr "/_Սխալի զեկուցում"
+
+#: ../userdrake:130
+#, c-format
+msgid "/_About..."
+msgstr "/_Ընդհանուր..."
+
+#: ../userdrake:148
+#, c-format
+msgid "Search:"
+msgstr "Փնտրել:"
+
+# :)
+#: ../userdrake:154
+#, c-format
+msgid "Apply filter"
+msgstr "Կիրառել զտիչ"
+
+#: ../userdrake:158
+#, c-format
+msgid "Users"
+msgstr "Օգտագործողներ"
+
+#: ../userdrake:162 ../userdrake:1041
+#, c-format
+msgid "Groups"
+msgstr "խմբեր"
+
+#. -PO: do not translate, this is already translated in mcc
+#: ../userdrake:168
+#, c-format
+msgid "Users and groups"
+msgstr ""
+
+#: ../userdrake:186
+#, c-format
+msgid "User Name"
+msgstr "Օգտագործողի անուն"
+
+#: ../userdrake:186
+#, c-format
+msgid "User ID"
+msgstr "Օգտագործողի ID"
+
+#: ../userdrake:186 ../userdrake:1038
+#, c-format
+msgid "Primary Group"
+msgstr "Գլխավոր խումբ"
+
+#: ../userdrake:187
+#, c-format
+msgid "Full Name"
+msgstr "Անունը ամբողջությամբ"
+
+#: ../userdrake:187
+#, c-format
+msgid "Login Shell"
+msgstr "Մուտքի միջավայր"
+
+#: ../userdrake:187
+#, c-format
+msgid "Home Directory"
+msgstr "Տնային թղթապանակ"
+
+#: ../userdrake:187
+#, c-format
+msgid "Status"
+msgstr "Վիճակ"
+
+#: ../userdrake:194
+#, c-format
+msgid "Group Name"
+msgstr "Խմբի անուն"
+
+#: ../userdrake:194
+#, c-format
+msgid "Group ID"
+msgstr "Խմբի ID"
+
+#: ../userdrake:194
+#, c-format
+msgid "Group Members"
+msgstr "Անդամների խումբ"
+
+#: ../userdrake:196
+#, c-format
+msgid "Add User"
+msgstr "Ավելացնել օգտագործող"
+
+#: ../userdrake:196
+#, c-format
+msgid "Add a user to the system"
+msgstr "Ավելացնել օգտագործողին համակարգին"
+
+#: ../userdrake:197
+#, c-format
+msgid "Add Group"
+msgstr "Ավելացնել խումբ"
+
+#: ../userdrake:197
+#, c-format
+msgid "Add a group to the system"
+msgstr "Ավելացնել խումբը համակարգին"
+
+#: ../userdrake:198 ../userdrake:739
+#, c-format
+msgid "Edit"
+msgstr "Խմբագրել"
+
+#: ../userdrake:198
+#, c-format
+msgid "Edit selected row"
+msgstr "Խմբագրել ընտրված տողը"
+
+#: ../userdrake:199 ../userdrake:674 ../userdrake:707 ../userdrake:739
+#, c-format
+msgid "Delete"
+msgstr "Ջնջել"
+
+#: ../userdrake:199
+#, c-format
+msgid "Delete selected row"
+msgstr "Ջնջել ընտրված տողը"
+
+#: ../userdrake:200
+#, c-format
+msgid "Refresh"
+msgstr "Թարմացնել"
+
+#: ../userdrake:200
+#, c-format
+msgid "Refresh the list"
+msgstr "Թարմացնել ցուցակը"
+
+#: ../userdrake:263
+#, c-format
+msgid "Locked"
+msgstr "Փակված է"
+
+#: ../userdrake:263
+#, c-format
+msgid "Expired"
+msgstr "Ժամկերը լրացել է"
+
+#: ../userdrake:339
+#, c-format
+msgid "Click on the icon to change it"
+msgstr "Սեղմեք նկարի վրա այն փոփոխելու համար"
+
+#: ../userdrake:385
+#, c-format
+msgid "Create New User"
+msgstr "Ստեղծել նոր օգտագոծող"
+
+#: ../userdrake:391
+#, c-format
+msgid "Create Home Directory"
+msgstr "Ստեղծել տնային թղթապանակ"
+
+#: ../userdrake:393
+#, c-format
+msgid "Home Directory: "
+msgstr "Տնային թղթապանակ:"
+
+#: ../userdrake:396
+#, c-format
+msgid "Create a private group for the user"
+msgstr "Ստեղծել առանձին խումբ օգտագործողի համար"
+
+#: ../userdrake:397
+#, c-format
+msgid "Specify user ID manually"
+msgstr "Նշել օգտագործողի ID-ն ձեռքով"
+
+#: ../userdrake:414
+#, c-format
+msgid "User already exists, please choose another User Name"
+msgstr "Օգտագործողը գոյություն ունի, ընտրեք մեկ այլ օգտագործողի անուն"
+
+#: ../userdrake:419 ../userdrake:860
+#, c-format
+msgid "Password Mismatch"
+msgstr "Գաղտնագրի անհամապատասխանություն"
+
+#: ../userdrake:422 ../userdrake:863
+#, c-format
+msgid ""
+"This password is too simple. \n"
+" Good passwords should be > 6 characters"
+msgstr ""
+"Գաղտնագիրը շատ հասարակ է: \n"
+" Լավ գաղտնագիրը պետք է պարունակի ավելի քան վեց նիշ"
+
+# ԾԾԾԾԾԾԾԾԾԾԾԾԾԾԾԾԾԾԾԾ
+#: ../userdrake:434
+#, c-format
+msgid "User Uid is < 500"
+msgstr "Օգտագործողի Uid-ը < 500"
+
+# ԾԾԾԾԾԾԾԾԾԾԾԾԾԾԾԾԾԾԾԾԾԾԾԾԾԾ
+#: ../userdrake:435
+#, c-format
+msgid ""
+"Creating a user with a UID less than 500 is not recommended.\n"
+" Are you sure you want to do this?\n"
+"\n"
+msgstr ""
+"Օգտագործողի ստեղծում 500-ից պակաս UID-ով խորհուրդ չի տրվում:\n"
+"Դուք համոզվա՞ծ եք, որ ուզում եք անել այդ\n"
+"\n"
+
+#: ../userdrake:450
+#, c-format
+msgid "Putting %s to 'users' group"
+msgstr "Տեղադրում եմ %s - ին 'օգտագործողներ' խմբում"
+
+#: ../userdrake:457
+#, c-format
+msgid "Creating new group: %s"
+msgstr "Ստեղծում եմ նոր խումբ: %s"
+
+#: ../userdrake:466
+#, c-format
+msgid "Adding user: %s"
+msgstr "Ավելագնում եմ %s օգտագործողին"
+
+#: ../userdrake:478
+#, c-format
+msgid "Migration wizard"
+msgstr ""
+
+#: ../userdrake:479
+#, c-format
+msgid ""
+"Do you want to run the migration wizard in order to import Windows documents "
+"and settings in your Mandriva Linux distribution?"
+msgstr ""
+
+#: ../userdrake:484 ../userdrake:528 ../userdrake:587 ../userdrake:674
+#: ../userdrake:707 ../userdrake:1166
+#, c-format
+msgid "Cancel"
+msgstr "Հրաժարվել"
+
+#: ../userdrake:484 ../userdrake:521 ../userdrake:587 ../userdrake:1166
+#: ../userdrake:1317
+#, c-format
+msgid "Ok"
+msgstr "Լավ"
+
+#: ../userdrake:497
+#, c-format
+msgid "UID: "
+msgstr "UID: "
+
+#: ../userdrake:510
+#, c-format
+msgid "Choose group"
+msgstr "Ընտրեք խումբը"
+
+#: ../userdrake:512 ../userdrake:513
+#, c-format
+msgid "Add to the existing group"
+msgstr "Ավելագնել գոյություն ունեցող խմբին"
+
+#: ../userdrake:514
+#, c-format
+msgid "Add to the 'users' group"
+msgstr "Ավելագնել  'օգտագործողներ' խմբին"
+
+# ԾԾԾԾԾԾԾԾԾԾ
+#: ../userdrake:516
+#, c-format
+msgid "A group with this name already exists.  What would you like to do?"
+msgstr "Խումբ այդպիսի անունով գոյություն ունի: Ին՞չ եք ուզում անել"
+
+#: ../userdrake:546
+#, c-format
+msgid "Create New Group"
+msgstr "Ստեղծել նոր խումբ"
+
+#: ../userdrake:551
+#, c-format
+msgid "Specify group ID manually"
+msgstr "Նշել խմբի ID ձեռքով"
+
+#: ../userdrake:567
+#, c-format
+msgid "Group already exists, please choose another Group Name"
+msgstr "Խումբը գոյություն ունի, ընտրեք խմբի մեկ այլ անուն"
+
+#: ../userdrake:573
+#, c-format
+msgid " Group Gid is < 500"
+msgstr "Խմբի GID-ը < 500"
+
+# Նոր ջան մի հատ  նայի ես ինչ եմ արե :)
+#: ../userdrake:574
+#, c-format
+msgid ""
+"Creating a group with a GID less than 500 is not recommended.\n"
+" Are you sure you want to do this?\n"
+"\n"
+msgstr ""
+"Ստեղծել խմբեր 500-ից փոքր GID-ով խորհուրդ չի տրվում:\n"
+"Դուք համոզվա՞ծ եք, որ ուզում եք անել այդ\n"
+"\n"
+
+#: ../userdrake:581
+#, c-format
+msgid "Adding group: %s "
+msgstr "Ավելացնում եմ %s խումբը"
+
+#: ../userdrake:591
+#, c-format
+msgid "GID: "
+msgstr "GID: "
+
+#: ../userdrake:636
+#, c-format
+msgid "Delete files or not?"
+msgstr "Ջնջել ֆայլերը թե ոչ"
+
+#: ../userdrake:639
+#, c-format
+msgid ""
+"Deleting user %s\n"
+" Also perform the following actions\n"
+msgstr ""
+"Ջնջում եմ %s օգտագործողին\n"
+" Նաև կատարվում եմ հետևյալ գործողությունները\n"
+
+#: ../userdrake:641
+#, c-format
+msgid "Delete Home Directory: %s"
+msgstr "Ջնջել Տնային %s թղթապանակը"
+
+#: ../userdrake:642
+#, c-format
+msgid "Delete Mailbox: /var/spool/mail/%s"
+msgstr "Ջնջել փոստարկղը :/var/spool/mail/%s"
+
+#: ../userdrake:651
+#, c-format
+msgid "Removing user: %s"
+msgstr "Հեռացնում եմ %s օգտագործողին"
+
+#: ../userdrake:684
+#, c-format
+msgid "Do you really want to delete the group %s?"
+msgstr "Դուք իսկապես ուզում եք ջնջել %s խումբը"
+
+#: ../userdrake:697
+#, c-format
+msgid ""
+"%s is a primary group for user %s\n"
+" Remove the user first"
+msgstr ""
+"%s-ը գլխավոր խումբ է %s օտագորողի համար\n"
+" Սկզբից հեռացրեք օգտագործողին"
+
+#: ../userdrake:702
+#, c-format
+msgid "Removing group: %s"
+msgstr "Հեռացնում եմ %s խումբը"
+
+#: ../userdrake:798
+#, c-format
+msgid "Full Name:"
+msgstr "Անունը ամբողջությամբ:"
+
+#: ../userdrake:800
+#, c-format
+msgid "Login:"
+msgstr "Մուտքանուն:"
+
+#: ../userdrake:802
+#, c-format
+msgid "Password:"
+msgstr "Գաղտնագիր:"
+
+# ԾԾԾԾԾԾԾԾԾԾԾԾԾԾ
+#: ../userdrake:804
+#, c-format
+msgid "Confirm Password:"
+msgstr "Գրեք կրկին գաղտնագիրը"
+
+#: ../userdrake:806
+#, c-format
+msgid "Login Shell:"
+msgstr "Մուտքի միջավայր:"
+
+#: ../userdrake:820
+#, c-format
+msgid "Group Name:"
+msgstr "Խմբի անուն:"
+
+#: ../userdrake:894
+#, c-format
+msgid "Please select at least one group for the user"
+msgstr "Ընտրեք գոնե մեկ խումբ օգտագործողի համար"
+
+# ԾԾԾԾԾԾԾԾԾԾԾԾԾԾԾԾԾԾԾԾԾԾ
+#: ../userdrake:904
+#, c-format
+msgid ""
+"Please specify Year, Month and Day \n"
+" for Account Expiration "
+msgstr ""
+"Նշեք հաշիվը փակելու \n"
+"Տարին,Ամիսը և Օրը"
+
+#: ../userdrake:914
+#, c-format
+msgid "Please fill up all fields in password aging\n"
+msgstr "Լրացրեք բոլոր դաշտերը գաղտնագրի ժամկետի համար\n"
+
+#: ../userdrake:965
+#, c-format
+msgid "You cannot remove user '%s' from their primary group"
+msgstr "Դուք չեք կարող հեռացնել '%s' օգտագործողին նրա գլխավոր խմբից"
+
+#: ../userdrake:986
+#, c-format
+msgid "Home:"
+msgstr "Տուն:"
+
+#: ../userdrake:988
+#, c-format
+msgid "User Data"
+msgstr "Օգտագործողի տվյալներ"
+
+#: ../userdrake:992
+#, c-format
+msgid "Enable account expiration"
+msgstr "Միացնել հաշվի ժամկետի լրացումը"
+
+#: ../userdrake:994
+#, c-format
+msgid "Account expires (YYYY-MM-DD):"
+msgstr "Հաշվի ժանմկետը լրանում է (YYYY-MM-DD):"
+
+#: ../userdrake:1002
+#, c-format
+msgid "Lock User Account"
+msgstr "Փակել օգտագործողի հաշիվը"
+
+#: ../userdrake:1005
+#, c-format
+msgid "Account Info"
+msgstr "Հաշվի տվյալներ"
+
+#: ../userdrake:1010
+#, c-format
+msgid "User last changed password on: "
+msgstr "Օգտագործողը վերջին անգամ գաղտնաբառը փոխել է:"
+
+# ԾԾԾԾԾԾԾԾԾԾԾԾԾԾԾ
+#: ../userdrake:1017
+#, c-format
+msgid "Enable Password Expiration"
+msgstr "Միացնել գաղտնագրի ժամկետի լրացումը"
+
+#: ../userdrake:1022
+#, c-format
+msgid "Days before change allowed:"
+msgstr "Քանի օր հետո թույլատրել փոփոխությունները:"
+
+#: ../userdrake:1024
+#, c-format
+msgid "Days before change required:"
+msgstr "Քանի օր հետո պահանջել փոփոխություն:"
+
+#: ../userdrake:1026
+#, c-format
+msgid "Days warning before change:"
+msgstr ""
+"Քանի օրվա ընթացքում նախօրոք զգուշացնել\n"
+" փոփոխությունների համար :"
+
+# ԾԾԾԾԾԾԾԾԾԾԾԾԾԾԾԾ
+#: ../userdrake:1028
+#, c-format
+msgid "Days before account inactive:"
+msgstr "Օրերի քանակը մինչ հաշվի անջատումը:"
+
+#: ../userdrake:1031
+#, c-format
+msgid "Password Info"
+msgstr "Գաղտնաբառի Տվյալներ"
+
+#: ../userdrake:1035
+#, c-format
+msgid "Select the groups that the user will be a member of:"
+msgstr "Ընտրեք խումբը, որի անդամ պետք է լինի օգտագործողը:"
+
+#: ../userdrake:1102
+#, c-format
+msgid "Group Data"
+msgstr "Խմբի Տվյալներ"
+
+#: ../userdrake:1105
+#, c-format
+msgid "Select the users to join this group:"
+msgstr "Ընտրեք օգտագործողներին, որոնք վայելելու են այս խումբը"
+
+#: ../userdrake:1107
+#, c-format
+msgid "Group Users"
+msgstr "Խմբի օգտագործողներ"
+
+#: ../userdrake:1127
+#, c-format
+msgid "Edit Groups / Users"
+msgstr "Խմբագրել Խմերը/Օգտագործողներին"
+
+#: ../userdrake:1159
+#, c-format
+msgid "An error occurred:"
+msgstr ""
+
+#: ../userdrake:1267
+#, c-format
+msgid "Close"
+msgstr "Փակել"
+
+#: ../userdrake:1277
+#, c-format
+msgid "Copyright (C) %s by Mandriva"
+msgstr ""
+
+#: ../userdrake:1280
+#, c-format
+msgid "Users Management"
+msgstr "Օգտագործողների կառավարում"
+
+#: ../userdrake:1282
+#, c-format
+msgid "Mandriva Linux"
+msgstr ""
+
+#. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
+#: ../userdrake:1288
+#, c-format
+msgid "_: Translator(s) name(s) & email(s)\n"
+msgstr ""
+
+#: ../userdrake:1295
+#, c-format
+msgid "Name field is empty please provide a name"
+msgstr "Անվան դաշտը դատարկ է, գրեք որևէ անուն"
+
+#: ../userdrake:1297
+#, c-format
+msgid ""
+"The name must contain only lower cased latin letters, numbers, `-' and `_'"
+msgstr ""
+"Անունը կարող է պարունակի միայն փոքրատառ լատիներեն տառեր, թվեր, `-' և `_' "
+"նշաններ"
+
+#: ../userdrake:1300
+#, c-format
+msgid "Name is too long"
+msgstr "Անունը շատ երկար է"
+
+#: ../userdrake:1313
+#, c-format
+msgid "Error"
+msgstr "Սխալ"
+
+#, fuzzy
+#~ msgid "Error creating %s: %s.\n"
+#~ msgstr "Հեռացնում եմ %s օգտագործողին"
+
+#~ msgid "Authors: "
+#~ msgstr "Հեղինակներ."
+
+#~ msgid "Choice"
+#~ msgstr "Ընտրություն"
+
+#~ msgid "Yes"
+#~ msgstr "Այո"
+
+#~ msgid "No"
+#~ msgstr "Ոչ"

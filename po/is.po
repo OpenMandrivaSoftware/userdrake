@@ -1,0 +1,754 @@
+# Icelandic translation of userdrake2.po
+# translation of userdrake-is.po to Icelandic
+# translation of userdrake.po to Icelandic
+# Copyright (C) 2003, 2005, 2009 Free Software Foundation, Inc.
+#
+# Pjetur G. Hjaltason <pjetur@pjetur.net>, 2003, 2005, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: userdrake2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-02-02 03:03+0100\n"
+"PO-Revision-Date: 2009-04-08 23:53+0000\n"
+"Last-Translator: Pjetur G. Hjaltason <pjetur@pjetur.net>\n"
+"Language-Team: Icelandic <kde-isl@molar.is>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../USER/USER.xs:86
+#, c-format
+msgid "Error reading `%s': %s"
+msgstr "Villa við lestur `%s': %s"
+
+#: ../USER/USER.xs:93 ../USER/USER.xs:526
+#, c-format
+msgid "Error creating `%s': %s"
+msgstr "Villa við að búa til `%s': %s"
+
+#: ../USER/USER.xs:205 ../USER/USER.xs:234 ../USER/USER.xs:250
+#, c-format
+msgid "Error removing `%s': %s"
+msgstr "Villa við að eyða `%s': %s"
+
+#: ../USER/USER.xs:490
+#, fuzzy, c-format
+msgid "Account creation failed: '%s'.\n"
+msgstr "Villa við að búa til pósthólf.\n"
+
+#: ../USER/USER.xs:503
+msgid "Cannot get Uid number"
+msgstr ""
+
+#: ../USER/USER.xs:515
+msgid "Cannot retrieve value"
+msgstr ""
+
+#: ../USER/USER.xs:532
+msgid "Error creating mail spool.\n"
+msgstr "Villa við að búa til pósthólf.\n"
+
+#: ../USER/USER.xs:582
+#, fuzzy, c-format
+msgid "User could not be modified: '%s'.\n"
+msgstr "Villa við að búa til pósthólf.\n"
+
+#: ../USER/USER.xs:592
+#, c-format
+msgid "User Could Not be deleted: '%s'.\n"
+msgstr ""
+
+#: ../USER/USER.xs:618
+#, c-format
+msgid "Failed to set password: '%s'.\n"
+msgstr ""
+
+#: ../USER/USER.xs:618
+msgid "unknown error"
+msgstr "óþekkt villa"
+
+#: ../USER/USER.xs:685
+#, fuzzy
+msgid "Group creation failed.\n"
+msgstr "Villa við að búa til pósthólf.\n"
+
+#: ../USER/USER.xs:695
+#, c-format
+msgid "Group could not be modified: '%s'.\n"
+msgstr ""
+
+#: ../USER/USER.xs:705
+#, c-format
+msgid "Group could not be deleted: '%s'.\n"
+msgstr ""
+
+#: ../USER/USER.xs:863
+msgid "No home directory for the user.\n"
+msgstr ""
+
+#: ../USER/USER.xs:869 ../USER/USER.xs:871
+#, c-format
+msgid "Home Directory Could Not be deleted: '%s'.\n"
+msgstr ""
+
+#: ../USER/USER.xs:881
+msgid "Error deleting mail spool.\n"
+msgstr "Villa við að eyða pósthólfi.\n"
+
+#: ../userdrake:59 ../userdrake:1275
+#, c-format
+msgid "Userdrake"
+msgstr "Userdrake"
+
+#: ../userdrake:64
+#, c-format
+msgid "Loading Users and Groups... Please wait"
+msgstr "Hleð inn notendum og hópum... Augnablik... "
+
+#: ../userdrake:83
+#, c-format
+msgid "Mandriva Linux Users Management Tool"
+msgstr "Mandriva Linux Notandastjórnun"
+
+#: ../userdrake:96
+#, c-format
+msgid "/_Install guest account"
+msgstr ""
+
+#: ../userdrake:97
+#, c-format
+msgid "/_Uninstall guest account"
+msgstr ""
+
+#: ../userdrake:101 ../userdrake:102 ../userdrake:103 ../userdrake:114
+#: ../userdrake:115 ../userdrake:116
+#, c-format
+msgid "/_Actions"
+msgstr "/_Aðgerðir"
+
+#: ../userdrake:101
+#, c-format
+msgid "/_Edit"
+msgstr "/_Sýsl"
+
+#: ../userdrake:102
+#, c-format
+msgid "/_Delete"
+msgstr "/_Eyða"
+
+#: ../userdrake:104 ../userdrake:120
+#, c-format
+msgid "/_Options"
+msgstr "/_Valkostir"
+
+#: ../userdrake:104
+#, c-format
+msgid "/_Filter system users"
+msgstr "/_Sía kerfisnotendur"
+
+#: ../userdrake:109 ../userdrake:110 ../userdrake:113
+#, c-format
+msgid "/_File"
+msgstr "/_Skrá"
+
+#: ../userdrake:110
+#, c-format
+msgid "/_Refresh"
+msgstr "/_Endurnýja"
+
+#: ../userdrake:113
+#, c-format
+msgid "/_Quit"
+msgstr "/_Hætta"
+
+#: ../userdrake:113
+#, c-format
+msgid "<control>Q"
+msgstr "<control>Q"
+
+#: ../userdrake:115
+#, c-format
+msgid "/_Add User"
+msgstr "/_Bæta við notanda"
+
+#: ../userdrake:116
+#, c-format
+msgid "/Add _Group"
+msgstr "/Bæta við _Hópi"
+
+#: ../userdrake:125 ../userdrake:126 ../userdrake:127 ../userdrake:130
+#, c-format
+msgid "/_Help"
+msgstr "/_Hjálp"
+
+#: ../userdrake:127
+#, c-format
+msgid "/_Report Bug"
+msgstr "/_Senda villutilkynningu"
+
+#: ../userdrake:130
+#, c-format
+msgid "/_About..."
+msgstr "/_Um..."
+
+#: ../userdrake:148
+#, c-format
+msgid "Search:"
+msgstr "Leita:"
+
+#: ../userdrake:154
+#, c-format
+msgid "Apply filter"
+msgstr "Beita síu"
+
+#: ../userdrake:158
+#, c-format
+msgid "Users"
+msgstr "Notendur"
+
+#: ../userdrake:162 ../userdrake:1041
+#, c-format
+msgid "Groups"
+msgstr "Hópar"
+
+#. -PO: do not translate, this is already translated in mcc
+#: ../userdrake:168
+#, c-format
+msgid "Users and groups"
+msgstr "Notendur og hópar"
+
+#: ../userdrake:186
+#, c-format
+msgid "User Name"
+msgstr "Notandanafn"
+
+#: ../userdrake:186
+#, c-format
+msgid "User ID"
+msgstr "Notanda-númer (UID)"
+
+#: ../userdrake:186 ../userdrake:1038
+#, c-format
+msgid "Primary Group"
+msgstr "Aðalhópur"
+
+#: ../userdrake:187
+#, c-format
+msgid "Full Name"
+msgstr "Fullt nafn"
+
+#: ../userdrake:187
+#, c-format
+msgid "Login Shell"
+msgstr "Skel"
+
+#: ../userdrake:187
+#, c-format
+msgid "Home Directory"
+msgstr "Heimamappa"
+
+#: ../userdrake:187
+#, c-format
+msgid "Status"
+msgstr "Staða"
+
+#: ../userdrake:194
+#, c-format
+msgid "Group Name"
+msgstr "Nafn hóps"
+
+#: ../userdrake:194
+#, c-format
+msgid "Group ID"
+msgstr "Hópnúmer (GID)"
+
+#: ../userdrake:194
+#, c-format
+msgid "Group Members"
+msgstr "Meðlimir hóps"
+
+#: ../userdrake:196
+#, c-format
+msgid "Add User"
+msgstr "Bæta við notanda"
+
+#: ../userdrake:196
+#, c-format
+msgid "Add a user to the system"
+msgstr "Bæta notanda við kerfið"
+
+#: ../userdrake:197
+#, c-format
+msgid "Add Group"
+msgstr "Bæta við hópi"
+
+#: ../userdrake:197
+#, c-format
+msgid "Add a group to the system"
+msgstr "Bæta við hópi í kerfið"
+
+#: ../userdrake:198 ../userdrake:739
+#, c-format
+msgid "Edit"
+msgstr "Sýsl"
+
+#: ../userdrake:198
+#, c-format
+msgid "Edit selected row"
+msgstr "Sýsla með valda línu"
+
+#: ../userdrake:199 ../userdrake:674 ../userdrake:707 ../userdrake:739
+#, c-format
+msgid "Delete"
+msgstr "Eyða"
+
+#: ../userdrake:199
+#, c-format
+msgid "Delete selected row"
+msgstr "Eyða valinni línu"
+
+#: ../userdrake:200
+#, c-format
+msgid "Refresh"
+msgstr "Endurnýja"
+
+#: ../userdrake:200
+#, c-format
+msgid "Refresh the list"
+msgstr "Uppfæra lista"
+
+#: ../userdrake:263
+#, c-format
+msgid "Locked"
+msgstr "Læst"
+
+#: ../userdrake:263
+#, c-format
+msgid "Expired"
+msgstr "Útrunninn"
+
+#: ../userdrake:339
+#, c-format
+msgid "Click on the icon to change it"
+msgstr "Smelltu á táknmyndina til að breyta"
+
+#: ../userdrake:385
+#, c-format
+msgid "Create New User"
+msgstr "Búa til nýja notanda"
+
+#: ../userdrake:391
+#, c-format
+msgid "Create Home Directory"
+msgstr "Búa til heimasvæði"
+
+#: ../userdrake:393
+#, c-format
+msgid "Home Directory: "
+msgstr "Heimamappa: "
+
+#: ../userdrake:396
+#, c-format
+msgid "Create a private group for the user"
+msgstr "Búa til einkahóp fyrir notandann"
+
+#: ../userdrake:397
+#, c-format
+msgid "Specify user ID manually"
+msgstr "Ákvarða sjálfur númer notanda"
+
+#: ../userdrake:414
+#, c-format
+msgid "User already exists, please choose another User Name"
+msgstr "Notandi þegar til, veldu annað notandanafn"
+
+#: ../userdrake:419 ../userdrake:860
+#, c-format
+msgid "Password Mismatch"
+msgstr "Lykilorð eru ekki eins"
+
+#: ../userdrake:422 ../userdrake:863
+#, c-format
+msgid ""
+"This password is too simple. \n"
+" Good passwords should be > 6 characters"
+msgstr ""
+"Þetta lykilorð er of einfalt. \n"
+" Góð lykilorð ættu að vera > 6 bókstafir"
+
+#: ../userdrake:434
+#, c-format
+msgid "User Uid is < 500"
+msgstr "Notandanúmer < 500"
+
+#: ../userdrake:435
+#, c-format
+msgid ""
+"Creating a user with a UID less than 500 is not recommended.\n"
+" Are you sure you want to do this?\n"
+"\n"
+msgstr ""
+"Ekki er mælt með að búa til notanda með notandanúmer (UID) minna en 500.\n"
+"Ert þú viss um að þú viljir gera þetta?\n"
+"\n"
+
+#: ../userdrake:450
+#, c-format
+msgid "Putting %s to 'users' group"
+msgstr "Setja %s í 'notanda' hóp"
+
+#: ../userdrake:457
+#, c-format
+msgid "Creating new group: %s"
+msgstr "Búa til nýjan hóp: %s"
+
+#: ../userdrake:466
+#, c-format
+msgid "Adding user: %s"
+msgstr "Bæta við notanda: %s"
+
+#: ../userdrake:478
+#, c-format
+msgid "Migration wizard"
+msgstr "Flutnings-ráðgjafi"
+
+#: ../userdrake:479
+#, c-format
+msgid ""
+"Do you want to run the migration wizard in order to import Windows documents "
+"and settings in your Mandriva Linux distribution?"
+msgstr ""
+"Vilt þú keyra flutnings-ráðgjafann til að flytja inn Windows skrár og "
+"uppsetningar yfir í Mandriva Linux dreifinguna þína?"
+
+#: ../userdrake:484 ../userdrake:528 ../userdrake:587 ../userdrake:674
+#: ../userdrake:707 ../userdrake:1166
+#, c-format
+msgid "Cancel"
+msgstr "Hætta við"
+
+#: ../userdrake:484 ../userdrake:521 ../userdrake:587 ../userdrake:1166
+#: ../userdrake:1317
+#, c-format
+msgid "Ok"
+msgstr "Í lagi"
+
+#: ../userdrake:497
+#, c-format
+msgid "UID: "
+msgstr "UID: "
+
+#: ../userdrake:510
+#, c-format
+msgid "Choose group"
+msgstr "Veldu hóp"
+
+#: ../userdrake:512 ../userdrake:513
+#, c-format
+msgid "Add to the existing group"
+msgstr "Bæta við hóp sem er til"
+
+#: ../userdrake:514
+#, c-format
+msgid "Add to the 'users' group"
+msgstr "Bæta í 'notanda' hópinn"
+
+#: ../userdrake:516
+#, c-format
+msgid "A group with this name already exists.  What would you like to do?"
+msgstr "Hópur með þessu nafni er þegar til.  Hvað vilt þú gera?"
+
+#: ../userdrake:546
+#, c-format
+msgid "Create New Group"
+msgstr "Búa til nýjan hóp"
+
+#: ../userdrake:551
+#, c-format
+msgid "Specify group ID manually"
+msgstr "Ákvarða sjálfur númer hóps"
+
+#: ../userdrake:567
+#, c-format
+msgid "Group already exists, please choose another Group Name"
+msgstr "Hópur er þegar til, veldu annað hópnafn"
+
+#: ../userdrake:573
+#, c-format
+msgid " Group Gid is < 500"
+msgstr " Hópnúmer er < 500"
+
+#: ../userdrake:574
+#, c-format
+msgid ""
+"Creating a group with a GID less than 500 is not recommended.\n"
+" Are you sure you want to do this?\n"
+"\n"
+msgstr ""
+"Ekki er mælt með því að búa til hóp með hópnúmeri (GID) minna en 500.\n"
+" Ert þú viss um að þú viljir gera þetta?\n"
+"\n"
+
+#: ../userdrake:581
+#, c-format
+msgid "Adding group: %s "
+msgstr "Bæta við hóp: %s "
+
+#: ../userdrake:591
+#, c-format
+msgid "GID: "
+msgstr "GID: "
+
+#: ../userdrake:636
+#, c-format
+msgid "Delete files or not?"
+msgstr "Eyða skrám eða ekki?"
+
+#: ../userdrake:639
+#, c-format
+msgid ""
+"Deleting user %s\n"
+" Also perform the following actions\n"
+msgstr ""
+"Eyði notanda %s\n"
+" Framkvæma einnig eftirfarandi aðgerðir\n"
+
+#: ../userdrake:641
+#, c-format
+msgid "Delete Home Directory: %s"
+msgstr "Eyða heimasvæði: %s"
+
+#: ../userdrake:642
+#, c-format
+msgid "Delete Mailbox: /var/spool/mail/%s"
+msgstr "Eyða Pósthólfi: /var/spool/mail/%s"
+
+#: ../userdrake:651
+#, c-format
+msgid "Removing user: %s"
+msgstr "Fjarlægi notanda: %s"
+
+#: ../userdrake:684
+#, c-format
+msgid "Do you really want to delete the group %s?"
+msgstr "Viltu í alvöru eyða hópi %s?"
+
+#: ../userdrake:697
+#, c-format
+msgid ""
+"%s is a primary group for user %s\n"
+" Remove the user first"
+msgstr ""
+"%s er aðalhópur fyrir notanda %s\n"
+" Fjarlægðu notanda fyrst"
+
+#: ../userdrake:702
+#, c-format
+msgid "Removing group: %s"
+msgstr "Fjarlægi hóp: %s"
+
+#: ../userdrake:798
+#, c-format
+msgid "Full Name:"
+msgstr "Fullt nafn:"
+
+#: ../userdrake:800
+#, c-format
+msgid "Login:"
+msgstr "Notandi:"
+
+#: ../userdrake:802
+#, c-format
+msgid "Password:"
+msgstr "Lykilorð:"
+
+#: ../userdrake:804
+#, c-format
+msgid "Confirm Password:"
+msgstr "Staðfestu lykilorð:"
+
+#: ../userdrake:806
+#, c-format
+msgid "Login Shell:"
+msgstr "Skel:"
+
+#: ../userdrake:820
+#, c-format
+msgid "Group Name:"
+msgstr "Nafn hóps:"
+
+#: ../userdrake:894
+#, c-format
+msgid "Please select at least one group for the user"
+msgstr "Veldu a.m.k. einn hóp fyrir notandann"
+
+#: ../userdrake:904
+#, c-format
+msgid ""
+"Please specify Year, Month and Day \n"
+" for Account Expiration "
+msgstr ""
+"Tilgreindu Ár, mánuð og dag \n"
+" fyrir úreldingu aðkennis "
+
+#: ../userdrake:914
+#, c-format
+msgid "Please fill up all fields in password aging\n"
+msgstr "Fylltu í öll svæðin fyrir úreldingu lykilorðs\n"
+
+#: ../userdrake:965
+#, c-format
+msgid "You cannot remove user '%s' from their primary group"
+msgstr "Þú getur ekki fjarlægt notanda '%s' úr sínum aðalhóp"
+
+#: ../userdrake:986
+#, c-format
+msgid "Home:"
+msgstr "Heima:"
+
+#: ../userdrake:988
+#, c-format
+msgid "User Data"
+msgstr "Gögn notanda"
+
+#: ../userdrake:992
+#, c-format
+msgid "Enable account expiration"
+msgstr "Virkja auðkennis-úreldingu"
+
+#: ../userdrake:994
+#, c-format
+msgid "Account expires (YYYY-MM-DD):"
+msgstr "Auðkenni úreldist (YYYY-MM-DD):"
+
+#: ../userdrake:1002
+#, c-format
+msgid "Lock User Account"
+msgstr "Læsa auðkenni notanda"
+
+#: ../userdrake:1005
+#, c-format
+msgid "Account Info"
+msgstr "Auðkennis-upplýsingar"
+
+#: ../userdrake:1010
+#, c-format
+msgid "User last changed password on: "
+msgstr "Notandi breytti lykilorði þann: "
+
+#: ../userdrake:1017
+#, c-format
+msgid "Enable Password Expiration"
+msgstr "Virkja lykilorðs-úreldingu"
+
+#: ../userdrake:1022
+#, c-format
+msgid "Days before change allowed:"
+msgstr "Dagar þar til breyting leyfð:"
+
+#: ../userdrake:1024
+#, c-format
+msgid "Days before change required:"
+msgstr "Dagar þar til breytingar krafist:"
+
+#: ../userdrake:1026
+#, c-format
+msgid "Days warning before change:"
+msgstr "Aðvara um breytingu dögum áður:"
+
+#: ../userdrake:1028
+#, c-format
+msgid "Days before account inactive:"
+msgstr "Dagar áður en auðkenni óvirkt:"
+
+#: ../userdrake:1031
+#, c-format
+msgid "Password Info"
+msgstr "Lykilorðs-upplýsingar"
+
+#: ../userdrake:1035
+#, c-format
+msgid "Select the groups that the user will be a member of:"
+msgstr "Veldu hópa sem notandinn verður meðlimur í:"
+
+#: ../userdrake:1102
+#, c-format
+msgid "Group Data"
+msgstr "Hópupplýsingar"
+
+#: ../userdrake:1105
+#, c-format
+msgid "Select the users to join this group:"
+msgstr "Veljið notendur í þennan hóp:"
+
+#: ../userdrake:1107
+#, c-format
+msgid "Group Users"
+msgstr "Notendur í hóp"
+
+#: ../userdrake:1127
+#, c-format
+msgid "Edit Groups / Users"
+msgstr "Sýsla með Hópa / Notendur"
+
+#: ../userdrake:1159
+#, c-format
+msgid "An error occurred:"
+msgstr "Villa kom upp:"
+
+#: ../userdrake:1267
+#, c-format
+msgid "Close"
+msgstr "Loka"
+
+#: ../userdrake:1277
+#, c-format
+msgid "Copyright (C) %s by Mandriva"
+msgstr "Höfundaréttur (C) %s Mandriva"
+
+#: ../userdrake:1280
+#, c-format
+msgid "Users Management"
+msgstr "Notandastjórnun"
+
+#: ../userdrake:1282
+#, c-format
+msgid "Mandriva Linux"
+msgstr "Mandriva Linux"
+
+#. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
+#: ../userdrake:1288
+#, c-format
+msgid "_: Translator(s) name(s) & email(s)\n"
+msgstr "Pjetur G. Hjaltason <pjetur@pjetur.net>\n"
+
+#: ../userdrake:1295
+#, c-format
+msgid "Name field is empty please provide a name"
+msgstr "Nafnsvæði er autt, gefðu upp nafn"
+
+#: ../userdrake:1297
+#, c-format
+msgid ""
+"The name must contain only lower cased latin letters, numbers, `-' and `_'"
+msgstr "Nafnið má aðeins innihalda litla bókstafi, tölur `-' og `_'"
+
+#: ../userdrake:1300
+#, c-format
+msgid "Name is too long"
+msgstr "Nafn er of langt"
+
+#: ../userdrake:1313
+#, c-format
+msgid "Error"
+msgstr "Villa"
+
+#, fuzzy
+#~ msgid "Unknown error"
+#~ msgstr "óþekkt villa"
+
+#, fuzzy
+#~ msgid "Error creating %s: %s.\n"
+#~ msgstr "Villa við að búa til `%s': %s"

@@ -1,0 +1,755 @@
+# translation of userdrake-fa.po to Persian
+# translation of userdrake.po to Persian
+# This file is distributed under the same license as the PACKAGE package.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER.
+# Abbas Izad <abbasizad@hotmail.com>, 2003, 2004.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: userdrake-fa\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-02-02 03:03+0100\n"
+"PO-Revision-Date: 2004-09-26 14:46+0330\n"
+"Last-Translator: Abbas Izad <abbasizad@hotmail.com>\n"
+"Language-Team: Persian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.3\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../USER/USER.xs:86
+#, c-format
+msgid "Error reading `%s': %s"
+msgstr "خطا در خواندن `%s': %s"
+
+#: ../USER/USER.xs:93 ../USER/USER.xs:526
+#, c-format
+msgid "Error creating `%s': %s"
+msgstr "خطا در ایجاد کردن `%s': %s"
+
+#: ../USER/USER.xs:205 ../USER/USER.xs:234 ../USER/USER.xs:250
+#, c-format
+msgid "Error removing `%s': %s"
+msgstr "خطا در برداشتن `%s': %s"
+
+#: ../USER/USER.xs:490
+#, fuzzy, c-format
+msgid "Account creation failed: '%s'.\n"
+msgstr "خطا در ایجاد کردن چرخه‌ی پست.\n"
+
+#: ../USER/USER.xs:503
+msgid "Cannot get Uid number"
+msgstr ""
+
+#: ../USER/USER.xs:515
+msgid "Cannot retrieve value"
+msgstr ""
+
+#: ../USER/USER.xs:532
+msgid "Error creating mail spool.\n"
+msgstr "خطا در ایجاد کردن چرخه‌ی پست.\n"
+
+#: ../USER/USER.xs:582
+#, fuzzy, c-format
+msgid "User could not be modified: '%s'.\n"
+msgstr "خطا در ایجاد کردن چرخه‌ی پست.\n"
+
+#: ../USER/USER.xs:592
+#, c-format
+msgid "User Could Not be deleted: '%s'.\n"
+msgstr ""
+
+#: ../USER/USER.xs:618
+#, c-format
+msgid "Failed to set password: '%s'.\n"
+msgstr ""
+
+#: ../USER/USER.xs:618
+msgid "unknown error"
+msgstr "خطای ناشناخته"
+
+#: ../USER/USER.xs:685
+#, fuzzy
+msgid "Group creation failed.\n"
+msgstr "خطا در ایجاد کردن چرخه‌ی پست.\n"
+
+#: ../USER/USER.xs:695
+#, c-format
+msgid "Group could not be modified: '%s'.\n"
+msgstr ""
+
+#: ../USER/USER.xs:705
+#, c-format
+msgid "Group could not be deleted: '%s'.\n"
+msgstr ""
+
+#: ../USER/USER.xs:863
+msgid "No home directory for the user.\n"
+msgstr ""
+
+#: ../USER/USER.xs:869 ../USER/USER.xs:871
+#, c-format
+msgid "Home Directory Could Not be deleted: '%s'.\n"
+msgstr ""
+
+#: ../USER/USER.xs:881
+msgid "Error deleting mail spool.\n"
+msgstr "خطا در حذف کردن چرخه‌ی پست.\n"
+
+#: ../userdrake:59 ../userdrake:1275
+#, c-format
+msgid "Userdrake"
+msgstr "Userdrake"
+
+#: ../userdrake:64
+#, c-format
+msgid "Loading Users and Groups... Please wait"
+msgstr "در حال بارگذاری کاربران و گروه‌ها... لطفاً صبر کنید"
+
+#: ../userdrake:83
+#, c-format
+msgid "Mandriva Linux Users Management Tool"
+msgstr "ابزار مدیریت اربران لینوکس ماندریبا"
+
+#: ../userdrake:96
+#, c-format
+msgid "/_Install guest account"
+msgstr ""
+
+#: ../userdrake:97
+#, c-format
+msgid "/_Uninstall guest account"
+msgstr ""
+
+#: ../userdrake:101 ../userdrake:102 ../userdrake:103 ../userdrake:114
+#: ../userdrake:115 ../userdrake:116
+#, c-format
+msgid "/_Actions"
+msgstr "/_کنش‌ها"
+
+#: ../userdrake:101
+#, c-format
+msgid "/_Edit"
+msgstr "/_ویرایش"
+
+#: ../userdrake:102
+#, c-format
+msgid "/_Delete"
+msgstr "/_حذف"
+
+#: ../userdrake:104 ../userdrake:120
+#, c-format
+msgid "/_Options"
+msgstr "/_گزینه‌ها"
+
+#: ../userdrake:104
+#, c-format
+msgid "/_Filter system users"
+msgstr "/_فیلتر کردن کاربران سیستم"
+
+#: ../userdrake:109 ../userdrake:110 ../userdrake:113
+#, c-format
+msgid "/_File"
+msgstr "/_پرونده"
+
+#: ../userdrake:110
+#, c-format
+msgid "/_Refresh"
+msgstr "/_نوسازی"
+
+#: ../userdrake:113
+#, c-format
+msgid "/_Quit"
+msgstr "/_ترک"
+
+#: ../userdrake:113
+#, c-format
+msgid "<control>Q"
+msgstr "<control>Q"
+
+#: ../userdrake:115
+#, c-format
+msgid "/_Add User"
+msgstr "/_افزودن کاربر"
+
+#: ../userdrake:116
+#, c-format
+msgid "/Add _Group"
+msgstr "/افزودن _گروه"
+
+#: ../userdrake:125 ../userdrake:126 ../userdrake:127 ../userdrake:130
+#, c-format
+msgid "/_Help"
+msgstr "/_راهنما"
+
+#: ../userdrake:127
+#, c-format
+msgid "/_Report Bug"
+msgstr "/_گزارش اشکال"
+
+#: ../userdrake:130
+#, c-format
+msgid "/_About..."
+msgstr "/_درباره‌ی..."
+
+#: ../userdrake:148
+#, c-format
+msgid "Search:"
+msgstr "جستجو:"
+
+#: ../userdrake:154
+#, c-format
+msgid "Apply filter"
+msgstr "گذاردن فیلتر"
+
+#: ../userdrake:158
+#, c-format
+msgid "Users"
+msgstr "کاربران"
+
+#: ../userdrake:162 ../userdrake:1041
+#, c-format
+msgid "Groups"
+msgstr "گروه‌ها"
+
+#. -PO: do not translate, this is already translated in mcc
+#: ../userdrake:168
+#, c-format
+msgid "Users and groups"
+msgstr "کاربرها و گروه‌ها"
+
+#: ../userdrake:186
+#, c-format
+msgid "User Name"
+msgstr "نام کاربر"
+
+#: ../userdrake:186
+#, c-format
+msgid "User ID"
+msgstr "شناسه‌ی کاربر"
+
+#: ../userdrake:186 ../userdrake:1038
+#, c-format
+msgid "Primary Group"
+msgstr "گروه اولیه"
+
+#: ../userdrake:187
+#, c-format
+msgid "Full Name"
+msgstr "نام کامل"
+
+#: ../userdrake:187
+#, c-format
+msgid "Login Shell"
+msgstr "پوسته‌ی ثبت‌ورود"
+
+#: ../userdrake:187
+#, c-format
+msgid "Home Directory"
+msgstr "شاخه‌ی خانه"
+
+#: ../userdrake:187
+#, c-format
+msgid "Status"
+msgstr "وضعیت"
+
+#: ../userdrake:194
+#, c-format
+msgid "Group Name"
+msgstr "نام گروه"
+
+#: ../userdrake:194
+#, c-format
+msgid "Group ID"
+msgstr "شناسه‌ی گروه"
+
+#: ../userdrake:194
+#, c-format
+msgid "Group Members"
+msgstr "اعضای گروه"
+
+#: ../userdrake:196
+#, c-format
+msgid "Add User"
+msgstr "افزودن کاربر"
+
+#: ../userdrake:196
+#, c-format
+msgid "Add a user to the system"
+msgstr "افزودن یک کاربر به سیستم"
+
+#: ../userdrake:197
+#, c-format
+msgid "Add Group"
+msgstr "افزودن گروه"
+
+#: ../userdrake:197
+#, c-format
+msgid "Add a group to the system"
+msgstr "افزودن یک گروه به سیستم"
+
+#: ../userdrake:198 ../userdrake:739
+#, c-format
+msgid "Edit"
+msgstr "ویرایش"
+
+#: ../userdrake:198
+#, c-format
+msgid "Edit selected row"
+msgstr "ویرایش ردیف انتخاب شده"
+
+#: ../userdrake:199 ../userdrake:674 ../userdrake:707 ../userdrake:739
+#, c-format
+msgid "Delete"
+msgstr "حذف"
+
+#: ../userdrake:199
+#, c-format
+msgid "Delete selected row"
+msgstr "حذف ردیف انتخاب شده"
+
+#: ../userdrake:200
+#, c-format
+msgid "Refresh"
+msgstr "نوسازی"
+
+#: ../userdrake:200
+#, c-format
+msgid "Refresh the list"
+msgstr "نوسازی لیست"
+
+#: ../userdrake:263
+#, c-format
+msgid "Locked"
+msgstr "قفل شده است"
+
+#: ../userdrake:263
+#, c-format
+msgid "Expired"
+msgstr "منقضی شده است"
+
+#: ../userdrake:339
+#, c-format
+msgid "Click on the icon to change it"
+msgstr "برای تغییر آن بر روی شمایل کلیک کنید"
+
+#: ../userdrake:385
+#, c-format
+msgid "Create New User"
+msgstr "ایجاد کاربر جدید"
+
+#: ../userdrake:391
+#, c-format
+msgid "Create Home Directory"
+msgstr "ایجاد شاخه‌ی خانه"
+
+#: ../userdrake:393
+#, c-format
+msgid "Home Directory: "
+msgstr "شاخه‌ی آغازه: "
+
+#: ../userdrake:396
+#, c-format
+msgid "Create a private group for the user"
+msgstr "ایجاد یک گروه خصوصی برای کاربر"
+
+#: ../userdrake:397
+#, c-format
+msgid "Specify user ID manually"
+msgstr "مشخص کردن دستی شناسه‌ی کاربر"
+
+#: ../userdrake:414
+#, c-format
+msgid "User already exists, please choose another User Name"
+msgstr "کاربر از قبل وجود دارد، لطفاً نام کاربری دیگری را انتخاب کنید"
+
+#: ../userdrake:419 ../userdrake:860
+#, c-format
+msgid "Password Mismatch"
+msgstr "عدم تطابق گذرواژه"
+
+#: ../userdrake:422 ../userdrake:863
+#, c-format
+msgid ""
+"This password is too simple. \n"
+" Good passwords should be > 6 characters"
+msgstr ""
+"این گذرواژه خیلی ساده است. \n"
+"گذرواژه‌ی خوب باید بیشتر از ۶ نویسه داشته باشد"
+
+#: ../userdrake:434
+#, c-format
+msgid "User Uid is < 500"
+msgstr "شناسه کاربر کوچکتر از ۵۰۰ است"
+
+#: ../userdrake:435
+#, c-format
+msgid ""
+"Creating a user with a UID less than 500 is not recommended.\n"
+" Are you sure you want to do this?\n"
+"\n"
+msgstr ""
+"ایجاد کردن یک کاربر با یک شناسه‌ی کوچکتر از ۵۰۰ پیشنهاد نمی‌شود. \n"
+"آیا مطمئن هستید که می‌خواهید این کار را انجام دهید؟\n"
+"\n"
+
+#: ../userdrake:450
+#, c-format
+msgid "Putting %s to 'users' group"
+msgstr "گذاشتن %s به گروه کاربران"
+
+#: ../userdrake:457
+#, c-format
+msgid "Creating new group: %s"
+msgstr "ایجاد گروه جدید: %s"
+
+#: ../userdrake:466
+#, c-format
+msgid "Adding user: %s"
+msgstr "افزودن کاربر: %s"
+
+#: ../userdrake:478
+#, c-format
+msgid "Migration wizard"
+msgstr ""
+
+#: ../userdrake:479
+#, c-format
+msgid ""
+"Do you want to run the migration wizard in order to import Windows documents "
+"and settings in your Mandriva Linux distribution?"
+msgstr ""
+
+#: ../userdrake:484 ../userdrake:528 ../userdrake:587 ../userdrake:674
+#: ../userdrake:707 ../userdrake:1166
+#, c-format
+msgid "Cancel"
+msgstr "لغو"
+
+#: ../userdrake:484 ../userdrake:521 ../userdrake:587 ../userdrake:1166
+#: ../userdrake:1317
+#, c-format
+msgid "Ok"
+msgstr "تایید"
+
+#: ../userdrake:497
+#, c-format
+msgid "UID: "
+msgstr "UID: "
+
+#: ../userdrake:510
+#, c-format
+msgid "Choose group"
+msgstr "انتخاب کردن گروه"
+
+#: ../userdrake:512 ../userdrake:513
+#, c-format
+msgid "Add to the existing group"
+msgstr "افزودن به گروه موجود"
+
+#: ../userdrake:514
+#, c-format
+msgid "Add to the 'users' group"
+msgstr "افزودن به گروه 'کاربران'"
+
+#: ../userdrake:516
+#, c-format
+msgid "A group with this name already exists.  What would you like to do?"
+msgstr "یک گروه با این نام از قبل وجود دارد. چکار دوست دارید بکنید؟"
+
+#: ../userdrake:546
+#, c-format
+msgid "Create New Group"
+msgstr "ایجاد گروه جدید"
+
+#: ../userdrake:551
+#, c-format
+msgid "Specify group ID manually"
+msgstr "مشخص کردن دستی شناسه‌ی گروه"
+
+#: ../userdrake:567
+#, c-format
+msgid "Group already exists, please choose another Group Name"
+msgstr "گروه از قبل وجود دارد، لطفاً نام دیگری برای گروه انتخاب کنید"
+
+#: ../userdrake:573
+#, c-format
+msgid " Group Gid is < 500"
+msgstr "شناسه گروه کوچکتر از ۵۰۰ است"
+
+#: ../userdrake:574
+#, c-format
+msgid ""
+"Creating a group with a GID less than 500 is not recommended.\n"
+" Are you sure you want to do this?\n"
+"\n"
+msgstr ""
+"ایجاد کردن یک گروه با یک شناسه‌ی کوچکتر از ۵۰۰ پیشنهاد نمی‌شود. \n"
+"آیا مطمئن هستید که می‌خواهید این کار را انجام دهید؟\n"
+"\n"
+
+#: ../userdrake:581
+#, c-format
+msgid "Adding group: %s "
+msgstr "افزودن گروه: %s"
+
+#: ../userdrake:591
+#, c-format
+msgid "GID: "
+msgstr "GID: "
+
+#: ../userdrake:636
+#, c-format
+msgid "Delete files or not?"
+msgstr "حذف پرونده‌ها یا نه؟"
+
+#: ../userdrake:639
+#, c-format
+msgid ""
+"Deleting user %s\n"
+" Also perform the following actions\n"
+msgstr ""
+"حذف کردن کاربر %s\n"
+" کنش‌های بدنبال آمده را نیز انجام دهید\n"
+
+#: ../userdrake:641
+#, c-format
+msgid "Delete Home Directory: %s"
+msgstr "حذف شاخه‌ی آغازه: %s"
+
+#: ../userdrake:642
+#, c-format
+msgid "Delete Mailbox: /var/spool/mail/%s"
+msgstr "حذف جعبه‌ی پست : /var/spool/mail/%s"
+
+#: ../userdrake:651
+#, c-format
+msgid "Removing user: %s"
+msgstr "برداشتن کاربر: %s"
+
+#: ../userdrake:684
+#, c-format
+msgid "Do you really want to delete the group %s?"
+msgstr "آیا واقعاً می‌خواهید گروه %s را حذف کنید؟"
+
+#: ../userdrake:697
+#, c-format
+msgid ""
+"%s is a primary group for user %s\n"
+" Remove the user first"
+msgstr ""
+"%s یک گروه مقدم برای کاربر %s می‌باشد\n"
+" نخست کاربر را بردارید"
+
+#: ../userdrake:702
+#, c-format
+msgid "Removing group: %s"
+msgstr "برداشتن گروه: %s"
+
+#: ../userdrake:798
+#, c-format
+msgid "Full Name:"
+msgstr "نام کامل:"
+
+#: ../userdrake:800
+#, c-format
+msgid "Login:"
+msgstr "ثبت‌ورود:"
+
+#: ../userdrake:802
+#, c-format
+msgid "Password:"
+msgstr "گذرواژه:"
+
+#: ../userdrake:804
+#, c-format
+msgid "Confirm Password:"
+msgstr "تصدیق گذرواژه:"
+
+#: ../userdrake:806
+#, c-format
+msgid "Login Shell:"
+msgstr "پوسته‌ی ثبت‌ورود:"
+
+#: ../userdrake:820
+#, c-format
+msgid "Group Name:"
+msgstr "نام گروه:"
+
+#: ../userdrake:894
+#, c-format
+msgid "Please select at least one group for the user"
+msgstr "لطفاً حداقل یک گروه را برای کاربر انتخاب کنید"
+
+#: ../userdrake:904
+#, c-format
+msgid ""
+"Please specify Year, Month and Day \n"
+" for Account Expiration "
+msgstr ""
+"لطفاً سال، ماه و روز را برای انقضای \n"
+"حساب مشخص کنید "
+
+#: ../userdrake:914
+#, c-format
+msgid "Please fill up all fields in password aging\n"
+msgstr "لطفاً تمام محوطه‌های در عمر گذرواژه را پُر کنید\n"
+
+#: ../userdrake:965
+#, c-format
+msgid "You cannot remove user '%s' from their primary group"
+msgstr "شما نمی‌توانید کاربرهای '%s' را از گروه اولیه‌اشان بردارید"
+
+#: ../userdrake:986
+#, c-format
+msgid "Home:"
+msgstr "آغازه:"
+
+#: ../userdrake:988
+#, c-format
+msgid "User Data"
+msgstr "اطلاعات کاربر"
+
+#: ../userdrake:992
+#, c-format
+msgid "Enable account expiration"
+msgstr "بکار انداختن انقضای حساب"
+
+#: ../userdrake:994
+#, c-format
+msgid "Account expires (YYYY-MM-DD):"
+msgstr "پایان یافتن حساب (سال-ماه-روز):"
+
+#: ../userdrake:1002
+#, c-format
+msgid "Lock User Account"
+msgstr "قفل کردن حساب کاربر"
+
+#: ../userdrake:1005
+#, c-format
+msgid "Account Info"
+msgstr "اطلاعات حساب"
+
+#: ../userdrake:1010
+#, c-format
+msgid "User last changed password on: "
+msgstr "تغییر گذرواژه‌ی کاربر آخرین بار در :"
+
+#: ../userdrake:1017
+#, c-format
+msgid "Enable Password Expiration"
+msgstr "بکار انداختن انقضای گذرواژه"
+
+#: ../userdrake:1022
+#, c-format
+msgid "Days before change allowed:"
+msgstr "تعداد روزها قبل از آنکه تغییر اجازه داده شود:"
+
+#: ../userdrake:1024
+#, c-format
+msgid "Days before change required:"
+msgstr "تعداد روزها قبل از آنکه تغییر لازم بشود:"
+
+#: ../userdrake:1026
+#, c-format
+msgid "Days warning before change:"
+msgstr "روزهای هشدار قبل از تغییر: "
+
+#: ../userdrake:1028
+#, c-format
+msgid "Days before account inactive:"
+msgstr "تعداد روزها قبل از آنکه حساب غیر فعال شود:"
+
+#: ../userdrake:1031
+#, c-format
+msgid "Password Info"
+msgstr "اطلاعات گذرواژه"
+
+#: ../userdrake:1035
+#, c-format
+msgid "Select the groups that the user will be a member of:"
+msgstr "انتخاب گروهی که کاربر عضو آن خواهد شد:"
+
+#: ../userdrake:1102
+#, c-format
+msgid "Group Data"
+msgstr "داده‌های گروه"
+
+#: ../userdrake:1105
+#, c-format
+msgid "Select the users to join this group:"
+msgstr "انتخاب کاربران برای پیوستن به این گروه:"
+
+#: ../userdrake:1107
+#, c-format
+msgid "Group Users"
+msgstr "کاربران گروه"
+
+#: ../userdrake:1127
+#, c-format
+msgid "Edit Groups / Users"
+msgstr "ویرایش کاربرها / گروه‌ها"
+
+#: ../userdrake:1159
+#, fuzzy, c-format
+msgid "An error occurred:"
+msgstr "خطائی رخ داد"
+
+#: ../userdrake:1267
+#, c-format
+msgid "Close"
+msgstr "بستن"
+
+#: ../userdrake:1277
+#, c-format
+msgid "Copyright (C) %s by Mandriva"
+msgstr ""
+
+#: ../userdrake:1280
+#, c-format
+msgid "Users Management"
+msgstr "مدیریت کاربران"
+
+#: ../userdrake:1282
+#, c-format
+msgid "Mandriva Linux"
+msgstr "ماندریبا لینوکس"
+
+#. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
+#: ../userdrake:1288
+#, c-format
+msgid "_: Translator(s) name(s) & email(s)\n"
+msgstr "Abbas Izad <abbasizad@hotmail.com>\n"
+
+#: ../userdrake:1295
+#, c-format
+msgid "Name field is empty please provide a name"
+msgstr "محوطه‌ی نام خالی است لطفاً یک نام را عرضه کنید"
+
+#: ../userdrake:1297
+#, c-format
+msgid ""
+"The name must contain only lower cased latin letters, numbers, `-' and `_'"
+msgstr "نام باید فقط دارای حروف کوچک لاتین، اعداد، `-' و `_' باشد"
+
+#: ../userdrake:1300
+#, c-format
+msgid "Name is too long"
+msgstr "نام خیلی طولانی است"
+
+#: ../userdrake:1313
+#, c-format
+msgid "Error"
+msgstr "خطا"
+
+#, fuzzy
+#~ msgid "Unknown error"
+#~ msgstr "خطای ناشناخته"
+
+#, fuzzy
+#~ msgid "Error creating %s: %s.\n"
+#~ msgstr "خطا در ایجاد کردن `%s': %s"
+
+#~ msgid "Authors: "
+#~ msgstr "نگارندگان: "

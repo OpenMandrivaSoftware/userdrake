@@ -1,0 +1,754 @@
+# translation of userdrake.po to Thai
+# This file is distributed under the same license as the PACKAGE package.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER.
+# Wachara Chinsettawong <wachara@yahoo.com>, 2004.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: userdrake\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-02-02 03:03+0100\n"
+"PO-Revision-Date: 2004-10-07 01:00-0400\n"
+"Last-Translator: Wachara Chinsettawong <wachara@yahoo.com>\n"
+"Language-Team: Thai\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.3\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../USER/USER.xs:86
+#, c-format
+msgid "Error reading `%s': %s"
+msgstr "เกิดการผิดพลาดเวลาอ่าน `%s': %s"
+
+#: ../USER/USER.xs:93 ../USER/USER.xs:526
+#, c-format
+msgid "Error creating `%s': %s"
+msgstr "เกิดการผิดพลาดเวลาสร้าง `%s': %s"
+
+#: ../USER/USER.xs:205 ../USER/USER.xs:234 ../USER/USER.xs:250
+#, c-format
+msgid "Error removing `%s': %s"
+msgstr "เกิดการผิดพลาดเวลาลบ `%s': %s"
+
+#: ../USER/USER.xs:490
+#, fuzzy, c-format
+msgid "Account creation failed: '%s'.\n"
+msgstr "เกิดการผิดพลาดเวลาสร้าง mail spool.\n"
+
+#: ../USER/USER.xs:503
+msgid "Cannot get Uid number"
+msgstr ""
+
+#: ../USER/USER.xs:515
+msgid "Cannot retrieve value"
+msgstr ""
+
+#: ../USER/USER.xs:532
+msgid "Error creating mail spool.\n"
+msgstr "เกิดการผิดพลาดเวลาสร้าง mail spool.\n"
+
+#: ../USER/USER.xs:582
+#, fuzzy, c-format
+msgid "User could not be modified: '%s'.\n"
+msgstr "เกิดการผิดพลาดเวลาสร้าง mail spool.\n"
+
+#: ../USER/USER.xs:592
+#, c-format
+msgid "User Could Not be deleted: '%s'.\n"
+msgstr ""
+
+#: ../USER/USER.xs:618
+#, c-format
+msgid "Failed to set password: '%s'.\n"
+msgstr ""
+
+#: ../USER/USER.xs:618
+msgid "unknown error"
+msgstr "เกิดการผิดพลาดแบบไม่ทราบสาเหตุ"
+
+#: ../USER/USER.xs:685
+#, fuzzy
+msgid "Group creation failed.\n"
+msgstr "เกิดการผิดพลาดเวลาสร้าง mail spool.\n"
+
+#: ../USER/USER.xs:695
+#, c-format
+msgid "Group could not be modified: '%s'.\n"
+msgstr ""
+
+#: ../USER/USER.xs:705
+#, c-format
+msgid "Group could not be deleted: '%s'.\n"
+msgstr ""
+
+#: ../USER/USER.xs:863
+msgid "No home directory for the user.\n"
+msgstr ""
+
+#: ../USER/USER.xs:869 ../USER/USER.xs:871
+#, c-format
+msgid "Home Directory Could Not be deleted: '%s'.\n"
+msgstr ""
+
+#: ../USER/USER.xs:881
+msgid "Error deleting mail spool.\n"
+msgstr "เกิดการผิดพลาดเวลาลบ mail spool.\n"
+
+#: ../userdrake:59 ../userdrake:1275
+#, c-format
+msgid "Userdrake"
+msgstr "Userdrake"
+
+#: ../userdrake:64
+#, c-format
+msgid "Loading Users and Groups... Please wait"
+msgstr "กำลังอ่านค่าผู้ใช้และกลุ่ม  กรรุณารอสักครู่"
+
+#: ../userdrake:83
+#, c-format
+msgid "Mandriva Linux Users Management Tool"
+msgstr "เครื่องมือจัดการผู้ใช้สำหรับ Mandriva Linux"
+
+#: ../userdrake:96
+#, c-format
+msgid "/_Install guest account"
+msgstr ""
+
+#: ../userdrake:97
+#, c-format
+msgid "/_Uninstall guest account"
+msgstr ""
+
+#: ../userdrake:101 ../userdrake:102 ../userdrake:103 ../userdrake:114
+#: ../userdrake:115 ../userdrake:116
+#, c-format
+msgid "/_Actions"
+msgstr "/_แบบการทำงาน"
+
+#: ../userdrake:101
+#, c-format
+msgid "/_Edit"
+msgstr "/_ปรับแต่ง"
+
+#: ../userdrake:102
+#, c-format
+msgid "/_Delete"
+msgstr "/_ลบ"
+
+#: ../userdrake:104 ../userdrake:120
+#, c-format
+msgid "/_Options"
+msgstr "/_ทางเลือก"
+
+#: ../userdrake:104
+#, c-format
+msgid "/_Filter system users"
+msgstr "/_กรองผู้ใช้ระบบ"
+
+#: ../userdrake:109 ../userdrake:110 ../userdrake:113
+#, c-format
+msgid "/_File"
+msgstr "/_ไฟล์"
+
+#: ../userdrake:110
+#, c-format
+msgid "/_Refresh"
+msgstr "/_อ่านค่าใหม่"
+
+#: ../userdrake:113
+#, c-format
+msgid "/_Quit"
+msgstr "/_เลิก"
+
+#: ../userdrake:113
+#, c-format
+msgid "<control>Q"
+msgstr "<control>Q"
+
+#: ../userdrake:115
+#, c-format
+msgid "/_Add User"
+msgstr "/_เพิ่มผู้ใช้"
+
+#: ../userdrake:116
+#, c-format
+msgid "/Add _Group"
+msgstr "/เพิ่มกลุ่ม"
+
+#: ../userdrake:125 ../userdrake:126 ../userdrake:127 ../userdrake:130
+#, c-format
+msgid "/_Help"
+msgstr "/_ช่วยเหลือ"
+
+#: ../userdrake:127
+#, c-format
+msgid "/_Report Bug"
+msgstr "/_แจ้งข้อผิดพลาด"
+
+#: ../userdrake:130
+#, c-format
+msgid "/_About..."
+msgstr "/_เกี่ยวกับ"
+
+#: ../userdrake:148
+#, c-format
+msgid "Search:"
+msgstr "ค้นหา:"
+
+#: ../userdrake:154
+#, c-format
+msgid "Apply filter"
+msgstr "ใช้ตัวกรอง"
+
+#: ../userdrake:158
+#, c-format
+msgid "Users"
+msgstr "ผู้ใช้"
+
+#: ../userdrake:162 ../userdrake:1041
+#, c-format
+msgid "Groups"
+msgstr "กลุ่ม"
+
+#. -PO: do not translate, this is already translated in mcc
+#: ../userdrake:168
+#, c-format
+msgid "Users and groups"
+msgstr ""
+
+#: ../userdrake:186
+#, c-format
+msgid "User Name"
+msgstr "ชื่อผู้ใช้"
+
+#: ../userdrake:186
+#, c-format
+msgid "User ID"
+msgstr "รหัสผู้ใช้"
+
+#: ../userdrake:186 ../userdrake:1038
+#, c-format
+msgid "Primary Group"
+msgstr "กลุ่มแรก"
+
+#: ../userdrake:187
+#, c-format
+msgid "Full Name"
+msgstr "ชื่อเต็ม"
+
+#: ../userdrake:187
+#, c-format
+msgid "Login Shell"
+msgstr "ล็อกอินเชล"
+
+#: ../userdrake:187
+#, c-format
+msgid "Home Directory"
+msgstr "Home Directory"
+
+#: ../userdrake:187
+#, c-format
+msgid "Status"
+msgstr "สถานะ"
+
+#: ../userdrake:194
+#, c-format
+msgid "Group Name"
+msgstr "ชื่อกลุ่ม"
+
+#: ../userdrake:194
+#, c-format
+msgid "Group ID"
+msgstr "รหัสกลุ่ม"
+
+#: ../userdrake:194
+#, c-format
+msgid "Group Members"
+msgstr "สมาชิกกลุ่ม"
+
+#: ../userdrake:196
+#, c-format
+msgid "Add User"
+msgstr "เพิ่มผู้ใช้"
+
+#: ../userdrake:196
+#, c-format
+msgid "Add a user to the system"
+msgstr "เพิ่มผู้ใช้เข้าระบบ"
+
+#: ../userdrake:197
+#, c-format
+msgid "Add Group"
+msgstr "เพิ่มกลุ่ม"
+
+#: ../userdrake:197
+#, c-format
+msgid "Add a group to the system"
+msgstr "เพิ่มกลุ่มเข้าระบบ"
+
+#: ../userdrake:198 ../userdrake:739
+#, c-format
+msgid "Edit"
+msgstr "ปรับแต่ง"
+
+#: ../userdrake:198
+#, c-format
+msgid "Edit selected row"
+msgstr "ปรับแต่งบรรทัดที่เลือก"
+
+#: ../userdrake:199 ../userdrake:674 ../userdrake:707 ../userdrake:739
+#, c-format
+msgid "Delete"
+msgstr "ลบ"
+
+#: ../userdrake:199
+#, c-format
+msgid "Delete selected row"
+msgstr "ลบที่เลือก"
+
+#: ../userdrake:200
+#, c-format
+msgid "Refresh"
+msgstr "อ่านค่าใหม่"
+
+#: ../userdrake:200
+#, c-format
+msgid "Refresh the list"
+msgstr "อ่านค่ารายการใหม่"
+
+#: ../userdrake:263
+#, c-format
+msgid "Locked"
+msgstr "ล็อก"
+
+#: ../userdrake:263
+#, c-format
+msgid "Expired"
+msgstr "หมดอายุ"
+
+#: ../userdrake:339
+#, c-format
+msgid "Click on the icon to change it"
+msgstr "กดที่รูปเพื่อเปลี่ยนแปลง"
+
+#: ../userdrake:385
+#, c-format
+msgid "Create New User"
+msgstr "สร้างผู้ใช้ใหม่"
+
+#: ../userdrake:391
+#, c-format
+msgid "Create Home Directory"
+msgstr "สร้าง Home Directory"
+
+#: ../userdrake:393
+#, c-format
+msgid "Home Directory: "
+msgstr "Home Directory: "
+
+#: ../userdrake:396
+#, c-format
+msgid "Create a private group for the user"
+msgstr "สร้างกลุ่มส่วนตัวสำหรับผู้ใช้"
+
+#: ../userdrake:397
+#, c-format
+msgid "Specify user ID manually"
+msgstr "ระบุรหัสผู้ใช้เอง"
+
+#: ../userdrake:414
+#, c-format
+msgid "User already exists, please choose another User Name"
+msgstr "ชื่อนี้มีแล้วกรุณาใช้ชื่ออื่น"
+
+#: ../userdrake:419 ../userdrake:860
+#, c-format
+msgid "Password Mismatch"
+msgstr "รหัสลับไม่ถูกต้อง"
+
+#: ../userdrake:422 ../userdrake:863
+#, c-format
+msgid ""
+"This password is too simple. \n"
+" Good passwords should be > 6 characters"
+msgstr ""
+"รหัสลับนี้ง่ายเกินไป\n"
+"รหัสที่ดีต้องมีตัวหนังสือมากกว่า 6 "
+
+#: ../userdrake:434
+#, c-format
+msgid "User Uid is < 500"
+msgstr "รหัสผู้ใช้น้อยกว่า 500"
+
+#: ../userdrake:435
+#, c-format
+msgid ""
+"Creating a user with a UID less than 500 is not recommended.\n"
+" Are you sure you want to do this?\n"
+"\n"
+msgstr ""
+"ไม่แนะนำให้สร้างผู้ใช้ที่มีรหัสต่ำกว่า 500 \n"
+"คุณแน่ใจหรือที่จะสร้าง\n"
+"\n"
+
+#: ../userdrake:450
+#, c-format
+msgid "Putting %s to 'users' group"
+msgstr "ใส่ %s เข้าไปที่กลุ่ม 'user' "
+
+#: ../userdrake:457
+#, c-format
+msgid "Creating new group: %s"
+msgstr "สร้างกลุ่มใหม่ %s"
+
+#: ../userdrake:466
+#, c-format
+msgid "Adding user: %s"
+msgstr "เพิ่มผู้ใช้: %s"
+
+#: ../userdrake:478
+#, c-format
+msgid "Migration wizard"
+msgstr ""
+
+#: ../userdrake:479
+#, c-format
+msgid ""
+"Do you want to run the migration wizard in order to import Windows documents "
+"and settings in your Mandriva Linux distribution?"
+msgstr ""
+
+#: ../userdrake:484 ../userdrake:528 ../userdrake:587 ../userdrake:674
+#: ../userdrake:707 ../userdrake:1166
+#, c-format
+msgid "Cancel"
+msgstr "ยกเลิก"
+
+#: ../userdrake:484 ../userdrake:521 ../userdrake:587 ../userdrake:1166
+#: ../userdrake:1317
+#, c-format
+msgid "Ok"
+msgstr "ตกลง"
+
+#: ../userdrake:497
+#, c-format
+msgid "UID: "
+msgstr "รหัส: "
+
+#: ../userdrake:510
+#, c-format
+msgid "Choose group"
+msgstr "เลือกกลุ่ม"
+
+#: ../userdrake:512 ../userdrake:513
+#, c-format
+msgid "Add to the existing group"
+msgstr "เพิ่มเข้ากลุ่มที่มีอยู่แล้ว"
+
+#: ../userdrake:514
+#, c-format
+msgid "Add to the 'users' group"
+msgstr "เพิ่มไปที่กลุ่ม 'users'"
+
+#: ../userdrake:516
+#, c-format
+msgid "A group with this name already exists.  What would you like to do?"
+msgstr "ชื่อกลุ่มนี้มีแล้ว คุณจะทำอย่างไรต่อ"
+
+#: ../userdrake:546
+#, c-format
+msgid "Create New Group"
+msgstr "สร้างกลุ่มใหม่"
+
+#: ../userdrake:551
+#, c-format
+msgid "Specify group ID manually"
+msgstr "ระบุรหัสกลุ่มเอง"
+
+#: ../userdrake:567
+#, c-format
+msgid "Group already exists, please choose another Group Name"
+msgstr "ชื่อกลุ่มนี้มีอยู่แล้ว กรุณาเลือกชื่ออื่น"
+
+#: ../userdrake:573
+#, c-format
+msgid " Group Gid is < 500"
+msgstr "รหัสกลุ่มน้อยกว่า 500"
+
+#: ../userdrake:574
+#, c-format
+msgid ""
+"Creating a group with a GID less than 500 is not recommended.\n"
+" Are you sure you want to do this?\n"
+"\n"
+msgstr ""
+"ไม่แนะนำให้สร้างกลุ่มผู้ใช้ที่มีรหัสต่ำกว่า 500 \n"
+"คุณแน่ใจหรือที่จะสร้าง\n"
+"\n"
+
+#: ../userdrake:581
+#, c-format
+msgid "Adding group: %s "
+msgstr "เพิ่มกลุ่ม: %s "
+
+#: ../userdrake:591
+#, c-format
+msgid "GID: "
+msgstr "รหัสกลุ่ม:"
+
+#: ../userdrake:636
+#, c-format
+msgid "Delete files or not?"
+msgstr "ลบไฟล์หรือไม่"
+
+#: ../userdrake:639
+#, c-format
+msgid ""
+"Deleting user %s\n"
+" Also perform the following actions\n"
+msgstr ""
+"กำลังลบผู้ใช้ %s\n"
+"และกำลังทำงานสิ่งต่อไปนี้\n"
+
+#: ../userdrake:641
+#, c-format
+msgid "Delete Home Directory: %s"
+msgstr "ลบ Home Directory: %s"
+
+#: ../userdrake:642
+#, c-format
+msgid "Delete Mailbox: /var/spool/mail/%s"
+msgstr "ลบ Mailbox :/var/spool/mail/%s"
+
+#: ../userdrake:651
+#, c-format
+msgid "Removing user: %s"
+msgstr "ลบผู้ใช้: %s"
+
+#: ../userdrake:684
+#, c-format
+msgid "Do you really want to delete the group %s?"
+msgstr "คุณแน่ใจหรือที่จะลบกลุ่ม %s"
+
+#: ../userdrake:697
+#, c-format
+msgid ""
+"%s is a primary group for user %s\n"
+" Remove the user first"
+msgstr ""
+"%s คือกลุ่มแรกของ %s\n"
+" ลบผู้ใช้นี้ก่อน"
+
+#: ../userdrake:702
+#, c-format
+msgid "Removing group: %s"
+msgstr "ลบกลุ่ม: %s"
+
+#: ../userdrake:798
+#, c-format
+msgid "Full Name:"
+msgstr "ชื่อเต็ม:"
+
+#: ../userdrake:800
+#, c-format
+msgid "Login:"
+msgstr "Login:"
+
+#: ../userdrake:802
+#, c-format
+msgid "Password:"
+msgstr "รหัสลับ:"
+
+#: ../userdrake:804
+#, c-format
+msgid "Confirm Password:"
+msgstr "ยืนยันรหัสลับ:"
+
+#: ../userdrake:806
+#, c-format
+msgid "Login Shell:"
+msgstr "ล็อกอินเชล:"
+
+#: ../userdrake:820
+#, c-format
+msgid "Group Name:"
+msgstr "ชื่อกลุ่ม:"
+
+#: ../userdrake:894
+#, c-format
+msgid "Please select at least one group for the user"
+msgstr "กรุณาเลือกอย่างน้อยหนึ่งกลุ่มสำหรับผู้ใช้"
+
+#: ../userdrake:904
+#, c-format
+msgid ""
+"Please specify Year, Month and Day \n"
+" for Account Expiration "
+msgstr ""
+"กรุณาระบุ ปี เดือน และวัน\n"
+"ที่บัญชีจะหมดอายุ "
+
+#: ../userdrake:914
+#, c-format
+msgid "Please fill up all fields in password aging\n"
+msgstr "กรุณากรอกทุกช่องในอายุของรหัสลับ\n"
+
+#: ../userdrake:965
+#, c-format
+msgid "You cannot remove user '%s' from their primary group"
+msgstr "คุณไม่สามารถลบผู้ใช้ '%s' จากกลุ่มแรกของเขา"
+
+#: ../userdrake:986
+#, c-format
+msgid "Home:"
+msgstr "Home:"
+
+#: ../userdrake:988
+#, c-format
+msgid "User Data"
+msgstr "ข้อมูลผู้ใช้"
+
+#: ../userdrake:992
+#, c-format
+msgid "Enable account expiration"
+msgstr "ใช้งานการจับเวลาวันหมดอายุของบัญชี"
+
+#: ../userdrake:994
+#, c-format
+msgid "Account expires (YYYY-MM-DD):"
+msgstr "บัญชีหมดอายุ (YYYY-MM-DD):"
+
+#: ../userdrake:1002
+#, c-format
+msgid "Lock User Account"
+msgstr "ล็อกบัญชีผู้ใช้"
+
+#: ../userdrake:1005
+#, c-format
+msgid "Account Info"
+msgstr "ข้อมูลบัญชี"
+
+#: ../userdrake:1010
+#, c-format
+msgid "User last changed password on: "
+msgstr "ผู้ใช้เปลี่ยนรหัสลับครั้งสุดท้ายเมื่อ :"
+
+#: ../userdrake:1017
+#, c-format
+msgid "Enable Password Expiration"
+msgstr "ใช้งานวันหมดอายุของรหัสลับ"
+
+#: ../userdrake:1022
+#, c-format
+msgid "Days before change allowed:"
+msgstr "จำนวนวันก่อนที่จะเปลี่ยนได้:"
+
+#: ../userdrake:1024
+#, c-format
+msgid "Days before change required:"
+msgstr "จำนวนวันก่อนเปลี่ยนที่ต้องการ:"
+
+#: ../userdrake:1026
+#, c-format
+msgid "Days warning before change:"
+msgstr "จำนวนวันที่จะเตือนก่อนเปลี่ยน:"
+
+#: ../userdrake:1028
+#, c-format
+msgid "Days before account inactive:"
+msgstr ":จำนวนวันก่อนบัญชีจะใช้งานไม่ได้"
+
+#: ../userdrake:1031
+#, c-format
+msgid "Password Info"
+msgstr "ข้อมูลรหัสลับ"
+
+#: ../userdrake:1035
+#, c-format
+msgid "Select the groups that the user will be a member of:"
+msgstr "เลือกกลุ่มที่ผู้ใช้จะเป็นสมาชิก"
+
+#: ../userdrake:1102
+#, c-format
+msgid "Group Data"
+msgstr "ข้อมูลกลุ่ม"
+
+#: ../userdrake:1105
+#, c-format
+msgid "Select the users to join this group:"
+msgstr "เลือกผู้ใช้สำหรับกลุ่มนี้:"
+
+#: ../userdrake:1107
+#, c-format
+msgid "Group Users"
+msgstr "กลุ่มผู้ใช้"
+
+#: ../userdrake:1127
+#, c-format
+msgid "Edit Groups / Users"
+msgstr "แก้ใขกลุ่ม / ผู้ใช้"
+
+#: ../userdrake:1159
+#, fuzzy, c-format
+msgid "An error occurred:"
+msgstr "มีปัญหาเกิดขึ้น"
+
+#: ../userdrake:1267
+#, c-format
+msgid "Close"
+msgstr "ปิด"
+
+#: ../userdrake:1277
+#, c-format
+msgid "Copyright (C) %s by Mandriva"
+msgstr ""
+
+#: ../userdrake:1280
+#, c-format
+msgid "Users Management"
+msgstr "การบริหารผู้ใช้"
+
+#: ../userdrake:1282
+#, c-format
+msgid "Mandriva Linux"
+msgstr "Mandriva Linux"
+
+#. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
+#: ../userdrake:1288
+#, c-format
+msgid "_: Translator(s) name(s) & email(s)\n"
+msgstr ""
+
+#: ../userdrake:1295
+#, c-format
+msgid "Name field is empty please provide a name"
+msgstr "ไม่มีชื่อ กรุณาใส่ชื่อด้วย"
+
+#: ../userdrake:1297
+#, c-format
+msgid ""
+"The name must contain only lower cased latin letters, numbers, `-' and `_'"
+msgstr "ชื่อต้องเป็นตัวหนังสือลาตินแบบตัวเล็ก ตัวเลข `-' และ `_'"
+
+#: ../userdrake:1300
+#, c-format
+msgid "Name is too long"
+msgstr "ชื่อยาวเกินไป"
+
+#: ../userdrake:1313
+#, c-format
+msgid "Error"
+msgstr "เกิดการผิดพลาด"
+
+#, fuzzy
+#~ msgid "Unknown error"
+#~ msgstr "เกิดการผิดพลาดแบบไม่ทราบสาเหตุ"
+
+#, fuzzy
+#~ msgid "Error creating %s: %s.\n"
+#~ msgstr "เกิดการผิดพลาดเวลาสร้าง `%s': %s"
+
+#~ msgid "Authors: "
+#~ msgstr "ผู้แต่ง:"

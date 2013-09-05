@@ -1,0 +1,1080 @@
+#
+# Latest versions of po files are at http://www.mandrivalinux.org/l10n/ta.php3
+#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: userdrake2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-02-02 03:03+0100\n"
+"PO-Revision-Date: 2002-08-17 17:54-0400\n"
+"Last-Translator: prabu <prabu_anand2000@yahoo.com>\n"
+"Language-Team:  <en@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 0.9.6\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../USER/USER.xs:86
+#, fuzzy, c-format
+msgid "Error reading `%s': %s"
+msgstr " %s என்ற குறும்படத்தை ஏற்றுவதில் பிழை நேர்ந்துள்ளது"
+
+#: ../USER/USER.xs:93 ../USER/USER.xs:526
+#, c-format
+msgid "Error creating `%s': %s"
+msgstr ""
+
+#: ../USER/USER.xs:205 ../USER/USER.xs:234 ../USER/USER.xs:250
+#, fuzzy, c-format
+msgid "Error removing `%s': %s"
+msgstr "பயனரைச் நீக்கு"
+
+#: ../USER/USER.xs:490
+#, fuzzy, c-format
+msgid "Account creation failed: '%s'.\n"
+msgstr " %s என்ற குறும்படத்தை ஏற்றுவதில் பிழை நேர்ந்துள்ளது"
+
+#: ../USER/USER.xs:503
+msgid "Cannot get Uid number"
+msgstr ""
+
+#: ../USER/USER.xs:515
+msgid "Cannot retrieve value"
+msgstr ""
+
+#: ../USER/USER.xs:532
+#, fuzzy
+msgid "Error creating mail spool.\n"
+msgstr " %s என்ற குறும்படத்தை ஏற்றுவதில் பிழை நேர்ந்துள்ளது"
+
+#: ../USER/USER.xs:582
+#, fuzzy, c-format
+msgid "User could not be modified: '%s'.\n"
+msgstr " %s என்ற குறும்படத்தை ஏற்றுவதில் பிழை நேர்ந்துள்ளது"
+
+#: ../USER/USER.xs:592
+#, c-format
+msgid "User Could Not be deleted: '%s'.\n"
+msgstr ""
+
+#: ../USER/USER.xs:618
+#, c-format
+msgid "Failed to set password: '%s'.\n"
+msgstr ""
+
+#: ../USER/USER.xs:618
+msgid "unknown error"
+msgstr "தெரியாத பிழை"
+
+#: ../USER/USER.xs:685
+#, fuzzy
+msgid "Group creation failed.\n"
+msgstr " %s என்ற குறும்படத்தை ஏற்றுவதில் பிழை நேர்ந்துள்ளது"
+
+#: ../USER/USER.xs:695
+#, c-format
+msgid "Group could not be modified: '%s'.\n"
+msgstr ""
+
+#: ../USER/USER.xs:705
+#, c-format
+msgid "Group could not be deleted: '%s'.\n"
+msgstr ""
+
+#: ../USER/USER.xs:863
+msgid "No home directory for the user.\n"
+msgstr ""
+
+#: ../USER/USER.xs:869 ../USER/USER.xs:871
+#, c-format
+msgid "Home Directory Could Not be deleted: '%s'.\n"
+msgstr ""
+
+#: ../USER/USER.xs:881
+#, fuzzy
+msgid "Error deleting mail spool.\n"
+msgstr " %s என்ற குறும்படத்தை ஏற்றுவதில் பிழை நேர்ந்துள்ளது"
+
+#: ../userdrake:59 ../userdrake:1275
+#, c-format
+msgid "Userdrake"
+msgstr "டிரேக்பயனர்"
+
+#: ../userdrake:64
+#, c-format
+msgid "Loading Users and Groups... Please wait"
+msgstr ""
+
+#: ../userdrake:83
+#, c-format
+msgid "Mandriva Linux Users Management Tool"
+msgstr ""
+
+#: ../userdrake:96
+#, c-format
+msgid "/_Install guest account"
+msgstr ""
+
+#: ../userdrake:97
+#, c-format
+msgid "/_Uninstall guest account"
+msgstr ""
+
+#: ../userdrake:101 ../userdrake:102 ../userdrake:103 ../userdrake:114
+#: ../userdrake:115 ../userdrake:116
+#, c-format
+msgid "/_Actions"
+msgstr "/_செயல்கள்"
+
+#: ../userdrake:101
+#, c-format
+msgid "/_Edit"
+msgstr "/_தொகு"
+
+#: ../userdrake:102
+#, c-format
+msgid "/_Delete"
+msgstr "/_அழி"
+
+#: ../userdrake:104 ../userdrake:120
+#, c-format
+msgid "/_Options"
+msgstr "/_விருப்பத்தேர்வு"
+
+#: ../userdrake:104
+#, c-format
+msgid "/_Filter system users"
+msgstr ""
+
+#: ../userdrake:109 ../userdrake:110 ../userdrake:113
+#, c-format
+msgid "/_File"
+msgstr "/_கோப்பு"
+
+#: ../userdrake:110
+#, c-format
+msgid "/_Refresh"
+msgstr "/_புதிதாக்கு"
+
+#: ../userdrake:113
+#, c-format
+msgid "/_Quit"
+msgstr "/_வெளிச்செல்"
+
+#: ../userdrake:113
+#, c-format
+msgid "<control>Q"
+msgstr "<control>Q"
+
+#: ../userdrake:115
+#, c-format
+msgid "/_Add User"
+msgstr "/_பயனர சேர்"
+
+#: ../userdrake:116
+#, c-format
+msgid "/Add _Group"
+msgstr "/_குழுவை சேர்"
+
+#: ../userdrake:125 ../userdrake:126 ../userdrake:127 ../userdrake:130
+#, c-format
+msgid "/_Help"
+msgstr "/_உதவி"
+
+#: ../userdrake:127
+#, c-format
+msgid "/_Report Bug"
+msgstr "/_பிழைகளை அறிவிக்க"
+
+#: ../userdrake:130
+#, c-format
+msgid "/_About..."
+msgstr "/_பற்றி"
+
+#: ../userdrake:148
+#, c-format
+msgid "Search:"
+msgstr "தேடு:"
+
+#: ../userdrake:154
+#, c-format
+msgid "Apply filter"
+msgstr ""
+
+#: ../userdrake:158
+#, c-format
+msgid "Users"
+msgstr "பயனர்கள்"
+
+#: ../userdrake:162 ../userdrake:1041
+#, c-format
+msgid "Groups"
+msgstr "குழுக்கள்"
+
+#. -PO: do not translate, this is already translated in mcc
+#: ../userdrake:168
+#, c-format
+msgid "Users and groups"
+msgstr "பயனர்களும் குழுக்களும்"
+
+#: ../userdrake:186
+#, c-format
+msgid "User Name"
+msgstr "பயனர் பெயர்"
+
+#: ../userdrake:186
+#, c-format
+msgid "User ID"
+msgstr "உபயோகிப்பாளர் அடையாளம்"
+
+#: ../userdrake:186 ../userdrake:1038
+#, c-format
+msgid "Primary Group"
+msgstr ""
+
+#: ../userdrake:187
+#, c-format
+msgid "Full Name"
+msgstr "முழுப் பெயர்"
+
+#: ../userdrake:187
+#, c-format
+msgid "Login Shell"
+msgstr "புகுபதிகை ஸ்செல்"
+
+#: ../userdrake:187
+#, c-format
+msgid "Home Directory"
+msgstr "இல்ல அடைவு"
+
+#: ../userdrake:187
+#, c-format
+msgid "Status"
+msgstr "நிலை"
+
+#: ../userdrake:194
+#, c-format
+msgid "Group Name"
+msgstr "குழுப்பெயர்"
+
+#: ../userdrake:194
+#, c-format
+msgid "Group ID"
+msgstr "குழு ID"
+
+#: ../userdrake:194
+#, c-format
+msgid "Group Members"
+msgstr "குழு நபர்கள்"
+
+#: ../userdrake:196
+#, c-format
+msgid "Add User"
+msgstr "பயனர சேர்"
+
+#: ../userdrake:196
+#, c-format
+msgid "Add a user to the system"
+msgstr ""
+
+#: ../userdrake:197
+#, c-format
+msgid "Add Group"
+msgstr "குழுவை சேர்"
+
+#: ../userdrake:197
+#, fuzzy, c-format
+msgid "Add a group to the system"
+msgstr "குழுவைச் சேர்"
+
+#: ../userdrake:198 ../userdrake:739
+#, c-format
+msgid "Edit"
+msgstr "மாற்றியமை"
+
+#: ../userdrake:198
+#, c-format
+msgid "Edit selected row"
+msgstr ""
+
+#: ../userdrake:199 ../userdrake:674 ../userdrake:707 ../userdrake:739
+#, c-format
+msgid "Delete"
+msgstr "நீக்கு"
+
+#: ../userdrake:199
+#, c-format
+msgid "Delete selected row"
+msgstr ""
+
+#: ../userdrake:200
+#, c-format
+msgid "Refresh"
+msgstr "மீளேற்று"
+
+#: ../userdrake:200
+#, fuzzy, c-format
+msgid "Refresh the list"
+msgstr "பயனரின் பட்டியல்"
+
+#: ../userdrake:263
+#, c-format
+msgid "Locked"
+msgstr "பூட்டப்பட்டது"
+
+#: ../userdrake:263
+#, c-format
+msgid "Expired"
+msgstr "காலாவதியாணது"
+
+#: ../userdrake:339
+#, c-format
+msgid "Click on the icon to change it"
+msgstr ""
+
+#: ../userdrake:385
+#, c-format
+msgid "Create New User"
+msgstr ""
+
+#: ../userdrake:391
+#, fuzzy, c-format
+msgid "Create Home Directory"
+msgstr "பயனரின் தொடக்க அடைவு"
+
+#: ../userdrake:393
+#, fuzzy, c-format
+msgid "Home Directory: "
+msgstr "பயனரின் தொடக்க அடைவு"
+
+#: ../userdrake:396
+#, c-format
+msgid "Create a private group for the user"
+msgstr ""
+
+#: ../userdrake:397
+#, c-format
+msgid "Specify user ID manually"
+msgstr ""
+
+#: ../userdrake:414
+#, fuzzy, c-format
+msgid "User already exists, please choose another User Name"
+msgstr "இப்பெயர் ஏற்கனவே பயன்பாட்டில் உள்ளது"
+
+#: ../userdrake:419 ../userdrake:860
+#, fuzzy, c-format
+msgid "Password Mismatch"
+msgstr "கடவுச்சொல்"
+
+#: ../userdrake:422 ../userdrake:863
+#, c-format
+msgid ""
+"This password is too simple. \n"
+" Good passwords should be > 6 characters"
+msgstr ""
+
+#: ../userdrake:434
+#, c-format
+msgid "User Uid is < 500"
+msgstr ""
+
+#: ../userdrake:435
+#, c-format
+msgid ""
+"Creating a user with a UID less than 500 is not recommended.\n"
+" Are you sure you want to do this?\n"
+"\n"
+msgstr ""
+
+#: ../userdrake:450
+#, c-format
+msgid "Putting %s to 'users' group"
+msgstr ""
+
+#: ../userdrake:457
+#, fuzzy, c-format
+msgid "Creating new group: %s"
+msgstr "குழுக்களைக் காட்டு"
+
+#: ../userdrake:466
+#, fuzzy, c-format
+msgid "Adding user: %s"
+msgstr "பயனரைச் சேர்"
+
+#: ../userdrake:478
+#, c-format
+msgid "Migration wizard"
+msgstr ""
+
+#: ../userdrake:479
+#, c-format
+msgid ""
+"Do you want to run the migration wizard in order to import Windows documents "
+"and settings in your Mandriva Linux distribution?"
+msgstr ""
+
+#: ../userdrake:484 ../userdrake:528 ../userdrake:587 ../userdrake:674
+#: ../userdrake:707 ../userdrake:1166
+#, c-format
+msgid "Cancel"
+msgstr "நீக்கு"
+
+#: ../userdrake:484 ../userdrake:521 ../userdrake:587 ../userdrake:1166
+#: ../userdrake:1317
+#, c-format
+msgid "Ok"
+msgstr "சரி"
+
+#: ../userdrake:497
+#, c-format
+msgid "UID: "
+msgstr ""
+
+#: ../userdrake:510
+#, fuzzy, c-format
+msgid "Choose group"
+msgstr "இடம்பெற்றுள்ள குழுக்கள்"
+
+#: ../userdrake:512 ../userdrake:513
+#, c-format
+msgid "Add to the existing group"
+msgstr ""
+
+#: ../userdrake:514
+#, c-format
+msgid "Add to the 'users' group"
+msgstr ""
+
+#: ../userdrake:516
+#, c-format
+msgid "A group with this name already exists.  What would you like to do?"
+msgstr ""
+
+#: ../userdrake:546
+#, c-format
+msgid "Create New Group"
+msgstr "புதிய குழுவை உருவாக்கு"
+
+#: ../userdrake:551
+#, c-format
+msgid "Specify group ID manually"
+msgstr ""
+
+#: ../userdrake:567
+#, c-format
+msgid "Group already exists, please choose another Group Name"
+msgstr ""
+
+#: ../userdrake:573
+#, c-format
+msgid " Group Gid is < 500"
+msgstr ""
+
+#: ../userdrake:574
+#, c-format
+msgid ""
+"Creating a group with a GID less than 500 is not recommended.\n"
+" Are you sure you want to do this?\n"
+"\n"
+msgstr ""
+
+#: ../userdrake:581
+#, c-format
+msgid "Adding group: %s "
+msgstr ""
+
+#: ../userdrake:591
+#, c-format
+msgid "GID: "
+msgstr ""
+
+#: ../userdrake:636
+#, c-format
+msgid "Delete files or not?"
+msgstr ""
+
+#: ../userdrake:639
+#, c-format
+msgid ""
+"Deleting user %s\n"
+" Also perform the following actions\n"
+msgstr ""
+
+#: ../userdrake:641
+#, fuzzy, c-format
+msgid "Delete Home Directory: %s"
+msgstr "பயனரின் தொடக்க அடைவு"
+
+#: ../userdrake:642
+#, c-format
+msgid "Delete Mailbox: /var/spool/mail/%s"
+msgstr ""
+
+#: ../userdrake:651
+#, fuzzy, c-format
+msgid "Removing user: %s"
+msgstr "பயனரைச் நீக்கு"
+
+#: ../userdrake:684
+#, c-format
+msgid "Do you really want to delete the group %s?"
+msgstr ""
+
+#: ../userdrake:697
+#, c-format
+msgid ""
+"%s is a primary group for user %s\n"
+" Remove the user first"
+msgstr ""
+
+#: ../userdrake:702
+#, fuzzy, c-format
+msgid "Removing group: %s"
+msgstr "குழுவை நீக்கு"
+
+#: ../userdrake:798
+#, c-format
+msgid "Full Name:"
+msgstr "முழுப் பெயர்:"
+
+#: ../userdrake:800
+#, c-format
+msgid "Login:"
+msgstr "தொடங்கல் :"
+
+#: ../userdrake:802
+#, c-format
+msgid "Password:"
+msgstr "கடவுச்சொல்:"
+
+#: ../userdrake:804
+#, c-format
+msgid "Confirm Password:"
+msgstr "கடவுச்சொல்லை உறுதிச் செய்:"
+
+#: ../userdrake:806
+#, c-format
+msgid "Login Shell:"
+msgstr "புகுபதிகை ஸ்செல்:"
+
+#: ../userdrake:820
+#, c-format
+msgid "Group Name:"
+msgstr "குழுப்பெயர்:"
+
+#: ../userdrake:894
+#, c-format
+msgid "Please select at least one group for the user"
+msgstr ""
+
+#: ../userdrake:904
+#, c-format
+msgid ""
+"Please specify Year, Month and Day \n"
+" for Account Expiration "
+msgstr ""
+
+#: ../userdrake:914
+#, c-format
+msgid "Please fill up all fields in password aging\n"
+msgstr ""
+
+#: ../userdrake:965
+#, c-format
+msgid "You cannot remove user '%s' from their primary group"
+msgstr ""
+
+#: ../userdrake:986
+#, c-format
+msgid "Home:"
+msgstr "ஆரம்பம்:"
+
+#: ../userdrake:988
+#, fuzzy, c-format
+msgid "User Data"
+msgstr "பயனரின் பட்டியல்"
+
+#: ../userdrake:992
+#, c-format
+msgid "Enable account expiration"
+msgstr ""
+
+#: ../userdrake:994
+#, c-format
+msgid "Account expires (YYYY-MM-DD):"
+msgstr ""
+
+#: ../userdrake:1002
+#, c-format
+msgid "Lock User Account"
+msgstr ""
+
+#: ../userdrake:1005
+#, c-format
+msgid "Account Info"
+msgstr ""
+
+#: ../userdrake:1010
+#, c-format
+msgid "User last changed password on: "
+msgstr ""
+
+#: ../userdrake:1017
+#, c-format
+msgid "Enable Password Expiration"
+msgstr ""
+
+#: ../userdrake:1022
+#, c-format
+msgid "Days before change allowed:"
+msgstr ""
+
+#: ../userdrake:1024
+#, c-format
+msgid "Days before change required:"
+msgstr ""
+
+#: ../userdrake:1026
+#, c-format
+msgid "Days warning before change:"
+msgstr ""
+
+#: ../userdrake:1028
+#, c-format
+msgid "Days before account inactive:"
+msgstr ""
+
+#: ../userdrake:1031
+#, fuzzy, c-format
+msgid "Password Info"
+msgstr "கடவுச்சொல்"
+
+#: ../userdrake:1035
+#, c-format
+msgid "Select the groups that the user will be a member of:"
+msgstr ""
+
+#: ../userdrake:1102
+#, fuzzy, c-format
+msgid "Group Data"
+msgstr "குழு  பட்டியல்"
+
+#: ../userdrake:1105
+#, c-format
+msgid "Select the users to join this group:"
+msgstr ""
+
+#: ../userdrake:1107
+#, fuzzy, c-format
+msgid "Group Users"
+msgstr "குழுக்கள்"
+
+#: ../userdrake:1127
+#, fuzzy, c-format
+msgid "Edit Groups / Users"
+msgstr "குழுக்கள்"
+
+#: ../userdrake:1159
+#, fuzzy, c-format
+msgid "An error occurred:"
+msgstr "பிழை நேர்ந்துள்ளது மன்னிக்கவும்"
+
+#: ../userdrake:1267
+#, c-format
+msgid "Close"
+msgstr "மூடு"
+
+#: ../userdrake:1277
+#, c-format
+msgid "Copyright (C) %s by Mandriva"
+msgstr ""
+
+#: ../userdrake:1280
+#, fuzzy, c-format
+msgid "Users Management"
+msgstr "பயனர் பெயர்"
+
+#: ../userdrake:1282
+#, c-format
+msgid "Mandriva Linux"
+msgstr "மான்ட்ரிவ லினக்ஸ்"
+
+#. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
+#: ../userdrake:1288
+#, c-format
+msgid "_: Translator(s) name(s) & email(s)\n"
+msgstr ""
+
+#: ../userdrake:1295
+#, c-format
+msgid "Name field is empty please provide a name"
+msgstr ""
+
+#: ../userdrake:1297
+#, c-format
+msgid ""
+"The name must contain only lower cased latin letters, numbers, `-' and `_'"
+msgstr ""
+
+#: ../userdrake:1300
+#, c-format
+msgid "Name is too long"
+msgstr ""
+
+#: ../userdrake:1313
+#, c-format
+msgid "Error"
+msgstr "பிழை"
+
+#, fuzzy
+#~ msgid "Unknown error"
+#~ msgstr "தெரியாத பிழை"
+
+#, fuzzy
+#~ msgid "Error creating %s: %s.\n"
+#~ msgstr " %s என்ற குறும்படத்தை ஏற்றுவதில் பிழை நேர்ந்துள்ளது"
+
+#~ msgid "Authors: "
+#~ msgstr "ஆசிரியர்கள்: "
+
+#~ msgid "Yes"
+#~ msgstr "ஆம்"
+
+#~ msgid "No"
+#~ msgstr "இல்லை"
+
+#~ msgid "Help"
+#~ msgstr "உதவி"
+
+#~ msgid "Reload"
+#~ msgstr "புதுக்கல்"
+
+#~ msgid "Save"
+#~ msgstr "சேமி"
+
+#~ msgid "Exit"
+#~ msgstr "வெளிச்செல்"
+
+#~ msgid "Settings"
+#~ msgstr "அமைப்புகள்"
+
+#~ msgid "Show tools bar"
+#~ msgstr "கருவிப்பட்டையைக் காட்டு"
+
+#~ msgid "View users"
+#~ msgstr "பயனர்களைக் காட்டு"
+
+#~ msgid "Preferences"
+#~ msgstr "விருப்பங்கள்"
+
+#~ msgid "Ldap Server"
+#~ msgstr "Ldap சேவையகம்"
+
+#~ msgid "Save change"
+#~ msgstr "மாற்றங்களைச் சேமி"
+
+#~ msgid "Add"
+#~ msgstr "சேர்"
+
+#~ msgid "Edit user(s)"
+#~ msgstr "பயனரைச் மாற்றியமை"
+
+#~ msgid "Remove"
+#~ msgstr "நீக்கு"
+
+#~ msgid "Edit group(s)"
+#~ msgstr "குழுவை மாற்றியமை"
+
+#~ msgid "User id"
+#~ msgstr "பயனரின் அடையாள எண்"
+
+#~ msgid "Group id"
+#~ msgstr "குழுவின் அடையாள எண்"
+
+#~ msgid "Comments"
+#~ msgstr "கருத்துக்கள்"
+
+#~ msgid "Shell"
+#~ msgstr "ஓடு"
+
+#~ msgid "name"
+#~ msgstr "பெயர்"
+
+#~ msgid "gid"
+#~ msgstr "அடையாள எண்"
+
+#~ msgid "passwd"
+#~ msgstr "கடவுச்சொல்"
+
+#~ msgid "users"
+#~ msgstr "பயனர்கள்"
+
+#~ msgid "Parameters"
+#~ msgstr "அளபுருக்கள்"
+
+#~ msgid "General option"
+#~ msgstr "பொது விருப்பங்கள்"
+
+#~ msgid "Edit accounts on a LDAP directory"
+#~ msgstr "LDAPல் உள்ள கணக்குகளை மாற்றியமை"
+
+#~ msgid "Active autologin support"
+#~ msgstr "தானாக தொடங்கிடும் வகையில் அமைத்திடுக"
+
+#~ msgid "User creation"
+#~ msgstr "பயனர் உருவாக்கம்"
+
+#~ msgid "Default shell:"
+#~ msgstr "கொடாநிலை ஒடு"
+
+#~ msgid "Default home dir:"
+#~ msgstr "கொடாநிலை தொடக்கம்"
+
+#~ msgid "Default face:"
+#~ msgstr "கொடாநிலை முகம்"
+
+#~ msgid "Default group:"
+#~ msgstr "கொடாநிலை குழு"
+
+#~ msgid "General"
+#~ msgstr "பொது"
+
+#~ msgid "Don't show user with id less than 500"
+#~ msgstr "அடையாள எண் 500க்கு குறைவான பயனரைக் காட்டாதே"
+
+#~ msgid "User identifier"
+#~ msgstr "பயனரின் அடையாளம்"
+
+#~ msgid "Default Group"
+#~ msgstr "கொடாநிலை குழு"
+
+#~ msgid "Groups list"
+#~ msgstr "குழுக்களின் பட்டியல்"
+
+#~ msgid "Users View"
+#~ msgstr "பயனரின் பார்வை"
+
+#~ msgid "Group identifier"
+#~ msgstr "குழுவின் அடையாள எண்"
+
+#~ msgid "Groups View"
+#~ msgstr "குழுக்களின் பார்வை"
+
+#~ msgid "/bin/bash"
+#~ msgstr "/bin/bash -ஒருவகை ஓடு"
+
+#~ msgid "uid:"
+#~ msgstr "பயனர்அடையாள எண்"
+
+#~ msgid "Comment:"
+#~ msgstr "குறிப்பு"
+
+#~ msgid "Shell:"
+#~ msgstr "ஓடுகள்"
+
+#~ msgid "Home dir:"
+#~ msgstr "தொடக்க அடைவு"
+
+#~ msgid "passwd:"
+#~ msgstr "கடவுச்சொல்"
+
+#~ msgid "Retype passwd:"
+#~ msgstr "மீண்டும் கடவுச்சொல்லை அடிக்கவும்"
+
+#~ msgid "Identity"
+#~ msgstr "அடையாளம்"
+
+#~ msgid "Available groups"
+#~ msgstr " தற்போதுள்ள குழுக்கள்"
+
+#~ msgid "Extended"
+#~ msgstr "நீட்டிக்கப்பட்ட"
+
+#~ msgid "About UserDrake"
+#~ msgstr "டிரேக்பயனர் பற்றி"
+
+#~ msgid ""
+#~ "Userdrake is an application to add and\n"
+#~ "delete users on the Mandriva Linux\n"
+#~ "distribution.\n"
+#~ "\n"
+#~ "Userdrake now support ldap directory\n"
+#~ "support conformed to rfc2307bis.\n"
+#~ "\n"
+#~ "This application is under the GPL\n"
+#~ "license and is delived without\n"
+#~ "any warranty.\n"
+#~ "\n"
+#~ "You can get support at : \n"
+#~ "http://www.mandrakeexpert.com/"
+#~ msgstr ""
+#~ "டிரேக்பயனர் என்ற இந்த பயன்பாட்டின் மூலம்\n"
+#~ "நீங்கள் எளிதாக பயனர்களை சேர்க்கவும், நீக்கவும் முடியும்\n"
+#~ "தயவுசெய்து ஆங்கிலத்தில் மட்டுமே அடிக்கவும்.\n"
+#~ "\n"
+#~ "rfc2307bis க்கு இணங்கி டிரேக்பயனர் தற்போது ldap \n"
+#~ "அடைவுகளுக்கு துணை போகிறது.\n"
+#~ "\n"
+#~ "இந்த நிரல் GPL காப்புரிமையின் கீழ்\n"
+#~ "எவ்வித உத்தரவாதமும் இன்றி உங்களுக்கு\n"
+#~ "கிடைக்கிறது.\n"
+#~ "\n"
+#~ "உதவி தேவையென்றால்  http://www.mandrakeexpert.com/: \n"
+#~ "செல்லவும்"
+
+#~ msgid "Name:"
+#~ msgstr "பெயர்"
+
+#~ msgid "gid:"
+#~ msgstr "குழுவின் அடையாள எண்"
+
+#~ msgid "Not in group"
+#~ msgstr "இடம்பெறாத குழுக்கள்"
+
+#~ msgid "Quit userdrake?"
+#~ msgstr "டிரேக்பயனரை விட்டு வெளிச்செல்"
+
+#~ msgid ""
+#~ "You have made changes\n"
+#~ "since the last save.\n"
+#~ "Do you really want to quit\n"
+#~ "userdrake?"
+#~ msgstr ""
+#~ "நீங்கள் செய்த சில மாற்றங்கள்\n"
+#~ "இன்னும் சேமிக்கப்படவில்லை\n"
+#~ "நீங்கள் நிச்சயம் டிரேக்பயனரை விட்டு\n"
+#~ " வெளிச்செல்ல விரும்புகிறீர்களா"
+
+#~ msgid "Enter new passwd"
+#~ msgstr "புதிய கடவுச்சொல்லை அடிக்கவும்"
+
+#~ msgid "new passwd:"
+#~ msgstr "புதிய கடவுச்சொல்"
+
+#~ msgid "Change"
+#~ msgstr "மாற்று"
+
+#~ msgid "Change face"
+#~ msgstr "முகத்தை மாற்று"
+
+#~ msgid "Set passwd"
+#~ msgstr "கடவுச்சொல்லை அமைக்கவும்"
+
+#~ msgid "User autologin"
+#~ msgstr "பயனர் தானாக தொட்ங்கல்"
+
+#~ msgid "UserDrake - Error"
+#~ msgstr "டிரேக்பயனர் --பிழை"
+
+#~ msgid "couldn't find blue color in /usr/lib/X11/rgb.txt file"
+#~ msgstr "/usr/lib/X11/rgb.txt என்ற கோப்பில் நீல வண்ணம் இல்லை"
+
+#~ msgid "Select the image to use"
+#~ msgstr "பயன்படுத்த வேண்டிய படத்தை தேர்வு செய்"
+
+#~ msgid "Custom..."
+#~ msgstr "தனிப்பயன்...."
+
+#~ msgid "couldn't find grey color in /usr/lib/X11/rgb.txt file"
+#~ msgstr "/usr/lib/X11/rgb.txt என்ற கோப்பில் ஊதா வண்ணம் இல்லை"
+
+#~ msgid "couldn't find black color in /usr/lib/X11/rgb.txt file"
+#~ msgstr "/usr/lib/X11/rgb.txt என்ற கோப்பில் கருப்பு வண்ணம் இல்லை"
+
+#~ msgid "login empty"
+#~ msgstr "தொடங்குபெயர் காலியாக உள்ளது"
+
+#~ msgid "This login already exists on the system"
+#~ msgstr "இந்த தொடங்குபெயர் ஏற்கனவே பயன்பாட்டில் உள்ளது"
+
+#~ msgid "The login is similar to a name's group"
+#~ msgstr "இந்த தொடங்குபெயர் ஏற்கனவே உள்ள குழுவின் பெயரை ஒத்து உள்ளது"
+
+#~ msgid ""
+#~ "%s\n"
+#~ "User id already in use"
+#~ msgstr ""
+#~ "%s\n"
+#~ "பயனர் அடையாள எண்  பயன்பாட்டில் உள்ளது"
+
+#~ msgid "User id already in use"
+#~ msgstr "பயனர் அடையாள எண்  பயன்பாட்டில் உள்ளது"
+
+#~ msgid "name empty"
+#~ msgstr "பெயர் காலியாக உள்ளது"
+
+#~ msgid ""
+#~ "%s\n"
+#~ "Group id already in use"
+#~ msgstr ""
+#~ "%s\n"
+#~ "குழு அடையாள எண்  பயன்பாட்டில் உள்ளது"
+
+#~ msgid "Group id already in use"
+#~ msgstr "குழு அடையாள எண்  பயன்பாட்டில் உள்ளது"
+
+#~ msgid "Couldn't find pixmap file: %s"
+#~ msgstr " %s என்ற குறும்படத்தை கானவில்லை"
+
+#~ msgid "%s: the file %s is busy (%s present)\n"
+#~ msgstr "%s: என்ற கோப்பு %s பயன்பாட்டில் உள்ளது(%s உள்ளது)\n"
+
+#~ msgid "%s: can't link %s: %s\n"
+#~ msgstr "%s: இணைக்க முடியாது %s: %s\n"
+
+#~ msgid "%s: can't unlock %s: %s (your changes are still in %s)\n"
+#~ msgstr "%s: பிரிக்க முடியாது%s: %s (உங்கள் மாற்றங்கள் %s ல் உள்ளது)\n"
+
+#~ msgid "Error in stat on tmp files when i try to unlock lib\n"
+#~ msgstr "நூலக நிரலை விட்டு விலகும்போது பிழை நேர்ந்துள்ளது\n"
+
+#~ msgid "%s: no changes made\n"
+#~ msgstr "%s: மாற்றம் ஏதுமில்லை\n"
+
+#~ msgid "Select LDAP Directory"
+#~ msgstr "LDAP அடைவைத் தேர்ந்தெடு"
+
+#~ msgid "Server address:"
+#~ msgstr "சேவையகத்தின் பெயர்"
+
+#~ msgid "Search base:"
+#~ msgstr "தேடு"
+
+#~ msgid "Bind DN:"
+#~ msgstr "இணையவேண்டிய DN:"
+
+#~ msgid "Connection Type :"
+#~ msgstr "இணைப்பின் பெயர்"
+
+#~ msgid "ssl"
+#~ msgstr "ssl"
+
+#~ msgid "Validate"
+#~ msgstr "சரிபார்த்தல்"
+
+#~ msgid "Test"
+#~ msgstr "சோதனை"
+
+#~ msgid "cannot change ldap version to 3: %s"
+#~ msgstr "ldap வெளியீட்டை 3:க்கு மாற்ற முடியவில்லை %s"
+
+#~ msgid "cannot connect to the ldap server\n"
+#~ msgstr "ldap சேவையகத்தொடு இணைய முடியவில்லை\n"
+
+#~ msgid "cannot bind to the ldap server, %d\n"
+#~ msgstr " %dldap சேவையகத்தொடு இணைய முடியவில்லை\n"
+
+#~ msgid "Cannot bind to ldap server"
+#~ msgstr "ldap சேவையகத்தொடு இணைய முடியவில்லை"
+
+#~ msgid "cannot save because the cannot connect to the ldap server"
+#~ msgstr " ldap சேவையகத்தொடு இணைய முடியாமையால் சேமிக்கவில்லை"
+
+#~ msgid "cannot relock lib"
+#~ msgstr "நூலக நிரலுடன் சேர முடியவில்லை"

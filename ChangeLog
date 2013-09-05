@@ -1,0 +1,3762 @@
+2009-03-28 08:37  gustav
+
+	* po/bg.po: update translation for Bulgarian language
+
+2009-03-26 20:36  Andrea Celli <andrea.celli at libero.it>
+
+	* po/it.po: update translation for Italian
+
+2009-03-17 20:20  cfrussen
+
+	* po/ro.po: Completely updated & revised Romanian translation
+
+2009-03-13 14:11  olorin
+
+	* po/nb.po: update for Norwegian Bokmål translation
+
+2009-03-12 18:47  Pjetur G. Hjaltason <pjetur at pjetur.net>
+
+	* po/is.po: Latest translations and updates
+
+2009-01-09 12:46  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* .perl_checker: update perl_checker blacklist
+
+2009-01-09 12:22  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* userdrake: (CreateTree) make it more readable (needed for next
+	  commit)
+
+2009-01-09 12:15  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* NEWS, userdrake: (GetFaceIcon) do not crash if some face images
+	  are missing (#45024)
+
+2008-11-22 13:39  Ilyas Bakirov <just_ilyas at yahoo.com>
+
+	* po/ky.po: update translation for kirghiz language
+
+2008-09-22 20:33  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* Makefile: 1.8
+
+2008-09-22 20:33  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* Makefile: 1.8
+
+2008-09-16 15:10  Sharuzzaman Ahmat Raslan <sharuzzaman at myrealbox.com>
+
+	* po/ms.po: Updated Malay translation
+
+2008-06-10 10:29  Сергій Рибалченко (Sergey Ribalchenko) <fisher at obu.ck.ua>
+
+	* po/uk.po: uk translation update
+
+2008-04-20 12:00  nikos
+
+	* po/el.po: greek (el) translation update by Dimitris
+
+2008-04-03 07:40  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* Makefile: 1.7
+
+2008-03-30 21:28  Arpad Biro <biro_arpad at yahoo.com>
+
+	* po/hu.po: update
+
+2008-03-30 21:28  Arpad Biro <biro_arpad at yahoo.com>
+
+	* po/hu.po: update
+
+2008-03-30 16:09  unho
+
+	* po/gl.po: update translation for galician
+
+2008-03-29 19:05  unho
+
+	* po/gl.po: update translation for galician
+
+2008-03-29 15:58  Sharuzzaman Ahmat Raslan <sharuzzaman at myrealbox.com>
+
+	* po/ms.po: Updated Malay translation
+
+2008-03-29 00:45  unho
+
+	* po/gl.po: update translation for galician
+
+2008-03-28 19:33  kazancas
+
+	* po/ru.po: update translation on ru
+
+2008-03-25 22:01  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* Makefile: 1.6
+
+2008-03-25 22:01  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* ChangeLog: update
+
+2008-03-25 16:50  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* po/ro.po: update (Pîrîu Cristian Ionuţ)
+
+2008-03-25 16:50  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* po/ro.po: update (Pîrîu Cristian Ionuţ)
+
+2008-03-20 13:50  Karl Ove Hufthammer <karl at huftis.org>
+
+	* po/nn.po: Updated Norwegian Nynorsk translation.
+
+2008-03-14 10:35  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* po/de.po: update (Nicolas Bauer)
+
+2008-03-14 10:34  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* po/Makefile: (update_n_merge) split it out of (merge) ; now
+	  (merge) only update po w/o updating main pot file
+
+2008-03-10 19:07  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* ChangeLog: update
+
+2008-03-10 19:07  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* Makefile: (tar) compress with lzma
+
+2008-03-10 19:07  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* Makefile: (tar) no big temporary file
+
+2008-03-10 19:07  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* Makefile: 1.5
+
+2008-03-07 14:40  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* po/eo.po: update (Wilhelm Luttermann)
+
+2008-03-07 14:40  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* po/eo.po: update (Wilhelm Luttermann)
+
+2008-02-27 18:54  thomas
+
+	* po/sv.po: update Swedish translation
+
+2008-02-02 08:55  Inigo Salvador Azurmendi <xalba at euskalnet.net>
+
+	* po/eu.po: Osatuta.
+
+2008-01-19 21:47  Pavel Maryanov <acid_jack at ukr.net>
+
+	* po/ru.po: updated translation
+
+2008-01-15 05:51  Sharuzzaman Ahmat Raslan <sharuzzaman at myrealbox.com>
+
+	* po/ms.po: Updated Malay translation
+
+2007-12-16 04:27  Keld Jørn Simonsen <keld at dkuug.dk>
+
+	* po/nb.po: updates
+
+2007-12-09 23:28  kmashrab
+
+	* po/uz.po, po/uz@Latn.po, po/uz@cyrillic.po: Renamed Uzbek
+	  translations to follow the libc standard. Aproved by Pixel. For
+	  details, see bug #35090.
+
+2007-10-30 21:24  Keld Jørn Simonsen <keld at dkuug.dk>
+
+	* po/da.po: updates
+
+2007-10-26 21:58  anssi
+
+	* po/fi.po: Update Finnish translation
+
+2007-10-03 21:39  Arpad Biro <biro_arpad at yahoo.com>
+
+	* po/ltg.po: update by Mario
+
+2007-10-03 15:53  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* ChangeLog, Makefile: 1.4
+
+2007-10-03 15:50  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* po/es.po: update (Fabián Mandelbaum)
+
+2007-10-03 15:50  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* po/es.po: update (Fabián Mandelbaum)
+
+2007-10-02 16:43  Karl Ove Hufthammer <karl at huftis.org>
+
+	* po/nn.po: Updated Norwegian Nynorsk translation.
+
+2007-10-02 13:27  Funda Wang <fundawang at linux.net.cn>
+
+	* po/zh_CN.po: Updated zh_CN translation
+
+2007-09-29 16:49  Karl Ove Hufthammer <karl at huftis.org>
+
+	* po/nn.po: Updated Norwegian Nynorsk translation.
+
+2007-09-28 12:35  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* Makefile: 1.3
+
+2007-09-27 08:50  Funda Wang <fundawang at linux.net.cn>
+
+	* po/zh_TW.po: Updated zh_TW translation
+
+2007-09-27 08:50  Funda Wang <fundawang at linux.net.cn>
+
+	* po/zh_TW.po: Updated zh_TW translation
+
+2007-09-26 13:19  guclu
+
+	* po/tr.po: update translation for Turkish
+
+2007-09-25 20:37  Reinout van Schouwen <reinout at cs.vu.nl>
+
+	* po/nl.po: newline fix
+
+2007-09-25 19:15  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* po/et.po: update (Marek Laane)
+
+2007-09-25 17:37  Michal Bukovjan <bukovjan at mbox.dkm.cz>
+
+	* po/cs.po: Updated Czech translation.
+
+2007-09-25 15:17  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* po/cy.po: update (Rhoslyn Prys)
+
+2007-09-25 06:57  Tomasz Bednarski <tbednarski at mandrivalinux.pl>
+
+	* po/pl.po: update
+
+2007-09-24 22:41  Reinout van Schouwen <reinout at cs.vu.nl>
+
+	* po/nl.po: * 2007-09-25 Reinout van Schouwen <reinouts@gnome.org>
+	  
+	  - nl.po: Updated Dutch translation
+
+2007-09-24 20:46  jure
+
+	* po/sl.po: Updated Slovenian translation
+
+2007-09-24 19:43  guclu
+
+	* po/tr.po: update translation for Turkish
+
+2007-09-24 19:16  acelli
+
+	* po/it.po: update translation for Italian
+
+2007-09-24 18:55  kamberd
+
+	* po/he.po: update translation for Hebrew
+
+2007-09-24 18:45  mmodem
+
+	* po/pt.po: up
+
+2007-09-24 16:30  Arpad Biro <biro_arpad at yahoo.com>
+
+	* po/hu.po: update
+
+2007-09-24 15:25  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* ChangeLog: update
+
+2007-09-24 15:25  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* Makefile: 1.2.11
+
+2007-09-24 14:45  Wanderlei Antonio Cavassin <cavassin at mandriva.com>
+
+	* po/pt_BR.po: pt_BR fix
+
+2007-09-24 14:01  ybando
+
+	* po/ja.po: Japanese translation updated.
+
+2007-09-24 15:25  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* Makefile: 1.2.11
+
+2007-09-24 14:45  Wanderlei Antonio Cavassin <cavassin at mandriva.com>
+
+	* po/pt_BR.po: pt_BR fix
+
+2007-09-24 14:01  ybando
+
+	* po/ja.po: Japanese translation updated.
+
+2007-09-24 13:04  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* po/fr.po: update
+
+2007-09-24 13:03  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* po/cy.po, po/et.po, po/fr.po, po/he.po, po/hu.po, po/ja.po,
+	  po/nl.po, po/pl.po, po/pt.po, po/pt_BR.po, po/sl.po, po/zh_CN.po,
+	  po/zh_TW.po: merge in translations from transfugdrake
+
+2007-09-24 13:03  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* po/af.po, po/am.po, po/ar.po, po/az.po, po/be.po, po/bg.po,
+	  po/bn.po, po/br.po, po/bs.po, po/ca.po, po/cs.po, po/cy.po,
+	  po/da.po, po/de.po, po/el.po, po/eo.po, po/es.po, po/et.po,
+	  po/eu.po, po/fa.po, po/fi.po, po/fr.po, po/fur.po, po/ga.po,
+	  po/gl.po, po/he.po, po/hi.po, po/hr.po, po/hu.po, po/hy.po,
+	  po/id.po, po/is.po, po/it.po, po/ja.po, po/ka.po, po/ko.po,
+	  po/ku.po, po/ky.po, po/lo.po, po/lt.po, po/ltg.po, po/lv.po,
+	  po/mk.po, po/mn.po, po/ms.po, po/mt.po, po/nb.po, po/nl.po,
+	  po/nn.po, po/pa_IN.po, po/pl.po, po/pt.po, po/pt_BR.po, po/ro.po,
+	  po/ru.po, po/sc.po, po/sk.po, po/sl.po, po/sq.po, po/sr.po,
+	  po/sr@Latn.po, po/sv.po, po/ta.po, po/tg.po, po/th.po, po/tl.po,
+	  po/tr.po, po/uk.po, po/userdrake.pot, po/uz.po, po/uz@Latn.po,
+	  po/vi.po, po/wa.po, po/zh_CN.po, po/zh_TW.po: sync with code
+
+2007-09-24 13:01  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* userdrake: enable to run migration assistant when adding a user
+
+2007-09-20 03:00  mmodem
+
+	* po/pt.po: up
+
+2007-09-03 14:43  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* Makefile: bump release (1.2.10)
+
+2007-08-20 18:56  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* USER/USER.xs: update copyright
+
+2007-08-17 12:16  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* USER/Makefile.PL: improve signal to noise ration by killing
+	  warnings about declaration-after-statements
+
+2007-08-14 13:25  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* Makefile: use -rBASE for svn export in order to please blino by
+	  making sure local changes do not got exported
+
+2007-07-20 17:41  Karl Ove Hufthammer <karl at huftis.org>
+
+	* po/nn.po: Updated Norwegian Nynorsk translation.
+
+2007-07-11 20:41  Karl Ove Hufthammer <karl at huftis.org>
+
+	* po/nn.po: Updated Norwegian Nynorsk translation.
+
+2007-07-04 16:03  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* Makefile: (changelog) typo fix
+
+2007-07-03 17:48  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* Makefile: (changelog) --strip-prefix is now uneeded with
+	  svn2cl-0.9
+
+2006-10-11 10:45  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* userdrake.spec: 1.2.6-1mdv2007.1
+
+2006-10-09 12:22  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* userdrake: (Edit) simplify
+
+2006-10-09 12:22  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* userdrake: (BuildUui, Edit) HIG somewhat first tab of add & edit
+	  dialogs
+
+2006-10-09 12:21  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* userdrake: (BuildUui) accept to pack an extra widget
+
+2006-10-09 12:20  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* userdrake: (TimeOfArray) fix retrieval of expiration date (brown
+	  paper bug #21662)
+
+2006-09-29 06:37  mmodem
+
+	* po/pt.po: *** empty log message ***
+
+2006-09-24 00:20  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/ltg.po: updated po file
+
+2006-09-15 23:02  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* userdrake.spec: fix menu section
+
+2006-09-15 22:58  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* userdrake.spec: fix XDG cat
+
+2006-09-15 22:54  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* userdrake.spec: fix XDG menu entry filename
+
+2006-09-15 22:48  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* userdrake.spec: 1.2.5-1mdv2007.0
+
+2006-09-15 22:47  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* userdrake.spec: XDG menu
+
+2006-09-15 22:44  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* Makefile: (install) do not try to strip perl script
+
+2006-07-28 17:34  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* po/de.po: update (Nicolas Bauer)
+
+2006-06-08 13:51  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* ChangeLog: *** empty log message ***
+
+2006-06-08 13:50  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* userdrake.spec: 1.2.4-1mdv2007.0
+
+2006-06-08 12:46  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* USER/Makefile.PL: fix linking with libuser (littletux@zarb.org,
+	  #22924)
+
+2006-06-01 16:29  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* userdrake.spec: 1.2.3-1mdv2007.0
+
+2006-06-01 16:28  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* userdrake: use drakbug in order to report a bug (thus fixing
+	  reporting a bug when BROWSER isn't set)
+
+2006-06-01 16:27  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* userdrake: require run_program
+
+2006-06-01 16:26  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* userdrake: (HelpSystem) use run_program instead of fork()
+
+2006-05-22 15:28  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* userdrake.spec: drop the requires on perl-Gtk2 since drakxtools
+	  requires a more recent
+	  one and since it's already auto required
+
+2006-05-22 15:27  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* userdrake.spec: bump the requires on drakxtools (because of
+	  AboutDialog support in mygtk2.pm)
+
+2006-05-22 15:26  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* userdrake: use standard about widget
+
+2006-04-06 17:37  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* userdrake: (NewDialog) simplify boxing
+
+2006-03-22 10:55  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/af.po, po/am.po, po/ar.po, po/az.po, po/be.po, po/bg.po,
+	  po/bn.po, po/bs.po, po/ca.po, po/cs.po, po/cy.po, po/da.po,
+	  po/el.po, po/es.po, po/eu.po, po/fa.po, po/fi.po, po/fur.po,
+	  po/gl.po, po/he.po, po/hi.po, po/hr.po, po/hu.po, po/hy.po,
+	  po/is.po, po/it.po, po/ja.po, po/ka.po, po/ku.po, po/ky.po,
+	  po/lo.po, po/lt.po, po/ltg.po, po/lv.po, po/mk.po, po/ms.po,
+	  po/mt.po, po/nb.po, po/nl.po, po/pa_IN.po, po/pl.po, po/pt.po,
+	  po/ro.po, po/ru.po, po/sc.po, po/sk.po, po/sl.po, po/sq.po,
+	  po/sr.po, po/sr@Latn.po, po/sv.po, po/tg.po, po/th.po, po/tl.po,
+	  po/tr.po, po/uk.po, po/uz.po, po/uz@Latn.po, po/vi.po, po/wa.po,
+	  po/zh_CN.po: updated Welsh file; rescued a translation string
+
+2006-03-21 11:33  Willy Sudiarto Raharjo <willysr at gmail.com>
+
+	* po/id.po: Updated
+
+2006-03-18 11:06  Marek Laane <bald at starman.ee>
+
+	* po/et.po: Updated Estonian translation.
+
+2006-03-18 05:48  Shiva Huang <blueshiva at giga.net.tw>
+
+	* po/zh_TW.po: updated po file
+
+2006-03-17 16:44  Wanderlei Antonio Cavassin <cavassin at mandriva.com>
+
+	* po/pt_BR.po: Fixes pt_BR.
+
+2006-03-17 16:34  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* userdrake.spec: drop packager tag
+
+2006-03-17 16:08  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* ChangeLog: *** empty log message ***
+
+2006-03-17 16:06  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* userdrake.spec: pablo commit never made it in the uploaded
+	  packages so add it to
+	  1.2.2-1mdk's changelog
+
+2006-03-17 16:03  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* userdrake.spec: daouda didn't commit 1.2.1-3mdk
+
+2006-03-17 16:00  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* po/br.po, po/fr.po: unfuzzy
+
+2006-03-17 15:59  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* po/af.po, po/am.po, po/ar.po, po/az.po, po/be.po, po/bg.po,
+	  po/bn.po, po/br.po, po/bs.po, po/ca.po, po/cs.po, po/cy.po,
+	  po/da.po, po/de.po, po/el.po, po/eo.po, po/es.po, po/et.po,
+	  po/eu.po, po/fa.po, po/fi.po, po/fr.po, po/fur.po, po/ga.po,
+	  po/gl.po, po/he.po, po/hi.po, po/hr.po, po/hu.po, po/hy.po,
+	  po/id.po, po/is.po, po/it.po, po/ja.po, po/ka.po, po/ko.po,
+	  po/ku.po, po/ky.po, po/lo.po, po/lt.po, po/ltg.po, po/lv.po,
+	  po/mk.po, po/mn.po, po/ms.po, po/mt.po, po/nb.po, po/nl.po,
+	  po/pa_IN.po, po/pl.po, po/pt.po, po/pt_BR.po, po/ro.po, po/ru.po,
+	  po/sc.po, po/sk.po, po/sl.po, po/sq.po, po/sr.po, po/sr@Latn.po,
+	  po/sv.po, po/ta.po, po/tg.po, po/th.po, po/tl.po, po/tr.po,
+	  po/uk.po, po/userdrake.pot, po/uz.po, po/uz@Latn.po, po/vi.po,
+	  po/wa.po, po/zh_CN.po, po/zh_TW.po: sync with code
+
+2006-03-17 15:58  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* userdrake: add a question mark at end of delete group
+	  confirmation sentence
+
+2006-03-17 15:58  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* userdrake: the "warning" string is already translated in DrakX
+
+2006-03-17 15:55  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* userdrake: use a standard title for the deleting group
+	  confirmation dialog
+
+2006-03-17 15:53  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* userdrake.spec: 1.2.2-1mdk
+
+2006-03-17 15:53  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* userdrake: add myself to maintainer list
+
+2006-03-17 15:52  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* userdrake: remove daouda email since it doesn't maintain anymore
+	  userdrake
+
+2006-03-17 15:50  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* userdrake: bump copyright year
+
+2006-03-17 15:48  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* userdrake.spec: fix %mkrel call
+
+2006-03-17 15:48  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* userdrake.spec: use %mkrel
+
+2006-03-17 15:40  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* userdrake: perl_checker cleanup
+
+2006-03-17 15:38  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* userdrake: (NewWindow) rename $w as $dialog
+
+2006-03-17 15:33  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* userdrake: (NewWindow, NewDialog) simplify by using
+	  _create_dialog()
+
+2006-03-17 15:08  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* userdrake: (NewWindow) center subwindows on main one
+
+2006-03-17 15:07  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* userdrake: (NewWindow) make subwindows transcient to the main one
+
+2006-03-17 15:07  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* userdrake: (NewWindow) add a 5px border around the window (better
+	  looking)
+
+2006-03-17 15:05  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* userdrake: add some spaces between functions
+
+2006-03-17 14:58  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* userdrake: perl_checker cleanups
+
+2006-03-17 14:52  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* .perl_checker: blacklist a few modules so that perl_checker can
+	  parse userdrake
+
+2006-03-17 14:49  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* userdrake: (NewWindow) second argument ('mode') is unused and
+	  always set
+	  to 1. Let's drop it.
+
+2006-03-17 14:46  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* userdrake: (NewWindow) rename 'label' as 'title' since it's
+	  really what it is
+
+2006-03-17 14:10  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* po/br.po: update
+
+2006-03-17 13:51  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* userdrake: let's assume GECOS data is utf-8 encoded (#4296)
+
+2006-03-17 13:41  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* userdrake: bump copyright
+
+2006-03-13 17:50  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* po/ga.po: update
+
+2006-01-31 21:44  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/hr.po: updated po file
+
+2005-11-09 17:07  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/lv.po: updated po file
+
+2005-10-24 00:46  Willy Sudiarto Raharjo <willysr at gmail.com>
+
+	* po/id.po: Updated Contact Info
+
+2005-10-12 07:26  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/hi.po, po/ku.po: updated po files
+
+2005-10-03 13:58  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/ca.po: updated po file
+
+2005-09-27 05:01  mmodem
+
+	* po/pt.po: *** empty log message ***
+
+2005-09-19 05:04  Sharuzzaman Ahmat Raslan <sharuzzaman at myrealbox.com>
+
+	* po/ms.po: Updated Malay translation
+
+2005-09-15 13:19  Sharuzzaman Ahmat Raslan <sharuzzaman at myrealbox.com>
+
+	* po/ms.po: Updated Malay translation
+
+2005-09-03 17:37  Sharuzzaman Ahmat Raslan <sharuzzaman at myrealbox.com>
+
+	* po/ms.po: Updated Malay translation
+
+2005-08-31 16:27  Willy Sudiarto Raharjo <willysr at gmail.com>
+
+	* po/id.po: Updated plus added new Translator
+
+2005-08-28 13:16  Sharuzzaman Ahmat Raslan <sharuzzaman at myrealbox.com>
+
+	* po/ms.po: Updated Malay translation
+
+2005-08-14 07:36  Sharuzzaman Ahmat Raslan <sharuzzaman at myrealbox.com>
+
+	* po/ms.po: Updated Malay translation
+
+2005-08-12 08:10  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/lt.po: updated po file
+
+2005-08-07 00:06  Sharuzzaman Ahmat Raslan <sharuzzaman at myrealbox.com>
+
+	* po/ms.po: Updated Malay translation
+
+2005-08-04 02:25  Сергій Рибалченко (Sergey Ribalchenko) <fisher at obu.ck.ua>
+
+	* po/uk.po: header correction in uk.po
+
+2005-08-02 07:29  Сергій Рибалченко (Sergey Ribalchenko) <fisher at obu.ck.ua>
+
+	* po/uk.po: uk tr-ion update
+
+2005-07-30 08:37  Sharuzzaman Ahmat Raslan <sharuzzaman at myrealbox.com>
+
+	* po/ms.po: Updated Malay translation
+
+2005-07-29 08:08  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* po/ga.po: update
+
+2005-07-23 10:19  Sharuzzaman Ahmat Raslan <sharuzzaman at myrealbox.com>
+
+	* po/ms.po: Updated Malay translation
+
+2005-07-18 10:26  Olivier Blin <oblin at mandriva.com>
+
+	* userdrake: use eq
+
+2005-07-18 10:25  Olivier Blin <oblin at mandriva.com>
+
+	* userdrake: use common::md5file
+
+2005-07-12 22:41  Sharuzzaman Ahmat Raslan <sharuzzaman at myrealbox.com>
+
+	* po/ms.po: Updated Malay translation
+
+2005-07-03 01:06  Pjetur G. Hjaltason <pjetur at pjetur.net>
+
+	* po/is.po: Mostly syntax checking and msg consistency
+
+2005-07-01 23:27  Sharuzzaman Ahmat Raslan <sharuzzaman at myrealbox.com>
+
+	* po/ms.po: Updated Malay translation
+
+2005-06-14 01:31  Sharuzzaman Ahmat Raslan <sharuzzaman at myrealbox.com>
+
+	* po/ms.po: Updated Malay translation
+
+2005-05-28 00:00  Sharuzzaman Ahmat Raslan <sharuzzaman at myrealbox.com>
+
+	* po/ms.po: Updated Malay translation
+
+2005-04-25 07:36  Sharuzzaman Ahmat Raslan <sharuzzaman at myrealbox.com>
+
+	* po/ms.po: Updated Malay translation
+
+2005-04-19 14:13  Sharuzzaman Ahmat Raslan <sharuzzaman at myrealbox.com>
+
+	* po/ms.po: Updated Malay translation
+
+2005-04-18 17:02  Willy Sudiarto Raharjo <willysr at gmail.com>
+
+	* po/id.po: Updated
+
+2005-04-18 10:27  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/af.po, po/am.po, po/ar.po, po/az.po, po/be.po, po/bg.po,
+	  po/bn.po, po/br.po, po/bs.po, po/ca.po, po/cs.po, po/cy.po,
+	  po/da.po, po/de.po, po/el.po, po/eo.po, po/es.po, po/et.po,
+	  po/eu.po, po/fa.po, po/fi.po, po/fr.po, po/fur.po, po/ga.po,
+	  po/gl.po, po/he.po, po/hi.po, po/hr.po, po/hu.po, po/hy.po,
+	  po/id.po, po/is.po, po/it.po, po/ja.po, po/ka.po, po/ko.po,
+	  po/ku.po, po/ky.po, po/lo.po, po/lt.po, po/ltg.po, po/lv.po,
+	  po/mk.po, po/mn.po, po/ms.po, po/mt.po, po/nb.po, po/nl.po,
+	  po/pa_IN.po, po/pl.po, po/pt.po, po/pt_BR.po, po/ro.po, po/ru.po,
+	  po/sc.po, po/sk.po, po/sl.po, po/sq.po, po/sr.po, po/sr@Latn.po,
+	  po/sv.po, po/ta.po, po/tg.po, po/th.po, po/tl.po, po/tr.po,
+	  po/uk.po, po/userdrake.pot, po/uz.po, po/uz@Latn.po, po/vi.po,
+	  po/wa.po, po/zh_CN.po, po/zh_TW.po, userdrake, userdrake.spec:
+	  s/Mandrake/Mandriva/
+
+2005-04-14 14:41  Youcef Rabah Rahal <rahal at arabeyes.org>
+
+	* po/ar.po: sync'ed with Arabeyes CVS
+
+2005-04-02 15:29  Sharuzzaman Ahmat Raslan <sharuzzaman at myrealbox.com>
+
+	* po/ms.po: Updated Malay translation
+
+2005-03-30 13:53  Willy Sudiarto Raharjo <willysr at gmail.com>
+
+	* po/id.po: updated
+
+2005-03-29 20:58  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/af.po, po/am.po, po/ar.po, po/az.po, po/be.po, po/bg.po,
+	  po/bn.po, po/br.po, po/bs.po, po/ca.po, po/cs.po, po/cy.po,
+	  po/da.po, po/de.po, po/el.po, po/eo.po, po/es.po, po/et.po,
+	  po/eu.po, po/fa.po, po/fi.po, po/fr.po, po/fur.po, po/ga.po,
+	  po/gl.po, po/he.po, po/hi.po, po/hr.po, po/hu.po, po/hy.po,
+	  po/id.po, po/is.po, po/it.po, po/ja.po, po/ka.po, po/ko.po,
+	  po/ku.po, po/ky.po, po/lo.po, po/lt.po, po/ltg.po, po/lv.po,
+	  po/mk.po, po/mn.po, po/ms.po, po/mt.po, po/nb.po, po/nl.po,
+	  po/pa_IN.po, po/pl.po, po/pt.po, po/pt_BR.po, po/ro.po, po/ru.po,
+	  po/sc.po, po/sk.po, po/sl.po, po/sq.po, po/sr.po, po/sr@Latn.po,
+	  po/sv.po, po/ta.po, po/tg.po, po/th.po, po/tl.po, po/tr.po,
+	  po/uk.po, po/userdrake.pot, po/uz.po, po/uz@Latn.po, po/vi.po,
+	  po/wa.po, po/zh_CN.po, po/zh_TW.po, userdrake: Removed spaces
+	  before colons;
+	  included colons in translatable strings (yes, they are
+	  language-dependent,
+	  even if most of them just us ":", some use different things);
+	  Added Punjabi file
+
+2005-03-13 16:13  Michal Bukovjan <bukovjan at mbox.dkm.cz>
+
+	* po/cs.po: Updates to Czech translations
+
+2005-03-10 15:20  Youcef Rabah Rahal <rahal at arabeyes.org>
+
+	* po/ar.po: Arabic QA
+
+2005-03-08 14:21  Daouda Lo <daouda at mandriva.com>
+
+	* userdrake: - remove spurious comma
+
+2005-03-08 13:08  Daouda Lo <daouda at mandriva.com>
+
+	* userdrake.spec: - 1.2.1-2mdk
+
+2005-03-08 13:05  Daouda Lo <daouda at mandriva.com>
+
+	* userdrake: - wrap an eval around sensitive home deletion
+	  - home deletion option grayed when deletion might be dangerous
+
+2005-03-05 05:05  Shiva Huang <blueshiva at giga.net.tw>
+
+	* po/zh_TW.po: updated po files
+
+2005-03-04 17:13  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* po/af.po, po/am.po, po/ar.po, po/az.po, po/be.po, po/bg.po,
+	  po/bn.po, po/br.po, po/bs.po, po/ca.po, po/cs.po, po/cy.po,
+	  po/da.po, po/de.po, po/el.po, po/eo.po, po/es.po, po/et.po,
+	  po/eu.po, po/fa.po, po/fi.po, po/fr.po, po/fur.po, po/ga.po,
+	  po/gl.po, po/he.po, po/hi.po, po/hr.po, po/hu.po, po/hy.po,
+	  po/id.po, po/is.po, po/it.po, po/ja.po, po/ka.po, po/ko.po,
+	  po/ku.po, po/ky.po, po/lo.po, po/lt.po, po/ltg.po, po/lv.po,
+	  po/mk.po, po/mn.po, po/ms.po, po/mt.po, po/nb.po, po/nl.po,
+	  po/pl.po, po/pt.po, po/pt_BR.po, po/ro.po, po/ru.po, po/sc.po,
+	  po/sk.po, po/sl.po, po/sq.po, po/sr.po, po/sr@Latn.po, po/sv.po,
+	  po/ta.po, po/tg.po, po/th.po, po/tl.po, po/tr.po, po/uk.po,
+	  po/uz.po, po/uz@Latn.po, po/vi.po, po/wa.po, po/zh_CN.po,
+	  po/zh_TW.po: fix phrasing
+
+2005-03-04 16:18  Olivier Blin <oblin at mandriva.com>
+
+	* userdrake: do not use absolute path to Mdk icons
+
+2005-03-02 14:27  Daouda Lo <daouda at mandriva.com>
+
+	* USER/USER.xs: - fix mem leak due to extra safefree((char*)self);
+
+2005-02-28 23:07  Youcef Rabah Rahal <rahal at arabeyes.org>
+
+	* po/ar.po: Arabic QA
+
+2005-02-28 12:22  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* ChangeLog: *** empty log message ***
+
+2005-02-28 12:22  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* ChangeLog, userdrake: fix phrasing
+
+2005-02-28 12:21  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* po/br.po: update
+
+2005-02-28 07:51  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/ja.po: updated po file
+
+2005-02-24 15:03  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* po/lt.po, po/ta.po: merge with kde-3.3 branch
+
+2005-02-23 18:46  Pablo Saratxaga <pablo at mandriva.com>
+
+	* ChangeLog: converted to UTF-8
+
+2005-02-21 18:23  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* userdrake.spec: use %makeinstall_std
+
+2005-02-21 18:22  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* ChangeLog: *** empty log message ***
+
+2005-02-21 18:22  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* userdrake.spec: 1.2.1-1mdk
+
+2005-02-20 23:51  Pjetur G. Hjaltason <pjetur at pjetur.net>
+
+	* po/is.po: End of days work
+
+2005-02-18 10:53  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* po/ga.po: update
+
+2005-02-16 13:04  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/be.po, po/ca.po, po/ga.po, po/is.po, po/ko.po, po/ku.po,
+	  po/lt.po, po/lv.po, po/mn.po, po/ms.po, po/sr@Latn.po, po/ta.po,
+	  po/uz@Latn.po: automerging
+
+2005-02-15 20:59  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* po/eo.po, po/is.po, po/sr.po, po/tr.po: update
+
+2005-02-15 17:20  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* po/be.po, po/ko.po, po/lt.po, po/mn.po, po/ms.po, po/ta.po,
+	  po/uz.po: update
+
+2005-02-14 16:35  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/it.po: updated po file
+
+2005-02-13 01:49  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/am.po: Added Amharic file
+
+2005-02-09 12:34  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/af.po, po/ar.po, po/az.po, po/be.po, po/bg.po, po/bn.po,
+	  po/br.po, po/bs.po, po/ca.po, po/cs.po, po/cy.po, po/da.po,
+	  po/de.po, po/el.po, po/eo.po, po/es.po, po/et.po, po/eu.po,
+	  po/fa.po, po/fi.po, po/fr.po, po/fur.po, po/ga.po, po/gl.po,
+	  po/he.po, po/hi.po, po/hr.po, po/hu.po, po/hy.po, po/id.po,
+	  po/is.po, po/it.po, po/ja.po, po/ka.po, po/ko.po, po/ku.po,
+	  po/ky.po, po/lo.po, po/lt.po, po/ltg.po, po/lv.po, po/mk.po,
+	  po/mn.po, po/ms.po, po/mt.po, po/nb.po, po/nl.po, po/pl.po,
+	  po/pt.po, po/pt_BR.po, po/ro.po, po/ru.po, po/sc.po, po/sk.po,
+	  po/sl.po, po/sq.po, po/sr.po, po/sr@Latn.po, po/sv.po, po/ta.po,
+	  po/tg.po, po/th.po, po/tl.po, po/tr.po, po/uk.po,
+	  po/userdrake.pot, po/uz.po, po/uz@Latn.po, po/vi.po, po/wa.po,
+	  po/zh_CN.po, po/zh_TW.po: updated pot file
+
+2005-02-04 05:02  Shiva Huang <blueshiva at giga.net.tw>
+
+	* po/zh_TW.po: updated po file
+
+2005-02-01 21:59  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/el.po: updated po file
+
+2005-02-01 13:04  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* po/ga.po: update
+
+2005-01-31 19:22  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/sc.po: updated po file
+
+2005-01-28 04:24  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/bg.po, po/id.po: updated po files
+
+2005-01-26 20:44  Daouda Lo <daouda at mandriva.com>
+
+	* userdrake, userdrake.spec: - fix 'About' dialog crash
+	  - cleanups
+
+2005-01-25 12:38  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/tl.po: updated po file
+
+2005-01-25 12:34  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* po/br.po: update
+
+2005-01-21 11:12  Daouda Lo <daouda at mandriva.com>
+
+	* userdrake.spec: - main loop fixed
+	  - rebuild against new perl (XS)
+
+2005-01-21 10:50  Daouda Lo <daouda at mandriva.com>
+
+	* userdrake: - fix main loop
+
+2005-01-18 12:37  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/lo.po: Added Laotian file
+
+2005-01-12 13:38  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* userdrake.spec: merge in lost changelog from cooker for 1.1-4mdk
+
+2005-01-12 12:44  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* ChangeLog: *** empty log message ***
+
+2005-01-12 12:44  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* userdrake.spec: 1.2-1mdk
+
+2005-01-12 12:44  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* userdrake: - fix crash when embedded
+	  - show banner when embedded
+
+2005-01-03 13:01  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/cy.po: updated po file
+
+2004-12-02 11:04  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/id.po: updated po file
+
+2004-11-23 13:41  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/ku.po: Added Kurdish file
+
+2004-10-22 17:13  José JORGE <jjorge at free.fr>
+
+	* po/pt.po: melo
+
+2004-10-20 10:10  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/gl.po: updated po file
+
+2004-10-16 15:34  Alice Lafox <alice at lafox.com.ua>
+
+	* po/ru.po: updated
+
+2004-10-06 12:38  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/th.po: Added Thai file
+
+2004-10-04 08:28  Rafael Garcia-Suarez <rgarciasuarez at mandriva.com>
+
+	* userdrake.spec: 1.1-3mdk
+
+2004-10-04 01:39  Pablo Saratxaga <pablo at mandriva.com>
+
+	* userdrake.spec: built new rpm with latest translations
+
+2004-10-03 08:45  José JORGE <jjorge at free.fr>
+
+	* po/pt.po: melo
+
+2004-10-02 10:53  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* po/br.po: update
+
+2004-09-28 06:21  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/ky.po: updated po file
+
+2004-09-27 10:18  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* po/br.po: update
+
+2004-09-27 09:06  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/hr.po: updated po file
+
+2004-09-27 04:37  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/fa.po, po/ka.po: updated po file
+
+2004-09-25 17:30  aiet
+
+	* po/ka.po: Translated new strings.
+
+2004-09-22 04:27  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/sc.po: updated po file
+
+2004-09-19 03:26  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/tg.po: updated po file
+
+2004-09-15 22:37  Youcef Rabah Rahal <rahal at arabeyes.org>
+
+	* po/ar.po: Arabic translation
+
+2004-09-14 12:02  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/ar.po: corrected "<control>X" string
+
+2004-09-14 06:59  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/eo.po, po/fr.po, po/gl.po, po/pt.po, po/wa.po: MandrakeSoft ->
+	  Mandrakesoft; Mandrake -> Mandrakelinux
+
+2004-09-13 08:25  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/sk.po: updated po file
+
+2004-09-13 00:25  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/az.po: updated po file
+
+2004-09-12 06:16  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/uk.po: updated po file
+
+2004-09-09 03:52  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/bg.po: some Mandrake -> Mandrakelinux and MandrakeSoft ->
+	  Mandrakesoft fixes
+
+2004-09-08 08:59  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/ro.po: updated po file
+
+2004-09-08 04:25  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/mt.po: updated po file
+
+2004-09-07 09:17  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/fi.po, po/nl.po, po/sv.po: updated po file
+
+2004-09-05 15:11  Reinout van Schouwen <reinout at cs.vu.nl>
+
+	* po/nl.po: Updated Dutch (nl) translation
+	  by Rob Teng <mandrake.tips@free.fr>
+
+2004-09-05 09:30  Thomas Backlund <tmb at mandrake.org>
+
+	* po/fi.po: Update translations to 100%
+
+2004-09-02 14:43  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/pt_BR.po: updated po file
+
+2004-08-31 14:29  Arkadiusz Lipiec <alipiec at elka.pw.edu.pl>
+
+	* po/pl.po: Updated
+
+2004-08-30 06:37  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* po/ja.po: update (BANDO Yukiko <ybando@k6.dion.ne.jp>)
+
+2004-08-30 05:10  Alice Lafox <alice at lafox.com.ua>
+
+	* po/ru.po: update
+
+2004-08-27 04:19  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/sl.po: updated po file
+
+2004-08-23 16:58  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/cy.po: updated po files
+
+2004-08-21 07:16  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/vi.po: updated po file
+
+2004-08-20 08:27  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/cs.po: updated po file
+
+2004-08-19 18:32  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/bg.po: fixed wrong cyrillic encoding chars
+
+2004-08-19 17:09  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/sr.po: fixed cyrillic encoding mess with Serbian translations
+
+2004-08-19 10:42  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/bs.po: updated po file
+
+2004-08-19 03:52  Youcef Rabah Rahal <rahal at arabeyes.org>
+
+	* po/ar.po: Sync with Arabeyes CVS
+
+2004-08-17 15:16  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/mk.po, po/nb.po: updated po files
+
+2004-08-15 14:17  Arpad Biro <biro_arpad at yahoo.com>
+
+	* po/hu.po: *** empty log message ***
+
+2004-08-15 13:36  Keld Jørn Simonsen <keld at dkuug.dk>
+
+	* po/da.po: updates
+	  indexhtml/po/da.po soft/mdkhtmlbrowser/po/da.po
+	  soft/mdkonline/po/da.po soft/menudrake/po/da.po
+	  soft/rpmdrake/po/da.po soft/urpmi/po/da.po
+	  soft/userdrake2/po/da.po soft/wizard_perl/po/da.po
+	  gi/perl-install/share/po/da.po
+
+2004-08-14 10:07  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/af.po, po/ar.po, po/az.po, po/be.po, po/br.po, po/cy.po,
+	  po/fa.po, po/fi.po, po/fur.po, po/ga.po, po/hi.po, po/hr.po,
+	  po/hy.po, po/is.po, po/ja.po, po/ka.po, po/ko.po, po/ky.po,
+	  po/ltg.po, po/lv.po, po/mk.po, po/mn.po, po/pl.po, po/pt_BR.po,
+	  po/ro.po, po/ru.po, po/sc.po, po/sk.po, po/sv.po, po/ta.po,
+	  po/tl.po, po/tr.po, po/uz.po, po/vi.po: merged translations
+
+2004-08-14 06:10  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/eu.po, po/is.po, po/sq.po, po/tg.po: fixed special "<control>"
+	  entries
+
+2004-08-14 05:25  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/fr.po: updated po file
+
+2004-08-13 14:54  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/de.po: updated po file
+
+2004-08-11 13:53  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/ar.po: updated po file
+
+2004-08-11 11:15  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/ca.po, po/eu.po: updated po file
+
+2004-08-09 10:19  Albert Astals Cid <astals11 at terra.es>
+
+	* po/ca.po: catalan updates
+
+2004-08-09 05:29  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/et.po: updated po file
+
+2004-08-08 14:47  Youcef Rabah Rahal <rahal at arabeyes.org>
+
+	* po/ar.po: Arabic translation
+
+2004-08-08 10:46  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/ar.po, po/he.po, po/hi.po: updated po file
+
+2004-08-08 08:47  Youcef Rabah Rahal <rahal at arabeyes.org>
+
+	* po/ar.po: Arabic translation
+
+2004-08-06 17:42  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/tg.po: updated po file
+
+2004-08-06 13:40  Youcef Rabah Rahal <rahal at arabeyes.org>
+
+	* po/ar.po: Arabeyes' Arabic translation
+
+2004-08-06 03:23  Dovix <dovix2003 at yahoo.com>
+
+	* po/he.po: *** empty log message ***
+
+2004-08-05 13:31  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/af.po, po/ar.po, po/az.po, po/be.po, po/bg.po, po/bn.po,
+	  po/br.po, po/bs.po, po/ca.po, po/cs.po, po/cy.po, po/da.po,
+	  po/de.po, po/el.po, po/eo.po, po/es.po, po/et.po, po/eu.po,
+	  po/fa.po, po/fi.po, po/fr.po, po/fur.po, po/ga.po, po/gl.po,
+	  po/he.po, po/hi.po, po/hr.po, po/hu.po, po/hy.po, po/id.po,
+	  po/is.po, po/it.po, po/ja.po, po/ka.po, po/ko.po, po/ky.po,
+	  po/lt.po, po/ltg.po, po/lv.po, po/mk.po, po/mn.po, po/ms.po,
+	  po/mt.po, po/nb.po, po/nl.po, po/pl.po, po/pt.po, po/pt_BR.po,
+	  po/ro.po, po/ru.po, po/sc.po, po/sk.po, po/sl.po, po/sq.po,
+	  po/sr.po, po/sr@Latn.po, po/sv.po, po/ta.po, po/tg.po, po/tl.po,
+	  po/tr.po, po/uk.po, po/userdrake.pot, po/uz.po, po/uz@Latn.po,
+	  po/vi.po, po/wa.po, po/zh_CN.po, po/zh_TW.po: updated pot file
+
+2004-08-01 21:28  Funda Wang <fundawang at linux.net.cn>
+
+	* userdrake: s/Mandrake Linux/Mandrakelinux
+
+2004-08-01 02:57  Funda Wang <fundawang at linux.net.cn>
+
+	* po/zh_CN.po: Updated Simplified Chinese translation
+
+2004-07-30 08:51  Youcef Rabah Rahal <rahal at arabeyes.org>
+
+	* po/ar.po: Arabeyes.org's Arabic translation
+
+2004-07-28 11:46  Arpad Biro <biro_arpad at yahoo.com>
+
+	* po/hu.po: *** empty log message ***
+
+2004-07-28 00:15  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/bn.po, po/es.po, po/pt.po, po/uk.po, po/wa.po: updated po
+	  files
+
+2004-07-27 13:48  José JORGE <jjorge at free.fr>
+
+	* po/pt.po: bunch of work
+
+2004-07-26 05:36  Fabian Mandelbaum <fabman at mandriva.com>
+
+	* po/es.po: Updated Spanish translations
+
+2004-07-23 09:18  Сергій Рибалченко (Sergey Ribalchenko) <fisher at obu.ck.ua>
+
+	* po/uk.po: Ukrainian translation update.
+
+2004-07-19 19:55  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/Makefile, po/af.po, po/ar.po, po/az.po, po/be.po, po/bg.po,
+	  po/bn.po, po/br.po, po/bs.po, po/ca.po, po/cs.po, po/cy.po,
+	  po/da.po, po/de.po, po/el.po, po/eo.po, po/es.po, po/et.po,
+	  po/eu.po, po/fa.po, po/fi.po, po/fr.po, po/fur.po, po/ga.po,
+	  po/gl.po, po/he.po, po/hi.po, po/hr.po, po/hu.po, po/hy.po,
+	  po/id.po, po/is.po, po/it.po, po/ja.po, po/ka.po, po/ko.po,
+	  po/ky.po, po/lt.po, po/ltg.po, po/lv.po, po/mk.po, po/mn.po,
+	  po/ms.po, po/mt.po, po/nb.po, po/nl.po, po/pl.po, po/pt.po,
+	  po/pt_BR.po, po/ro.po, po/ru.po, po/sc.po, po/sk.po, po/sl.po,
+	  po/sq.po, po/sr.po, po/sr@Latn.po, po/sv.po, po/ta.po, po/tg.po,
+	  po/tl.po, po/tr.po, po/uk.po, po/userdrake.pot, po/uz.po,
+	  po/uz@Latn.po, po/vi.po, po/wa.po, po/zh_CN.po, po/zh_TW.po:
+	  updated pot file; added Sardinian file
+
+2004-07-19 12:38  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* ChangeLog: *** empty log message ***
+
+2004-07-19 12:37  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* userdrake.spec: 1.1-1mdk
+
+2004-07-19 12:29  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* userdrake: set window icon
+
+2004-07-19 12:20  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* userdrake: fix button layout in dialogs
+
+2004-07-19 12:18  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* userdrake: get rid of stock icons
+
+2004-07-16 02:46  Olivier Blin <oblin at mandriva.com>
+
+	* userdrake: restore mouse cursor in GimmeChoice (Daouda)
+
+2004-07-16 02:38  Olivier Blin <oblin at mandriva.com>
+
+	* userdrake: really handle the group choice made by the user (in
+	  ChooseGroup, run
+	  Gtk2 main to wait for user input, and destroy the dialog
+	  properly)
+
+2004-07-15 12:13  Olivier Blin <oblin at mandriva.com>
+
+	* userdrake: fix GimmeChoice by using interactive (do not quit the
+	  whole program on
+	  success, wait the answer to really return the choice made by the
+	  user)
+	  (#10246)
+
+2004-07-15 11:42  Olivier Blin <oblin at mandriva.com>
+
+	* userdrake: don't do useless things or show useless dialog if an
+	  error has been
+	  raised in AddUser
+
+2004-07-15 11:14  Olivier Blin <oblin at mandriva.com>
+
+	* USER/USER.xs: do not die when removing a non existent directory,
+	  just warn (#10241)
+
+2004-07-15 10:40  Olivier Blin <oblin at mandriva.com>
+
+	* userdrake: perl_checker compliance
+
+2004-07-15 10:30  Olivier Blin <oblin at mandriva.com>
+
+	* userdrake: do not crash in Delete when user is in non-existing
+	  group (fix #10242)
+
+2004-06-07 20:26  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/af.po, po/ar.po, po/az.po, po/be.po, po/bg.po, po/bn.po,
+	  po/br.po, po/bs.po, po/ca.po, po/cs.po, po/cy.po, po/da.po,
+	  po/de.po, po/el.po, po/eo.po, po/es.po, po/et.po, po/eu.po,
+	  po/fa.po, po/fi.po, po/fr.po, po/fur.po, po/ga.po, po/gl.po,
+	  po/he.po, po/hi.po, po/hr.po, po/hu.po, po/hy.po, po/id.po,
+	  po/is.po, po/it.po, po/ja.po, po/ka.po, po/ko.po, po/ky.po,
+	  po/lt.po, po/ltg.po, po/lv.po, po/mk.po, po/mn.po, po/ms.po,
+	  po/mt.po, po/nb.po, po/nl.po, po/pl.po, po/pt.po, po/pt_BR.po,
+	  po/ro.po, po/ru.po, po/sk.po, po/sl.po, po/sq.po, po/sr.po,
+	  po/sr@Latn.po, po/sv.po, po/ta.po, po/tg.po, po/tl.po, po/tr.po,
+	  po/uk.po, po/userdrake.pot, po/uz.po, po/uz@Latn.po, po/vi.po,
+	  po/wa.po, po/zh_CN.po, po/zh_TW.po: updated pot file
+
+2004-05-26 12:17  Daouda Lo <daouda at mandriva.com>
+
+	* userdrake.spec: - right mouse click on Treeview items to access
+	  menu (Edit, Delete)
+
+2004-05-26 12:16  Daouda Lo <daouda at mandriva.com>
+
+	* userdrake: - right mouse click on Treeview to access menu
+	  (feature)
+	  - don't allow more than 16 char to be consistent with groupadd
+	  (tvignaud)
+
+2004-05-26 11:00  Daouda Lo <daouda at mandriva.com>
+
+	* userdrake.spec: - right mouse click on Treeview to access menu
+	  (feature)
+	  - don't allow more than 16 char to be consistent with groupadd
+	  (tvignaud)
+
+2004-05-25 06:49  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* userdrake: check user/group name length against right limit
+	  (robert.vojta, #9831)
+
+2004-05-18 20:58  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/ca.po, po/da.po, po/es.po, po/fr.po, po/it.po, po/nb.po,
+	  po/pt.po, po/sq.po, po/tr.po, po/uk.po: converted to utf-8
+
+2004-05-18 20:11  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/fur.po: Added Furlan file
+
+2004-05-10 17:23  Daouda Lo <daouda at mandriva.com>
+
+	* userdrake.spec: - fix typo
+
+2004-05-10 17:17  Daouda Lo <daouda at mandriva.com>
+
+	* userdrake, userdrake.spec: - use md5sum to find cuurent face icon
+	  (Oliver Blin)
+
+2004-05-10 16:26  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/gl.po, po/userdrake.pot: updated po file
+
+2004-05-10 10:59  Daouda Lo <daouda at mandriva.com>
+
+	* userdrake, userdrake.spec: - random icon display and icon
+	  browsing fixes #8085 - #9653 (Olivier
+	  Blin)
+
+2004-05-10 10:53  Daouda Lo <daouda at mandriva.com>
+
+	* userdrake: - patch for random icon choice and icon forward
+	  backward browsing
+
+2004-04-26 14:49  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/gl.po, po/ka.po: updated po file
+
+2004-04-23 13:06  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/hu.po: updated po file
+
+2004-04-19 19:58  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/bn.po: Added Bengali file
+
+2004-04-13 20:34  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/gl.po: updated Galician file
+
+2004-04-13 14:55  Daouda Lo <daouda at mandriva.com>
+
+	* userdrake: - change simple quote 2 double quote
+
+2004-04-01 17:22  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/mn.po: updated Mongol files
+
+2004-03-29 06:44  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/ky.po, po/sv.po: Added Kyrgyz file
+
+2004-03-17 20:03  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/af.po, po/az.po, po/ca.po, po/cs.po, po/cy.po, po/da.po,
+	  po/de.po, po/el.po, po/es.po, po/et.po, po/eu.po, po/fa.po,
+	  po/fi.po, po/fr.po, po/ga.po, po/gl.po, po/he.po, po/hi.po,
+	  po/hr.po, po/hu.po, po/id.po, po/is.po, po/ja.po, po/ka.po,
+	  po/ko.po, po/lt.po, po/ltg.po, po/lv.po, po/mk.po, po/mn.po,
+	  po/ms.po, po/mt.po, po/nb.po, po/nl.po, po/pl.po, po/pt.po,
+	  po/pt_BR.po, po/ro.po, po/ru.po, po/sk.po, po/sl.po, po/sq.po,
+	  po/sr.po, po/sr@Latn.po, po/sv.po, po/ta.po, po/tr.po, po/uk.po,
+	  po/uz.po, po/uz@Latn.po, po/vi.po, po/wa.po, po/zh_CN.po,
+	  po/zh_TW.po: updated po files
+
+2004-03-17 19:15  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/be.po, po/bg.po, po/br.po, po/bs.po, po/eu.po, po/gl.po:
+	  updated po files
+
+2004-03-17 19:02  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/zh_TW.po: converted to utf-8
+
+2004-03-17 18:22  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/el.po: converted to utf-8
+
+2004-03-17 17:56  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/ga.po: updated po files
+
+2004-03-17 16:31  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/ko.po: updated po files
+
+2004-03-17 15:39  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/hu.po, po/is.po, po/lt.po, po/ms.po, po/sr.po, po/ta.po:
+	  updated po files
+
+2004-03-16 14:28  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/hy.po: updated po file
+
+2004-03-16 02:58  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/hy.po: updated po file
+
+2004-03-13 10:25  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/tg.po: updated po file
+
+2004-03-12 14:05  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/tl.po: Added Filipino file
+
+2004-03-07 13:59  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/ar.po: updated po file
+
+2004-03-07 04:56  Youcef Rabah Rahal <rahal at arabeyes.org>
+
+	* po/ar.po: Committing Arabeyes.org's Arabic translation of the
+	  week...
+
+2004-03-01 10:14  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/it.po: updated po file
+
+2004-02-29 20:22  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/ar.po, po/eo.po, po/userdrake.pot: updated po file
+
+2004-02-29 13:23  Youcef Rabah Rahal <rahal at arabeyes.org>
+
+	* po/ar.po: Committing Arabeyes.org's Arabic translation for the
+	  past week :-)
+
+2004-02-28 18:25  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/eo.po: updated po file
+
+2004-02-26 10:18  Daouda Lo <daouda at mandriva.com>
+
+	* userdrake.spec: - new pics
+	  - po updates
+
+2004-02-26 10:16  Daouda Lo <daouda at mandriva.com>
+
+	* userdrake: - new banners
+
+2004-02-26 10:08  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/sv.po: updated po file
+
+2004-02-26 10:03  Daouda Lo <daouda at mandriva.com>
+
+	* userdrake: - change bootsplash
+
+2004-02-26 08:50  Daouda Lo <daouda at mandriva.com>
+
+	* pixmaps/userdrake.png: - readded
+
+2004-02-26 08:49  Daouda Lo <daouda at mandriva.com>
+
+	* pixmaps/about.png, pixmaps/userdrake.png: - change icons
+
+2004-02-24 19:01  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/tr.po: updated po file
+
+2004-02-24 16:45  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/lt.po, po/ltg.po, po/lv.po, po/uk.po: updated po files
+
+2004-02-24 15:30  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/ar.po, po/ja.po: updated po file
+
+2004-02-24 14:17  Youcef Rabah Rahal <rahal at arabeyes.org>
+
+	* po/ar.po: Committing Arabeyes.org's Arabic translation
+
+2004-02-23 09:23  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/af.po: updated po file
+
+2004-02-22 11:28  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/ar.po, po/ca.po, po/he.po: updated po files
+
+2004-02-15 13:25  Albert Astals Cid <astals11 at terra.es>
+
+	* po/ca.po: more updates
+
+2004-02-15 09:49  Youcef Rabah Rahal <rahal at arabeyes.org>
+
+	* po/ar.po: Committing Arabeyes.org's Arabic translation
+
+2004-02-11 22:01  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/ar.po, po/ca.po, po/cy.po: updated po file
+
+2004-02-10 17:28  Albert Astals Cid <astals11 at terra.es>
+
+	* po/ca.po: Updates, unfuzzying and spell checking
+
+2004-02-08 10:50  Youcef Rabah Rahal <rahal at arabeyes.org>
+
+	* po/ar.po: Committing Arabeyes.org Arabic translation
+
+2004-02-06 15:42  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/pt_BR.po: updated po file
+
+2004-02-05 20:56  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/sr.po, po/sr@Latn.po: updated po files
+
+2004-02-05 00:56  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/pt_BR.po: updated po file
+
+2004-02-02 17:28  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/af.po, po/ar.po, po/az.po, po/be.po, po/bg.po, po/br.po,
+	  po/bs.po, po/ca.po, po/cs.po, po/cy.po, po/da.po, po/de.po,
+	  po/el.po, po/eo.po, po/es.po, po/et.po, po/eu.po, po/fa.po,
+	  po/fi.po, po/fr.po, po/ga.po, po/gl.po, po/he.po, po/hi.po,
+	  po/hr.po, po/hu.po, po/id.po, po/is.po, po/it.po, po/ja.po,
+	  po/ka.po, po/ko.po, po/lt.po, po/lv.po, po/mk.po, po/mn.po,
+	  po/ms.po, po/mt.po, po/nb.po, po/nl.po, po/pl.po, po/pt.po,
+	  po/pt_BR.po, po/ro.po, po/ru.po, po/sk.po, po/sl.po, po/sq.po,
+	  po/sr.po, po/sr@Latn.po, po/sv.po, po/ta.po, po/tg.po, po/tr.po,
+	  po/uk.po, po/userdrake.pot, po/uz.po, po/uz@Cyrl.po,
+	  po/uz@Latn.po, po/vi.po, po/wa.po, po/zh_CN.po, po/zh_TW.po:
+	  updated po files
+
+2004-02-02 16:15  Daouda Lo <daouda at mandriva.com>
+
+	* userdrake.spec: - sync with cooker spec
+
+2004-02-02 16:13  Daouda Lo <daouda at mandriva.com>
+
+	* userdrake.spec: - changes faces
+
+2004-02-02 16:11  Daouda Lo <daouda at mandriva.com>
+
+	* userdrake: - release
+
+2004-02-02 12:22  Daouda Lo <daouda at mandriva.com>
+
+	* userdrake: - titi sux
+
+2004-02-02 12:18  Daouda Lo <daouda at mandriva.com>
+
+	* userdrake: - reorder full name and login
+
+2004-02-01 10:26  Youcef Rabah Rahal <rahal at arabeyes.org>
+
+	* po/ar.po: Committing Arabeyes.org's Arabic translation.
+
+2004-01-29 22:54  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/az.po, po/fa.po: updated po files
+
+2004-01-28 16:26  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/vi.po: updated po file
+
+2004-01-28 15:18  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/tr.po: updated po file
+
+2004-01-27 14:23  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/ar.po, po/cs.po, po/tr.po: updated po files
+
+2004-01-25 17:14  Youcef Rabah Rahal <rahal at arabeyes.org>
+
+	* po/ar.po: Committing Arabeyes.org translation.
+
+2004-01-23 02:54  (Hilbert) 廖唯鈞 <h at mandrake.org>
+
+	* po/zh_TW.po: Translation: lock -> ����
+
+2004-01-22 23:46  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/ca.po: updated po file
+
+2004-01-22 14:53  Daouda Lo <daouda at mandriva.com>
+
+	* userdrake.spec: - Replace Option Menu by Combo box to choose
+	  shells manuall
+
+2004-01-22 14:48  Daouda Lo <daouda at mandriva.com>
+
+	* userdrake: - Option Menu replaced by Combo Box to set shell
+	  manually
+
+2004-01-21 13:45  Daouda Lo <daouda at mandriva.com>
+
+	* Makefile: - drakuser symlink (fix typo)
+
+2004-01-21 13:43  Daouda Lo <daouda at mandriva.com>
+
+	* userdrake.spec: - rebuild for new POs
+	  - add drakuser symlink
+
+2004-01-21 13:43  Daouda Lo <daouda at mandriva.com>
+
+	* Makefile: - add drakuser symlink
+
+2004-01-21 10:50  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/he.po: updated po file
+
+2004-01-21 09:56  (Hilbert) 廖唯鈞 <h at mandrake.org>
+
+	* po/zh_TW.po: userdrake is completely done.
+
+2004-01-21 01:06  Tibor Pittich <Tibor.Pittich at phuture.sk>
+
+	* po/sk.po: updated slovak translation
+
+2004-01-19 22:45  Keld Jørn Simonsen <keld at dkuug.dk>
+
+	* po/da.po: Trying to get rid of "Translated to da.po" problem -
+	  did not work:-(
+	  soft/menu-messages/da.po soft/control-center/po/da.po
+	  soft/drakcronat/po/da.po soft/ftw/po/da.po
+	  soft/GtkMdkWidgets/po/da.po soft/kdebase-servicemenu/po/da.po
+	  soft/krozat/po/da.po soft/mandrake-menu-directory/po/da.po
+	  soft/mdkkdm/po/da.po soft/mdklaunchhelp/po/da.po
+	  soft/menudrake/po/da.po soft/rpmdrake/po/da.po
+	  soft/urpmi/po/da.po soft/userdrake2/po/da.po
+	  soft/wizard_perl/po/da.po gi/perl-install/share/po/da.po
+	  soft/galaxy/thememdk/mandrake_client/po/da.po
+
+2004-01-19 17:16  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/af.po, po/ar.po, po/az.po, po/be.po, po/bg.po, po/br.po,
+	  po/bs.po, po/ca.po, po/cs.po, po/cy.po, po/da.po, po/de.po,
+	  po/el.po, po/eo.po, po/es.po, po/et.po, po/eu.po, po/fa.po,
+	  po/fi.po, po/fr.po, po/ga.po, po/gl.po, po/he.po, po/hi.po,
+	  po/hr.po, po/hu.po, po/id.po, po/is.po, po/it.po, po/ja.po,
+	  po/ka.po, po/ko.po, po/lt.po, po/lv.po, po/mk.po, po/mn.po,
+	  po/ms.po, po/mt.po, po/nb.po, po/nl.po, po/pl.po, po/pt.po,
+	  po/pt_BR.po, po/ro.po, po/ru.po, po/sk.po, po/sl.po, po/sq.po,
+	  po/sr.po, po/sr@Latn.po, po/sv.po, po/ta.po, po/tg.po, po/tr.po,
+	  po/uk.po, po/userdrake.pot, po/uz.po, po/uz@Cyrl.po, po/vi.po,
+	  po/wa.po, po/zh_CN.po, po/zh_TW.po: updated pot file
+
+2004-01-19 11:14  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* po/br.po: initial import
+
+2004-01-17 21:08  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* po/fr.po: complete french translation
+
+2004-01-17 21:08  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* userdrake: factorize translatable strings
+
+2004-01-17 10:51  Funda Wang <fundawang at linux.net.cn>
+
+	* po/zh_CN.po: updating.
+
+2004-01-06 13:43  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/zh_TW.po: updated po files
+
+2004-01-03 20:15  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/mn.po: updated po file
+
+2003-12-22 18:31  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* Makefile: fix broken Makefile
+
+2003-12-22 18:28  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* userdrake.spec: 0.92-26mdk
+
+2003-12-21 18:19  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/cy.po, po/hi.po, po/pt.po, po/sl.po: updated po files
+
+2003-12-19 16:58  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* userdrake: push help menu at right
+
+2003-12-18 16:30  Keld Jørn Simonsen <keld at dkuug.dk>
+
+	* po/da.po: updates
+	  soft/control-center/po/da.po soft/mdkkdm/po/da.po
+	  soft/urpmi/po/da.po soft/userdrake2/po/da.po
+	  soft/wizard_perl/po/da.po gi/perl-install/share/po/da.po
+
+2003-12-18 16:00  Daouda Lo <daouda at mandriva.com>
+
+	* Makefile: - some build add-ons
+
+2003-12-10 20:49  Arkadiusz Lipiec <alipiec at elka.pw.edu.pl>
+
+	* po/pl.po: Updated
+
+2003-12-09 19:44  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/cy.po, po/fi.po: updated po files
+
+2003-12-07 11:57  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/de.po: updated po file
+
+2003-12-03 02:43  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/et.po, po/eu.po, po/nb.po, po/ro.po, po/ru.po: updated po
+	  files
+
+2003-12-01 22:01  Fabian Mandelbaum <fabman at mandriva.com>
+
+	* po/es.po: Updated Spanish translations
+
+2003-12-01 16:08  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/af.po, po/ar.po, po/az.po, po/be.po, po/bg.po, po/bs.po,
+	  po/ca.po, po/cs.po, po/cy.po, po/da.po, po/de.po, po/el.po,
+	  po/eo.po, po/es.po, po/et.po, po/eu.po, po/fa.po, po/fi.po,
+	  po/fr.po, po/ga.po, po/gl.po, po/he.po, po/hi.po, po/hr.po,
+	  po/hu.po, po/id.po, po/is.po, po/it.po, po/ja.po, po/ka.po,
+	  po/ko.po, po/lt.po, po/lv.po, po/mk.po, po/mn.po, po/ms.po,
+	  po/mt.po, po/nb.po, po/nl.po, po/pl.po, po/pt.po, po/pt_BR.po,
+	  po/ro.po, po/ru.po, po/sk.po, po/sl.po, po/sq.po, po/sr.po,
+	  po/sr@Latn.po, po/sv.po, po/ta.po, po/tg.po, po/tr.po, po/uk.po,
+	  po/userdrake.pot, po/uz.po, po/uz@Cyrl.po, po/vi.po, po/wa.po,
+	  po/zh_CN.po, po/zh_TW.po: updated pot file
+
+2003-11-28 16:55  Daouda Lo <daouda at mandriva.com>
+
+	* userdrake.spec: - spec cleanup
+	  - fix userdrake removehome hangs
+	  - perl checker compliance
+	  - BuildRequires (Stephan)
+
+2003-11-28 16:55  Daouda Lo <daouda at mandriva.com>
+
+	* userdrake: - homedir hang
+
+2003-11-28 16:53  Daouda Lo <daouda at mandriva.com>
+
+	* USER/USER.xs: - fix homedir removing gui dialog hanging
+
+2003-11-26 11:58  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/it.po: updated po file
+
+2003-11-17 16:20  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/uz.po, po/uz@Cyrl.po: updated po files
+
+2003-10-10 12:34  Daouda Lo <daouda at mandriva.com>
+
+	* USER/Makefile.PL: - remove debug info
+
+2003-10-10 10:20  Daouda Lo <daouda at mandriva.com>
+
+	* userdrake: - perl checker compliance
+
+2003-10-09 13:46  Daouda Lo <daouda at mandriva.com>
+
+	* USER/USER.pm: - Exporter not needed
+
+2003-10-02 19:12  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/ca.po: updated po file
+
+2003-09-24 16:01  Tibor Pittich <Tibor.Pittich at phuture.sk>
+
+	* po/sk.po: updated slovak translation
+
+2003-09-21 22:49  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/it.po: updated po file
+
+2003-09-19 20:51  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/sk.po, po/sv.po: updated po files
+
+2003-09-18 19:18  Tibor Pittich <Tibor.Pittich at phuture.sk>
+
+	* po/sk.po: damn! userdrake is moved :(
+	  updated slovak translation
+
+2003-09-17 10:14  Daouda Lo <daouda at mandriva.com>
+
+	* userdrake.spec: - fix crash when a user lost accidentally its
+	  primary group (Titi)
+
+2003-09-17 10:05  Daouda Lo <daouda at mandriva.com>
+
+	* userdrake: - fix crash when user groups removed accidentally
+	  (titi)
+
+2003-09-16 17:10  Daouda Lo <daouda at mandriva.com>
+
+	* userdrake.spec: po -updates
+
+2003-09-16 09:57  Daouda Lo <daouda at mandriva.com>
+
+	* userdrake.spec: - fix long translation in french (#5696)
+
+2003-09-16 09:54  Daouda Lo <daouda at mandriva.com>
+
+	* po/fr.po: - fix widgets truncated in french
+
+2003-09-15 18:54  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/hi.po, po/is.po: Added Icelandic po file
+
+2003-09-15 06:30  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/pt_BR.po: updated po file
+
+2003-09-13 09:12  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/tg.po: updated po file
+
+2003-09-12 13:48  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/pt_BR.po: updated po file
+
+2003-09-12 09:46  Daouda Lo <daouda at mandriva.com>
+
+	* userdrake.spec: - gtkset_mousecursor_normal() when
+	  adding/deleting user/group
+
+2003-09-12 09:45  Daouda Lo <daouda at mandriva.com>
+
+	* userdrake: - add gtkset_mousecursor_normal() when finishing to
+	  add user
+
+2003-09-12 09:34  Daouda Lo <daouda at mandriva.com>
+
+	* userdrake, userdrake.spec: - fix duplicate semi-colons
+
+2003-09-12 01:12  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/mn.po: updated po file
+
+2003-09-12 00:02  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/tr.po: updated po file
+
+2003-09-11 14:30  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/pt_BR.po: upated po file
+
+2003-09-11 00:09  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/pt_BR.po: updated po file
+
+2003-09-10 09:32  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/mt.po: updated po file
+
+2003-09-09 11:17  Daouda Lo <daouda at mandriva.com>
+
+	* userdrake: - fix help call
+
+2003-09-09 08:56  Daouda Lo <daouda at mandriva.com>
+
+	* userdrake.spec: - po updates
+	  - drakhelp new schema
+
+2003-09-09 08:54  Daouda Lo <daouda at mandriva.com>
+
+	* userdrake: - new help call
+
+2003-09-08 14:57  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/az.po: updated po file
+
+2003-09-08 12:59  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/fi.po: updated po file
+
+2003-09-06 23:17  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/cy.po, po/he.po, po/hu.po, po/ro.po: updated po files
+
+2003-09-04 23:59  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/el.po, po/fa.po: updated po files
+
+2003-09-04 18:21  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/sq.po, po/zh_CN.po: updated po files
+
+2003-09-04 13:24  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/uk.po: updated po file
+
+2003-09-04 13:16  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/sl.po, po/vi.po: updated po files
+
+2003-09-04 08:19  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/eu.po, po/pt.po: updated po files
+
+2003-09-03 19:56  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/cs.po, po/et.po, po/tr.po: updated po files
+
+2003-09-03 18:59  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/sl.po: updated po file
+
+2003-09-03 17:58  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/bs.po: updated po file
+
+2003-09-03 17:49  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/nl.po: updated po file
+
+2003-09-03 17:10  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/nb.po, po/ru.po: updated po files
+
+2003-09-03 12:12  Arkadiusz Lipiec <alipiec at elka.pw.edu.pl>
+
+	* po/pl.po: Updated
+
+2003-09-03 08:25  Keld Jørn Simonsen <keld at dkuug.dk>
+
+	* po/da.po: updates
+	  soft/userdrake2/po/da.po soft/wizard_perl/po/da.po
+
+2003-09-02 22:24  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/cy.po, po/de.po, po/hu.po: updated po files
+
+2003-09-02 22:14  Stefan Siegel <siegel at linux-mandrake.com>
+
+	* po/de.po: updates
+
+2003-09-02 17:35  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* po/fr.po: complete french translation
+
+2003-09-02 16:25  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/af.po, po/ar.po, po/az.po, po/be.po, po/bg.po, po/bs.po,
+	  po/ca.po, po/cs.po, po/cy.po, po/da.po, po/de.po, po/el.po,
+	  po/eo.po, po/es.po, po/et.po, po/eu.po, po/fa.po, po/fi.po,
+	  po/fr.po, po/ga.po, po/gl.po, po/he.po, po/hi.po, po/hr.po,
+	  po/hu.po, po/id.po, po/it.po, po/ja.po, po/ka.po, po/ko.po,
+	  po/lt.po, po/lv.po, po/mk.po, po/mn.po, po/ms.po, po/mt.po,
+	  po/nb.po, po/nl.po, po/pl.po, po/pt.po, po/pt_BR.po, po/ro.po,
+	  po/ru.po, po/sk.po, po/sl.po, po/sq.po, po/sr.po, po/sr@Latn.po,
+	  po/sv.po, po/ta.po, po/tg.po, po/tr.po, po/uk.po,
+	  po/userdrake.pot, po/uz.po, po/uz@Cyrl.po, po/vi.po, po/wa.po,
+	  po/zh_CN.po, po/zh_TW.po: updated pot file
+
+2003-09-02 16:15  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/de.po, po/userdrake.pot: updated po file
+
+2003-09-02 12:29  Daouda Lo <daouda at mandriva.com>
+
+	* userdrake: - fix typo in AddGroup title
+
+2003-09-02 12:28  Daouda Lo <daouda at mandriva.com>
+
+	* userdrake.spec: - fix typo when adding group (Arpad Biro)
+
+2003-09-02 02:36  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/hu.po: updated po file
+
+2003-09-01 22:30  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/bs.po: updated po file
+
+2003-09-01 13:15  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/az.po, po/uz.po, po/uz@Cyrl.po: updated po files
+
+2003-08-30 11:18  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/vi.po: updated po file
+
+2003-08-29 12:13  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/fr.po: updated po file
+
+2003-08-29 11:56  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/it.po: updated po file
+
+2003-08-28 13:19  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/az.po: updated po file
+
+2003-08-28 13:18  Daouda Lo <daouda at mandriva.com>
+
+	* userdrake.spec: - fix unpredictable deselection of primary group
+	  when editing user
+
+2003-08-28 12:25  Daouda Lo <daouda at mandriva.com>
+
+	* userdrake: - fix random error
+
+2003-08-28 10:18  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/bs.po: updated po file
+
+2003-08-28 04:09  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/pt_BR.po: updated po file
+
+2003-08-27 20:32  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/nb.po: updated po file
+
+2003-08-27 17:35  Daouda Lo <daouda at mandriva.com>
+
+	* userdrake: - new drakhelp args
+
+2003-08-27 13:42  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/uk.po: updatedp po file
+
+2003-08-26 20:13  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/pt.po: updated po file
+
+2003-08-26 19:39  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/af.po, po/fi.po: Added Afrikaans file
+
+2003-08-26 13:56  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/et.po: updated po file
+
+2003-08-25 19:50  Arkadiusz Lipiec <alipiec at elka.pw.edu.pl>
+
+	* po/pl.po: Updated
+
+2003-08-25 15:24  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/ar.po, po/nl.po, po/sq.po: updated po files
+
+2003-08-25 10:30  Daouda Lo <daouda at mandriva.com>
+
+	* userdrake.spec: - fix explanation call titi
+
+2003-08-24 21:12  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* userdrake: fix #4871: proplerly use explanations
+
+2003-08-24 11:31  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/eo.po: updated po file
+
+2003-08-23 10:21  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/az.po, po/zh_CN.po: updated po files
+
+2003-08-22 16:16  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/eu.po: updated po file
+
+2003-08-22 14:19  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/bg.po: updated po file
+
+2003-08-22 11:20  Daouda Lo <daouda at mandriva.com>
+
+	* userdrake.spec: - replace blurred icons
+
+2003-08-22 11:02  Daouda Lo <daouda at mandriva.com>
+
+	* USER/Makefile.PL: - use pkg-config
+
+2003-08-22 10:55  Daouda Lo <daouda at mandriva.com>
+
+	* pixmaps/group_add.png, pixmaps/user_add.png: - readded icons
+
+2003-08-22 10:53  Daouda Lo <daouda at mandriva.com>
+
+	* pixmaps/group_add.png, pixmaps/user_add.png: - replacing icons
+
+2003-08-22 10:17  Daouda Lo <daouda at mandriva.com>
+
+	* userdrake: space
+
+2003-08-22 10:16  Daouda Lo <daouda at mandriva.com>
+
+	* userdrake.spec: - made it lib64 aware
+	  - replaced truncated icon
+
+2003-08-22 10:15  Daouda Lo <daouda at mandriva.com>
+
+	* pixmaps/refresh.png: - refresh readded
+
+2003-08-22 10:14  Daouda Lo <daouda at mandriva.com>
+
+	* pixmaps/refresh.png: - remove
+
+2003-08-21 20:51  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/fa.po, po/nb.po: updated po files
+
+2003-08-21 18:55  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/cs.po, po/es.po: updated po file
+
+2003-08-21 17:46  Fabian Mandelbaum <fabman at mandriva.com>
+
+	* po/es.po: Updated Spanish translations
+
+2003-08-21 11:16  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/hu.po, po/ru.po, po/sv.po: updated po files
+
+2003-08-21 08:58  Keld Jørn Simonsen <keld at dkuug.dk>
+
+	* po/da.po: updates
+	  soft/GtkMdkWidgets/po/da.po soft/mdkkdm/po/da.po
+	  soft/urpmi/po/da.po soft/userdrake2/po/da.po
+	  gi/perl-install/share/po/da.po
+
+2003-08-20 19:53  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/ar.po, po/az.po, po/be.po, po/bg.po, po/bs.po, po/ca.po,
+	  po/cs.po, po/cy.po, po/da.po, po/de.po, po/el.po, po/eo.po,
+	  po/es.po, po/et.po, po/eu.po, po/fa.po, po/fi.po, po/fr.po,
+	  po/ga.po, po/gl.po, po/he.po, po/hi.po, po/hr.po, po/hu.po,
+	  po/id.po, po/it.po, po/ja.po, po/ka.po, po/ko.po, po/lt.po,
+	  po/lv.po, po/mk.po, po/mn.po, po/ms.po, po/mt.po, po/nb.po,
+	  po/nl.po, po/pl.po, po/pt.po, po/pt_BR.po, po/ro.po, po/ru.po,
+	  po/sk.po, po/sl.po, po/sq.po, po/sr.po, po/sr@Latn.po, po/sv.po,
+	  po/ta.po, po/tg.po, po/tr.po, po/uk.po, po/userdrake.pot,
+	  po/uz.po, po/uz@Cyrl.po, po/vi.po, po/wa.po, po/zh_CN.po,
+	  po/zh_TW.po: updated pot file
+
+2003-08-20 17:59  Fabian Mandelbaum <fabman at mandriva.com>
+
+	* po/es.po: Updated Spanish translations
+
+2003-08-20 17:36  Daouda Lo <daouda at mandriva.com>
+
+	* userdrake.spec: - Explanations
+
+2003-08-20 17:33  Daouda Lo <daouda at mandriva.com>
+
+	* userdrake: - added explanations
+
+2003-08-20 17:11  Daouda Lo <daouda at mandriva.com>
+
+	* userdrake.spec: - splash screen
+
+2003-08-20 16:28  Daouda Lo <daouda at mandriva.com>
+
+	* userdrake: - splash screen
+
+2003-08-20 16:10  Daouda Lo <daouda at mandriva.com>
+
+	* pixmaps/about.png: - add about.png
+
+2003-08-20 16:00  Daouda Lo <daouda at mandriva.com>
+
+	* pixmaps/userdrake.png: - userdrake.png
+
+2003-08-20 15:56  Daouda Lo <daouda at mandriva.com>
+
+	* pixmaps/userdrake.png: - remove userdrake.png
+
+2003-08-20 15:20  Daouda Lo <daouda at mandriva.com>
+
+	* userdrake.spec: - add splash screen when starting userdrake
+	  - cosmetics (about dialog, borders )
+
+2003-08-20 15:15  Daouda Lo <daouda at mandriva.com>
+
+	* userdrake: - splash screen for userdrake launching
+
+2003-08-20 05:15  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/tr.po: updated po file
+
+2003-08-19 21:05  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/Makefile, po/ar.po, po/az.po, po/be.po, po/bg.po, po/bs.po,
+	  po/ca.po, po/cs.po, po/cy.po, po/da.po, po/de.po, po/el.po,
+	  po/eo.po, po/es.po, po/et.po, po/eu.po, po/fa.po, po/fake_c.pl,
+	  po/fi.po, po/fr.po, po/ga.po, po/gl.po, po/he.po, po/hi.po,
+	  po/hr.po, po/hu.po, po/id.po, po/it.po, po/ja.po, po/ka.po,
+	  po/ko.po, po/lt.po, po/lv.po, po/mk.po, po/mn.po, po/ms.po,
+	  po/mt.po, po/nb.po, po/nl.po, po/pl.po, po/pt.po, po/pt_BR.po,
+	  po/ro.po, po/ru.po, po/sk.po, po/sl.po, po/sq.po, po/sr.po,
+	  po/sr@Latn.po, po/sv.po, po/ta.po, po/tg.po, po/tr.po, po/uk.po,
+	  po/userdrake.pot, po/uz.po, po/uz@Cyrl.po, po/vi.po, po/wa.po,
+	  po/zh_CN.po, po/zh_TW.po: updated pot file; changed the way the
+	  pot is generated to use perl_checker
+
+2003-08-19 15:16  Daouda Lo <daouda at mandriva.com>
+
+	* po/bg.po: - added missing \\n
+
+2003-08-19 15:13  Daouda Lo <daouda at mandriva.com>
+
+	* userdrake.spec: - add LN brand new icons
+	  - add label to filter group widget (titi)
+
+2003-08-19 14:44  Daouda Lo <daouda at mandriva.com>
+
+	* pixmaps/group_add.png, pixmaps/refresh.png, pixmaps/user_add.png,
+	  pixmaps/user_conf.png, pixmaps/user_del.png: - readded png
+
+2003-08-19 14:42  Daouda Lo <daouda at mandriva.com>
+
+	* pixmaps/group_add.png, pixmaps/refresh.png, pixmaps/user_add.png,
+	  pixmaps/user_conf.png, pixmaps/user_del.png: - replace pngs
+
+2003-08-19 13:28  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* userdrake: enhance filter area layout
+
+2003-08-19 13:24  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/ar.po, po/az.po, po/be.po, po/bg.po, po/bs.po, po/ca.po,
+	  po/cs.po, po/cy.po, po/da.po, po/de.po, po/el.po, po/eo.po,
+	  po/es.po, po/et.po, po/eu.po, po/fa.po, po/fi.po, po/fr.po,
+	  po/ga.po, po/gl.po, po/he.po, po/hi.po, po/hr.po, po/hu.po,
+	  po/id.po, po/it.po, po/ja.po, po/ka.po, po/ko.po, po/lt.po,
+	  po/lv.po, po/mk.po, po/mn.po, po/ms.po, po/mt.po, po/nb.po,
+	  po/nl.po, po/pl.po, po/pt.po, po/pt_BR.po, po/ro.po, po/ru.po,
+	  po/sk.po, po/sl.po, po/sq.po, po/sr.po, po/sr@Latn.po, po/sv.po,
+	  po/ta.po, po/tg.po, po/tr.po, po/uk.po, po/userdrake.pot,
+	  po/uz.po, po/uz@Cyrl.po, po/vi.po, po/wa.po, po/zh_CN.po,
+	  po/zh_TW.po: updated pot file
+
+2003-08-19 13:02  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* userdrake: do not add white space after toolbar
+
+2003-08-19 10:36  Daouda Lo <daouda at mandriva.com>
+
+	* userdrake: - s/field/fields/
+
+2003-08-18 19:33  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/da.po, po/pt_BR.po: updated po files
+
+2003-08-18 18:16  Keld Jørn Simonsen <keld at dkuug.dk>
+
+	* po/da.po: Updates
+	  soft/menu-messages/da.po soft/userdrake2/po/da.po
+	  gi/perl-install/share/po/da.po
+
+2003-08-18 18:13  Arkadiusz Lipiec <alipiec at elka.pw.edu.pl>
+
+	* po/pl.po: Updated
+
+2003-08-18 14:45  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/ar.po, po/nl.po: updated po files
+
+2003-08-18 12:54  Daouda Lo <daouda at mandriva.com>
+
+	* userdrake.spec: - string fixes (Pablo and Co)
+
+2003-08-18 12:53  Daouda Lo <daouda at mandriva.com>
+
+	* userdrake.spec: - any.pm api changes
+
+2003-08-18 10:22  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/eu.po, po/nb.po, po/uz.po, po/uz@Cyrl.po: updated po files
+
+2003-08-17 23:06  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/sv.po: updated po file
+
+2003-08-17 16:36  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/ar.po, po/az.po, po/be.po, po/bg.po, po/bs.po, po/ca.po,
+	  po/cs.po, po/cy.po, po/da.po, po/de.po, po/el.po, po/eo.po,
+	  po/es.po, po/et.po, po/eu.po, po/fa.po, po/fi.po, po/fr.po,
+	  po/ga.po, po/gl.po, po/he.po, po/hi.po, po/hr.po, po/hu.po,
+	  po/id.po, po/it.po, po/ja.po, po/ka.po, po/ko.po, po/lt.po,
+	  po/lv.po, po/mk.po, po/mn.po, po/ms.po, po/mt.po, po/nb.po,
+	  po/nl.po, po/pl.po, po/pt.po, po/pt_BR.po, po/ro.po, po/ru.po,
+	  po/sk.po, po/sl.po, po/sq.po, po/sr.po, po/sr@Latn.po, po/sv.po,
+	  po/ta.po, po/tg.po, po/tr.po, po/uk.po, po/userdrake.pot,
+	  po/uz.po, po/uz@Cyrl.po, po/vi.po, po/wa.po, po/zh_CN.po,
+	  po/zh_TW.po, userdrake: fixed English typo
+
+2003-08-17 13:25  Alice Lafox <alice at lafox.com.ua>
+
+	* po/ru.po: fixed typos and updated
+
+2003-08-17 12:00  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/et.po, po/hu.po: updated po files
+
+2003-08-17 11:12  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/he.po: updated po file
+
+2003-08-16 17:46  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/ar.po, po/az.po, po/be.po, po/bg.po, po/bs.po, po/ca.po,
+	  po/cs.po, po/cy.po, po/da.po, po/de.po, po/el.po, po/eo.po,
+	  po/es.po, po/et.po, po/eu.po, po/fa.po, po/fi.po, po/fr.po,
+	  po/ga.po, po/gl.po, po/he.po, po/hi.po, po/hr.po, po/hu.po,
+	  po/id.po, po/it.po, po/ja.po, po/ka.po, po/ko.po, po/lt.po,
+	  po/lv.po, po/mk.po, po/mn.po, po/ms.po, po/mt.po, po/nb.po,
+	  po/nl.po, po/pl.po, po/pt.po, po/pt_BR.po, po/ro.po, po/ru.po,
+	  po/sk.po, po/sl.po, po/sq.po, po/sr.po, po/sr@Latn.po, po/sv.po,
+	  po/ta.po, po/tg.po, po/tr.po, po/uk.po, po/userdrake.pot,
+	  po/uz.po, po/uz@Cyrl.po, po/vi.po, po/wa.po, po/zh_CN.po,
+	  po/zh_TW.po: updated pot file
+
+2003-08-16 14:36  Daouda Lo <daouda at mandriva.com>
+
+	* userdrake: - string fix
+
+2003-08-15 11:21  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/eu.po: updated po file
+
+2003-08-14 15:40  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/be.po: Added Belarussian file
+
+2003-08-13 23:28  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/hi.po, po/id.po, po/lv.po: updated po files
+
+2003-08-13 13:29  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/zh_CN.po: updated po file
+
+2003-08-11 19:39  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/bs.po: updated po file
+
+2003-08-11 14:02  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/hu.po: updated po file
+
+2003-08-11 10:44  Daouda Lo <daouda at mandriva.com>
+
+	* userdrake.spec: - small changes for any.pm api
+
+2003-08-11 10:43  Daouda Lo <daouda at mandriva.com>
+
+	* userdrake: - respect new any api
+
+2003-08-10 22:08  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/cs.po: updated po file
+
+2003-08-09 15:07  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/da.po, po/fa.po: udated po files
+
+2003-08-08 21:46  Keld Jørn Simonsen <keld at dkuug.dk>
+
+	* po/da.po: Updates
+	  soft/control-center/po/da.po soft/ftw/po/da.po
+	  soft/mdkhtmlbrowser/po/da.po soft/rpmdrake/po/da.po
+	  soft/urpmi/po/da.po soft/userdrake2/po/da.po
+	  gi/perl-install/share/po/da.po
+
+2003-08-08 08:35  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/nl.po, po/sq.po, po/tr.po: updated po files
+
+2003-08-07 08:32  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/uk.po: updated po file
+
+2003-08-07 00:54  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/sv.po: updated po file
+
+2003-08-06 21:38  Fabian Mandelbaum <fabman at mandriva.com>
+
+	* po/es.po: Updated Spanish translations
+
+2003-08-06 21:24  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/pl.po: fixed error
+
+2003-08-06 21:17  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/az.po: updated po file
+
+2003-08-06 20:49  Arkadiusz Lipiec <alipiec at elka.pw.edu.pl>
+
+	* po/pl.po: Update
+
+2003-08-06 17:15  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/nb.po: updated po file
+
+2003-08-06 11:25  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/et.po: updated po file
+
+2003-08-05 23:39  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/ar.po, po/az.po, po/bg.po, po/bs.po, po/ca.po, po/cs.po,
+	  po/cy.po, po/da.po, po/de.po, po/el.po, po/eo.po, po/es.po,
+	  po/et.po, po/eu.po, po/fa.po, po/fi.po, po/fr.po, po/ga.po,
+	  po/gl.po, po/he.po, po/hi.po, po/hr.po, po/hu.po, po/id.po,
+	  po/it.po, po/ja.po, po/ka.po, po/ko.po, po/lt.po, po/lv.po,
+	  po/mk.po, po/mn.po, po/ms.po, po/mt.po, po/nb.po, po/nl.po,
+	  po/pl.po, po/pt.po, po/pt_BR.po, po/ro.po, po/ru.po, po/sk.po,
+	  po/sl.po, po/sq.po, po/sr.po, po/sr@Latn.po, po/sv.po, po/ta.po,
+	  po/tg.po, po/tr.po, po/uk.po, po/userdrake.pot, po/uz.po,
+	  po/uz@Cyrl.po, po/vi.po, po/wa.po, po/zh_CN.po, po/zh_TW.po:
+	  updated pot file
+
+2003-08-05 11:09  Daouda Lo <daouda at mandriva.com>
+
+	* userdrake: - center window
+
+2003-08-04 16:35  Daouda Lo <daouda at mandriva.com>
+
+	* userdrake.spec: - correct manpage location
+
+2003-08-04 16:33  Daouda Lo <daouda at mandriva.com>
+
+	* userdrake.spec: - spec cleanup
+
+2003-08-04 16:24  Daouda Lo <daouda at mandriva.com>
+
+	* userdrake.spec: - release for beta2
+
+2003-08-04 16:23  Daouda Lo <daouda at mandriva.com>
+
+	* userdrake: release for beta2
+
+2003-08-04 16:23  Daouda Lo <daouda at mandriva.com>
+
+	* userdrake.spec: - release for beta2
+
+2003-08-04 15:59  Daouda Lo <daouda at mandriva.com>
+
+	* userdrake: - ask before removing group
+
+2003-08-04 15:36  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/he.po: updated po file
+
+2003-08-04 15:11  Daouda Lo <daouda at mandriva.com>
+
+	* userdrake.spec: - remove help from toolbar
+	  - sort columns feature
+	  - ask before removing group
+
+2003-08-04 11:57  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/uk.po: updated po file
+
+2003-08-04 09:28  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/fi.po: updated po file
+
+2003-08-03 10:28  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/fa.po, po/nl.po: updated po file
+
+2003-07-31 13:16  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/ar.po, po/az.po, po/bg.po, po/bs.po, po/ca.po, po/cs.po,
+	  po/cy.po, po/da.po, po/de.po, po/el.po, po/eo.po, po/es.po,
+	  po/et.po, po/eu.po, po/fi.po, po/fr.po, po/ga.po, po/gl.po,
+	  po/he.po, po/hi.po, po/hr.po, po/hu.po, po/id.po, po/it.po,
+	  po/ja.po, po/ka.po, po/ko.po, po/lt.po, po/lv.po, po/mk.po,
+	  po/mn.po, po/ms.po, po/mt.po, po/nb.po, po/nl.po, po/pl.po,
+	  po/pt.po, po/pt_BR.po, po/ro.po, po/ru.po, po/sk.po, po/sl.po,
+	  po/sq.po, po/sr.po, po/sr@Latn.po, po/sv.po, po/ta.po, po/tg.po,
+	  po/tr.po, po/uk.po, po/userdrake.pot, po/uz.po, po/uz@Cyrl.po,
+	  po/vi.po, po/wa.po, po/zh_CN.po, po/zh_TW.po, userdrake: changed
+	  "lower case letter" to "lower case latin letters"; cyrillic,
+	  greek,
+	  etc can't be used for login names.
+
+2003-07-31 06:19  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/pt_BR.po: updated po file
+
+2003-07-30 15:01  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/cs.po, po/es.po: updated po file
+
+2003-07-30 11:18  Fabian Mandelbaum <fabman at mandriva.com>
+
+	* po/es.po: Updated Spanish translations
+
+2003-07-30 09:59  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/he.po, po/pt.po, po/sq.po: updated po files
+
+2003-07-29 12:41  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/bg.po, po/zh_CN.po: updated po files
+
+2003-07-29 10:11  Daouda Lo <daouda at mandriva.com>
+
+	* userdrake.spec: - remove help from toolbar
+	  - sort columns feature
+
+2003-07-29 06:18  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/nb.po: updated po file
+
+2003-07-28 23:24  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/da.po, po/hu.po: updated po files
+
+2003-07-28 21:57  Keld Jørn Simonsen <keld at dkuug.dk>
+
+	* po/da.po: update
+	  soft/urpmi/po/da.po soft/userdrake2/po/da.po
+
+2003-07-28 18:40  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/et.po: updated po file
+
+2003-07-28 16:43  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/ar.po, po/az.po, po/bg.po, po/bs.po, po/ca.po, po/cs.po,
+	  po/cy.po, po/da.po, po/de.po, po/el.po, po/eo.po, po/es.po,
+	  po/et.po, po/eu.po, po/fi.po, po/fr.po, po/ga.po, po/gl.po,
+	  po/he.po, po/hi.po, po/hr.po, po/hu.po, po/id.po, po/it.po,
+	  po/ja.po, po/ka.po, po/ko.po, po/lt.po, po/lv.po, po/mk.po,
+	  po/mn.po, po/ms.po, po/mt.po, po/nb.po, po/nl.po, po/pl.po,
+	  po/pt.po, po/pt_BR.po, po/ro.po, po/ru.po, po/sk.po, po/sl.po,
+	  po/sq.po, po/sr.po, po/sr@Latn.po, po/sv.po, po/ta.po, po/tg.po,
+	  po/tr.po, po/uk.po, po/userdrake.pot, po/uz.po, po/uz@Cyrl.po,
+	  po/vi.po, po/wa.po, po/zh_CN.po, po/zh_TW.po: updated pot file
+
+2003-07-28 16:00  Daouda Lo <daouda at mandriva.com>
+
+	* USER/USER.xs: - split Clean entity to CleanHome and CleanSpool
+
+2003-07-28 15:38  Daouda Lo <daouda at mandriva.com>
+
+	* userdrake: - cosmetics changes
+
+2003-07-28 14:53  Daouda Lo <daouda at mandriva.com>
+
+	* userdrake.spec: Replace Combo boxes by Option Menu when Combo
+	  should'nt be editable.
+
+2003-07-28 14:51  Daouda Lo <daouda at mandriva.com>
+
+	* userdrake.spec: - feature add-ons:
+	  o ask before removing user. Choices to delete HomeDir and Spool
+	  mail file
+	  o Choose icon to be displayed in kdm/mdkkdm when adding user
+
+2003-07-28 14:49  Daouda Lo <daouda at mandriva.com>
+
+	* userdrake: - We ask for removing user now before really deleting
+	  it
+	  Option are delete home dir to and delete spool mail.
+
+2003-07-28 11:15  Daouda Lo <daouda at mandriva.com>
+
+	* userdrake: - add choice of icons when adding a user
+
+2003-07-28 10:58  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/uz.po, po/uz@Cyrl.po: Added Uzbek cyrillic file
+
+2003-07-28 09:20  Daouda Lo <daouda at mandriva.com>
+
+	* userdrake: - replace Combo by OptionMenu
+
+2003-07-27 16:22  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/nb.po, po/nl.po: updated po files
+
+2003-07-26 19:56  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/eo.po, po/hu.po, po/ja.po, po/uk.po: updated po files
+
+2003-07-26 08:53  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/ar.po, po/az.po, po/bg.po, po/bs.po, po/ca.po, po/cs.po,
+	  po/cy.po, po/de.po, po/el.po, po/eo.po, po/es.po, po/et.po,
+	  po/eu.po, po/fi.po, po/fr.po, po/ga.po, po/gl.po, po/he.po,
+	  po/hi.po, po/hr.po, po/id.po, po/it.po, po/ja.po, po/ka.po,
+	  po/ko.po, po/lt.po, po/lv.po, po/mk.po, po/mn.po, po/ms.po,
+	  po/mt.po, po/nb.po, po/nl.po, po/pl.po, po/pt.po, po/pt_BR.po,
+	  po/ro.po, po/ru.po, po/sk.po, po/sl.po, po/sq.po, po/sr.po,
+	  po/sr@Latn.po, po/sv.po, po/ta.po, po/tg.po, po/tr.po, po/uk.po,
+	  po/uz.po, po/vi.po, po/wa.po, po/zh_CN.po, po/zh_TW.po: updated
+	  pot file
+
+2003-07-26 08:50  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/da.po, po/hu.po, po/userdrake.pot: updated po files
+
+2003-07-25 15:18  Daouda Lo <daouda at mandriva.com>
+
+	* todo: - addons (in french )
+
+2003-07-25 14:25  Keld Jørn Simonsen <keld at dkuug.dk>
+
+	* po/da.po: Update
+	  soft/userdrake2/po/da.po
+
+2003-07-25 13:36  Daouda Lo <daouda at mandriva.com>
+
+	* userdrake, userdrake.spec: - fix crash happening when selection
+	  get lost (by refreshing list) and edit or
+	  delete button is activated (found by David Baudens)
+
+2003-07-25 10:03  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/da.po, po/pt_BR.po, po/zh_CN.po: updated po files
+
+2003-07-25 03:20  Keld Jørn Simonsen <keld at dkuug.dk>
+
+	* po/da.po: soft/userdrake2/po/da.po
+
+2003-07-24 21:19  Arkadiusz Lipiec <alipiec at elka.pw.edu.pl>
+
+	* po/pl.po: One translation entry
+
+2003-07-24 12:59  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/sv.po: updated po file
+
+2003-07-24 07:12  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/eo.po: updated po file
+
+2003-07-23 23:14  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/sv.po: updated po file
+
+2003-07-23 13:37  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/es.po, po/ru.po: updated po file
+
+2003-07-22 17:26  Fabian Mandelbaum <fabman at mandriva.com>
+
+	* po/es.po: Updated Spanish translations
+
+2003-07-22 15:33  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/et.po: updated po file
+
+2003-07-21 20:47  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/bg.po, po/bs.po, po/hr.po, po/id.po, po/nl.po, po/pl.po,
+	  po/pt.po, po/pt_BR.po, po/ro.po, po/ru.po, po/sq.po, po/uk.po,
+	  po/wa.po: fixed some ui problems
+
+2003-07-21 19:45  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/ar.po, po/az.po, po/bg.po, po/bs.po, po/ca.po, po/cs.po,
+	  po/cy.po, po/da.po, po/de.po, po/el.po, po/eo.po, po/es.po,
+	  po/et.po, po/eu.po, po/fi.po, po/fr.po, po/ga.po, po/gl.po,
+	  po/he.po, po/hi.po, po/hr.po, po/hu.po, po/id.po, po/it.po,
+	  po/ja.po, po/ka.po, po/ko.po, po/lt.po, po/lv.po, po/mk.po,
+	  po/mn.po, po/ms.po, po/mt.po, po/nb.po, po/nl.po, po/pl.po,
+	  po/pt.po, po/pt_BR.po, po/ro.po, po/ru.po, po/sk.po, po/sl.po,
+	  po/sq.po, po/sr.po, po/sr@Latn.po, po/sv.po, po/ta.po, po/tg.po,
+	  po/tr.po, po/uk.po, po/userdrake.pot, po/uz.po, po/vi.po,
+	  po/wa.po, po/zh_CN.po, po/zh_TW.po: updated pot file
+
+2003-07-20 09:06  Arkadiusz Lipiec <alipiec at elka.pw.edu.pl>
+
+	* po/pl.po: Update
+
+2003-07-17 16:51  Daouda Lo <daouda at mandriva.com>
+
+	* userdrake.spec: - no explicit require on libuser
+
+2003-07-17 15:24  Daouda Lo <daouda at mandriva.com>
+
+	* userdrake: - misc fixes (locale fr)
+
+2003-07-17 15:24  Daouda Lo <daouda at mandriva.com>
+
+	* userdrake.spec: fix a locale fr typo
+
+2003-07-17 15:14  Daouda Lo <daouda at mandriva.com>
+
+	* po/fr.po: - fix for better toolbar fit
+
+2003-07-17 14:57  Daouda Lo <daouda at mandriva.com>
+
+	* po/fr.po: - remove trailing "
+
+2003-07-17 14:45  Daouda Lo <daouda at mandriva.com>
+
+	* userdrake.spec: Cosmetic changes (stock icons everywhere)
+
+2003-07-17 14:44  Daouda Lo <daouda at mandriva.com>
+
+	* userdrake: - Stocks icons for all menu entries (pretty nice)
+
+2003-07-17 14:21  Daouda Lo <daouda at mandriva.com>
+
+	* userdrake: - Devel::Peek only for debugging
+
+2003-07-17 14:20  Daouda Lo <daouda at mandriva.com>
+
+	* userdrake: - update
+
+2003-07-17 14:19  Daouda Lo <daouda at mandriva.com>
+
+	* userdrake.spec: - Use SpinButton to display date format (autoset
+	  with current date)
+
+2003-07-17 14:18  Daouda Lo <daouda at mandriva.com>
+
+	* userdrake: - spiin buttons cosmetics
+
+2003-07-17 13:59  Daouda Lo <daouda at mandriva.com>
+
+	* userdrake: - spinbutton in place of entry
+
+2003-07-17 11:52  Pablo Saratxaga <pablo at mandriva.com>
+
+	* userdrake: added context information for translators
+
+2003-07-17 10:58  Daouda Lo <daouda at mandriva.com>
+
+	* userdrake.spec: - change date format (YYYY/MM/DD)
+
+2003-07-17 10:33  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/ar.po, po/az.po, po/bg.po, po/bs.po, po/ca.po, po/cs.po,
+	  po/cy.po, po/da.po, po/de.po, po/el.po, po/eo.po, po/es.po,
+	  po/et.po, po/eu.po, po/fi.po, po/fr.po, po/ga.po, po/gl.po,
+	  po/he.po, po/hi.po, po/hr.po, po/hu.po, po/id.po, po/it.po,
+	  po/ja.po, po/ka.po, po/ko.po, po/lt.po, po/lv.po, po/mk.po,
+	  po/mn.po, po/ms.po, po/mt.po, po/nb.po, po/nl.po, po/pl.po,
+	  po/pt.po, po/pt_BR.po, po/ro.po, po/ru.po, po/sk.po, po/sl.po,
+	  po/sq.po, po/sr.po, po/sr@Latn.po, po/sv.po, po/ta.po, po/tg.po,
+	  po/tr.po, po/uk.po, po/userdrake.pot, po/uz.po, po/vi.po,
+	  po/wa.po, po/zh_CN.po, po/zh_TW.po, userdrake: fixed English typo
+	  (caracters -> characters)
+
+2003-07-16 12:33  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* userdrake.spec: 0.92-12mdk
+
+2003-07-16 12:32  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* userdrake: use stock icons in menus
+
+2003-07-15 17:43  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* userdrake.spec: 0.92-11mdk
+
+2003-07-14 20:01  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* userdrake.spec: sync with cooker
+
+2003-07-10 18:36  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* userdrake: fix stock item
+
+2003-07-10 16:44  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/ar.po, po/az.po, po/bg.po, po/bs.po, po/ca.po, po/cs.po,
+	  po/cy.po, po/da.po, po/de.po, po/el.po, po/eo.po, po/es.po,
+	  po/et.po, po/eu.po, po/fi.po, po/fr.po, po/ga.po, po/gl.po,
+	  po/he.po, po/hi.po, po/hr.po, po/hu.po, po/id.po, po/it.po,
+	  po/ja.po, po/ka.po, po/ko.po, po/lt.po, po/lv.po, po/mk.po,
+	  po/mn.po, po/ms.po, po/mt.po, po/nb.po, po/nl.po, po/pl.po,
+	  po/pt.po, po/pt_BR.po, po/ro.po, po/ru.po, po/sk.po, po/sl.po,
+	  po/sq.po, po/sr.po, po/sr@Latn.po, po/sv.po, po/ta.po, po/tg.po,
+	  po/tr.po, po/uk.po, po/userdrake.pot, po/uz.po, po/vi.po,
+	  po/wa.po, po/zh_CN.po, po/zh_TW.po: updated pot file
+
+2003-07-10 16:16  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* userdrake.spec: 0.92-9mdk
+
+2003-07-10 16:15  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* userdrake: use stock items
+
+2003-07-10 13:39  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* userdrake: symbolic keys are back
+
+2003-07-10 13:00  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* userdrake.spec: 0.92-8mdk
+
+2003-07-10 12:59  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* userdrake: fix tree filling
+
+2003-07-10 09:22  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* userdrake.spec: 0.92-7mdk
+
+2003-07-10 09:21  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* userdrake: fix embedding
+
+2003-07-10 09:13  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* userdrake.spec: fix requires
+
+2003-07-10 09:13  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* Makefile: add srpm target
+
+2003-07-10 09:11  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* userdrake.spec: 0.92-6mdk
+
+2003-07-10 09:08  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* userdrake: get rid of old equals
+
+2003-07-10 09:02  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* userdrake: focus event handlers must return false else gdk louldy
+	  complain
+
+2003-07-10 09:01  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* userdrake: make dialogs be transcient to main window (they should
+	  really be
+	  Gtk2::Dialog)
+
+2003-07-10 08:52  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* userdrake: fix entries filling
+
+2003-07-09 18:34  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* userdrake.spec: bump require on perl-Gtk2
+
+2003-07-09 18:32  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* icons/selected.png, icons/unselected.png: add the icons the
+	  maintainer was too lazy or forget to commit in cvs
+
+2003-07-09 18:31  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* pixmaps/selected.png, pixmaps/unselected.png: *** empty log
+	  message ***
+
+2003-07-09 18:28  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* pixmaps/selected.png, pixmaps/unselected.png: add the icons the
+	  maintainer was too lazy or forget to commit in cvs
+
+2003-07-09 18:26  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* userdrake.spec: 0.92-5mdk
+
+2003-07-09 18:25  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* userdrake: (ValidInt) kill obvious warnings
+
+2003-07-09 18:24  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* userdrake: stop reinventing the wheel by duplicating it and reuse
+	  existent
+	  infrastructure
+
+2003-07-09 18:21  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* userdrake: convert from gtk2-perl to gtk2-perl-xs
+
+2003-07-09 12:09  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/uk.po: updated po file
+
+2003-07-08 10:01  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/pt_BR.po: updated po file
+
+2003-07-08 09:00  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/es.po, po/ru.po, po/zh_CN.po: updated po files
+
+2003-07-05 17:48  Fabian Mandelbaum <fabman at mandriva.com>
+
+	* po/es.po: updated Spanish translations
+
+2003-07-04 14:17  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/et.po, po/userdrake.pot: updated po file
+
+2003-07-04 13:13  Daouda Lo <daouda at mandriva.com>
+
+	* todo: - updates
+
+2003-07-04 13:10  Daouda Lo <daouda at mandriva.com>
+
+	* userdrake.spec: - Status of user account (Locked or Expired)
+	  displayed in main window
+	  - Keystroke features:
+	  o Space bar and Enter key to select deselect user/group
+	  o Enter Key to perform filtering
+	  o Ctrl+Q to Quit (titi)
+	  - sanity checks
+
+2003-07-04 13:06  Daouda Lo <daouda at mandriva.com>
+
+	* userdrake: - keyval feature added
+
+2003-07-04 11:17  Daouda Lo <daouda at mandriva.com>
+
+	* userdrake: - better solution to search with enter key
+
+2003-07-04 11:10  Daouda Lo <daouda at mandriva.com>
+
+	* userdrake: - use entry to perform a search
+
+2003-07-04 10:45  Daouda Lo <daouda at mandriva.com>
+
+	* userdrake: - comute Lock/Expire Time to set status
+
+2003-07-04 10:07  Daouda Lo <daouda at mandriva.com>
+
+	* userdrake.spec: - change date
+
+2003-07-03 20:56  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/ar.po, po/az.po, po/bg.po, po/bs.po, po/ca.po, po/cs.po,
+	  po/cy.po, po/da.po, po/de.po, po/el.po, po/eo.po, po/es.po,
+	  po/et.po, po/eu.po, po/fi.po, po/fr.po, po/ga.po, po/gl.po,
+	  po/he.po, po/hi.po, po/hr.po, po/hu.po, po/id.po, po/it.po,
+	  po/ja.po, po/ka.po, po/ko.po, po/lt.po, po/lv.po, po/mk.po,
+	  po/mn.po, po/ms.po, po/mt.po, po/nb.po, po/nl.po, po/pl.po,
+	  po/pt.po, po/pt_BR.po, po/ro.po, po/ru.po, po/sk.po, po/sl.po,
+	  po/sq.po, po/sr.po, po/sr@Latn.po, po/sv.po, po/ta.po, po/tg.po,
+	  po/tr.po, po/uk.po, po/userdrake.pot, po/uz.po, po/vi.po,
+	  po/wa.po, po/zh_CN.po, po/zh_TW.po: updated pot file
+
+2003-07-03 12:55  Daouda Lo <daouda at mandriva.com>
+
+	* userdrake: - expired status imlementation
+
+2003-07-02 19:31  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/ar.po, po/az.po, po/bg.po, po/bs.po, po/ca.po, po/cs.po,
+	  po/cy.po, po/da.po, po/de.po, po/el.po, po/eo.po, po/es.po,
+	  po/et.po, po/eu.po, po/fi.po, po/fr.po, po/ga.po, po/gl.po,
+	  po/he.po, po/hi.po, po/hr.po, po/hu.po, po/id.po, po/it.po,
+	  po/ja.po, po/ka.po, po/ko.po, po/lt.po, po/lv.po, po/mk.po,
+	  po/mn.po, po/ms.po, po/mt.po, po/nb.po, po/nl.po, po/pl.po,
+	  po/pt.po, po/pt_BR.po, po/ro.po, po/ru.po, po/sk.po, po/sl.po,
+	  po/sq.po, po/sr.po, po/sr@Latn.po, po/sv.po, po/ta.po, po/tg.po,
+	  po/tr.po, po/uk.po, po/userdrake.pot, po/uz.po, po/vi.po,
+	  po/wa.po, po/zh_CN.po, po/zh_TW.po: updated pot file
+
+2003-07-02 14:50  Daouda Lo <daouda at mandriva.com>
+
+	* todo: - update (some won't fix)
+
+2003-07-02 14:00  Daouda Lo <daouda at mandriva.com>
+
+	* todo: - update
+
+2003-07-02 13:57  Daouda Lo <daouda at mandriva.com>
+
+	* userdrake.spec: - Status of user account (Locked or Expired)
+	  displayed in main window
+
+2003-07-02 13:55  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* userdrake: add std c-q shortcut
+
+2003-07-02 13:44  Daouda Lo <daouda at mandriva.com>
+
+	* userdrake: - some features added:
+	  Give the status of the account in main window
+
+2003-07-02 13:41  Daouda Lo <daouda at mandriva.com>
+
+	* todo: - update
+
+2003-07-02 13:07  Daouda Lo <daouda at mandriva.com>
+
+	* userdrake: - cosmetics fixes
+
+2003-07-01 15:24  Daouda Lo <daouda at mandriva.com>
+
+	* todo: - add todo file
+
+2003-07-01 14:49  Daouda Lo <daouda at mandriva.com>
+
+	* userdrake.spec: - resync
+
+2003-07-01 14:29  Daouda Lo <daouda at mandriva.com>
+
+	* userdrake.spec: - 3mdk
+
+2003-07-01 14:28  Daouda Lo <daouda at mandriva.com>
+
+	* userdrake.spec: - put /usr/bin/userdrake in file
+
+2003-06-30 14:13  Daouda Lo <daouda at mandriva.com>
+
+	* userdrake.spec: - disable warnings when releasing (debug purpose)
+
+2003-06-29 22:52  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/fi.po, po/uk.po: updated po files
+
+2003-06-29 15:45  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/hi.po: updated po file
+
+2003-06-28 20:53  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/sq.po, po/userdrake.pot, po/userdrake2.pot: updated po file
+
+2003-06-28 15:05  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/ja.po, po/nb.po, po/no.po, po/ro.po: updated po files
+
+2003-06-27 19:26  Daouda Lo <daouda at mandriva.com>
+
+	* USER/Makefile.PL: - cleanup
+
+2003-06-27 19:21  Daouda Lo <daouda at mandriva.com>
+
+	* userdrake.spec: - remove trailing string
+
+2003-06-27 19:18  Daouda Lo <daouda at mandriva.com>
+
+	* userdrake.spec: - need testing
+
+2003-06-27 19:03  Daouda Lo <daouda at mandriva.com>
+
+	* userdrake.spec: - fix prefix
+
+2003-06-27 19:02  Daouda Lo <daouda at mandriva.com>
+
+	* po/Makefile: - fix
+
+2003-06-27 18:54  Daouda Lo <daouda at mandriva.com>
+
+	* Makefile: - meuh
+
+2003-06-27 18:28  Daouda Lo <daouda at mandriva.com>
+
+	* Makefile: - ln stuffs for normal users and drakconf
+
+2003-06-27 18:22  Daouda Lo <daouda at mandriva.com>
+
+	* userdrake.spec: - mv ln to Makefile
+
+2003-06-27 18:19  Daouda Lo <daouda at mandriva.com>
+
+	* userdrake.spec: - change position for ln
+
+2003-06-27 18:17  Daouda Lo <daouda at mandriva.com>
+
+	* userdrake.spec: - Check the context before enumerating users
+	  (avoir die assertion in gtk)
+	  - link %%_bindir/userdrake to %%_sbindir/userdrake (for normal
+	  users and drakconf)
+
+2003-06-27 18:11  Daouda Lo <daouda at mandriva.com>
+
+	* userdrake: - readded userdrake (ca me gonfle)
+
+2003-06-27 18:09  Daouda Lo <daouda at mandriva.com>
+
+	* userdrake: - resync file
+
+2003-06-27 17:59  Daouda Lo <daouda at mandriva.com>
+
+	* userdrake: - changes on po
+
+2003-06-27 17:58  Daouda Lo <daouda at mandriva.com>
+
+	* userdrake.spec: *** empty log message ***
+
+2003-06-27 17:23  Daouda Lo <daouda at mandriva.com>
+
+	* userdrake: - fix translation crash
+
+2003-06-27 17:05  Daouda Lo <daouda at mandriva.com>
+
+	* userdrake: - no warnings when $ctx is about to be defined
+
+2003-06-27 12:53  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/ar.po, po/az.po, po/bg.po, po/bs.po, po/ca.po, po/cs.po,
+	  po/cy.po, po/da.po, po/de.po, po/el.po, po/eo.po, po/es.po,
+	  po/et.po, po/eu.po, po/fi.po, po/fr.po, po/ga.po, po/gl.po,
+	  po/he.po, po/hi.po, po/hr.po, po/hu.po, po/id.po, po/it.po,
+	  po/ja.po, po/ka.po, po/ko.po, po/lt.po, po/lv.po, po/mk.po,
+	  po/mn.po, po/ms.po, po/mt.po, po/nl.po, po/no.po, po/pl.po,
+	  po/pt.po, po/pt_BR.po, po/ro.po, po/ru.po, po/sk.po, po/sl.po,
+	  po/sq.po, po/sr.po, po/sr@Latn.po, po/sv.po, po/ta.po, po/tg.po,
+	  po/tr.po, po/uk.po, po/userdrake2.pot, po/uz.po, po/vi.po,
+	  po/wa.po, po/zh_CN.po, po/zh_TW.po: updated pot file
+
+2003-06-27 12:26  Daouda Lo <daouda at mandriva.com>
+
+	* Makefile: - s/userdrake2/userdrake/
+
+2003-06-27 12:22  Daouda Lo <daouda at mandriva.com>
+
+	* Makefile: - s/userdrake2/userdrake/
+
+2003-06-27 12:22  Daouda Lo <daouda at mandriva.com>
+
+	* po/POTFILES.in: - s/userdrake/userdrake2/
+
+2003-06-27 11:22  Daouda Lo <daouda at mandriva.com>
+
+	* userdrake: - userdrake superseeded userdake2
+
+2003-06-27 11:22  Daouda Lo <daouda at mandriva.com>
+
+	* userdrake2: - remove userdrake2
+
+2003-06-27 07:16  Daouda Lo <daouda at mandriva.com>
+
+	* Makefile, userdrake.spec, userdrake2: - sanity checks
+
+2003-06-26 20:48  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/ja.po: updated po file
+
+2003-06-26 12:50  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/ar.po, po/az.po, po/bg.po, po/bs.po, po/ca.po, po/cs.po,
+	  po/cy.po, po/da.po, po/de.po, po/el.po, po/eo.po, po/es.po,
+	  po/et.po, po/eu.po, po/fi.po, po/fr.po, po/ga.po, po/gl.po,
+	  po/he.po, po/hi.po, po/hr.po, po/hu.po, po/id.po, po/it.po,
+	  po/ja.po, po/ka.po, po/ko.po, po/lt.po, po/lv.po, po/mk.po,
+	  po/mn.po, po/ms.po, po/mt.po, po/nl.po, po/no.po, po/pl.po,
+	  po/pt.po, po/pt_BR.po, po/ro.po, po/ru.po, po/sk.po, po/sl.po,
+	  po/sq.po, po/sr.po, po/sr@Latn.po, po/sv.po, po/ta.po, po/tg.po,
+	  po/tr.po, po/uk.po, po/uz.po, po/vi.po, po/wa.po, po/zh_CN.po,
+	  po/zh_TW.po: corrected url
+
+2003-06-26 12:37  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/bg.po, po/cs.po, po/eo.po, po/es.po, po/id.po: updated po
+	  files
+
+2003-06-25 12:18  Fabian Mandelbaum <fabman at mandriva.com>
+
+	* po/es.po: Updated Spanish translations
+
+2003-06-25 11:37  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/ar.po, po/az.po, po/bg.po, po/bs.po, po/ca.po, po/cs.po,
+	  po/cy.po, po/da.po, po/de.po, po/el.po, po/eo.po, po/es.po,
+	  po/et.po, po/eu.po, po/fi.po, po/fr.po, po/ga.po, po/gl.po,
+	  po/he.po, po/hi.po, po/hr.po, po/hu.po, po/id.po, po/it.po,
+	  po/ja.po, po/ka.po, po/ko.po, po/lt.po, po/lv.po, po/mk.po,
+	  po/mn.po, po/ms.po, po/mt.po, po/nl.po, po/no.po, po/pl.po,
+	  po/pt.po, po/pt_BR.po, po/ro.po, po/ru.po, po/sk.po, po/sl.po,
+	  po/sq.po, po/sr.po, po/sr@Latn.po, po/sv.po, po/ta.po, po/tg.po,
+	  po/tr.po, po/uk.po, po/uz.po, po/vi.po, po/wa.po, po/zh_CN.po,
+	  po/zh_TW.po: aded info on web interface
+
+2003-06-25 11:00  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/ar.po, po/fr.po, po/pt.po, po/userdrake2.pot: updated po files
+
+2003-06-24 14:50  Daouda Lo <daouda at mandriva.com>
+
+	* userdrake.spec: - revert back to userdrake2
+
+2003-06-24 14:44  Daouda Lo <daouda at mandriva.com>
+
+	* Makefile: - revert back to userdrake2
+
+2003-06-24 13:58  Daouda Lo <daouda at mandriva.com>
+
+	* Makefile: s/userdrake2/userdrake
+
+2003-06-24 13:53  Daouda Lo <daouda at mandriva.com>
+
+	* userdrake.spec: - sanity checks
+
+2003-06-24 13:43  Daouda Lo <daouda at mandriva.com>
+
+	* userdrake2: - check if group is empty before doing operation on
+	  it
+
+2003-06-24 08:56  Daouda Lo <daouda at mandriva.com>
+
+	* userdrake.spec: - locale bug
+	  - pos
+
+2003-06-24 08:54  Daouda Lo <daouda at mandriva.com>
+
+	* po/fr.po: - correct conflicts in fr.po
+
+2003-06-24 08:51  Daouda Lo <daouda at mandriva.com>
+
+	* userdrake.spec: - add tranlations
+
+2003-06-24 08:07  Daouda Lo <daouda at mandriva.com>
+
+	* userdrake.spec: - remove trailing rm -rf buildroot
+
+2003-06-23 23:54  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/ar.po, po/az.po, po/bg.po, po/bs.po, po/ca.po, po/cs.po,
+	  po/cy.po, po/da.po, po/de.po, po/el.po, po/eo.po, po/es.po,
+	  po/et.po, po/eu.po, po/fi.po, po/fr.po, po/ga.po, po/gl.po,
+	  po/he.po, po/hi.po, po/hr.po, po/hu.po, po/id.po, po/it.po,
+	  po/ja.po, po/ka.po, po/ko.po, po/lt.po, po/lv.po, po/mk.po,
+	  po/mn.po, po/ms.po, po/mt.po, po/nl.po, po/no.po, po/pl.po,
+	  po/pt.po, po/pt_BR.po, po/ro.po, po/ru.po, po/sk.po, po/sl.po,
+	  po/sq.po, po/sr.po, po/sr@Latn.po, po/sv.po, po/ta.po, po/tg.po,
+	  po/tr.po, po/uk.po, po/uz.po, po/vi.po, po/wa.po, po/zh_CN.po,
+	  po/zh_TW.po: updated po files
+
+2003-06-23 18:50  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/wa.po: updated po file
+
+2003-06-23 16:56  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/userdrake2.pot: added pot file
+
+2003-06-23 16:54  Pablo Saratxaga <pablo at mandriva.com>
+
+	* po/ar.po, po/az.po, po/bg.po, po/bs.po, po/ca.po, po/cs.po,
+	  po/cy.po, po/da.po, po/de.po, po/el.po, po/eo.po, po/es.po,
+	  po/et.po, po/eu.po, po/fi.po, po/fr.po, po/ga.po, po/gl.po,
+	  po/he.po, po/hi.po, po/hr.po, po/hu.po, po/id.po, po/it.po,
+	  po/ja.po, po/ka.po, po/ko.po, po/lt.po, po/lv.po, po/mk.po,
+	  po/mn.po, po/ms.po, po/mt.po, po/nl.po, po/no.po, po/pl.po,
+	  po/pt.po, po/pt_BR.po, po/ro.po, po/ru.po, po/sk.po, po/sl.po,
+	  po/sq.po, po/sr.po, po/sr@Latn.po, po/sv.po, po/ta.po, po/tg.po,
+	  po/tr.po, po/uk.po, po/uz.po, po/vi.po, po/wa.po, po/zh_CN.po,
+	  po/zh_TW.po: Took translations from old userdrake
+
+2003-06-23 15:07  Daouda Lo <daouda at mandriva.com>
+
+	* userdrake2: - shadow sanity checks
+
+2003-06-23 14:59  Daouda Lo <daouda at mandriva.com>
+
+	* userdrake2: - use int to make SViOK succeded
+
+2003-06-23 14:47  Daouda Lo <daouda at mandriva.com>
+
+	* userdrake2: - fix warning
+
+2003-06-23 14:37  Daouda Lo <daouda at mandriva.com>
+
+	* USER/USER.xs, userdrake2: - Correct bug from converting NV to IV
+	  (Warly)
+
+2003-06-23 11:51  Daouda Lo <daouda at mandriva.com>
+
+	* USER/USER.pm, userdrake.spec: - bump version to 0.92
+
+2003-06-23 11:50  Daouda Lo <daouda at mandriva.com>
+
+	* userdrake2: - change version to next release 0.92
+
+2003-06-23 11:47  Daouda Lo <daouda at mandriva.com>
+
+	* userdrake.spec: s/userdrake2/userdrake/
+
+2003-06-23 11:29  Daouda Lo <daouda at mandriva.com>
+
+	* Makefile: - rename userdrake to userdrake2
+
+2003-06-23 11:28  Daouda Lo <daouda at mandriva.com>
+
+	* Makefile: - alias userdrake userdrake2
+
+2003-06-23 11:22  Daouda Lo <daouda at mandriva.com>
+
+	* userdrake2: - password expiration sanity checks
+
+2003-06-23 11:10  Daouda Lo <daouda at mandriva.com>
+
+	* userdrake.spec: - correct typo
+
+2003-06-23 11:09  Daouda Lo <daouda at mandriva.com>
+
+	* userdrake.spec: - final release
+
+2003-06-23 10:59  Daouda Lo <daouda at mandriva.com>
+
+	* userdrake.spec: - Buildrequires libuser-devel
+
+2003-06-23 10:58  Daouda Lo <daouda at mandriva.com>
+
+	* userdrake.spec: - require libuser > 0.51.7-2mdk
+
+2003-06-23 10:54  Daouda Lo <daouda at mandriva.com>
+
+	* userdrake2: - release cleanup
+
+2003-06-23 10:51  Daouda Lo <daouda at mandriva.com>
+
+	* userdrake2: - release version
+
+2003-06-23 10:51  Daouda Lo <daouda at mandriva.com>
+
+	* USER/USER.xs: - disable debugging
+
+2003-06-23 10:48  Daouda Lo <daouda at mandriva.com>
+
+	* userdrake.spec: - add RELEASE_NOTES
+
+2003-06-23 10:47  Daouda Lo <daouda at mandriva.com>
+
+	* RELEASE_NOTES: - update release notes
+
+2003-06-23 10:41  Daouda Lo <daouda at mandriva.com>
+
+	* USER/USER.xs, userdrake2: - final release
+	  - enable search
+
+2003-06-19 16:40  Daouda Lo <daouda at mandriva.com>
+
+	* userdrake2: - Password aging
+
+2003-06-19 16:39  Daouda Lo <daouda at mandriva.com>
+
+	* USER/USER.xs: - misc fixes
+
+2003-06-19 08:45  Daouda Lo <daouda at mandriva.com>
+
+	* USER/USER.xs: - unlock , islocked and lock implementations
+
+2003-06-19 08:19  Daouda Lo <daouda at mandriva.com>
+
+	* RELEASE_NOTES: - release notes
+
+2003-06-19 07:45  Daouda Lo <daouda at mandriva.com>
+
+	* userdrake2: - Locking implementation
+
+2003-06-18 16:31  Daouda Lo <daouda at mandriva.com>
+
+	* userdrake2: - expiration account
+
+2003-06-18 10:22  Daouda Lo <daouda at mandriva.com>
+
+	* userdrake2: - Primary group should be set in combo first.
+	  - Append selected group in combo and grow the list
+
+2003-06-18 10:21  Daouda Lo <daouda at mandriva.com>
+
+	* userdrake.spec: - date of release
+
+2003-06-17 13:36  Daouda Lo <daouda at mandriva.com>
+
+	* userdrake.spec: - Release is near
+
+2003-06-12 16:08  Daouda Lo <daouda at mandriva.com>
+
+	* userdrake2: - clean up
+
+2003-06-12 16:04  Daouda Lo <daouda at mandriva.com>
+
+	* userdrake2: - select at first click
+
+2003-06-11 17:46  Daouda Lo <daouda at mandriva.com>
+
+	* userdrake2: - password aging
+	  - add group to users
+	  - use Pixbuf Cell instead of Toggle
+
+2003-06-10 09:58  Daouda Lo <daouda at mandriva.com>
+
+	* Makefile: - add icons for selection groups and users
+
+2003-06-07 11:01  Daouda Lo <daouda at mandriva.com>
+
+	* pixmaps/userdrake.png: - add png file (for about window)
+
+2003-06-06 17:16  Daouda Lo <daouda at mandriva.com>
+
+	* USER/USER.xs: - ask to remove directory when removing user
+
+2003-06-06 17:16  Daouda Lo <daouda at mandriva.com>
+
+	* userdrake2: - ask to remove home directory when removing user
+
+2003-06-05 17:18  Daouda Lo <daouda at mandriva.com>
+
+	* USER/USER.xs, userdrake2: - delete group when deleting user
+
+2003-06-05 10:57  Daouda Lo <daouda at mandriva.com>
+
+	* userdrake2: - cosmetic fixes
+
+2003-06-05 08:42  Daouda Lo <daouda at mandriva.com>
+
+	* userdrake2: - add home directory and populate it.
+	  - delete home when deleting user
+
+2003-06-05 08:41  Daouda Lo <daouda at mandriva.com>
+
+	* USER/USER.xs: - add home directory on request and populate it
+	  (/etc/skel)
+
+2003-06-02 17:03  Daouda Lo <daouda at mandriva.com>
+
+	* USER/USER.xs: - same func for get and set
+	  - (-65533) as an invalid number
+	  - sanity checks
+
+2003-06-02 17:02  Daouda Lo <daouda at mandriva.com>
+
+	* userdrake2: - same function to get or set attributes
+	  - use -65533 as an invalid number
+	  - more sanity checks
+
+2003-05-28 17:23  Daouda Lo <daouda at mandriva.com>
+
+	* USER/USER.xs: - sanity checks
+
+2003-05-28 17:22  Daouda Lo <daouda at mandriva.com>
+
+	* userdrake2: - sanity checks (password and regex username)
+
+2003-05-27 12:02  Daouda Lo <daouda at mandriva.com>
+
+	* USER/USER.xs: - useradd sanity checks
+
+2003-05-27 12:02  Daouda Lo <daouda at mandriva.com>
+
+	* userdrake2: - sanity checks for useradd
+
+2003-05-23 15:01  Daouda Lo <daouda at mandriva.com>
+
+	* userdrake2: - s/get_user_shells/GetUserShells/
+
+2003-05-23 12:51  Daouda Lo <daouda at mandriva.com>
+
+	* USER/USER.xs: - LookupById implementations (for lu_user and
+	  lu_group)
+
+2003-05-23 12:50  Daouda Lo <daouda at mandriva.com>
+
+	* userdrake.prefs: - User preference default
+
+2003-05-23 12:49  Daouda Lo <daouda at mandriva.com>
+
+	* userdrake2: - Life is sad (implement another way of filtering)
+
+2003-05-20 09:37  Daouda Lo <daouda at mandriva.com>
+
+	* userdrake.spec: - add sysconfig file (/etc/sysconfig/userdrake)
+
+2003-05-20 09:35  Daouda Lo <daouda at mandriva.com>
+
+	* USER/USER.xs: - big updates
+
+2003-05-20 09:35  Daouda Lo <daouda at mandriva.com>
+
+	* userdrake2: - Big Updates
+	  o Filter Users
+	  o Group members
+	  o Refresh func
+
+2003-05-16 12:40  Daouda Lo <daouda at mandriva.com>
+
+	* USER/USER.xs: - bless eachiindex of returned ent arrays
+
+2003-05-13 12:49  Daouda Lo <daouda at mandriva.com>
+
+	* USER/USER.xs: - use lu_start to build the opaque admin object
+
+2003-05-13 12:27  Daouda Lo <daouda at mandriva.com>
+
+	* USER/USER.xs: - call lu_start with &error
+
+2003-05-12 12:52  Daouda Lo <daouda at mandriva.com>
+
+	* USER/USER.xs: *** empty log message ***
+
+2003-05-12 12:01  Daouda Lo <daouda at mandriva.com>
+
+	* userdrake2: *** empty log message ***
+
+2003-04-30 07:46  Daouda Lo <daouda at mandriva.com>
+
+	* USER/USER.xs, userdrake2: *** empty log message ***
+
+2003-04-29 14:27  Daouda Lo <daouda at mandriva.com>
+
+	* userdrake2: *** empty log message ***
+
+2003-04-29 09:13  Daouda Lo <daouda at mandriva.com>
+
+	* USER/USER.xs: - hunting segfault
+
+2003-04-28 12:49  Daouda Lo <daouda at mandriva.com>
+
+	* USER/USER.xs: - sanity check
+
+2003-04-28 09:58  Daouda Lo <daouda at mandriva.com>
+
+	* USER/Makefile.PL: - updates libs
+
+2003-04-25 15:47  Daouda Lo <daouda at mandriva.com>
+
+	* USER/USER.xs: - update
+
+2003-04-25 07:13  Daouda Lo <daouda at mandriva.com>
+
+	* AUTHORS: - add AUTHORS file
+
+2003-04-25 07:12  Daouda Lo <daouda at mandriva.com>
+
+	* COPYING, README: - add README + COPYING
+
+2003-04-25 07:12  Daouda Lo <daouda at mandriva.com>
+
+	* po/fake_c.pl, po/fr.po: - add po stuffs
+
+2003-04-24 17:00  Daouda Lo <daouda at mandriva.com>
+
+	* userdrake.spec: - update
+
+2003-04-24 16:55  Daouda Lo <daouda at mandriva.com>
+
+	* USER/Makefile.PL, USER/USER.xs: - libuser update
+
+2003-04-24 14:34  Daouda Lo <daouda at mandriva.com>
+
+	* USER/USER.pm: - correct typo
+
+2003-04-24 13:25  Daouda Lo <daouda at mandriva.com>
+
+	* USER/USER.pm: - fix typo
+
+2003-04-24 12:24  Daouda Lo <daouda at mandriva.com>
+
+	* userdrake.spec: change prefix to _prefix
+
+2003-04-24 12:01  Daouda Lo <daouda at mandriva.com>
+
+	* userdrake.spec: s/2//
+
+2003-04-24 09:55  Daouda Lo <daouda at mandriva.com>
+
+	* userdrake2: - use USER
+
+2003-04-24 09:55  Daouda Lo <daouda at mandriva.com>
+
+	* userdrake.spec: - correct typo
+
+2003-04-24 09:33  Daouda Lo <daouda at mandriva.com>
+
+	* po/POTFILES.in: - POTFILES
+
+2003-04-24 09:27  Daouda Lo <daouda at mandriva.com>
+
+	* po, po/Makefile: - Makefile for po
+
+2003-04-24 09:13  Daouda Lo <daouda at mandriva.com>
+
+	* USER/USER.xs: - get_user_shells
+
+2003-04-24 09:09  Daouda Lo <daouda at mandriva.com>
+
+	* userdrake.spec: - update
+	  - include perl xs file
+
+2003-04-23 16:05  Daouda Lo <daouda at mandriva.com>
+
+	* USER/Makefile.PL: - s/libuser/luser/
+
+2003-04-23 16:04  Daouda Lo <daouda at mandriva.com>
+
+	* USER/USER.xs: - compiling and testing
+
+2003-04-23 14:07  Daouda Lo <daouda at mandriva.com>
+
+	* USER/typemap: - use of O_OBJECT pointing on ref
+
+2003-04-23 14:06  Daouda Lo <daouda at mandriva.com>
+
+	* USER/USER.xs: - update (broken)
+
+2003-04-04 15:32  Daouda Lo <daouda at mandriva.com>
+
+	* USER/USER.xs: - update broken code
+
+2003-03-27 17:38  Daouda Lo <daouda at mandriva.com>
+
+	* USER/USER.xs: - lu_start
+
+2003-03-27 10:46  Daouda Lo <daouda at mandriva.com>
+
+	* Makefile, perlobject.map, userdrake.spec, userdrake2: - commit
+	  important files
+
+2003-03-27 10:45  Daouda Lo <daouda at mandriva.com>
+
+	* USER, USER/Changes, USER/Makefile.PL, USER/README, USER/USER.pm,
+	  USER/USER.xs, USER/ppport.h, USER/typemap: - add library files
+
+2003-03-27 10:42  Daouda Lo <daouda at mandriva.com>
+
+	* icons, icons/userdrake16.png, icons/userdrake32.png,
+	  icons/userdrake48.png, pixmaps, pixmaps/group_add.png,
+	  pixmaps/help.png, pixmaps/redhat-config-users.png,
+	  pixmaps/refresh.png, pixmaps/user_add.png, pixmaps/user_conf.png,
+	  pixmaps/user_del.png: - add png files
+
+2003-03-27 10:42  
+
+	* soft/userdrake2/branches, soft/userdrake2/tags, .: New repository
+	  initialized by cvs2svn.
+

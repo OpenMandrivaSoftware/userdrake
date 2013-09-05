@@ -1,0 +1,771 @@
+# translation of he.po to Hebrew
+# translation of userdrake-he.po to Hebrew
+# translation of userdrake.po to Hebrew
+#
+# Latest versions of po files are at http://www.mandrivalinux.org/l10n/he.php3
+#
+# translation of userdrake-he.po to hebrew
+# Copyright (C) 2003, 2004 Free Software Foundation, Inc.
+# This file is distributed under the GNU GPL license.
+# dovix <dovix2003@yahoo.com>, 2003, 2004.
+# el-cuco <cuco3001@yahoo.com>, 2003.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: he\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-02-02 03:03+0100\n"
+"PO-Revision-Date: 2007-09-24 20:54+0200\n"
+"Last-Translator: dovix <dovix2003@yahoo.com>\n"
+"Language-Team: Hebrew <he@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../USER/USER.xs:86
+#, c-format
+msgid "Error reading `%s': %s"
+msgstr "חלה שגיאה בעת קריאת `%s': %s"
+
+#: ../USER/USER.xs:93 ../USER/USER.xs:526
+#, c-format
+msgid "Error creating `%s': %s"
+msgstr "חלה תקלה ביצירת `%s': %s"
+
+#: ../USER/USER.xs:205 ../USER/USER.xs:234 ../USER/USER.xs:250
+#, c-format
+msgid "Error removing `%s': %s"
+msgstr "חלה תקלה בעת הסרת `%s': %s"
+
+#: ../USER/USER.xs:490
+#, fuzzy, c-format
+msgid "Account creation failed: '%s'.\n"
+msgstr "חלה תקלה בעת יצירת ספריית דואר.\n"
+
+#: ../USER/USER.xs:503
+msgid "Cannot get Uid number"
+msgstr ""
+
+#: ../USER/USER.xs:515
+msgid "Cannot retrieve value"
+msgstr ""
+
+#: ../USER/USER.xs:532
+msgid "Error creating mail spool.\n"
+msgstr "חלה תקלה בעת יצירת ספריית דואר.\n"
+
+#: ../USER/USER.xs:582
+#, fuzzy, c-format
+msgid "User could not be modified: '%s'.\n"
+msgstr "חלה תקלה בעת יצירת ספריית דואר.\n"
+
+#: ../USER/USER.xs:592
+#, c-format
+msgid "User Could Not be deleted: '%s'.\n"
+msgstr ""
+
+#: ../USER/USER.xs:618
+#, c-format
+msgid "Failed to set password: '%s'.\n"
+msgstr ""
+
+#: ../USER/USER.xs:618
+msgid "unknown error"
+msgstr "שגיאה לא ידועה"
+
+#: ../USER/USER.xs:685
+#, fuzzy
+msgid "Group creation failed.\n"
+msgstr "חלה תקלה בעת יצירת ספריית דואר.\n"
+
+#: ../USER/USER.xs:695
+#, c-format
+msgid "Group could not be modified: '%s'.\n"
+msgstr ""
+
+#: ../USER/USER.xs:705
+#, c-format
+msgid "Group could not be deleted: '%s'.\n"
+msgstr ""
+
+#: ../USER/USER.xs:863
+msgid "No home directory for the user.\n"
+msgstr ""
+
+#: ../USER/USER.xs:869 ../USER/USER.xs:871
+#, c-format
+msgid "Home Directory Could Not be deleted: '%s'.\n"
+msgstr ""
+
+#: ../USER/USER.xs:881
+msgid "Error deleting mail spool.\n"
+msgstr "חלה תקלה בעת מחיקת ספריית הדואר.\n"
+
+#: ../userdrake:59 ../userdrake:1275
+#, c-format
+msgid "Userdrake"
+msgstr "Userdrake"
+
+#: ../userdrake:64
+#, c-format
+msgid "Loading Users and Groups... Please wait"
+msgstr "טוען משתמשים וקבוצות... נא להמתין"
+
+#: ../userdrake:83
+#, c-format
+msgid "Mandriva Linux Users Management Tool"
+msgstr "כלי ניהול משתמשים של Mandriva Linux"
+
+#: ../userdrake:96
+#, c-format
+msgid "/_Install guest account"
+msgstr ""
+
+#: ../userdrake:97
+#, c-format
+msgid "/_Uninstall guest account"
+msgstr ""
+
+#: ../userdrake:101 ../userdrake:102 ../userdrake:103 ../userdrake:114
+#: ../userdrake:115 ../userdrake:116
+#, c-format
+msgid "/_Actions"
+msgstr "/_פעולות"
+
+#: ../userdrake:101
+#, c-format
+msgid "/_Edit"
+msgstr "/_עריכה"
+
+#: ../userdrake:102
+#, c-format
+msgid "/_Delete"
+msgstr "/_מחיקה"
+
+#: ../userdrake:104 ../userdrake:120
+#, c-format
+msgid "/_Options"
+msgstr "/א_פשרויות"
+
+#: ../userdrake:104
+#, c-format
+msgid "/_Filter system users"
+msgstr "/סינון משתמשי מערכת"
+
+#: ../userdrake:109 ../userdrake:110 ../userdrake:113
+#, c-format
+msgid "/_File"
+msgstr "/_קובץ"
+
+#: ../userdrake:110
+#, c-format
+msgid "/_Refresh"
+msgstr "/_רענן"
+
+#: ../userdrake:113
+#, c-format
+msgid "/_Quit"
+msgstr "/_יציאה"
+
+#: ../userdrake:113
+#, c-format
+msgid "<control>Q"
+msgstr "<control>Q"
+
+#: ../userdrake:115
+#, c-format
+msgid "/_Add User"
+msgstr "/_הוספת משתמש"
+
+#: ../userdrake:116
+#, c-format
+msgid "/Add _Group"
+msgstr "/הוספת _קבוצה"
+
+#: ../userdrake:125 ../userdrake:126 ../userdrake:127 ../userdrake:130
+#, c-format
+msgid "/_Help"
+msgstr "/_עזרה"
+
+#: ../userdrake:127
+#, c-format
+msgid "/_Report Bug"
+msgstr "/_דווח על באג"
+
+#: ../userdrake:130
+#, c-format
+msgid "/_About..."
+msgstr "/אודות..."
+
+#: ../userdrake:148
+#, c-format
+msgid "Search:"
+msgstr "חיפוש:"
+
+#: ../userdrake:154
+#, c-format
+msgid "Apply filter"
+msgstr "החל מסנן"
+
+#: ../userdrake:158
+#, c-format
+msgid "Users"
+msgstr "משתמשים"
+
+#: ../userdrake:162 ../userdrake:1041
+#, c-format
+msgid "Groups"
+msgstr "קבוצות"
+
+#. -PO: do not translate, this is already translated in mcc
+#: ../userdrake:168
+#, c-format
+msgid "Users and groups"
+msgstr "משתמשים וקבוצות"
+
+#: ../userdrake:186
+#, c-format
+msgid "User Name"
+msgstr "שם משתמש"
+
+#: ../userdrake:186
+#, c-format
+msgid "User ID"
+msgstr "קוד זיהוי משתמש"
+
+#: ../userdrake:186 ../userdrake:1038
+#, c-format
+msgid "Primary Group"
+msgstr "קבוצה ראשונית"
+
+#: ../userdrake:187
+#, c-format
+msgid "Full Name"
+msgstr "שם מלא"
+
+#: ../userdrake:187
+#, c-format
+msgid "Login Shell"
+msgstr "מעטפת כניסה לחשבון"
+
+#: ../userdrake:187
+#, c-format
+msgid "Home Directory"
+msgstr "ספריית הבית"
+
+#: ../userdrake:187
+#, c-format
+msgid "Status"
+msgstr "מצב"
+
+#: ../userdrake:194
+#, c-format
+msgid "Group Name"
+msgstr "שם הקבוצה"
+
+#: ../userdrake:194
+#, c-format
+msgid "Group ID"
+msgstr "קוד זיהוי קבוצה"
+
+#: ../userdrake:194
+#, c-format
+msgid "Group Members"
+msgstr "חברים בקבוצה"
+
+#: ../userdrake:196
+#, c-format
+msgid "Add User"
+msgstr "הוספת משתמש"
+
+#: ../userdrake:196
+#, c-format
+msgid "Add a user to the system"
+msgstr "הוספת משתמש למערכת"
+
+#: ../userdrake:197
+#, c-format
+msgid "Add Group"
+msgstr "הוספת קבוצה"
+
+#: ../userdrake:197
+#, c-format
+msgid "Add a group to the system"
+msgstr "הוספת קבוצה למערכת"
+
+#: ../userdrake:198 ../userdrake:739
+#, c-format
+msgid "Edit"
+msgstr "עריכה"
+
+#: ../userdrake:198
+#, c-format
+msgid "Edit selected row"
+msgstr "עריכת עמודה מסומנת"
+
+#: ../userdrake:199 ../userdrake:674 ../userdrake:707 ../userdrake:739
+#, c-format
+msgid "Delete"
+msgstr "מחיקה"
+
+#: ../userdrake:199
+#, c-format
+msgid "Delete selected row"
+msgstr "מחיקת שורה מסומנת"
+
+#: ../userdrake:200
+#, c-format
+msgid "Refresh"
+msgstr "רענן"
+
+#: ../userdrake:200
+#, c-format
+msgid "Refresh the list"
+msgstr "רענן רשימת משתמשים"
+
+#: ../userdrake:263
+#, c-format
+msgid "Locked"
+msgstr "נעול"
+
+#: ../userdrake:263
+#, c-format
+msgid "Expired"
+msgstr "פג"
+
+#: ../userdrake:339
+#, c-format
+msgid "Click on the icon to change it"
+msgstr "לחץ על הצלמית בכדי לערוך את זה"
+
+#: ../userdrake:385
+#, c-format
+msgid "Create New User"
+msgstr "יצירת משתמש חדש"
+
+#: ../userdrake:391
+#, c-format
+msgid "Create Home Directory"
+msgstr "יצירת ספריית הבית של המשתמש"
+
+#: ../userdrake:393
+#, c-format
+msgid "Home Directory: "
+msgstr "ספריית הבית של המשתמש: "
+
+#: ../userdrake:396
+#, c-format
+msgid "Create a private group for the user"
+msgstr "יצירת קבוצה פרטית עבור המשתמש"
+
+#: ../userdrake:397
+#, c-format
+msgid "Specify user ID manually"
+msgstr "קבע את קוד זיהוי המשתמש באופן ידני"
+
+#: ../userdrake:414
+#, c-format
+msgid "User already exists, please choose another User Name"
+msgstr "משתמש זה כבר קיים במערכת, נא לבחור שם משתמש אחר"
+
+#: ../userdrake:419 ../userdrake:860
+#, c-format
+msgid "Password Mismatch"
+msgstr "סיסמאות לא תואמות"
+
+#: ../userdrake:422 ../userdrake:863
+#, c-format
+msgid ""
+"This password is too simple. \n"
+" Good passwords should be > 6 characters"
+msgstr ""
+"סיסמה זו פשוטה מדי\n"
+"סיסמה טובה צריכה להכיל יותר מ-6 תווים."
+
+#: ../userdrake:434
+#, c-format
+msgid "User Uid is < 500"
+msgstr "קוד זיהוי המשתמש קטן מ-500"
+
+#: ../userdrake:435
+#, c-format
+msgid ""
+"Creating a user with a UID less than 500 is not recommended.\n"
+" Are you sure you want to do this?\n"
+"\n"
+msgstr ""
+"יצירת משתמש עם קוד זיהוי מתחת ל-500 לא מומלץ\n"
+"האם ברצונך לבצע פעולה זו?\n"
+"\n"
+
+#: ../userdrake:450
+#, c-format
+msgid "Putting %s to 'users' group"
+msgstr "הוספת %s אל קבוצת 'משתמשים'"
+
+#: ../userdrake:457
+#, c-format
+msgid "Creating new group: %s"
+msgstr "יצירת קבוצה חדשה: %s"
+
+#: ../userdrake:466
+#, c-format
+msgid "Adding user: %s"
+msgstr "הוספת משתמש: %s"
+
+#: ../userdrake:478
+#, c-format
+msgid "Migration wizard"
+msgstr "אשף הגירה"
+
+#: ../userdrake:479
+#, c-format
+msgid ""
+"Do you want to run the migration wizard in order to import Windows documents "
+"and settings in your Mandriva Linux distribution?"
+msgstr ""
+"האם להריץ את אשף ההגירה כדי לייבא מסמכי והגדרות וינדוז אל מערכת המנדריבה-"
+"לינוקס שלך?"
+
+#: ../userdrake:484 ../userdrake:528 ../userdrake:587 ../userdrake:674
+#: ../userdrake:707 ../userdrake:1166
+#, c-format
+msgid "Cancel"
+msgstr "ביטול"
+
+#: ../userdrake:484 ../userdrake:521 ../userdrake:587 ../userdrake:1166
+#: ../userdrake:1317
+#, c-format
+msgid "Ok"
+msgstr "אישור"
+
+#: ../userdrake:497
+#, c-format
+msgid "UID: "
+msgstr "קוד זיהוי המשתמש (UID): "
+
+#: ../userdrake:510
+#, c-format
+msgid "Choose group"
+msgstr "יש לבחור קבוצה"
+
+#: ../userdrake:512 ../userdrake:513
+#, c-format
+msgid "Add to the existing group"
+msgstr "הוסף לקבוצה קיימת"
+
+#: ../userdrake:514
+#, c-format
+msgid "Add to the 'users' group"
+msgstr "הוסף לקבוצת ה'משתמשים'"
+
+#: ../userdrake:516
+#, c-format
+msgid "A group with this name already exists.  What would you like to do?"
+msgstr "קבוצה עם השם הזה כבר קיימת. מה רצונך לעשות?"
+
+#: ../userdrake:546
+#, c-format
+msgid "Create New Group"
+msgstr "יצירת קבוצה חדשה"
+
+#: ../userdrake:551
+#, c-format
+msgid "Specify group ID manually"
+msgstr "קבע את קוד זיהוי הקבוצה באופן ידני"
+
+#: ../userdrake:567
+#, c-format
+msgid "Group already exists, please choose another Group Name"
+msgstr "הקבוצה כבר קיימת, נא לבחור שם אחר לקבוצה"
+
+#: ../userdrake:573
+#, c-format
+msgid " Group Gid is < 500"
+msgstr "קוד זיהוי הקבוצה קטן מ-500"
+
+#: ../userdrake:574
+#, c-format
+msgid ""
+"Creating a group with a GID less than 500 is not recommended.\n"
+" Are you sure you want to do this?\n"
+"\n"
+msgstr ""
+"יצירת קבוצה עם קוד זיהוי מתחת ל-500 לא מומלצת\n"
+"האם ברצונך לבצע פעולה זו?\n"
+"\n"
+
+#: ../userdrake:581
+#, c-format
+msgid "Adding group: %s "
+msgstr "הוספת קבוצה: %s"
+
+#: ../userdrake:591
+#, c-format
+msgid "GID: "
+msgstr "קוד זיהוי הקבוצה (GID):"
+
+#: ../userdrake:636
+#, c-format
+msgid "Delete files or not?"
+msgstr "האם למחוק את הקבצים או לא?"
+
+#: ../userdrake:639
+#, c-format
+msgid ""
+"Deleting user %s\n"
+" Also perform the following actions\n"
+msgstr ""
+"מחיקת משתמש %s\n"
+" תגרום גם לפעולות הבאות:\n"
+
+#: ../userdrake:641
+#, c-format
+msgid "Delete Home Directory: %s"
+msgstr "מחיקת ספריית הבית של משתמש: %s"
+
+#: ../userdrake:642
+#, c-format
+msgid "Delete Mailbox: /var/spool/mail/%s"
+msgstr "מחיקת חשבון הדואר /var/spool/mail/%s"
+
+#: ../userdrake:651
+#, c-format
+msgid "Removing user: %s"
+msgstr "הסרת משתמש: %s"
+
+#: ../userdrake:684
+#, c-format
+msgid "Do you really want to delete the group %s?"
+msgstr "האם באמת למחוק את קבוצה %s?"
+
+#: ../userdrake:697
+#, c-format
+msgid ""
+"%s is a primary group for user %s\n"
+" Remove the user first"
+msgstr ""
+"%s היא קבוצה ראשונית עבור משתמש %s\n"
+" נא למחוק את המשתמש קודם לכן"
+
+#: ../userdrake:702
+#, c-format
+msgid "Removing group: %s"
+msgstr "הסרת קבוצה: %s"
+
+#: ../userdrake:798
+#, c-format
+msgid "Full Name:"
+msgstr "שם מלא:"
+
+#: ../userdrake:800
+#, c-format
+msgid "Login:"
+msgstr "שם משתמש:"
+
+#: ../userdrake:802
+#, c-format
+msgid "Password:"
+msgstr "סיסמה:"
+
+#: ../userdrake:804
+#, c-format
+msgid "Confirm Password:"
+msgstr "יש לאשר את הסיסמה:"
+
+#: ../userdrake:806
+#, c-format
+msgid "Login Shell:"
+msgstr "מעטפת כניסה לחשבון:"
+
+#: ../userdrake:820
+#, c-format
+msgid "Group Name:"
+msgstr "שם הקבוצה:"
+
+#: ../userdrake:894
+#, c-format
+msgid "Please select at least one group for the user"
+msgstr "נא לבחור לפחות קבוצה אחת לפחות עבור המשתמש"
+
+#: ../userdrake:904
+#, c-format
+msgid ""
+"Please specify Year, Month and Day \n"
+" for Account Expiration "
+msgstr ""
+"נא לקבוע שנה, חודש ויום\n"
+" עבור תפוגת החשבון "
+
+#: ../userdrake:914
+#, c-format
+msgid "Please fill up all fields in password aging\n"
+msgstr "נא לספק את הסיסמה הישנה בכל השדות\n"
+
+#: ../userdrake:965
+#, c-format
+msgid "You cannot remove user '%s' from their primary group"
+msgstr "אין אפשרות למחוק את המשתמש '%s' מהקבוצה הראשית שלו"
+
+#: ../userdrake:986
+#, c-format
+msgid "Home:"
+msgstr "ספריית הבית:"
+
+#: ../userdrake:988
+#, c-format
+msgid "User Data"
+msgstr "נתוני משתמש"
+
+#: ../userdrake:992
+#, c-format
+msgid "Enable account expiration"
+msgstr "איפשור תפוגת חשבון"
+
+#: ../userdrake:994
+#, c-format
+msgid "Account expires (YYYY-MM-DD):"
+msgstr "החשבון פג בתאריך (שנה-חודש-יום):"
+
+#: ../userdrake:1002
+#, c-format
+msgid "Lock User Account"
+msgstr "נעל חשבון משתמש"
+
+#: ../userdrake:1005
+#, c-format
+msgid "Account Info"
+msgstr "מידע על החשבון"
+
+#: ../userdrake:1010
+#, c-format
+msgid "User last changed password on: "
+msgstr "סיסמת החשבון שונתה לאחרונה בתאריך :"
+
+#: ../userdrake:1017
+#, c-format
+msgid "Enable Password Expiration"
+msgstr "איפשור תפוגת סיסמה"
+
+#: ../userdrake:1022
+#, c-format
+msgid "Days before change allowed:"
+msgstr "מספר ימים לפני שניתן לשנות את הסיסמה:"
+
+#: ../userdrake:1024
+#, c-format
+msgid "Days before change required:"
+msgstr "מספר ימים שלאחריהם יש לשנות סיסמה :"
+
+#: ../userdrake:1026
+#, c-format
+msgid "Days warning before change:"
+msgstr "מספר ימים לפני אזהרה על תפוגת הסיסמה :"
+
+#: ../userdrake:1028
+#, c-format
+msgid "Days before account inactive:"
+msgstr "ימים לפני נעילת חשבון לא פעיל :"
+
+#: ../userdrake:1031
+#, c-format
+msgid "Password Info"
+msgstr "מידע על הסיסמה"
+
+#: ../userdrake:1035
+#, c-format
+msgid "Select the groups that the user will be a member of:"
+msgstr "יש לבחור את הקבוצות שהחשבון יהיה חבר בהן :"
+
+#: ../userdrake:1102
+#, c-format
+msgid "Group Data"
+msgstr "מידע על קבוצות"
+
+#: ../userdrake:1105
+#, c-format
+msgid "Select the users to join this group:"
+msgstr "נא לבחור את המשתמשים שיצטרפו לקבוצה הזאת :"
+
+#: ../userdrake:1107
+#, c-format
+msgid "Group Users"
+msgstr "משתמשים בקבוצה"
+
+#: ../userdrake:1127
+#, c-format
+msgid "Edit Groups / Users"
+msgstr "עריכת קבוצות / משתמשים"
+
+#: ../userdrake:1159
+#, fuzzy, c-format
+msgid "An error occurred:"
+msgstr "חלה שגיאה"
+
+#: ../userdrake:1267
+#, c-format
+msgid "Close"
+msgstr "סגור"
+
+#: ../userdrake:1277
+#, c-format
+msgid "Copyright (C) %s by Mandriva"
+msgstr "זכויות היוצרים (C) %s שייכות למנדריבה"
+
+#: ../userdrake:1280
+#, c-format
+msgid "Users Management"
+msgstr "ניהול משתמשים"
+
+#: ../userdrake:1282
+#, c-format
+msgid "Mandriva Linux"
+msgstr "מנדריבה לינוקס"
+
+#. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
+#: ../userdrake:1288
+#, c-format
+msgid "_: Translator(s) name(s) & email(s)\n"
+msgstr "Dotan Kamber <kamberd@yahoo.com>\n"
+
+#: ../userdrake:1295
+#, c-format
+msgid "Name field is empty please provide a name"
+msgstr "שדה השם ריק, נא לספק שם"
+
+#: ../userdrake:1297
+#, c-format
+msgid ""
+"The name must contain only lower cased latin letters, numbers, `-' and `_'"
+msgstr "השם חייב להכיל רק אותיות לטיניות קטנות, מספרים, מקף וקו תחתי"
+
+#: ../userdrake:1300
+#, c-format
+msgid "Name is too long"
+msgstr "השם ארוך מדי"
+
+#: ../userdrake:1313
+#, c-format
+msgid "Error"
+msgstr "שגיאה"
+
+#, fuzzy
+#~ msgid "Unknown error"
+#~ msgstr "שגיאה לא ידועה"
+
+#, fuzzy
+#~ msgid "Error creating %s: %s.\n"
+#~ msgstr "חלה תקלה ביצירת `%s': %s"
+
+#~ msgid "Authors: "
+#~ msgstr "כותבים: "
+
+#~ msgid "Choice"
+#~ msgstr "בחירה"
+
+#~ msgid "Yes"
+#~ msgstr "כן"
+
+#~ msgid "No"
+#~ msgstr "לא"

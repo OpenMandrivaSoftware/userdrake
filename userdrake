@@ -1,0 +1,1329 @@
+#!/usr/bin/perl
+################################################################################
+#                                                                              # 
+#                                                                              #
+# Copyright (C) 2003-2009 Mandriva                                             #
+#                                                                              #
+# Daouda Lo                                                                    #
+# Thierry Vignaud <tvignaud@mandriva.com>                                      #
+#                                                                              #
+# This program is free software; you can redistribute it and/or modify         #
+# it under the terms of the GNU General Public License Version 2 as            #
+# published by the Free Software Foundation.                                   #
+#                                                                              #
+# This program is distributed in the hope that it will be useful,              #
+# but WITHOUT ANY WARRANTY; without even the implied warranty of               #
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the                #
+# GNU General Public License for more details.                                 #
+#                                                                              #
+# You should have received a copy of the GNU General Public License            #
+# along with this program; if not, write to the Free Software                  #
+# Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, USA.   #
+################################################################################
+
+use strict;
+use lib qw(/usr/lib/libDrakX);
+# i18n: IMPORTANT: to get correct namespace (userdrake instead of libDrakX)
+BEGIN { unshift @::textdomains, 'userdrake', 'libuser', 'drakconf' }
+use standalone;
+use transfugdrake;
+
+use common;
+use run_program;
+use any;
+use mygtk2 qw(gtknew); #- do not import gtkadd which conflicts with ugtk2 version
+use ugtk2 qw(:all);
+use interactive;
+use POSIX qw(mktime ceil);
+use USER;
+#Only for Debugging 
+#use Devel::Peek;
+use Gtk2::Gdk::Keysyms;
+use utf8;
+use log;
+
+$ugtk2::wm_icon = "userdrake";
+
+my $conffile = '/etc/sysconfig/userdrake';
+my $secfile = '/etc/sysconfig/msec';
+my $pixdir = '/usr/share/userdrake/pixmaps/';
+my @pix = ($pixdir . 'selected.png', $pixdir . 'unselected.png');
+
+my $in = interactive->vnew('su');
+
+my $us = {};
+$us->{VERSION} = '0.92';
+
+my $window_splash = Gtk2::Window->new('popup');
+$window_splash->signal_connect(delete_event => \&QuitGlobal);
+$window_splash->set_title(N("Userdrake") . $us->{VERSION});
+$window_splash->set_position('center_always');
+$window_splash->add(gtkadd(gtkset_shadow_type(Gtk2::Frame->new, 'etched_out'),
+                           gtkpack(Gtk2::VBox->new(0, 0),
+				   gtkcreate_img("$pixdir/userdrake.png"),
+                                   Gtk2::Label->new(N("Loading Users and Groups... Please wait"))
+                                   )
+                           )
+                    );
+$window_splash->show_all;
+gtkflush();
+
+#my $wait = $in->wait_message(N("Please wait"), N("Loading User and Groups"));
+#gtkflush();
+
+my $error = 0;
+my $GetValue = -65533;
+my $stringsearch = '';
+my %prefs = getVarsFromSh($conffile);
+my %sec = getVarsFromSh($secfile);
+my $sysfilter = text2bool($prefs{FILTER});
+
+sub HelpSystem() { run_program::raw({ detach => 1 }, 'drakhelp', '--id', 'userdrake') }
+
+$us->{wnd} = ugtk2->new(N("Mandriva Linux Users Management Tool") . " " . $us->{VERSION});
+$::main_window = $us->{wnd}{real_window};
+gtkset_size_request($us->{wnd}{rwindow}, 660, 460);
+$us->{wnd}{rwindow}->set_position('center') if !$::isEmbedded;
+$us->{wnd}{window}->signal_connect(delete_event => \&QuitGlobal);
+my $utree_model = Gtk2::ListStore->new("Glib::String", "Glib::Int", "Glib::String",
+                                       "Glib::String", "Glib::String", "Glib::String", "Glib::String");
+my $gtree_model = Gtk2::ListStore->new("Glib::String", "Glib::Int", "Glib::String");
+my ($usertree, $grouptree);
+$usertree = CreateTree($utree_model); $grouptree = CreateTree($gtree_model);
+# slightly verbatimed from control-center
+
+my %xguest_labels = (
+    to_install => N("/_Install guest account"),
+    installed => N("/_Uninstall guest account"),
+);
+
+my %options = (
+	       'edit' => [ N("/_Actions"), N("/_Edit") ],
+	       'delete' => [ N("/_Actions"), N("/_Delete") ],
+	       'xguest' => [ N("/_Actions"), $xguest_labels{installed} ],
+	       'filter' => [ N("/_Options"), N("/_Filter system users") ]
+	      );
+my %buttorcheck;
+my ($menu, $factory) = create_factory_menu(
+    $::isEmbedded ? $::Plug : $us->{wnd}{rwindow},
+    ([ N("/_File"), undef, undef, undef, '<Branch>' ],
+     [ N("/_File") . N("/_Refresh"), undef,
+       sub { Refresh($sysfilter, $stringsearch) },
+       undef, '<Item>' ],
+     [ N("/_File") . N("/_Quit"), N("<control>Q"), \&QuitGlobal, undef, '<Item>' ],
+     [ N("/_Actions"), undef, undef, undef, '<Branch>' ],
+     [ N("/_Actions") . N("/_Add User"), undef, \&AddUser, undef, '<Item>' ],
+     [ N("/_Actions") . N("/Add _Group"), undef, \&AddGroup, undef, '<Item>' ],
+     [ join('', @{$options{edit}}), undef, \&Edit, undef, '<Item>' ],
+     [ join('', @{$options{delete}}), undef, \&Delete, undef, '<Item>' ],
+     [ join('', @{$options{xguest}}), undef, \&Xguest, undef, '<Item>' ],
+     [ N("/_Options"), undef, undef, undef, '<Branch>' ],
+     [ join('', @{$options{filter}}), undef, sub {
+           $sysfilter = $buttorcheck{filter}->get_active;
+           Refresh($sysfilter, $stringsearch);
+       }, undef, '<CheckItem>' ],
+     [ N("/_Help"), undef, undef, undef, '<Branch>' ],
+     [ N("/_Help") . N("/_Help"), undef, sub { HelpSystem() }, undef, '<Item>' ],
+     [ N("/_Help") . N("/_Report Bug"), undef,
+       sub { run_program::raw({ detach => 1 }, 'drakbug', '--report', 'userdrake') },
+       undef, '<Item>' ],
+     [ N("/_Help") . N("/_About..."), undef, \&About, undef, '<Item>' ]
+ )
+);
+%buttorcheck = map {
+    $_ => $factory->get_widget("<main>" . join '',
+                               map { s/_//; $_ } @{$options{$_}}) } 
+  ('edit', 'delete', 'filter', 'xguest');
+
+if (defined $buttorcheck{filter}) {
+    $buttorcheck{filter}->set_active($sysfilter);
+} else {
+    print STDERR "BUG with LANGUAGE $ENV{LANGUAGE}\n";
+}
+
+my $toolb = Gtk2::Toolbar->new;
+my $filter;
+my $searchBox = gtkpack_(Gtk2::HBox->new(0,5),
+                         1, Gtk2::Label->new(""),
+                         0, Gtk2::Label->new(N("Search:")),
+                         0, gtksignal_connect($filter = Gtk2::Entry->new,
+					      key_press_event => sub {
+                                                  $_[1]->keyval == $Gtk2::Gdk::Keysyms{Return}
+                                                    and Refresh($sysfilter, $filter->get_text);
+                                              }),
+                         0, my $fbut = Gtk2::Button->new(N("Apply filter")),
+                        );
+gtkappend_page(my $nb = Gtk2::Notebook->new,
+               gtkpack(create_scrolled_window($usertree)),
+               gtkshow(Gtk2::Label->new(N("Users"))));
+#PO: list of users belonging to that group
+gtkappend_page($nb,
+               gtkpack(create_scrolled_window($grouptree)),
+               gtkshow(Gtk2::Label->new(N("Groups"))));
+$nb->set_show_border(0);
+my @extra_widgets;
+if ($::isEmbedded) {
+	push @extra_widgets, 0, Gtk2::Banner->new("/usr/share/mcc/themes/default/user-mdk.png",
+		#-PO: do not translate, this is already translated in mcc
+		N("Users and groups"));
+}	 
+$us->{wnd}{window}->add(gtkpack_(Gtk2::VBox->new(0, 0),
+				 0, $menu,
+				 @extra_widgets,
+				 0, $toolb,
+				 0, $searchBox,
+				 0, Gtk2::HSeparator->new,
+				 1, $nb));
+my @ucolsize = (60, 45, 40, 120, 80, 120, 50, -1);
+my @gcolsize = (100, 80, 160, -1);
+each_index {
+    my $col = Gtk2::TreeViewColumn->new_with_attributes($_,
+                                                        Gtk2::CellRendererText->new,
+                                                        'text' => $::i);
+    $col->set_sort_column_id($::i);
+    $col->set_min_width($ucolsize[$::i]);
+    $usertree->append_column($col);
+} (N("User Name"), N("User ID"), N("Primary Group"),
+   N("Full Name"), N("Login Shell"), N("Home Directory"), N("Status"));
+
+each_index {
+    my $col = Gtk2::TreeViewColumn->new_with_attributes($_, Gtk2::CellRendererText->new, 'text' => $::i);
+    $col->set_sort_column_id($::i);
+    $col->set_min_width($gcolsize[$::i]);
+    $grouptree->append_column($col);
+} (N("Group Name"), N("Group ID"), N("Group Members"));
+my @toolbwg;
+foreach ([ N("Add User"), N("Add a user to the system"), 'user_add', \&AddUser ], 
+	 [ N("Add Group"), N("Add a group to the system"), 'group_add', \&AddGroup ], 
+	 [ N("Edit"), N("Edit selected row"), 'user_conf', \&Edit ],
+	 [ N("Delete"), N("Delete selected row"), 'user_del', \&Delete ],
+	 [ N("Refresh"), N("Refresh the list"), 'refresh',
+           sub { Refresh($sysfilter, $stringsearch) } ]) {
+    my $t = $toolb->append_item($_->[0], $_->[1], $_->[2],
+                                Gtk2::Image->new_from_file($pixdir . $_->[2] . '.png'),
+                                $_->[3], $toolb); 
+    push(@toolbwg, $t);
+    #    $toolb->append_space;
+}
+
+my ($_tbuser, $_tbgroup, $tbedit, $tbdel, $_tbref) = @toolbwg;
+GrayDelEdit();
+RefreshXguest();
+
+my $ctx = USER::ADMIN->new; 
+$fbut->signal_connect('clicked', sub {
+                          $stringsearch = $filter->get_text;
+                          Refresh($sysfilter, $stringsearch);
+                      });
+Refresh($sysfilter, $stringsearch);
+$nb->signal_connect('switch-page' => sub { NotebookSwitch() });
+$us->{wnd}{rwindow}->show_all;
+#undef $wait;
+$window_splash->destroy;
+undef $window_splash;
+
+$us->{wnd}->main;
+ugtk2->exit(0);
+
+sub is_xguest_installed() {
+    -e '/etc/security/namespace.d/guest.conf';
+}
+
+sub GrayDelEdit() {
+    foreach ($tbedit, $tbdel, $buttorcheck{edit}, $buttorcheck{delete}) {
+        defined $_ and $_->set_sensitive(0);
+    }
+}
+
+sub RefreshXguest {
+    my ($o_is_already_refreshed) = @_;
+    my $label = $xguest_labels{is_xguest_installed() ? 'installed' : 'to_install'};
+    $label =~ s!^/!!;
+    $buttorcheck{xguest}->get_child->set_label($label);
+    Refresh($sysfilter, $stringsearch) if !$o_is_already_refreshed;
+}
+
+sub TreeUnselect {
+    my $treev = shift;
+    $treev->get_selection->unselect_all;
+    GrayDelEdit();
+    RefreshXguest();
+}
+
+sub NotebookSwitch() { 
+    #my $page = $nb->get_current_page;
+    TreeUnselect($usertree); TreeUnselect($grouptree);
+}
+
+sub ComputeLockExpire {
+    my $l = shift;
+    my $ep = $l->ShadowExpire($GetValue);
+    my $tm = ceil(time()/(24*60*60));
+    $ep = -1 if int($tm) <= $ep;
+    my $status = $ctx->IsLocked($l) ? N("Locked") : ($ep != -1 ? N("Expired") : '');
+    $status;
+}
+
+sub RefreshUsersFull {
+    my ($filterusers, $strfilt) = @_;
+    my ($users, $group, $groupnm, $expr); 
+    defined $ctx and $users = $ctx->UsersEnumerateFull;
+    $utree_model->clear;
+    my @UserReal;
+  LOOP: foreach my $l (@$users) {
+        next LOOP if $filterusers && $l->Uid($GetValue) <= 499 || $l->Uid($GetValue) == 65534;
+        push @UserReal, $l if $l->UserName($GetValue) =~ /^\Q$strfilt/;
+    }
+    my $i;
+    foreach my $l (@UserReal) {
+	$i++;
+	my $uid = $l->Uid($GetValue);
+	if (!defined $uid) {
+         warn "bogus user at line $i\n";
+         next;
+	}
+	my $a = $l->Gid($GetValue);
+        $group = $ctx->LookupGroupById($a);
+        $groupnm = '';
+        $expr = ComputeLockExpire($l);
+	$group and $groupnm = $group->GroupName($GetValue); 
+	my $s = $l->Gecos($GetValue);
+	c::set_tagged_utf8($s);
+	$utree_model->append_set([ 0 => $l->UserName($GetValue),
+                                   1 => $l->Uid($GetValue),
+                                   2 => $groupnm,
+                                   3 => $s,
+                                   4 => $l->LoginShell($GetValue),
+                                   5 => $l->HomeDir($GetValue),
+                                   6 => $expr ]);
+    }
+}
+
+sub RefreshGroupsFull {
+    my ($filtergroups, $strfilt) = @_;
+    my $groups;
+    defined $ctx and $groups = $ctx->GroupsEnumerateFull;
+    $gtree_model->clear;
+    my @GroupReal;
+  LOOP: foreach my $g (@$groups) {
+        next LOOP if $filtergroups && $g->Gid($GetValue) <= 499 || $g->Gid($GetValue) == 65534;
+        push @GroupReal, $g if $g->GroupName($GetValue) =~ /^\Q$strfilt/;
+    }
+    foreach my $g (@GroupReal) {
+     my $a = $g->GroupName($GetValue);
+	#my $group = $ctx->LookupGroupById($a);
+	my $u_b_g = $a && $ctx->EnumerateUsersByGroup($a);
+	my $listUbyG = join(',', @$u_b_g);
+	my $group_id = $g->Gid($GetValue);
+	$gtree_model->append_set([ 0 => $g->GroupName($GetValue),
+                                   if_($group_id, 1 => $group_id),
+                                   if_($listUbyG, 2 => $listUbyG) ]);	
+    }
+}
+
+sub Refresh {
+    my ($filt, $strfilt) = @_;
+    RefreshUsersFull($filt, $strfilt); 
+    RefreshGroupsFull($filt, $strfilt);
+    GrayDelEdit();
+    RefreshXguest(1);
+}
+
+sub GetFaceIcon {
+    my ($user) = @_;
+    my @icons = any::facesnames();
+    my $i;
+    my $current_icon;
+    my $user_icon = "$::prefix/usr/share/faces/$user.png";
+    gtkpack_(my $hb = Gtk2::HBox->new(0, 2),
+	     0, Gtk2::Label->new(N("Click on the icon to change it") . '    '),
+	     0, my $bt = Gtk2::Button->new
+	    );
+    my $set = sub { 
+	my ($icon) = @_;
+        my $f = $icon =~ m,^/, ? $icon : any::face2png($icon);
+	$us->{o}{iconval} = $icon;
+	gtkdestroy($us->{o}{icon});
+	# so that we do display "no icon" if either file doesn't exist or it's corrupted:
+	undef $us->{o}{icon};
+	$us->{o}{icon} = eval { gtkcreate_img($f) } if -e $f;
+	$us->{o}{icon} ||= Gtk2::Label->new("No Icon");
+        $bt->add($us->{o}{icon});
+	$us->{o}{icon}->show;
+    };
+    if (-e $user_icon) {
+	my $current_md5 = common::md5file($user_icon);
+	eval { $i = find_index { common::md5file(any::face2png($_)) eq $current_md5 } @icons };
+	if (!$@) { #- current icon found in @icons, select it
+	    $current_icon = $icons[$i];
+	} else { #- add and select current icon in @icons
+	    push @icons, $user_icon;
+	    $current_icon = $user_icon;
+	    $i = @icons - 1;
+	}
+    } else {
+	#- no icon yet, select a random one
+	$current_icon = $icons[$i = rand(@icons)];
+    }
+    $set->($current_icon);
+    my $leave = 0;
+    $bt->signal_connect(enter => sub { $leave = 0 });
+    $bt->signal_connect(leave => sub { $leave = 1 });
+    $bt->signal_connect(button_release_event => sub {
+			   return if $leave;
+			   if ($_[1]->button == 1) {
+			       $i = defined $icons[$i+1] ? $i+1 : 0;
+			   } else  {
+			       $i = defined $icons[$i-1] ? $i-1 : @icons-1;
+			   }
+			   $set->($icons[$i]);
+		       });
+    $hb;
+}
+
+sub AddUser() {
+    my $w = NewWindow(N("Create New User"));
+    my $dontcreatehomedir = 0; my $is_system = 0;
+    my %u; 
+    gtkpack_($w->vbox,
+		    0, BuildUui(),
+		    0, Gtk2::HSeparator->new,
+		    0, $us->{o}{createhomedir} = Gtk2::CheckButton->new(N("Create Home Directory")),
+		    0, gtkpack_(my $vv = Gtk2::HBox->new(0, 4),
+				0, Gtk2::Label->new(N("Home Directory: ")),
+				0, $us->{o}{homedir} = Gtk2::Entry->new
+			       ),
+		    0, $us->{o}{privategroup} = Gtk2::CheckButton->new(N("Create a private group for the user")),
+		    0, $us->{o}{userid} = Gtk2::CheckButton->new(N("Specify user ID manually")),
+		    0, gtkset_sensitive(my $h = Gtk2::HBox->new(0, 4), 0),
+		    0, Gtk2::HSeparator->new,
+                    0, GetFaceIcon()
+    );
+    gtkadd($w->action_area,
+           map {
+               my $r = $_->[1];
+               gtksignal_connect(
+                   Gtk2::Button->new($_->[0]),
+                   clicked => sub {
+                       if (!$r) {
+                           $u{username} = $us->{o}{login}->get_text; $error = 0;
+                           $u{gecos} = $us->{o}{fullname}->get_text;
+                           if (!valid_username($u{username})) { RaiseError($us->{error}) }
+                           my $nm = !$error && $ctx->LookupUserByName($u{username});
+                           if ($nm) {
+                               RaiseError(N("User already exists, please choose another User Name"));
+                               $us->{o}{login}->set_text('');
+                           }
+                           $u{passwd} = $us->{o}{passwd}->get_text; 
+                           if ($u{passwd} ne $us->{o}{confpasswd}->get_text) {
+                               RaiseError(N("Password Mismatch"));
+                           }
+                           if ($sec{SECURE_LEVEL} > 3 && length($u{passwd}) < 6) {
+                               RaiseError(N("This password is too simple. \n Good passwords should be > 6 characters"));
+                           }
+                           my $userEnt = !$error && $ctx->InitUser($u{username}, $is_system);
+                           if (!$error && $us->{o}{createhomedir}->get_active) {
+                               $dontcreatehomedir = 0;
+                               $u{homedir} = $us->{o}{homedir}->get_text;
+                               $userEnt and $userEnt->HomeDir($u{homedir});
+                           } else {
+                               $dontcreatehomedir = 1;
+                           }
+                           if (!$error && $us->{o}{userid}->get_active) {
+                               if (($u{uid} = $us->{o}{uid}->get_value) < 500) {
+                                   my $uidchoice = GimmeChoice(N("User Uid is < 500"),
+                                                               N("Creating a user with a UID less than 500 is not recommended.\n Are you sure you want to do this?\n\n")); 
+                                   $uidchoice and $userEnt->Uid($u{uid});
+                               } else { $userEnt->Uid($u{uid}) }
+                           }
+                           if ($us->{o}{privategroup}->get_active) {
+                               if (!$error) {
+                                   #Check if group exist
+                                   my $gr = $ctx->LookupGroupByName($u{username});
+                                   if ($gr) { 
+                                       my $groupchoice = ChooseGroup();
+                                       if ($groupchoice == 0 && !$error) {
+                                           #You choose to put it in the existing group
+                                           $u{gid} = $gr->Gid($GetValue);
+                                       } elsif ($groupchoice == 1) {
+                                           # Put it in 'users' group
+                                           log::explanations(N("Putting %s to 'users' group",
+                                                               $u{username}));
+                                           $u{gid} = Add2UsersGroup($u{username});
+                                       }
+                                   } else { 
+                                       #it's a new group: Add it
+                                       my $newgroup = $ctx->InitGroup($u{username},$is_system);
+                                       log::explanations(N("Creating new group: %s", $u{username}));
+                                       $u{gid} = $newgroup->Gid($GetValue);
+                                       $ctx->GroupAdd($newgroup);
+                                   }
+                               }
+                           } else {
+                               !$error and $u{gid} = Add2UsersGroup($u{username});
+                           }
+                           if (!$error) {
+                               log::explanations(N("Adding user: %s", $u{username}));
+                               $u{loginshell} = $us->{o}{shells}->entry->get_text;
+                               $userEnt->Gecos($u{gecos}); $userEnt->LoginShell($u{loginshell});
+                               $userEnt->Gid($u{gid});
+                               $userEnt->ShadowMin(-1); $userEnt->ShadowMax(99999);
+                               $userEnt->ShadowWarn(-1); $userEnt->ShadowInact(-1);
+                               $ctx->UserAdd($userEnt, $is_system, $dontcreatehomedir);
+                               $ctx->UserSetPass($userEnt, $u{passwd});
+                               defined $us->{o}{iconval} and
+                                 any::addKdmIcon($u{username}, $us->{o}{iconval});
+                               Refresh($sysfilter, $stringsearch);
+                               transfugdrake::get_windows_disk()
+                                   and $in->ask_yesorno(N("Migration wizard"),
+                                                        N("Do you want to run the migration wizard in order to import Windows documents and settings in your Mandriva Linux distribution?"))
+                                     and run_program::raw({ detach => 1 }, 'transfugdrake');
+                           }
+                       }
+                       !$error and $w->destroy; $error = 0 });
+           } ([ N("Cancel"), 1 ], [ N("Ok"), 0 ]), 
+       );
+    foreach (qw(privategroup createhomedir)) { $us->{o}{$_}->set_active(1) }
+    GrayBox($us->{o}{createhomedir}, $vv, 1);
+    $us->{o}{login}->signal_connect(
+        'focus_out_event' => sub { 
+            my $fullname = $us->{o}{fullname}->get_text;
+            $us->{o}{homedir}->set_text("/home/" . $us->{o}{login}->get_text); 
+            $fullname or $us->{o}{fullname}->set_text($us->{o}{login}->get_text);
+            0;       # Gdk expect focus event handlers to return false
+        });
+    $us->{o}{uid} = Gtk2::SpinButton->new(Gtk2::Adjustment->new(500, 1, 65000, 1, 10, 10), 1, 0);
+    $h->pack_end($us->{o}{uid}, 0, 0, 4);
+    $h->pack_end(Gtk2::Label->new(N("UID: ")), 0, 0, 4);
+    GrayBox($us->{o}{userid}, $h, 0);					
+    $w->show_all;
+}
+
+sub Add2UsersGroup {
+    my $name = shift;
+    my $usersgroup = $ctx->LookupGroupByName('users');
+    $usersgroup->MemberName($name, 1);
+    return $usersgroup->Gid($GetValue);
+}
+
+sub ChooseGroup() {
+    my $w = NewWindow(N("Choose group"));
+    my $choice;
+    my @radio = gtkradio(N("Add to the existing group"),
+                         (N("Add to the existing group"),
+                          N("Add to the 'users' group")));
+    gtkadd($w->vbox,
+           Gtk2::Label->new(N("A group with this name already exists.  What would you like to do?")),
+           gtkpack(Gtk2::VBox->new(0,0), @radio),
+       );
+    gtkadd($w->action_area,
+           gtksignal_connect(
+               Gtk2::Button->new(N("Ok")), 
+               clicked => sub {
+                   each_index { $_->get_active and $choice = $::i } @radio;
+                   $w->destroy;
+                   Gtk2->main_quit;
+               }), 
+           gtksignal_connect(
+               Gtk2::Button->new(N("Cancel")),
+               clicked => sub {
+                   $error = 1;
+                   $w->destroy;
+                   Gtk2->main_quit;
+               }));
+    $w->show_all;
+    Gtk2->main;
+    $choice;
+}		 
+sub GimmeChoice {
+    my ($title, $text) = @_;
+    my $choice = $in->ask_yesorno($title, $text) or $error = 1;
+    gtkset_mousecursor_normal();
+    $choice;
+}
+
+sub AddGroup() {
+    my $w = NewWindow(N("Create New Group"));
+    my $mode = 0; my %g; my $is_system = 0;
+    gtkpack_($w->vbox,
+		    0, BuildGui(),
+		    0, Gtk2::HSeparator->new,
+		    0, $us->{o}{groupid} = Gtk2::CheckButton->new(N("Specify group ID manually")),
+		    0, gtkset_sensitive(my $h = Gtk2::HBox->new(0, 4), 0),
+             );
+    gtkadd($w->action_area,
+           map {
+               my $r = $_->[1];
+               gtksignal_connect(
+                   Gtk2::Button->new($_->[0]),
+                   clicked => sub {
+                       if (!$r) {
+                           $g{groupname} = $us->{o}{groupname}->get_text; $error = 0;
+                           if (!valid_groupname($g{groupname})) {
+                               RaiseError($us->{error});
+                           }
+                           my $nm = $ctx->LookupGroupByName($g{groupname});
+                           if ($nm) {
+                               RaiseError(N("Group already exists, please choose another Group Name"));
+                               $us->{o}{groupname}->set_text('');
+                           }
+                           my $groupEnt = $ctx->InitGroup($g{groupname}, $is_system);
+                           if ($us->{o}{groupid}->get_active) {
+                               if (($g{gid} = $us->{o}{gid}->get_value) < 500) {
+                                   my $gidchoice = GimmeChoice(N(" Group Gid is < 500"),
+                                                               N("Creating a group with a GID less than 500 is not recommended.\n Are you sure you want to do this?\n\n")); 
+                                   $gidchoice and $groupEnt->Gid($g{gid});
+                               } else {
+                                   $groupEnt->Gid($g{gid});
+                               }
+                           }
+                           if (!$error) {
+                               log::explanations(N("Adding group: %s ", $g{groupname}));
+                               $ctx->GroupAdd($groupEnt);
+                               Refresh($sysfilter, $stringsearch);
+                           }
+                       }
+                       !$error and $w->destroy; $error = 0 });
+           } ([ N("Cancel"), 1 ], [ N("Ok"), 0 ])
+       );
+    $us->{o}{gid} = Gtk2::SpinButton->new(Gtk2::Adjustment->new(500, 1, 65000, 1, 10, 10), 1, 0);
+    $h->pack_end($us->{o}{gid}, 0, 0, 4);
+    $h->pack_end(Gtk2::Label->new(N("GID: ")), 0, 0, 4);
+    $us->{o}{groupid}->signal_connect('clicked' => sub { $mode = !$mode; $h->set_sensitive($mode) });
+    $w->show_all;
+}
+
+sub UpdateOrDelUsersInGroup {
+    my ($name, $action) = @_;
+    my $groups = $ctx->GroupsEnumerateFull;
+    if ($action) {
+	foreach my $g (@$groups) {
+	    my $members = $g->MemberName(1, 0);
+	    if (InArray($name, $members)) { 
+		eval { $g->MemberName($name, 2) };
+		eval { $ctx->GroupModify($g) };
+	    }
+	}
+    }
+}
+
+sub GetNameEntFromIter {
+    my ($tree, $model, $rank) = @_;
+    my (undef, $iter) = $tree->get_selection->get_selected;
+    my $name = $model->get($iter, $rank);
+    $name;
+}
+
+sub FillUserInfo {
+    my $ent = shift;
+    my $s = $ent->Gecos($GetValue);
+    c::set_tagged_utf8($s);
+    $us->{o}{fullname}->set_text($s);
+    $us->{o}{passwd}->set_text('     ');
+    $us->{o}{confpasswd}->set_text('     ');
+    $us->{o}{shells}->entry->set_text($ent->LoginShell($GetValue));
+    $us->{o}{homedir}->set_text($ent->HomeDir($GetValue));
+}
+
+sub UserDelete() {
+    my ($checkhome, $checkspool);
+    my $username =  GetNameEntFromIter($usertree, $utree_model, 0);
+    my $userEnt = $ctx->LookupUserByName($username);
+    # Old Delete version 
+    #my $removehome = GimmeChoice(N(" Remove Home Directory"), N("Do you want to delete the user's home directory and mail spool?"));
+    #$removehome and $ctx->Clean($userEnt);
+    # New version
+    my $w = NewWindow(N("Delete files or not?"));
+    my $hd = $userEnt->HomeDir($GetValue);
+    gtkpack_($w->vbox,
+             0, Gtk2::Label->new(N("Deleting user %s\n Also perform the following actions\n",
+                                   $username)),
+             0, $checkhome = Gtk2::CheckButton->new(N("Delete Home Directory: %s", $hd)),
+             0, $checkspool = Gtk2::CheckButton->new(N("Delete Mailbox: /var/spool/mail/%s",
+                                                       $username)),
+         );
+    gtkadd($w->action_area,
+           map {
+               my $r = $_->[1];
+               gtksignal_connect(Gtk2::Button->new($_->[0]), clicked =>
+                   sub {
+                       if (!$r) {
+                           log::explanations(N("Removing user: %s", $username));
+                           $ctx->UserDel($userEnt);
+                           UpdateOrDelUsersInGroup($username, 1);
+                           #Let's check out the user's primary group
+                           my $usergid = $userEnt->Gid($GetValue);
+                           my $groupEnt = $ctx->LookupGroupById($usergid);
+                           if ($groupEnt) {
+                               my $member = $groupEnt->MemberName(1, 0);
+                               if (scalar(@$member) == 0 && $groupEnt->Gid($GetValue) > 499) {
+                                   $ctx->GroupDel($groupEnt);
+                               }
+                           }
+                           if ($checkhome->get_active) { 
+                               eval { $ctx->CleanHome($userEnt) };
+                               $@ and RaiseError($@);
+                           }
+                           if ($checkspool->get_active) {
+                               eval { $ctx->CleanSpool($userEnt) };
+                               $@ and RaiseError($@);
+                           }
+                           Refresh($sysfilter, $stringsearch);
+                       }
+                       !$error and $w->destroy; $error = 0 });
+           } ([ N("Cancel"), 1 ], [ N("Delete"), 0 ]),
+       );
+    if ($hd !~ m!(?:/home|/var/spool)!) { $checkhome->set_sensitive(0); $checkspool->set_sensitive(0) }
+    $w->show_all;
+}
+
+sub GroupDelete() {
+    my $groupname =  GetNameEntFromIter($grouptree, $gtree_model, 0);
+    my $wg = NewWindow(translate("Warning"));
+    gtkadd($wg->vbox,
+           Gtk2::Label->new(N("Do you really want to delete the group %s?", $groupname)),
+       );
+    gtkadd($wg->action_area,
+           map {
+               my $r = $_->[1];
+               gtksignal_connect(Gtk2::Button->new($_->[0]), clicked =>
+                   sub {
+                       if (!$r) {
+                           my $groupEnt = $ctx->LookupGroupByName($groupname);
+                           my $members = $ctx->EnumerateUsersByGroup($groupname);
+                         GLOOP: foreach my $username (@$members) {
+                               my $userEnt = $ctx->LookupUserByName($username);
+                               if ($userEnt && $userEnt->Gid($GetValue) == $groupEnt->Gid($GetValue)) {
+                                   RaiseError(N("%s is a primary group for user %s\n Remove the user first", $groupname, $username));
+                                   last GLOOP;
+                               }
+                           }
+                           if (!$error) { 
+                               log::explanations(N("Removing group: %s", $groupname));
+                               eval { $ctx->GroupDel($groupEnt) }; Refresh($sysfilter, $stringsearch);
+                           }
+                       }
+                       !$error and $wg->destroy; $error = 0 });
+           } ([ N("Cancel"), 1 ], [ N("Delete"), 0 ]),
+       );
+    $wg->show_all;
+}
+
+sub Delete() {
+    my $page = $nb->get_current_page;
+    $us->{wnd}{rwindow}->set_sensitive(0);
+    gtkset_mousecursor_wait(); $error = 0;
+    if ($page <= 0) {
+        UserDelete();
+    } elsif ($page == 1) {
+        GroupDelete();
+    }
+    $us->{wnd}{rwindow}->set_sensitive(1);
+    gtkset_mousecursor_normal();
+}
+
+# Gtk Facilities
+sub CreateTree {
+    my ($tree_model) = @_;
+    my $tree = Gtk2::TreeView->new_with_model($tree_model);
+    $tree->get_selection->set_mode('browse');
+    $tree->set_headers_visible(1);
+    $tree->set_rules_hint(1);
+    $tree->get_selection->signal_connect(
+        'changed' => sub {
+            foreach ($tbedit, $tbdel, $buttorcheck{edit}, $buttorcheck{delete}) {
+                $_->set_sensitive(1);
+            }
+        });
+    my $menu_treeview = Gtk2::Menu->new;
+    my @menu_treeview_actions = ([ 'edit', N("Edit") ], [ 'delete', N("Delete") ]);
+    foreach (@menu_treeview_actions) {
+        my ($action, $text) = @$_;
+        my %actions; %actions = (
+            edit => sub { 
+                my (undef, $iter) = $tree->get_selection->get_selected;
+                $iter and Edit();
+            },
+            delete => sub {
+                my (undef, $iter) = $tree->get_selection->get_selected;
+                $iter and Delete();
+            }
+        );
+        $menu_treeview->append(
+            gtksignal_connect(
+                gtkshow(Gtk2::MenuItem->new_with_label($text)),
+                activate => sub { $actions{$action}->() }));
+    }
+    $tree->signal_connect(
+        button_press_event => sub {
+            my (undef, $event) = @_;
+            my (undef, $iter) = $tree->get_selection->get_selected;
+            return unless $iter;
+            foreach ($tbedit, $tbdel, $buttorcheck{edit}, $buttorcheck{delete}) {
+                $_->set_sensitive(1);
+            }
+            Edit() if $event->type eq '2button-press';
+            $_[1]->button == 3
+              and $menu_treeview->popup(undef, undef, undef, undef, $_[1]->button, $_[1]->time);
+        });
+    $tree->signal_connect(
+        key_press_event => sub {
+            my (undef, $event) = @_;
+            my (undef, $iter) = $tree->get_selection->get_selected;
+            return unless $iter;
+            Edit() if $event->keyval == $Gtk2::Gdk::Keysyms{Return};
+        });
+    $tree;
+}
+
+sub GtkEntryHidePass {
+    my ($o_text) = @_;
+    my $e = gtknew('WeaknessCheckEntry');
+    $o_text and $e->set_text($o_text);
+    $e->set_visibility(0);
+    $e;
+}
+
+sub GtkEntrySized {
+    my ($i, $spac) = @_;
+    my $e = Gtk2::Entry->new_with_max_length($i);
+    $e->set_size_request($spac, 20);
+    $e;
+}
+
+sub BuildUui {
+    my ($o_extra_widget) = @_;
+    gtkpack_(my $vbox = Gtk2::VBox->new(0, 2),
+	     1, create_packtable({ homogeneous => 1, col_spacings => 5, row_spacings => 5 },
+				 [ gtknew('Label_Left', text => N("Full Name:")),
+                                   $us->{o}{fullname} = Gtk2::Entry->new ],
+				 [ gtknew('Label_Left', text => N("Login:")),
+                                   $us->{o}{login} = Gtk2::Entry->new ],
+				 [ gtknew('Label_Left', text => N("Password:")),
+                                   $us->{o}{passwd} = GtkEntryHidePass() ],
+				 [ gtknew('Label_Left', text => N("Confirm Password:")),
+                                   $us->{o}{confpasswd} = GtkEntryHidePass() ],
+				 [ gtknew('Label_Left', text => N("Login Shell:")),
+                                   $us->{o}{shells} = Gtk2::Combo->new ],
+				 $o_extra_widget,
+				)
+	    );
+    $us->{o}{shells}->set_popdown_strings(@{$ctx->GetUserShells});
+    $us->{o}{shells}->entry->set_text("/bin/bash");
+    $vbox;
+}
+
+sub BuildGui() {
+    gtkpack_(my $vbox = Gtk2::VBox->new(0, 2),
+	     1, create_packtable({ homogeneous => 1, col_spacings => 5, row_spacings =>5 },
+				 [ N("Group Name:"), $us->{o}{groupname} = Gtk2::Entry->new ]
+				)
+	    );
+    $vbox;
+}
+
+sub NewWindow {
+    my ($title) = @_;
+    my $dialog = gtkset_border_width(
+        _create_dialog($title, { transient_for => $us->{wnd}{real_window} }),
+        5);
+    $dialog->signal_connect(delete_event => sub { $dialog->destroy });
+    my $prev_main_window = $::main_window;
+    $::main_window = $dialog;
+    $dialog->signal_connect(destroy => sub { $::main_window = $prev_main_window });
+    $dialog;
+}
+
+sub Xguest() {
+    if (is_xguest_installed()) {
+        run_program::run('rpm', '-e', 'xguest');
+    } else {
+        run_program::run('gurpmi2', 'xguest');
+    }
+    RefreshXguest();
+}
+
+sub UserEdit_valid {
+    my ($userEnt, $model, $primgid) = @_;
+    my ($Exp, $gEnt, $ugid);
+    my $error = 0;
+    my %u = (
+        username => $us->{o}{login}->get_text, gecos => $us->{o}{fullname}->get_text, 
+        homedir => $us->{o}{homedir}->get_text, pw => $us->{o}{passwd}->get_text, 
+        confm => $us->{o}{confpasswd}->get_text, shell => $us->{o}{shells}->entry->get_text
+    );
+    if (!valid_username($u{username})) {
+        RaiseError($us->{error});
+    }
+    if ($u{pw} ne $u{confm}) {
+        RaiseError(N("Password Mismatch")); 
+    } elsif ($u{pw} eq $u{confm} && $u{pw} ne '     ') {
+        if ($sec{SECURE_LEVEL} > 3 && length($u{pw}) < 6) {
+            RaiseError(N("This password is too simple. \n Good passwords should be > 6 characters"));
+        }
+        !$error and $ctx->UserSetPass($userEnt, $u{pw});
+    }
+    if (!$error) {
+        $userEnt->UserName($u{username});
+        $userEnt->Gecos($u{gecos});
+        $userEnt->HomeDir($u{homedir});
+        $userEnt->LoginShell($u{shell});
+        my $username = $userEnt->UserName($GetValue);
+        $model->foreach(sub {
+                            my ($mod, $_path, $iter) = @_;
+                            my $ch = $mod->get($iter, 2); 
+                            my $name = $mod->get($iter, 1);
+                            $gEnt = $ctx->LookupGroupByName($name);
+                            $ugid = $gEnt->Gid($GetValue);
+                            my $m = $gEnt->MemberName(1,0);
+                            if ($ch == 1) {
+                                if (!InArray($username, $m) && $primgid != $ugid) {
+                                    eval { $gEnt->MemberName($username, 1) };
+                                    $ctx->GroupModify($gEnt);
+                                }
+                            } else {
+                                if (InArray($username, $m)) {
+                                    eval { $gEnt->MemberName($username, 2) };
+                                    $ctx->GroupModify($gEnt);
+                                }
+                            }
+                            return 0;
+                        }, undef);
+        if ($us->{o}{primgroup}->entry->get_text eq '') {
+            RaiseError(N("Please select at least one group for the user"));
+        } elsif (!$error) {
+            my $ent = $ctx->LookupGroupByName($us->{o}{primgroup}->entry->get_text);
+            $ugid = $ent->Gid($GetValue);
+            $userEnt->Gid($ugid);
+            if ($us->{o}{acheckexpire}->get_active) {
+                my $yr = $us->{o}{expy}->get_value; 
+                my $mo =  $us->{o}{expm}->get_value;
+                my $dy = $us->{o}{expd}->get_value;
+                ValidInt($yr, $dy, $mo)
+                  or RaiseError(N("Please specify Year, Month and Day \n for Account Expiration "));
+                if (!$error) { $Exp = ConvTime($dy, $mo, $yr);
+                               $userEnt->ShadowExpire($Exp) }
+            } else { $userEnt->ShadowExpire(ceil(-1)) }
+            if ($us->{o}{pcheckexpire}->get_active) {
+                my $allowed = int($us->{o}{dbca}->get_text);
+                my $required = int($us->{o}{dbcr}->get_text);
+                my $warning = int($us->{o}{bwbc}->get_text);
+                my $inactive = int($us->{o}{dbai}->get_text);
+                $allowed && $required && $warning && $inactive
+                  or RaiseError(N("Please fill up all fields in password aging\n"));
+                if (!$error) {
+                    $userEnt->ShadowMin($allowed);
+                    $userEnt->ShadowMax($required);
+                    $userEnt->ShadowWarn($warning);
+                    $userEnt->ShadowInact($inactive);
+                }
+            } else { 
+                $userEnt->ShadowMin(-1);
+                $userEnt->ShadowMax(99999);
+                $userEnt->ShadowWarn(-1);
+                $userEnt->ShadowInact(-1); 
+            }
+            !$error and $ctx->UserModify($userEnt);
+            if ($us->{o}{lockuser}->get_active) {
+                !$ctx->IsLocked($userEnt) and $ctx->Lock($userEnt);
+            } else { $ctx->IsLocked($userEnt) and $ctx->UnLock($userEnt) } 
+            defined $us->{o}{iconval} and any::addKdmIcon($u{username}, $us->{o}{iconval});
+            !$error and Refresh($sysfilter, $stringsearch);
+        }
+    }
+}
+
+sub GroupEdit_valid {
+    my ($groupEnt, $model, $groupname) = @_;
+    my %g;
+    my ($uEnt);
+    $g{groupname} = $us->{o}{groupname}->get_text; $error = 0;
+    if (!valid_groupname($g{groupname})) { RaiseError($us->{error}) }
+    if (!$error && $groupname ne $g{groupname}) { $groupEnt->GroupName($g{groupname}) }
+    $groupname = $groupEnt->GroupName($GetValue);
+    my $members = $ctx->EnumerateUsersByGroup($groupname);
+    my $gid = $groupEnt->Gid($GetValue);
+    !$error and $model->foreach(
+        sub {
+            my ($mod, $_path, $iter) = @_;
+            my $ch = $mod->get($iter, 2); 
+            my $name = $mod->get($iter, 1);
+            if ($ch == 1) {
+                if (!InArray($name, $members)) {
+                    $uEnt = $ctx->LookupUserByName($name);
+                    my $ugid = $uEnt->Gid($GetValue);
+                    if ($ugid != $gid) {
+                        eval { $groupEnt->MemberName($name,1) };
+                    }
+                }
+            } else {
+                if (InArray($name, $members)) {
+                    $uEnt = $ctx->LookupUserByName($name);
+                    if ($uEnt->Gid($GetValue) == $groupEnt->Gid($GetValue)) {
+                        $model->set($iter, 0 => gtkcreate_pixbuf($pix[0]));
+                        $model->set($iter, 2 => 1);
+                        RaiseError(N("You cannot remove user '%s' from their primary group", $name));
+                    }
+                    if (!$error) {
+                        eval { $groupEnt->MemberName($name,2) };
+                    }
+                }
+            }
+            return 0;
+        }, undef);
+    if (!$error) { 
+        $ctx->GroupModify($groupEnt);
+        Refresh($sysfilter, $stringsearch);
+    }
+}
+
+sub UserEdit_widget {
+    my ($nbU, $tree, $model, $Gent) = @_;
+    my ($vald, $mo, $ye) = (localtime())[3, 4, 5];
+    my $valy = $ye+1900;
+    my $valm = $mo+1;
+    gtkappend_page($nbU,
+                   BuildUui([ gtknew('Label_Left', text => N("Home:")),
+                              $us->{o}{homedir} = Gtk2::Entry->new ]),
+                   gtkshow(Gtk2::Label->new(N("User Data"))));
+    gtkappend_page(
+        $nbU, 
+        gtkpack_(Gtk2::VBox->new(0, 2),
+                 0, $us->{o}{acheckexpire} = Gtk2::CheckButton->new(N("Enable account expiration")),
+                 0, gtkpack__(my $h = Gtk2::HBox->new(0, 10),
+                              Gtk2::Label->new(N("Account expires (YYYY-MM-DD):")), 
+                              map { my ($s, $value, $minv, $maxv) = @$_; #my $spc = $_->[4];
+                                    $us->{o}{$s} = Gtk2::SpinButton->new(Gtk2::Adjustment->new($value, $minv , $maxv, 1, 10, 10), 1, 0);
+                                } (['expy', $valy, 1970, 10000],
+                                   ['expm', $valm, 1, 12],
+                                   ['expd', $vald, 1, 31]),
+                          ),
+                 0, Gtk2::HSeparator->new,
+                 0, $us->{o}{lockuser} = Gtk2::CheckButton->new(N("Lock User Account")),
+                 0, Gtk2::HSeparator->new,
+                 0, GetFaceIcon(GetNameEntFromIter($usertree, $utree_model,0))
+             ), gtkshow(Gtk2::Label->new(N("Account Info"))));
+    GrayBox($us->{o}{acheckexpire}, $h, 0);
+    gtkappend_page($nbU,
+                   gtkpack_(Gtk2::VBox->new(0, 2),
+                            0, gtkpack_(Gtk2::HBox->new(0,5),
+                                        0, Gtk2::Label->new(N("User last changed password on: ")),
+                                        0, my $dayStr = Gtk2::Label->new(""),
+                                        0, my $month = Gtk2::Label->new(""),
+                                        0, my $dayInt = Gtk2::Label->new(""),
+                                        0, my $year = Gtk2::Label->new("")
+                                    ),
+                            0, Gtk2::HSeparator->new,
+                            0, $us->{o}{pcheckexpire} = Gtk2::CheckButton->new(N("Enable Password Expiration")),
+                            1, gtkpack_(
+                                my $v = Gtk2::VBox->new(0,1),
+                                1, create_packtable(
+                                    { homogeneous => 1, col_spacings => 5, row_spacings => 5 },
+                                    [ N("Days before change allowed:"),
+                                      $us->{o}{dbca} = Gtk2::Entry->new_with_text(0) ],
+                                    [ N("Days before change required:"),
+                                      $us->{o}{dbcr} = Gtk2::Entry->new_with_text(0) ],
+                                    [ N("Days warning before change:"),
+                                      $us->{o}{bwbc} = Gtk2::Entry->new_with_text(0) ],
+                                    [ N("Days before account inactive:"),
+                                      $us->{o}{dbai} = Gtk2::Entry->new_with_text(0) ]
+                                )
+                            )), gtkshow(Gtk2::Label->new(N("Password Info"))));
+    GrayBox($us->{o}{pcheckexpire}, $v, 0);
+    gtkappend_page($nbU,
+                   gtkpack_(Gtk2::VBox->new(0, 2),
+                            0, Gtk2::Label->new(N("Select the groups that the user will be a member of:")),
+                            1, create_scrolled_window($tree),
+                            0, gtkpack_(Gtk2::HBox->new(0, 1),
+                                        0, Gtk2::Label->new(N("Primary Group")),
+                                        1, $us->{o}{primgroup} = Gtk2::OptionMenu->new,
+                                    )
+                        ), gtkshow(Gtk2::Label->new(N("Groups"))));
+    my $username = GetNameEntFromIter($usertree, $utree_model,0);
+    $us->{o}{login}->set_text($username);
+    my $userEnt = $ctx->LookupUserByName($username); FillUserInfo($userEnt);
+    my $Uid = $userEnt->Uid($GetValue);
+    my $expire = $userEnt->ShadowExpire($GetValue);
+    if ($expire && $expire != -1) {
+        $us->{o}{acheckexpire}->set_active(1);
+        $h->set_sensitive(1);
+        my $times = TimeOfArray($expire, 1); 
+        $us->{o}{expd}->set_value($times->{dayint});
+        $us->{o}{expm}->set_value($times->{month});
+        $us->{o}{expy}->set_value($times->{year});
+    }
+    #root account should never be locked
+    !$Uid and $us->{o}{lockuser}->set_sensitive(0);
+    # Check if user account is locked 
+    $ctx->IsLocked($userEnt) and $us->{o}{lockuser}->set_active(1);
+    my $lastchg = $userEnt->ShadowLastChange($GetValue);
+    if ($lastchg) {
+        my $times = TimeOfArray($lastchg, 0); 
+        $dayStr->set_text($times->{daystr});
+        $month->set_text($times->{month});
+        $dayInt->set_text($times->{dayint});
+        $year->set_text($times->{year});
+    }
+    my $min = $userEnt->ShadowMin($GetValue); 
+    my $max = $userEnt->ShadowMax($GetValue);
+    my $warn = $userEnt->ShadowWarn($GetValue);
+    my $inact = $userEnt->ShadowInact($GetValue);
+    if ($min && $min != -1 || $max && $max != 99999 || $warn && $warn != 7 && $warn != -1 || $inact && $inact != -1) {
+        $us->{o}{pcheckexpire}->set_active(1);
+        $v->set_sensitive(1);
+    }
+    $min && $min != -1 and $us->{o}{dbca}->set_text($min);
+    $max && $max != -1 and  $us->{o}{dbcr}->set_text($max);
+    $warn && $warn != -1 and $us->{o}{bwbc}->set_text($warn);
+    $inact && $inact != -1 and $us->{o}{dbai}->set_text($inact);
+    my $grps = $ctx->GroupsEnumerate;
+    my @sgroups = sort @$grps;
+    my $members = $ctx->EnumerateGroupsByUser($username);
+    my $primgid = $userEnt->Gid($GetValue);
+    $Gent = $ctx->LookupGroupById($primgid);
+    my @primgroup;
+    foreach my $group (@sgroups) {
+        if (member($group, @$members)) {
+            $model->append_set([ 0 => gtkcreate_pixbuf($pix[0]), 1 => $group, 2 => 1 ]);
+            push @primgroup, $group;
+        } else { $model->append_set([ 0 => gtkcreate_pixbuf($pix[1]), 1 => $group, 2 => 0 ]) }
+    }
+    $us->{o}{primgroup}->set_popdown_strings(@primgroup);
+    $Gent and $us->{o}{primgroup}->entry->set_text($Gent->GroupName($GetValue));
+    ($userEnt, $primgid, @primgroup);
+}	
+
+sub GroupEdit_widget {
+    my ($nbG, $tree, $model, $groupname) = @_;
+    $nbG->set_size_request(300, 200);
+    gtkappend_page($nbG,
+                   gtkpack_(Gtk2::VBox->new(0, 2),
+                            1, BuildGui()),
+                   gtkshow(Gtk2::Label->new(N("Group Data"))));
+    gtkappend_page($nbG,
+                   gtkpack_(Gtk2::VBox->new(0, 1),
+                            0,  Gtk2::Label->new(N("Select the users to join this group:")),
+                            1, create_scrolled_window($tree)),
+                   gtkshow(Gtk2::Label->new(N("Group Users")))); 
+    $groupname = GetNameEntFromIter($grouptree, $gtree_model, 0);
+    $us->{o}{groupname}->set_text($groupname);
+    # Don't allow change on group name since there is a bug in lu_user_modify group
+    $us->{o}{groupname}->set_editable(0);
+    my $groupEnt = $ctx->LookupGroupByName($groupname); 
+    my $users = $ctx->UsersEnumerate;
+    my @susers = sort(@$users);
+    my $members = $ctx->EnumerateUsersByGroup($groupname);
+    foreach my $user (@susers) {
+        if (member($user, @$members)) {
+            $model->append_set([ 0 => gtkcreate_pixbuf($pix[0]), 1 => $user, 2 => 1 ]);
+        } else {
+            $model->append_set([ 0 => gtkcreate_pixbuf($pix[1]), 1 => $user, 2 => 0 ]);
+        }
+    }
+    $groupEnt;
+}
+
+sub Edit() {
+    my $w = NewWindow(N("Edit Groups / Users"));
+    my $model = Gtk2::ListStore->new("Gtk2::Gdk::Pixbuf", "Glib::String", "Glib::Int");
+    my $tree = Gtk2::TreeView->new_with_model($model);
+    my ($groupname, $groupEnt, $userEnt, $primgid, $Gent);
+    my @primgroup;
+    $tree->get_selection->set_mode('browse');
+    my $check = Gtk2::TreeViewColumn->new_with_attributes(undef, Gtk2::CellRendererPixbuf->new,
+                                                          'pixbuf' => 0);
+    $tree->append_column($check);
+    $check->{is_pixbuf_column} = 1;
+    $tree->append_column(Gtk2::TreeViewColumn->new_with_attributes(undef, Gtk2::CellRendererText->new,
+                                                                   'text' => 1));
+    $tree->set_headers_visible(0);
+    my $p = $nb->get_current_page;
+    my $nbU = Gtk2::Notebook->new;
+    my $nbG = Gtk2::Notebook->new;
+    if ($p <= 0) {
+        ($userEnt, $primgid, @primgroup) = UserEdit_widget($nbU, $tree, $model, $Gent);
+    } elsif ($p == 1) {
+        $groupEnt = GroupEdit_widget($nbG, $tree, $model, $groupname);
+    }
+    gtkpack_($w->vbox, 
+             1, !$p ? $nbU : $nbG);
+    gtkadd($w->action_area,
+           map {
+               my $retv = $_->[1];
+               gtksignal_connect(
+                   Gtk2::Button->new($_->[0]), clicked => sub {
+                       if (!$retv) {
+                           if ($p <= 0) {
+                               eval { UserEdit_valid($userEnt, $model, $primgid) };
+                               if (my $err = $@) {
+                                   c::set_tagged_utf8($err);
+                                   RaiseError(N("An error occurred:") . "\n" . $err); 
+                               }
+                           } elsif ($p == 1) {
+                               GroupEdit_valid($groupEnt, $model, $groupname);
+                           }
+                       }
+                       !$error and $w->destroy; $error = 0  });
+           } ([ N("Cancel"), 1 ], [ N("Ok"), 0 ]),
+       );
+    $tree->show;
+    $w->show_all;
+    $tree->signal_connect(
+        button_press_event => sub {
+            my ($path, $column) = $tree->get_path_at_pos($_[1]->x, $_[1]->y);
+            if ($path && $column) {
+                if ($column->{is_pixbuf_column}) {
+                    my $iter = $model->get_iter($path);
+                    if ($iter) {
+                        my $cp = $model->get($iter, 2);
+                        my $item = $model->get($iter, 1);
+                        $model->set($iter, 0 => gtkcreate_pixbuf($pix[$cp]));
+                        $model->set($iter, 2 => !$cp);
+                        if ($p <= 0) { 
+                            if (!$cp) { 
+                                !InArray($item, \@primgroup) and push(@primgroup, $item);
+                            } else {
+                                InArray($item, \@primgroup) and  @primgroup = RemoveFromArray($item, \@primgroup);
+                            }
+                            $us->{o}{primgroup}->set_popdown_strings(@primgroup);
+                            $Gent and $us->{o}{primgroup}->entry->set_text($Gent->GroupName($GetValue));
+                        }
+                    }
+                } 
+            }
+        });
+    $tree->signal_connect(
+        key_press_event => sub {
+            my $c = chr($_[1]->keyval & 0xff);
+            if ($_[1]->keyval >= 0x100 ? $c eq "\r" || $c eq "\x8d" : $c eq ' ') {
+                my (undef, $iter) = $tree->get_selection->get_selected;
+                return unless $iter;
+                my $cp = $model->get($iter, 2);
+                my $item = $model->get($iter, 1);
+                $model->set($iter, 0 => gtkcreate_pixbuf($pix[$cp]));
+                $model->set($iter, 2 => !$cp);
+                if ($p <= 0) { 
+                    if (!$cp) { 
+                        !InArray($item, \@primgroup) and push(@primgroup, $item);
+                    } else {
+                        InArray($item, \@primgroup) and  @primgroup = RemoveFromArray($item, \@primgroup);
+                    }
+                    $us->{o}{primgroup}->set_popdown_strings(@primgroup);
+                    $Gent and $us->{o}{primgroup}->entry->set_text($Gent->GroupName($GetValue));
+                }
+            }
+            0;
+        });
+}
+
+sub ValidInt {
+    foreach my $i (@_) { $i =~ /\d+/ or return 0 }
+    return 1;
+}
+
+sub ConvTime {
+    my ($day, $month, $year) = @_;
+    my ($tm, $days, $mon, $yr);
+    $mon = $month - 1; $yr = $year - 1900;
+    $tm = POSIX::mktime(0, 0, 0, $day, $mon, $yr);
+    $days = ceil($tm / (24 * 60 * 60));
+    return $days;
+}
+
+sub TimeOfArray {
+    my ($reltime, $cm) = @_;
+    my $h; my %mth = (Jan => 1, Feb => 2, Mar => 3, Apr => 4, May => 5, Jun => 6, Jul => 7, Aug => 8, Sep => 9, Oct => 10, Nov => 11, Dec => 12);
+    my $_t = localtime($reltime * 24 * 60 * 60) =~ /(\S+)\s+(\S+)\s+(\d+)\s+(\S+)\s+(\d+)/;
+    $h->{daystr} = $1;
+    $h->{month} = $2;
+    $h->{dayint} = $3;
+    $h->{year} = $5;
+    $cm and $h->{month} = $mth{$2}; 
+    $h;
+}
+
+sub InArray {
+    my ($item, $arr) = @_;
+    return any { $item eq $_ } @$arr;
+}
+
+sub RemoveFromArray {
+    my ($item, $arr) = @_;
+    my ($t, $_s) = partition { $item ne $_ } @$arr;
+    return @$t;
+}
+
+sub GrayBox {
+    my ($o, $v, $m) = @_;
+    $v->set_sensitive($m);
+    $o->signal_connect('clicked' => sub { $m = !$m; $v->set_sensitive($m) });
+}
+
+sub NewDialog {
+    my ($title) = @_;
+    my $dialog = gtkset_border_width(
+        _create_dialog($title, { transient_for => $us->{wnd}{real_window} }),
+        5);
+    $dialog->action_area->pack_start(
+        gtksignal_connect(Gtk2::Button->new(N("Close")), clicked => sub { $dialog->destroy }),
+        0,0,0);
+    $dialog;
+}
+
+sub About() {
+    my $license = formatAlaTeX(translate($::license));
+    $license =~ s/\n/\n\n/sg; # nicer formatting
+    my $w = gtknew('AboutDialog', name => N("Userdrake"),
+                   version => $us->{VERSION},
+                   copyright => N("Copyright (C) %s by Mandriva", '2001-2009'),
+                   if_(-r "$pixdir/userdrake.png", logo => "$pixdir/userdrake.png"),
+                   license => $license, wrap_license => 1,
+                   comments => N("Users Management"),
+                   website => 'http://mandrivalinux.com',
+                   website_label => N("Mandriva Linux"),
+                   authors => 'Daouda Lo
+Thierry Vignaud <tvignaud@mandriva.com>',
+                   artists => 'Hélène Durosini <ln@mandriva.com>',
+                   translator_credits =>
+                     #-PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
+                     N("_: Translator(s) name(s) & email(s)\n"),
+               );
+               $w->show_all;
+               $w->run;
+}
+
+sub valid {
+    $_[0] or $us->{error} = N("Name field is empty please provide a name"), return 0;
+    $_[0] =~ /^[a-z]+?[a-z0-9_-]*?$/ or do {
+        $us->{error} = N("The name must contain only lower cased latin letters, numbers, `-' and `_'");
+        return 0;
+    };
+    length($_[0]) <= $_[1] or $us->{error} = N("Name is too long"), return 0;
+    return 1;
+}
+
+sub valid_username {
+    return valid($_[0], 32);
+}
+
+sub valid_groupname {
+    return valid($_[0], 16);
+}
+
+sub RaiseError {
+    my $w = NewWindow(N("Error"));
+    $error = 1;
+    gtkpack($w->vbox, Gtk2::Label->new($_[0]));
+    gtkadd($w->action_area,
+           gtksignal_connect(Gtk2::Button->new(N("Ok")),
+                             clicked => sub { $w->destroy })
+	  );
+    $w->show_all;
+}
+
+sub QuitGlobal() {
+    setVarsInSh($conffile, {
+       FILTER => bool2text($sysfilter),
+    });
+    Gtk2->main_quit;
+}
