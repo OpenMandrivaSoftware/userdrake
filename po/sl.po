@@ -1,7 +1,3 @@
-# translation of sl.po to Slovenščina
-#
-# Latest versions of po files are at http://www.mandrivalinux.org/l10n/sl.php3
-#
 # Copyright (C) 2003, 2004, 2007 Free Software Foundation, Inc.
 #
 # Gregor Pirnaver <gregor.pirnaver@email.si>, 2002.
@@ -9,100 +5,94 @@
 # Mitja Masten <mitja.masten@email.si>, 2003.
 # Gregor Pirnaver <gregor.pirnaver@mandrakeprinas.org>, 2004.
 # Jure Repinc <jlp@holodeck1.com>, 2007, 2009, 2010.
+# Filip Komar <filip.komar@gmail.com>, 2011, 2012.
 msgid ""
 msgstr ""
-"Project-Id-Version: sl\n"
+"Project-Id-Version: userdrake2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-02-02 03:03+0100\n"
-"PO-Revision-Date: 2010-05-09 20:40+0200\n"
-"Last-Translator: Jure Repinc <jlp@holodeck1.com>\n"
-"Language-Team: Slovenian <lugos-slo@lugos.si>\n"
+"POT-Creation-Date: 2013-04-23 19:48+0200\n"
+"PO-Revision-Date: 2012-07-16 18:32+0100\n"
+"Last-Translator: Filip Komar <filip.komar@gmail.com>\n"
+"Language-Team: Slovenian <lugos-slo@lugos.si>, Translation list <om-"
+"i18n@openmandriva.org>\n"
+"Language: sl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 1.0\n"
-"Plural-Forms:  nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || "
-"n%100==4 ? 2 : 3);\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n"
+"%100==4 ? 2 : 3)\n"
 
-#: ../USER/USER.xs:86
-#, c-format
-msgid "Error reading `%s': %s"
-msgstr "Napaka pri branju »%s«: %s"
-
-#: ../USER/USER.xs:93 ../USER/USER.xs:526
-#, c-format
-msgid "Error creating `%s': %s"
-msgstr "Napaka pri ustvarjanju `%s': %s"
-
-#: ../USER/USER.xs:205 ../USER/USER.xs:234 ../USER/USER.xs:250
-#, c-format
-msgid "Error removing `%s': %s"
-msgstr "Napaka pri odstranjevanju `%s': %s"
-
-#: ../USER/USER.xs:490
+#: ../USER/USER.xs:83
 #, c-format
 msgid "Account creation failed: '%s'.\n"
-msgstr "Ustvarjanje računa ni uspelo: %s.\n"
+msgstr "Ustvarjanje računa ni uspelo: »%s«.\n"
 
-#: ../USER/USER.xs:503
+#: ../USER/USER.xs:96
 msgid "Cannot get Uid number"
-msgstr "Ni moč pridobiti številke uporabnika"
+msgstr "Številke uporabnika (UID) ni mogoče pridobiti"
 
-#: ../USER/USER.xs:515
+#: ../USER/USER.xs:108
 msgid "Cannot retrieve value"
-msgstr "Ni moč pridobiti vrednosti"
+msgstr "Vrednosti ni mogoče pridobiti"
 
-#: ../USER/USER.xs:532
-msgid "Error creating mail spool.\n"
-msgstr "Napaka pri ustvarjanju poštnega navitka (mail spool).\n"
+#: ../USER/USER.xs:119
+#, c-format
+msgid "Error creating `%s': %s"
+msgstr "Napaka pri ustvarjanju »%s«: %s"
 
-#: ../USER/USER.xs:582
+#: ../USER/USER.xs:125
+#, c-format
+msgid "Error creating mail spool: %s\n"
+msgstr "Napaka pri ustvarjanju poštnega navitka (mail spool): %s\n"
+
+#: ../USER/USER.xs:175
 #, c-format
 msgid "User could not be modified: '%s'.\n"
-msgstr "Uporabnika ni bilo moč spremeniti: %s.\n"
+msgstr "Uporabnika ni bilo mogoče spremeniti: »%s«.\n"
 
-#: ../USER/USER.xs:592
+#: ../USER/USER.xs:185
 #, c-format
 msgid "User Could Not be deleted: '%s'.\n"
-msgstr "Uporabnika ni bilo moč izbrisati: %s.\n"
+msgstr "Uporabnika ni bilo mogoče izbrisati: »%s«.\n"
 
-#: ../USER/USER.xs:618
+#: ../USER/USER.xs:211
 #, c-format
 msgid "Failed to set password: '%s'.\n"
-msgstr "Gesla ni bilo moč nastaviti: %s.\n"
+msgstr "Gesla ni bilo mogoče nastaviti: »%s«.\n"
 
-#: ../USER/USER.xs:618
+#: ../USER/USER.xs:211
 msgid "unknown error"
 msgstr "neznana napaka"
 
-#: ../USER/USER.xs:685
+#: ../USER/USER.xs:278
 msgid "Group creation failed.\n"
 msgstr "Ustvaritev skupine ni uspela.\n"
 
-#: ../USER/USER.xs:695
+#: ../USER/USER.xs:288
 #, c-format
 msgid "Group could not be modified: '%s'.\n"
-msgstr "Skupine ni bilo moč spremeniti: %s.\n"
+msgstr "Skupine ni bilo mogoče spremeniti: »%s«.\n"
 
-#: ../USER/USER.xs:705
+#: ../USER/USER.xs:298
 #, c-format
 msgid "Group could not be deleted: '%s'.\n"
-msgstr "Skupine ni bilo moč izbrisati: %s.\n"
+msgstr "Skupine ni bilo mogoče izbrisati: »%s«.\n"
 
-#: ../USER/USER.xs:863
+#: ../USER/USER.xs:456
 msgid "No home directory for the user.\n"
 msgstr "Za uporabnika ni domače mape.\n"
 
-#: ../USER/USER.xs:869 ../USER/USER.xs:871
+#: ../USER/USER.xs:462 ../USER/USER.xs:464
 #, c-format
 msgid "Home Directory Could Not be deleted: '%s'.\n"
-msgstr "Domače mape ni bilo moč izbrisati: %s\n"
+msgstr "Domače mape ni bilo mogoče izbrisati: »%s«.\n"
 
-#: ../USER/USER.xs:881
-msgid "Error deleting mail spool.\n"
-msgstr "Napaka pri odstranjevanju poštnega navitka (mail spool).\n"
+#: ../USER/USER.xs:475
+#, c-format
+msgid "Error deleting mail spool: %s\n"
+msgstr "Napaka pri odstranjevanju poštnega navitka (mail spool): %s\n"
 
-#: ../userdrake:59 ../userdrake:1275
+#: ../userdrake:59 ../userdrake:1276
 #, c-format
 msgid "Userdrake"
 msgstr "Userdrake"
@@ -110,12 +100,12 @@ msgstr "Userdrake"
 #: ../userdrake:64
 #, c-format
 msgid "Loading Users and Groups... Please wait"
-msgstr "Nalaganje uporabnikov in skupin... Prosim počakajte"
+msgstr "Počakajte, nalaganje uporabnikov in skupin ..."
 
 #: ../userdrake:83
 #, c-format
-msgid "Mandriva Linux Users Management Tool"
-msgstr "Mandriva Linux orodje za upravljanje z uporabniki"
+msgid "OpenMandriva Users Management Tool"
+msgstr "OpenMandriva orodje za upravljanje z uporabniki"
 
 #: ../userdrake:96
 #, c-format
@@ -191,12 +181,12 @@ msgstr "/_Pomoč"
 #: ../userdrake:127
 #, c-format
 msgid "/_Report Bug"
-msgstr "/_Poročaj o hrošču"
+msgstr "/_Poročaj o napaki"
 
 #: ../userdrake:130
 #, c-format
 msgid "/_About..."
-msgstr "/_O..."
+msgstr "/_O ..."
 
 #: ../userdrake:148
 #, c-format
@@ -367,14 +357,14 @@ msgstr "Ročno določi ID uporabnika:"
 #: ../userdrake:414
 #, c-format
 msgid "User already exists, please choose another User Name"
-msgstr "Uporabniško ime že obstaja, prosim izberite drugo uporabniško ime"
+msgstr "Uporabniško ime že obstaja, izberite drugo ime"
 
-#: ../userdrake:419 ../userdrake:860
+#: ../userdrake:419 ../userdrake:859
 #, c-format
 msgid "Password Mismatch"
-msgstr "Neujemanje gesla"
+msgstr "Geslo se ne ujema"
 
-#: ../userdrake:422 ../userdrake:863
+#: ../userdrake:422 ../userdrake:862
 #, c-format
 msgid ""
 "This password is too simple. \n"
@@ -386,7 +376,7 @@ msgstr ""
 #: ../userdrake:434
 #, c-format
 msgid "User Uid is < 500"
-msgstr "Uporabnikov Uid je < 500"
+msgstr "Številka uporabnika (UID) je manj kot 500"
 
 #: ../userdrake:435
 #, c-format
@@ -395,14 +385,14 @@ msgid ""
 " Are you sure you want to do this?\n"
 "\n"
 msgstr ""
-"Ustvarjanje uporabnika z UID manjšim od 500 ni priporočeno.\n"
+"Ustvarjanje uporabnika s številko UID manjšo od 500 ni priporočeno.\n"
 "Ali ste prepričani, da želite narediti prav to?\n"
 "\n"
 
 #: ../userdrake:450
 #, c-format
 msgid "Putting %s to 'users' group"
-msgstr "Vstavljam %s v 'uporabniško' skupino"
+msgstr "Vstavljam %s v »uporabniško« skupino"
 
 #: ../userdrake:457
 #, c-format
@@ -423,19 +413,19 @@ msgstr "Čarovnik za selitev"
 #, c-format
 msgid ""
 "Do you want to run the migration wizard in order to import Windows documents "
-"and settings in your Mandriva Linux distribution?"
+"and settings in your OpenMandriva distribution?"
 msgstr ""
 "Ali želite zagnati čarovnika za selitev, ki vam pomaga uvoziti dokumente in "
-"nastavitve iz Windows v Mandriva Linux?"
+"nastavitve iz Windows v OpenMandriva?"
 
 #: ../userdrake:484 ../userdrake:528 ../userdrake:587 ../userdrake:674
-#: ../userdrake:707 ../userdrake:1166
+#: ../userdrake:707 ../userdrake:1167
 #, c-format
 msgid "Cancel"
 msgstr "Prekliči"
 
-#: ../userdrake:484 ../userdrake:521 ../userdrake:587 ../userdrake:1166
-#: ../userdrake:1317
+#: ../userdrake:484 ../userdrake:521 ../userdrake:587 ../userdrake:1167
+#: ../userdrake:1318
 #, c-format
 msgid "Ok"
 msgstr "Potrdi"
@@ -458,12 +448,12 @@ msgstr "Dodaj v obstoječo skupino"
 #: ../userdrake:514
 #, c-format
 msgid "Add to the 'users' group"
-msgstr "Dodaj v uporabniško skupino"
+msgstr "Dodaj v »uporabniško« skupino"
 
 #: ../userdrake:516
 #, c-format
 msgid "A group with this name already exists.  What would you like to do?"
-msgstr "Skupina s tem imenom že obstaja. Kaj bi želeli narediti?"
+msgstr "Skupina s tem imenom že obstaja. Kaj želite narediti?"
 
 #: ../userdrake:546
 #, c-format
@@ -478,12 +468,12 @@ msgstr "Ročno določi ID skupine"
 #: ../userdrake:567
 #, c-format
 msgid "Group already exists, please choose another Group Name"
-msgstr "Skupina že obstaja, prosim izberite drugo ime skupine"
+msgstr "Skupina že obstaja, izberite drugo ime skupine"
 
 #: ../userdrake:573
 #, c-format
 msgid " Group Gid is < 500"
-msgstr "Gid skupine je < 500"
+msgstr "GID skupine je manj kot 500"
 
 #: ../userdrake:574
 #, c-format
@@ -579,17 +569,17 @@ msgstr "Potrdi geslo:"
 msgid "Login Shell:"
 msgstr "Prijavna lupina:"
 
-#: ../userdrake:820
+#: ../userdrake:819
 #, c-format
 msgid "Group Name:"
 msgstr "Ime skupine:"
 
-#: ../userdrake:894
+#: ../userdrake:893
 #, c-format
 msgid "Please select at least one group for the user"
 msgstr "Prosim izberite vsaj eno skupino za uporabnika"
 
-#: ../userdrake:904
+#: ../userdrake:903
 #, c-format
 msgid ""
 "Please specify Year, Month and Day \n"
@@ -598,7 +588,7 @@ msgstr ""
 "Prosim določite leto, mesec in dan,\n"
 "ko uporabniški račun poteče "
 
-#: ../userdrake:914
+#: ../userdrake:913
 #, c-format
 msgid "Please fill up all fields in password aging\n"
 msgstr "Prosim izpolnite vsa polja o staranju gesla\n"
@@ -606,7 +596,7 @@ msgstr "Prosim izpolnite vsa polja o staranju gesla\n"
 #: ../userdrake:965
 #, c-format
 msgid "You cannot remove user '%s' from their primary group"
-msgstr "Uporabnika ni mogoče odstraniti '%s' iz njegove primarne skupine"
+msgstr "Uporabnika ni mogoče odstraniti »%s« iz njegove primarne skupine"
 
 #: ../userdrake:986
 #, c-format
@@ -698,62 +688,72 @@ msgstr "Skupinski uporabniki"
 msgid "Edit Groups / Users"
 msgstr "Uredi Skupine / Uporabnike"
 
-#: ../userdrake:1159
+#: ../userdrake:1160
 #, c-format
 msgid "An error occurred:"
 msgstr "Prišlo je do napake:"
 
-#: ../userdrake:1267
+#: ../userdrake:1268
 #, c-format
 msgid "Close"
 msgstr "Zapri"
 
-#: ../userdrake:1277
+#: ../userdrake:1278
 #, c-format
 msgid "Copyright (C) %s by Mandriva"
 msgstr "Avtorske pravice (C) %s Mandriva"
 
-#: ../userdrake:1280
+#: ../userdrake:1278
+#, c-format
+msgid "Copyright (C) %s by OpenMandriva"
+msgstr "Avtorske pravice (C) %s OpenMandriva"
+
+#: ../userdrake:1281
 #, c-format
 msgid "Users Management"
 msgstr "Upravljanje z uporabniki"
 
-#: ../userdrake:1282
+#: ../userdrake:1283
 #, c-format
-msgid "Mandriva Linux"
-msgstr "Mandriva Linux "
+msgid "OpenMandriva"
+msgstr "OpenMandriva"
 
 #. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
-#: ../userdrake:1288
+#: ../userdrake:1289
 #, c-format
 msgid "_: Translator(s) name(s) & email(s)\n"
-msgstr "_: Imena in e-poštni naslovi prevajalcev\n"
+msgstr ""
+"_: Imena in e-poštni naslovi prevajalcev\n"
+"Gregor Pirnaver <gregor.pirnaver@siol.net>, \n"
+"<gregor.pirnaver@mandrakeprinas.org>\n"
+"Mitja Masten <mitja.masten@email.si>\n"
+"Jure Repinc <jlp@holodeck1.com>\n"
+"Filip Komar <filip.komar@gmail.com>\n"
+"\n"
 
-#: ../userdrake:1295
+#: ../userdrake:1296
 #, c-format
 msgid "Name field is empty please provide a name"
 msgstr "Polje z imenom je prazno, prosim podajte ime"
 
-#: ../userdrake:1297
+#: ../userdrake:1298
 #, c-format
 msgid ""
 "The name must contain only lower cased latin letters, numbers, `-' and `_'"
-msgstr "Ime lahko vsebuje le male črke, številke, `-' in `_'"
+msgstr "Ime lahko vsebuje le male črke, številke, »-« in »_«"
 
-#: ../userdrake:1300
+#: ../userdrake:1301
 #, c-format
 msgid "Name is too long"
 msgstr "Ime je predolgo"
 
-#: ../userdrake:1313
+#: ../userdrake:1314
 #, c-format
 msgid "Error"
 msgstr "Napaka"
 
-#, fuzzy
-#~ msgid "Unknown error"
-#~ msgstr "neznana napaka"
+#~ msgid "Error reading `%s': %s"
+#~ msgstr "Napaka pri branju »%s«: %s"
 
-#, fuzzy
-#~ msgid "Error creating %s: %s.\n"
-#~ msgstr "Napaka pri ustvarjanju `%s': %s"
+#~ msgid "Error removing `%s': %s"
+#~ msgstr "Napaka pri odstranjevanju »%s«: %s"

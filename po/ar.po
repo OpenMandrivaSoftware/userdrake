@@ -1,108 +1,94 @@
-# translation of userdrake.po to Arabic
-#
-# Latest versions of po files are at http://www.mandrivalinux.org/l10n/ar.php3
-#
-# Copyright (C) 2001, 2004, 2005 Free Software Foundation, Inc.
-# Mohammed Gamal <f2c2001@yahoo.com>, 2001.
-# Munzir Taha Obeid <munzirtaha@newhorizons.com.sa>, 2004.
-# Youcef Rabah Rahal <rahal@arabeyes.org>, 2004.
-# Ossama M. Khayat <okhayat@yahoo.com>, 2005.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: userdrake\n"
+"Project-Id-Version: userdrake2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-02-02 03:03+0100\n"
-"PO-Revision-Date: 2005-02-28 23:22+0300\n"
-"Last-Translator: Ossama M. Khayat <okhayat@yahoo.com>\n"
-"Language-Team: Arabic <support@arabeyes.org>\n"
+"POT-Creation-Date: 2013-04-23 19:48+0200\n"
+"PO-Revision-Date: 2011-05-19 13:15+0000\n"
+"Last-Translator: salim salim <almusalimalmusalimah@gmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: ar\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 1.9.1\n"
-"Plural-Forms: nplurals=4; plural=n==1 ? 0 : n==2 ? 1 : n>=3 && n<=10 ? 2 : "
-"3\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5\n"
 
-#: ../USER/USER.xs:86
+#: ../USER/USER.xs:83
 #, c-format
-msgid "Error reading `%s': %s"
-msgstr "خطأ في قراءة `%s': %s"
+msgid "Account creation failed: '%s'.\n"
+msgstr "فشل إنشاء الحساب: '%s'.\n"
 
-#: ../USER/USER.xs:93 ../USER/USER.xs:526
+#: ../USER/USER.xs:96
+msgid "Cannot get Uid number"
+msgstr "لا يمكن الحصول على هوية المستخدم"
+
+#: ../USER/USER.xs:108
+msgid "Cannot retrieve value"
+msgstr "لا يمكن استعادة النتيجة"
+
+#: ../USER/USER.xs:119
 #, c-format
 msgid "Error creating `%s': %s"
 msgstr "خطأ في إنشاء `%s': %s"
 
-#: ../USER/USER.xs:205 ../USER/USER.xs:234 ../USER/USER.xs:250
+#: ../USER/USER.xs:125
 #, c-format
-msgid "Error removing `%s': %s"
-msgstr "خطأ في حذف `%s': %s"
+msgid "Error creating mail spool: %s\n"
+msgstr "خطأ في إنشاء لفيفة البريد: %s\n"
 
-#: ../USER/USER.xs:490
-#, fuzzy, c-format
-msgid "Account creation failed: '%s'.\n"
-msgstr "خطأ في إنشاء لفيفة البريد.\n"
-
-#: ../USER/USER.xs:503
-msgid "Cannot get Uid number"
-msgstr ""
-
-#: ../USER/USER.xs:515
-msgid "Cannot retrieve value"
-msgstr ""
-
-#: ../USER/USER.xs:532
-msgid "Error creating mail spool.\n"
-msgstr "خطأ في إنشاء لفيفة البريد.\n"
-
-#: ../USER/USER.xs:582
-#, fuzzy, c-format
+#: ../USER/USER.xs:175
+#, c-format
 msgid "User could not be modified: '%s'.\n"
-msgstr "خطأ في إنشاء لفيفة البريد.\n"
+msgstr "لا يمكن تعديل المستخدم: '%s'.\n"
 
-#: ../USER/USER.xs:592
+#: ../USER/USER.xs:185
 #, c-format
 msgid "User Could Not be deleted: '%s'.\n"
-msgstr ""
+msgstr "لا يمكن محو المستخدم: '%s'.\n"
 
-#: ../USER/USER.xs:618
+#: ../USER/USER.xs:211
 #, c-format
 msgid "Failed to set password: '%s'.\n"
-msgstr ""
+msgstr "فشل في ضبط كلمة المرور: '%s'.\n"
 
-#: ../USER/USER.xs:618
+#: ../USER/USER.xs:211
 msgid "unknown error"
 msgstr "خطأ مجهول"
 
-#: ../USER/USER.xs:685
-#, fuzzy
+#: ../USER/USER.xs:278
 msgid "Group creation failed.\n"
-msgstr "خطأ في إنشاء لفيفة البريد.\n"
+msgstr "فشل إنشاء الفريق.\n"
 
-#: ../USER/USER.xs:695
+#: ../USER/USER.xs:288
 #, c-format
 msgid "Group could not be modified: '%s'.\n"
-msgstr ""
+msgstr "لا يمكن تعديل المجموعة: '%s'.\n"
 
-#: ../USER/USER.xs:705
+#: ../USER/USER.xs:298
 #, c-format
 msgid "Group could not be deleted: '%s'.\n"
-msgstr ""
+msgstr "لا يمكن محو المجموعة: '%s'.\n"
 
-#: ../USER/USER.xs:863
+#: ../USER/USER.xs:456
 msgid "No home directory for the user.\n"
-msgstr ""
+msgstr "لا يوجد دليل منزل للمستخدم.\n"
 
-#: ../USER/USER.xs:869 ../USER/USER.xs:871
+#: ../USER/USER.xs:462 ../USER/USER.xs:464
 #, c-format
 msgid "Home Directory Could Not be deleted: '%s'.\n"
-msgstr ""
+msgstr "لا يمكن محو دليل المنزل: '%s'.\n"
 
-#: ../USER/USER.xs:881
-msgid "Error deleting mail spool.\n"
-msgstr "خطأ في حذف لفيفة البريد.\n"
+#: ../USER/USER.xs:475
+#, c-format
+msgid "Error deleting mail spool: %s\n"
+msgstr "خطأ في حذف لفيفة البريد: %s\n"
 
-#: ../userdrake:59 ../userdrake:1275
+#: ../userdrake:59 ../userdrake:1276
 #, c-format
 msgid "Userdrake"
 msgstr "Userdrake"
@@ -114,18 +100,18 @@ msgstr "تحميل المستخدمين والمجموعات... الرجاء ا�
 
 #: ../userdrake:83
 #, c-format
-msgid "Mandriva Linux Users Management Tool"
-msgstr "أداة ماندريبا لينكس لإدارة المستخدمين"
+msgid "OpenMandriva Users Management Tool"
+msgstr "أداة إدارة مستخدمي ماجيّا لينوكس "
 
 #: ../userdrake:96
 #, c-format
 msgid "/_Install guest account"
-msgstr ""
+msgstr "/_قم بتثبيت حساب الضيف"
 
 #: ../userdrake:97
 #, c-format
 msgid "/_Uninstall guest account"
-msgstr ""
+msgstr "/_ألغ تثبيت حساب الضيف"
 
 #: ../userdrake:101 ../userdrake:102 ../userdrake:103 ../userdrake:114
 #: ../userdrake:115 ../userdrake:116
@@ -369,12 +355,12 @@ msgstr "تحديد هوية المستخدم يدوياً"
 msgid "User already exists, please choose another User Name"
 msgstr "المستخدم موجود مسبقاً، الرجاء اختيار اسم مستخدم آخر"
 
-#: ../userdrake:419 ../userdrake:860
+#: ../userdrake:419 ../userdrake:859
 #, c-format
 msgid "Password Mismatch"
 msgstr "كلمة المرور غير مطابقة"
 
-#: ../userdrake:422 ../userdrake:863
+#: ../userdrake:422 ../userdrake:862
 #, c-format
 msgid ""
 "This password is too simple. \n"
@@ -417,23 +403,25 @@ msgstr "إضافة المستخدم: %s"
 #: ../userdrake:478
 #, c-format
 msgid "Migration wizard"
-msgstr ""
+msgstr "معالج الترحيل و اﻹستيراد"
 
 #: ../userdrake:479
 #, c-format
 msgid ""
 "Do you want to run the migration wizard in order to import Windows documents "
-"and settings in your Mandriva Linux distribution?"
+"and settings in your OpenMandriva distribution?"
 msgstr ""
+"هل تريد تشغيل معالج الترحيل ﻷجل استيراد مستندات و إعدادات ويندوز إلى توزيعتك "
+"ماجيّا"
 
 #: ../userdrake:484 ../userdrake:528 ../userdrake:587 ../userdrake:674
-#: ../userdrake:707 ../userdrake:1166
+#: ../userdrake:707 ../userdrake:1167
 #, c-format
 msgid "Cancel"
 msgstr "إلغاء"
 
-#: ../userdrake:484 ../userdrake:521 ../userdrake:587 ../userdrake:1166
-#: ../userdrake:1317
+#: ../userdrake:484 ../userdrake:521 ../userdrake:587 ../userdrake:1167
+#: ../userdrake:1318
 #, c-format
 msgid "Ok"
 msgstr "موافق"
@@ -577,17 +565,17 @@ msgstr "تأكيد كلمة المرور:"
 msgid "Login Shell:"
 msgstr "صدفة الدخول:"
 
-#: ../userdrake:820
+#: ../userdrake:819
 #, c-format
 msgid "Group Name:"
 msgstr "اسم المجموعة:"
 
-#: ../userdrake:894
+#: ../userdrake:893
 #, c-format
 msgid "Please select at least one group for the user"
 msgstr "الرجاء اختيار مجموعة واحدة على الأقل للمستخدم"
 
-#: ../userdrake:904
+#: ../userdrake:903
 #, c-format
 msgid ""
 "Please specify Year, Month and Day \n"
@@ -596,7 +584,7 @@ msgstr ""
 "الرجاء تحديد السنة والشهر واليوم\n"
 " لانتهاء صلاحية الحساب "
 
-#: ../userdrake:914
+#: ../userdrake:913
 #, c-format
 msgid "Please fill up all fields in password aging\n"
 msgstr "الرجاء ملء جميع حقول تقادم كلمة المرور\n"
@@ -696,104 +684,65 @@ msgstr "مستخدمو المجموعة"
 msgid "Edit Groups / Users"
 msgstr "تحرير المجموعات / المستخدمون"
 
-#: ../userdrake:1159
-#, fuzzy, c-format
+#: ../userdrake:1160
+#, c-format
 msgid "An error occurred:"
-msgstr "حدث خطأ"
+msgstr "حدث خطأ:"
 
-#: ../userdrake:1267
+#: ../userdrake:1268
 #, c-format
 msgid "Close"
 msgstr "إغلاق"
 
-#: ../userdrake:1277
+#: ../userdrake:1278
 #, c-format
 msgid "Copyright (C) %s by Mandriva"
-msgstr ""
+msgstr "حقوق النشر (C) %s بواسطة ماندريفا"
 
-#: ../userdrake:1280
+#: ../userdrake:1278
+#, c-format
+msgid "Copyright (C) %s by OpenMandriva"
+msgstr "حقوق النشر (C) %s بواسطة ماجيّا"
+
+#: ../userdrake:1281
 #, c-format
 msgid "Users Management"
 msgstr "إدارة المستخدمين"
 
-#: ../userdrake:1282
+#: ../userdrake:1283
 #, c-format
-msgid "Mandriva Linux"
-msgstr "ﻡﺎﻧﺩﺮﻴﺑﺍ ﻞﻴﻨﻜﺳ"
+msgid "OpenMandriva"
+msgstr "ماجيّا"
 
 #. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
-#: ../userdrake:1288
+#: ../userdrake:1289
 #, c-format
 msgid "_: Translator(s) name(s) & email(s)\n"
 msgstr "Arabeyes <support@arabeyes.org>\n"
 
-#: ../userdrake:1295
+#: ../userdrake:1296
 #, c-format
 msgid "Name field is empty please provide a name"
 msgstr "حقل الاسم فارغ فضلاً قم بتحديد اسم"
 
-#: ../userdrake:1297
+#: ../userdrake:1298
 #, c-format
 msgid ""
 "The name must contain only lower cased latin letters, numbers, `-' and `_'"
 msgstr "يجب أن يحتوي الاسم فقط على حروف صغيرة، أرقام، `-' و `_'"
 
-#: ../userdrake:1300
+#: ../userdrake:1301
 #, c-format
 msgid "Name is too long"
 msgstr "الاسم طويل جداً"
 
-#: ../userdrake:1313
+#: ../userdrake:1314
 #, c-format
 msgid "Error"
 msgstr "خطأ"
 
-#, fuzzy
-#~ msgid "Unknown error"
-#~ msgstr "خطأ مجهول"
+#~ msgid "Error reading `%s': %s"
+#~ msgstr "خطأ في قراءة `%s': %s"
 
-#, fuzzy
-#~ msgid "Error creating %s: %s.\n"
-#~ msgstr "خطأ في إنشاء `%s': %s"
-
-#~ msgid "Authors: "
-#~ msgstr "المؤلفون: "
-
-#~ msgid "Adding user : %s"
-#~ msgstr "إضافة المستخدم : %s"
-
-#~ msgid "Adding group : %s "
-#~ msgstr "جاري إضافة المجموعة: %s "
-
-#~ msgid "Delete Home Directory :%s"
-#~ msgstr "حذف الدليل الخاص: %s"
-
-#~ msgid "Delete Mailbox :/var/spool/mail/%s"
-#~ msgstr "حذف صندوق البريد :/var/spool/mail/%s"
-
-#~ msgid "Login"
-#~ msgstr "اسم الدخول"
-
-#~ msgid "Password"
-#~ msgstr "كلمة المرور"
-
-#~ msgid "Home"
-#~ msgstr "الدليل الخاص"
-
-#~ msgid "User last changed password on : "
-#~ msgstr "قام المستخدم بتغيير كلمة مروره عند : "
-
-#~ msgid "Days before change allowed :"
-#~ msgstr "عدد الأيام قبل السماح بالتغيير :"
-
-#~ msgid "Days before change required :"
-#~ msgstr "عدد الأيام قبل المطالبة بالتغيير :"
-
-#~ msgid "Days warning before change :"
-#~ msgstr "عدد أيام التحذير قبل التغيير :"
-
-#~ msgid "Days before account inactive :"
-#~ msgstr "عدد الأيام قبل إخماد الحساب :"
-
-#~ msgid "Select the users to join this group :"
-#~ msgstr "اختر المستخدمين الذين سيلتحقون بالمجموعة :"
+#~ msgid "Error removing `%s': %s"
+#~ msgstr "خطأ في حذف `%s': %s"

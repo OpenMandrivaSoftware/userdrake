@@ -7,95 +7,88 @@ msgid ""
 msgstr ""
 "Project-Id-Version: userdrake-ky\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-02-02 03:03+0100\n"
+"POT-Creation-Date: 2013-04-23 19:48+0200\n"
 "PO-Revision-Date: 2009-12-25 23:18+0600\n"
 "Last-Translator: Ilyas Bakirov <just_ilyas@yahoo.com>\n"
 "Language-Team: Kyrgyz\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.3\n"
 
-#: ../USER/USER.xs:86
-#, c-format
-msgid "Error reading `%s': %s"
-msgstr "Окуу учурундагы ката `%s': %s"
-
-#: ../USER/USER.xs:93 ../USER/USER.xs:526
-#, c-format
-msgid "Error creating `%s': %s"
-msgstr "Түзүү учурундагы ката `%s': %s"
-
-#: ../USER/USER.xs:205 ../USER/USER.xs:234 ../USER/USER.xs:250
-#, c-format
-msgid "Error removing `%s': %s"
-msgstr "Жоготуу учурундагы ката `%s': %s"
-
-#: ../USER/USER.xs:490
+#: ../USER/USER.xs:83
 #, fuzzy, c-format
 msgid "Account creation failed: '%s'.\n"
 msgstr "Почта түзүүдөгү ката.\n"
 
-#: ../USER/USER.xs:503
+#: ../USER/USER.xs:96
 msgid "Cannot get Uid number"
 msgstr ""
 
-#: ../USER/USER.xs:515
+#: ../USER/USER.xs:108
 msgid "Cannot retrieve value"
 msgstr ""
 
-#: ../USER/USER.xs:532
-msgid "Error creating mail spool.\n"
-msgstr "Почта түзүүдөгү ката.\n"
+#: ../USER/USER.xs:119
+#, c-format
+msgid "Error creating `%s': %s"
+msgstr "Түзүү учурундагы ката `%s': %s"
 
-#: ../USER/USER.xs:582
+#: ../USER/USER.xs:125
+#, c-format
+msgid "Error creating mail spool: %s\n"
+msgstr "Почта түзүүдөгү ката: %s\n"
+
+#: ../USER/USER.xs:175
 #, fuzzy, c-format
 msgid "User could not be modified: '%s'.\n"
 msgstr "Почта түзүүдөгү ката.\n"
 
-#: ../USER/USER.xs:592
+#: ../USER/USER.xs:185
 #, c-format
 msgid "User Could Not be deleted: '%s'.\n"
 msgstr ""
 
-#: ../USER/USER.xs:618
+#: ../USER/USER.xs:211
 #, c-format
 msgid "Failed to set password: '%s'.\n"
 msgstr ""
 
-#: ../USER/USER.xs:618
+#: ../USER/USER.xs:211
 msgid "unknown error"
 msgstr "белгисиз ката"
 
-#: ../USER/USER.xs:685
+#: ../USER/USER.xs:278
 #, fuzzy
 msgid "Group creation failed.\n"
 msgstr "Почта түзүүдөгү ката.\n"
 
-#: ../USER/USER.xs:695
+#: ../USER/USER.xs:288
 #, c-format
 msgid "Group could not be modified: '%s'.\n"
 msgstr ""
 
-#: ../USER/USER.xs:705
+#: ../USER/USER.xs:298
 #, c-format
 msgid "Group could not be deleted: '%s'.\n"
 msgstr ""
 
-#: ../USER/USER.xs:863
+#: ../USER/USER.xs:456
 msgid "No home directory for the user.\n"
 msgstr ""
 
-#: ../USER/USER.xs:869 ../USER/USER.xs:871
+#: ../USER/USER.xs:462 ../USER/USER.xs:464
 #, c-format
 msgid "Home Directory Could Not be deleted: '%s'.\n"
 msgstr ""
 
-#: ../USER/USER.xs:881
-msgid "Error deleting mail spool.\n"
-msgstr "Почтаны жоготуудагы ката.\n"
+#: ../USER/USER.xs:475
+#, c-format
+msgid "Error deleting mail spool: %s\n"
+msgstr "Почтаны жоготуудагы ката: %s\n"
 
-#: ../userdrake:59 ../userdrake:1275
+#: ../userdrake:59 ../userdrake:1276
 #, c-format
 msgid "Userdrake"
 msgstr "Userdrake"
@@ -107,8 +100,8 @@ msgstr "Колдонуучулар жана группалар жүктөлүү�
 
 #: ../userdrake:83
 #, c-format
-msgid "Mandriva Linux Users Management Tool"
-msgstr "Mandriva Linux Колдонуучуларды башкаруу аспабы"
+msgid "OpenMandriva Users Management Tool"
+msgstr "OpenMandriva Колдонуучуларды башкаруу аспабы"
 
 #: ../userdrake:96
 #, c-format
@@ -362,12 +355,12 @@ msgstr "Колдонуучунун IDсин өзүңүз көрсөтүңүз"
 msgid "User already exists, please choose another User Name"
 msgstr "Колдонуучу агдагачан бар, башка колдонуучу атын тандаңыз"
 
-#: ../userdrake:419 ../userdrake:860
+#: ../userdrake:419 ../userdrake:859
 #, c-format
 msgid "Password Mismatch"
 msgstr "Пароль туура эмес"
 
-#: ../userdrake:422 ../userdrake:863
+#: ../userdrake:422 ../userdrake:862
 #, c-format
 msgid ""
 "This password is too simple. \n"
@@ -416,19 +409,19 @@ msgstr "Которуу устасы"
 #, c-format
 msgid ""
 "Do you want to run the migration wizard in order to import Windows documents "
-"and settings in your Mandriva Linux distribution?"
+"and settings in your OpenMandriva distribution?"
 msgstr ""
 "Сиз которуу устасы менен Windows ырастоолоруңузду жана документтериңизди "
-"Mandriva Linux системасына которуу каалайсызбы?"
+"OpenMandriva системасына которуу каалайсызбы?"
 
 #: ../userdrake:484 ../userdrake:528 ../userdrake:587 ../userdrake:674
-#: ../userdrake:707 ../userdrake:1166
+#: ../userdrake:707 ../userdrake:1167
 #, c-format
 msgid "Cancel"
 msgstr "Калтыруу"
 
-#: ../userdrake:484 ../userdrake:521 ../userdrake:587 ../userdrake:1166
-#: ../userdrake:1317
+#: ../userdrake:484 ../userdrake:521 ../userdrake:587 ../userdrake:1167
+#: ../userdrake:1318
 #, c-format
 msgid "Ok"
 msgstr "Ok"
@@ -572,17 +565,17 @@ msgstr "Паролду тактоо:"
 msgid "Login Shell:"
 msgstr "Кирүү чөйрөсү:"
 
-#: ../userdrake:820
+#: ../userdrake:819
 #, c-format
 msgid "Group Name:"
 msgstr "Группанын аты:"
 
-#: ../userdrake:894
+#: ../userdrake:893
 #, c-format
 msgid "Please select at least one group for the user"
 msgstr "Колдонуучу үчүн жок дегенде бир группа тандаңыз"
 
-#: ../userdrake:904
+#: ../userdrake:903
 #, c-format
 msgid ""
 "Please specify Year, Month and Day \n"
@@ -591,7 +584,7 @@ msgstr ""
 "Эсеп жазмасынын аяктоо мөөнөтүнүн\n"
 " Жылын, Айын жана Күнүн көрсөтүңүз "
 
-#: ../userdrake:914
+#: ../userdrake:913
 #, c-format
 msgid "Please fill up all fields in password aging\n"
 msgstr "Паролдун жашы үчүн бардык талааларды толтуруңуз\n"
@@ -691,58 +684,69 @@ msgstr "Колдонуучулар группасы"
 msgid "Edit Groups / Users"
 msgstr "Гурппаларды / Колдонуучуларды оңдоо"
 
-#: ../userdrake:1159
+#: ../userdrake:1160
 #, c-format
 msgid "An error occurred:"
 msgstr "Жаңылыштык орун алды:"
 
-#: ../userdrake:1267
+#: ../userdrake:1268
 #, c-format
 msgid "Close"
 msgstr "Жабуу"
 
-#: ../userdrake:1277
+#: ../userdrake:1278
 #, c-format
 msgid "Copyright (C) %s by Mandriva"
 msgstr "Copyright (C) %s Mandriva"
 
-#: ../userdrake:1280
+#: ../userdrake:1278
+#, fuzzy, c-format
+msgid "Copyright (C) %s by OpenMandriva"
+msgstr "Copyright (C) %s Mandriva"
+
+#: ../userdrake:1281
 #, c-format
 msgid "Users Management"
 msgstr "Колдонуучуларды башкаруу"
 
-#: ../userdrake:1282
+#: ../userdrake:1283
 #, c-format
-msgid "Mandriva Linux"
-msgstr "Mandriva Linux"
+msgid "OpenMandriva"
+msgstr "OpenMandriva"
 
 #. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
-#: ../userdrake:1288
+#: ../userdrake:1289
 #, c-format
 msgid "_: Translator(s) name(s) & email(s)\n"
 msgstr "Нурлан Бөрүбаев <nurlan@tamga.info>\n"
 
-#: ../userdrake:1295
+#: ../userdrake:1296
 #, c-format
 msgid "Name field is empty please provide a name"
 msgstr "Аты талаасы толтурулган эмес, ат бериңиз"
 
-#: ../userdrake:1297
+#: ../userdrake:1298
 #, c-format
 msgid ""
 "The name must contain only lower cased latin letters, numbers, `-' and `_'"
 msgstr ""
 "Ат, жалаң гана кичине латын тамгалары, сандар, '-' жана '_' турушу керек"
 
-#: ../userdrake:1300
+#: ../userdrake:1301
 #, c-format
 msgid "Name is too long"
 msgstr "Ат өтө эле узун"
 
-#: ../userdrake:1313
+#: ../userdrake:1314
 #, c-format
 msgid "Error"
 msgstr "Ката"
+
+#~ msgid "Error reading `%s': %s"
+#~ msgstr "Окуу учурундагы ката `%s': %s"
+
+#~ msgid "Error removing `%s': %s"
+#~ msgstr "Жоготуу учурундагы ката `%s': %s"
 
 #, fuzzy
 #~ msgid "Unknown error"

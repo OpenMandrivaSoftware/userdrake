@@ -9,101 +9,95 @@
 # 05Jul2001, niktarin, 114 messages, initial translation.
 # Nick Niktaris <niktarin@yahoo.com>, 2001.
 # Νίκος Νύκταρης (Nick Niktaris)  <niktarin@yahoo.com>, 2003.
-# Glentadakis Dimitrios <dglent@gmail.com>, 2008, 2009, 2010.
+# Dimitrios Glentadakis <dglent@gmail.com>, 2008, 2009, 2010, 2011, 2012.
 msgid ""
 msgstr ""
-"Project-Id-Version: userdrake-el\n"
+"Project-Id-Version: userdrake2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-02-02 03:03+0100\n"
-"PO-Revision-Date: 2010-02-06 22:23+0100\n"
-"Last-Translator: Glentadakis Dimitrios\n"
-"Language-Team: Greek <translators_team@mandrivalinux.gr>\n"
+"POT-Creation-Date: 2013-04-23 19:48+0200\n"
+"PO-Revision-Date: 2012-06-02 13:41+0200\n"
+"Last-Translator: Dimitrios Glentadakis <dglent@gmail.com>\n"
+"Language-Team: Greek <i18n-el@ml.mageia.org>\n"
+"Language: el\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 1.0\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Poedit-Language: Greek\n"
-"X-Poedit-Country: GREECE\n"
-"X-Poedit-SourceCharset: utf-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"X-Generator: Lokalize 1.4\n"
 
-#: ../USER/USER.xs:86
+#: ../USER/USER.xs:83
 #, c-format
-msgid "Error reading `%s': %s"
-msgstr "Σφάλμα στην ανάγνωση του `%s': %s"
-
-#: ../USER/USER.xs:93 ../USER/USER.xs:526
-#, c-format
-msgid "Error creating `%s': %s"
-msgstr "Σφάλμα στην δημιουργία του `%s': %s"
-
-#: ../USER/USER.xs:205 ../USER/USER.xs:234 ../USER/USER.xs:250
-#, c-format
-msgid "Error removing `%s': %s"
-msgstr "Σφάλμα στην αφαίρεση του `%s': %s"
-
-#: ../USER/USER.xs:490, c-format
 msgid "Account creation failed: '%s'.\n"
-msgstr "Σφάλμα κατά την δημιουργία του λογαριασμού: «%s».\n"
+msgstr "Η δημιουργία του λογαριασμού απέτυχε: «%s».\n"
 
-#: ../USER/USER.xs:503
+#: ../USER/USER.xs:96
 msgid "Cannot get Uid number"
 msgstr "Αδύνατη η λήψη του αριθμού Uid"
 
-#: ../USER/USER.xs:515
+#: ../USER/USER.xs:108
 msgid "Cannot retrieve value"
 msgstr "Αδύνατη η ανάκτηση της τιμής"
 
-#: ../USER/USER.xs:532
-msgid "Error creating mail spool.\n"
-msgstr "Σφάλμα στην δημιουργία του ταχυδρομικού νήματος.\n"
+#: ../USER/USER.xs:119
+#, c-format
+msgid "Error creating `%s': %s"
+msgstr "Σφάλμα κατά τη δημιουργία του `%s': %s"
 
-#: ../USER/USER.xs:582, c-format
+#: ../USER/USER.xs:125
+#, c-format
+msgid "Error creating mail spool: %s\n"
+msgstr ""
+"Σφάλμα κατά τη δημιουργία του καταλόγου αποθήκευσης ηλ.αλληλογραφίας: %s\n"
+
+#: ../USER/USER.xs:175
+#, c-format
 msgid "User could not be modified: '%s'.\n"
-msgstr "Ο χρήστης δεν μπορεί να τροποποιηθεί: «%s».\n"
+msgstr "Δεν είναι δυνατή η τροποποίηση του χρήστη: «%s».\n"
 
-#: ../USER/USER.xs:592
+#: ../USER/USER.xs:185
 #, c-format
 msgid "User Could Not be deleted: '%s'.\n"
-msgstr "Ο χρήστης δεν μπορεί να διαγραφεί: «%s».\n"
+msgstr "Δεν είναι δυνατή η διαγραφή του χρήστη: «%s».\n"
 
-#: ../USER/USER.xs:618
+#: ../USER/USER.xs:211
 #, c-format
 msgid "Failed to set password: '%s'.\n"
-msgstr "Ο ορισμός κωδικού πρόσβασης απέτυχε: «%s».\n"
+msgstr "Αποτυχία αρχικοποίησης του κωδικού πρόσβασης: «%s».\n"
 
-#: ../USER/USER.xs:618
+#: ../USER/USER.xs:211
 msgid "unknown error"
 msgstr "άγνωστο σφάλμα"
 
-#: ../USER/USER.xs:685
+#: ../USER/USER.xs:278
 msgid "Group creation failed.\n"
 msgstr "Η δημιουργία της ομάδας απέτυχε.\n"
 
-#: ../USER/USER.xs:695
+#: ../USER/USER.xs:288
 #, c-format
 msgid "Group could not be modified: '%s'.\n"
-msgstr "Η ομάδα δεν μπορεί να τροποποιηθεί: «%s».\n"
+msgstr "Δεν είναι δυνατή η τροποποίηση της ομάδας: «%s».\n"
 
-#: ../USER/USER.xs:705
+#: ../USER/USER.xs:298
 #, c-format
 msgid "Group could not be deleted: '%s'.\n"
-msgstr "Η ομάδα δεν μπορεί να διαγραφεί: «%s».\n"
+msgstr "Δεν είναι δυνατή η διαγραφή της ομάδας: «%s».\n"
 
-#: ../USER/USER.xs:863
+#: ../USER/USER.xs:456
 msgid "No home directory for the user.\n"
 msgstr "Κανένας προσωπικός κατάλογος για τον χρήστη.\n"
 
-#: ../USER/USER.xs:869 ../USER/USER.xs:871
+#: ../USER/USER.xs:462 ../USER/USER.xs:464
 #, c-format
 msgid "Home Directory Could Not be deleted: '%s'.\n"
 msgstr "Ο προσωπικός κατάλογος δεν μπορεί να διαγραφεί: «%s».\n"
 
-#: ../USER/USER.xs:881
-msgid "Error deleting mail spool.\n"
-msgstr "Σφάλμα στην διαγραφή του ταχυδρομικού νήματος.\n"
+#: ../USER/USER.xs:475
+#, c-format
+msgid "Error deleting mail spool: %s\n"
+msgstr ""
+"Σφάλμα κατά τη διαγραφή του καταλόγου αποθήκευσης ηλ.αλληλογραφίας: %s\n"
 
-#: ../userdrake:59 ../userdrake:1275
+#: ../userdrake:59 ../userdrake:1276
 #, c-format
 msgid "Userdrake"
 msgstr "Userdrake"
@@ -111,22 +105,22 @@ msgstr "Userdrake"
 #: ../userdrake:64
 #, c-format
 msgid "Loading Users and Groups... Please wait"
-msgstr "Φορτώνονται οι Χρήστες και οι Ομάδες... Παρακαλώ περιμένετε"
+msgstr "Φόρτωση των χρηστών και των ομάδων... Παρακαλώ περιμένετε"
 
 #: ../userdrake:83
 #, c-format
-msgid "Mandriva Linux Users Management Tool"
-msgstr "Εργαλείο Διαχείρισης Χρηστών Mandriva Linux"
+msgid "OpenMandriva Users Management Tool"
+msgstr "Εργαλείο διαχείρισης χρηστών OpenMandriva"
 
 #: ../userdrake:96
 #, c-format
 msgid "/_Install guest account"
-msgstr "/_Εγκατάσταση λογαριασμού guest"
+msgstr "/_Εγκατάσταση λογαριασμού επισκέπτη"
 
 #: ../userdrake:97
 #, c-format
 msgid "/_Uninstall guest account"
-msgstr "/_Απεγκατάσταση του λογαριασμού guest"
+msgstr "/_Απεγκατάσταση του λογαριασμού επισκέπτη"
 
 #: ../userdrake:101 ../userdrake:102 ../userdrake:103 ../userdrake:114
 #: ../userdrake:115 ../userdrake:116
@@ -177,12 +171,12 @@ msgstr "<control>Q"
 #: ../userdrake:115
 #, c-format
 msgid "/_Add User"
-msgstr "/_Προσθήκη Χρήστη"
+msgstr "/_Προσθήκη χρήστη"
 
 #: ../userdrake:116
 #, c-format
 msgid "/Add _Group"
-msgstr "/Προσθήκη _Ομάδας"
+msgstr "/Προσθήκη _ομάδας"
 
 #: ../userdrake:125 ../userdrake:126 ../userdrake:127 ../userdrake:130
 #, c-format
@@ -192,12 +186,12 @@ msgstr "/_Βοήθεια"
 #: ../userdrake:127
 #, c-format
 msgid "/_Report Bug"
-msgstr "/_Αναφορά Σφάλματος"
+msgstr "/_Αναφορά σφάλματος"
 
 #: ../userdrake:130
 #, c-format
 msgid "/_About..."
-msgstr "/_Περί..."
+msgstr "/Σχετικά με..."
 
 #: ../userdrake:148
 #, c-format
@@ -223,37 +217,37 @@ msgstr "Ομάδες"
 #: ../userdrake:168
 #, c-format
 msgid "Users and groups"
-msgstr "Χρήστες και Ομάδες"
+msgstr "Χρήστες και ομάδες"
 
 #: ../userdrake:186
 #, c-format
 msgid "User Name"
-msgstr "Όνομα Χρήστη"
+msgstr "Όνομα χρήστη"
 
 #: ../userdrake:186
 #, c-format
 msgid "User ID"
-msgstr "ID Χρήστη"
+msgstr "ID χρήστη"
 
 #: ../userdrake:186 ../userdrake:1038
 #, c-format
 msgid "Primary Group"
-msgstr "Πρωτεύουσα Ομάδα"
+msgstr "Κύρια ομάδα"
 
 #: ../userdrake:187
 #, c-format
 msgid "Full Name"
-msgstr "Πλήρες Όνομα"
+msgstr "Πλήρες όνομα"
 
 #: ../userdrake:187
 #, c-format
 msgid "Login Shell"
-msgstr "Κέλυφος Προσπέλασης"
+msgstr "Κέλυφος σύνδεσης"
 
 #: ../userdrake:187
 #, c-format
 msgid "Home Directory"
-msgstr "Αρχικός Κατάλογος"
+msgstr "Προσωπικός κατάλογος"
 
 #: ../userdrake:187
 #, c-format
@@ -263,22 +257,22 @@ msgstr "Κατάσταση"
 #: ../userdrake:194
 #, c-format
 msgid "Group Name"
-msgstr "Όνομα Ομάδας"
+msgstr "Όνομα ομάδας"
 
 #: ../userdrake:194
 #, c-format
 msgid "Group ID"
-msgstr "ID Ομάδας"
+msgstr "ID ομάδας"
 
 #: ../userdrake:194
 #, c-format
 msgid "Group Members"
-msgstr "Μέλη Ομάδας"
+msgstr "Μέλη της ομάδας"
 
 #: ../userdrake:196
 #, c-format
 msgid "Add User"
-msgstr "Προσθήκη Χρήστη"
+msgstr "Προσθήκη χρήστη"
 
 #: ../userdrake:196
 #, c-format
@@ -288,7 +282,7 @@ msgstr "Προσθήκη ενός χρήστη στο σύστημα"
 #: ../userdrake:197
 #, c-format
 msgid "Add Group"
-msgstr "Προσθήκη Ομάδας"
+msgstr "Προσθήκη ομάδας"
 
 #: ../userdrake:197
 #, c-format
@@ -303,7 +297,7 @@ msgstr "Επεξεργασία"
 #: ../userdrake:198
 #, c-format
 msgid "Edit selected row"
-msgstr "Επεξεργασία επιλεγμένης γραμμής"
+msgstr "Επεξεργασία της επιλεγμένης γραμμής"
 
 #: ../userdrake:199 ../userdrake:674 ../userdrake:707 ../userdrake:739
 #, c-format
@@ -313,7 +307,7 @@ msgstr "Διαγραφή"
 #: ../userdrake:199
 #, c-format
 msgid "Delete selected row"
-msgstr "Διαγραφή επιλεγμένης σειράς"
+msgstr "Διαγραφή της επιλεγμένης γραμμής"
 
 #: ../userdrake:200
 #, c-format
@@ -328,12 +322,12 @@ msgstr "Ανανέωση της λίστας"
 #: ../userdrake:263
 #, c-format
 msgid "Locked"
-msgstr "Κλειδωμένος"
+msgstr "Κλειδωμένο"
 
 #: ../userdrake:263
 #, c-format
 msgid "Expired"
-msgstr "Έληξε"
+msgstr "Ληγμένο"
 
 #: ../userdrake:339
 #, c-format
@@ -343,22 +337,22 @@ msgstr "Κάντε κλικ πάνω στο εικονίδιο για να το 
 #: ../userdrake:385
 #, c-format
 msgid "Create New User"
-msgstr "Δημιουργία Νέου Χρήστη"
+msgstr "Δημιουργία ενός νέου χρήστη"
 
 #: ../userdrake:391
 #, c-format
 msgid "Create Home Directory"
-msgstr "Δημιουργία Αρχικού Καταλόγου Χρήστη"
+msgstr "Δημιουργία του προσωπικού καταλόγου"
 
 #: ../userdrake:393
 #, c-format
 msgid "Home Directory: "
-msgstr "Αρχικός Κατάλογος: "
+msgstr "Προσωπικός κατάλογος: "
 
 #: ../userdrake:396
 #, c-format
 msgid "Create a private group for the user"
-msgstr "Δημιουργία μιας προσωπικής ομάδας για τον χρήστη"
+msgstr "Δημιουργία μιας ιδιωτικής ομάδας για το χρήστη"
 
 #: ../userdrake:397
 #, c-format
@@ -368,26 +362,27 @@ msgstr "Χειροκίνητος ορισμός ID χρήστη"
 #: ../userdrake:414
 #, c-format
 msgid "User already exists, please choose another User Name"
-msgstr "Ο χρήστης υπάρχει ήδη, παρακαλώ επιλέξτε ένα άλλο Όνομα Χρήστη"
+msgstr "Ο χρήστης υπάρχει ήδη, παρακαλώ επιλέξτε ένα άλλο όνομα χρήστη"
 
-#: ../userdrake:419 ../userdrake:860
+#: ../userdrake:419 ../userdrake:859
 #, c-format
 msgid "Password Mismatch"
-msgstr "Ο κωδικός δεν συμπίπτει"
+msgstr "Ο κωδικός πρόσβασης δεν συμφωνεί"
 
-#: ../userdrake:422 ../userdrake:863
+#: ../userdrake:422 ../userdrake:862
 #, c-format
 msgid ""
 "This password is too simple. \n"
 " Good passwords should be > 6 characters"
 msgstr ""
 "Αυτός ο κωδικός πρόσβασης είναι πολύ απλός. \n"
-" Ένας καλός κωδικός πρέπει να έχει > 6 χαρακτήρες"
+" Ένας καλός κωδικός πρόσβασης θα πρέπει να περιέχει περισσότερους από 6 "
+"χαρακτήρες"
 
 #: ../userdrake:434
 #, c-format
 msgid "User Uid is < 500"
-msgstr "Το Uid χρήστη είναι < 500"
+msgstr "Το Uid του χρήστη είναι μικρότερο από 500"
 
 #: ../userdrake:435
 #, c-format
@@ -396,14 +391,14 @@ msgid ""
 " Are you sure you want to do this?\n"
 "\n"
 msgstr ""
-"Η δημιουργία χρήστη με UID μικρότερη από 500 δεν συνιστάται.\n"
-"Είστε βέβαιοι ότι θέλετε να συνεχίσετε;\n"
+"Η δημιουργία χρήστη με UID μικρότερο από 500 δεν συνιστάται.\n"
+" Είστε βέβαιος/η ότι θέλετε να συνεχίσετε;\n"
 "\n"
 
 #: ../userdrake:450
 #, c-format
 msgid "Putting %s to 'users' group"
-msgstr "Τοποθέτηση %s στην ομάδας 'χρηστών'"
+msgstr "Προσθήκη του %s στην ομάδα «users»"
 
 #: ../userdrake:457
 #, c-format
@@ -413,30 +408,30 @@ msgstr "Δημιουργία νέας ομάδας: %s"
 #: ../userdrake:466
 #, c-format
 msgid "Adding user: %s"
-msgstr "Προσθήκη χρήστη: %s"
+msgstr "Προσθήκη του χρήστη: %s"
 
 #: ../userdrake:478
 #, c-format
 msgid "Migration wizard"
-msgstr "Οδηγός εισαγωγής"
+msgstr "Οδηγός μεταφοράς"
 
 #: ../userdrake:479
 #, c-format
 msgid ""
 "Do you want to run the migration wizard in order to import Windows documents "
-"and settings in your Mandriva Linux distribution?"
+"and settings in your OpenMandriva distribution?"
 msgstr ""
-"Θέλετε να εκκινήσετε τον οδηγό εισαγωγής των εγγράφων και των ρυθμίσεων από "
-"τα Windows, προς την διανομή σας Mandriva Linux ;"
+"Επιθυμείτε την εκτέλεση του οδηγού μεταφοράς ώστε να γίνει η εισαγωγή "
+"εγγράφων και ρυθμίσεων στην διανομή σας OpenMandriva;"
 
 #: ../userdrake:484 ../userdrake:528 ../userdrake:587 ../userdrake:674
-#: ../userdrake:707 ../userdrake:1166
+#: ../userdrake:707 ../userdrake:1167
 #, c-format
 msgid "Cancel"
 msgstr "Άκυρο"
 
-#: ../userdrake:484 ../userdrake:521 ../userdrake:587 ../userdrake:1166
-#: ../userdrake:1317
+#: ../userdrake:484 ../userdrake:521 ../userdrake:587 ../userdrake:1167
+#: ../userdrake:1318
 #, c-format
 msgid "Ok"
 msgstr "Εντάξει"
@@ -449,7 +444,7 @@ msgstr "UID: "
 #: ../userdrake:510
 #, c-format
 msgid "Choose group"
-msgstr "Επιλέξτε Ομάδα"
+msgstr "Επιλέξτε ομάδα"
 
 #: ../userdrake:512 ../userdrake:513
 #, c-format
@@ -459,17 +454,17 @@ msgstr "Προσθήκη στην υπάρχουσα ομάδα"
 #: ../userdrake:514
 #, c-format
 msgid "Add to the 'users' group"
-msgstr "Προσθήκη στην ομάδα 'χρηστών'"
+msgstr "Προσθήκη στην ομάδα «users»"
 
 #: ../userdrake:516
 #, c-format
 msgid "A group with this name already exists.  What would you like to do?"
-msgstr "Μια ομάδα με αυτό το όνομα υπάρχει ήδη.  Τι θέλετε να κάνετε;"
+msgstr "Μια ομάδα με αυτό το όνομα υπάρχει ήδη. Τι θα θέλατε να κάνετε;"
 
 #: ../userdrake:546
 #, c-format
 msgid "Create New Group"
-msgstr "Δημιουργία Νέας Ομάδας"
+msgstr "Δημιουργία νέας ομάδας"
 
 #: ../userdrake:551
 #, c-format
@@ -479,12 +474,12 @@ msgstr "Χειροκίνητος ορισμός ID ομάδας"
 #: ../userdrake:567
 #, c-format
 msgid "Group already exists, please choose another Group Name"
-msgstr "Η ομάδα υπάρχει ήδη, παρακαλώ επιλέξτε ένα άλλο Όνομα Χρήστη"
+msgstr "Η ομάδα υπάρχει ήδη, παρακαλώ επιλέξτε ένα άλλο όνομα ομάδας"
 
 #: ../userdrake:573
 #, c-format
 msgid " Group Gid is < 500"
-msgstr "Το Gid της ομάδας είναι < 500"
+msgstr " Το Gid της ομάδας είναι μικρότερο του 500"
 
 #: ../userdrake:574
 #, c-format
@@ -493,14 +488,14 @@ msgid ""
 " Are you sure you want to do this?\n"
 "\n"
 msgstr ""
-"Η δημιουργία ομάδας με GID μικρότερη από 500 δεν συνιστάται.\n"
-"Είστε βέβαιοι ότι θέλετε να συνεχίσετε;\n"
+"Η δημιουργία ομάδας με GID μικρότερο του 500 δεν συνιστάται.\n"
+" Είστε βέβαιος/η ότι θέλετε να συνεχίσετε;\n"
 "\n"
 
 #: ../userdrake:581
 #, c-format
 msgid "Adding group: %s "
-msgstr "Προστίθεται η ομάδα: %s "
+msgstr "Προσθήκη της ομάδας: %s "
 
 #: ../userdrake:591
 #, c-format
@@ -510,7 +505,7 @@ msgstr "GID: "
 #: ../userdrake:636
 #, c-format
 msgid "Delete files or not?"
-msgstr "Σβήσιμο των αρχείων ή όχι;"
+msgstr "Διαγραφή των αρχείων ή όχι;"
 
 #: ../userdrake:639
 #, c-format
@@ -519,17 +514,17 @@ msgid ""
 " Also perform the following actions\n"
 msgstr ""
 "Διαγράφεται ο χρήστης %s\n"
-"Επίσης κάντε και τα παρακάτω\n"
+" Επίσης πραγματοποιήστε και τις παρακάτω ενέργειες\n"
 
 #: ../userdrake:641
 #, c-format
 msgid "Delete Home Directory: %s"
-msgstr "Διαγραφή Αρχικού Καταλόγου: %s"
+msgstr "Διαγραφή προσωπικού καταλόγου: %s"
 
 #: ../userdrake:642
 #, c-format
 msgid "Delete Mailbox: /var/spool/mail/%s"
-msgstr "Διαγραφή Γραμματοκιβωτίου :/var/spool/mail/%s"
+msgstr "Διαγραφή γραμματοκιβωτίου :/var/spool/mail/%s"
 
 #: ../userdrake:651
 #, c-format
@@ -539,7 +534,7 @@ msgstr "Αφαίρεση χρήστη: %s"
 #: ../userdrake:684
 #, c-format
 msgid "Do you really want to delete the group %s?"
-msgstr "Είστε βέβαιοι για τη διαγραφή τις ομάδας %s;"
+msgstr "Επιθυμείτε πραγματικά τη διαγραφή της ομάδας %s;"
 
 #: ../userdrake:697
 #, c-format
@@ -547,8 +542,8 @@ msgid ""
 "%s is a primary group for user %s\n"
 " Remove the user first"
 msgstr ""
-"Η %s είναι μια πρωτεύουσα ομάδα για τον χρήστη %s\n"
-" Αφαιρέστε πρώτα τον χρήστη"
+"%s είναι μια κύρια ομάδα για τον χρήστη %s\n"
+" Αφαιρέστε το χρήστη πρώτα"
 
 #: ../userdrake:702
 #, c-format
@@ -558,12 +553,12 @@ msgstr "Αφαίρεση ομάδας: %s"
 #: ../userdrake:798
 #, c-format
 msgid "Full Name:"
-msgstr "Πλήρες Όνομα:"
+msgstr "Πλήρες όνομα:"
 
 #: ../userdrake:800
 #, c-format
 msgid "Login:"
-msgstr "Προσπέλαση:"
+msgstr "Χρήστης:"
 
 #: ../userdrake:802
 #, c-format
@@ -573,86 +568,86 @@ msgstr "Κωδικός πρόσβασης:"
 #: ../userdrake:804
 #, c-format
 msgid "Confirm Password:"
-msgstr "Επαλήθευση Κωδικού:"
+msgstr "Επιβεβαίωση του κωδικού πρόσβασης:"
 
 #: ../userdrake:806
 #, c-format
 msgid "Login Shell:"
-msgstr "Κέλυφος Προσπέλασης:"
+msgstr "Κέλυφος σύνδεσης:"
 
-#: ../userdrake:820
+#: ../userdrake:819
 #, c-format
 msgid "Group Name:"
-msgstr "Όνομα Ομάδας:"
+msgstr "Όνομα ομάδας:"
 
-#: ../userdrake:894
+#: ../userdrake:893
 #, c-format
 msgid "Please select at least one group for the user"
 msgstr "Παρακαλώ επιλέξτε τουλάχιστον μία ομάδα για τον χρήστη"
 
-#: ../userdrake:904
+#: ../userdrake:903
 #, c-format
 msgid ""
 "Please specify Year, Month and Day \n"
 " for Account Expiration "
 msgstr ""
-"Παρακαλώ ορίστε την Ημέρα, Μήνα και \n"
-"Χρόνο Λήξης του Λογαριασμό "
+"Παρακαλώ καθορίστε το έτος, το μήνα και την ημέρα\n"
+" για την λήξη του λογαριασμού"
 
-#: ../userdrake:914
+#: ../userdrake:913
 #, c-format
 msgid "Please fill up all fields in password aging\n"
-msgstr "Παρακαλώ συμπληρώστε όλα τα πεδία στη γήρανση κωδικού πρόσβασης\n"
+msgstr "Παρακαλώ συμπληρώστε όλα τα πεδία για την λήξη του κωδικού πρόσβασης\n"
 
 #: ../userdrake:965
 #, c-format
 msgid "You cannot remove user '%s' from their primary group"
-msgstr "Δεν μπορείτε να αφαιρέσετε τον χρήστη '%s' από την πρωτεύουσα ομάδα"
+msgstr "Δεν μπορείτε να αφαιρέσετε τον χρήστη «%s» από την κύρια ομάδα του"
 
 #: ../userdrake:986
 #, c-format
 msgid "Home:"
-msgstr "Αρχικός κατάλογος:"
+msgstr "Προσωπικός φάκελος:"
 
 #: ../userdrake:988
 #, c-format
 msgid "User Data"
-msgstr "Δεδομένα Χρήστη"
+msgstr "Δεδομένα χρήστη"
 
 #: ../userdrake:992
 #, c-format
 msgid "Enable account expiration"
-msgstr "Ενεργοποίηση λήξης λογαριασμού"
+msgstr "Ενεργοποίηση λήξης του λογαριασμού"
 
 #: ../userdrake:994
 #, c-format
 msgid "Account expires (YYYY-MM-DD):"
-msgstr "Λήξη λογαριασμού (ΧΧΧΧ-ΜΜ-ΗΗ):"
+msgstr "Λήξη λογαριασμού (ΕΕΕΕ-ΜΜ-ΗΗ):"
 
 #: ../userdrake:1002
 #, c-format
 msgid "Lock User Account"
-msgstr "Κλείδωμα του Λογαριασμού Χρήστη"
+msgstr "Φραγή του λογαριασμού χρήστη"
 
 #: ../userdrake:1005
 #, c-format
 msgid "Account Info"
-msgstr "Πληροφορίες Λογαριασμού"
+msgstr "Πληροφορίες λογαριασμού"
 
 #: ../userdrake:1010
 #, c-format
 msgid "User last changed password on: "
-msgstr "Ο χρήστης άλλαξε τελευταία τον κωδικό του στις : "
+msgstr "Ο χρήστης άλλαξε τον κωδικό του την τελευταία φορά στις: "
 
 #: ../userdrake:1017
 #, c-format
 msgid "Enable Password Expiration"
-msgstr "Ενεργοποίηση Λήξης Κωδικού Πρόσβασης"
+msgstr "Ενεργοποίηση λήξης του κωδικού πρόσβασης"
 
 #: ../userdrake:1022
 #, c-format
 msgid "Days before change allowed:"
-msgstr "Ημέρες πριν επιτραπεί η αλλαγή :"
+msgstr "Αριθμός ημερών πριν να επιτραπεί μια αλλαγή:"
 
 #: ../userdrake:1024
 #, c-format
@@ -699,45 +694,50 @@ msgstr "Ομάδα Χρηστών"
 msgid "Edit Groups / Users"
 msgstr "Επεξεργασία Ομάδων / Χρηστών"
 
-#: ../userdrake:1159
+#: ../userdrake:1160
 #, c-format
 msgid "An error occurred:"
-msgstr "Προκλήθηκε σφάλμα :"
+msgstr "Παρουσιάστηκε ένα σφάλμα :"
 
-#: ../userdrake:1267
+#: ../userdrake:1268
 #, c-format
 msgid "Close"
 msgstr "Κλείσιμο"
 
-#: ../userdrake:1277
+#: ../userdrake:1278
 #, c-format
 msgid "Copyright (C) %s by Mandriva"
-msgstr "Copyright (C)%s by mandriva"
+msgstr "Πνευματικά δικαιώματα (C)%s από Mandriva"
 
-#: ../userdrake:1280
+#: ../userdrake:1278
+#, c-format
+msgid "Copyright (C) %s by OpenMandriva"
+msgstr "Πνευματικά δικαιώματα (C) %s από τη OpenMandriva"
+
+#: ../userdrake:1281
 #, c-format
 msgid "Users Management"
-msgstr "Διαχείριση Χρηστών"
+msgstr "Διαχείριση χρηστών"
 
-#: ../userdrake:1282
+#: ../userdrake:1283
 #, c-format
-msgid "Mandriva Linux"
-msgstr "Mandriva Linux"
+msgid "OpenMandriva"
+msgstr "OpenMandriva"
 
 #. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
-#: ../userdrake:1288
+#: ../userdrake:1289
 #, c-format
 msgid "_: Translator(s) name(s) & email(s)\n"
 msgstr ""
 "Νίκος Νύκταρης <niktarin@yahoo.com>\n"
-"Glentadakis Dimitrios <dglent@gmail.com>\n"
+"Δημήτριος Γλενταδάκης <dglent@gmail.com>\n"
 
-#: ../userdrake:1295
+#: ../userdrake:1296
 #, c-format
 msgid "Name field is empty please provide a name"
-msgstr "Το πεδίο όνομα είναι κενό, παρακαλώ δώστε ·ένα όνομα"
+msgstr "Το πεδίο όνομα είναι κενό παρακαλώ δώστε ένα όνομα"
 
-#: ../userdrake:1297
+#: ../userdrake:1298
 #, c-format
 msgid ""
 "The name must contain only lower cased latin letters, numbers, `-' and `_'"
@@ -745,373 +745,18 @@ msgstr ""
 "Το όνομα πρέπει να περιέχει μόνο μικρά λατινικά γράμματα, αριθμούς, `-' και "
 "`_'"
 
-#: ../userdrake:1300
+#: ../userdrake:1301
 #, c-format
 msgid "Name is too long"
 msgstr "Το όνομα είναι πολύ μακρύ"
 
-#: ../userdrake:1313
+#: ../userdrake:1314
 #, c-format
 msgid "Error"
 msgstr "Σφάλμα"
 
-#, fuzzy
-#~ msgid "Unknown error"
-#~ msgstr "άγνωστο σφάλμα"
-
-#, fuzzy
-#~ msgid "Error creating %s: %s.\n"
-#~ msgstr "Σφάλμα στην δημιουργία του `%s': %s"
-
-#~ msgid "Authors: "
-#~ msgstr "Δημιουργοί: "
-
-#~ msgid "Yes"
-#~ msgstr "Ναι"
-
-#~ msgid "No"
-#~ msgstr "Όχι"
-
-#~ msgid "Warning : Deleting User"
-#~ msgstr "Προσοχή : Διαγραφή Χρήστη"
-
-#~ msgid "Warning : Deleting Group"
-#~ msgstr "Προσοχή : Διαγραφή Ομάδας"
-
-#~ msgid "Help"
-#~ msgstr "Βοήθεια"
-
-#~ msgid "Reload"
-#~ msgstr "Ανανέωση"
-
-#~ msgid "Save"
-#~ msgstr "Αποθήκευση"
-
-#~ msgid "Exit"
-#~ msgstr "Έξοδος"
-
-#~ msgid "Settings"
-#~ msgstr "Ρυθμίσεις"
-
-#~ msgid "Show tools bar"
-#~ msgstr "Εμφάνιση μπάρας εργαλείων"
-
-#~ msgid "View users"
-#~ msgstr "Προβολή χρηστών"
-
-#~ msgid "Preferences"
-#~ msgstr "Προτιμήσεις"
-
-#~ msgid "Ldap Server"
-#~ msgstr "Διακομιστής Ldap"
-
-#~ msgid "Save change"
-#~ msgstr "Αποθήκευση αλλαγών"
-
-#~ msgid "Add"
-#~ msgstr "Προσθήκη"
-
-#~ msgid "Edit user(s)"
-#~ msgstr "Επεξεργασία χρήστη(ών)"
-
-#~ msgid "Remove"
-#~ msgstr "Αφαίρεση"
-
-#~ msgid "Edit group(s)"
-#~ msgstr "Επεξεργασία ομάδας(ων)"
-
-#~ msgid "User id"
-#~ msgstr "id χρήστη"
-
-#~ msgid "Group id"
-#~ msgstr "id ομάδας"
-
-#~ msgid "Comments"
-#~ msgstr "Σχόλια"
-
-#~ msgid "Shell"
-#~ msgstr "Κέλυφος"
-
-#~ msgid "name"
-#~ msgstr "όνομα"
-
-#~ msgid "gid"
-#~ msgstr "gid"
-
-#~ msgid "passwd"
-#~ msgstr "κωδικός"
-
-#~ msgid "users"
-#~ msgstr "χρήστες"
-
-#~ msgid "Parameters"
-#~ msgstr "Παράμετροι"
-
-#~ msgid "General option"
-#~ msgstr "Γενικές επιλογές"
-
-#~ msgid "Edit accounts on a LDAP directory"
-#~ msgstr "Επεξεργασία λογαριασμών σε κατάλογο LDAP"
-
-#~ msgid "Active autologin support"
-#~ msgstr "Ενεργή υποστήριξη αυτόματης προσπέλασης στο σύστημα"
-
-#~ msgid "User creation"
-#~ msgstr "Δημιουργία χρήστη"
-
-#~ msgid "Default shell:"
-#~ msgstr "Προεπιλεγμένο κέλυφος"
-
-#~ msgid "Default home dir:"
-#~ msgstr "Προεπιλεγμένος αρχικός κατάλογος"
-
-#~ msgid "Default face:"
-#~ msgstr "Προεπιλεγμένη όψη"
-
-#~ msgid "Default group:"
-#~ msgstr "Προεπιλεγμένη ομάδα:"
-
-#~ msgid "General"
-#~ msgstr "Γενικά"
-
-#~ msgid "Don't show user with id less than 500"
-#~ msgstr "Απόκρυψη χρηστών με ταυτότητα μικρότερη από 500"
-
-#~ msgid "User identifier"
-#~ msgstr "Αναγνωριστικό χρήστη"
-
-#~ msgid "Default Group"
-#~ msgstr "Προεπιλεγμένη ομάδα"
-
-#~ msgid "Groups list"
-#~ msgstr "Λίστα ομάδων"
-
-#~ msgid "Users View"
-#~ msgstr "Προβολή Χρηστών"
-
-#~ msgid "Group identifier"
-#~ msgstr "Αναγνωριστικό ομάδας"
-
-#~ msgid "Groups View"
-#~ msgstr "Προβολή Ομάδων"
-
-#~ msgid "/bin/bash"
-#~ msgstr "/bin/bash"
-
-#~ msgid "uid:"
-#~ msgstr "uid:"
-
-#~ msgid "Comment:"
-#~ msgstr "Σχόλιο:"
-
-#~ msgid "Shell:"
-#~ msgstr "Κέλυφος:"
-
-#~ msgid "Home dir:"
-#~ msgstr "Αρχικός φάκελος:"
-
-#~ msgid "passwd:"
-#~ msgstr "κωδικός:"
-
-#~ msgid "Retype passwd:"
-#~ msgstr "Ξανά ο κωδικός:"
-
-#~ msgid "Identity"
-#~ msgstr "Ταυτότητα"
-
-#~ msgid "Available groups"
-#~ msgstr "Διαθέσιμες ομάδες"
-
-#~ msgid "Extended"
-#~ msgstr "Εκτενές"
-
-#~ msgid "About UserDrake"
-#~ msgstr "Περί του UserDrake"
-
-#~ msgid ""
-#~ "Userdrake is an application to add and\n"
-#~ "delete users on the Mandriva Linux\n"
-#~ "distribution.\n"
-#~ "\n"
-#~ "Userdrake now support ldap directory\n"
-#~ "support conformed to rfc2307bis.\n"
-#~ "\n"
-#~ "This application is under the GPL\n"
-#~ "license and is delived without\n"
-#~ "any warranty.\n"
-#~ "\n"
-#~ "You can get support at : \n"
-#~ "http://www.mandrakeexpert.com/"
-#~ msgstr ""
-#~ "Το UserDrake είναι μια εφαρμογή για την\n"
-#~ "προσθήκη και αφαίρεση χρηστών στην διανομή\n"
-#~ "Mandriva Linux\n"
-#~ "\n"
-#~ "Το Userdrake υποστηρίζει πλέον υποστήριξη για κατάλογο ldap \n"
-#~ "σύμφωνα με το rfc2307bis.\n"
-#~ "\n"
-#~ "Η εφαρμογή αυτή είναι κάτω από την άδεια\n"
-#~ "χρήσης GPL και διατίθεται χωρίς καμία \n"
-#~ "εγγύηση. \n"
-#~ "\n"
-#~ "\n"
-#~ "Αναφέρετε προβλήματα στο:\n"
-#~ "http://www.mandrakeexpert.com/"
-
-#~ msgid "Name:"
-#~ msgstr "Όνομα:"
-
-#~ msgid "gid:"
-#~ msgstr "gid:"
-
-#~ msgid "In group"
-#~ msgstr "Στην ομάδα"
-
-#~ msgid "Not in group"
-#~ msgstr "Όχι στην ομάδα"
-
-#~ msgid "Quit userdrake?"
-#~ msgstr "Έξοδος από το userdrake;"
-
-#~ msgid ""
-#~ "You have made changes\n"
-#~ "since the last save.\n"
-#~ "Do you really want to quit\n"
-#~ "userdrake?"
-#~ msgstr ""
-#~ "Έχετε κάνει αλλαγές\n"
-#~ "από την τελευταία  αποθήκευση.\n"
-#~ "Θέλετε πραγματικά να τερματίσετε\n"
-#~ "το userdrake;"
-
-#~ msgid "Enter new passwd"
-#~ msgstr "Εισάγετε τον νέο κωδικό"
-
-#~ msgid "new passwd:"
-#~ msgstr "νέος κωδικός:"
-
-#~ msgid "Change"
-#~ msgstr "Αλλαγή"
-
-#~ msgid "Change face"
-#~ msgstr "Αλλαγή όψης"
-
-#~ msgid "Set passwd"
-#~ msgstr "Βάλτε κωδικό"
-
-#~ msgid "User autologin"
-#~ msgstr "Αυτόματη προσπέλαση χρήστη με:"
-
-#~ msgid "UserDrake - Error"
-#~ msgstr "Userdrake - Σφάλμα"
-
-#~ msgid "couldn't find blue color in /usr/lib/X11/rgb.txt file"
-#~ msgstr "δεν βρέθηκε το μπλε χρώμα στο αρχείο /usr/lib/X11/rgb.txt"
-
-#~ msgid "Select the image to use"
-#~ msgstr "Επιλέξτε την εικόνα προς χρήση"
-
-#~ msgid "Custom..."
-#~ msgstr "Προσαρμογή..."
-
-#~ msgid "couldn't find grey color in /usr/lib/X11/rgb.txt file"
-#~ msgstr "δεν βρέθηκε το γκρι χρώμα στο αρχείο /usr/lib/X11/rgb.txt"
-
-#~ msgid "couldn't find black color in /usr/lib/X11/rgb.txt file"
-#~ msgstr "δεν βρέθηκε το μαύρο χρώμα στο αρχείο /usr/lib/X11/rgb.txt"
-
-#~ msgid "login empty"
-#~ msgstr "κενή προσπέλαση"
-
-#~ msgid "This login already exists on the system"
-#~ msgstr "Αυτό το όνομα χρήστη υπάρχει ήδη στο σύστημα"
-
-#~ msgid "The login is similar to a name's group"
-#~ msgstr "Το όνομα χρήστη είναι παρόμοιο με το όνομα μιας ομάδας"
-
-#~ msgid ""
-#~ "%s\n"
-#~ "User id already in use"
-#~ msgstr ""
-#~ "%s\n"
-#~ "Το id του χρήστη υπάρχει ήδη"
-
-#~ msgid "User id already in use"
-#~ msgstr "Ο χρήστης υπάρχει ήδη"
-
-#~ msgid "name empty"
-#~ msgstr "Το όνομα είναι άδειο"
-
-#~ msgid ""
-#~ "%s\n"
-#~ "Group id already in use"
-#~ msgstr ""
-#~ "%s\n"
-#~ "Το id της ομάδας υπάρχεί ήδη"
-
-#~ msgid "Group id already in use"
-#~ msgstr "Η ομάδα υπάρχει ήδη"
-
-#~ msgid "Couldn't find pixmap file: %s"
-#~ msgstr "Δεν βρέθηκε το αρχείο pixmap: %s"
-
-#~ msgid "%s: the file %s is busy (%s present)\n"
-#~ msgstr "%s: το αρχείο %s είναι απασχολημένο (%s τοις εκατό)\n"
-
-#~ msgid "%s: can't unlock %s: %s (your changes are still in %s)\n"
-#~ msgstr ""
-#~ "%s: δεν είναι δυνατή η απεμπλοκή του %s: %s (οι αλλαγές είναι ακόμη στο %"
-#~ "s)\n"
-
-#~ msgid "%s: no changes made\n"
-#~ msgstr "%s: δεν έγιναν αλλαγές\n"
-
-#~ msgid "Select LDAP Directory"
-#~ msgstr "Επιλέξτε Κατάλογο LDAP"
-
-#~ msgid "Server address:"
-#~ msgstr "Διεύθυνση Διακομιστή:"
-
-#~ msgid "Search base:"
-#~ msgstr "Βάση αναζήτησης:"
-
-#~ msgid "Connection Type :"
-#~ msgstr "Τύπος Σύνδεσης :"
-
-#~ msgid "ssl"
-#~ msgstr "ssl"
-
-#~ msgid "Validate"
-#~ msgstr "Επαλήθευση"
-
-#~ msgid "Test"
-#~ msgstr "Δοκιμή"
-
-#~ msgid "cannot change ldap version to 3: %s"
-#~ msgstr "δεν είναι δυνατή η αλλάγη του ldap στην έκδοση 3 : %s"
-
-#~ msgid "cannot connect to the ldap server\n"
-#~ msgstr "δεν είναι δυνατή η σύνδεση με τον διακομιστή  ldap\n"
-
-#~ msgid "Cannot bind to ldap server"
-#~ msgstr "Αδύνατη η σύνδεση τον διακομιστή ldap"
-
-#~ msgid "cannot save because the cannot connect to the ldap server"
-#~ msgstr ""
-#~ "αδύνατη η αποθήκευση λόγο αποτυχίας σύνδεσης με τον διακομιστής ldap"
-
-#~ msgid "The passwords string aren't the same!"
-#~ msgstr "Οι εισαγωγές τον κωδικών δεν είναι ίδιες!"
-
-#~ msgid "cannot launch UserDrake"
-#~ msgstr "Δεν μπορεί να εκτελεστεί το UserDrake"
-
-#~ msgid "You must be root to use userdrake"
-#~ msgstr "Πρέπει να είστε υπερχρήστης(root) για να εκτελέσετε το userdrake"
-
-#~ msgid ""
-#~ "Cannot lock user lib,\n"
-#~ "file /etc/ptmp or /etc/gtmp exist"
-#~ msgstr ""
-#~ "Δεν μπορεί να ξεκλειδωθεί η lib του χρήστη,\n"
-#~ "το αρχείο /etc/ptmp ή /etc/gtmp υπάρχει"
+#~ msgid "Error reading `%s': %s"
+#~ msgstr "Σφάλμα κατά την ανάγνωση του «%s»: %s"
+
+#~ msgid "Error removing `%s': %s"
+#~ msgstr "Σφάλμα κατά την αφαίρεση του `%s': %s"

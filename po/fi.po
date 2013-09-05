@@ -1,7 +1,7 @@
 # userdrake-fi - Finnish Translation
 #
 # Copyright (C) 2002,2003, 2004 Free Software Foundation, Inc.
-#
+# Copyright (C) 2011, OpenMandriva
 #
 # Matias Griese <mahagr@utu.fi>, 2001, 2002.
 # Taisto Kuikka <69319@batman.jypoly.fi>, 2003.
@@ -9,99 +9,93 @@
 # Anssi Hannula <anssi@mandriva.org>, 2007.
 # Thomas Backlund <tmb@mandriva.org>, 2009.
 # Jani Välimaa <wally@mandriva.org>, 2009, 2010.
+# Jani Välimaa <wally@mageia.org>, 2011.
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: userdrake\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-02-02 03:03+0100\n"
-"PO-Revision-Date: 2010-02-04 14:16+0200\n"
-"Last-Translator: Jani Välimaa <wally@mandriva.org>\n"
-"Language-Team: Finnish <cooker-i18n@mandrivalinux.org>\n"
+"POT-Creation-Date: 2013-04-23 19:48+0200\n"
+"PO-Revision-Date: 2011-05-17 19:39+0300\n"
+"Last-Translator: Jani Välimaa <wally@mageia.org>\n"
+"Language-Team: Finnish <om-i18n@openmandriva.org>\n"
+"Language: fi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 1.0\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../USER/USER.xs:86
-#, c-format
-msgid "Error reading `%s': %s"
-msgstr "Virhe luettaessa %s: %s"
-
-#: ../USER/USER.xs:93 ../USER/USER.xs:526
-#, c-format
-msgid "Error creating `%s': %s"
-msgstr "Virhe luotaessa %s: %s"
-
-#: ../USER/USER.xs:205 ../USER/USER.xs:234 ../USER/USER.xs:250
-#, c-format
-msgid "Error removing `%s': %s"
-msgstr "Virhe poistettaessa %s: %s"
-
-#: ../USER/USER.xs:490
+#: ../USER/USER.xs:83
 #, c-format
 msgid "Account creation failed: '%s'.\n"
 msgstr "Tilin luonti epäonnistui: %s.\n"
 
-#: ../USER/USER.xs:503
+#: ../USER/USER.xs:96
 msgid "Cannot get Uid number"
 msgstr "UID:ta ei voitu noutaa"
 
-#: ../USER/USER.xs:515
+#: ../USER/USER.xs:108
 msgid "Cannot retrieve value"
 msgstr "Arvoa ei voitu noutaa"
 
-#: ../USER/USER.xs:532
-msgid "Error creating mail spool.\n"
-msgstr "Virhe luotaessa postilaatikkoa.\n"
+#: ../USER/USER.xs:119
+#, c-format
+msgid "Error creating `%s': %s"
+msgstr "Virhe luotaessa %s: %s"
 
-#: ../USER/USER.xs:582
+#: ../USER/USER.xs:125
+#, c-format
+msgid "Error creating mail spool: %s\n"
+msgstr "Virhe luotaessa postilaatikkoa: %s\n"
+
+#: ../USER/USER.xs:175
 #, c-format
 msgid "User could not be modified: '%s'.\n"
 msgstr "Käyttäjätunnuksen muokkaaminen epäonnistui: %s.\n"
 
-#: ../USER/USER.xs:592
+#: ../USER/USER.xs:185
 #, c-format
 msgid "User Could Not be deleted: '%s'.\n"
 msgstr "Käyttäjää ei voitu poistaa: %s.\n"
 
-#: ../USER/USER.xs:618
+#: ../USER/USER.xs:211
 #, c-format
 msgid "Failed to set password: '%s'.\n"
 msgstr "Salasanan asettaminen epäonnistui: %s.\n"
 
-#: ../USER/USER.xs:618
+#: ../USER/USER.xs:211
 msgid "unknown error"
 msgstr "tuntematon virhe"
 
-#: ../USER/USER.xs:685
+#: ../USER/USER.xs:278
 msgid "Group creation failed.\n"
 msgstr "Ryhmän luonti epäonnistui.\n"
 
-#: ../USER/USER.xs:695
+#: ../USER/USER.xs:288
 #, c-format
 msgid "Group could not be modified: '%s'.\n"
 msgstr "Ryhmän muokkaaminen epäonnistui: %s.\n"
 
-#: ../USER/USER.xs:705
+#: ../USER/USER.xs:298
 #, c-format
 msgid "Group could not be deleted: '%s'.\n"
 msgstr "Ryhmää ei voitu poistaa: %s.\n"
 
-#: ../USER/USER.xs:863
+#: ../USER/USER.xs:456
 msgid "No home directory for the user.\n"
 msgstr "Käyttäjällä ei ole kotihakemistoa.\n"
 
-#: ../USER/USER.xs:869 ../USER/USER.xs:871
+#: ../USER/USER.xs:462 ../USER/USER.xs:464
 #, c-format
 msgid "Home Directory Could Not be deleted: '%s'.\n"
 msgstr "Käyttäjän kotihakemistoa ei voitu poistaa: %s.\n"
 
-#: ../USER/USER.xs:881
-msgid "Error deleting mail spool.\n"
-msgstr "Virhe poistettaessa postilaatikkoa.\n"
+#: ../USER/USER.xs:475
+#, c-format
+msgid "Error deleting mail spool: %s\n"
+msgstr "Virhe poistettaessa postilaatikkoa: %s\n"
 
-#: ../userdrake:59 ../userdrake:1275
+#: ../userdrake:59 ../userdrake:1276
 #, c-format
 msgid "Userdrake"
 msgstr "Userdrake"
@@ -113,8 +107,8 @@ msgstr "Ladataan käyttäjät ja ryhmät... Odota hetki"
 
 #: ../userdrake:83
 #, c-format
-msgid "Mandriva Linux Users Management Tool"
-msgstr "Mandriva Linuxin käyttäjienhallintatyökalu"
+msgid "OpenMandriva Users Management Tool"
+msgstr "OpenMandrivain käyttäjienhallintatyökalu"
 
 #: ../userdrake:96
 #, c-format
@@ -368,12 +362,12 @@ msgstr "Määritä UID käsin"
 msgid "User already exists, please choose another User Name"
 msgstr "Käyttäjätunnus on jo olemassa, valitse toinen käyttäjätunnus"
 
-#: ../userdrake:419 ../userdrake:860
+#: ../userdrake:419 ../userdrake:859
 #, c-format
 msgid "Password Mismatch"
 msgstr "Salasana ei täsmää"
 
-#: ../userdrake:422 ../userdrake:863
+#: ../userdrake:422 ../userdrake:862
 #, c-format
 msgid ""
 "This password is too simple. \n"
@@ -422,17 +416,17 @@ msgstr "Tietojen tuonti Windowsista"
 #, c-format
 msgid ""
 "Do you want to run the migration wizard in order to import Windows documents "
-"and settings in your Mandriva Linux distribution?"
-msgstr "Haluatko tuoda Windowsin dokumentit ja asetukset Mandriva Linuxiin?"
+"and settings in your OpenMandriva distribution?"
+msgstr "Haluatko tuoda Windowsin dokumentit ja asetukset OpenMandrivaiin?"
 
 #: ../userdrake:484 ../userdrake:528 ../userdrake:587 ../userdrake:674
-#: ../userdrake:707 ../userdrake:1166
+#: ../userdrake:707 ../userdrake:1167
 #, c-format
 msgid "Cancel"
 msgstr "Peruuta"
 
-#: ../userdrake:484 ../userdrake:521 ../userdrake:587 ../userdrake:1166
-#: ../userdrake:1317
+#: ../userdrake:484 ../userdrake:521 ../userdrake:587 ../userdrake:1167
+#: ../userdrake:1318
 #, c-format
 msgid "Ok"
 msgstr "Ok"
@@ -576,17 +570,17 @@ msgstr "Varmista salasana:"
 msgid "Login Shell:"
 msgstr "Kirjautumistulkki:"
 
-#: ../userdrake:820
+#: ../userdrake:819
 #, c-format
 msgid "Group Name:"
 msgstr "Ryhmän nimi:"
 
-#: ../userdrake:894
+#: ../userdrake:893
 #, c-format
 msgid "Please select at least one group for the user"
 msgstr "Valitse käyttäjälle vähintään yksi ryhmä"
 
-#: ../userdrake:904
+#: ../userdrake:903
 #, c-format
 msgid ""
 "Please specify Year, Month and Day \n"
@@ -595,7 +589,7 @@ msgstr ""
 "Määrittele vuosi, kuukausi ja päivä\n"
 " jolloin käyttäjätili vanhenee "
 
-#: ../userdrake:914
+#: ../userdrake:913
 #, c-format
 msgid "Please fill up all fields in password aging\n"
 msgstr "Täytä kaikki kentät salasanan vanhenemiselle\n"
@@ -695,45 +689,50 @@ msgstr "Ryhmän käyttäjät"
 msgid "Edit Groups / Users"
 msgstr "Muokkaa ryhmiä / käyttäjiä"
 
-#: ../userdrake:1159
+#: ../userdrake:1160
 #, c-format
 msgid "An error occurred:"
 msgstr "Virhe:"
 
-#: ../userdrake:1267
+#: ../userdrake:1268
 #, c-format
 msgid "Close"
 msgstr "Sulje"
 
-#: ../userdrake:1277
+#: ../userdrake:1278
 #, c-format
 msgid "Copyright (C) %s by Mandriva"
 msgstr "Copyright (C) %s, Mandriva"
 
-#: ../userdrake:1280
+#: ../userdrake:1278
+#, c-format
+msgid "Copyright (C) %s by OpenMandriva"
+msgstr "Copyright (C) %s, OpenMandriva"
+
+#: ../userdrake:1281
 #, c-format
 msgid "Users Management"
 msgstr "Käyttäjienhallinta"
 
-#: ../userdrake:1282
+#: ../userdrake:1283
 #, c-format
-msgid "Mandriva Linux"
-msgstr "Mandriva Linux"
+msgid "OpenMandriva"
+msgstr "OpenMandriva"
 
 #. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
-#: ../userdrake:1288
+#: ../userdrake:1289
 #, c-format
 msgid "_: Translator(s) name(s) & email(s)\n"
 msgstr ""
 "Thomas Backlund <tmb@mandrake.org>\n"
 "Jani Välimaa <wally@mandriva.org>\n"
 
-#: ../userdrake:1295
+#: ../userdrake:1296
 #, c-format
 msgid "Name field is empty please provide a name"
 msgstr "Käyttäjätunnus on pakollinen tieto"
 
-#: ../userdrake:1297
+#: ../userdrake:1298
 #, c-format
 msgid ""
 "The name must contain only lower cased latin letters, numbers, `-' and `_'"
@@ -741,15 +740,21 @@ msgstr ""
 "Käyttäjätunnus voi muodostua vain pienistä kirjaimista, numeroista ja "
 "merkeistä \"-\" ja \"_\""
 
-#: ../userdrake:1300
+#: ../userdrake:1301
 #, c-format
 msgid "Name is too long"
 msgstr "Nimi on liian pitkä"
 
-#: ../userdrake:1313
+#: ../userdrake:1314
 #, c-format
 msgid "Error"
 msgstr "Virhe"
+
+#~ msgid "Error reading `%s': %s"
+#~ msgstr "Virhe luettaessa %s: %s"
+
+#~ msgid "Error removing `%s': %s"
+#~ msgstr "Virhe poistettaessa %s: %s"
 
 #, fuzzy
 #~ msgid "Unknown error"

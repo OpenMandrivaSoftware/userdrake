@@ -1,104 +1,97 @@
-# translation of userdrake-ca.po to 
-# translation of ca.po to Catalan
-# translation of userdrake.po to Catalan
-# Copyright (C) 2000, 2003, 2004, 2005 Free Software Foundation, Inc.
-# Celso Gonzalez Garcia <celso@oficinalinux.org>, 2000.
-# Albert Astals Cid <astals11@terra.es>, 2003, 2004, 2005.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
 #
+# Francesc Pinyol Margalef, 2013.
 msgid ""
 msgstr ""
-"Project-Id-Version: userdrake-ca\n"
+"Project-Id-Version: userdrake2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-02-02 03:03+0100\n"
-"PO-Revision-Date: 2005-10-02 11:44GMT\n"
-"Last-Translator: \n"
-"Language-Team:  <ca@li.org>\n"
+"POT-Creation-Date: 2013-04-23 19:48+0200\n"
+"PO-Revision-Date: 2013-01-04 18:51+0100\n"
+"Last-Translator: Francesc Pinyol Margalef\n"
+"Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
+"Language: ca\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 1.9.1\n"
-"Plural-Forms: nplurals=2; plural=n!=1;\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"X-Generator: Lokalize 1.4\n"
 
-#: ../USER/USER.xs:86
+#: ../USER/USER.xs:83
 #, c-format
-msgid "Error reading `%s': %s"
-msgstr "Error al llegir `%s': %s"
+msgid "Account creation failed: '%s'.\n"
+msgstr "Error en crear el compte: '%s'\n"
 
-#: ../USER/USER.xs:93 ../USER/USER.xs:526
+#: ../USER/USER.xs:96
+msgid "Cannot get Uid number"
+msgstr "No s'ha pogut obtenir el nombre Uid"
+
+#: ../USER/USER.xs:108
+msgid "Cannot retrieve value"
+msgstr "No s'ha pogut recuperar el valor"
+
+#: ../USER/USER.xs:119
 #, c-format
 msgid "Error creating `%s': %s"
-msgstr "Error al crear `%s': %s"
+msgstr "Error en crear `%s': %s"
 
-#: ../USER/USER.xs:205 ../USER/USER.xs:234 ../USER/USER.xs:250
+#: ../USER/USER.xs:125
 #, c-format
-msgid "Error removing `%s': %s"
-msgstr "Error al eliminar `%s': %s"
+msgid "Error creating mail spool: %s\n"
+msgstr "Error en crear cua de correu: %s\n"
 
-#: ../USER/USER.xs:490
-#, fuzzy, c-format
-msgid "Account creation failed: '%s'.\n"
-msgstr "Error al crear cua de correu.\n"
-
-#: ../USER/USER.xs:503
-msgid "Cannot get Uid number"
-msgstr ""
-
-#: ../USER/USER.xs:515
-msgid "Cannot retrieve value"
-msgstr ""
-
-#: ../USER/USER.xs:532
-msgid "Error creating mail spool.\n"
-msgstr "Error al crear cua de correu.\n"
-
-#: ../USER/USER.xs:582
-#, fuzzy, c-format
+#: ../USER/USER.xs:175
+#, c-format
 msgid "User could not be modified: '%s'.\n"
-msgstr "Error al crear cua de correu.\n"
+msgstr "No s'ha pogut modificar l'usuari: '%s'.\n"
 
-#: ../USER/USER.xs:592
+#: ../USER/USER.xs:185
 #, c-format
 msgid "User Could Not be deleted: '%s'.\n"
 msgstr ""
+"No s'ha pogut eliminar l'usuari: '%s'.\n"
+"\n"
 
-#: ../USER/USER.xs:618
+#: ../USER/USER.xs:211
 #, c-format
 msgid "Failed to set password: '%s'.\n"
 msgstr ""
+"Error en configurar la contrasenya : '%s'.\n"
+"\n"
 
-#: ../USER/USER.xs:618
+#: ../USER/USER.xs:211
 msgid "unknown error"
 msgstr "error desconegut"
 
-#: ../USER/USER.xs:685
-#, fuzzy
+#: ../USER/USER.xs:278
 msgid "Group creation failed.\n"
-msgstr "Error al crear cua de correu.\n"
+msgstr "Error en crear grup.\n"
 
-#: ../USER/USER.xs:695
+#: ../USER/USER.xs:288
 #, c-format
 msgid "Group could not be modified: '%s'.\n"
-msgstr ""
+msgstr "No s'ha pogut modificar el grup: '%s'.\n"
 
-#: ../USER/USER.xs:705
+#: ../USER/USER.xs:298
 #, c-format
 msgid "Group could not be deleted: '%s'.\n"
-msgstr ""
+msgstr "No s'ha pogut eliminar el grup: '%s'.\n"
 
-#: ../USER/USER.xs:863
+#: ../USER/USER.xs:456
 msgid "No home directory for the user.\n"
-msgstr ""
+msgstr "No hi ha directori arrel per a l'usuari.\n"
 
-#: ../USER/USER.xs:869 ../USER/USER.xs:871
+#: ../USER/USER.xs:462 ../USER/USER.xs:464
 #, c-format
 msgid "Home Directory Could Not be deleted: '%s'.\n"
-msgstr ""
+msgstr "No s'ha pogut eliminar el directori de l'usuari: '%s'\n"
 
-#: ../USER/USER.xs:881
-msgid "Error deleting mail spool.\n"
-msgstr "Error al esborrar cua de correu.\n"
+#: ../USER/USER.xs:475
+#, c-format
+msgid "Error deleting mail spool: %s\n"
+msgstr "Error en esborrar la cua de correu: %s\n"
 
-#: ../userdrake:59 ../userdrake:1275
+#: ../userdrake:59 ../userdrake:1276
 #, c-format
 msgid "Userdrake"
 msgstr "Userdrake"
@@ -106,22 +99,22 @@ msgstr "Userdrake"
 #: ../userdrake:64
 #, c-format
 msgid "Loading Users and Groups... Please wait"
-msgstr "S'està carregant els usuaris i els grups... Si us plau, espera"
+msgstr "S'estan carregant els usuaris i els grups... Espereu"
 
 #: ../userdrake:83
 #, c-format
-msgid "Mandriva Linux Users Management Tool"
-msgstr "Eina de gestió d'usuaris de Mandriva Linux"
+msgid "OpenMandriva Users Management Tool"
+msgstr "Eina de gestió d'usuaris de OpenMandriva"
 
 #: ../userdrake:96
 #, c-format
 msgid "/_Install guest account"
-msgstr ""
+msgstr "/_Instal·la un compte de convidat"
 
 #: ../userdrake:97
 #, c-format
 msgid "/_Uninstall guest account"
-msgstr ""
+msgstr "/_Desinstal·la un compte de convidat"
 
 #: ../userdrake:101 ../userdrake:102 ../userdrake:103 ../userdrake:114
 #: ../userdrake:115 ../userdrake:116
@@ -243,12 +236,12 @@ msgstr "Nom complet"
 #: ../userdrake:187
 #, c-format
 msgid "Login Shell"
-msgstr "Intèrpret de comandaments per al login"
+msgstr "Intèrpret d'ordres per al login"
 
 #: ../userdrake:187
 #, c-format
 msgid "Home Directory"
-msgstr "Directori personal"
+msgstr "Directori de l'usuari"
 
 #: ../userdrake:187
 #, c-format
@@ -273,7 +266,7 @@ msgstr "Membres del grup"
 #: ../userdrake:196
 #, c-format
 msgid "Add User"
-msgstr "Afegir usuari"
+msgstr "Afegeix un usuari"
 
 #: ../userdrake:196
 #, c-format
@@ -283,7 +276,7 @@ msgstr "Afegeix un usuari al sistema"
 #: ../userdrake:197
 #, c-format
 msgid "Add Group"
-msgstr "Afegeix grup"
+msgstr "Afegeix un grup"
 
 #: ../userdrake:197
 #, c-format
@@ -303,12 +296,12 @@ msgstr "Edita la fila seleccionada"
 #: ../userdrake:199 ../userdrake:674 ../userdrake:707 ../userdrake:739
 #, c-format
 msgid "Delete"
-msgstr "Esborrar"
+msgstr "Suprimeix"
 
 #: ../userdrake:199
 #, c-format
 msgid "Delete selected row"
-msgstr "Elimina la fila seleccionada"
+msgstr "Suprimeix la fila seleccionada"
 
 #: ../userdrake:200
 #, c-format
@@ -333,22 +326,22 @@ msgstr "Expirada"
 #: ../userdrake:339
 #, c-format
 msgid "Click on the icon to change it"
-msgstr "Clica l'icona per canviar-ho"
+msgstr "Cliqueu la icona per a canviar-ho"
 
 #: ../userdrake:385
 #, c-format
 msgid "Create New User"
-msgstr "Crea nou usuari"
+msgstr "Crea un nou usuari"
 
 #: ../userdrake:391
 #, c-format
 msgid "Create Home Directory"
-msgstr "Crea el directori personal"
+msgstr "Crea el directori de l'usuari"
 
 #: ../userdrake:393
 #, c-format
 msgid "Home Directory: "
-msgstr "Directori personal: "
+msgstr "Directori de l'usuari: "
 
 #: ../userdrake:396
 #, c-format
@@ -358,20 +351,19 @@ msgstr "Crea un grup privat per a l'usuari"
 #: ../userdrake:397
 #, c-format
 msgid "Specify user ID manually"
-msgstr "Especifica el ID d'usuari manualment"
+msgstr "Especifica l'ID d'usuari manualment"
 
 #: ../userdrake:414
 #, c-format
 msgid "User already exists, please choose another User Name"
-msgstr ""
-"Aquest usuari ja existeix dins el sistema, si us plau escull-ne un altre"
+msgstr "Aquest usuari ja existeix dins el sistema, escolliu-ne un altre"
 
-#: ../userdrake:419 ../userdrake:860
+#: ../userdrake:419 ../userdrake:859
 #, c-format
 msgid "Password Mismatch"
 msgstr "La contrasenya no coincideix"
 
-#: ../userdrake:422 ../userdrake:863
+#: ../userdrake:422 ../userdrake:862
 #, c-format
 msgid ""
 "This password is too simple. \n"
@@ -393,7 +385,7 @@ msgid ""
 "\n"
 msgstr ""
 "Crear un usuari amb UID menor que 500 no està recomanat.\n"
-" Estàs segur de voler fer això?\n"
+" Esteu segur de voler fer això?\n"
 "\n"
 
 #: ../userdrake:450
@@ -414,23 +406,25 @@ msgstr "S'està afegint l'usuari: %s"
 #: ../userdrake:478
 #, c-format
 msgid "Migration wizard"
-msgstr ""
+msgstr "Assistent de migració"
 
 #: ../userdrake:479
 #, c-format
 msgid ""
 "Do you want to run the migration wizard in order to import Windows documents "
-"and settings in your Mandriva Linux distribution?"
+"and settings in your OpenMandriva distribution?"
 msgstr ""
+"Voleu executar l'assistent de migració per importar els vostres documents i "
+"configuració de Windows a aquesta la distribució OpenMandriva?"
 
 #: ../userdrake:484 ../userdrake:528 ../userdrake:587 ../userdrake:674
-#: ../userdrake:707 ../userdrake:1166
+#: ../userdrake:707 ../userdrake:1167
 #, c-format
 msgid "Cancel"
 msgstr "Cancel·la"
 
-#: ../userdrake:484 ../userdrake:521 ../userdrake:587 ../userdrake:1166
-#: ../userdrake:1317
+#: ../userdrake:484 ../userdrake:521 ../userdrake:587 ../userdrake:1167
+#: ../userdrake:1318
 #, c-format
 msgid "Ok"
 msgstr "Bé"
@@ -518,12 +512,12 @@ msgstr ""
 #: ../userdrake:641
 #, c-format
 msgid "Delete Home Directory: %s"
-msgstr "Esborra el directori personal: %s"
+msgstr "Suprimeix el directori personal: %s"
 
 #: ../userdrake:642
 #, c-format
 msgid "Delete Mailbox: /var/spool/mail/%s"
-msgstr "Esborra el mailbox :/var/spool/mail/%s"
+msgstr "Suprimeix el mailbox :/var/spool/mail/%s"
 
 #: ../userdrake:651
 #, c-format
@@ -533,7 +527,7 @@ msgstr "S'està eliminant l'usuari: %s"
 #: ../userdrake:684
 #, c-format
 msgid "Do you really want to delete the group %s?"
-msgstr "Estàs segur de voler eliminar el grup %s?"
+msgstr "Esteu segur de voler suprimir el grup %s?"
 
 #: ../userdrake:697
 #, c-format
@@ -542,7 +536,7 @@ msgid ""
 " Remove the user first"
 msgstr ""
 "%s és un grup primari per l'usuari %s\n"
-" Elimina l'usuari abans"
+" Elimineu l'usuari abans"
 
 #: ../userdrake:702
 #, c-format
@@ -567,46 +561,46 @@ msgstr "Contrasenya:"
 #: ../userdrake:804
 #, c-format
 msgid "Confirm Password:"
-msgstr "Confirma la contrasenya:"
+msgstr "Confirmeu la contrasenya:"
 
 #: ../userdrake:806
 #, c-format
 msgid "Login Shell:"
-msgstr "Intèrpret de comandaments per al login:"
+msgstr "Intèrpret d'ordres per al login:"
 
-#: ../userdrake:820
+#: ../userdrake:819
 #, c-format
 msgid "Group Name:"
 msgstr "Nom del grup:"
 
-#: ../userdrake:894
+#: ../userdrake:893
 #, c-format
 msgid "Please select at least one group for the user"
-msgstr "Si us plau, escull com a mínim un grup per l'usuari"
+msgstr "Escolliu com a mínim un grup per l'usuari"
 
-#: ../userdrake:904
+#: ../userdrake:903
 #, c-format
 msgid ""
 "Please specify Year, Month and Day \n"
 " for Account Expiration "
 msgstr ""
-"Si us plau indica l'any, més i dia\n"
-"per a l'expiració del compte"
+"Indiqueu l'any, mes i dia\n"
+"per al venciment del compte"
 
-#: ../userdrake:914
+#: ../userdrake:913
 #, c-format
 msgid "Please fill up all fields in password aging\n"
-msgstr "Si us plau empleneu tots els camps per l'envelliment de contrasenya\n"
+msgstr "Empleneu tots els camps per l'envelliment de contrasenya\n"
 
 #: ../userdrake:965
 #, c-format
 msgid "You cannot remove user '%s' from their primary group"
-msgstr "No pots eliminar '%s' del seu grup primari"
+msgstr "No podeu eliminar l'usuari '%s' del seu grup primari"
 
 #: ../userdrake:986
 #, c-format
 msgid "Home:"
-msgstr "Home:"
+msgstr "Directori de l'usuari:"
 
 #: ../userdrake:988
 #, c-format
@@ -616,12 +610,12 @@ msgstr "Dades de l'usuari"
 #: ../userdrake:992
 #, c-format
 msgid "Enable account expiration"
-msgstr "Habilita l'expiració de comptes"
+msgstr "Habilita el venciment de comptes"
 
 #: ../userdrake:994
 #, c-format
 msgid "Account expires (YYYY-MM-DD):"
-msgstr "El compte expira (AAAA-MM-DD):"
+msgstr "El compte venç (AAAA-MM-DD):"
 
 #: ../userdrake:1002
 #, c-format
@@ -641,7 +635,7 @@ msgstr "L'usuari va canviar la contrasenya el: "
 #: ../userdrake:1017
 #, c-format
 msgid "Enable Password Expiration"
-msgstr "Habilita l'expiració de contrasenyes"
+msgstr "Habilita el venciment de contrasenyes"
 
 #: ../userdrake:1022
 #, c-format
@@ -671,7 +665,7 @@ msgstr "Informació de la contrasenya"
 #: ../userdrake:1035
 #, c-format
 msgid "Select the groups that the user will be a member of:"
-msgstr "Escull els grups dels quals serà membre aquest usuari:"
+msgstr "Escolliu els grups dels quals serà membre aquest usuari:"
 
 #: ../userdrake:1102
 #, c-format
@@ -681,7 +675,7 @@ msgstr "Dades del grup"
 #: ../userdrake:1105
 #, c-format
 msgid "Select the users to join this group:"
-msgstr "Escull els usuaris que s'uniran a aquest grup :"
+msgstr "Escolliu els usuaris que s'uniran a aquest grup :"
 
 #: ../userdrake:1107
 #, c-format
@@ -693,72 +687,66 @@ msgstr "Usuaris del grup"
 msgid "Edit Groups / Users"
 msgstr "Edita Grups / Usuaris"
 
-#: ../userdrake:1159
-#, fuzzy, c-format
+#: ../userdrake:1160
+#, c-format
 msgid "An error occurred:"
-msgstr "S'ha produït un error"
+msgstr "S'ha produït un error:"
 
-#: ../userdrake:1267
+#: ../userdrake:1268
 #, c-format
 msgid "Close"
 msgstr "Tanca"
 
-#: ../userdrake:1277
+#: ../userdrake:1278
 #, c-format
 msgid "Copyright (C) %s by Mandriva"
-msgstr ""
+msgstr "Copyright (C) %s per Mandriva"
 
-#: ../userdrake:1280
+#: ../userdrake:1278
+#, c-format
+msgid "Copyright (C) %s by OpenMandriva"
+msgstr "Copyright (C) %s per OpenMandriva"
+
+#: ../userdrake:1281
 #, c-format
 msgid "Users Management"
 msgstr "Gestió d'usuaris"
 
-#: ../userdrake:1282
+#: ../userdrake:1283
 #, c-format
-msgid "Mandriva Linux"
-msgstr "Mandriva Linux"
+msgid "OpenMandriva"
+msgstr "OpenMandriva"
 
 #. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
-#: ../userdrake:1288
+#: ../userdrake:1289
 #, c-format
 msgid "_: Translator(s) name(s) & email(s)\n"
 msgstr "Albert Astals Cid <astals11@terra.es>\n"
 
-#: ../userdrake:1295
+#: ../userdrake:1296
 #, c-format
 msgid "Name field is empty please provide a name"
-msgstr "El camp del nom està buit, si us plau, dona un nom"
+msgstr "El camp del nom està buit, indiqueu un nom"
 
-#: ../userdrake:1297
+#: ../userdrake:1298
 #, c-format
 msgid ""
 "The name must contain only lower cased latin letters, numbers, `-' and `_'"
 msgstr ""
 "El nom només pot contenir minúscules de lletres llatines, números, `-' i `_'"
 
-#: ../userdrake:1300
+#: ../userdrake:1301
 #, c-format
 msgid "Name is too long"
 msgstr "El nom és massa llarg"
 
-#: ../userdrake:1313
+#: ../userdrake:1314
 #, c-format
 msgid "Error"
 msgstr "Error"
 
-#, fuzzy
-#~ msgid "Unknown error"
-#~ msgstr "error desconegut"
+#~ msgid "Error reading `%s': %s"
+#~ msgstr "Error en llegir `%s': %s"
 
-#, fuzzy
-#~ msgid "Error creating %s: %s.\n"
-#~ msgstr "Error al crear `%s': %s"
-
-#~ msgid "Authors: "
-#~ msgstr "Autors: "
-
-#~ msgid "Yes"
-#~ msgstr "Sí"
-
-#~ msgid "No"
-#~ msgstr "No"
+#~ msgid "Error removing `%s': %s"
+#~ msgstr "Error en eliminar `%s': %s"

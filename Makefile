@@ -1,5 +1,5 @@
 
-VERSION = 1.13.2
+VERSION = 1.14
 NAME = userdrake
 BINNAME = userdrake
 
@@ -37,11 +37,12 @@ install: all
 	install -m644 icons/*selec*.png $(DATADIR)/$(NAME)/pixmaps
 	for d in $(SUBDIRS); do ( cd $$d ; make $@ ) ; done
 
-dis: clean
+dis: dist
+dist: clean
 	rm -rf $(NAME)-$(VERSION) ../$(NAME)-$(VERSION).tar*
 	svn export -q -rBASE . $(NAME)-$(VERSION)
 	find $(NAME)-$(VERSION) -name .svnignore |xargs rm -rf
-	tar cfY ../$(NAME)-$(VERSION).tar.lzma $(NAME)-$(VERSION)
+	tar cfa ../$(NAME)-$(VERSION).tar.xz $(NAME)-$(VERSION)
 	rm -rf $(NAME)-$(VERSION)
 
 .PHONY: ChangeLog

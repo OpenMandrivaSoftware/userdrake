@@ -1,115 +1,93 @@
-# translation of tr.po to Turkce
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-# Latest versions of po files are at http://www.mandrivalinux.org/l10n/tr.php3
-#
-# Copyright (C) 2003, 2004, 2007 Free Software Foundation, Inc.
-# #############################################
-#
-#
-# #############################################
-#
-# Ömer Fadıl USTA <omer_fad@hotmail.com>, 2002-2003, 2004.
-# S. Alp ŞENYER <ssenyer@linux-sevenler.org>, 2004.
-# Taha Özket <taha.ozket@obss.net>, 2007.
-# Atilla ÖNTAŞ <atilla_ontas@mandriva.ocm>, 2009.
 msgid ""
 msgstr ""
-"Project-Id-Version: tr\n"
+"Project-Id-Version: userdrake2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-02-02 03:03+0100\n"
-"PO-Revision-Date: 2010-02-09 02:47+0200\n"
-"Last-Translator: Atilla ÖNTAŞ <atilla_ontas@mandriva.org>\n"
-"Language-Team: Turkish <kde-i18n-doc@kde.org>\n"
+"POT-Creation-Date: 2013-04-23 19:48+0200\n"
+"PO-Revision-Date: 2012-01-16 16:30+0000\n"
+"Last-Translator: Numan Demirdöğen <numand46@gmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 1.0\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Plural-Forms: nplurals=1; plural=0\n"
 
-#: ../USER/USER.xs:86
-#, c-format
-msgid "Error reading `%s': %s"
-msgstr "Okurken hata `%s': %s"
-
-#: ../USER/USER.xs:93
-#: ../USER/USER.xs:526
-#, c-format
-msgid "Error creating `%s': %s"
-msgstr "Yaratılırken hata `%s': %s"
-
-#: ../USER/USER.xs:205
-#: ../USER/USER.xs:234
-#: ../USER/USER.xs:250
-#, c-format
-msgid "Error removing `%s': %s"
-msgstr "Silerken hata `%s': %s"
-
-#: ../USER/USER.xs:490
+#: ../USER/USER.xs:83
 #, c-format
 msgid "Account creation failed: '%s'.\n"
 msgstr "Hesap oluşturma işlemi başarısız oldu: '%s'.\n"
 
-#: ../USER/USER.xs:503
+#: ../USER/USER.xs:96
 msgid "Cannot get Uid number"
 msgstr "Uid numarası alınamıyor"
 
-#: ../USER/USER.xs:515
+#: ../USER/USER.xs:108
 msgid "Cannot retrieve value"
 msgstr "Değer alınamıyor"
 
-#: ../USER/USER.xs:532
-msgid "Error creating mail spool.\n"
-msgstr "Yeni posta kuyruğu yaratma hatası.\n"
+#: ../USER/USER.xs:119
+#, c-format
+msgid "Error creating `%s': %s"
+msgstr "Yaratılırken hata `%s': %s"
 
-#: ../USER/USER.xs:582
+#: ../USER/USER.xs:125
+#, c-format
+msgid "Error creating mail spool: %s\n"
+msgstr "Yeni posta kuyruğu yaratma hatası: %s\n"
+
+#: ../USER/USER.xs:175
 #, c-format
 msgid "User could not be modified: '%s'.\n"
 msgstr "Kullanıcı düzenlenemez: '%s'.\n"
 
-#: ../USER/USER.xs:592
+#: ../USER/USER.xs:185
 #, c-format
 msgid "User Could Not be deleted: '%s'.\n"
 msgstr "Kullanıcı Silinemez: '%s'.\n"
 
-#: ../USER/USER.xs:618
+#: ../USER/USER.xs:211
 #, c-format
 msgid "Failed to set password: '%s'.\n"
 msgstr "Parola ayarlanamadı: '%s'.\n"
 
-#: ../USER/USER.xs:618
+#: ../USER/USER.xs:211
 msgid "unknown error"
 msgstr "bilinmeyen hata"
 
-#: ../USER/USER.xs:685
+#: ../USER/USER.xs:278
 msgid "Group creation failed.\n"
 msgstr "Grup oluşturma işlemi başarısız oldu.\n"
 
-#: ../USER/USER.xs:695
+#: ../USER/USER.xs:288
 #, c-format
 msgid "Group could not be modified: '%s'.\n"
 msgstr "Grup düzenlenemez: '%s'.\n"
 
-#: ../USER/USER.xs:705
+#: ../USER/USER.xs:298
 #, c-format
 msgid "Group could not be deleted: '%s'.\n"
 msgstr "Grup silinemez: '%s'.\n"
 
-#: ../USER/USER.xs:863
+#: ../USER/USER.xs:456
 msgid "No home directory for the user.\n"
 msgstr "Kullanıcı için bir Ev dizini yok.\n"
 
-#: ../USER/USER.xs:869
-#: ../USER/USER.xs:871
+#: ../USER/USER.xs:462 ../USER/USER.xs:464
 #, c-format
 msgid "Home Directory Could Not be deleted: '%s'.\n"
 msgstr "Ev Dizini silinemez: '%s'.\n"
 
-#: ../USER/USER.xs:881
-msgid "Error deleting mail spool.\n"
-msgstr "Posta kuyruğu silme hatası.\n"
+#: ../USER/USER.xs:475
+#, c-format
+msgid "Error deleting mail spool: %s\n"
+msgstr "Posta kuyruğu silme hatası: %s\n"
 
-#: ../userdrake:59
-#: ../userdrake:1275
+#: ../userdrake:59 ../userdrake:1276
 #, c-format
 msgid "Userdrake"
 msgstr "Userdrake"
@@ -121,8 +99,8 @@ msgstr "Kullanıcı ve Gruplar Yükleniyor... Lütfen bekleyin"
 
 #: ../userdrake:83
 #, c-format
-msgid "Mandriva Linux Users Management Tool"
-msgstr "Mandriva Linux Kullanıcı Yönetim Aracı"
+msgid "OpenMandriva Users Management Tool"
+msgstr "OpenMandriva Kullanıcı Yönetim Aracı"
 
 #: ../userdrake:96
 #, c-format
@@ -134,12 +112,8 @@ msgstr "/_konuk hesabını kur"
 msgid "/_Uninstall guest account"
 msgstr "/_konuk hesabını sil"
 
-#: ../userdrake:101
-#: ../userdrake:102
-#: ../userdrake:103
-#: ../userdrake:114
-#: ../userdrake:115
-#: ../userdrake:116
+#: ../userdrake:101 ../userdrake:102 ../userdrake:103 ../userdrake:114
+#: ../userdrake:115 ../userdrake:116
 #, c-format
 msgid "/_Actions"
 msgstr "/Eylemle_r"
@@ -154,8 +128,7 @@ msgstr "/Dü_zenle"
 msgid "/_Delete"
 msgstr "/_Sil"
 
-#: ../userdrake:104
-#: ../userdrake:120
+#: ../userdrake:104 ../userdrake:120
 #, c-format
 msgid "/_Options"
 msgstr "/S_eçenekler"
@@ -165,9 +138,7 @@ msgstr "/S_eçenekler"
 msgid "/_Filter system users"
 msgstr "/Sistem kullanıcılarını _Filtrele"
 
-#: ../userdrake:109
-#: ../userdrake:110
-#: ../userdrake:113
+#: ../userdrake:109 ../userdrake:110 ../userdrake:113
 #, c-format
 msgid "/_File"
 msgstr "/_Dosya"
@@ -197,10 +168,7 @@ msgstr "/K_ullanıcı Ekle"
 msgid "/Add _Group"
 msgstr "/Gru_p Ekle"
 
-#: ../userdrake:125
-#: ../userdrake:126
-#: ../userdrake:127
-#: ../userdrake:130
+#: ../userdrake:125 ../userdrake:126 ../userdrake:127 ../userdrake:130
 #, c-format
 msgid "/_Help"
 msgstr "/_Yardım"
@@ -230,8 +198,7 @@ msgstr "Filtreyi uygula"
 msgid "Users"
 msgstr "Kullanıcılar"
 
-#: ../userdrake:162
-#: ../userdrake:1041
+#: ../userdrake:162 ../userdrake:1041
 #, c-format
 msgid "Groups"
 msgstr "Gruplar"
@@ -252,8 +219,7 @@ msgstr "Kullanıcı Adı"
 msgid "User ID"
 msgstr "Kullanıcı ID"
 
-#: ../userdrake:186
-#: ../userdrake:1038
+#: ../userdrake:186 ../userdrake:1038
 #, c-format
 msgid "Primary Group"
 msgstr "Birincil Grup"
@@ -313,8 +279,7 @@ msgstr "Grup Ekle"
 msgid "Add a group to the system"
 msgstr "Sisteme bir kullanıcı ekler"
 
-#: ../userdrake:198
-#: ../userdrake:739
+#: ../userdrake:198 ../userdrake:739
 #, c-format
 msgid "Edit"
 msgstr "Düzenle"
@@ -324,10 +289,7 @@ msgstr "Düzenle"
 msgid "Edit selected row"
 msgstr "Seçili sırayı süzenler"
 
-#: ../userdrake:199
-#: ../userdrake:674
-#: ../userdrake:707
-#: ../userdrake:739
+#: ../userdrake:199 ../userdrake:674 ../userdrake:707 ../userdrake:739
 #, c-format
 msgid "Delete"
 msgstr "Sil"
@@ -392,14 +354,12 @@ msgstr "Kullanıcının ID'sini elle belirle"
 msgid "User already exists, please choose another User Name"
 msgstr "Kullanıcı zaten mevcut, lütfen bir başka Kullanıcı Adı seçin"
 
-#: ../userdrake:419
-#: ../userdrake:860
+#: ../userdrake:419 ../userdrake:859
 #, c-format
 msgid "Password Mismatch"
 msgstr "Parolalar uyuşmuyor"
 
-#: ../userdrake:422
-#: ../userdrake:863
+#: ../userdrake:422 ../userdrake:862
 #, c-format
 msgid ""
 "This password is too simple. \n"
@@ -447,24 +407,21 @@ msgstr "Göç sihirbazı"
 
 #: ../userdrake:479
 #, c-format
-msgid "Do you want to run the migration wizard in order to import Windows documents and settings in your Mandriva Linux distribution?"
-msgstr "Windows belge ve seçeneklerinizi Mandriva Linux dağıtımına aktarmak için göç sihirbazını çalıştırmak istiyor musunuz?"
+msgid ""
+"Do you want to run the migration wizard in order to import Windows documents "
+"and settings in your OpenMandriva distribution?"
+msgstr ""
+"Windows belge ve seçeneklerinizi OpenMandriva dağıtımına aktarmak için göç "
+"sihirbazını çalıştırmak istiyor musunuz?"
 
-#: ../userdrake:484
-#: ../userdrake:528
-#: ../userdrake:587
-#: ../userdrake:674
-#: ../userdrake:707
-#: ../userdrake:1166
+#: ../userdrake:484 ../userdrake:528 ../userdrake:587 ../userdrake:674
+#: ../userdrake:707 ../userdrake:1167
 #, c-format
 msgid "Cancel"
 msgstr "Vazgeç"
 
-#: ../userdrake:484
-#: ../userdrake:521
-#: ../userdrake:587
-#: ../userdrake:1166
-#: ../userdrake:1317
+#: ../userdrake:484 ../userdrake:521 ../userdrake:587 ../userdrake:1167
+#: ../userdrake:1318
 #, c-format
 msgid "Ok"
 msgstr "Tamam"
@@ -479,8 +436,7 @@ msgstr "UID: "
 msgid "Choose group"
 msgstr "Grup seçin"
 
-#: ../userdrake:512
-#: ../userdrake:513
+#: ../userdrake:512 ../userdrake:513
 #, c-format
 msgid "Add to the existing group"
 msgstr "Var olan bir gruba ekle"
@@ -522,8 +478,7 @@ msgid ""
 " Are you sure you want to do this?\n"
 "\n"
 msgstr ""
-"Grup ID'si 500 sayisindan küçük bir grup oluşturmak\n"
-"tavsiye edilmemektedir.\n"
+"Grup ID'si 500 sayisindan küçük bir grup oluşturmak tavsiye edilmemektedir.\n"
 " Bunu yapmak istediğinize emin misiniz ?\n"
 "\n"
 
@@ -610,17 +565,17 @@ msgstr "Parolayı Tekrarla:"
 msgid "Login Shell:"
 msgstr "Giriş Kabuğu:"
 
-#: ../userdrake:820
+#: ../userdrake:819
 #, c-format
 msgid "Group Name:"
 msgstr "Grup Adı:"
 
-#: ../userdrake:894
+#: ../userdrake:893
 #, c-format
 msgid "Please select at least one group for the user"
 msgstr "Lütfen kullanıcı için en az bir grup seçiniz"
 
-#: ../userdrake:904
+#: ../userdrake:903
 #, c-format
 msgid ""
 "Please specify Year, Month and Day \n"
@@ -629,7 +584,7 @@ msgstr ""
 "Lütfen hesabın hükmünü yitireceği Yılı, \n"
 "Ayı ve Günü belirtin "
 
-#: ../userdrake:914
+#: ../userdrake:913
 #, c-format
 msgid "Please fill up all fields in password aging\n"
 msgstr "Lütfen şifre bölümündeki tüm bilgileri doldurunuz\n"
@@ -729,62 +684,65 @@ msgstr "Grup Kullanıcıları"
 msgid "Edit Groups / Users"
 msgstr "Grupları / Kullanıcıları Düzenle"
 
-#: ../userdrake:1159
+#: ../userdrake:1160
 #, c-format
 msgid "An error occurred:"
 msgstr "Bir hata oluştu:"
 
-#: ../userdrake:1267
+#: ../userdrake:1268
 #, c-format
 msgid "Close"
 msgstr "Kapat"
 
-#: ../userdrake:1277
+#: ../userdrake:1278
 #, c-format
 msgid "Copyright (C) %s by Mandriva"
 msgstr "Tüm Hakları Saklıdır (C) %s Mandriva"
 
-#: ../userdrake:1280
+#: ../userdrake:1278
+#, c-format
+msgid "Copyright (C) %s by OpenMandriva"
+msgstr "Copyright (C) %s. Bir OpenMandriva ürünüdür."
+
+#: ../userdrake:1281
 #, c-format
 msgid "Users Management"
 msgstr "Kullanıcı Yönetimi"
 
-#: ../userdrake:1282
+#: ../userdrake:1283
 #, c-format
-msgid "Mandriva Linux"
-msgstr "Mandriva Linux"
+msgid "OpenMandriva"
+msgstr "OpenMandriva"
 
 #. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
-#: ../userdrake:1288
+#: ../userdrake:1289
 #, c-format
 msgid "_: Translator(s) name(s) & email(s)\n"
 msgstr "Taha Özket <taha.ozket@obss.net> 2007\n"
 
-#: ../userdrake:1295
+#: ../userdrake:1296
 #, c-format
 msgid "Name field is empty please provide a name"
 msgstr "İsim alanı boş bırakılmış lütfen uygun şekilde doldurunuz"
 
-#: ../userdrake:1297
+#: ../userdrake:1298
 #, c-format
-msgid "The name must contain only lower cased latin letters, numbers, `-' and `_'"
+msgid ""
+"The name must contain only lower cased latin letters, numbers, `-' and `_'"
 msgstr "İsim sadece ufak latin harflerini , '-' ve '_' işaretlerini içerebilir"
 
-#: ../userdrake:1300
+#: ../userdrake:1301
 #, c-format
 msgid "Name is too long"
 msgstr "İsim çok uzun"
 
-#: ../userdrake:1313
+#: ../userdrake:1314
 #, c-format
 msgid "Error"
 msgstr "Hata"
 
-#, fuzzy
-#~ msgid "Unknown error"
-#~ msgstr "bilinmeyen hata"
+#~ msgid "Error reading `%s': %s"
+#~ msgstr "Okurken hata `%s': %s"
 
-#, fuzzy
-#~ msgid "Error creating %s: %s.\n"
-#~ msgstr "Yaratılırken hata `%s': %s"
-
+#~ msgid "Error removing `%s': %s"
+#~ msgstr "Silerken hata `%s': %s"

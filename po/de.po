@@ -1,135 +1,116 @@
-# translation of userdrake-de.po to German
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-# Latest versions of po files are at http://www.mandrivalinux.org/l10n/de.php3
-#
-# German translation of UserDrake (2)
-# Copyright (C) 2000, 2001, 2002, 2003 Mandriva S.A.
-#
-# Dominik Bittl <umount@web.de>, 2001.
-# Stefan Siegel <siegel@linux-mandrake.com>, 2001, 2002, 2003.
-# Sebastian Deutscher <sebastian_deutscher@web.de>, 2003.
-# Gerhard Ortner <gerhard.ortner@aon.at>, 2003.
-# Frank Köster <frank@dueppel13.de>, 2004.
-# Oliver Burger <oliver@mandrivauser.de>, 2010.
 msgid ""
 msgstr ""
-"Project-Id-Version: userdrake-de\n"
+"Project-Id-Version: userdrake2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-02-02 03:03+0100\n"
-"PO-Revision-Date: 2010-04-30 18:51+0200\n"
-"Last-Translator: Oliver Burger <oliver@mandrivauser.de>\n"
-"Language-Team: German <cooker-i18n@mandrivalinux.org>\n"
+"POT-Creation-Date: 2013-04-23 19:48+0200\n"
+"PO-Revision-Date: 2012-03-09 10:30+0000\n"
+"Last-Translator: Peter Grun <p.grun@bluewin.ch>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 1.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
-#: ../USER/USER.xs:86
-#, c-format
-msgid "Error reading `%s': %s"
-msgstr "Fehler beim Lesen von `%s': %s"
-
-#: ../USER/USER.xs:93 ../USER/USER.xs:526
-#, c-format
-msgid "Error creating `%s': %s"
-msgstr "Fehler beim Anlegen von `%s': %s"
-
-#: ../USER/USER.xs:205 ../USER/USER.xs:234 ../USER/USER.xs:250
-#, c-format
-msgid "Error removing `%s': %s"
-msgstr "Fehler beim Löschen von `%s': %s"
-
-#: ../USER/USER.xs:490
+#: ../USER/USER.xs:83
 #, c-format
 msgid "Account creation failed: '%s'.\n"
-msgstr "Fehler beim Anlegen des Benutzerkontos: '%s'.\n"
+msgstr "Fehler beim Anlegen des Benutzerkontos: „%s“.\n"
 
-#: ../USER/USER.xs:503
-#, fuzzy
+#: ../USER/USER.xs:96
 msgid "Cannot get Uid number"
-msgstr "Kann die UID-Nummer nicht finden"
+msgstr "Die UID kann nicht gelesen werden"
 
-#: ../USER/USER.xs:515
-#, fuzzy
+#: ../USER/USER.xs:108
 msgid "Cannot retrieve value"
-msgstr "Kann den Wert nicht einlesen"
+msgstr "Der Wert kann nicht gelesen werden"
 
-#: ../USER/USER.xs:532
-msgid "Error creating mail spool.\n"
-msgstr "Fehler beim Anlegen der Mail Spool.\n"
+#: ../USER/USER.xs:119
+#, c-format
+msgid "Error creating `%s': %s"
+msgstr "Fehler beim Anlegen von „%s“: %s"
 
-#: ../USER/USER.xs:582
+#: ../USER/USER.xs:125
+#, c-format
+msgid "Error creating mail spool: %s\n"
+msgstr "Fehler beim Anlegen des Mail-Spool: %s\n"
+
+#: ../USER/USER.xs:175
 #, c-format
 msgid "User could not be modified: '%s'.\n"
-msgstr "Der Benutzer konnte nicht verändert werden: '%s'.\n"
+msgstr "Der Benutzer konnte nicht verändert werden: „%s“.\n"
 
-#: ../USER/USER.xs:592
+#: ../USER/USER.xs:185
 #, c-format
 msgid "User Could Not be deleted: '%s'.\n"
-msgstr "Der Benutzer konnte nicht gelöscht werden: '%s'.\n"
+msgstr "Der Benutzer konnte nicht gelöscht werden: „%s“.\n"
 
-#: ../USER/USER.xs:618
+#: ../USER/USER.xs:211
 #, c-format
 msgid "Failed to set password: '%s'.\n"
-msgstr "Konnte das Passwort nicht setzen: '%s'.\n"
+msgstr "Konnte das Passwort nicht setzen: „%s“.\n"
 
-#: ../USER/USER.xs:618
+#: ../USER/USER.xs:211
 msgid "unknown error"
 msgstr "unbekannter Fehler"
 
-#: ../USER/USER.xs:685
+#: ../USER/USER.xs:278
 msgid "Group creation failed.\n"
 msgstr "Anlegen der Gruppe fehlgeschlagen.\n"
 
-#: ../USER/USER.xs:695
+#: ../USER/USER.xs:288
 #, c-format
 msgid "Group could not be modified: '%s'.\n"
-msgstr "Die Gruppe konnte nicht verändert werden: '%s'.\n"
+msgstr "Die Gruppe konnte nicht verändert werden: „%s“.\n"
 
-#: ../USER/USER.xs:705
+#: ../USER/USER.xs:298
 #, c-format
 msgid "Group could not be deleted: '%s'.\n"
-msgstr "Die Gruppe konnte nicht gelöscht werden: '%s'.\n"
+msgstr "Die Gruppe konnte nicht gelöscht werden: „%s“.\n"
 
-#: ../USER/USER.xs:863
-#, fuzzy
+#: ../USER/USER.xs:456
 msgid "No home directory for the user.\n"
 msgstr "Kein Home-Verzeichnis für den Benutzer angegeben.\n"
 
-#: ../USER/USER.xs:869 ../USER/USER.xs:871
-#, fuzzy, c-format
+#: ../USER/USER.xs:462 ../USER/USER.xs:464
+#, c-format
 msgid "Home Directory Could Not be deleted: '%s'.\n"
-msgstr "Das Home-Verzeichnis konnte nicht gelöscht werden: '%s'.\n"
+msgstr "Das Home-Verzeichnis konnte nicht gelöscht werden: „%s“.\n"
 
-#: ../USER/USER.xs:881
-msgid "Error deleting mail spool.\n"
-msgstr "Fehler beim Entfernen der Mail Spool.\n"
+#: ../USER/USER.xs:475
+#, c-format
+msgid "Error deleting mail spool: %s\n"
+msgstr "Fehler beim Entfernen des Mail-Spool: %s\n"
 
-#: ../userdrake:59 ../userdrake:1275
+#: ../userdrake:59 ../userdrake:1276
 #, c-format
 msgid "Userdrake"
-msgstr "UserDrake"
+msgstr "User-Drake"
 
 #: ../userdrake:64
 #, c-format
 msgid "Loading Users and Groups... Please wait"
-msgstr "Lade Benutzer und Gruppen...Bitte warten"
+msgstr "Benutzer und Gruppen werden geladen... Bitte warten"
 
 #: ../userdrake:83
 #, c-format
-msgid "Mandriva Linux Users Management Tool"
-msgstr "Mandriva Linux Benutzerverwaltung"
+msgid "OpenMandriva Users Management Tool"
+msgstr "OpenMandriva-Benutzerverwaltung"
 
 #: ../userdrake:96
 #, c-format
 msgid "/_Install guest account"
-msgstr "/_Installiere ein Gast-Benutzerkonto"
+msgstr "/Ein Gast-_Benutzerkonto erstellen"
 
 #: ../userdrake:97
 #, c-format
 msgid "/_Uninstall guest account"
-msgstr "/_Deinstalliere das Gast-Benutzerkonto"
+msgstr "/Das Gast-Benutzerkonto _entfernen"
 
 #: ../userdrake:101 ../userdrake:102 ../userdrake:103 ../userdrake:114
 #: ../userdrake:115 ../userdrake:116
@@ -150,12 +131,12 @@ msgstr "/_Löschen"
 #: ../userdrake:104 ../userdrake:120
 #, c-format
 msgid "/_Options"
-msgstr "/_Bearbeiten"
+msgstr "/_Optionen"
 
 #: ../userdrake:104
 #, c-format
 msgid "/_Filter system users"
-msgstr "/Systemkennzeichen _filtern"
+msgstr "/Systembenutzer _filtern"
 
 #: ../userdrake:109 ../userdrake:110 ../userdrake:113
 #, c-format
@@ -175,7 +156,7 @@ msgstr "/_Beenden"
 #: ../userdrake:113
 #, c-format
 msgid "<control>Q"
-msgstr "<control>Q"
+msgstr "<STRG>-Q"
 
 #: ../userdrake:115
 #, c-format
@@ -220,7 +201,7 @@ msgstr "Benutzer"
 #: ../userdrake:162 ../userdrake:1041
 #, c-format
 msgid "Groups"
-msgstr "Gruppe(n)"
+msgstr "Gruppen"
 
 #. -PO: do not translate, this is already translated in mcc
 #: ../userdrake:168
@@ -236,7 +217,7 @@ msgstr "Benutzername"
 #: ../userdrake:186
 #, c-format
 msgid "User ID"
-msgstr "Benutzer ID"
+msgstr "Benutzer-ID"
 
 #: ../userdrake:186 ../userdrake:1038
 #, c-format
@@ -271,7 +252,7 @@ msgstr "Gruppenname"
 #: ../userdrake:194
 #, c-format
 msgid "Group ID"
-msgstr "Gruppen ID"
+msgstr "Gruppen-ID"
 
 #: ../userdrake:194
 #, c-format
@@ -296,12 +277,12 @@ msgstr "Gruppe hinzufügen"
 #: ../userdrake:197
 #, c-format
 msgid "Add a group to the system"
-msgstr "Gruppe hinzufügen"
+msgstr "Gruppe zum System hinzufügen"
 
 #: ../userdrake:198 ../userdrake:739
 #, c-format
 msgid "Edit"
-msgstr "Ändern"
+msgstr "Bearbeiten"
 
 #: ../userdrake:198
 #, c-format
@@ -366,19 +347,19 @@ msgstr "Private Gruppe für den Benutzer erstellen"
 #: ../userdrake:397
 #, c-format
 msgid "Specify user ID manually"
-msgstr "Benutzer ID manuell angeben"
+msgstr "Benutzer-ID manuell angeben"
 
 #: ../userdrake:414
 #, c-format
 msgid "User already exists, please choose another User Name"
 msgstr "Benutzer existiert bereits. Bitte einen anderen Namen wählen."
 
-#: ../userdrake:419 ../userdrake:860
+#: ../userdrake:419 ../userdrake:859
 #, c-format
 msgid "Password Mismatch"
-msgstr "Passwort fehlerhaft"
+msgstr "Passwörter stimmen nicht überein"
 
-#: ../userdrake:422 ../userdrake:863
+#: ../userdrake:422 ../userdrake:862
 #, c-format
 msgid ""
 "This password is too simple. \n"
@@ -390,7 +371,7 @@ msgstr ""
 #: ../userdrake:434
 #, c-format
 msgid "User Uid is < 500"
-msgstr "Benutzer ID ist unter 500"
+msgstr "Benutzer-ID ist unter 500"
 
 #: ../userdrake:435
 #, c-format
@@ -421,25 +402,25 @@ msgstr "Benutzer hinzufügen: %s"
 #: ../userdrake:478
 #, c-format
 msgid "Migration wizard"
-msgstr "Migrations Wizard"
+msgstr "Migrations-Assistent"
 
 #: ../userdrake:479
 #, c-format
 msgid ""
 "Do you want to run the migration wizard in order to import Windows documents "
-"and settings in your Mandriva Linux distribution?"
+"and settings in your OpenMandriva distribution?"
 msgstr ""
-"Wollen Sie den Migrations Wizard für den Import von Windows Dokumenten und "
-"Einstellungen starten?"
+"Wollen Sie den Migrations-Assistenten für den Import von Windows-Dokumenten "
+"und -Einstellungen starten?"
 
 #: ../userdrake:484 ../userdrake:528 ../userdrake:587 ../userdrake:674
-#: ../userdrake:707 ../userdrake:1166
+#: ../userdrake:707 ../userdrake:1167
 #, c-format
 msgid "Cancel"
 msgstr "Abbrechen"
 
-#: ../userdrake:484 ../userdrake:521 ../userdrake:587 ../userdrake:1166
-#: ../userdrake:1317
+#: ../userdrake:484 ../userdrake:521 ../userdrake:587 ../userdrake:1167
+#: ../userdrake:1318
 #, c-format
 msgid "Ok"
 msgstr "OK"
@@ -477,7 +458,7 @@ msgstr "Neue Gruppe erstellen"
 #: ../userdrake:551
 #, c-format
 msgid "Specify group ID manually"
-msgstr "Gruppen ID manuell angeben"
+msgstr "Gruppen-ID manuell angeben"
 
 #: ../userdrake:567
 #, c-format
@@ -487,7 +468,7 @@ msgstr "Gruppe existiert bereits. Bitte einen anderen Namen wählen."
 #: ../userdrake:573
 #, c-format
 msgid " Group Gid is < 500"
-msgstr "Gruppen ID ist unter 500"
+msgstr "Gruppen-ID ist unter 500"
 
 #: ../userdrake:574
 #, c-format
@@ -513,7 +494,7 @@ msgstr "GID: "
 #: ../userdrake:636
 #, c-format
 msgid "Delete files or not?"
-msgstr "Dateien löschen oder nicht?"
+msgstr "Dateien löschen - Ja oder Nein?"
 
 #: ../userdrake:639
 #, c-format
@@ -521,23 +502,23 @@ msgid ""
 "Deleting user %s\n"
 " Also perform the following actions\n"
 msgstr ""
-"Lösche Kennzeichen %s\n"
-" Und führe folgende Aktionen aus\n"
+"Benutzer %s löschen\n"
+" Und folgende Aktionen ausführen\n"
 
 #: ../userdrake:641
 #, c-format
 msgid "Delete Home Directory: %s"
-msgstr "Lösche Persönliches Verzeichnis: %s"
+msgstr "Persönliches Verzeichnis löschen: %s"
 
 #: ../userdrake:642
 #, c-format
 msgid "Delete Mailbox: /var/spool/mail/%s"
-msgstr "Lösche Mailbox :/var/spool/mail/%s"
+msgstr "Mailbox löschen: /var/spool/mail/%s"
 
 #: ../userdrake:651
 #, c-format
 msgid "Removing user: %s"
-msgstr "Lösche Kennzeichen: %s"
+msgstr "Benutzer löschen: %s"
 
 #: ../userdrake:684
 #, c-format
@@ -550,13 +531,13 @@ msgid ""
 "%s is a primary group for user %s\n"
 " Remove the user first"
 msgstr ""
-"%s ist die Hauptgruppe des Kennzeichens %s\n"
-"Entfernen Sie zuerst den Benutzer"
+"%s ist die Hauptgruppe des Benutzers %s\n"
+" Entfernen Sie zuerst den Benutzer"
 
 #: ../userdrake:702
 #, c-format
 msgid "Removing group: %s"
-msgstr "Lösche Gruppe: %s"
+msgstr "Gruppe löschen: %s"
 
 #: ../userdrake:798
 #, c-format
@@ -566,7 +547,7 @@ msgstr "Vollständiger Name:"
 #: ../userdrake:800
 #, c-format
 msgid "Login:"
-msgstr "Kennzeichen:"
+msgstr "Benutzername:"
 
 #: ../userdrake:802
 #, c-format
@@ -583,26 +564,26 @@ msgstr "Passwort bestätigen:"
 msgid "Login Shell:"
 msgstr "Login-Shell:"
 
-#: ../userdrake:820
+#: ../userdrake:819
 #, c-format
 msgid "Group Name:"
 msgstr "Gruppenname:"
 
-#: ../userdrake:894
+#: ../userdrake:893
 #, c-format
 msgid "Please select at least one group for the user"
 msgstr "Bitte wählen Sie mindestens eine Gruppe für den Benutzer"
 
-#: ../userdrake:904
+#: ../userdrake:903
 #, c-format
 msgid ""
 "Please specify Year, Month and Day \n"
 " for Account Expiration "
 msgstr ""
-"Geben Sie Jahr, Monat und Tag \n"
-" des Ablaufens des Kennzeichens an. "
+"Geben Sie Ablaufdatum des Benutzer an\n"
+" (Jahr, Monat und Tag) "
 
-#: ../userdrake:914
+#: ../userdrake:913
 #, c-format
 msgid "Please fill up all fields in password aging\n"
 msgstr "Bitte füllen Sie alle Felder zum Ablaufen des Passworts aus.\n"
@@ -640,7 +621,7 @@ msgstr "Benutzerkennzeichen sperren"
 #: ../userdrake:1005
 #, c-format
 msgid "Account Info"
-msgstr "Info über Konto"
+msgstr "Info über Benutzerkonto"
 
 #: ../userdrake:1010
 #, c-format
@@ -665,7 +646,7 @@ msgstr "Tage vor nächster erzwungener Änderung:"
 #: ../userdrake:1026
 #, c-format
 msgid "Days warning before change:"
-msgstr "Anzahl Tage vor Änderung ab denen gewarnt wir:"
+msgstr "Anzahl Tage vor Änderung ab deren gewarnt wird:"
 
 #: ../userdrake:1028
 #, c-format
@@ -695,52 +676,58 @@ msgstr "Wählen Sie die Benutzer für diese Gruppe:"
 #: ../userdrake:1107
 #, c-format
 msgid "Group Users"
-msgstr "Benutzergruppen"
+msgstr "Benutzer in dieser Gruppe"
 
 #: ../userdrake:1127
 #, c-format
 msgid "Edit Groups / Users"
 msgstr "Benutzer / Gruppen bearbeiten"
 
-#: ../userdrake:1159
+#: ../userdrake:1160
 #, c-format
 msgid "An error occurred:"
 msgstr "Ein Fehler ist aufgetreten:"
 
-#: ../userdrake:1267
+#: ../userdrake:1268
 #, c-format
 msgid "Close"
 msgstr "Schließen"
 
-#: ../userdrake:1277
+#: ../userdrake:1278
 #, c-format
 msgid "Copyright (C) %s by Mandriva"
 msgstr "Copyright·(C)·%s·bei·Mandriva"
 
-#: ../userdrake:1280
+#: ../userdrake:1278
+#, c-format
+msgid "Copyright (C) %s by OpenMandriva"
+msgstr "Copyright (C) %s by OpenMandriva"
+
+#: ../userdrake:1281
 #, c-format
 msgid "Users Management"
 msgstr "Benutzerverwaltung"
 
-#: ../userdrake:1282
+#: ../userdrake:1283
 #, c-format
-msgid "Mandriva Linux"
-msgstr "Mandriva Linux"
+msgid "OpenMandriva"
+msgstr "OpenMandriva"
 
 #. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
-#: ../userdrake:1288
+#: ../userdrake:1289
 #, c-format
 msgid "_: Translator(s) name(s) & email(s)\n"
 msgstr ""
 "Nicolas Bauer <rastafarii@mandrivauser.de>\n"
 "Sebastian Deutscher <sebastian.deutscher@web.de>\n"
+"Oliver Burger <oliver.bgr@googlemail.com>\n"
 
-#: ../userdrake:1295
+#: ../userdrake:1296
 #, c-format
 msgid "Name field is empty please provide a name"
 msgstr "Es wurde kein Name angegeben. Bitte ändern."
 
-#: ../userdrake:1297
+#: ../userdrake:1298
 #, c-format
 msgid ""
 "The name must contain only lower cased latin letters, numbers, `-' and `_'"
@@ -748,23 +735,18 @@ msgstr ""
 "Der Name darf nur Kleinbuchstaben ohne Umlaute, Zahlen,  „-“ und „_“ "
 "enthalten."
 
-#: ../userdrake:1300
+#: ../userdrake:1301
 #, c-format
 msgid "Name is too long"
 msgstr "Der Name ist zu lang"
 
-#: ../userdrake:1313
+#: ../userdrake:1314
 #, c-format
 msgid "Error"
 msgstr "Fehler"
 
-#, fuzzy
-#~ msgid "Unknown error"
-#~ msgstr "unbekannter Fehler"
+#~ msgid "Error reading `%s': %s"
+#~ msgstr "Fehler beim Lesen von „%s“: %s"
 
-#, fuzzy
-#~ msgid "Error creating %s: %s.\n"
-#~ msgstr "Fehler beim Anlegen von `%s': %s"
-
-#~ msgid "Authors: "
-#~ msgstr "Autoren:"
+#~ msgid "Error removing `%s': %s"
+#~ msgstr "Fehler beim Löschen von „%s“: %s"

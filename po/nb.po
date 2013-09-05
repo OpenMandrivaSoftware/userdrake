@@ -1,109 +1,93 @@
-# translation of nb.po to Norwegian Bokmål
-# translation of nb.po to
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-# Latest versions of po files are at http://www.mandrivalinux.org/l10n/no.php3
-#
-# UserDrake.
-# Copyright (C) 2000 Mandriva
-# Andreas Bergstrøm
-#
-# Terje Bjerkelia <terje@bjerkelia.com>, 2000,2002.
-# Per Øyvind Karlsen <peroyvind@sintrax.net>, 2003, 2004.
-# Keld Simonsen <keld@dkuug.dk>, 2007.
-# Olav Dahlum <odahlum@gmail.com>, 2009, 2010.
 msgid ""
 msgstr ""
-"Project-Id-Version: nb\n"
+"Project-Id-Version: userdrake2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-02-02 03:03+0100\n"
-"PO-Revision-Date: 2010-02-03 19:57+0100\n"
+"POT-Creation-Date: 2013-04-23 19:48+0200\n"
+"PO-Revision-Date: 2011-05-19 20:50+0000\n"
 "Last-Translator: Olav Dahlum <odahlum@gmail.com>\n"
-"Language-Team: Norwegian Bokmål <cooker-i18n@mandrivalinux.org>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: nb\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 1.11.4\n"
-"Plural-Forms:  nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
-#: ../USER/USER.xs:86
-#, c-format
-msgid "Error reading `%s': %s"
-msgstr "Feil under lesing av «%s»: %s"
-
-#: ../USER/USER.xs:93 ../USER/USER.xs:526
-#, c-format
-msgid "Error creating `%s': %s"
-msgstr "Feil under opprettelse av «%s»: %s"
-
-#: ../USER/USER.xs:205 ../USER/USER.xs:234 ../USER/USER.xs:250
-#, c-format
-msgid "Error removing `%s': %s"
-msgstr "Feil ved fjerning av «%s»: %s"
-
-#: ../USER/USER.xs:490
+#: ../USER/USER.xs:83
 #, c-format
 msgid "Account creation failed: '%s'.\n"
-msgstr "Opprettelse av konto mislyktes: «%s».\n"
+msgstr "Kunne ikke lage kontoen: «%s».\n"
 
-#: ../USER/USER.xs:503
+#: ../USER/USER.xs:96
 msgid "Cannot get Uid number"
 msgstr "Kan ikke hente UID-nummer"
 
-#: ../USER/USER.xs:515
+#: ../USER/USER.xs:108
 msgid "Cannot retrieve value"
 msgstr "Kan ikke hente verdi"
 
-#: ../USER/USER.xs:532
-msgid "Error creating mail spool.\n"
-msgstr "Feil under opprettelse av epostkø.\n"
+#: ../USER/USER.xs:119
+#, c-format
+msgid "Error creating `%s': %s"
+msgstr "Feil ved opprettelse av «%s»: %s"
 
-#: ../USER/USER.xs:582
+#: ../USER/USER.xs:125
+#, c-format
+msgid "Error creating mail spool: %s\n"
+msgstr "Kunne ikke lage e-postkø: %s\n"
+
+#: ../USER/USER.xs:175
 #, c-format
 msgid "User could not be modified: '%s'.\n"
 msgstr "Brukeren kunne ikke endres: «%s».\n"
 
-#: ../USER/USER.xs:592
+#: ../USER/USER.xs:185
 #, c-format
 msgid "User Could Not be deleted: '%s'.\n"
-msgstr "Brukeren kunne ikke bli slettet: «%s».\n"
+msgstr "Brukeren kunne ikke slettes: «%s».\n"
 
-#: ../USER/USER.xs:618
+#: ../USER/USER.xs:211
 #, c-format
 msgid "Failed to set password: '%s'.\n"
-msgstr "Kunne ikke sette passord: «%s».\n"
+msgstr "Kunne ikke angi passord: «%s».\n"
 
-#: ../USER/USER.xs:618
+#: ../USER/USER.xs:211
 msgid "unknown error"
 msgstr "ukjent feil"
 
-#: ../USER/USER.xs:685
+#: ../USER/USER.xs:278
 msgid "Group creation failed.\n"
-msgstr "Opprettelse av gruppa mislyktes.\n"
+msgstr "Kunne ikke lage gruppa.\n"
 
-#: ../USER/USER.xs:695
+#: ../USER/USER.xs:288
 #, c-format
 msgid "Group could not be modified: '%s'.\n"
-msgstr "Gruppa kunne ikke endres: «%s».\n"
+msgstr "Kunne ikke endre gruppa: «%s».\n"
 
-#: ../USER/USER.xs:705
+#: ../USER/USER.xs:298
 #, c-format
 msgid "Group could not be deleted: '%s'.\n"
-msgstr "Gruppa kunne ikke slettes: «%s».\n"
+msgstr "Kunne ikke slette gruppa: «%s».\n"
 
-#: ../USER/USER.xs:863
+#: ../USER/USER.xs:456
 msgid "No home directory for the user.\n"
-msgstr "Ingen hjemmemappe for brukeren.\n"
+msgstr "Brukeren har ingen hjemmemappe.\n"
 
-#: ../USER/USER.xs:869 ../USER/USER.xs:871
+#: ../USER/USER.xs:462 ../USER/USER.xs:464
 #, c-format
 msgid "Home Directory Could Not be deleted: '%s'.\n"
-msgstr "Hjemmemappa kunne ikke slettes: «%s».\n"
+msgstr "Kunne ikke slette hjemmemappa: «%s».\n"
 
-#: ../USER/USER.xs:881
-msgid "Error deleting mail spool.\n"
-msgstr "Feil ved sletting av epostboks\n"
+#: ../USER/USER.xs:475
+#, c-format
+msgid "Error deleting mail spool: %s\n"
+msgstr "Feil ved sletting av e-postboks: %s\n"
 
-#: ../userdrake:59 ../userdrake:1275
+#: ../userdrake:59 ../userdrake:1276
 #, c-format
 msgid "Userdrake"
 msgstr "Userdrake"
@@ -111,12 +95,12 @@ msgstr "Userdrake"
 #: ../userdrake:64
 #, c-format
 msgid "Loading Users and Groups... Please wait"
-msgstr "Vent litt … laster brukere og grupper"
+msgstr "Vent litt … Laster brukere og grupper"
 
 #: ../userdrake:83
 #, c-format
-msgid "Mandriva Linux Users Management Tool"
-msgstr "Brukeradministreringsverktøy for Mandriva Linux "
+msgid "OpenMandriva Users Management Tool"
+msgstr "Brukeradministreringsverktøy for OpenMandriva "
 
 #: ../userdrake:96
 #, c-format
@@ -253,7 +237,7 @@ msgstr "Innloggingsskall"
 #: ../userdrake:187
 #, c-format
 msgid "Home Directory"
-msgstr "Hjemmeområde"
+msgstr "Hjemmemappe"
 
 #: ../userdrake:187
 #, c-format
@@ -283,7 +267,7 @@ msgstr "Legg til bruker"
 #: ../userdrake:196
 #, c-format
 msgid "Add a user to the system"
-msgstr "Legg en bruker til systemet"
+msgstr "Legg til en bruker på systemet"
 
 #: ../userdrake:197
 #, c-format
@@ -293,7 +277,7 @@ msgstr "Legg til gruppe"
 #: ../userdrake:197
 #, c-format
 msgid "Add a group to the system"
-msgstr "Legg en gruppe til systemet"
+msgstr "Legg til en gruppe på systemet"
 
 #: ../userdrake:198 ../userdrake:739
 #, c-format
@@ -348,12 +332,12 @@ msgstr "Lag ny bruker"
 #: ../userdrake:391
 #, c-format
 msgid "Create Home Directory"
-msgstr "Lag hjemmeområde"
+msgstr "Lag hjemmemappe"
 
 #: ../userdrake:393
 #, c-format
 msgid "Home Directory: "
-msgstr "Hjemmekatalog: "
+msgstr "Hjemmemappe: "
 
 #: ../userdrake:396
 #, c-format
@@ -370,12 +354,12 @@ msgstr "Angi bruker-ID manuelt"
 msgid "User already exists, please choose another User Name"
 msgstr "Brukeren finnes allerede, vennligst velg et annet brukernavn"
 
-#: ../userdrake:419 ../userdrake:860
+#: ../userdrake:419 ../userdrake:859
 #, c-format
 msgid "Password Mismatch"
 msgstr "Passordene er ulike"
 
-#: ../userdrake:422 ../userdrake:863
+#: ../userdrake:422 ../userdrake:862
 #, c-format
 msgid ""
 "This password is too simple. \n"
@@ -396,7 +380,7 @@ msgid ""
 " Are you sure you want to do this?\n"
 "\n"
 msgstr ""
-"Å legge til en bruker med UID(brukerID) lavere enn 500 er ikke anbefalt.\n"
+"Å legge til en bruker med UID (brukerID) lavere enn 500 er ikke anbefalt.\n"
 " Er du sikker på at du vil gjøre dette?\n"
 "\n"
 
@@ -424,19 +408,19 @@ msgstr "Migrasjonsveiviser"
 #, c-format
 msgid ""
 "Do you want to run the migration wizard in order to import Windows documents "
-"and settings in your Mandriva Linux distribution?"
+"and settings in your OpenMandriva distribution?"
 msgstr ""
 "Ønsker du å kjøre migrasjonsveiviseren for å importere dokumenter og oppsett "
-"fra Windows til Mandriva Linux?"
+"fra Windows i OpenMandriva?"
 
 #: ../userdrake:484 ../userdrake:528 ../userdrake:587 ../userdrake:674
-#: ../userdrake:707 ../userdrake:1166
+#: ../userdrake:707 ../userdrake:1167
 #, c-format
 msgid "Cancel"
 msgstr "Avbryt"
 
-#: ../userdrake:484 ../userdrake:521 ../userdrake:587 ../userdrake:1166
-#: ../userdrake:1317
+#: ../userdrake:484 ../userdrake:521 ../userdrake:587 ../userdrake:1167
+#: ../userdrake:1318
 #, c-format
 msgid "Ok"
 msgstr "OK"
@@ -500,7 +484,7 @@ msgstr ""
 #: ../userdrake:581
 #, c-format
 msgid "Adding group: %s "
-msgstr "Legger til gruppe: %s"
+msgstr "Legger til gruppa: %s"
 
 #: ../userdrake:591
 #, c-format
@@ -524,7 +508,7 @@ msgstr ""
 #: ../userdrake:641
 #, c-format
 msgid "Delete Home Directory: %s"
-msgstr "Slett hjemmekatalog: %s"
+msgstr "Slett hjemmemappa: %s"
 
 #: ../userdrake:642
 #, c-format
@@ -534,7 +518,7 @@ msgstr "Slett e-postboks: /var/spool/mail/%s"
 #: ../userdrake:651
 #, c-format
 msgid "Removing user: %s"
-msgstr "Fjerner bruker: %s"
+msgstr "Fjerner brukeren: %s"
 
 #: ../userdrake:684
 #, c-format
@@ -547,13 +531,13 @@ msgid ""
 "%s is a primary group for user %s\n"
 " Remove the user first"
 msgstr ""
-"%s er en primær gruppe for bruker %s\n"
+"%s er en primær gruppe for brukeren %s\n"
 " Fjern brukeren først"
 
 #: ../userdrake:702
 #, c-format
 msgid "Removing group: %s"
-msgstr "Fjerner gruppe: %s"
+msgstr "Fjerner gruppa: %s"
 
 #: ../userdrake:798
 #, c-format
@@ -580,17 +564,17 @@ msgstr "Bekreft passord:"
 msgid "Login Shell:"
 msgstr "Innloggingsskall:"
 
-#: ../userdrake:820
+#: ../userdrake:819
 #, c-format
 msgid "Group Name:"
 msgstr "Gruppenavn:"
 
-#: ../userdrake:894
+#: ../userdrake:893
 #, c-format
 msgid "Please select at least one group for the user"
 msgstr "Vennligst velg minst en gruppe for brukeren"
 
-#: ../userdrake:904
+#: ../userdrake:903
 #, c-format
 msgid ""
 "Please specify Year, Month and Day \n"
@@ -599,7 +583,7 @@ msgstr ""
 "Vennligst angi dato, måned og dag \n"
 " for kontoens utløpsdato "
 
-#: ../userdrake:914
+#: ../userdrake:913
 #, c-format
 msgid "Please fill up all fields in password aging\n"
 msgstr "Vennligst fyll inn alle feltene for passordelding\n"
@@ -652,17 +636,17 @@ msgstr "Slå på utløpsdato for passord"
 #: ../userdrake:1022
 #, c-format
 msgid "Days before change allowed:"
-msgstr "Dager før skifte er tillatt :"
+msgstr "Dager før bytte er tillatt:"
 
 #: ../userdrake:1024
 #, c-format
 msgid "Days before change required:"
-msgstr "Dager før skifte kreves :"
+msgstr "Dager før bytte kreves:"
 
 #: ../userdrake:1026
 #, c-format
 msgid "Days warning before change:"
-msgstr "Antall dager med varsel før skifte :"
+msgstr "Antall dager med varsel før bytte:"
 
 #: ../userdrake:1028
 #, c-format
@@ -677,7 +661,7 @@ msgstr "Passordinfo"
 #: ../userdrake:1035
 #, c-format
 msgid "Select the groups that the user will be a member of:"
-msgstr "Velg gruppene som brukeren skal bli medlem av:"
+msgstr "Velg gruppene som brukeren skal være medlem av:"
 
 #: ../userdrake:1102
 #, c-format
@@ -699,37 +683,42 @@ msgstr "Gruppebrukere"
 msgid "Edit Groups / Users"
 msgstr "Rediger grupper/brukere"
 
-#: ../userdrake:1159
+#: ../userdrake:1160
 #, c-format
 msgid "An error occurred:"
-msgstr "En feil oppstod:"
+msgstr "Det oppstod en feil:"
 
-#: ../userdrake:1267
+#: ../userdrake:1268
 #, c-format
 msgid "Close"
 msgstr "Lukk"
 
-#: ../userdrake:1277
+#: ../userdrake:1278
 #, c-format
 msgid "Copyright (C) %s by Mandriva"
-msgstr "Alle rettigheter (C) %s Mandriva"
+msgstr "Alle rettigheter © %s Mandriva"
 
-#: ../userdrake:1280
+#: ../userdrake:1278
+#, c-format
+msgid "Copyright (C) %s by OpenMandriva"
+msgstr "Alle rettigheter © %s OpenMandriva"
+
+#: ../userdrake:1281
 #, c-format
 msgid "Users Management"
 msgstr "Håndtering av brukere"
 
-#: ../userdrake:1282
+#: ../userdrake:1283
 #, c-format
-msgid "Mandriva Linux"
-msgstr "Mandriva Linux"
+msgid "OpenMandriva"
+msgstr "OpenMandriva"
 
 #. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
-#: ../userdrake:1288
+#: ../userdrake:1289
 #, c-format
 msgid "_: Translator(s) name(s) & email(s)\n"
 msgstr ""
-"Olav Dahlum <odahlum@gmail.com>, 2009\n"
+"Olav Dahlum <odahlum@gmail.com>, 2009, 2010, 2011.\n"
 "Per Øyvind Karlsen <pkarlsen@mandriva.com>, 2003-2006.\n"
 "Eskild Hustvedt <eskild@mandriva.org>, 2004-2005.\n"
 "Kenneth Rørvik <kenneth@rorvik.net>, 2003-2004.\n"
@@ -738,23 +727,29 @@ msgstr ""
 "Terje Bjerkelia <terje@bjerkelia.com>, 1999-2000.\n"
 "Andreas Bergstrøm <abergstr@halden.net>, 2000.\n"
 
-#: ../userdrake:1295
+#: ../userdrake:1296
 #, c-format
 msgid "Name field is empty please provide a name"
-msgstr "Feltet Navn er tomt, vennligst oppgi et navn"
+msgstr "Navnefeltet er tomt, vennligst oppgi et navn"
 
-#: ../userdrake:1297
+#: ../userdrake:1298
 #, c-format
-msgid "The name must contain only lower cased latin letters, numbers, `-' and `_'"
-msgstr "Navnet kan bare innholde små bokstaver, numre, «-» og «_»"
+msgid ""
+"The name must contain only lower cased latin letters, numbers, `-' and `_'"
+msgstr "Navnet kan bare inneholde små bokstaver, numre, «-» og «_»"
 
-#: ../userdrake:1300
+#: ../userdrake:1301
 #, c-format
 msgid "Name is too long"
 msgstr "Navnet er for langt"
 
-#: ../userdrake:1313
+#: ../userdrake:1314
 #, c-format
 msgid "Error"
 msgstr "Feil"
 
+#~ msgid "Error reading `%s': %s"
+#~ msgstr "Feil ved lesing av «%s»: %s"
+
+#~ msgid "Error removing `%s': %s"
+#~ msgstr "Feil ved fjerning av «%s»: %s"

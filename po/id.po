@@ -10,100 +10,94 @@
 # Ahmad Ramadhana <ahmad_ramadhana@yahoo.com.sg>, 2005.
 # Firdaus <dausnux@gmail.com>, 2005.
 # Sofian <sofianhanafi@yahoo.com>, 2005.
+# Kiki Syahadat <kiki.syahadat@yahoo.co.id>, 2012.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: userdrake2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-02-02 03:03+0100\n"
-"PO-Revision-Date: 2006-03-21 18:36+0700\n"
-"Last-Translator: Willy Sudiarto Raharjo <willysr@gmail.com>\n"
-"Language-Team: Indonesia <mdk-id@yahoogroups.com>\n"
+"POT-Creation-Date: 2013-04-23 19:48+0200\n"
+"PO-Revision-Date: 2012-12-20 14:50+0700\n"
+"Last-Translator: Kiki Syahadat <kiki.syahadat@yahoo.co.id>\n"
+"Language-Team: Indonesia <mdk-id@yahoogroups.com> Translation list <om-"
+"i18n@openmandriva.org>\n"
+"Language: id\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Plural-Forms: nplurals=2; plural=(n > 1)\n"
 
-#: ../USER/USER.xs:86
+#: ../USER/USER.xs:83
 #, c-format
-msgid "Error reading `%s': %s"
-msgstr "Kesalahan membaca `%s': %s"
+msgid "Account creation failed: '%s'.\n"
+msgstr "Pembuatan akun gagal: '%s'.\n"
 
-#: ../USER/USER.xs:93 ../USER/USER.xs:526
+#: ../USER/USER.xs:96
+msgid "Cannot get Uid number"
+msgstr "Tidak bisa mendapatkan nomor Uid"
+
+#: ../USER/USER.xs:108
+msgid "Cannot retrieve value"
+msgstr "Tidak bisa mengambil nilai"
+
+#: ../USER/USER.xs:119
 #, c-format
 msgid "Error creating `%s': %s"
-msgstr "Kesalahan menciptakan `%s': %s"
+msgstr "Error membuat `%s': %s"
 
-#: ../USER/USER.xs:205 ../USER/USER.xs:234 ../USER/USER.xs:250
+#: ../USER/USER.xs:125
 #, c-format
-msgid "Error removing `%s': %s"
-msgstr "Kesalahan menghapus `%s': %s"
+msgid "Error creating mail spool: %s\n"
+msgstr "Error membuat spool surat: %s\n"
 
-#: ../USER/USER.xs:490
-#, fuzzy, c-format
-msgid "Account creation failed: '%s'.\n"
-msgstr "Kesalahan membuat spool mail.\n"
-
-#: ../USER/USER.xs:503
-msgid "Cannot get Uid number"
-msgstr ""
-
-#: ../USER/USER.xs:515
-msgid "Cannot retrieve value"
-msgstr ""
-
-#: ../USER/USER.xs:532
-msgid "Error creating mail spool.\n"
-msgstr "Kesalahan membuat spool mail.\n"
-
-#: ../USER/USER.xs:582
-#, fuzzy, c-format
+#: ../USER/USER.xs:175
+#, c-format
 msgid "User could not be modified: '%s'.\n"
-msgstr "Kesalahan membuat spool mail.\n"
+msgstr "Pengguna tidak bisa dimodifikasi: '%s'.\n"
 
-#: ../USER/USER.xs:592
+#: ../USER/USER.xs:185
 #, c-format
 msgid "User Could Not be deleted: '%s'.\n"
-msgstr ""
+msgstr "Pengguna Tidak Bisa dihapus: '%s'.\n"
 
-#: ../USER/USER.xs:618
+#: ../USER/USER.xs:211
 #, c-format
 msgid "Failed to set password: '%s'.\n"
-msgstr ""
+msgstr "Gagal mengatur sandi: '%s'.\n"
 
-#: ../USER/USER.xs:618
+#: ../USER/USER.xs:211
 msgid "unknown error"
-msgstr "kesalahan yang tidak diketahui"
+msgstr "error yang tidak diketahui"
 
-#: ../USER/USER.xs:685
-#, fuzzy
+#: ../USER/USER.xs:278
 msgid "Group creation failed.\n"
-msgstr "Kesalahan membuat spool mail.\n"
+msgstr "Pembuatan grup gagal.\n"
 
-#: ../USER/USER.xs:695
+#: ../USER/USER.xs:288
 #, c-format
 msgid "Group could not be modified: '%s'.\n"
-msgstr ""
+msgstr "Grup tidak bisa dimodifikasi: '%s'.\n"
 
-#: ../USER/USER.xs:705
+#: ../USER/USER.xs:298
 #, c-format
 msgid "Group could not be deleted: '%s'.\n"
-msgstr ""
+msgstr "Grup tidak bisa dihapus: '%s'.\n"
 
-#: ../USER/USER.xs:863
+#: ../USER/USER.xs:456
 msgid "No home directory for the user.\n"
-msgstr ""
+msgstr "Tidak ada direktori home untuk pengguna.\n"
 
-#: ../USER/USER.xs:869 ../USER/USER.xs:871
+#: ../USER/USER.xs:462 ../USER/USER.xs:464
 #, c-format
 msgid "Home Directory Could Not be deleted: '%s'.\n"
-msgstr ""
+msgstr "Direktori Home Tidak Bisa dihapus: '%s'.\n"
 
-#: ../USER/USER.xs:881
-msgid "Error deleting mail spool.\n"
-msgstr "Kesalahan menghapus spool mail.\n"
+#: ../USER/USER.xs:475
+#, c-format
+msgid "Error deleting mail spool: %s\n"
+msgstr "Error menghapus spool surat: %s\n"
 
-#: ../userdrake:59 ../userdrake:1275
+#: ../userdrake:59 ../userdrake:1276
 #, c-format
 msgid "Userdrake"
 msgstr "Userdrake"
@@ -111,22 +105,22 @@ msgstr "Userdrake"
 #: ../userdrake:64
 #, c-format
 msgid "Loading Users and Groups... Please wait"
-msgstr "Memuat Pengguna dan Grup... Harap tunggu"
+msgstr "Memuat Pengguna dan Grup... Silakan tunggu"
 
 #: ../userdrake:83
 #, c-format
-msgid "Mandriva Linux Users Management Tool"
-msgstr "Perkakas Manajemen Pengguna Mandriva Linux"
+msgid "OpenMandriva Users Management Tool"
+msgstr "Tool Manajemen Pengguna OpenMandriva"
 
 #: ../userdrake:96
 #, c-format
 msgid "/_Install guest account"
-msgstr ""
+msgstr "/_Install akun tamu"
 
 #: ../userdrake:97
 #, c-format
 msgid "/_Uninstall guest account"
-msgstr ""
+msgstr "/_Uninstall akun tamu"
 
 #: ../userdrake:101 ../userdrake:102 ../userdrake:103 ../userdrake:114
 #: ../userdrake:115 ../userdrake:116
@@ -142,7 +136,7 @@ msgstr "/_Edit"
 #: ../userdrake:102
 #, c-format
 msgid "/_Delete"
-msgstr "/_Hapus"
+msgstr "/Hapus"
 
 #: ../userdrake:104 ../userdrake:120
 #, c-format
@@ -152,7 +146,7 @@ msgstr "/_Opsi"
 #: ../userdrake:104
 #, c-format
 msgid "/_Filter system users"
-msgstr "/_Saring pengguna sistem"
+msgstr "/Saring pengguna sistem"
 
 #: ../userdrake:109 ../userdrake:110 ../userdrake:113
 #, c-format
@@ -162,7 +156,7 @@ msgstr "/_File"
 #: ../userdrake:110
 #, c-format
 msgid "/_Refresh"
-msgstr "/_Penyegaran"
+msgstr "/_Refresh"
 
 #: ../userdrake:113
 #, c-format
@@ -187,17 +181,17 @@ msgstr "/Tambah _Grup"
 #: ../userdrake:125 ../userdrake:126 ../userdrake:127 ../userdrake:130
 #, c-format
 msgid "/_Help"
-msgstr "/_Bantuan"
+msgstr "/Bantuan"
 
 #: ../userdrake:127
 #, c-format
 msgid "/_Report Bug"
-msgstr "/_Laporkan Kesalahan"
+msgstr "/Lapo_rkan Bug"
 
 #: ../userdrake:130
 #, c-format
 msgid "/_About..."
-msgstr "/_Tentang..."
+msgstr "/Tent_ang..."
 
 #: ../userdrake:148
 #, c-format
@@ -207,7 +201,7 @@ msgstr "Cari:"
 #: ../userdrake:154
 #, c-format
 msgid "Apply filter"
-msgstr "Terapkan filter"
+msgstr "Terapkan penyaringan"
 
 #: ../userdrake:158
 #, c-format
@@ -238,7 +232,7 @@ msgstr "ID Pengguna"
 #: ../userdrake:186 ../userdrake:1038
 #, c-format
 msgid "Primary Group"
-msgstr "Grup Utama"
+msgstr "Grup Primer"
 
 #: ../userdrake:187
 #, c-format
@@ -248,12 +242,12 @@ msgstr "Nama Lengkap"
 #: ../userdrake:187
 #, c-format
 msgid "Login Shell"
-msgstr "Login Shell"
+msgstr "Shell Login"
 
 #: ../userdrake:187
 #, c-format
 msgid "Home Directory"
-msgstr "Direktori Rumah"
+msgstr "Direktori Home"
 
 #: ../userdrake:187
 #, c-format
@@ -275,18 +269,15 @@ msgstr "ID Grup"
 msgid "Group Members"
 msgstr "Anggota Grup"
 
-# broken into two lines to avoid too large a button
 #: ../userdrake:196
 #, c-format
 msgid "Add User"
-msgstr ""
-"Tambah\n"
-"Pengguna"
+msgstr "Tambah Pengguna"
 
 #: ../userdrake:196
 #, c-format
 msgid "Add a user to the system"
-msgstr "Tambah pengguna ke sistem"
+msgstr "Tambah pengguna pada sistem"
 
 #: ../userdrake:197
 #, c-format
@@ -296,7 +287,7 @@ msgstr "Tambah Grup"
 #: ../userdrake:197
 #, c-format
 msgid "Add a group to the system"
-msgstr "Tambah grup ke sistem"
+msgstr "Tambah grup pada sistem"
 
 #: ../userdrake:198 ../userdrake:739
 #, c-format
@@ -321,12 +312,12 @@ msgstr "Hapus baris terpilih"
 #: ../userdrake:200
 #, c-format
 msgid "Refresh"
-msgstr "Pembaruan"
+msgstr "Refresh"
 
 #: ../userdrake:200
 #, c-format
 msgid "Refresh the list"
-msgstr "Pembaruan daftar"
+msgstr "Refresh daftar"
 
 #: ../userdrake:263
 #, c-format
@@ -341,7 +332,7 @@ msgstr "Kadaluarsa"
 #: ../userdrake:339
 #, c-format
 msgid "Click on the icon to change it"
-msgstr "Klik ikon untuk mengubahnya"
+msgstr "Klik pada ikon untuk mengubah"
 
 #: ../userdrake:385
 #, c-format
@@ -351,12 +342,12 @@ msgstr "Buat Pengguna Baru"
 #: ../userdrake:391
 #, c-format
 msgid "Create Home Directory"
-msgstr "Buat Direktori Rumah"
+msgstr "Buat Direktori Home"
 
 #: ../userdrake:393
 #, c-format
 msgid "Home Directory: "
-msgstr "Direktori Rumah:"
+msgstr "Direktori Home: "
 
 #: ../userdrake:396
 #, c-format
@@ -371,21 +362,21 @@ msgstr "Tentukan ID pengguna secara manual"
 #: ../userdrake:414
 #, c-format
 msgid "User already exists, please choose another User Name"
-msgstr "Nama ini sudah dipakai, pilihlah nama lain"
+msgstr "Pengguna sudah ada, silakan pilih Nama Pengguna yang lain"
 
-#: ../userdrake:419 ../userdrake:860
+#: ../userdrake:419 ../userdrake:859
 #, c-format
 msgid "Password Mismatch"
-msgstr "Katasandi Tidak Cocok"
+msgstr "Sandi Tidak Cocok"
 
-#: ../userdrake:422 ../userdrake:863
+#: ../userdrake:422 ../userdrake:862
 #, c-format
 msgid ""
 "This password is too simple. \n"
 " Good passwords should be > 6 characters"
 msgstr ""
-"Katasandi terlalu mudah.\n"
-" Katasandi yang baik harus lebih dari 6 karakter"
+"Sandi ini terlalu sederhana. \n"
+" Sandi yang baik harus > 6 karakter"
 
 #: ../userdrake:434
 #, c-format
@@ -399,14 +390,14 @@ msgid ""
 " Are you sure you want to do this?\n"
 "\n"
 msgstr ""
-"Membuat pengguna dengan UID kurang dari 500 tidak disarankan.\n"
-" Apakah Anda yakin ingin melakukannya?\n"
+"Membuat pengguna dengan UID kurang dari 500 tidak direkomendasikan.\n"
+" Apakah Anda yakin ingin melakukan ini?\n"
 "\n"
 
 #: ../userdrake:450
 #, c-format
 msgid "Putting %s to 'users' group"
-msgstr "Menambahkan %s pada grup 'pengguna'"
+msgstr "Meletakkan %s ke grup 'pengguna'"
 
 #: ../userdrake:457
 #, c-format
@@ -416,28 +407,30 @@ msgstr "Membuat grup baru: %s"
 #: ../userdrake:466
 #, c-format
 msgid "Adding user: %s"
-msgstr "Menambahkan pengguna: %s"
+msgstr "Menambah pengguna: %s"
 
 #: ../userdrake:478
 #, c-format
 msgid "Migration wizard"
-msgstr ""
+msgstr "Wizard migrasi"
 
 #: ../userdrake:479
 #, c-format
 msgid ""
 "Do you want to run the migration wizard in order to import Windows documents "
-"and settings in your Mandriva Linux distribution?"
+"and settings in your OpenMandriva distribution?"
 msgstr ""
+"Apakah Anda ingin menjalankan wizard migrasi untuk mengimpor documents and "
+"settings Windows ke distribusi OpenMandriva Anda?"
 
 #: ../userdrake:484 ../userdrake:528 ../userdrake:587 ../userdrake:674
-#: ../userdrake:707 ../userdrake:1166
+#: ../userdrake:707 ../userdrake:1167
 #, c-format
 msgid "Cancel"
 msgstr "Batal"
 
-#: ../userdrake:484 ../userdrake:521 ../userdrake:587 ../userdrake:1166
-#: ../userdrake:1317
+#: ../userdrake:484 ../userdrake:521 ../userdrake:587 ../userdrake:1167
+#: ../userdrake:1318
 #, c-format
 msgid "Ok"
 msgstr "Ok"
@@ -450,17 +443,17 @@ msgstr "UID: "
 #: ../userdrake:510
 #, c-format
 msgid "Choose group"
-msgstr "Pilih Grup"
+msgstr "Pilih grup"
 
 #: ../userdrake:512 ../userdrake:513
 #, c-format
 msgid "Add to the existing group"
-msgstr "Tambahkan pada grup yang telah ada"
+msgstr "Tambahkan ke grup yang sudah ada"
 
 #: ../userdrake:514
 #, c-format
 msgid "Add to the 'users' group"
-msgstr "Tambahkan pada grup 'pengguna'"
+msgstr "Tambahkan ke grup 'pengguna'"
 
 #: ../userdrake:516
 #, c-format
@@ -480,12 +473,12 @@ msgstr "Tentukan ID grup secara manual"
 #: ../userdrake:567
 #, c-format
 msgid "Group already exists, please choose another Group Name"
-msgstr "Grup sudah ada, pilihlah Nama Grup lain"
+msgstr "Grup sudah ada, silakan pilih Nama Grup yang lain"
 
 #: ../userdrake:573
 #, c-format
 msgid " Group Gid is < 500"
-msgstr " Gid grup < 500"
+msgstr " Gid Grup < 500"
 
 #: ../userdrake:574
 #, c-format
@@ -494,14 +487,14 @@ msgid ""
 " Are you sure you want to do this?\n"
 "\n"
 msgstr ""
-"Membuat grup dengan GID kurang dari 500 tidak disarankan.\n"
-" Apakah Anda yakin ingin melakukannya?\n"
+"Membuat grup dengan GID kurang dari 500 tidak direkomendasikan.\n"
+" Apakah Anda yakin ingin melakukan ini?\n"
 "\n"
 
 #: ../userdrake:581
 #, c-format
 msgid "Adding group: %s "
-msgstr "Menambahkan grup: %s"
+msgstr "Menambahkan grup: %s "
 
 #: ../userdrake:591
 #, c-format
@@ -525,12 +518,12 @@ msgstr ""
 #: ../userdrake:641
 #, c-format
 msgid "Delete Home Directory: %s"
-msgstr "Hapus Direktori rumah: %s"
+msgstr "Hapus Direktori Home: %s"
 
 #: ../userdrake:642
 #, c-format
 msgid "Delete Mailbox: /var/spool/mail/%s"
-msgstr "Hapus Kotaksurat: /var/spool/mail/%s"
+msgstr "Hapus Kotak surat: /var/spool/mail/%s"
 
 #: ../userdrake:651
 #, c-format
@@ -540,7 +533,7 @@ msgstr "Menghapus pengguna: %s"
 #: ../userdrake:684
 #, c-format
 msgid "Do you really want to delete the group %s?"
-msgstr "Apakah Anda ingin menghapus grup %s?"
+msgstr "Apakah Anda yakin ingin menghapus grup %s?"
 
 #: ../userdrake:697
 #, c-format
@@ -548,8 +541,8 @@ msgid ""
 "%s is a primary group for user %s\n"
 " Remove the user first"
 msgstr ""
-"%s adalah grup utama pengguna %s\n"
-" Hapus dulu pengguna"
+"%s adalah grup primer untuk pengguna %s\n"
+" Hapus pengguna terlebih dahulu"
 
 #: ../userdrake:702
 #, c-format
@@ -569,51 +562,51 @@ msgstr "Login:"
 #: ../userdrake:802
 #, c-format
 msgid "Password:"
-msgstr "Katasandi:"
+msgstr "Sandi:"
 
 #: ../userdrake:804
 #, c-format
 msgid "Confirm Password:"
-msgstr "Konfirmasi Katasandi:"
+msgstr "Konfirmasi Sandi:"
 
 #: ../userdrake:806
 #, c-format
 msgid "Login Shell:"
-msgstr "Login Shell:"
+msgstr "Shell Login:"
 
-#: ../userdrake:820
+#: ../userdrake:819
 #, c-format
 msgid "Group Name:"
 msgstr "Nama Grup:"
 
-#: ../userdrake:894
+#: ../userdrake:893
 #, c-format
 msgid "Please select at least one group for the user"
-msgstr "Pilihlah setidaknya satu grup untuk pengguna"
+msgstr "Silakan pilih setidaknya satu grup untuk pengguna"
 
-#: ../userdrake:904
+#: ../userdrake:903
 #, c-format
 msgid ""
 "Please specify Year, Month and Day \n"
 " for Account Expiration "
 msgstr ""
-"Tentukan Tahun, Bulan dan Hari\n"
-" untuk Kadaluarsa Account"
+"Silakan tetapkan Tahun, Bulan dan Hari \n"
+" untuk Kadaluarsa Akun "
 
-#: ../userdrake:914
+#: ../userdrake:913
 #, c-format
 msgid "Please fill up all fields in password aging\n"
-msgstr "Isi semua kolom pada umur katasandi\n"
+msgstr "Silakan isi semua kolom di usia sandi\n"
 
 #: ../userdrake:965
 #, c-format
 msgid "You cannot remove user '%s' from their primary group"
-msgstr "Anda tidak dapat menghapus pengguna '%s' dari grup utama mereka"
+msgstr "Anda tidak bisa menghapus pengguna '%s' dari grup primernya"
 
 #: ../userdrake:986
 #, c-format
 msgid "Home:"
-msgstr "Rumah:"
+msgstr "Home:"
 
 #: ../userdrake:988
 #, c-format
@@ -623,546 +616,150 @@ msgstr "Data Pengguna"
 #: ../userdrake:992
 #, c-format
 msgid "Enable account expiration"
-msgstr "Aktifkan tanggal kadaluarsa account"
+msgstr "Hidupkan kadaluarsa pengguna"
 
 #: ../userdrake:994
 #, c-format
 msgid "Account expires (YYYY-MM-DD):"
-msgstr "Account kadaluarsa (MM-DD-YYYY):"
+msgstr "Kadaluarsa pengguna (TTTT-BB-HH):"
 
 #: ../userdrake:1002
 #, c-format
 msgid "Lock User Account"
-msgstr "Kunci Account Pengguna"
+msgstr "Kunci Akun Pengguna"
 
 #: ../userdrake:1005
 #, c-format
 msgid "Account Info"
-msgstr "Info Account"
+msgstr "Info Akun"
 
 #: ../userdrake:1010
 #, c-format
 msgid "User last changed password on: "
-msgstr "Katasandi diubah terakhir pada : "
+msgstr "Perubahan sandi pengguna terakhir pada: "
 
 #: ../userdrake:1017
 #, c-format
 msgid "Enable Password Expiration"
-msgstr "Aktifkan Kadaluarsa Katasandi"
+msgstr "Hidupkan Kadaluarsa Sandi"
 
 #: ../userdrake:1022
 #, c-format
 msgid "Days before change allowed:"
-msgstr "Jumlah hari sebelum perubahan diizinkan:"
+msgstr "Hari sebelum perubahan diizinkan:"
 
 #: ../userdrake:1024
 #, c-format
 msgid "Days before change required:"
-msgstr "Jumlah hari sebelum perubahan dibutuhkan:"
+msgstr "Hari sebelum perubahan diperlukan:"
 
 #: ../userdrake:1026
 #, c-format
 msgid "Days warning before change:"
-msgstr "Jumlah hari peringatan sebelum perubahan:"
+msgstr "Hari peringatan sebelum perubahan:"
 
 #: ../userdrake:1028
 #, c-format
 msgid "Days before account inactive:"
-msgstr "Jumlah hari sebelum account non-aktif:"
+msgstr "Hari sebelum akun nonaktif:"
 
 #: ../userdrake:1031
 #, c-format
 msgid "Password Info"
-msgstr "Informasi Katasandi"
+msgstr "Info sandi"
 
 #: ../userdrake:1035
 #, c-format
 msgid "Select the groups that the user will be a member of:"
-msgstr "Pilihlah grup yang akan digunakan pengguna:"
+msgstr "Pilih grup di mana pengguna akan menjadi anggota:"
 
 #: ../userdrake:1102
 #, c-format
 msgid "Group Data"
-msgstr "Grup Data"
+msgstr "Data Grup"
 
 #: ../userdrake:1105
 #, c-format
 msgid "Select the users to join this group:"
-msgstr "Pilih pengguna untuk tergabung dengan grup ini :"
+msgstr "Pilih pengguna untuk bergabung di grup ini:"
 
 #: ../userdrake:1107
 #, c-format
 msgid "Group Users"
-msgstr "Grup Pengguna"
+msgstr "Pengguna Grup"
 
 #: ../userdrake:1127
 #, c-format
 msgid "Edit Groups / Users"
 msgstr "Edit Grup / Pengguna"
 
-#: ../userdrake:1159
-#, fuzzy, c-format
+#: ../userdrake:1160
+#, c-format
 msgid "An error occurred:"
-msgstr "Terjadi kesalahan"
+msgstr "Terjadi error:"
 
-#: ../userdrake:1267
+#: ../userdrake:1268
 #, c-format
 msgid "Close"
 msgstr "Tutup"
 
-#: ../userdrake:1277
+#: ../userdrake:1278
 #, c-format
 msgid "Copyright (C) %s by Mandriva"
-msgstr "Hak cipta (C) %s oleh Mandriva"
+msgstr "Hak Cipta (C) %s oleh Mandriva"
 
-#: ../userdrake:1280
+#: ../userdrake:1278
+#, c-format
+msgid "Copyright (C) %s by OpenMandriva"
+msgstr "Hak Cipta (C) %s oleh OpenMandriva"
+
+#: ../userdrake:1281
 #, c-format
 msgid "Users Management"
 msgstr "Manajemen Pengguna"
 
-#: ../userdrake:1282
+#: ../userdrake:1283
 #, c-format
-msgid "Mandriva Linux"
-msgstr "Mandriva Linux"
+msgid "OpenMandriva"
+msgstr "OpenMandriva"
 
 #. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
-#: ../userdrake:1288
+#: ../userdrake:1289
 #, c-format
 msgid "_: Translator(s) name(s) & email(s)\n"
-msgstr "Willy Sudiarto Raharjo <willysr@gmail.com>\n"
+msgstr ""
+"Budi Rachmanto <rac@linux-mandrake.com>\n"
+"Willy Sudiarto Raharjo <willysr@gmail.com>\n"
+"Erwien Samantha <erwiensamantha@gmail.com>\n"
+"Bayu Artanto <bayuart@yahoo.com>\n"
+"Ahmad Ramadhana <ahmad_ramadhana@yahoo.com.sg>\n"
+"Firdaus <dausnux@gmail.com>\n"
+"Sofian <sofianhanafi@yahoo.com>\n"
+"Kiki Syahadat <kiki.syahadat@yahoo.co.id>\n"
 
-#: ../userdrake:1295
+#: ../userdrake:1296
 #, c-format
 msgid "Name field is empty please provide a name"
-msgstr "Kolom nama kosong, silahkan tuliskan satu nama"
+msgstr "Kolom nama kosong silakan berikan sebuah nama"
 
-#: ../userdrake:1297
+#: ../userdrake:1298
 #, c-format
 msgid ""
 "The name must contain only lower cased latin letters, numbers, `-' and `_'"
-msgstr "Nama harus berisi hanya huruf kecil, angka, `-' dan `_'"
+msgstr "Nama harus berisi hanya huruf kecil latin, nomor, `-' dan `_'"
 
-#: ../userdrake:1300
+#: ../userdrake:1301
 #, c-format
 msgid "Name is too long"
 msgstr "Nama terlalu panjang"
 
-#: ../userdrake:1313
+#: ../userdrake:1314
 #, c-format
 msgid "Error"
-msgstr "Kesalahan"
+msgstr "Error"
 
-#, fuzzy
-#~ msgid "Unknown error"
-#~ msgstr "kesalahan yang tidak diketahui"
+#~ msgid "Error reading `%s': %s"
+#~ msgstr "Error membaca `%s': %s"
 
-#, fuzzy
-#~ msgid "Error creating %s: %s.\n"
-#~ msgstr "Kesalahan menciptakan `%s': %s"
-
-#~ msgid "Authors: "
-#~ msgstr "Penulis: "
-
-#~ msgid "Yes"
-#~ msgstr "Ya"
-
-#~ msgid "No"
-#~ msgstr "Tidak"
-
-#~ msgid "Delete files or not"
-#~ msgstr "Hapus file atau tidak"
-
-#~ msgid "Warning : Deleting User"
-#~ msgstr "Peringatan : Menghapus Pengguna"
-
-#~ msgid "Warning : Deleting Group"
-#~ msgstr "Peringatan : Menghapus Grup"
-
-#~ msgid "Generic help on userdrake"
-#~ msgstr "Bantuan Generik pada userdrake"
-
-#~ msgid "Help"
-#~ msgstr "Bantuan"
-
-#~ msgid "Delete User"
-#~ msgstr "Hapus Pengguna"
-
-#~ msgid " Remove Home Directory"
-#~ msgstr " Hapus Direktori Rumah"
-
-#~ msgid "Do you want to delete the user's home directory and mail spool?"
-#~ msgstr "Anda ingin menghapus direktori rumah dan spool mail pengguna?"
-
-#~ msgid "/Filter system users"
-#~ msgstr "/Saring pengguna sistem"
-
-#~ msgid "/Options"
-#~ msgstr "/Opsi"
-
-#~ msgid "/Actions"
-#~ msgstr "/Aksi"
-
-#~ msgid "/Edit"
-#~ msgstr "/Edit"
-
-#~ msgid "/Delete"
-#~ msgstr "/Hapus"
-
-#~ msgid "Reload"
-#~ msgstr "Muat Ulang"
-
-#~ msgid "Save"
-#~ msgstr "Simpan"
-
-#~ msgid "Exit"
-#~ msgstr "Keluar"
-
-#~ msgid "Settings"
-#~ msgstr "Setting"
-
-#~ msgid "Show tools bar"
-#~ msgstr "Tampilkan tools bar"
-
-#~ msgid "View users"
-#~ msgstr "Lihat pengguna"
-
-#~ msgid "Preferences"
-#~ msgstr "Preferensi"
-
-#~ msgid "Ldap Server"
-#~ msgstr "Server LDAP"
-
-#~ msgid "Save change"
-#~ msgstr "Simpan perubahan"
-
-#~ msgid "Add"
-#~ msgstr "Tambah"
-
-#~ msgid "Edit user(s)"
-#~ msgstr "Edit pengguna"
-
-#~ msgid "Remove"
-#~ msgstr "Hapus"
-
-#~ msgid "Edit group(s)"
-#~ msgstr "Edit grup"
-
-#~ msgid "User id"
-#~ msgstr "ID pengguna"
-
-#~ msgid "Group id"
-#~ msgstr "ID grup"
-
-#~ msgid "Comments"
-#~ msgstr "Komentar"
-
-#~ msgid "Shell"
-#~ msgstr "Shell"
-
-#~ msgid "name"
-#~ msgstr "nama"
-
-#~ msgid "gid"
-#~ msgstr "gid"
-
-#~ msgid "passwd"
-#~ msgstr "passwd"
-
-#~ msgid "users"
-#~ msgstr "pengguna"
-
-#~ msgid "Parameters"
-#~ msgstr "Parameter"
-
-#~ msgid "General option"
-#~ msgstr "Opsi umum"
-
-#~ msgid "Edit accounts on a LDAP directory"
-#~ msgstr "Edit account pada direktori LDAP"
-
-#~ msgid "Active autologin support"
-#~ msgstr "Dukungan autologin aktif"
-
-#~ msgid "User creation"
-#~ msgstr "Pembuatan pengguna"
-
-#~ msgid "Default shell:"
-#~ msgstr "Shell standar:"
-
-#~ msgid "Default home dir:"
-#~ msgstr "Direktori rumah standar:"
-
-#~ msgid "Default face:"
-#~ msgstr "Muka standar:"
-
-#~ msgid "Default group:"
-#~ msgstr "Grup standar:"
-
-#~ msgid "General"
-#~ msgstr "Umum"
-
-#~ msgid "Don't show user with id less than 500"
-#~ msgstr "Jangan tampilkan pengguna dengan id kurang dari 500"
-
-#~ msgid "User identifier"
-#~ msgstr "Identitas pengguna"
-
-#~ msgid "Default Group"
-#~ msgstr "Grup standar"
-
-#~ msgid "Groups list"
-#~ msgstr "Daftar grup"
-
-#~ msgid "Users View"
-#~ msgstr "Lihat Pengguna"
-
-#~ msgid "Group identifier"
-#~ msgstr "Identitas grup"
-
-#~ msgid "Groups View"
-#~ msgstr "Lihat Grup"
-
-#~ msgid "/bin/bash"
-#~ msgstr "/bin/bash"
-
-#~ msgid "uid:"
-#~ msgstr "uid:"
-
-#~ msgid "Comment:"
-#~ msgstr "Komentar:"
-
-#~ msgid "Shell:"
-#~ msgstr "Shell:"
-
-#~ msgid "Home dir:"
-#~ msgstr "Direktori rumah:"
-
-#~ msgid "passwd:"
-#~ msgstr "katasandi:"
-
-#~ msgid "Retype passwd:"
-#~ msgstr "Tulis ulang katasandi:"
-
-#~ msgid "Identity"
-#~ msgstr "Identitas"
-
-#~ msgid "Available groups"
-#~ msgstr "Grup yang tersedia"
-
-#~ msgid "Extended"
-#~ msgstr "Perluasan"
-
-#~ msgid "About UserDrake"
-#~ msgstr "Tentang UserDrake"
-
-#~ msgid ""
-#~ "Userdrake is an application to add and\n"
-#~ "delete users on the Mandriva Linux\n"
-#~ "distribution.\n"
-#~ "\n"
-#~ "Userdrake now support ldap directory\n"
-#~ "support conformed to rfc2307bis.\n"
-#~ "\n"
-#~ "This application is under the GPL\n"
-#~ "license and is delived without\n"
-#~ "any warranty.\n"
-#~ "\n"
-#~ "You can get support at : \n"
-#~ "http://www.mandrakeexpert.com/"
-#~ msgstr ""
-#~ "Userdrake adalah aplikasi untuk menambah dan menghapus\n"
-#~ "pengguna pada distribusi Mandriva Linux.\n"
-#~ "\n"
-#~ "Userdrake kini mendukung direktori ldap\n"
-#~ "sesuai rfc2307bis.\n"
-#~ "\n"
-#~ "Aplikasi ini berlisensi GPL\n"
-#~ "dan disebarluaskan tanpa garansi apapun.\n"
-#~ "\n"
-#~ "Anda dapat memperoleh layanan pada : \n"
-#~ "http://www.mandrakeexpert.com/"
-
-#~ msgid "Name:"
-#~ msgstr "Nama:"
-
-#~ msgid "gid:"
-#~ msgstr "gid:"
-
-#~ msgid "In group"
-#~ msgstr "Pada grup"
-
-#~ msgid "Not in group"
-#~ msgstr "Tidak ada pada grup"
-
-#~ msgid "Quit userdrake?"
-#~ msgstr "Keluar userdrake?"
-
-#~ msgid ""
-#~ "You have made changes\n"
-#~ "since the last save.\n"
-#~ "Do you really want to quit\n"
-#~ "userdrake?"
-#~ msgstr ""
-#~ "Anda telah melakukan perubahan\n"
-#~ "sejak penyimpanan terakhir.\n"
-#~ "Apakah Anda ingin keluar\n"
-#~ "dari userdrake?"
-
-#~ msgid "Enter new passwd"
-#~ msgstr "Masukkan katasandi baru"
-
-#~ msgid "new passwd:"
-#~ msgstr "katasandi baru:"
-
-#~ msgid "Change"
-#~ msgstr "Ubah"
-
-#~ msgid "Change face"
-#~ msgstr "Ubah muka"
-
-#~ msgid "Set passwd"
-#~ msgstr "Tentukan katasandi"
-
-#~ msgid "User autologin"
-#~ msgstr "Autologin Pengguna"
-
-#~ msgid "UserDrake - Error"
-#~ msgstr "UserDrake - Kesalahan"
-
-#~ msgid "couldn't find blue color in /usr/lib/X11/rgb.txt file"
-#~ msgstr "tidak bisa mencari warna biru pada file /usr/lib/X11/rgb.txt"
-
-#~ msgid "Select the image to use"
-#~ msgstr "Pilih citra yang akan digunakan"
-
-#~ msgid "Custom..."
-#~ msgstr "Custom..."
-
-#~ msgid "couldn't find grey color in /usr/lib/X11/rgb.txt file"
-#~ msgstr "tidak bisa mencari warna abu-abu pada file /usr/lib/X11/rgb.txt"
-
-#~ msgid "couldn't find black color in /usr/lib/X11/rgb.txt file"
-#~ msgstr "tidak bisa mencari warna hitam pada file /usr/lib/X11/rgb.txt"
-
-#~ msgid "login empty"
-#~ msgstr "login kosong"
-
-#~ msgid "This login already exists on the system"
-#~ msgstr "Login ini telah terpakai"
-
-#~ msgid "The login is similar to a name's group"
-#~ msgstr "Login serupa dengan grup nama lain"
-
-#~ msgid ""
-#~ "%s\n"
-#~ "User id already in use"
-#~ msgstr ""
-#~ "%s\n"
-#~ "ID pengguna sudah terpakai"
-
-#~ msgid "User id already in use"
-#~ msgstr "ID pengguna sudah terpakai"
-
-#~ msgid "name empty"
-#~ msgstr "nama kosong"
-
-#~ msgid ""
-#~ "%s\n"
-#~ "Group id already in use"
-#~ msgstr ""
-#~ "%s\n"
-#~ "ID grup telah terpakai"
-
-#~ msgid "Group id already in use"
-#~ msgstr "ID grup telah terpakai"
-
-#~ msgid "Couldn't find pixmap file: %s"
-#~ msgstr "Tidak bisa mencari file pixmap: %s"
-
-#~ msgid "%s: the file %s is busy (%s present)\n"
-#~ msgstr "%s: file %s sibuk (ada %s)\n"
-
-#~ msgid "%s: can't link %s: %s\n"
-#~ msgstr "%s: gagal membuat link %s: %s\n"
-
-#~ msgid "%s: can't unlock %s: %s (your changes are still in %s)\n"
-#~ msgstr "%s: tidak bisa membuka %s: %s (perubahan tetap pada %s)\n"
-
-#~ msgid "Error in stat on tmp files when i try to unlock lib\n"
-#~ msgstr "Kesalahan dalam status file temporer saat mencoba membuka pustaka\n"
-
-#~ msgid "%s: no changes made\n"
-#~ msgstr "%s: tidak ada perubahan\n"
-
-#~ msgid "Select LDAP Directory"
-#~ msgstr "Pilih Direktori LDAP"
-
-#~ msgid "Server address:"
-#~ msgstr "Alamat server:"
-
-#~ msgid "Search base:"
-#~ msgstr "Basis pencarian:"
-
-#~ msgid "Bind DN:"
-#~ msgstr "Sambung ke DN:"
-
-#~ msgid "Connection Type :"
-#~ msgstr "Tipe koneksi :"
-
-#~ msgid "ssl"
-#~ msgstr "ssl"
-
-#~ msgid "Validate"
-#~ msgstr "Validasi"
-
-#~ msgid "Test"
-#~ msgstr "Tes"
-
-#~ msgid "cannot change ldap version to 3: %s"
-#~ msgstr "tidak bisa merubah versi ldap ke 3: %s"
-
-#~ msgid "cannot connect to the ldap server\n"
-#~ msgstr "tidak bisa terhubung dengan server ldap\n"
-
-#~ msgid "cannot bind to the ldap server, %d\n"
-#~ msgstr "tidak bisa tersambung dengan server ldap, %d\n"
-
-#~ msgid "Cannot bind to ldap server"
-#~ msgstr "Tidak bisa tersambung dengan server ldap"
-
-#~ msgid "cannot save because the cannot connect to the ldap server"
-#~ msgstr "tidak dapat disimpan karena tidak bisa terhubung ke server ldap"
-
-#~ msgid "cannot relock lib"
-#~ msgstr "tidak dapat mengunci ulang pustaka"
-
-#~ msgid "The passwords string aren't the same!"
-#~ msgstr "katasandi tidak sama!"
-
-#~ msgid "cannot launch UserDrake"
-#~ msgstr "tidak bisa meluncurkan UserDrake"
-
-#~ msgid "You must be root to use userdrake"
-#~ msgstr "Anda harus menjadi root untuk menggunakan userdrake"
-
-#~ msgid ""
-#~ "Cannot lock user lib,\n"
-#~ "file /etc/ptmp or /etc/gtmp exist"
-#~ msgstr ""
-#~ "Tidak bisa mengunci pustaka pengguna,\n"
-#~ "terdapat file /etc/ptmp atau /etc/gtmp"
-
-#~ msgid "What do you want to show in user list?"
-#~ msgstr "Apa yang ingin Anda tampilkan pada daftar pengguna?"
-
-#~ msgid "What do you want to show in group list?"
-#~ msgstr "Apa yang ingin Anda tampilkan pada daftar grup?"
-
-#~ msgid "/bin/ash"
-#~ msgstr "/bin/ash"
-
-#~ msgid "/bin/csh"
-#~ msgstr "/bin/csh"
-
-#~ msgid "/bin/zsh"
-#~ msgstr "/bin/zsh"
+#~ msgid "Error removing `%s': %s"
+#~ msgstr "Error menghapus `%s': %s"

@@ -12,95 +12,88 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mt\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-02-02 03:03+0100\n"
+"POT-Creation-Date: 2013-04-23 19:48+0200\n"
 "PO-Revision-Date: 2004-09-03 18:55+0200\n"
 "Last-Translator: Ramon Casha <ramon.casha@linux.org.mt>\n"
 "Language-Team: Maltese <mt@li.org>\n"
+"Language: mt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.3\n"
 
-#: ../USER/USER.xs:86
-#, c-format
-msgid "Error reading `%s': %s"
-msgstr "Problema fil-qari ta' \"%s\": %s"
-
-#: ../USER/USER.xs:93 ../USER/USER.xs:526
-#, c-format
-msgid "Error creating `%s': %s"
-msgstr "Problema biex jinħoloq \"%s\": %s"
-
-#: ../USER/USER.xs:205 ../USER/USER.xs:234 ../USER/USER.xs:250
-#, c-format
-msgid "Error removing `%s': %s"
-msgstr "Problema biex jitħassar \"%s\": %s"
-
-#: ../USER/USER.xs:490
+#: ../USER/USER.xs:83
 #, fuzzy, c-format
 msgid "Account creation failed: '%s'.\n"
 msgstr "Problema biex jinħoloq spool tal-imejl.\n"
 
-#: ../USER/USER.xs:503
+#: ../USER/USER.xs:96
 msgid "Cannot get Uid number"
 msgstr ""
 
-#: ../USER/USER.xs:515
+#: ../USER/USER.xs:108
 msgid "Cannot retrieve value"
 msgstr ""
 
-#: ../USER/USER.xs:532
-msgid "Error creating mail spool.\n"
-msgstr "Problema biex jinħoloq spool tal-imejl.\n"
+#: ../USER/USER.xs:119
+#, c-format
+msgid "Error creating `%s': %s"
+msgstr "Problema biex jinħoloq \"%s\": %s"
 
-#: ../USER/USER.xs:582
+#: ../USER/USER.xs:125
+#, c-format
+msgid "Error creating mail spool: %s\n"
+msgstr "Problema biex jinħoloq spool tal-imejl: %s\n"
+
+#: ../USER/USER.xs:175
 #, fuzzy, c-format
 msgid "User could not be modified: '%s'.\n"
 msgstr "Problema biex jinħoloq spool tal-imejl.\n"
 
-#: ../USER/USER.xs:592
+#: ../USER/USER.xs:185
 #, c-format
 msgid "User Could Not be deleted: '%s'.\n"
 msgstr ""
 
-#: ../USER/USER.xs:618
+#: ../USER/USER.xs:211
 #, c-format
 msgid "Failed to set password: '%s'.\n"
 msgstr ""
 
-#: ../USER/USER.xs:618
+#: ../USER/USER.xs:211
 msgid "unknown error"
 msgstr "problema mhux magħrufa"
 
-#: ../USER/USER.xs:685
+#: ../USER/USER.xs:278
 #, fuzzy
 msgid "Group creation failed.\n"
 msgstr "Problema biex jinħoloq spool tal-imejl.\n"
 
-#: ../USER/USER.xs:695
+#: ../USER/USER.xs:288
 #, c-format
 msgid "Group could not be modified: '%s'.\n"
 msgstr ""
 
-#: ../USER/USER.xs:705
+#: ../USER/USER.xs:298
 #, c-format
 msgid "Group could not be deleted: '%s'.\n"
 msgstr ""
 
-#: ../USER/USER.xs:863
+#: ../USER/USER.xs:456
 msgid "No home directory for the user.\n"
 msgstr ""
 
-#: ../USER/USER.xs:869 ../USER/USER.xs:871
+#: ../USER/USER.xs:462 ../USER/USER.xs:464
 #, c-format
 msgid "Home Directory Could Not be deleted: '%s'.\n"
 msgstr ""
 
-#: ../USER/USER.xs:881
-msgid "Error deleting mail spool.\n"
-msgstr "Problema biex jitħassar spool tal-imejl.\n"
+#: ../USER/USER.xs:475
+#, c-format
+msgid "Error deleting mail spool: %s\n"
+msgstr "Problema biex jitħassar spool tal-imejl: %s\n"
 
-#: ../userdrake:59 ../userdrake:1275
+#: ../userdrake:59 ../userdrake:1276
 #, c-format
 msgid "Userdrake"
 msgstr "Userdrake"
@@ -112,8 +105,8 @@ msgstr "Qed jittellgħu utenti u gruppi... stenna ftit"
 
 #: ../userdrake:83
 #, c-format
-msgid "Mandriva Linux Users Management Tool"
-msgstr "Għodda tal-Mandriva Linux għall-Immaniġġjar tal-Utenti"
+msgid "OpenMandriva Users Management Tool"
+msgstr "Għodda tal-OpenMandriva għall-Immaniġġjar tal-Utenti"
 
 #: ../userdrake:96
 #, c-format
@@ -367,12 +360,12 @@ msgstr "Speċifika ID tal-utent manwalment"
 msgid "User already exists, please choose another User Name"
 msgstr "Dan l-isem diġà jeżisti; jekk jogħġbok agħżel ieħor"
 
-#: ../userdrake:419 ../userdrake:860
+#: ../userdrake:419 ../userdrake:859
 #, c-format
 msgid "Password Mismatch"
 msgstr "Passwords ma jaqblux"
 
-#: ../userdrake:422 ../userdrake:863
+#: ../userdrake:422 ../userdrake:862
 #, c-format
 msgid ""
 "This password is too simple. \n"
@@ -421,17 +414,17 @@ msgstr ""
 #, c-format
 msgid ""
 "Do you want to run the migration wizard in order to import Windows documents "
-"and settings in your Mandriva Linux distribution?"
+"and settings in your OpenMandriva distribution?"
 msgstr ""
 
 #: ../userdrake:484 ../userdrake:528 ../userdrake:587 ../userdrake:674
-#: ../userdrake:707 ../userdrake:1166
+#: ../userdrake:707 ../userdrake:1167
 #, c-format
 msgid "Cancel"
 msgstr "Ikkanċella"
 
-#: ../userdrake:484 ../userdrake:521 ../userdrake:587 ../userdrake:1166
-#: ../userdrake:1317
+#: ../userdrake:484 ../userdrake:521 ../userdrake:587 ../userdrake:1167
+#: ../userdrake:1318
 #, c-format
 msgid "Ok"
 msgstr "Ok"
@@ -575,17 +568,17 @@ msgstr "Ikkonferma password:"
 msgid "Login Shell:"
 msgstr "Shell tal-login:"
 
-#: ../userdrake:820
+#: ../userdrake:819
 #, c-format
 msgid "Group Name:"
 msgstr "Isem il-grupp:"
 
-#: ../userdrake:894
+#: ../userdrake:893
 #, c-format
 msgid "Please select at least one group for the user"
 msgstr "Agħżel ta' l-inqas grupp wieħed għall-utent"
 
-#: ../userdrake:904
+#: ../userdrake:903
 #, c-format
 msgid ""
 "Please specify Year, Month and Day \n"
@@ -594,7 +587,7 @@ msgstr ""
 "Jekk jogħġbok speċifika s-sena, xahar u ġurnata\n"
 "meta jiskadi l-kont "
 
-#: ../userdrake:914
+#: ../userdrake:913
 #, c-format
 msgid "Please fill up all fields in password aging\n"
 msgstr "Jekk jogħġbok speċifika d-dettalji tal-iskadenza tal-password\n"
@@ -694,43 +687,48 @@ msgstr "Utenti tal-grupp"
 msgid "Edit Groups / Users"
 msgstr "Editja gruppi u utenti"
 
-#: ../userdrake:1159
+#: ../userdrake:1160
 #, fuzzy, c-format
 msgid "An error occurred:"
 msgstr "Inqalgħet problema"
 
-#: ../userdrake:1267
+#: ../userdrake:1268
 #, c-format
 msgid "Close"
 msgstr "Agħlaq"
 
-#: ../userdrake:1277
+#: ../userdrake:1278
 #, c-format
 msgid "Copyright (C) %s by Mandriva"
 msgstr ""
 
-#: ../userdrake:1280
+#: ../userdrake:1278
+#, c-format
+msgid "Copyright (C) %s by OpenMandriva"
+msgstr ""
+
+#: ../userdrake:1281
 #, c-format
 msgid "Users Management"
 msgstr "Maniġġjar tal-utenti"
 
-#: ../userdrake:1282
+#: ../userdrake:1283
 #, c-format
-msgid "Mandriva Linux"
-msgstr "Mandriva Linux"
+msgid "OpenMandriva"
+msgstr "OpenMandriva"
 
 #. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
-#: ../userdrake:1288
+#: ../userdrake:1289
 #, c-format
 msgid "_: Translator(s) name(s) & email(s)\n"
 msgstr "Ramon Casha <ramon.casha@linux.org.mt>\n"
 
-#: ../userdrake:1295
+#: ../userdrake:1296
 #, c-format
 msgid "Name field is empty please provide a name"
 msgstr "L-isem huwa vojt. Jekk jogħġbok ipprovdi isem"
 
-#: ../userdrake:1297
+#: ../userdrake:1298
 #, c-format
 msgid ""
 "The name must contain only lower cased latin letters, numbers, `-' and `_'"
@@ -738,15 +736,21 @@ msgstr ""
 "L-isem jista' jinkludi biss ittri żgħar bl-alfabett Infliż, numri, \"-\" u "
 "\"_\""
 
-#: ../userdrake:1300
+#: ../userdrake:1301
 #, c-format
 msgid "Name is too long"
 msgstr "Isem twil wisq"
 
-#: ../userdrake:1313
+#: ../userdrake:1314
 #, c-format
 msgid "Error"
 msgstr "Problema"
+
+#~ msgid "Error reading `%s': %s"
+#~ msgstr "Problema fil-qari ta' \"%s\": %s"
+
+#~ msgid "Error removing `%s': %s"
+#~ msgstr "Problema biex jitħassar \"%s\": %s"
 
 #, fuzzy
 #~ msgid "Unknown error"

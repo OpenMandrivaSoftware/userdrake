@@ -1,111 +1,93 @@
-# translation of it.po to Italian
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-# Latest versions of po files are at http://www.mandrivalinux.org/l10n/it.php3
-#
-# Copyright (C) 2000,2003, 2004, 2007, 2009 Free Software Foundation, Inc.
-# 8.0 Tech/Lang proofreading by Roberto Rosselli Del Turco
-#
-# Daniele Pighin <daniele@dcs.it>, 2000.
-# Roberto Rosselli Del Turco <rosselli@ling.unipi.it>, 2000,2003, 2004.
-# Andrea Celli <a.celli@caltanet.it>, 2001.
-# 	 <rosselli@ling.unipi.it>, 2001.
-# Simone Riccio <s.riccio@aeb-informatica.it>, 2002.
-# Marco De Vitis <mdv@spin.it>, 2003.
-# Andrea Celli <andrea.celli@libero.it>, 2007, 2009.
-# Moreno Manzini <moreno.mg@gmail.com>, 2010.
 msgid ""
 msgstr ""
-"Project-Id-Version: it\n"
+"Project-Id-Version: userdrake2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-02-02 03:03+0100\n"
-"PO-Revision-Date: 2010-03-08 10:20+0100\n"
-"Last-Translator: Moreno Manzini <moreno.mg@gmail.com>\n"
-"Language-Team: Italian <timl@frelist.org>\n"
+"POT-Creation-Date: 2013-04-23 19:48+0200\n"
+"PO-Revision-Date: 2012-03-01 13:58+0000\n"
+"Last-Translator: Matteo Pasotti <pasotti.matteo@gmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms:  nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 1.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
-#: ../USER/USER.xs:86
-#, c-format
-msgid "Error reading `%s': %s"
-msgstr "Errore nel leggere \"%s\": %s"
-
-#: ../USER/USER.xs:93 ../USER/USER.xs:526
-#, c-format
-msgid "Error creating `%s': %s"
-msgstr "Errore nel creare \"%s\": %s"
-
-#: ../USER/USER.xs:205 ../USER/USER.xs:234 ../USER/USER.xs:250
-#, c-format
-msgid "Error removing `%s': %s"
-msgstr "Errore nel rimuovere \"%s\": %s"
-
-#: ../USER/USER.xs:490
+#: ../USER/USER.xs:83
 #, c-format
 msgid "Account creation failed: '%s'.\n"
 msgstr "Errore nella creazione dell'account: '%s'.\n"
 
-#: ../USER/USER.xs:503
+#: ../USER/USER.xs:96
 msgid "Cannot get Uid number"
 msgstr "Impossibile ottenere il valore dello Uid"
 
-#: ../USER/USER.xs:515
+#: ../USER/USER.xs:108
 msgid "Cannot retrieve value"
 msgstr "Impossibile recuperare il valore"
 
-#: ../USER/USER.xs:532
-msgid "Error creating mail spool.\n"
-msgstr "Errore nella creazione della coda (spool) della posta.\n"
+#: ../USER/USER.xs:119
+#, c-format
+msgid "Error creating `%s': %s"
+msgstr "Errore nel creare \"%s\": %s"
 
-#: ../USER/USER.xs:582
+#: ../USER/USER.xs:125
+#, c-format
+msgid "Error creating mail spool: %s\n"
+msgstr "Errore nella creazione della coda (spool) della posta: %s\n"
+
+#: ../USER/USER.xs:175
 #, c-format
 msgid "User could not be modified: '%s'.\n"
 msgstr "L'utente non può essere modificato: '%s'.\n"
 
-#: ../USER/USER.xs:592
+#: ../USER/USER.xs:185
 #, c-format
 msgid "User Could Not be deleted: '%s'.\n"
 msgstr "L'utente non può essere eliminato: '%s'.\n"
 
-#: ../USER/USER.xs:618
+#: ../USER/USER.xs:211
 #, c-format
 msgid "Failed to set password: '%s'.\n"
 msgstr "Errore durante l'impostazione della password: '%s'.\n"
 
-#: ../USER/USER.xs:618
+#: ../USER/USER.xs:211
 msgid "unknown error"
 msgstr "errore sconosciuto"
 
-#: ../USER/USER.xs:685
+#: ../USER/USER.xs:278
 msgid "Group creation failed.\n"
 msgstr "Errore durante la creazione del gruppo.\n"
 
-#: ../USER/USER.xs:695
+#: ../USER/USER.xs:288
 #, c-format
 msgid "Group could not be modified: '%s'.\n"
 msgstr "Il gruppo non può essere modificato: '%s'.\n"
 
-#: ../USER/USER.xs:705
+#: ../USER/USER.xs:298
 #, c-format
 msgid "Group could not be deleted: '%s'.\n"
 msgstr "Il gruppo non può essere modificato: '%s'.\n"
 
-#: ../USER/USER.xs:863
+#: ../USER/USER.xs:456
 msgid "No home directory for the user.\n"
 msgstr "Manca la cartella home per l'utente.\n"
 
-#: ../USER/USER.xs:869 ../USER/USER.xs:871
+#: ../USER/USER.xs:462 ../USER/USER.xs:464
 #, c-format
 msgid "Home Directory Could Not be deleted: '%s'.\n"
 msgstr "La cartella home non può essere eliminata: '%s'.\n"
 
-#: ../USER/USER.xs:881
-msgid "Error deleting mail spool.\n"
-msgstr "Errore nel cancellare la coda (spool) della posta.\n"
+#: ../USER/USER.xs:475
+#, c-format
+msgid "Error deleting mail spool: %s\n"
+msgstr "Errore nel cancellare la coda (spool) della posta: %s\n"
 
-#: ../userdrake:59 ../userdrake:1275
+#: ../userdrake:59 ../userdrake:1276
 #, c-format
 msgid "Userdrake"
 msgstr "Userdrake"
@@ -117,8 +99,8 @@ msgstr "Attendere, prego... si stanno caricando gli utenti e i gruppi"
 
 #: ../userdrake:83
 #, c-format
-msgid "Mandriva Linux Users Management Tool"
-msgstr "Strumento per la gestione degli utenti di Mandriva Linux"
+msgid "OpenMandriva Users Management Tool"
+msgstr "Strumento Gestione Utenti OpenMandriva"
 
 #: ../userdrake:96
 #, c-format
@@ -372,12 +354,12 @@ msgstr "Specifica manualmente l'ID utente"
 msgid "User already exists, please choose another User Name"
 msgstr "Questo utente è già presente, scegli un altro nome"
 
-#: ../userdrake:419 ../userdrake:860
+#: ../userdrake:419 ../userdrake:859
 #, c-format
 msgid "Password Mismatch"
 msgstr "La password non corrisponde"
 
-#: ../userdrake:422 ../userdrake:863
+#: ../userdrake:422 ../userdrake:862
 #, c-format
 msgid ""
 "This password is too simple. \n"
@@ -426,19 +408,19 @@ msgstr "Procedura per le migrazioni"
 #, c-format
 msgid ""
 "Do you want to run the migration wizard in order to import Windows documents "
-"and settings in your Mandriva Linux distribution?"
+"and settings in your OpenMandriva distribution?"
 msgstr ""
-"Vuoi utilizzare la procedura guidata per trasferire i documenti e le "
-"impostazioni Windows sulla tua installazione Mandriva Linux?"
+"Vuoi eseguire la procedura guidata di migrazione per importare i documenti e "
+"le impostazioni di Windows nella distribuzione OpenMandriva?"
 
 #: ../userdrake:484 ../userdrake:528 ../userdrake:587 ../userdrake:674
-#: ../userdrake:707 ../userdrake:1166
+#: ../userdrake:707 ../userdrake:1167
 #, c-format
 msgid "Cancel"
 msgstr "Annulla"
 
-#: ../userdrake:484 ../userdrake:521 ../userdrake:587 ../userdrake:1166
-#: ../userdrake:1317
+#: ../userdrake:484 ../userdrake:521 ../userdrake:587 ../userdrake:1167
+#: ../userdrake:1318
 #, c-format
 msgid "Ok"
 msgstr "Ok"
@@ -582,17 +564,17 @@ msgstr "Conferma password:"
 msgid "Login Shell:"
 msgstr "Shell di login:"
 
-#: ../userdrake:820
+#: ../userdrake:819
 #, c-format
 msgid "Group Name:"
 msgstr "Nome gruppo:"
 
-#: ../userdrake:894
+#: ../userdrake:893
 #, c-format
 msgid "Please select at least one group for the user"
 msgstr "Devi selezionare almeno un gruppo per l'utente"
 
-#: ../userdrake:904
+#: ../userdrake:903
 #, c-format
 msgid ""
 "Please specify Year, Month and Day \n"
@@ -601,7 +583,7 @@ msgstr ""
 "Devi indicare l'anno, il mese e il giorno\n"
 "di scadenza dell'account."
 
-#: ../userdrake:914
+#: ../userdrake:913
 #, c-format
 msgid "Please fill up all fields in password aging\n"
 msgstr "Devi riempire tutti i campi relativi alla scadenza della password\n"
@@ -701,63 +683,66 @@ msgstr "Utenti del gruppo"
 msgid "Edit Groups / Users"
 msgstr "Modifica gruppi / utenti"
 
-#: ../userdrake:1159
+#: ../userdrake:1160
 #, c-format
 msgid "An error occurred:"
 msgstr "Si è verificato un errore:"
 
-#: ../userdrake:1267
+#: ../userdrake:1268
 #, c-format
 msgid "Close"
 msgstr "Chiudi"
 
-#: ../userdrake:1277
+#: ../userdrake:1278
 #, c-format
 msgid "Copyright (C) %s by Mandriva"
 msgstr "Copyright (C) %s di Mandriva"
 
-#: ../userdrake:1280
+#: ../userdrake:1278
+#, c-format
+msgid "Copyright (C) %s by OpenMandriva"
+msgstr "Copyright (C) %s by OpenMandriva"
+
+#: ../userdrake:1281
 #, c-format
 msgid "Users Management"
 msgstr "Gestione utenti"
 
-#: ../userdrake:1282
+#: ../userdrake:1283
 #, c-format
-msgid "Mandriva Linux"
-msgstr "Mandriva Linux"
+msgid "OpenMandriva"
+msgstr "OpenMandriva"
 
 #. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
-#: ../userdrake:1288
+#: ../userdrake:1289
 #, c-format
 msgid "_: Translator(s) name(s) & email(s)\n"
 msgstr "Andrea Celli <a.celli@caltanet.it>\n"
 
-#: ../userdrake:1295
+#: ../userdrake:1296
 #, c-format
 msgid "Name field is empty please provide a name"
 msgstr "Il campo del login è vuoto, devi inserire un nome."
 
-#: ../userdrake:1297
+#: ../userdrake:1298
 #, c-format
 msgid ""
 "The name must contain only lower cased latin letters, numbers, `-' and `_'"
 msgstr ""
 "Il nome può contenere soltanto lettere minuscole, numeri, \"-\" e \"_\""
 
-#: ../userdrake:1300
+#: ../userdrake:1301
 #, c-format
 msgid "Name is too long"
 msgstr "Il nome è troppo lungo"
 
-#: ../userdrake:1313
+#: ../userdrake:1314
 #, c-format
 msgid "Error"
 msgstr "Errore"
 
-#, fuzzy
-#~ msgid "Unknown error"
-#~ msgstr "errore sconosciuto"
+#~ msgid "Error reading `%s': %s"
+#~ msgstr "Errore nel leggere \"%s\": %s"
 
-#, fuzzy
-#~ msgid "Error creating %s: %s.\n"
-#~ msgstr "Errore nel creare \"%s\": %s"
+#~ msgid "Error removing `%s': %s"
+#~ msgstr "Errore nel rimuovere \"%s\": %s"

@@ -7,99 +7,93 @@
 #
 # D. Dale Gulledge <dsplat@rochester.rr.com>, 2000.
 # Vilhelmo Lutermano <vlutermano@free.fr>, 2003, 2008.
+# Pablo Foche <pablo.foche@gmail.com>, 2012.
 msgid ""
 msgstr ""
 "Project-Id-Version: eo\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-02-02 03:03+0100\n"
-"PO-Revision-Date: 2008-01-11 19:18+0100\n"
-"Last-Translator: Vilhelmo Lutermano <vlutermano@free.fr>\n"
-"Language-Team: Esperanto <eo@li.org>\n"
+"POT-Creation-Date: 2013-04-23 19:48+0200\n"
+"PO-Revision-Date: 2012-10-14 14:58+0200\n"
+"Last-Translator: \n"
+"Language-Team: Esperanto <kde-i18n-doc@kde.org>\n"
+"Language: eo\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 1.11.4\n"
+"X-Generator: Lokalize 1.4\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../USER/USER.xs:86
+#: ../USER/USER.xs:83
 #, c-format
-msgid "Error reading `%s': %s"
-msgstr "Eraro dum legado `%s': %s"
+msgid "Account creation failed: '%s'.\n"
+msgstr "Konto-kreado malsukcesis: '%s'.\n"
 
-#: ../USER/USER.xs:93 ../USER/USER.xs:526
+#: ../USER/USER.xs:96
+msgid "Cannot get Uid number"
+msgstr "Ne eblis akiri uzul-identigan nombron"
+
+#: ../USER/USER.xs:108
+msgid "Cannot retrieve value"
+msgstr "Ne eblis ricevi valoron"
+
+#: ../USER/USER.xs:119
 #, c-format
 msgid "Error creating `%s': %s"
-msgstr "Eraro dum kreado `%s': %s"
+msgstr "Eraro dum kreado de `%s': %s"
 
-#: ../USER/USER.xs:205 ../USER/USER.xs:234 ../USER/USER.xs:250
+#: ../USER/USER.xs:125
 #, c-format
-msgid "Error removing `%s': %s"
-msgstr "Eraro dum forigado `%s': %s"
+msgid "Error creating mail spool: %s\n"
+msgstr "Eraro dum kreo de retpoŝta mandreno: %s\n"
 
-#: ../USER/USER.xs:490
-#, fuzzy, c-format
-msgid "Account creation failed: '%s'.\n"
-msgstr "Error kreante retpoŝtan fon-eneligonl.\n"
-
-#: ../USER/USER.xs:503
-msgid "Cannot get Uid number"
-msgstr ""
-
-#: ../USER/USER.xs:515
-msgid "Cannot retrieve value"
-msgstr ""
-
-#: ../USER/USER.xs:532
-msgid "Error creating mail spool.\n"
-msgstr "Error kreante retpoŝtan fon-eneligonl.\n"
-
-#: ../USER/USER.xs:582
-#, fuzzy, c-format
+#: ../USER/USER.xs:175
+#, c-format
 msgid "User could not be modified: '%s'.\n"
-msgstr "Error kreante retpoŝtan fon-eneligonl.\n"
+msgstr "Ne eblis modifi uzulon: '%s'.\n"
 
-#: ../USER/USER.xs:592
+#: ../USER/USER.xs:185
 #, c-format
 msgid "User Could Not be deleted: '%s'.\n"
-msgstr ""
+msgstr "Ne eblis forigi uzulon: '%s'.\n"
 
-#: ../USER/USER.xs:618
+#: ../USER/USER.xs:211
 #, c-format
 msgid "Failed to set password: '%s'.\n"
-msgstr ""
+msgstr "Malsukcesis la starigo de pasvorto: '%s'.\n"
 
-#: ../USER/USER.xs:618
+#: ../USER/USER.xs:211
 msgid "unknown error"
 msgstr "nekonata eraro"
 
-#: ../USER/USER.xs:685
-#, fuzzy
+#: ../USER/USER.xs:278
 msgid "Group creation failed.\n"
-msgstr "Error kreante retpoŝtan fon-eneligonl.\n"
+msgstr "Grupo-kreo malsukcesis.\n"
 
-#: ../USER/USER.xs:695
+#: ../USER/USER.xs:288
 #, c-format
 msgid "Group could not be modified: '%s'.\n"
-msgstr ""
+msgstr "Ne eblis modifi grupon: '%s'.\n"
 
-#: ../USER/USER.xs:705
+#: ../USER/USER.xs:298
 #, c-format
 msgid "Group could not be deleted: '%s'.\n"
-msgstr ""
+msgstr "Ne eblis forigi grupon: '%s'.\n"
 
-#: ../USER/USER.xs:863
+#: ../USER/USER.xs:456
 msgid "No home directory for the user.\n"
-msgstr ""
+msgstr "Ne estas hejma dosierujo por la uzulo.\n"
 
-#: ../USER/USER.xs:869 ../USER/USER.xs:871
+#: ../USER/USER.xs:462 ../USER/USER.xs:464
 #, c-format
 msgid "Home Directory Could Not be deleted: '%s'.\n"
-msgstr ""
+msgstr "Ne eblas forigi hejman dosierujon: '%s'.\n"
 
-#: ../USER/USER.xs:881
-msgid "Error deleting mail spool.\n"
-msgstr "Eraro forigante retpoŝtan fon-eneligon.\n"
+#: ../USER/USER.xs:475
+#, c-format
+msgid "Error deleting mail spool: %s\n"
+msgstr "Eraro dum forigo de retpoŝta mandreno: %s\n"
 
-#: ../userdrake:59 ../userdrake:1275
+#: ../userdrake:59 ../userdrake:1276
 #, c-format
 msgid "Userdrake"
 msgstr "Userdrake"
@@ -107,22 +101,22 @@ msgstr "Userdrake"
 #: ../userdrake:64
 #, c-format
 msgid "Loading Users and Groups... Please wait"
-msgstr "Ŝargante Uzulojn kaj Grupojn... Bonvole atendi"
+msgstr "Ŝargante uzulojn kaj grupojn... Bv. atendi"
 
 #: ../userdrake:83
 #, c-format
-msgid "Mandriva Linux Users Management Tool"
-msgstr "Mastrumilo por Mandriva Linux Uzuloj"
+msgid "OpenMandriva Users Management Tool"
+msgstr "Mageja Uzul-administrilo"
 
 #: ../userdrake:96
 #, c-format
 msgid "/_Install guest account"
-msgstr ""
+msgstr "/_Instali gastan konton"
 
 #: ../userdrake:97
 #, c-format
 msgid "/_Uninstall guest account"
-msgstr ""
+msgstr "/_Malinstali gastan konton"
 
 #: ../userdrake:101 ../userdrake:102 ../userdrake:103 ../userdrake:114
 #: ../userdrake:115 ../userdrake:116
@@ -133,12 +127,12 @@ msgstr "/_Agoj"
 #: ../userdrake:101
 #, c-format
 msgid "/_Edit"
-msgstr "/_Redaktu"
+msgstr "/_Redakti"
 
 #: ../userdrake:102
 #, c-format
 msgid "/_Delete"
-msgstr "/_Forigu"
+msgstr "/_Forigi"
 
 #: ../userdrake:104 ../userdrake:120
 #, c-format
@@ -148,7 +142,7 @@ msgstr "/_Opcioj"
 #: ../userdrake:104
 #, c-format
 msgid "/_Filter system users"
-msgstr "/_Filtrilo uzuloj"
+msgstr "/_Filtri sistemajn uzulojn"
 
 #: ../userdrake:109 ../userdrake:110 ../userdrake:113
 #, c-format
@@ -158,12 +152,12 @@ msgstr "/_Dosiero"
 #: ../userdrake:110
 #, c-format
 msgid "/_Refresh"
-msgstr "/_Rekalkulu"
+msgstr "/_Aktualigi"
 
 #: ../userdrake:113
 #, c-format
 msgid "/_Quit"
-msgstr "/_Finu"
+msgstr "/_Forlasi"
 
 #: ../userdrake:113
 #, c-format
@@ -173,12 +167,12 @@ msgstr "<control>Q"
 #: ../userdrake:115
 #, c-format
 msgid "/_Add User"
-msgstr "/_Aldonu uzulon"
+msgstr "/_Aldoni Uzulon"
 
 #: ../userdrake:116
 #, c-format
 msgid "/Add _Group"
-msgstr "/Aldonu _grupon"
+msgstr "/Aldoni _Grupon"
 
 #: ../userdrake:125 ../userdrake:126 ../userdrake:127 ../userdrake:130
 #, c-format
@@ -188,7 +182,7 @@ msgstr "/_Helpo"
 #: ../userdrake:127
 #, c-format
 msgid "/_Report Bug"
-msgstr "/_Raportu cimon"
+msgstr "/_Raporti Cimon"
 
 #: ../userdrake:130
 #, c-format
@@ -198,12 +192,12 @@ msgstr "/_Pri..."
 #: ../userdrake:148
 #, c-format
 msgid "Search:"
-msgstr "Serĉu:"
+msgstr "Serĉo:"
 
 #: ../userdrake:154
 #, c-format
 msgid "Apply filter"
-msgstr "Apliku filtrilon"
+msgstr "Apliki filtrilon"
 
 #: ../userdrake:158
 #, c-format
@@ -229,42 +223,42 @@ msgstr "Uzul-nomo"
 #: ../userdrake:186
 #, c-format
 msgid "User ID"
-msgstr "Uzula ID"
+msgstr "Uzula identigilo"
 
 #: ../userdrake:186 ../userdrake:1038
 #, c-format
 msgid "Primary Group"
-msgstr "Primara grupo"
+msgstr "Ĉefa Grupo"
 
 #: ../userdrake:187
 #, c-format
 msgid "Full Name"
-msgstr "Plena nomo"
+msgstr "Plena Nomo"
 
 #: ../userdrake:187
 #, c-format
 msgid "Login Shell"
-msgstr "Salutnoma kampo"
+msgstr "Saluta Ŝelo"
 
 #: ../userdrake:187
 #, c-format
 msgid "Home Directory"
-msgstr "Hejma dosierujo"
+msgstr "Hejma Dosierujo"
 
 #: ../userdrake:187
 #, c-format
 msgid "Status"
-msgstr "Statuso"
+msgstr "Stato"
 
 #: ../userdrake:194
 #, c-format
 msgid "Group Name"
-msgstr "Grupa nomo"
+msgstr "Grupa Nomo"
 
 #: ../userdrake:194
 #, c-format
 msgid "Group ID"
-msgstr "Grupa ID"
+msgstr "Grupa identigilo"
 
 #: ../userdrake:194
 #, c-format
@@ -274,52 +268,52 @@ msgstr "Grupanoj"
 #: ../userdrake:196
 #, c-format
 msgid "Add User"
-msgstr "Aldonu uzulon"
+msgstr "Aldoni Uzulon"
 
 #: ../userdrake:196
 #, c-format
 msgid "Add a user to the system"
-msgstr "Aldonu uzulon al la sistemo"
+msgstr "Aldoni uzulon al la sistemo"
 
 #: ../userdrake:197
 #, c-format
 msgid "Add Group"
-msgstr "Aldonu grupon"
+msgstr "Aldoni Grupon"
 
 #: ../userdrake:197
 #, c-format
 msgid "Add a group to the system"
-msgstr "Aldonu grupon al la sistemo"
+msgstr "Aldoni grupon al la sistemo"
 
 #: ../userdrake:198 ../userdrake:739
 #, c-format
 msgid "Edit"
-msgstr "Redaktu"
+msgstr "Redakti"
 
 #: ../userdrake:198
 #, c-format
 msgid "Edit selected row"
-msgstr "Redaktu selektitan linion"
+msgstr "Redakti elektitan linion"
 
 #: ../userdrake:199 ../userdrake:674 ../userdrake:707 ../userdrake:739
 #, c-format
 msgid "Delete"
-msgstr "Forigu"
+msgstr "Forigi"
 
 #: ../userdrake:199
 #, c-format
 msgid "Delete selected row"
-msgstr "Forigu selektitan linion"
+msgstr "Forigi elektitan linion"
 
 #: ../userdrake:200
 #, c-format
 msgid "Refresh"
-msgstr "Rekalkulu"
+msgstr "Aktualigi"
 
 #: ../userdrake:200
 #, c-format
 msgid "Refresh the list"
-msgstr "Rekalkulu la liston"
+msgstr "Aktualigi la liston"
 
 #: ../userdrake:263
 #, c-format
@@ -329,7 +323,7 @@ msgstr "Ŝlosita"
 #: ../userdrake:263
 #, c-format
 msgid "Expired"
-msgstr "Eksvalida"
+msgstr "Senvalidiĝinta"
 
 #: ../userdrake:339
 #, c-format
@@ -339,51 +333,51 @@ msgstr "Alklaku la piktogramon por ŝanĝi ĝin"
 #: ../userdrake:385
 #, c-format
 msgid "Create New User"
-msgstr "Kreu novan uzulon"
+msgstr "Krei Novan Uzulon"
 
 #: ../userdrake:391
 #, c-format
 msgid "Create Home Directory"
-msgstr "Kreu hejman dosierujon"
+msgstr "Krei Hejman Dosierujon"
 
 #: ../userdrake:393
 #, c-format
 msgid "Home Directory: "
-msgstr "Hejma dosierujo"
+msgstr "Hejma Dosierujo:"
 
 #: ../userdrake:396
 #, c-format
 msgid "Create a private group for the user"
-msgstr "Kreu privatan grupon por la uzulo"
+msgstr "Krei privatan grupon por la uzulo"
 
 #: ../userdrake:397
 #, c-format
 msgid "Specify user ID manually"
-msgstr "Mane difinu uzul-ID"
+msgstr "Difini permane uzul-identigilon"
 
 #: ../userdrake:414
 #, c-format
 msgid "User already exists, please choose another User Name"
-msgstr "Ĉi tiu nomo jam ekzistas, bonvolu elekti alian uzulnomon"
+msgstr "Ĉi tiu uzulo jam ekzistas, Bv. elekti alian uzulnomon"
 
-#: ../userdrake:419 ../userdrake:860
+#: ../userdrake:419 ../userdrake:859
 #, c-format
 msgid "Password Mismatch"
-msgstr "Pasvorta konfuzo"
+msgstr "Pasvorta Malkongruo"
 
-#: ../userdrake:422 ../userdrake:863
+#: ../userdrake:422 ../userdrake:862
 #, c-format
 msgid ""
 "This password is too simple. \n"
 " Good passwords should be > 6 characters"
 msgstr ""
-"Tiu ĉi pasvorto estas tro simpla. \n"
-" Bonaj pasvortoj havu > 6 signojn"
+"Ĉi tiu pasvorto estas tro simpla. \n"
+" Bonaj pasvortoj havas pli ol 6 karaktrojn"
 
 #: ../userdrake:434
 #, c-format
 msgid "User Uid is < 500"
-msgstr "Uzula Uid estas < 500"
+msgstr "Uzula identigilo estas < 500"
 
 #: ../userdrake:435
 #, c-format
@@ -392,8 +386,9 @@ msgid ""
 " Are you sure you want to do this?\n"
 "\n"
 msgstr ""
-"Krei uzulon kun UID malpli ol 500 ne estas rekomendinda.\n"
-" Ĉu vi certas  ke vi volas tion?\n"
+"Krei uzulon kun uzula identigilo malpli granda ol 500 ne estas "
+"rekomendinde.\n"
+" Ĉu vi certas ke vi volas fari tion?\n"
 "\n"
 
 #: ../userdrake:450
@@ -409,7 +404,7 @@ msgstr "Kreante novan grupon: %s"
 #: ../userdrake:466
 #, c-format
 msgid "Adding user: %s"
-msgstr "Mi aldonas uzulon: %s"
+msgstr "Aldonante uzulon: %s"
 
 #: ../userdrake:478
 #, c-format
@@ -420,42 +415,42 @@ msgstr "Migrad-helpilo"
 #, c-format
 msgid ""
 "Do you want to run the migration wizard in order to import Windows documents "
-"and settings in your Mandriva Linux distribution?"
+"and settings in your OpenMandriva distribution?"
 msgstr ""
-"Ĉu vi deziras funkciigi la migrado-helpilon por importi Vindozajn "
-"dokumentojn kaj agordojn en vian Mandriva Linukso-eldonon?"
+"Ĉu vi deziras lanĉi la migrado-helpilon por importi Vindozajn dokumentojn "
+"kaj agordojn en vian Mageja distribuaĵo?"
 
 #: ../userdrake:484 ../userdrake:528 ../userdrake:587 ../userdrake:674
-#: ../userdrake:707 ../userdrake:1166
+#: ../userdrake:707 ../userdrake:1167
 #, c-format
 msgid "Cancel"
-msgstr "Nuligu"
+msgstr "Nuligi"
 
-#: ../userdrake:484 ../userdrake:521 ../userdrake:587 ../userdrake:1166
-#: ../userdrake:1317
+#: ../userdrake:484 ../userdrake:521 ../userdrake:587 ../userdrake:1167
+#: ../userdrake:1318
 #, c-format
 msgid "Ok"
-msgstr "JES"
+msgstr "Jes"
 
 #: ../userdrake:497
 #, c-format
 msgid "UID: "
-msgstr "UID: "
+msgstr "Uzula identigilo: "
 
 #: ../userdrake:510
 #, c-format
 msgid "Choose group"
-msgstr "Elektu grupon"
+msgstr "Elekti grupon"
 
 #: ../userdrake:512 ../userdrake:513
 #, c-format
 msgid "Add to the existing group"
-msgstr "Aldonu al la ekzistanta grupo"
+msgstr "Aldoni al la ekzistanta grupo"
 
 #: ../userdrake:514
 #, c-format
 msgid "Add to the 'users' group"
-msgstr "Aldonu al la grupo 'uzuloj' ('users')"
+msgstr "Aldoni al la grupo 'uzuloj'"
 
 #: ../userdrake:516
 #, c-format
@@ -465,22 +460,22 @@ msgstr "Grupo kun tiu nomo jam ekzistas.  Kion vi ŝatus fari?"
 #: ../userdrake:546
 #, c-format
 msgid "Create New Group"
-msgstr "Kreu novan grupon"
+msgstr "Krei novan grupon"
 
 #: ../userdrake:551
 #, c-format
 msgid "Specify group ID manually"
-msgstr "Difinu grupan ID mane"
+msgstr "Difini grupan identigilon permane"
 
 #: ../userdrake:567
 #, c-format
 msgid "Group already exists, please choose another Group Name"
-msgstr "Grupo jam ekzistas, bonvolu elekti alian grupnomon"
+msgstr "Grupo jam ekzistas, bv. elekti alian grupnomon"
 
 #: ../userdrake:573
 #, c-format
 msgid " Group Gid is < 500"
-msgstr "Gid de la grupo estas < 500"
+msgstr " Identigilo de la grupo estas < 500"
 
 #: ../userdrake:574
 #, c-format
@@ -489,24 +484,24 @@ msgid ""
 " Are you sure you want to do this?\n"
 "\n"
 msgstr ""
-"Krei grupon kun GID malpli ol 500 ne estas rekomendinda.\n"
-" Ĉu vi certas ke vi volas tion?\n"
+"Krei grupon kun identigilo malpli granda ol 500 ne estas rekomendinde.\n"
+" Ĉu vi certas ke vi volas fari tion?\n"
 "\n"
 
 #: ../userdrake:581
 #, c-format
 msgid "Adding group: %s "
-msgstr "Mi aldonas grupon: %s"
+msgstr "Aldonante grupon: %s"
 
 #: ../userdrake:591
 #, c-format
 msgid "GID: "
-msgstr "GID: "
+msgstr "Grupa identigilo: "
 
 #: ../userdrake:636
 #, c-format
 msgid "Delete files or not?"
-msgstr "Ĉu forigi la dosierojn aŭ ne?"
+msgstr "Ĉu vi volas forigi la dosierojn aŭ ne?"
 
 #: ../userdrake:639
 #, c-format
@@ -514,23 +509,23 @@ msgid ""
 "Deleting user %s\n"
 " Also perform the following actions\n"
 msgstr ""
-"Mi forigas la uzulon %s\n"
-" Faru ankaŭ la jenon\n"
+"Forigante la uzulon %s\n"
+" Faru ankaŭ la jenajn agojn\n"
 
 #: ../userdrake:641
 #, c-format
 msgid "Delete Home Directory: %s"
-msgstr "Forigu hejman dosierujon: %s"
+msgstr "Forigi Hejman Dosierujon: %s"
 
 #: ../userdrake:642
 #, c-format
 msgid "Delete Mailbox: /var/spool/mail/%s"
-msgstr "Forigu la poŝtkeston: /var/spool/mail/%s"
+msgstr "Forigi la Poŝtkeston: /var/spool/mail/%s"
 
 #: ../userdrake:651
 #, c-format
 msgid "Removing user: %s"
-msgstr "Mi forigas uzulon: %s"
+msgstr "Forigante uzulon: %s"
 
 #: ../userdrake:684
 #, c-format
@@ -543,13 +538,13 @@ msgid ""
 "%s is a primary group for user %s\n"
 " Remove the user first"
 msgstr ""
-"%s estas primara grupo por uzulo %s\n"
+"%s estas ĉefa grupo por uzulo %s\n"
 " Unue forigu la uzulon"
 
 #: ../userdrake:702
 #, c-format
 msgid "Removing group: %s"
-msgstr "Mi forigas grupon: %s"
+msgstr "Forigante grupon: %s"
 
 #: ../userdrake:798
 #, c-format
@@ -574,36 +569,36 @@ msgstr "Konfirmu pasvorton:"
 #: ../userdrake:806
 #, c-format
 msgid "Login Shell:"
-msgstr "Salutnoma kampo:"
+msgstr "Saluta Ŝelo:"
 
-#: ../userdrake:820
+#: ../userdrake:819
 #, c-format
 msgid "Group Name:"
-msgstr "Grupa nomo:"
+msgstr "Grupa Nomo:"
 
-#: ../userdrake:894
+#: ../userdrake:893
 #, c-format
 msgid "Please select at least one group for the user"
-msgstr "Bonvolu selekti almenaŭ unu grupon por la uzulo"
+msgstr "Bv. elekti almenaŭ unu grupon por la uzulo"
 
-#: ../userdrake:904
+#: ../userdrake:903
 #, c-format
 msgid ""
 "Please specify Year, Month and Day \n"
 " for Account Expiration "
 msgstr ""
-"Bonvolu difinu Jaron, Monaton kaj Tagon \n"
-" por kont-eksvalidiĝo "
+"Bv. specifi Jaron, Monaton kaj Tagon \n"
+" por konta eksvalidiĝo "
 
-#: ../userdrake:914
+#: ../userdrake:913
 #, c-format
 msgid "Please fill up all fields in password aging\n"
-msgstr "Bonvolu difini la tutan kampon por pasvort-aĝiĝo\n"
+msgstr "Bv. difini ĉiujn kampojn por pasvort-aĝiĝo\n"
 
 #: ../userdrake:965
 #, c-format
 msgid "You cannot remove user '%s' from their primary group"
-msgstr "Vi ne povas forigi la uzulon '%s' de ties primara grupo"
+msgstr "Vi ne povas forigi la uzulon '%s' el lia ĉefa grupo"
 
 #: ../userdrake:986
 #, c-format
@@ -618,7 +613,7 @@ msgstr "Uzul-datumoj"
 #: ../userdrake:992
 #, c-format
 msgid "Enable account expiration"
-msgstr "Enŝaltu kont-eksvalidiĝon"
+msgstr "Ŝalti kont-eksvalidiĝon"
 
 #: ../userdrake:994
 #, c-format
@@ -628,22 +623,22 @@ msgstr "Konto eksvalidiĝos (JJJJ-MM-TT):"
 #: ../userdrake:1002
 #, c-format
 msgid "Lock User Account"
-msgstr "Ŝlosu la uzul-konton"
+msgstr "Ŝlosu la Uzul-konton"
 
 #: ../userdrake:1005
 #, c-format
 msgid "Account Info"
-msgstr "Kont-informo"
+msgstr "Konta Informo"
 
 #: ../userdrake:1010
 #, c-format
 msgid "User last changed password on: "
-msgstr "Uzulo laste ŝanĝis pasvorton al: "
+msgstr "Uzulo lastfoje ŝanĝis pasvorton je: "
 
 #: ../userdrake:1017
 #, c-format
 msgid "Enable Password Expiration"
-msgstr "Enŝaltu pasvort-eksvalidiĝon"
+msgstr "Ŝalti Pasvorto-eksvalidiĝon"
 
 #: ../userdrake:1022
 #, c-format
@@ -653,7 +648,7 @@ msgstr "Tagoj antaŭ ol ŝanĝo estas permesita:"
 #: ../userdrake:1024
 #, c-format
 msgid "Days before change required:"
-msgstr "Tagoj postulataj antaŭ ŝanĝo:"
+msgstr "Tagoj antaŭ ol ŝanĝo estas postulita:"
 
 #: ../userdrake:1026
 #, c-format
@@ -663,17 +658,17 @@ msgstr "Tagoj da avertado antaŭ ŝanĝo:"
 #: ../userdrake:1028
 #, c-format
 msgid "Days before account inactive:"
-msgstr "Tagoj antaŭ malaktivigo de la konto:"
+msgstr "Tagoj antaŭ malŝalto de la konto:"
 
 #: ../userdrake:1031
 #, c-format
 msgid "Password Info"
-msgstr "Pasvort-informo"
+msgstr "Pasvorta Informo"
 
 #: ../userdrake:1035
 #, c-format
 msgid "Select the groups that the user will be a member of:"
-msgstr "Selektu la grupojn kies ano estu la uzulo:"
+msgstr "Elekti la grupojn en kiuj la uzulo estu membro:"
 
 #: ../userdrake:1102
 #, c-format
@@ -683,69 +678,83 @@ msgstr "Grupo-datumoj"
 #: ../userdrake:1105
 #, c-format
 msgid "Select the users to join this group:"
-msgstr "Selektu la uzulojn aniĝendajn al tiu grupo:"
+msgstr "Elekti la uzulojn aliĝontajn al tiu grupo:"
 
 #: ../userdrake:1107
 #, c-format
 msgid "Group Users"
-msgstr "Grupo Uzuloj"
+msgstr "Grupo-uzuloj"
 
 #: ../userdrake:1127
 #, c-format
 msgid "Edit Groups / Users"
-msgstr "Redakti Grupojn/Uzulojn"
+msgstr "Redakti Grupojn / Uzulojn"
 
-#: ../userdrake:1159
-#, fuzzy, c-format
+#: ../userdrake:1160
+#, c-format
 msgid "An error occurred:"
-msgstr "Eraro okazis"
+msgstr "Eraro okazis:"
 
-#: ../userdrake:1267
+#: ../userdrake:1268
 #, c-format
 msgid "Close"
-msgstr "Fermu"
+msgstr "Fermi"
 
-#: ../userdrake:1277
+#: ../userdrake:1278
 #, c-format
 msgid "Copyright (C) %s by Mandriva"
-msgstr "Kopirajto (C) %s ĉe Mandriva"
+msgstr "Kopirajto (C) %s de Mandriva"
 
-#: ../userdrake:1280
+#: ../userdrake:1278
+#, fuzzy, c-format
+msgid "Copyright (C) %s by OpenMandriva"
+msgstr "Kopirajto (C) %s de Mandriva"
+
+#: ../userdrake:1281
 #, c-format
 msgid "Users Management"
-msgstr "Uzul-mastrumado"
+msgstr "Uzula Administrado"
 
-#: ../userdrake:1282
+#: ../userdrake:1283
 #, c-format
-msgid "Mandriva Linux"
-msgstr "Mandriva Linux"
+msgid "OpenMandriva"
+msgstr "Magejo"
 
 #. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
-#: ../userdrake:1288
+#: ../userdrake:1289
 #, c-format
 msgid "_: Translator(s) name(s) & email(s)\n"
-msgstr "Vilhelmo Lutermano <vlutermano@free.fr>\n"
+msgstr ""
+"Vilhelmo Lutermano <vlutermano@free.fr>\n"
+"Pablo Foche <pablo.foche@gmail.com>\n"
 
-#: ../userdrake:1295
+#: ../userdrake:1296
 #, c-format
 msgid "Name field is empty please provide a name"
-msgstr "Nomo-kampo malplenas, bonvolu enmeti nomon"
+msgstr "Nomo-kampo malplenas, bv. havigi nomon"
 
-#: ../userdrake:1297
+#: ../userdrake:1298
 #, c-format
 msgid ""
 "The name must contain only lower cased latin letters, numbers, `-' and `_'"
-msgstr "La nomo devas havi nur minusklajn literojn, ciferojn,`-' kaj `_'"
+msgstr ""
+"La nomo devas enhavi nur minusklajn latinajn literojn, ciferojn,`-' kaj `_'"
 
-#: ../userdrake:1300
+#: ../userdrake:1301
 #, c-format
 msgid "Name is too long"
 msgstr "Nomo tro longas"
 
-#: ../userdrake:1313
+#: ../userdrake:1314
 #, c-format
 msgid "Error"
 msgstr "Eraro"
+
+#~ msgid "Error reading `%s': %s"
+#~ msgstr "Eraro dum legado de `%s': %s"
+
+#~ msgid "Error removing `%s': %s"
+#~ msgstr "Eraro dum forigado de `%s': %s"
 
 #, fuzzy
 #~ msgid "Unknown error"

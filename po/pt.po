@@ -2,108 +2,99 @@
 #
 # Copyright (C) 2001,2003, 2004, 2005, 2006, 2007 Free Software Foundation, Inc.
 # Copyright (c) 2001 Mandriva
+# Copyright (c) 2011 OpenMandriva
 #
 # Jorge Costa <Jorgercosta@netc.pt>, 2001.
 # Jose Jorge <jose.jorge@oreka.com>, 2002, 2003.
 # Jose Jorge <jjorge@free.fr>, 2003, 2004.
-# José Melo <mmodem00@netvisao.pt>, 2004.
-# José Melo <mmodme00@gmail.com>, 2005.
-# Zé <mmodem00@gmail.com>, 2006, 2007, 2010.
-# Zé <ze@mandriva.org>, 2009, 2010.
 # Thanks to contributions made by Sérgio Marques <smarquespt@gmail.com>, 2010.
+# Zé <ze@mandriva.org>, 2004, 2005, 2006, 2007, 2009, 2010, 2011.
 msgid ""
 msgstr ""
 "Project-Id-Version: pt\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-02-02 03:03+0100\n"
-"PO-Revision-Date: 2010-07-19 16:53+0100\n"
+"POT-Creation-Date: 2013-04-23 19:48+0200\n"
+"PO-Revision-Date: 2011-05-09 07:02+0100\n"
 "Last-Translator: Zé <ze@mandriva.org>\n"
-"Language-Team: Portuguese \n"
+"Language-Team: Portuguese <>\n"
+"Language: pt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 1.1\n"
+"X-Generator: Lokalize 1.2\n"
 "Plural-Forms:  nplurals=2; plural=(n != 1);\n"
 
-#: ../USER/USER.xs:86
-#, c-format
-msgid "Error reading `%s': %s"
-msgstr "Erro ao ler `%s': %s"
-
-#: ../USER/USER.xs:93 ../USER/USER.xs:526
-#, c-format
-msgid "Error creating `%s': %s"
-msgstr "Erro ao criar `%s': %s"
-
-#: ../USER/USER.xs:205 ../USER/USER.xs:234 ../USER/USER.xs:250
-#, c-format
-msgid "Error removing `%s': %s"
-msgstr "Erro ao remover `%s': %s"
-
-#: ../USER/USER.xs:490
+#: ../USER/USER.xs:83
 #, c-format
 msgid "Account creation failed: '%s'.\n"
 msgstr "Falha ao criar a conta: '%s'.\n"
 
-#: ../USER/USER.xs:503
+#: ../USER/USER.xs:96
 msgid "Cannot get Uid number"
 msgstr "Não é possível obter o número Uid"
 
-#: ../USER/USER.xs:515
+#: ../USER/USER.xs:108
 msgid "Cannot retrieve value"
 msgstr "Não é possível obter o valor"
 
-#: ../USER/USER.xs:532
-msgid "Error creating mail spool.\n"
-msgstr "Erro ao criar a fila de correio.\n"
+#: ../USER/USER.xs:119
+#, c-format
+msgid "Error creating `%s': %s"
+msgstr "Erro ao criar `%s': %s"
 
-#: ../USER/USER.xs:582
+#: ../USER/USER.xs:125
+#, c-format
+msgid "Error creating mail spool: %s\n"
+msgstr "Erro ao criar a fila de correio: %s\n"
+
+#: ../USER/USER.xs:175
 #, c-format
 msgid "User could not be modified: '%s'.\n"
 msgstr "O utilizador não pode ser modificado: '%s'.\n"
 
-#: ../USER/USER.xs:592
+#: ../USER/USER.xs:185
 #, c-format
 msgid "User Could Not be deleted: '%s'.\n"
 msgstr "O utilizador não pode ser apagado: '%s'.\n"
 
-#: ../USER/USER.xs:618
+#: ../USER/USER.xs:211
 #, c-format
 msgid "Failed to set password: '%s'.\n"
 msgstr "Falha ao definir a senha: '%s'.\n"
 
-#: ../USER/USER.xs:618
+#: ../USER/USER.xs:211
 msgid "unknown error"
 msgstr "erro desconhecido"
 
-#: ../USER/USER.xs:685
+#: ../USER/USER.xs:278
 msgid "Group creation failed.\n"
 msgstr "Falha ao criar o grupo.\n"
 
-#: ../USER/USER.xs:695
+#: ../USER/USER.xs:288
 #, c-format
 msgid "Group could not be modified: '%s'.\n"
 msgstr "O grupo não pode ser modificado: '%s'.\n"
 
-#: ../USER/USER.xs:705
+#: ../USER/USER.xs:298
 #, c-format
 msgid "Group could not be deleted: '%s'.\n"
 msgstr "O grupo não pode ser apagado: '%s'.\n"
 
-#: ../USER/USER.xs:863
+#: ../USER/USER.xs:456
 msgid "No home directory for the user.\n"
 msgstr "Nenhuma pasta pessoal para o utilizador.\n"
 
-#: ../USER/USER.xs:869 ../USER/USER.xs:871
+#: ../USER/USER.xs:462 ../USER/USER.xs:464
 #, c-format
 msgid "Home Directory Could Not be deleted: '%s'.\n"
 msgstr "A pasta pessoal não pode ser apagada: '%s'.\n"
 
-#: ../USER/USER.xs:881
-msgid "Error deleting mail spool.\n"
-msgstr "Erro ao apagar a fila de correio.\n"
+#: ../USER/USER.xs:475
+#, c-format
+msgid "Error deleting mail spool: %s\n"
+msgstr "Erro ao apagar a fila de correio: %s\n"
 
-#: ../userdrake:59 ../userdrake:1275
+#: ../userdrake:59 ../userdrake:1276
 #, c-format
 msgid "Userdrake"
 msgstr "Userdrake"
@@ -115,8 +106,8 @@ msgstr "A carregar Utilizadores e Grupos... Por favor aguarde"
 
 #: ../userdrake:83
 #, c-format
-msgid "Mandriva Linux Users Management Tool"
-msgstr "Ferramenta de Gestão de Utilizadores Mandriva Linux"
+msgid "OpenMandriva Users Management Tool"
+msgstr "Ferramenta de Gestão de Utilizadores OpenMandriva"
 
 #: ../userdrake:96
 #, c-format
@@ -365,26 +356,26 @@ msgstr "Cria um grupo privado para o utilizador"
 #: ../userdrake:397
 #, c-format
 msgid "Specify user ID manually"
-msgstr "Indicar manualmente ID de utilizador"
+msgstr "Indica manualmente o ID de utilizador"
 
 #: ../userdrake:414
 #, c-format
 msgid "User already exists, please choose another User Name"
 msgstr "Este utilizador já existe, por favor escolha outro Nome de Utilizador"
 
-#: ../userdrake:419 ../userdrake:860
+#: ../userdrake:419 ../userdrake:859
 #, c-format
 msgid "Password Mismatch"
 msgstr "Senhas Diferentes"
 
-#: ../userdrake:422 ../userdrake:863
+#: ../userdrake:422 ../userdrake:862
 #, c-format
 msgid ""
 "This password is too simple. \n"
 " Good passwords should be > 6 characters"
 msgstr ""
 "Esta senha é demasiado simples. \n"
-" As boas senhas devem ter mais de 6 caracteres"
+"As boas senhas devem ter mais de 6 caracteres"
 
 #: ../userdrake:434
 #, c-format
@@ -426,19 +417,19 @@ msgstr "Assistente de migração"
 #, c-format
 msgid ""
 "Do you want to run the migration wizard in order to import Windows documents "
-"and settings in your Mandriva Linux distribution?"
+"and settings in your OpenMandriva distribution?"
 msgstr ""
-"Deseja correr o assistente de migração para importar documentos e definições "
-"Windows para a sua distribuição Mandriva Linux?"
+"Deseja correr o assistente de migração para importar documentos e "
+"configurações Windows para a sua distribuição OpenMandriva?"
 
 #: ../userdrake:484 ../userdrake:528 ../userdrake:587 ../userdrake:674
-#: ../userdrake:707 ../userdrake:1166
+#: ../userdrake:707 ../userdrake:1167
 #, c-format
 msgid "Cancel"
 msgstr "Cancelar"
 
-#: ../userdrake:484 ../userdrake:521 ../userdrake:587 ../userdrake:1166
-#: ../userdrake:1317
+#: ../userdrake:484 ../userdrake:521 ../userdrake:587 ../userdrake:1167
+#: ../userdrake:1318
 #, c-format
 msgid "Ok"
 msgstr "Ok"
@@ -521,7 +512,7 @@ msgid ""
 " Also perform the following actions\n"
 msgstr ""
 "A apagar utilizador %s\n"
-" Executar também as seguintes acções\n"
+"Executar também as seguintes acções\n"
 
 #: ../userdrake:641
 #, c-format
@@ -550,7 +541,7 @@ msgid ""
 " Remove the user first"
 msgstr ""
 "%s é um grupo primário para o utilizador %s\n"
-" Remova o utilizador primeiro"
+"Remova o utilizador primeiro"
 
 #: ../userdrake:702
 #, c-format
@@ -565,7 +556,7 @@ msgstr "Nome Completo:"
 #: ../userdrake:800
 #, c-format
 msgid "Login:"
-msgstr "Utilizador:"
+msgstr "Nome de Utilizador:"
 
 #: ../userdrake:802
 #, c-format
@@ -582,17 +573,17 @@ msgstr "Confirmar Senha:"
 msgid "Login Shell:"
 msgstr "Interpretador de Comandos:"
 
-#: ../userdrake:820
+#: ../userdrake:819
 #, c-format
 msgid "Group Name:"
 msgstr "Nome do Grupo:"
 
-#: ../userdrake:894
+#: ../userdrake:893
 #, c-format
 msgid "Please select at least one group for the user"
 msgstr "Por favor seleccione pelo menos um grupo para o utilizador"
 
-#: ../userdrake:904
+#: ../userdrake:903
 #, c-format
 msgid ""
 "Please specify Year, Month and Day \n"
@@ -601,7 +592,7 @@ msgstr ""
 "Por favor indique o Ano, Mês e Dia\n"
 "para a Expiração da Conta "
 
-#: ../userdrake:914
+#: ../userdrake:913
 #, c-format
 msgid "Please fill up all fields in password aging\n"
 msgstr "Por favor preencha todas os campos de duração da senha\n"
@@ -701,57 +692,68 @@ msgstr "Utilizadores do Grupo"
 msgid "Edit Groups / Users"
 msgstr "Editar Grupos/Utilizadores"
 
-#: ../userdrake:1159
+#: ../userdrake:1160
 #, c-format
 msgid "An error occurred:"
 msgstr "Ocorreu um erro:"
 
-#: ../userdrake:1267
+#: ../userdrake:1268
 #, c-format
 msgid "Close"
 msgstr "Fechar"
 
-#: ../userdrake:1277
+#: ../userdrake:1278
 #, c-format
 msgid "Copyright (C) %s by Mandriva"
 msgstr "Direitos de Autor (C) %s Mandriva"
 
-#: ../userdrake:1280
+#: ../userdrake:1278
+#, fuzzy, c-format
+msgid "Copyright (C) %s by OpenMandriva"
+msgstr "Direitos de Autor (C) %s Mandriva"
+
+#: ../userdrake:1281
 #, c-format
 msgid "Users Management"
 msgstr "Gestão de Utilizadores"
 
-#: ../userdrake:1282
+#: ../userdrake:1283
 #, c-format
-msgid "Mandriva Linux"
-msgstr "Mandriva Linux"
+msgid "OpenMandriva"
+msgstr "OpenMandriva"
 
 #. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
-#: ../userdrake:1288
+#: ../userdrake:1289
 #, c-format
 msgid "_: Translator(s) name(s) & email(s)\n"
 msgstr "Zé <ze@mandriva.org>\n"
 
-#: ../userdrake:1295
+#: ../userdrake:1296
 #, c-format
 msgid "Name field is empty please provide a name"
 msgstr "O campo do nome está vazio, por favor indique um nome"
 
-#: ../userdrake:1297
+#: ../userdrake:1298
 #, c-format
 msgid ""
 "The name must contain only lower cased latin letters, numbers, `-' and `_'"
 msgstr "O nome deve conter apenas letras minúsculas, números, '-' e '_'"
 
-#: ../userdrake:1300
+#: ../userdrake:1301
 #, c-format
 msgid "Name is too long"
-msgstr "Nome demasiado comprido"
+msgstr "O nome é demasiado comprido"
 
-#: ../userdrake:1313
+#: ../userdrake:1314
 #, c-format
 msgid "Error"
 msgstr "Erro"
+
+#~ msgid "Error reading `%s': %s"
+#~ msgstr "Erro ao ler `%s': %s"
+
+#~ msgid "Error removing `%s': %s"
+#~ msgstr "Erro ao remover `%s': %s"
 
 #, fuzzy
 #~ msgid "Unknown error"

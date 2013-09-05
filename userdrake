@@ -52,7 +52,7 @@ my @pix = ($pixdir . 'selected.png', $pixdir . 'unselected.png');
 my $in = interactive->vnew('su');
 
 my $us = {};
-$us->{VERSION} = '0.92';
+$us->{VERSION} = '1.13.3';
 
 my $window_splash = Gtk2::Window->new('popup');
 $window_splash->signal_connect(delete_event => \&QuitGlobal);
@@ -80,7 +80,7 @@ my $sysfilter = text2bool($prefs{FILTER});
 
 sub HelpSystem() { run_program::raw({ detach => 1 }, 'drakhelp', '--id', 'userdrake') }
 
-$us->{wnd} = ugtk2->new(N("Mandriva Linux Users Management Tool") . " " . $us->{VERSION});
+$us->{wnd} = ugtk2->new(N("OpenMandriva Users Management Tool") . " " . $us->{VERSION});
 $::main_window = $us->{wnd}{real_window};
 gtkset_size_request($us->{wnd}{rwindow}, 660, 460);
 $us->{wnd}{rwindow}->set_position('center') if !$::isEmbedded;
@@ -226,7 +226,7 @@ $us->{wnd}->main;
 ugtk2->exit(0);
 
 sub is_xguest_installed() {
-    -e '/etc/security/namespace.d/guest.conf';
+    -e '/etc/security/namespace.d/xguest.conf';
 }
 
 sub GrayDelEdit() {
@@ -476,7 +476,7 @@ sub AddUser() {
                                Refresh($sysfilter, $stringsearch);
                                transfugdrake::get_windows_disk()
                                    and $in->ask_yesorno(N("Migration wizard"),
-                                                        N("Do you want to run the migration wizard in order to import Windows documents and settings in your Mandriva Linux distribution?"))
+                                                        N("Do you want to run the migration wizard in order to import Windows documents and settings in your OpenMandriva distribution?"))
                                      and run_program::raw({ detach => 1 }, 'transfugdrake');
                            }
                        }
@@ -1275,12 +1275,12 @@ sub About() {
     $license =~ s/\n/\n\n/sg; # nicer formatting
     my $w = gtknew('AboutDialog', name => N("Userdrake"),
                    version => $us->{VERSION},
-                   copyright => N("Copyright (C) %s by Mandriva", '2001-2009'),
+                   copyright => N("Copyright (C) %s by Mandriva", '2001-2009') . "\n" . N("Copyright (C) %s by OpenMandriva", '2011'),
                    if_(-r "$pixdir/userdrake.png", logo => "$pixdir/userdrake.png"),
                    license => $license, wrap_license => 1,
                    comments => N("Users Management"),
-                   website => 'http://mandrivalinux.com',
-                   website_label => N("Mandriva Linux"),
+                   website => 'http://www.openmandriva.org',
+                   website_label => N("OpenMandriva"),
                    authors => 'Daouda Lo
 Thierry Vignaud <tvignaud@mandriva.com>',
                    artists => 'Hélène Durosini <ln@mandriva.com>',

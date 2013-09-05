@@ -12,100 +12,92 @@ msgid ""
 msgstr ""
 "Project-Id-Version: userdrake-bg\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-02-02 03:03+0100\n"
+"POT-Creation-Date: 2013-04-23 19:48+0200\n"
 "PO-Revision-Date: 2009-04-11 09:18+0200\n"
 "Last-Translator: Rossen Karpuzov <gustav cointech net>\n"
 "Language-Team: Mandriva User Group - Bulgaria  < mandriva-bg@googlegroups."
 "com>\n"
+"Language: bg\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: bg\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 1.2.1\n"
 "X-Poedit-Language: Bulgarian\n"
 "X-Poedit-Country: BULGARIA\n"
 
-#: ../USER/USER.xs:86
-#, c-format
-msgid "Error reading `%s': %s"
-msgstr "Грешка при четене `%s': %s"
-
-#: ../USER/USER.xs:93 ../USER/USER.xs:526
-#, c-format
-msgid "Error creating `%s': %s"
-msgstr "Грешка при създаване на `%s': %s"
-
-#: ../USER/USER.xs:205 ../USER/USER.xs:234 ../USER/USER.xs:250
-#, c-format
-msgid "Error removing `%s': %s"
-msgstr "Грешка при изтриване: `%s': %s"
-
-#: ../USER/USER.xs:490
+#: ../USER/USER.xs:83
 #, fuzzy, c-format
 msgid "Account creation failed: '%s'.\n"
 msgstr "Грешка при създаване на mail spool.\n"
 
-#: ../USER/USER.xs:503
+#: ../USER/USER.xs:96
 msgid "Cannot get Uid number"
 msgstr ""
 
-#: ../USER/USER.xs:515
+#: ../USER/USER.xs:108
 msgid "Cannot retrieve value"
 msgstr ""
 
-#: ../USER/USER.xs:532
-msgid "Error creating mail spool.\n"
-msgstr "Грешка при създаване на mail spool.\n"
+#: ../USER/USER.xs:119
+#, c-format
+msgid "Error creating `%s': %s"
+msgstr "Грешка при създаване на `%s': %s"
 
-#: ../USER/USER.xs:582
+#: ../USER/USER.xs:125
+#, c-format
+msgid "Error creating mail spool: %s\n"
+msgstr "Грешка при създаване на mail spool: %s\n"
+
+#: ../USER/USER.xs:175
 #, fuzzy, c-format
 msgid "User could not be modified: '%s'.\n"
 msgstr "Грешка при създаване на mail spool.\n"
 
-#: ../USER/USER.xs:592
+#: ../USER/USER.xs:185
 #, c-format
 msgid "User Could Not be deleted: '%s'.\n"
 msgstr ""
 
-#: ../USER/USER.xs:618
+#: ../USER/USER.xs:211
 #, c-format
 msgid "Failed to set password: '%s'.\n"
 msgstr ""
 
-#: ../USER/USER.xs:618
+#: ../USER/USER.xs:211
 msgid "unknown error"
 msgstr "непозната грешка"
 
-#: ../USER/USER.xs:685
+#: ../USER/USER.xs:278
 #, fuzzy
 msgid "Group creation failed.\n"
 msgstr "Грешка при създаване на mail spool.\n"
 
-#: ../USER/USER.xs:695
+#: ../USER/USER.xs:288
 #, c-format
 msgid "Group could not be modified: '%s'.\n"
 msgstr ""
 
-#: ../USER/USER.xs:705
+#: ../USER/USER.xs:298
 #, c-format
 msgid "Group could not be deleted: '%s'.\n"
 msgstr ""
 
-#: ../USER/USER.xs:863
+#: ../USER/USER.xs:456
 msgid "No home directory for the user.\n"
 msgstr ""
 
-#: ../USER/USER.xs:869 ../USER/USER.xs:871
+#: ../USER/USER.xs:462 ../USER/USER.xs:464
 #, c-format
 msgid "Home Directory Could Not be deleted: '%s'.\n"
 msgstr ""
 
-#: ../USER/USER.xs:881
-msgid "Error deleting mail spool.\n"
-msgstr "Грешка при изтриване на главен spool.\n"
+#: ../USER/USER.xs:475
+#, c-format
+msgid "Error deleting mail spool: %s\n"
+msgstr "Грешка при изтриване на главен spool: %s\n"
 
-#: ../userdrake:59 ../userdrake:1275
+#: ../userdrake:59 ../userdrake:1276
 #, c-format
 msgid "Userdrake"
 msgstr "Userdrake"
@@ -117,7 +109,7 @@ msgstr "Зареждам потребителите и групите... Мол�
 
 #: ../userdrake:83
 #, c-format
-msgid "Mandriva Linux Users Management Tool"
+msgid "OpenMandriva Users Management Tool"
 msgstr "Мандрива линукс инструмент за работа с потребителски сметки"
 
 #: ../userdrake:96
@@ -376,12 +368,12 @@ msgstr "Ръчно задаване на потребителски номер"
 msgid "User already exists, please choose another User Name"
 msgstr "Това име вече съществува в системата,моля изберете друго"
 
-#: ../userdrake:419 ../userdrake:860
+#: ../userdrake:419 ../userdrake:859
 #, c-format
 msgid "Password Mismatch"
 msgstr "Паролите не съвпадат"
 
-#: ../userdrake:422 ../userdrake:863
+#: ../userdrake:422 ../userdrake:862
 #, c-format
 msgid ""
 "This password is too simple. \n"
@@ -430,19 +422,19 @@ msgstr "Помощник за миграция"
 #, c-format
 msgid ""
 "Do you want to run the migration wizard in order to import Windows documents "
-"and settings in your Mandriva Linux distribution?"
+"and settings in your OpenMandriva distribution?"
 msgstr ""
 "Искате ли да бъде стартиран помощника за миграция в задание давмъкне Windows "
 "документи и настройки във вашата Мандрива Линукс?"
 
 #: ../userdrake:484 ../userdrake:528 ../userdrake:587 ../userdrake:674
-#: ../userdrake:707 ../userdrake:1166
+#: ../userdrake:707 ../userdrake:1167
 #, c-format
 msgid "Cancel"
 msgstr "Отказ"
 
-#: ../userdrake:484 ../userdrake:521 ../userdrake:587 ../userdrake:1166
-#: ../userdrake:1317
+#: ../userdrake:484 ../userdrake:521 ../userdrake:587 ../userdrake:1167
+#: ../userdrake:1318
 #, c-format
 msgid "Ok"
 msgstr "Добре"
@@ -586,17 +578,17 @@ msgstr "Потвърждение:"
 msgid "Login Shell:"
 msgstr "Влизане в системата:"
 
-#: ../userdrake:820
+#: ../userdrake:819
 #, c-format
 msgid "Group Name:"
 msgstr "Име на група:"
 
-#: ../userdrake:894
+#: ../userdrake:893
 #, c-format
 msgid "Please select at least one group for the user"
 msgstr "Моля изберете поне една група за потребителя"
 
-#: ../userdrake:904
+#: ../userdrake:903
 #, c-format
 msgid ""
 "Please specify Year, Month and Day \n"
@@ -605,7 +597,7 @@ msgstr ""
 "Моля въведете година,месец и ден, \n"
 " до които важи сметката"
 
-#: ../userdrake:914
+#: ../userdrake:913
 #, c-format
 msgid "Please fill up all fields in password aging\n"
 msgstr "Моля попълнете всички полета за \"остаряване\" на паролата\n"
@@ -705,58 +697,69 @@ msgstr "Потребители в групата"
 msgid "Edit Groups / Users"
 msgstr "Промяна на потребители/групати"
 
-#: ../userdrake:1159
+#: ../userdrake:1160
 #, fuzzy, c-format
 msgid "An error occurred:"
 msgstr "Появи се грешка"
 
-#: ../userdrake:1267
+#: ../userdrake:1268
 #, c-format
 msgid "Close"
 msgstr "Затвори"
 
-#: ../userdrake:1277
+#: ../userdrake:1278
 #, c-format
 msgid "Copyright (C) %s by Mandriva"
 msgstr "Запазени права (C) %s от Мандрива"
 
-#: ../userdrake:1280
+#: ../userdrake:1278
+#, fuzzy, c-format
+msgid "Copyright (C) %s by OpenMandriva"
+msgstr "Запазени права (C) %s от Мандрива"
+
+#: ../userdrake:1281
 #, c-format
 msgid "Users Management"
 msgstr "Работа със сметки"
 
-#: ../userdrake:1282
+#: ../userdrake:1283
 #, c-format
-msgid "Mandriva Linux"
-msgstr "Mandriva Linux"
+msgid "OpenMandriva"
+msgstr "OpenMandriva"
 
 #. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
-#: ../userdrake:1288
+#: ../userdrake:1289
 #, c-format
 msgid "_: Translator(s) name(s) & email(s)\n"
 msgstr "Boyan Ivanov <boyan17@bulgaria.com>\n"
 
-#: ../userdrake:1295
+#: ../userdrake:1296
 #, c-format
 msgid "Name field is empty please provide a name"
 msgstr "Полето за име е празно,моля въведете нещо."
 
-#: ../userdrake:1297
+#: ../userdrake:1298
 #, c-format
 msgid ""
 "The name must contain only lower cased latin letters, numbers, `-' and `_'"
 msgstr ""
 "Името трябва да съдържа латински букви в долен регистър,цифри,`-' и `_'"
 
-#: ../userdrake:1300
+#: ../userdrake:1301
 #, c-format
 msgid "Name is too long"
 msgstr "Името е твърде дълго"
 
-#: ../userdrake:1313
+#: ../userdrake:1314
 #, c-format
 msgid "Error"
 msgstr "Грешка"
+
+#~ msgid "Error reading `%s': %s"
+#~ msgstr "Грешка при четене `%s': %s"
+
+#~ msgid "Error removing `%s': %s"
+#~ msgstr "Грешка при изтриване: `%s': %s"
 
 #, fuzzy
 #~ msgid "Unknown error"
