@@ -41,6 +41,7 @@ use USER;
 use Gtk2::Gdk::Keysyms;
 use utf8;
 use log;
+use Net::DBus;
 
 $ugtk2::wm_icon = "userdrake";
 
@@ -48,6 +49,11 @@ my $conffile = '/etc/sysconfig/userdrake';
 my $secfile = '/etc/sysconfig/msec';
 my $pixdir = '/usr/share/userdrake/pixmaps/';
 my @pix = ($pixdir . 'selected.png', $pixdir . 'unselected.png');
+my $bus = Net::DBus->system;
+my $accounts_service = $bus->get_service("org.freedesktop.Accounts");
+my $accounts_manager = $accounts_service->get_object(
+		"/org/freedesktop/Accounts",
+		"org.freedesktop.Accounts");
 
 my $in = interactive->vnew('su');
 
@@ -334,7 +340,22 @@ sub GetFaceIcon {
     my @icons = any::facesnames();
     my $i;
     my $current_icon;
-    my $user_icon = "$::prefix/usr/share/faces/$user.png";
+    my $user_icon;
+    if ($user) {
+	my $accounts_user_path = $accounts_manager->FindUserByName($user);
+	# service doens't provide Get methods; we need to use different
+	# interface to read properties    
+	my $accounts_user_get = $accounts_service->get_object(
+		$accounts_user_path,
+		"org.freedesktop.DBus.Properties");
+	my $accounts_user_set = $accounts_service->get_object(
+		$accounts_user_path,
+		"org.freedesktop.Accounts.User");
+	$user_icon = $accounts_user_get->Get(
+	    "org.freedesktop.Accounts.User",
+	    "IconFile");
+    }
+    if (!$user_icon) { $user_icon = "$::prefix/usr/share/faces/$user.png"; }
     gtkpack_(my $hb = Gtk2::HBox->new(0, 2),
 	     0, Gtk2::Label->new(N("Click on the icon to change it") . '    '),
 	     0, my $bt = Gtk2::Button->new
