@@ -406,7 +406,7 @@ sub AddUser() {
     my $w = NewWindow(N("Create New User"));
     my $dontcreatehomedir = 0; my $is_system = 0;
     my %u; 
-    gtkpack_($w->vbox,
+    gtkpack_($w->get_child,
 		    0, BuildUui(),
 		    0, Gtk2::HSeparator->new,
 		    0, $us->{o}{createhomedir} = Gtk2::CheckButton->new(N("Create Home Directory")),
@@ -533,7 +533,7 @@ sub ChooseGroup() {
     my @radio = gtkradio(N("Add to the existing group"),
                          (N("Add to the existing group"),
                           N("Add to the 'users' group")));
-    gtkadd($w->vbox,
+    gtkadd($w->get_child,
            Gtk2::Label->new(N("A group with this name already exists.  What would you like to do?")),
            gtkpack(Gtk2::VBox->new(0,0), @radio),
        );
@@ -566,7 +566,7 @@ sub GimmeChoice {
 sub AddGroup() {
     my $w = NewWindow(N("Create New Group"));
     my $mode = 0; my %g; my $is_system = 0;
-    gtkpack_($w->vbox,
+    gtkpack_($w->get_child,
 		    0, BuildGui(),
 		    0, Gtk2::HSeparator->new,
 		    0, $us->{o}{groupid} = Gtk2::CheckButton->new(N("Specify group ID manually")),
@@ -656,7 +656,7 @@ sub UserDelete() {
     # New version
     my $w = NewWindow(N("Delete files or not?"));
     my $hd = $userEnt->HomeDir($GetValue);
-    gtkpack_($w->vbox,
+    gtkpack_($w->get_child,
              0, Gtk2::Label->new(N("Deleting user %s\n Also perform the following actions\n",
                                    $username)),
              0, $checkhome = Gtk2::CheckButton->new(N("Delete Home Directory: %s", $hd)),
@@ -701,7 +701,7 @@ sub UserDelete() {
 sub GroupDelete() {
     my $groupname =  GetNameEntFromIter($grouptree, $gtree_model, 0);
     my $wg = NewWindow(translate("Warning"));
-    gtkadd($wg->vbox,
+    gtkadd($wg->get_child,
            Gtk2::Label->new(N("Do you really want to delete the group %s?", $groupname)),
        );
     gtkadd($wg->action_area,
@@ -1166,7 +1166,7 @@ sub Edit() {
     } elsif ($p == 1) {
         $groupEnt = GroupEdit_widget($nbG, $tree, $model, $groupname);
     }
-    gtkpack_($w->vbox, 
+    gtkpack_($w->get_child,
              1, !$p ? $nbU : $nbG);
     gtkadd($w->action_area,
            map {
@@ -1334,7 +1334,7 @@ sub valid_groupname {
 sub RaiseError {
     my $w = NewWindow(N("Error"));
     $error = 1;
-    gtkpack($w->vbox, Gtk2::Label->new($_[0]));
+    gtkpack($w->get_child, Gtk2::Label->new($_[0]));
     gtkadd($w->action_area,
            gtksignal_connect(Gtk2::Button->new(N("Ok")),
                              clicked => sub { $w->destroy })
