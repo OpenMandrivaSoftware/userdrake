@@ -58,7 +58,7 @@ my $accounts_manager = $accounts_service->get_object(
 my $in = interactive->vnew('su');
 
 my $us = {};
-$us->{VERSION} = '1.13.3';
+$us->{VERSION} = '1.14.1';
 
 my $window_splash = Gtk2::Window->new('popup');
 $window_splash->signal_connect(delete_event => \&QuitGlobal);
