@@ -39,11 +39,8 @@ install: all
 
 dis: dist
 dist: clean
-	rm -rf $(NAME)-$(VERSION) ../$(NAME)-$(VERSION).tar*
-	svn export -q -rBASE . $(NAME)-$(VERSION)
-	find $(NAME)-$(VERSION) -name .svnignore |xargs rm -rf
-	tar cfa ../$(NAME)-$(VERSION).tar.xz $(NAME)-$(VERSION)
-	rm -rf $(NAME)-$(VERSION)
+	rm -rf $(NAME)-$(VERSION) ./$(NAME)-$(VERSION).tar*
+	git archive --prefix=$(NAME)-$(VERSION)/ HEAD | xz -c -T0 > $(NAME)-$(VERSION).tar.xz;
 
 .PHONY: ChangeLog
 ChangeLog:
