@@ -420,7 +420,7 @@ sub AddUser() {
 		    0, Gtk2::HSeparator->new,
                     0, GetFaceIcon()
     );
-    gtkadd($w->action_area,
+    gtkadd($w->get_action_area,
            map {
                my $r = $_->[1];
                gtksignal_connect(
@@ -537,7 +537,7 @@ sub ChooseGroup() {
            Gtk2::Label->new(N("A group with this name already exists.  What would you like to do?")),
            gtkpack(Gtk2::VBox->new(0,0), @radio),
        );
-    gtkadd($w->action_area,
+    gtkadd($w->get_action_area,
            gtksignal_connect(
                Gtk2::Button->new(N("Ok")), 
                clicked => sub {
@@ -572,7 +572,7 @@ sub AddGroup() {
 		    0, $us->{o}{groupid} = Gtk2::CheckButton->new(N("Specify group ID manually")),
 		    0, gtkset_sensitive(my $h = Gtk2::HBox->new(0, 4), 0),
              );
-    gtkadd($w->action_area,
+    gtkadd($w->get_action_area,
            map {
                my $r = $_->[1];
                gtksignal_connect(
@@ -663,7 +663,7 @@ sub UserDelete() {
              0, $checkspool = Gtk2::CheckButton->new(N("Delete Mailbox: /var/spool/mail/%s",
                                                        $username)),
          );
-    gtkadd($w->action_area,
+    gtkadd($w->get_action_area,
            map {
                my $r = $_->[1];
                gtksignal_connect(Gtk2::Button->new($_->[0]), clicked =>
@@ -704,7 +704,7 @@ sub GroupDelete() {
     gtkadd($wg->get_child,
            Gtk2::Label->new(N("Do you really want to delete the group %s?", $groupname)),
        );
-    gtkadd($wg->action_area,
+    gtkadd($wg->get_action_area,
            map {
                my $r = $_->[1];
                gtksignal_connect(Gtk2::Button->new($_->[0]), clicked =>
@@ -1168,7 +1168,7 @@ sub Edit() {
     }
     gtkpack_($w->get_child,
              1, !$p ? $nbU : $nbG);
-    gtkadd($w->action_area,
+    gtkadd($w->get_action_area,
            map {
                my $retv = $_->[1];
                gtksignal_connect(
@@ -1285,7 +1285,7 @@ sub NewDialog {
     my $dialog = gtkset_border_width(
         _create_dialog($title, { transient_for => $us->{wnd}{real_window} }),
         5);
-    $dialog->action_area->pack_start(
+    $dialog->get_action_area->pack_start(
         gtksignal_connect(Gtk2::Button->new(N("Close")), clicked => sub { $dialog->destroy }),
         0,0,0);
     $dialog;
@@ -1335,7 +1335,7 @@ sub RaiseError {
     my $w = NewWindow(N("Error"));
     $error = 1;
     gtkpack($w->get_child, Gtk2::Label->new($_[0]));
-    gtkadd($w->action_area,
+    gtkadd($w->get_action_area,
            gtksignal_connect(Gtk2::Button->new(N("Ok")),
                              clicked => sub { $w->destroy })
 	  );
