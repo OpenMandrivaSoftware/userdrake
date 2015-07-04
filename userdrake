@@ -278,6 +278,7 @@ sub RefreshUsersFull {
     my @UserReal;
   LOOP: foreach my $l (@$users) {
         next LOOP if $filterusers && $l->Uid($GetValue) <= 499 || $l->Uid($GetValue) == 65534;
+        next LOOP if $filterusers && $l->Uid($GetValue) > 499 && $l->Uid($GetValue) < 1000 && ($l->HomeDir($GetValue) =~ /^\/($|var\/|run\/)/ || $l->LoginShell($GetValue) =~ /(nologin|false)$/);
         push @UserReal, $l if $l->UserName($GetValue) =~ /^\Q$strfilt/;
     }
     my $i;
@@ -453,9 +454,9 @@ sub AddUser() {
                                $dontcreatehomedir = 1;
                            }
                            if (!$error && $us->{o}{userid}->get_active) {
-                               if (($u{uid} = $us->{o}{uid}->get_value) < 500) {
-                                   my $uidchoice = GimmeChoice(N("User Uid is < 500"),
-                                                               N("Creating a user with a UID less than 500 is not recommended.\n Are you sure you want to do this?\n\n")); 
+                               if (($u{uid} = $us->{o}{uid}->get_value) < 1000) {
+                                   my $uidchoice = GimmeChoice(N("User Uid is < 1000"),
+                                                               N("Creating a user with a UID less than 1000 is not recommended.\n Are you sure you want to do this?\n\n")); 
                                    $uidchoice and $userEnt->Uid($u{uid});
                                } else { $userEnt->Uid($u{uid}) }
                            }
@@ -592,9 +593,9 @@ sub AddGroup() {
                            }
                            my $groupEnt = $ctx->InitGroup($g{groupname}, $is_system);
                            if ($us->{o}{groupid}->get_active) {
-                               if (($g{gid} = $us->{o}{gid}->get_value) < 500) {
-                                   my $gidchoice = GimmeChoice(N(" Group Gid is < 500"),
-                                                               N("Creating a group with a GID less than 500 is not recommended.\n Are you sure you want to do this?\n\n")); 
+                               if (($g{gid} = $us->{o}{gid}->get_value) < 1000) {
+                                   my $gidchoice = GimmeChoice(N(" Group Gid is < 1000"),
+                                                               N("Creating a group with a GID less than 1000 is not recommended.\n Are you sure you want to do this?\n\n")); 
                                    $gidchoice and $groupEnt->Gid($g{gid});
                                } else {
                                    $groupEnt->Gid($g{gid});

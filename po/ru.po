@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: ru\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-04-23 19:48+0200\n"
-"PO-Revision-Date: 2009-10-18 11:15+0500\n"
+"PO-Revision-Date: 2009-10-18 11:15+01000\n"
 "Last-Translator: akdengi <kazancas@mandriva.ru>\n"
 "Language-Team: Russian <gnu@mx.ru>\n"
 "Language: ru\n"
@@ -384,17 +384,17 @@ msgstr ""
 
 #: ../userdrake:434
 #, c-format
-msgid "User Uid is < 500"
-msgstr "UID пользователя < 500"
+msgid "User Uid is < 1000"
+msgstr "UID пользователя < 1000"
 
 #: ../userdrake:435
 #, c-format
 msgid ""
-"Creating a user with a UID less than 500 is not recommended.\n"
+"Creating a user with a UID less than 1000 is not recommended.\n"
 " Are you sure you want to do this?\n"
 "\n"
 msgstr ""
-"Создавать пользователей с UID меньше 500 не рекомендуется.\n"
+"Создавать пользователей с UID меньше 1000 не рекомендуется.\n"
 "Вы уверены, что хотите сделать это?\n"
 "\n"
 
@@ -481,17 +481,17 @@ msgstr "Группа уже существует, выберите другое 
 
 #: ../userdrake:573
 #, c-format
-msgid " Group Gid is < 500"
-msgstr "GID группы < 500"
+msgid " Group Gid is < 1000"
+msgstr "GID группы < 1000"
 
 #: ../userdrake:574
 #, c-format
 msgid ""
-"Creating a group with a GID less than 500 is not recommended.\n"
+"Creating a group with a GID less than 1000 is not recommended.\n"
 " Are you sure you want to do this?\n"
 "\n"
 msgstr ""
-"Создавать группы с GID менее 500 не рекомендуется.\n"
+"Создавать группы с GID менее 1000 не рекомендуется.\n"
 "Вы уверены, что хотите сделать это?\n"
 "\n"
 

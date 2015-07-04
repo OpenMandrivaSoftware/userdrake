@@ -378,17 +378,17 @@ msgstr ""
 
 #: ../userdrake:434
 #, c-format
-msgid "User Uid is < 500"
-msgstr "İstifadəçi Uid'i < 500"
+msgid "User Uid is < 1000"
+msgstr "İstifadəçi Uid'i < 1000"
 
 #: ../userdrake:435
 #, c-format
 msgid ""
-"Creating a user with a UID less than 500 is not recommended.\n"
+"Creating a user with a UID less than 1000 is not recommended.\n"
 " Are you sure you want to do this?\n"
 "\n"
 msgstr ""
-"UID'i 500'dən az olan istifadəçi yaradmaq məsləhət edilmir.\n"
+"UID'i 1000'dən az olan istifadəçi yaradmaq məsləhət edilmir.\n"
 " Bunu həqiqətən də etmək istəyirsiniz?\n"
 "\n"
 
@@ -473,17 +473,17 @@ msgstr "Bu qrup onsuz da mövcuddur, xahiş edirik başqa Qrup Adı seçin"
 
 #: ../userdrake:573
 #, c-format
-msgid " Group Gid is < 500"
-msgstr " Qrup Gid'i < 500"
+msgid " Group Gid is < 1000"
+msgstr " Qrup Gid'i < 1000"
 
 #: ../userdrake:574
 #, c-format
 msgid ""
-"Creating a group with a GID less than 500 is not recommended.\n"
+"Creating a group with a GID less than 1000 is not recommended.\n"
 " Are you sure you want to do this?\n"
 "\n"
 msgstr ""
-"GID'i 500'dən az olan qrup yaratmaq məsləhət edilmir.\n"
+"GID'i 1000'dən az olan qrup yaratmaq məsləhət edilmir.\n"
 " Bunu həqiqətən də etmək istəyirsiniz?\n"
 "\n"
 

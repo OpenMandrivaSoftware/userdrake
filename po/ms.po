@@ -377,17 +377,17 @@ msgstr ""
 
 #: ../userdrake:434
 #, c-format
-msgid "User Uid is < 500"
-msgstr "Uid pengguna adalah < 500"
+msgid "User Uid is < 1000"
+msgstr "Uid pengguna adalah < 1000"
 
 #: ../userdrake:435
 #, c-format
 msgid ""
-"Creating a user with a UID less than 500 is not recommended.\n"
+"Creating a user with a UID less than 1000 is not recommended.\n"
 " Are you sure you want to do this?\n"
 "\n"
 msgstr ""
-"Mencipta pengguna dengan UID kurang dari 500 tidak disyorkan.\n"
+"Mencipta pengguna dengan UID kurang dari 1000 tidak disyorkan.\n"
 " Anda pasti anda mahu melakukannya?\n"
 "\n"
 
@@ -474,17 +474,17 @@ msgstr "Kumpulan telah wujud, sila pilih Nama Kumpulan lain"
 
 #: ../userdrake:573
 #, c-format
-msgid " Group Gid is < 500"
-msgstr " Gid kumpulan adalah < 500"
+msgid " Group Gid is < 1000"
+msgstr " Gid kumpulan adalah < 1000"
 
 #: ../userdrake:574
 #, c-format
 msgid ""
-"Creating a group with a GID less than 500 is not recommended.\n"
+"Creating a group with a GID less than 1000 is not recommended.\n"
 " Are you sure you want to do this?\n"
 "\n"
 msgstr ""
-"Penciptaan kumpulan dengan GID kurang dari 500 tidak dicadangkan.\n"
+"Penciptaan kumpulan dengan GID kurang dari 1000 tidak dicadangkan.\n"
 "  Adakah anda pasti anda hendak melakukannya?\n"
 "\n"
 

@@ -381,17 +381,17 @@ msgstr ""
 
 #: ../userdrake:434
 #, c-format
-msgid "User Uid is < 500"
-msgstr "Το Uid του χρήστη είναι μικρότερο από 500"
+msgid "User Uid is < 1000"
+msgstr "Το Uid του χρήστη είναι μικρότερο από 1000"
 
 #: ../userdrake:435
 #, c-format
 msgid ""
-"Creating a user with a UID less than 500 is not recommended.\n"
+"Creating a user with a UID less than 1000 is not recommended.\n"
 " Are you sure you want to do this?\n"
 "\n"
 msgstr ""
-"Η δημιουργία χρήστη με UID μικρότερο από 500 δεν συνιστάται.\n"
+"Η δημιουργία χρήστη με UID μικρότερο από 1000 δεν συνιστάται.\n"
 " Είστε βέβαιος/η ότι θέλετε να συνεχίσετε;\n"
 "\n"
 
@@ -478,17 +478,17 @@ msgstr "Η ομάδα υπάρχει ήδη, παρακαλώ επιλέξτε �
 
 #: ../userdrake:573
 #, c-format
-msgid " Group Gid is < 500"
-msgstr " Το Gid της ομάδας είναι μικρότερο του 500"
+msgid " Group Gid is < 1000"
+msgstr " Το Gid της ομάδας είναι μικρότερο του 1000"
 
 #: ../userdrake:574
 #, c-format
 msgid ""
-"Creating a group with a GID less than 500 is not recommended.\n"
+"Creating a group with a GID less than 1000 is not recommended.\n"
 " Are you sure you want to do this?\n"
 "\n"
 msgstr ""
-"Η δημιουργία ομάδας με GID μικρότερο του 500 δεν συνιστάται.\n"
+"Η δημιουργία ομάδας με GID μικρότερο του 1000 δεν συνιστάται.\n"
 " Είστε βέβαιος/η ότι θέλετε να συνεχίσετε;\n"
 "\n"
 

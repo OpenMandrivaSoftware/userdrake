@@ -375,17 +375,17 @@ msgstr ""
 
 #: ../userdrake:434
 #, c-format
-msgid "User Uid is < 500"
-msgstr "Uid-и корванд < аз 500 мебошад"
+msgid "User Uid is < 1000"
+msgstr "Uid-и корванд < аз 1000 мебошад"
 
 #: ../userdrake:435
 #, c-format
 msgid ""
-"Creating a user with a UID less than 500 is not recommended.\n"
+"Creating a user with a UID less than 1000 is not recommended.\n"
 " Are you sure you want to do this?\n"
 "\n"
 msgstr ""
-"Ташкили корванд бо UID на кам аз 500 тавсия намешавад.\n"
+"Ташкили корванд бо UID на кам аз 1000 тавсия намешавад.\n"
 "Шумо боварӣ доред, ки инро иҷро карданӣ ҳастед?\n"
 "\n"
 
@@ -470,17 +470,17 @@ msgstr "Гурӯҳ аллакай вуҷуд дорад, лутфан Номи �
 
 #: ../userdrake:573
 #, c-format
-msgid " Group Gid is < 500"
-msgstr " Gid-и гурӯҳ < аз 500 мебошад"
+msgid " Group Gid is < 1000"
+msgstr " Gid-и гурӯҳ < аз 1000 мебошад"
 
 #: ../userdrake:574
 #, c-format
 msgid ""
-"Creating a group with a GID less than 500 is not recommended.\n"
+"Creating a group with a GID less than 1000 is not recommended.\n"
 " Are you sure you want to do this?\n"
 "\n"
 msgstr ""
-"Ташкили гурӯҳо бо GID на кам аз 500 тавсия намешавад.\n"
+"Ташкили гурӯҳо бо GID на кам аз 1000 тавсия намешавад.\n"
 "Шумо боварӣ доред, ки инро иҷро карданӣ ҳастед?\n"
 "\n"
 

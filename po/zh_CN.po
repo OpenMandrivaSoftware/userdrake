@@ -375,17 +375,17 @@ msgstr ""
 
 #: ../userdrake:434
 #, c-format
-msgid "User Uid is < 500"
-msgstr "用户的 UID 小于 500"
+msgid "User Uid is < 1000"
+msgstr "用户的 UID 小于 1000"
 
 #: ../userdrake:435
 #, c-format
 msgid ""
-"Creating a user with a UID less than 500 is not recommended.\n"
+"Creating a user with a UID less than 1000 is not recommended.\n"
 " Are you sure you want to do this?\n"
 "\n"
 msgstr ""
-"不推荐创建一个 UID 小于 500 的用户。\n"
+"不推荐创建一个 UID 小于 1000 的用户。\n"
 "您确定您要这么做吗?\n"
 "\n"
 
@@ -471,17 +471,17 @@ msgstr "组已经存在，请使用其他组名"
 
 #: ../userdrake:573
 #, c-format
-msgid " Group Gid is < 500"
-msgstr "组的 GID 小于 500"
+msgid " Group Gid is < 1000"
+msgstr "组的 GID 小于 1000"
 
 #: ../userdrake:574
 #, c-format
 msgid ""
-"Creating a group with a GID less than 500 is not recommended.\n"
+"Creating a group with a GID less than 1000 is not recommended.\n"
 " Are you sure you want to do this?\n"
 "\n"
 msgstr ""
-"不推荐创建一个 GID 小于 500 的组。\n"
+"不推荐创建一个 GID 小于 1000 的组。\n"
 "您确定您要这么做吗？\n"
 "\n"
 

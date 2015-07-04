@@ -371,17 +371,17 @@ msgstr ""
 
 #: ../userdrake:434
 #, c-format
-msgid "User Uid is < 500"
-msgstr "ID používateľa je < 500"
+msgid "User Uid is < 1000"
+msgstr "ID používateľa je < 1000"
 
 #: ../userdrake:435
 #, c-format
 msgid ""
-"Creating a user with a UID less than 500 is not recommended.\n"
+"Creating a user with a UID less than 1000 is not recommended.\n"
 " Are you sure you want to do this?\n"
 "\n"
 msgstr ""
-"Vytvorenie používateľa s UID menším ako 500 nie je odporúčané.\n"
+"Vytvorenie používateľa s UID menším ako 1000 nie je odporúčané.\n"
 " Naozaj si to želáte?\n"
 "\n"
 
@@ -466,17 +466,17 @@ msgstr "Skupina už existuje, zvoľte si prosím iné meno skupiny"
 
 #: ../userdrake:573
 #, c-format
-msgid " Group Gid is < 500"
-msgstr "Skupinové gid je < 500"
+msgid " Group Gid is < 1000"
+msgstr "Skupinové gid je < 1000"
 
 #: ../userdrake:574
 #, c-format
 msgid ""
-"Creating a group with a GID less than 500 is not recommended.\n"
+"Creating a group with a GID less than 1000 is not recommended.\n"
 " Are you sure you want to do this?\n"
 "\n"
 msgstr ""
-"Vytvorenie skupiny s GID menej ako 500 nie je odporučené.\n"
+"Vytvorenie skupiny s GID menej ako 1000 nie je odporučené.\n"
 " Ste si istí že to chcete?\n"
 "\n"
 

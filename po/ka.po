@@ -373,17 +373,17 @@ msgstr ""
 
 #: ../userdrake:434
 #, c-format
-msgid "User Uid is < 500"
-msgstr "მომხმარებლის Uid ნაკლებია 500-ზე"
+msgid "User Uid is < 1000"
+msgstr "მომხმარებლის Uid ნაკლებია 1000-ზე"
 
 #: ../userdrake:435
 #, c-format
 msgid ""
-"Creating a user with a UID less than 500 is not recommended.\n"
+"Creating a user with a UID less than 1000 is not recommended.\n"
 " Are you sure you want to do this?\n"
 "\n"
 msgstr ""
-"მომხმარებლის შექმნა, რომლის UID ნაკლებია 500 არ არის რეკომენდირებული.\n"
+"მომხმარებლის შექმნა, რომლის UID ნაკლებია 1000 არ არის რეკომენდირებული.\n"
 " დარწმუნებული ხართ, რომ გნებავთ ეს?\n"
 "\n"
 
@@ -468,17 +468,17 @@ msgstr "ჯგუფის სახელი უკვე არსებობ
 
 #: ../userdrake:573
 #, c-format
-msgid " Group Gid is < 500"
-msgstr " ჯგუფის Gid ნაკლებია 500-ზე"
+msgid " Group Gid is < 1000"
+msgstr " ჯგუფის Gid ნაკლებია 1000-ზე"
 
 #: ../userdrake:574
 #, c-format
 msgid ""
-"Creating a group with a GID less than 500 is not recommended.\n"
+"Creating a group with a GID less than 1000 is not recommended.\n"
 " Are you sure you want to do this?\n"
 "\n"
 msgstr ""
-"ჯგუფის შექმნა, რომლის GID ნაკლებია 500 არ არის რეკომენდირებული.\n"
+"ჯგუფის შექმნა, რომლის GID ნაკლებია 1000 არ არის რეკომენდირებული.\n"
 " დარწმუნებული ხართ, რომ გნებავთ ეს?\n"
 "\n"
 

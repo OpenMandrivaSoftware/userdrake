@@ -376,17 +376,17 @@ msgstr ""
 
 #: ../userdrake:434
 #, c-format
-msgid "User Uid is < 500"
-msgstr "Vartotojo Uid yra < 500"
+msgid "User Uid is < 1000"
+msgstr "Vartotojo Uid yra < 1000"
 
 #: ../userdrake:435
 #, c-format
 msgid ""
-"Creating a user with a UID less than 500 is not recommended.\n"
+"Creating a user with a UID less than 1000 is not recommended.\n"
 " Are you sure you want to do this?\n"
 "\n"
 msgstr ""
-"Naujo vartotojo, kurio UID mažiau kaip 500, sukūrimas nerekomenduojamas.\n"
+"Naujo vartotojo, kurio UID mažiau kaip 1000, sukūrimas nerekomenduojamas.\n"
 " Ar tikrai norite tai padaryti?\n"
 "\n"
 
@@ -471,17 +471,17 @@ msgstr "Tokia grupė jau yra, pasirinkite kitą grupės vardą"
 
 #: ../userdrake:573
 #, c-format
-msgid " Group Gid is < 500"
-msgstr " Grupės Gid yra < 500"
+msgid " Group Gid is < 1000"
+msgstr " Grupės Gid yra < 1000"
 
 #: ../userdrake:574
 #, c-format
 msgid ""
-"Creating a group with a GID less than 500 is not recommended.\n"
+"Creating a group with a GID less than 1000 is not recommended.\n"
 " Are you sure you want to do this?\n"
 "\n"
 msgstr ""
-"Naujo vartotojo, kurio GID mažiau kaip 500, sukūrimas nerekomenduojamas.\n"
+"Naujo vartotojo, kurio GID mažiau kaip 1000, sukūrimas nerekomenduojamas.\n"
 " Ar tikrai norite tai padaryti?\n"
 "\n"
 
@@ -852,8 +852,8 @@ msgstr "Klaida"
 #~ msgid "General"
 #~ msgstr "Bendras"
 
-#~ msgid "Don't show user with id less than 500"
-#~ msgstr "Nerodyti vartotojų kurių id mažesnė negu 500"
+#~ msgid "Don't show user with id less than 1000"
+#~ msgstr "Nerodyti vartotojų kurių id mažesnė negu 1000"
 
 #~ msgid "User identifier"
 #~ msgstr "Vartotojo indentifikatorius"

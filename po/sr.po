@@ -379,17 +379,17 @@ msgstr ""
 
 #: ../userdrake:434
 #, c-format
-msgid "User Uid is < 500"
-msgstr "КОрисников  Uid је < 500"
+msgid "User Uid is < 1000"
+msgstr "КОрисников  Uid је < 1000"
 
 #: ../userdrake:435
 #, c-format
 msgid ""
-"Creating a user with a UID less than 500 is not recommended.\n"
+"Creating a user with a UID less than 1000 is not recommended.\n"
 " Are you sure you want to do this?\n"
 "\n"
 msgstr ""
-"Креирање корисника са UID мањим од 500 није препоручљиво.\n"
+"Креирање корисника са UID мањим од 1000 није препоручљиво.\n"
 " Да ли сте сигурни да жлите ово да урадите?\n"
 "\n"
 
@@ -474,17 +474,17 @@ msgstr "Група већ постоји, изаберите друго име �
 
 #: ../userdrake:573
 #, c-format
-msgid " Group Gid is < 500"
-msgstr " Gid за Групу је < 500"
+msgid " Group Gid is < 1000"
+msgstr " Gid за Групу је < 1000"
 
 #: ../userdrake:574
 #, c-format
 msgid ""
-"Creating a group with a GID less than 500 is not recommended.\n"
+"Creating a group with a GID less than 1000 is not recommended.\n"
 " Are you sure you want to do this?\n"
 "\n"
 msgstr ""
-"Креирање групе са GID које је мањи од 500 is није препоручљиво.\n"
+"Креирање групе са GID које је мањи од 1000 is није препоручљиво.\n"
 " да ли сте сигурни да желите да урадите ово?\n"
 "\n"
 
@@ -881,8 +881,8 @@ msgstr "Грешка"
 #~ msgid "General"
 #~ msgstr "Опште"
 
-#~ msgid "Don't show user with id less than 500"
-#~ msgstr "Не приказуј кориснике са id-ом мањим од 500"
+#~ msgid "Don't show user with id less than 1000"
+#~ msgstr "Не приказуј кориснике са id-ом мањим од 1000"
 
 #~ msgid "User identifier"
 #~ msgstr "Индетификатор корисника"

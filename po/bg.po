@@ -384,17 +384,17 @@ msgstr ""
 
 #: ../userdrake:434
 #, c-format
-msgid "User Uid is < 500"
-msgstr "Потребителският номер е по-малък от 500"
+msgid "User Uid is < 1000"
+msgstr "Потребителският номер е по-малък от 1000"
 
 #: ../userdrake:435
 #, c-format
 msgid ""
-"Creating a user with a UID less than 500 is not recommended.\n"
+"Creating a user with a UID less than 1000 is not recommended.\n"
 " Are you sure you want to do this?\n"
 "\n"
 msgstr ""
-"Създаване на потребител с номер по-малък от 500 не е препоръчително.\n"
+"Създаване на потребител с номер по-малък от 1000 не е препоръчително.\n"
 "Сигурни ли сте,че го желаете ?\n"
 "\n"
 
@@ -481,17 +481,17 @@ msgstr "Групата вече съществува,моля изберете �
 
 #: ../userdrake:573
 #, c-format
-msgid " Group Gid is < 500"
-msgstr "ГИД е по-малък от 500"
+msgid " Group Gid is < 1000"
+msgstr "ГИД е по-малък от 1000"
 
 #: ../userdrake:574
 #, c-format
 msgid ""
-"Creating a group with a GID less than 500 is not recommended.\n"
+"Creating a group with a GID less than 1000 is not recommended.\n"
 " Are you sure you want to do this?\n"
 "\n"
 msgstr ""
-"Създаване на група с GID < 500 не е препоръчително\n"
+"Създаване на група с GID < 1000 не е препоръчително\n"
 " Сигурен ли сте,че желаете да го направите ?\n"
 "\n"
 

@@ -371,17 +371,17 @@ msgstr ""
 
 #: ../userdrake:434
 #, c-format
-msgid "User Uid is < 500"
-msgstr "UID dal utent inferiôr a 500"
+msgid "User Uid is < 1000"
+msgstr "UID dal utent inferiôr a 1000"
 
 #: ../userdrake:435
 #, c-format
 msgid ""
-"Creating a user with a UID less than 500 is not recommended.\n"
+"Creating a user with a UID less than 1000 is not recommended.\n"
 " Are you sure you want to do this?\n"
 "\n"
 msgstr ""
-"No l'è consigliât creâ un utent cun UID inferiôr a 500.\n"
+"No l'è consigliât creâ un utent cun UID inferiôr a 1000.\n"
 "Sêstu sigûr di volè fâlu?\n"
 "\n"
 
@@ -466,17 +466,17 @@ msgstr "Il grop al esist dizà, par plasè sielç un altri non di grop"
 
 #: ../userdrake:573
 #, c-format
-msgid " Group Gid is < 500"
-msgstr " GID dal grop inferiôr di 500"
+msgid " Group Gid is < 1000"
+msgstr " GID dal grop inferiôr di 1000"
 
 #: ../userdrake:574
 #, c-format
 msgid ""
-"Creating a group with a GID less than 500 is not recommended.\n"
+"Creating a group with a GID less than 1000 is not recommended.\n"
 " Are you sure you want to do this?\n"
 "\n"
 msgstr ""
-"Creâ un grop cunt'un GID inferôr a 500 no l'è racomandât.\n"
+"Creâ un grop cunt'un GID inferôr a 1000 no l'è racomandât.\n"
 " Setu sigûr di ve voe di falu? \n"
 "\n"
 

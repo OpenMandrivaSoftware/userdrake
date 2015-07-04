@@ -373,17 +373,17 @@ msgstr ""
 
 #: ../userdrake:434
 #, c-format
-msgid "User Uid is < 500"
-msgstr "Notandanúmer < 500"
+msgid "User Uid is < 1000"
+msgstr "Notandanúmer < 1000"
 
 #: ../userdrake:435
 #, c-format
 msgid ""
-"Creating a user with a UID less than 500 is not recommended.\n"
+"Creating a user with a UID less than 1000 is not recommended.\n"
 " Are you sure you want to do this?\n"
 "\n"
 msgstr ""
-"Ekki er mælt með að búa til notanda með notandanúmer (UID) minna en 500.\n"
+"Ekki er mælt með að búa til notanda með notandanúmer (UID) minna en 1000.\n"
 "Ert þú viss um að þú viljir gera þetta?\n"
 "\n"
 
@@ -470,17 +470,17 @@ msgstr "Hópur er þegar til, veldu annað hópnafn"
 
 #: ../userdrake:573
 #, c-format
-msgid " Group Gid is < 500"
-msgstr " Hópnúmer er < 500"
+msgid " Group Gid is < 1000"
+msgstr " Hópnúmer er < 1000"
 
 #: ../userdrake:574
 #, c-format
 msgid ""
-"Creating a group with a GID less than 500 is not recommended.\n"
+"Creating a group with a GID less than 1000 is not recommended.\n"
 " Are you sure you want to do this?\n"
 "\n"
 msgstr ""
-"Ekki er mælt með því að búa til hóp með hópnúmeri (GID) minna en 500.\n"
+"Ekki er mælt með því að búa til hóp með hópnúmeri (GID) minna en 1000.\n"
 " Ert þú viss um að þú viljir gera þetta?\n"
 "\n"
 

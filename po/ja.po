@@ -377,17 +377,17 @@ msgstr ""
 
 #: ../userdrake:434
 #, c-format
-msgid "User Uid is < 500"
-msgstr "ユーザの UID が 500 未満です"
+msgid "User Uid is < 1000"
+msgstr "ユーザの UID が 1000 未満です"
 
 #: ../userdrake:435
 #, c-format
 msgid ""
-"Creating a user with a UID less than 500 is not recommended.\n"
+"Creating a user with a UID less than 1000 is not recommended.\n"
 " Are you sure you want to do this?\n"
 "\n"
 msgstr ""
-"UID が 500 未満のユーザを作成するのはお勧めできません。\n"
+"UID が 1000 未満のユーザを作成するのはお勧めできません。\n"
 "本当に作成しますか？\n"
 "\n"
 
@@ -474,17 +474,17 @@ msgstr "このグループは既に存在します。別のグループ名を選
 
 #: ../userdrake:573
 #, c-format
-msgid " Group Gid is < 500"
-msgstr " グループの GID が 500 未満です"
+msgid " Group Gid is < 1000"
+msgstr " グループの GID が 1000 未満です"
 
 #: ../userdrake:574
 #, c-format
 msgid ""
-"Creating a group with a GID less than 500 is not recommended.\n"
+"Creating a group with a GID less than 1000 is not recommended.\n"
 " Are you sure you want to do this?\n"
 "\n"
 msgstr ""
-"GID が 500 未満のグループを作成するのはお勧めできません。\n"
+"GID が 1000 未満のグループを作成するのはお勧めできません。\n"
 " 本当に作成しますか？\n"
 "\n"
 

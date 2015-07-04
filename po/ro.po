@@ -408,17 +408,17 @@ msgstr ""
 
 #: ../userdrake:434
 #, c-format
-msgid "User Uid is < 500"
-msgstr "Identificatorul utilizatorului este < 500"
+msgid "User Uid is < 1000"
+msgstr "Identificatorul utilizatorului este < 1000"
 
 #: ../userdrake:435
 #, c-format
 msgid ""
-"Creating a user with a UID less than 500 is not recommended.\n"
+"Creating a user with a UID less than 1000 is not recommended.\n"
 " Are you sure you want to do this?\n"
 "\n"
 msgstr ""
-"Nu se recomandă crearea unui utilizator cu un identificator mai mic de 500.\n"
+"Nu se recomandă crearea unui utilizator cu un identificator mai mic de 1000.\n"
 " Chiar doriți acest lucru?\n"
 "\n"
 
@@ -505,17 +505,17 @@ msgstr "Grupul cu acest nume există deja, alegeți un alt nume pentru grup."
 
 #: ../userdrake:573
 #, c-format
-msgid " Group Gid is < 500"
-msgstr " Identificatorul grupului este < 500"
+msgid " Group Gid is < 1000"
+msgstr " Identificatorul grupului este < 1000"
 
 #: ../userdrake:574
 #, c-format
 msgid ""
-"Creating a group with a GID less than 500 is not recommended.\n"
+"Creating a group with a GID less than 1000 is not recommended.\n"
 " Are you sure you want to do this?\n"
 "\n"
 msgstr ""
-"Nu se recomandă crearea unui grup cu un identificator mai mic de 500.\n"
+"Nu se recomandă crearea unui grup cu un identificator mai mic de 1000.\n"
 " Sigur doriți acest lucru?\n"
 "\n"
 

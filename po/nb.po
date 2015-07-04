@@ -370,17 +370,17 @@ msgstr ""
 
 #: ../userdrake:434
 #, c-format
-msgid "User Uid is < 500"
-msgstr "BrukerID er lavere enn 500"
+msgid "User Uid is < 1000"
+msgstr "BrukerID er lavere enn 1000"
 
 #: ../userdrake:435
 #, c-format
 msgid ""
-"Creating a user with a UID less than 500 is not recommended.\n"
+"Creating a user with a UID less than 1000 is not recommended.\n"
 " Are you sure you want to do this?\n"
 "\n"
 msgstr ""
-"Å legge til en bruker med UID (brukerID) lavere enn 500 er ikke anbefalt.\n"
+"Å legge til en bruker med UID (brukerID) lavere enn 1000 er ikke anbefalt.\n"
 " Er du sikker på at du vil gjøre dette?\n"
 "\n"
 
@@ -467,17 +467,17 @@ msgstr "Gruppene finnes allerede, vennligst velg et annet gruppenavn"
 
 #: ../userdrake:573
 #, c-format
-msgid " Group Gid is < 500"
-msgstr "GruppeID er lavere enn 500"
+msgid " Group Gid is < 1000"
+msgstr "GruppeID er lavere enn 1000"
 
 #: ../userdrake:574
 #, c-format
 msgid ""
-"Creating a group with a GID less than 500 is not recommended.\n"
+"Creating a group with a GID less than 1000 is not recommended.\n"
 " Are you sure you want to do this?\n"
 "\n"
 msgstr ""
-"Å lage en gruppe med GID lavere enn 500 er ikke anbefalt.\n"
+"Å lage en gruppe med GID lavere enn 1000 er ikke anbefalt.\n"
 " Er du sikker på at du vil dette?\n"
 "\n"
 

@@ -372,17 +372,17 @@ msgstr ""
 
 #: ../userdrake:434
 #, c-format
-msgid "User Uid is < 500"
-msgstr "ਉਪਭੋਗੀ Uid < 500 ਹੈ"
+msgid "User Uid is < 1000"
+msgstr "ਉਪਭੋਗੀ Uid < 1000 ਹੈ"
 
 #: ../userdrake:435
 #, c-format
 msgid ""
-"Creating a user with a UID less than 500 is not recommended.\n"
+"Creating a user with a UID less than 1000 is not recommended.\n"
 " Are you sure you want to do this?\n"
 "\n"
 msgstr ""
-"UID 500 ਤੋਂ ਘੱਟ ਰੱਖ ਕੇ ਉਪਭੋਗੀ ਬਣਾਉਣਾ ਸਿਫਾਰਸ਼ੀ ਨਹੀਂ ਹੈ।\n"
+"UID 1000 ਤੋਂ ਘੱਟ ਰੱਖ ਕੇ ਉਪਭੋਗੀ ਬਣਾਉਣਾ ਸਿਫਾਰਸ਼ੀ ਨਹੀਂ ਹੈ।\n"
 " ਕਿ ਤੁਸੀ ਇਹ ਕਰਨ ਲਈ ਸਹਿਮਤ ਹੋ?\n"
 "\n"
 
@@ -467,17 +467,17 @@ msgstr "ਗਰੁੱਪ ਪਹਿਲਾਂ ਹੀ ਮੌਜੂਦ ਹੈ, ਕਿ
 
 #: ../userdrake:573
 #, c-format
-msgid " Group Gid is < 500"
-msgstr " ਗਰੁੱਪ Gid < 500 ਹੈ"
+msgid " Group Gid is < 1000"
+msgstr " ਗਰੁੱਪ Gid < 1000 ਹੈ"
 
 #: ../userdrake:574
 #, c-format
 msgid ""
-"Creating a group with a GID less than 500 is not recommended.\n"
+"Creating a group with a GID less than 1000 is not recommended.\n"
 " Are you sure you want to do this?\n"
 "\n"
 msgstr ""
-"GID ਨੂੰ 500 ਤੋਂ ਘੱਟ ਰੱਖਣ ਕੇ ਗਰੁੱਪ ਬਣਾਉਣ ਦੀ ਸਿਫਾਰਸ਼ ਨਹੀਂ ਕੀਤੀ ਜਾਦੀ ਹੈ।\n"
+"GID ਨੂੰ 1000 ਤੋਂ ਘੱਟ ਰੱਖਣ ਕੇ ਗਰੁੱਪ ਬਣਾਉਣ ਦੀ ਸਿਫਾਰਸ਼ ਨਹੀਂ ਕੀਤੀ ਜਾਦੀ ਹੈ।\n"
 " ਕੀ ਤੁਸੀਂ ਏਦਾਂ ਕਰਨ ਲਈ ਸਹਿਮਤ ਹੋ?\n"
 "\n"
 

@@ -370,17 +370,17 @@ msgstr ""
 
 #: ../userdrake:434
 #, c-format
-msgid "User Uid is < 500"
-msgstr "Benutzer-ID ist unter 500"
+msgid "User Uid is < 1000"
+msgstr "Benutzer-ID ist unter 1000"
 
 #: ../userdrake:435
 #, c-format
 msgid ""
-"Creating a user with a UID less than 500 is not recommended.\n"
+"Creating a user with a UID less than 1000 is not recommended.\n"
 " Are you sure you want to do this?\n"
 "\n"
 msgstr ""
-"Das Erstellen von Benutzern mit ID kleiner 500 ist nicht empfehlenswert.\n"
+"Das Erstellen von Benutzern mit ID kleiner 1000 ist nicht empfehlenswert.\n"
 "Wollen Sie das wirklich machen?\n"
 "\n"
 
@@ -467,17 +467,17 @@ msgstr "Gruppe existiert bereits. Bitte einen anderen Namen wählen."
 
 #: ../userdrake:573
 #, c-format
-msgid " Group Gid is < 500"
-msgstr "Gruppen-ID ist unter 500"
+msgid " Group Gid is < 1000"
+msgstr "Gruppen-ID ist unter 1000"
 
 #: ../userdrake:574
 #, c-format
 msgid ""
-"Creating a group with a GID less than 500 is not recommended.\n"
+"Creating a group with a GID less than 1000 is not recommended.\n"
 " Are you sure you want to do this?\n"
 "\n"
 msgstr ""
-"Das Erstellen von Gruppen mit ID kleiner 500 ist nicht empfehlenswert.\n"
+"Das Erstellen von Gruppen mit ID kleiner 1000 ist nicht empfehlenswert.\n"
 "Wollen Sie das wirklich machen?\n"
 "\n"
 
