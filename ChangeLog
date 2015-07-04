@@ -1,6 +1,22 @@
+2015-07-05 01:56:31 +0200 tpg (Tomasz Paweł Gajc) 
+
+	* handle new uid/gid 1000 (HEAD, origin/master, origin/HEAD, master)
+
+2015-04-11 09:29:28 +0200 tpg (Tomasz Paweł Gajc) 
+
+	* add patch from bug https://bugs.mageia.org/show_bug.cgi?id=10310
+
+2014-07-12 14:15:05 +0200 tpg (Tomasz Paweł Gajc) 
+
+	* fix changelog
+
+2014-07-12 14:14:39 +0200 tpg (Tomasz Paweł Gajc) 
+
+	* generated changelog
+
 2014-07-12 14:11:46 +0200 tpg (Tomasz Paweł Gajc) 
 
-	* fix make dist (HEAD, origin/master, origin/HEAD, master)
+	* fix make dist
 
 2014-07-12 14:07:27 +0200 tpg (Tomasz Paweł Gajc) 
 
