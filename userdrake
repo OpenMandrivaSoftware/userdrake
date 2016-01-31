@@ -31,19 +31,18 @@ use transfugdrake;
 use common;
 use run_program;
 use any;
-use mygtk2 qw(gtknew); #- do not import gtkadd which conflicts with ugtk2 version
-use ugtk2 qw(:all);
+use mygtk3 qw(gtknew); #- do not import gtkadd which conflicts with ugtk3 version
+use ugtk3 qw(:all);
 use interactive;
 use POSIX qw(mktime ceil);
 use USER;
 #Only for Debugging 
 #use Devel::Peek;
-use Gtk2::Gdk::Keysyms;
 use utf8;
 use log;
 use Net::DBus;
 
-$ugtk2::wm_icon = "userdrake";
+$ugtk3::wm_icon = "userdrake";
 
 my $conffile = '/etc/sysconfig/userdrake';
 my $secfile = '/etc/sysconfig/msec';
@@ -58,16 +57,16 @@ my $accounts_manager = eval { $accounts_service->get_object(
 my $in = interactive->vnew('su');
 
 my $us = {};
-$us->{VERSION} = '1.14.1';
+$us->{VERSION} = '2.0';
 
-my $window_splash = Gtk2::Window->new('popup');
+my $window_splash = Gtk3::Window->new('popup');
 $window_splash->signal_connect(delete_event => \&QuitGlobal);
 $window_splash->set_title(N("Userdrake") . $us->{VERSION});
 $window_splash->set_position('center_always');
-$window_splash->add(gtkadd(gtkset_shadow_type(Gtk2::Frame->new, 'etched_out'),
-                           gtkpack(Gtk2::VBox->new(0, 0),
+$window_splash->add(gtkadd(gtkset_shadow_type(Gtk3::Frame->new, 'etched_out'),
+                           gtkpack(Gtk3::VBox->new(0, 0),
 				   gtkcreate_img("$pixdir/userdrake.png"),
-                                   Gtk2::Label->new(N("Loading Users and Groups... Please wait"))
+                                   Gtk3::Label->new(N("Loading Users and Groups... Please wait"))
                                    )
                            )
                     );
@@ -86,59 +85,89 @@ my $sysfilter = text2bool($prefs{FILTER});
 
 sub HelpSystem() { run_program::raw({ detach => 1 }, 'drakhelp', '--id', 'userdrake') }
 
-$us->{wnd} = ugtk2->new(N("OpenMandriva Users Management Tool") . " " . $us->{VERSION});
+$us->{wnd} = ugtk3->new(N("OpenMandriva Users Management Tool") . " " . $us->{VERSION});
 $::main_window = $us->{wnd}{real_window};
 gtkset_size_request($us->{wnd}{rwindow}, 660, 460);
 $us->{wnd}{rwindow}->set_position('center') if !$::isEmbedded;
 $us->{wnd}{window}->signal_connect(delete_event => \&QuitGlobal);
-my $utree_model = Gtk2::ListStore->new("Glib::String", "Glib::Int", "Glib::String",
+my $utree_model = Gtk3::ListStore->new("Glib::String", "Glib::Int", "Glib::String",
                                        "Glib::String", "Glib::String", "Glib::String", "Glib::String");
-my $gtree_model = Gtk2::ListStore->new("Glib::String", "Glib::Int", "Glib::String");
+my $gtree_model = Gtk3::ListStore->new("Glib::String", "Glib::Int", "Glib::String");
 my ($usertree, $grouptree);
 $usertree = CreateTree($utree_model); $grouptree = CreateTree($gtree_model);
 # slightly verbatimed from control-center
 
 my %xguest_labels = (
-    to_install => N("/_Install guest account"),
-    installed => N("/_Uninstall guest account"),
+    to_install => N("_Install guest account"),
+    installed => N("_Uninstall guest account"),
 );
 
 my %options = (
-	       'edit' => [ N("/_Actions"), N("/_Edit") ],
-	       'delete' => [ N("/_Actions"), N("/_Delete") ],
-	       'xguest' => [ N("/_Actions"), $xguest_labels{installed} ],
-	       'filter' => [ N("/_Options"), N("/_Filter system users") ]
+              'edit' => N("_Edit"),
+              'delete' => N("_Delete"),
+              'xguest' => $xguest_labels{installed},
+              'filter' => N("_Filter system users")
 	      );
+my %option_paths = (
+	       'edit' => 'Actions_Menu',
+	       'delete' => 'Actions_Menu',
+	       'xguest' => 'Actions_Menu',
+	       'filter' => 'Options_Menu'
+ 	      );
+
 my %buttorcheck;
-my ($menu, $factory) = create_factory_menu(
-    $::isEmbedded ? $::Plug : $us->{wnd}{rwindow},
-    ([ N("/_File"), undef, undef, undef, '<Branch>' ],
-     [ N("/_File") . N("/_Refresh"), undef,
-       sub { Refresh($sysfilter, $stringsearch) },
-       undef, '<Item>' ],
-     [ N("/_File") . N("/_Quit"), N("<control>Q"), \&QuitGlobal, undef, '<Item>' ],
-     [ N("/_Actions"), undef, undef, undef, '<Branch>' ],
-     [ N("/_Actions") . N("/_Add User"), undef, \&AddUser, undef, '<Item>' ],
-     [ N("/_Actions") . N("/Add _Group"), undef, \&AddGroup, undef, '<Item>' ],
-     [ join('', @{$options{edit}}), undef, \&Edit, undef, '<Item>' ],
-     [ join('', @{$options{delete}}), undef, \&Delete, undef, '<Item>' ],
-     [ join('', @{$options{xguest}}), undef, \&Xguest, undef, '<Item>' ],
-     [ N("/_Options"), undef, undef, undef, '<Branch>' ],
-     [ join('', @{$options{filter}}), undef, sub {
-           $sysfilter = $buttorcheck{filter}->get_active;
-           Refresh($sysfilter, $stringsearch);
-       }, undef, '<CheckItem>' ],
-     [ N("/_Help"), undef, undef, undef, '<Branch>' ],
-     [ N("/_Help") . N("/_Help"), undef, sub { HelpSystem() }, undef, '<Item>' ],
-     [ N("/_Help") . N("/_Report Bug"), undef,
-       sub { run_program::raw({ detach => 1 }, 'drakbug', '--report', 'userdrake') },
-       undef, '<Item>' ],
-     [ N("/_Help") . N("/_About..."), undef, \&About, undef, '<Item>' ]
- )
-);
+my $ui = gtknew('UIManager', actions => [
+		    # [name, stock_id, value, label, accelerator, tooltip, callback]
+		    [ 'FileMenu',        undef, N("_File") ],
+		    [ 'Refresh', undef, N("_Refresh"), undef, undef, sub { Refresh($sysfilter, $stringsearch) } ],
+		    [ 'Quit', undef, N("_Quit"), N("<control>Q"), undef, \&QuitGlobal ],
+		    [ 'Actions_Menu',        undef, N("_Actions") ],
+		    [ 'Add_User', undef, N("_Add User"), undef, undef, \&AddUser ],
+		    [ 'Add_Group', undef, N("Add _Group"), undef, undef, \&AddGroup ],
+		    [ 'edit', undef, $options{edit}, undef, undef, \&Edit ],
+		    [ 'delete', undef, $options{delete}, undef, undef, \&Delete ],
+		    [ 'xguest', undef, $options{xguest}, undef, undef, \&Xguest ],
+		    [ 'Options_Menu',        undef, N("_Options") ],
+		    [ 'Help_Menu',        undef, N("_Help") ],
+		    [ 'Help', undef, N("_Help"), undef, undef, sub { HelpSystem() } ],
+		    [ 'Report_Bug', undef, N("_Report Bug"), undef, undef,
+		      sub { run_program::raw({ detach => 1 }, 'drakbug', '--report', 'userdrake') } ],
+		    [ 'About', undef, N("_About..."), undef, undef, \&About ]
+		],
+		toggle_actions => [
+		    [ 'filter', undef, $options{filter}, undef, undef, sub {
+			$sysfilter = $buttorcheck{filter}->get_active;
+			Refresh($sysfilter, $stringsearch);
+		      } ],
+		],
+		string => qq(<ui>
+  <menubar name='MenuBar'>
+    <menu action='FileMenu'>
+      <menuitem action='Refresh'/>
+      <menuitem action='Quit'/>
+    </menu>
+    <menu action='Actions_Menu'>
+      <menuitem action='Add_User'/>
+      <menuitem action='Add_Group'/>
+      <menuitem action='edit'/>
+      <menuitem action='delete'/>
+      <menuitem action='xguest'/>
+    </menu>
+    <menu action='Options_Menu'>
+      <menuitem action='filter'/>
+    </menu>
+    <menu action='Help_Menu'>
+      <menuitem action='Help'/>
+      <menuitem action='Report_Bug'/>
+      <menuitem action='About'/>
+    </menu>
+  </menubar>
+</ui>));
+my $window = $::isEmbedded ? $::Plug : $us->{wnd}{rwindow};
+$window->add_accel_group($ui->get_accel_group);
+
 %buttorcheck = map {
-    $_ => $factory->get_widget("<main>" . join '',
-                               map { s/_//; $_ } @{$options{$_}}) } 
+  $_ => $ui->get_widget(join('/', '/MenuBar', $option_paths{$_}, $_)) } 
   ('edit', 'delete', 'filter', 'xguest');
 
 if (defined $buttorcheck{filter}) {
@@ -147,44 +176,44 @@ if (defined $buttorcheck{filter}) {
     print STDERR "BUG with LANGUAGE $ENV{LANGUAGE}\n";
 }
 
-my $toolb = Gtk2::Toolbar->new;
+my $toolb = Gtk3::Toolbar->new;
 my $filter;
-my $searchBox = gtkpack_(Gtk2::HBox->new(0,5),
-                         1, Gtk2::Label->new(""),
-                         0, Gtk2::Label->new(N("Search:")),
-                         0, gtksignal_connect($filter = Gtk2::Entry->new,
+my $searchBox = gtkpack_(Gtk3::HBox->new(0,5),
+                         1, Gtk3::Label->new(""),
+                         0, Gtk3::Label->new(N("Search:")),
+                         0, gtksignal_connect($filter = Gtk3::Entry->new,
 					      key_press_event => sub {
-                                                  $_[1]->keyval == $Gtk2::Gdk::Keysyms{Return}
+                                                  $_[1]->keyval == Gtk3::Gdk::KEY_Return
                                                     and Refresh($sysfilter, $filter->get_text);
                                               }),
-                         0, my $fbut = Gtk2::Button->new(N("Apply filter")),
+                         0, my $fbut = Gtk3::Button->new(N("Apply filter")),
                         );
-gtkappend_page(my $nb = Gtk2::Notebook->new,
+gtkappend_page(my $nb = Gtk3::Notebook->new,
                gtkpack(create_scrolled_window($usertree)),
-               gtkshow(Gtk2::Label->new(N("Users"))));
+               gtkshow(Gtk3::Label->new(N("Users"))));
 #PO: list of users belonging to that group
 gtkappend_page($nb,
                gtkpack(create_scrolled_window($grouptree)),
-               gtkshow(Gtk2::Label->new(N("Groups"))));
+               gtkshow(Gtk3::Label->new(N("Groups"))));
 $nb->set_show_border(0);
 my @extra_widgets;
 if ($::isEmbedded) {
-	push @extra_widgets, 0, Gtk2::Banner->new("/usr/share/mcc/themes/default/user-mdk.png",
+	push @extra_widgets, 0, Gtk3::Banner->new("/usr/share/mcc/themes/default/user-mdk.png",
 		#-PO: do not translate, this is already translated in mcc
 		N("Users and groups"));
 }	 
-$us->{wnd}{window}->add(gtkpack_(Gtk2::VBox->new(0, 0),
-				 0, $menu,
+$us->{wnd}{window}->add(gtkpack_(Gtk3::VBox->new(0, 0),
+				 0, $ui->get_widget('/MenuBar'),
 				 @extra_widgets,
 				 0, $toolb,
 				 0, $searchBox,
-				 0, Gtk2::HSeparator->new,
+				 0, Gtk3::HSeparator->new,
 				 1, $nb));
 my @ucolsize = (60, 45, 40, 120, 80, 120, 50, -1);
 my @gcolsize = (100, 80, 160, -1);
 each_index {
-    my $col = Gtk2::TreeViewColumn->new_with_attributes($_,
-                                                        Gtk2::CellRendererText->new,
+    my $col = Gtk3::TreeViewColumn->new_with_attributes($_,
+                                                        Gtk3::CellRendererText->new,
                                                         'text' => $::i);
     $col->set_sort_column_id($::i);
     $col->set_min_width($ucolsize[$::i]);
@@ -193,7 +222,7 @@ each_index {
    N("Full Name"), N("Login Shell"), N("Home Directory"), N("Status"));
 
 each_index {
-    my $col = Gtk2::TreeViewColumn->new_with_attributes($_, Gtk2::CellRendererText->new, 'text' => $::i);
+    my $col = Gtk3::TreeViewColumn->new_with_attributes($_, Gtk3::CellRendererText->new, 'text' => $::i);
     $col->set_sort_column_id($::i);
     $col->set_min_width($gcolsize[$::i]);
     $grouptree->append_column($col);
@@ -205,9 +234,10 @@ foreach ([ N("Add User"), N("Add a user to the system"), 'user_add', \&AddUser ]
 	 [ N("Delete"), N("Delete selected row"), 'user_del', \&Delete ],
 	 [ N("Refresh"), N("Refresh the list"), 'refresh',
            sub { Refresh($sysfilter, $stringsearch) } ]) {
-    my $t = $toolb->append_item($_->[0], $_->[1], $_->[2],
-                                Gtk2::Image->new_from_file($pixdir . $_->[2] . '.png'),
-                                $_->[3], $toolb); 
+    my $t = gtknew('ToolButton', label => $_->[0], tooltip => $_->[1], file => $pixdir . $_->[2] . '.png',
+		   clicked => $_->[3]);
+    $toolb->insert($t, -1);
+
     push(@toolbwg, $t);
     #    $toolb->append_space;
 }
@@ -229,7 +259,7 @@ $window_splash->destroy;
 undef $window_splash;
 
 $us->{wnd}->main;
-ugtk2->exit(0);
+ugtk3->exit(0);
 
 sub is_xguest_installed() {
     -e '/etc/security/namespace.d/xguest.conf';
@@ -359,9 +389,9 @@ sub GetFaceIcon {
 	};
 	$user_icon ||= "$::prefix/usr/share/faces/$user.png";
     }
-    gtkpack_(my $hb = Gtk2::HBox->new(0, 2),
-	     0, Gtk2::Label->new(N("Click on the icon to change it") . '    '),
-	     0, my $bt = Gtk2::Button->new
+    gtkpack_(my $hb = Gtk3::HBox->new(0, 2),
+	     0, Gtk3::Label->new(N("Click on the icon to change it") . '    '),
+	     0, my $bt = Gtk3::Button->new
 	    );
     my $set = sub { 
 	my ($icon) = @_;
@@ -371,7 +401,7 @@ sub GetFaceIcon {
 	# so that we do display "no icon" if either file doesn't exist or it's corrupted:
 	undef $us->{o}{icon};
 	$us->{o}{icon} = eval { gtkcreate_img($f) } if -e $f;
-	$us->{o}{icon} ||= Gtk2::Label->new("No Icon");
+	$us->{o}{icon} ||= Gtk3::Label->new("No Icon");
         $bt->add($us->{o}{icon});
 	$us->{o}{icon}->show;
     };
@@ -411,23 +441,23 @@ sub AddUser() {
     my %u; 
     gtkpack_($w->get_child,
 		    0, BuildUui(),
-		    0, Gtk2::HSeparator->new,
-		    0, $us->{o}{createhomedir} = Gtk2::CheckButton->new(N("Create Home Directory")),
-		    0, gtkpack_(my $vv = Gtk2::HBox->new(0, 4),
-				0, Gtk2::Label->new(N("Home Directory: ")),
-				0, $us->{o}{homedir} = Gtk2::Entry->new
+		    0, Gtk3::HSeparator->new,
+		    0, $us->{o}{createhomedir} = Gtk3::CheckButton->new(N("Create Home Directory")),
+		    0, gtkpack_(my $vv = Gtk3::HBox->new(0, 4),
+				0, Gtk3::Label->new(N("Home Directory: ")),
+				0, $us->{o}{homedir} = Gtk3::Entry->new
 			       ),
-		    0, $us->{o}{privategroup} = Gtk2::CheckButton->new(N("Create a private group for the user")),
-		    0, $us->{o}{userid} = Gtk2::CheckButton->new(N("Specify user ID manually")),
-		    0, gtkset_sensitive(my $h = Gtk2::HBox->new(0, 4), 0),
-		    0, Gtk2::HSeparator->new,
+		    0, $us->{o}{privategroup} = Gtk3::CheckButton->new(N("Create a private group for the user")),
+		    0, $us->{o}{userid} = Gtk3::CheckButton->new(N("Specify user ID manually")),
+		    0, gtkset_sensitive(my $h = Gtk3::HBox->new(0, 4), 0),
+		    0, Gtk3::HSeparator->new,
                     0, GetFaceIcon()
     );
     gtkadd($w->get_action_area,
            map {
                my $r = $_->[1];
                gtksignal_connect(
-                   Gtk2::Button->new($_->[0]),
+                   Gtk3::Button->new($_->[0]),
                    clicked => sub {
                        if (!$r) {
                            $u{username} = $us->{o}{login}->get_text; $error = 0;
@@ -516,9 +546,9 @@ sub AddUser() {
             $fullname or $us->{o}{fullname}->set_text($us->{o}{login}->get_text);
             0;       # Gdk expect focus event handlers to return false
         });
-    $us->{o}{uid} = Gtk2::SpinButton->new(Gtk2::Adjustment->new(500, 1, 65000, 1, 10, 10), 1, 0);
+    $us->{o}{uid} = Gtk3::SpinButton->new(Gtk3::Adjustment->new(500, 1, 65000, 1, 10, 10), 1, 0);
     $h->pack_end($us->{o}{uid}, 0, 0, 4);
-    $h->pack_end(Gtk2::Label->new(N("UID: ")), 0, 0, 4);
+    $h->pack_end(Gtk3::Label->new(N("UID: ")), 0, 0, 4);
     GrayBox($us->{o}{userid}, $h, 0);					
     $w->show_all;
 }
@@ -537,26 +567,26 @@ sub ChooseGroup() {
                          (N("Add to the existing group"),
                           N("Add to the 'users' group")));
     gtkadd($w->get_child,
-           Gtk2::Label->new(N("A group with this name already exists.  What would you like to do?")),
-           gtkpack(Gtk2::VBox->new(0,0), @radio),
+           Gtk3::Label->new(N("A group with this name already exists.  What would you like to do?")),
+           gtkpack(Gtk3::VBox->new(0,0), @radio),
        );
     gtkadd($w->get_action_area,
            gtksignal_connect(
-               Gtk2::Button->new(N("Ok")), 
+               Gtk3::Button->new(N("Ok")), 
                clicked => sub {
                    each_index { $_->get_active and $choice = $::i } @radio;
                    $w->destroy;
-                   Gtk2->main_quit;
+                   Gtk3->main_quit;
                }), 
            gtksignal_connect(
-               Gtk2::Button->new(N("Cancel")),
+               Gtk3::Button->new(N("Cancel")),
                clicked => sub {
                    $error = 1;
                    $w->destroy;
-                   Gtk2->main_quit;
+                   Gtk3->main_quit;
                }));
     $w->show_all;
-    Gtk2->main;
+    Gtk3->main;
     $choice;
 }		 
 sub GimmeChoice {
@@ -571,15 +601,15 @@ sub AddGroup() {
     my $mode = 0; my %g; my $is_system = 0;
     gtkpack_($w->get_child,
 		    0, BuildGui(),
-		    0, Gtk2::HSeparator->new,
-		    0, $us->{o}{groupid} = Gtk2::CheckButton->new(N("Specify group ID manually")),
-		    0, gtkset_sensitive(my $h = Gtk2::HBox->new(0, 4), 0),
+		    0, Gtk3::HSeparator->new,
+		    0, $us->{o}{groupid} = Gtk3::CheckButton->new(N("Specify group ID manually")),
+		    0, gtkset_sensitive(my $h = Gtk3::HBox->new(0, 4), 0),
              );
     gtkadd($w->get_action_area,
            map {
                my $r = $_->[1];
                gtksignal_connect(
-                   Gtk2::Button->new($_->[0]),
+                   Gtk3::Button->new($_->[0]),
                    clicked => sub {
                        if (!$r) {
                            $g{groupname} = $us->{o}{groupname}->get_text; $error = 0;
@@ -610,9 +640,9 @@ sub AddGroup() {
                        !$error and $w->destroy; $error = 0 });
            } ([ N("Cancel"), 1 ], [ N("Ok"), 0 ])
        );
-    $us->{o}{gid} = Gtk2::SpinButton->new(Gtk2::Adjustment->new(500, 1, 65000, 1, 10, 10), 1, 0);
+    $us->{o}{gid} = Gtk3::SpinButton->new(Gtk3::Adjustment->new(500, 1, 65000, 1, 10, 10), 1, 0);
     $h->pack_end($us->{o}{gid}, 0, 0, 4);
-    $h->pack_end(Gtk2::Label->new(N("GID: ")), 0, 0, 4);
+    $h->pack_end(Gtk3::Label->new(N("GID: ")), 0, 0, 4);
     $us->{o}{groupid}->signal_connect('clicked' => sub { $mode = !$mode; $h->set_sensitive($mode) });
     $w->show_all;
 }
@@ -660,16 +690,16 @@ sub UserDelete() {
     my $w = NewWindow(N("Delete files or not?"));
     my $hd = $userEnt->HomeDir($GetValue);
     gtkpack_($w->get_child,
-             0, Gtk2::Label->new(N("Deleting user %s\n Also perform the following actions\n",
+             0, Gtk3::Label->new(N("Deleting user %s\n Also perform the following actions\n",
                                    $username)),
-             0, $checkhome = Gtk2::CheckButton->new(N("Delete Home Directory: %s", $hd)),
-             0, $checkspool = Gtk2::CheckButton->new(N("Delete Mailbox: /var/spool/mail/%s",
+             0, $checkhome = Gtk3::CheckButton->new(N("Delete Home Directory: %s", $hd)),
+             0, $checkspool = Gtk3::CheckButton->new(N("Delete Mailbox: /var/spool/mail/%s",
                                                        $username)),
          );
     gtkadd($w->get_action_area,
            map {
                my $r = $_->[1];
-               gtksignal_connect(Gtk2::Button->new($_->[0]), clicked =>
+               gtksignal_connect(Gtk3::Button->new($_->[0]), clicked =>
                    sub {
                        if (!$r) {
                            log::explanations(N("Removing user: %s", $username));
@@ -705,12 +735,12 @@ sub GroupDelete() {
     my $groupname =  GetNameEntFromIter($grouptree, $gtree_model, 0);
     my $wg = NewWindow(translate("Warning"));
     gtkadd($wg->get_child,
-           Gtk2::Label->new(N("Do you really want to delete the group %s?", $groupname)),
+           Gtk3::Label->new(N("Do you really want to delete the group %s?", $groupname)),
        );
     gtkadd($wg->get_action_area,
            map {
                my $r = $_->[1];
-               gtksignal_connect(Gtk2::Button->new($_->[0]), clicked =>
+               gtksignal_connect(Gtk3::Button->new($_->[0]), clicked =>
                    sub {
                        if (!$r) {
                            my $groupEnt = $ctx->LookupGroupByName($groupname);
@@ -749,7 +779,7 @@ sub Delete() {
 # Gtk Facilities
 sub CreateTree {
     my ($tree_model) = @_;
-    my $tree = Gtk2::TreeView->new_with_model($tree_model);
+    my $tree = Gtk3::TreeView->new_with_model($tree_model);
     $tree->get_selection->set_mode('browse');
     $tree->set_headers_visible(1);
     $tree->set_rules_hint(1);
@@ -759,7 +789,7 @@ sub CreateTree {
                 $_->set_sensitive(1);
             }
         });
-    my $menu_treeview = Gtk2::Menu->new;
+    my $menu_treeview = Gtk3::Menu->new;
     my @menu_treeview_actions = ([ 'edit', N("Edit") ], [ 'delete', N("Delete") ]);
     foreach (@menu_treeview_actions) {
         my ($action, $text) = @$_;
@@ -775,7 +805,7 @@ sub CreateTree {
         );
         $menu_treeview->append(
             gtksignal_connect(
-                gtkshow(Gtk2::MenuItem->new_with_label($text)),
+                gtkshow(Gtk3::MenuItem->new_with_label($text)),
                 activate => sub { $actions{$action}->() }));
     }
     $tree->signal_connect(
@@ -795,7 +825,7 @@ sub CreateTree {
             my (undef, $event) = @_;
             my (undef, $iter) = $tree->get_selection->get_selected;
             return unless $iter;
-            Edit() if $event->keyval == $Gtk2::Gdk::Keysyms{Return};
+            Edit() if $event->keyval == Gtk3::Gdk::KEY_Return;
         });
     $tree;
 }
@@ -810,25 +840,25 @@ sub GtkEntryHidePass {
 
 sub GtkEntrySized {
     my ($i, $spac) = @_;
-    my $e = Gtk2::Entry->new_with_max_length($i);
+    my $e = Gtk3::Entry->new_with_max_length($i);
     $e->set_size_request($spac, 20);
     $e;
 }
 
 sub BuildUui {
     my ($o_extra_widget) = @_;
-    gtkpack_(my $vbox = Gtk2::VBox->new(0, 2),
+    gtkpack_(my $vbox = Gtk3::VBox->new(0, 2),
 	     1, create_packtable({ homogeneous => 1, col_spacings => 5, row_spacings => 5 },
 				 [ gtknew('Label_Left', text => N("Full Name:")),
-                                   $us->{o}{fullname} = Gtk2::Entry->new ],
+                                   $us->{o}{fullname} = Gtk3::Entry->new ],
 				 [ gtknew('Label_Left', text => N("Login:")),
-                                   $us->{o}{login} = Gtk2::Entry->new ],
+                                   $us->{o}{login} = Gtk3::Entry->new ],
 				 [ gtknew('Label_Left', text => N("Password:")),
                                    $us->{o}{passwd} = GtkEntryHidePass() ],
 				 [ gtknew('Label_Left', text => N("Confirm Password:")),
                                    $us->{o}{confpasswd} = GtkEntryHidePass() ],
 				 [ gtknew('Label_Left', text => N("Login Shell:")),
-                                   $us->{o}{shells} = Gtk2::Combo->new ],
+                                   $us->{o}{shells} = Gtk3::ComboBoxText->new ],
 				 $o_extra_widget,
 				)
 	    );
@@ -838,9 +868,9 @@ sub BuildUui {
 }
 
 sub BuildGui() {
-    gtkpack_(my $vbox = Gtk2::VBox->new(0, 2),
+    gtkpack_(my $vbox = Gtk3::VBox->new(0, 2),
 	     1, create_packtable({ homogeneous => 1, col_spacings => 5, row_spacings =>5 },
-				 [ N("Group Name:"), $us->{o}{groupname} = Gtk2::Entry->new ]
+				 [ N("Group Name:"), $us->{o}{groupname} = Gtk3::Entry->new ]
 				)
 	    );
     $vbox;
@@ -1008,61 +1038,61 @@ sub UserEdit_widget {
     my $valm = $mo+1;
     gtkappend_page($nbU,
                    BuildUui([ gtknew('Label_Left', text => N("Home:")),
-                              $us->{o}{homedir} = Gtk2::Entry->new ]),
-                   gtkshow(Gtk2::Label->new(N("User Data"))));
+                              $us->{o}{homedir} = Gtk3::Entry->new ]),
+                   gtkshow(Gtk3::Label->new(N("User Data"))));
     gtkappend_page(
         $nbU, 
-        gtkpack_(Gtk2::VBox->new(0, 2),
-                 0, $us->{o}{acheckexpire} = Gtk2::CheckButton->new(N("Enable account expiration")),
-                 0, gtkpack__(my $h = Gtk2::HBox->new(0, 10),
-                              Gtk2::Label->new(N("Account expires (YYYY-MM-DD):")), 
+        gtkpack_(Gtk3::VBox->new(0, 2),
+                 0, $us->{o}{acheckexpire} = Gtk3::CheckButton->new(N("Enable account expiration")),
+                 0, gtkpack__(my $h = Gtk3::HBox->new(0, 10),
+                              Gtk3::Label->new(N("Account expires (YYYY-MM-DD):")), 
                               map { my ($s, $value, $minv, $maxv) = @$_; #my $spc = $_->[4];
-                                    $us->{o}{$s} = Gtk2::SpinButton->new(Gtk2::Adjustment->new($value, $minv , $maxv, 1, 10, 10), 1, 0);
+                                    $us->{o}{$s} = Gtk3::SpinButton->new(Gtk3::Adjustment->new($value, $minv , $maxv, 1, 10, 10), 1, 0);
                                 } (['expy', $valy, 1970, 10000],
                                    ['expm', $valm, 1, 12],
                                    ['expd', $vald, 1, 31]),
                           ),
-                 0, Gtk2::HSeparator->new,
-                 0, $us->{o}{lockuser} = Gtk2::CheckButton->new(N("Lock User Account")),
-                 0, Gtk2::HSeparator->new,
+                 0, Gtk3::HSeparator->new,
+                 0, $us->{o}{lockuser} = Gtk3::CheckButton->new(N("Lock User Account")),
+                 0, Gtk3::HSeparator->new,
                  0, GetFaceIcon(GetNameEntFromIter($usertree, $utree_model,0))
-             ), gtkshow(Gtk2::Label->new(N("Account Info"))));
+             ), gtkshow(Gtk3::Label->new(N("Account Info"))));
     GrayBox($us->{o}{acheckexpire}, $h, 0);
     gtkappend_page($nbU,
-                   gtkpack_(Gtk2::VBox->new(0, 2),
-                            0, gtkpack_(Gtk2::HBox->new(0,5),
-                                        0, Gtk2::Label->new(N("User last changed password on: ")),
-                                        0, my $dayStr = Gtk2::Label->new(""),
-                                        0, my $month = Gtk2::Label->new(""),
-                                        0, my $dayInt = Gtk2::Label->new(""),
-                                        0, my $year = Gtk2::Label->new("")
+                   gtkpack_(Gtk3::VBox->new(0, 2),
+                            0, gtkpack_(Gtk3::HBox->new(0,5),
+                                        0, Gtk3::Label->new(N("User last changed password on: ")),
+                                        0, my $dayStr = Gtk3::Label->new(""),
+                                        0, my $month = Gtk3::Label->new(""),
+                                        0, my $dayInt = Gtk3::Label->new(""),
+                                        0, my $year = Gtk3::Label->new("")
                                     ),
-                            0, Gtk2::HSeparator->new,
-                            0, $us->{o}{pcheckexpire} = Gtk2::CheckButton->new(N("Enable Password Expiration")),
+                            0, Gtk3::HSeparator->new,
+                            0, $us->{o}{pcheckexpire} = Gtk3::CheckButton->new(N("Enable Password Expiration")),
                             1, gtkpack_(
-                                my $v = Gtk2::VBox->new(0,1),
+                                my $v = Gtk3::VBox->new(0,1),
                                 1, create_packtable(
                                     { homogeneous => 1, col_spacings => 5, row_spacings => 5 },
                                     [ N("Days before change allowed:"),
-                                      $us->{o}{dbca} = Gtk2::Entry->new_with_text(0) ],
+                                      $us->{o}{dbca} = Gtk3::Entry->new_with_text(0) ],
                                     [ N("Days before change required:"),
-                                      $us->{o}{dbcr} = Gtk2::Entry->new_with_text(0) ],
+                                      $us->{o}{dbcr} = Gtk3::Entry->new_with_text(0) ],
                                     [ N("Days warning before change:"),
-                                      $us->{o}{bwbc} = Gtk2::Entry->new_with_text(0) ],
+                                      $us->{o}{bwbc} = Gtk3::Entry->new_with_text(0) ],
                                     [ N("Days before account inactive:"),
-                                      $us->{o}{dbai} = Gtk2::Entry->new_with_text(0) ]
+                                      $us->{o}{dbai} = Gtk3::Entry->new_with_text(0) ]
                                 )
-                            )), gtkshow(Gtk2::Label->new(N("Password Info"))));
+                            )), gtkshow(Gtk3::Label->new(N("Password Info"))));
     GrayBox($us->{o}{pcheckexpire}, $v, 0);
     gtkappend_page($nbU,
-                   gtkpack_(Gtk2::VBox->new(0, 2),
-                            0, Gtk2::Label->new(N("Select the groups that the user will be a member of:")),
+                   gtkpack_(Gtk3::VBox->new(0, 2),
+                            0, Gtk3::Label->new(N("Select the groups that the user will be a member of:")),
                             1, create_scrolled_window($tree),
-                            0, gtkpack_(Gtk2::HBox->new(0, 1),
-                                        0, Gtk2::Label->new(N("Primary Group")),
-                                        1, $us->{o}{primgroup} = Gtk2::OptionMenu->new,
+                            0, gtkpack_(Gtk3::HBox->new(0, 1),
+                                        0, Gtk3::Label->new(N("Primary Group")),
+                                        1, $us->{o}{primgroup} = Gtk3::ComboBoxText->new,
                                     )
-                        ), gtkshow(Gtk2::Label->new(N("Groups"))));
+                        ), gtkshow(Gtk3::Label->new(N("Groups"))));
     my $username = GetNameEntFromIter($usertree, $utree_model,0);
     $us->{o}{login}->set_text($username);
     my $userEnt = $ctx->LookupUserByName($username); FillUserInfo($userEnt);
@@ -1121,14 +1151,14 @@ sub GroupEdit_widget {
     my ($nbG, $tree, $model, $groupname) = @_;
     $nbG->set_size_request(300, 200);
     gtkappend_page($nbG,
-                   gtkpack_(Gtk2::VBox->new(0, 2),
+                   gtkpack_(Gtk3::VBox->new(0, 2),
                             1, BuildGui()),
-                   gtkshow(Gtk2::Label->new(N("Group Data"))));
+                   gtkshow(Gtk3::Label->new(N("Group Data"))));
     gtkappend_page($nbG,
-                   gtkpack_(Gtk2::VBox->new(0, 1),
-                            0,  Gtk2::Label->new(N("Select the users to join this group:")),
+                   gtkpack_(Gtk3::VBox->new(0, 1),
+                            0,  Gtk3::Label->new(N("Select the users to join this group:")),
                             1, create_scrolled_window($tree)),
-                   gtkshow(Gtk2::Label->new(N("Group Users")))); 
+                   gtkshow(Gtk3::Label->new(N("Group Users")))); 
     $groupname = GetNameEntFromIter($grouptree, $gtree_model, 0);
     $us->{o}{groupname}->set_text($groupname);
     # Don't allow change on group name since there is a bug in lu_user_modify group
@@ -1149,21 +1179,21 @@ sub GroupEdit_widget {
 
 sub Edit() {
     my $w = NewWindow(N("Edit Groups / Users"));
-    my $model = Gtk2::ListStore->new("Gtk2::Gdk::Pixbuf", "Glib::String", "Glib::Int");
-    my $tree = Gtk2::TreeView->new_with_model($model);
+    my $model = Gtk3::ListStore->new("Gtk3::Gdk::Pixbuf", "Glib::String", "Glib::Int");
+    my $tree = Gtk3::TreeView->new_with_model($model);
     my ($groupname, $groupEnt, $userEnt, $primgid, $Gent);
     my @primgroup;
     $tree->get_selection->set_mode('browse');
-    my $check = Gtk2::TreeViewColumn->new_with_attributes(undef, Gtk2::CellRendererPixbuf->new,
+    my $check = Gtk3::TreeViewColumn->new_with_attributes("", Gtk3::CellRendererPixbuf->new,
                                                           'pixbuf' => 0);
     $tree->append_column($check);
     $check->{is_pixbuf_column} = 1;
-    $tree->append_column(Gtk2::TreeViewColumn->new_with_attributes(undef, Gtk2::CellRendererText->new,
+    $tree->append_column(Gtk3::TreeViewColumn->new_with_attributes("", Gtk3::CellRendererText->new,
                                                                    'text' => 1));
     $tree->set_headers_visible(0);
     my $p = $nb->get_current_page;
-    my $nbU = Gtk2::Notebook->new;
-    my $nbG = Gtk2::Notebook->new;
+    my $nbU = Gtk3::Notebook->new;
+    my $nbG = Gtk3::Notebook->new;
     if ($p <= 0) {
         ($userEnt, $primgid, @primgroup) = UserEdit_widget($nbU, $tree, $model, $Gent);
     } elsif ($p == 1) {
@@ -1175,7 +1205,7 @@ sub Edit() {
            map {
                my $retv = $_->[1];
                gtksignal_connect(
-                   Gtk2::Button->new($_->[0]), clicked => sub {
+                   Gtk3::Button->new($_->[0]), clicked => sub {
                        if (!$retv) {
                            if ($p <= 0) {
                                eval { UserEdit_valid($userEnt, $model, $primgid) };
@@ -1194,6 +1224,7 @@ sub Edit() {
     $w->show_all;
     $tree->signal_connect(
         button_press_event => sub {
+            return if $_[1] =~ /Gtk3::Gdk::Event=/;
             my ($path, $column) = $tree->get_path_at_pos($_[1]->x, $_[1]->y);
             if ($path && $column) {
                 if ($column->{is_pixbuf_column}) {
@@ -1209,8 +1240,9 @@ sub Edit() {
                             } else {
                                 InArray($item, \@primgroup) and  @primgroup = RemoveFromArray($item, \@primgroup);
                             }
+                            my $old = $us->{o}{primgroup}->entry->get_text;
                             $us->{o}{primgroup}->set_popdown_strings(@primgroup);
-                            $Gent and $us->{o}{primgroup}->entry->set_text($Gent->GroupName($GetValue));
+                            $us->{o}{primgroup}->entry->set_text($old);
                         }
                     }
                 } 
@@ -1232,8 +1264,9 @@ sub Edit() {
                     } else {
                         InArray($item, \@primgroup) and  @primgroup = RemoveFromArray($item, \@primgroup);
                     }
+                    my $old = $us->{o}{primgroup}->entry->get_text;
                     $us->{o}{primgroup}->set_popdown_strings(@primgroup);
-                    $Gent and $us->{o}{primgroup}->entry->set_text($Gent->GroupName($GetValue));
+                    $us->{o}{primgroup}->entry->set_text($old);
                 }
             }
             0;
@@ -1289,7 +1322,7 @@ sub NewDialog {
         _create_dialog($title, { transient_for => $us->{wnd}{real_window} }),
         5);
     $dialog->get_action_area->pack_start(
-        gtksignal_connect(Gtk2::Button->new(N("Close")), clicked => sub { $dialog->destroy }),
+        gtksignal_connect(Gtk3::Button->new(N("Close")), clicked => sub { $dialog->destroy }),
         0,0,0);
     $dialog;
 }
@@ -1305,9 +1338,7 @@ sub About() {
                    comments => N("Users Management"),
                    website => 'http://www.openmandriva.org',
                    website_label => N("OpenMandriva"),
-                   authors => 'Daouda Lo
-Thierry Vignaud <tvignaud@mandriva.com>',
-                   artists => 'Hélène Durosini <ln@mandriva.com>',
+                   authors => [ 'Daouda Lo', 'Thierry Vignaud <tvignaud@gmail.com>' ],
                    translator_credits =>
                      #-PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
                      N("_: Translator(s) name(s) & email(s)\n"),
@@ -1337,9 +1368,9 @@ sub valid_groupname {
 sub RaiseError {
     my $w = NewWindow(N("Error"));
     $error = 1;
-    gtkpack($w->get_child, Gtk2::Label->new($_[0]));
+    gtkpack($w->get_child, Gtk3::Label->new($_[0]));
     gtkadd($w->get_action_area,
-           gtksignal_connect(Gtk2::Button->new(N("Ok")),
+           gtksignal_connect(Gtk3::Button->new(N("Ok")),
                              clicked => sub { $w->destroy })
 	  );
     $w->show_all;
@@ -1349,5 +1380,5 @@ sub QuitGlobal() {
     setVarsInSh($conffile, {
        FILTER => bool2text($sysfilter),
     });
-    Gtk2->main_quit;
+    Gtk3->main_quit;
 }
