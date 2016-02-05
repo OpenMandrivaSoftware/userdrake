@@ -48,7 +48,7 @@ msgstr "Der Benutzer konnte nicht verändert werden: „%s“.\n"
 #: ../USER/USER.xs:185
 #, c-format
 msgid "User Could Not be deleted: '%s'.\n"
-msgstr "Der Benutzer konnte nicht gelöscht werden: „%s“.\n"
+msgstr "Benutzer konnte nicht gelöscht werden: „%s“.\n"
 
 #: ../USER/USER.xs:211
 #, c-format
@@ -66,7 +66,7 @@ msgstr "Anlegen der Gruppe fehlgeschlagen.\n"
 #: ../USER/USER.xs:288
 #, c-format
 msgid "Group could not be modified: '%s'.\n"
-msgstr "Die Gruppe konnte nicht verändert werden: „%s“.\n"
+msgstr "Die Gruppe konnte nicht modifiziert werden: „%s“.\n"
 
 #: ../USER/USER.xs:298
 #, c-format
@@ -277,7 +277,7 @@ msgstr "Gruppe hinzufügen"
 #: ../userdrake:197
 #, c-format
 msgid "Add a group to the system"
-msgstr "Gruppe zum System hinzufügen"
+msgstr "Eine Gruppe zum System hinzufügen"
 
 #: ../userdrake:198 ../userdrake:739
 #, c-format
@@ -322,7 +322,7 @@ msgstr "Abgelaufen"
 #: ../userdrake:339
 #, c-format
 msgid "Click on the icon to change it"
-msgstr "Klicken Sie auf das Symbol, um es zu ändern."
+msgstr "Klicken Sie auf das Symbol um es zu ändern."
 
 #: ../userdrake:385
 #, c-format
@@ -352,7 +352,7 @@ msgstr "Benutzer-ID manuell angeben"
 #: ../userdrake:414
 #, c-format
 msgid "User already exists, please choose another User Name"
-msgstr "Benutzer existiert bereits. Bitte einen anderen Namen wählen."
+msgstr "Benutzer existiert bereits. Bitte einen anderen Benutzernamen wählen."
 
 #: ../userdrake:419 ../userdrake:859
 #, c-format
@@ -410,7 +410,7 @@ msgid ""
 "Do you want to run the migration wizard in order to import Windows documents "
 "and settings in your OpenMandriva distribution?"
 msgstr ""
-"Wollen Sie den Migrations-Assistenten für den Import von Windows-Dokumenten "
+"Möchten Sie den Migrations-Assistenten für den Import von Windows-Dokumenten "
 "und -Einstellungen starten?"
 
 #: ../userdrake:484 ../userdrake:528 ../userdrake:587 ../userdrake:674
@@ -423,7 +423,7 @@ msgstr "Abbrechen"
 #: ../userdrake:1318
 #, c-format
 msgid "Ok"
-msgstr "OK"
+msgstr "Ok"
 
 #: ../userdrake:497
 #, c-format
@@ -448,7 +448,7 @@ msgstr "In die Gruppe „users“ aufnehmen"
 #: ../userdrake:516
 #, c-format
 msgid "A group with this name already exists.  What would you like to do?"
-msgstr "Eine Gruppe dieses Namens existiert bereits. Was wollen Sie tun?"
+msgstr "Eine Gruppe dieses Namens existiert bereits. Was möchten Sie tun?"
 
 #: ../userdrake:546
 #, c-format
@@ -646,12 +646,12 @@ msgstr "Tage vor nächster erzwungener Änderung:"
 #: ../userdrake:1026
 #, c-format
 msgid "Days warning before change:"
-msgstr "Anzahl Tage vor Änderung ab deren gewarnt wird:"
+msgstr "Anzahl der Tage ab denen vor einer Änderung gewarnt wird:"
 
 #: ../userdrake:1028
 #, c-format
 msgid "Days before account inactive:"
-msgstr "Tage bevor Kennzeichen gesperrt wird:"
+msgstr "Tage bevor Konto inaktiv wird:"
 
 #: ../userdrake:1031
 #, c-format
@@ -718,6 +718,7 @@ msgstr "OpenMandriva"
 #, c-format
 msgid "_: Translator(s) name(s) & email(s)\n"
 msgstr ""
+"Maik Wagner <maiktapwagner@aol.com>\n"
 "Nicolas Bauer <rastafarii@mandrivauser.de>\n"
 "Sebastian Deutscher <sebastian.deutscher@web.de>\n"
 "Oliver Burger <oliver.bgr@googlemail.com>\n"
