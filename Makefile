@@ -6,12 +6,11 @@ BINNAME = userdrake
 PREFIX = /
 DATADIR = $(PREFIX)/usr/share
 ICONSDIR = $(DATADIR)/icons
-SBINDIR = $(PREFIX)/usr/sbin
+LIBEXECDIR = $(PREFIX)/usr/libexec
 BINDIR = $(PREFIX)/usr/bin
 SYSCONFDIR = $(PREFIX)/etc/sysconfig
-SBINREL = ../sbin
 
-SUBDIRS = po
+SUBDIRS = po polkit
 localedir = $(prefix)/usr/share/locale
 
 all: userdrake
@@ -25,9 +24,8 @@ clean:
 install: all
 	$(MAKE) -C po $@
 	install -d $(PREFIX)/{/etc/sysconfig,usr/{bin,sbin,share/$(NAME)/pixmaps,share/icons/{mini,large}}}
-	install -m755 $(NAME) $(SBINDIR)/
-	ln -sf $(SBINREL)/userdrake $(BINDIR)/userdrake
-	ln -sf $(SBINREL)/userdrake $(SBINDIR)/drakuser
+	install -m755 $(NAME) $(LIBEXECDIR)/drakuser
+	ln -sf drakuser $(BINDIR)/$(NAME)
 	install -d $(SYSCONFDIR)
 	install -m644 userdrake.prefs $(SYSCONFDIR)/userdrake
 	install -m644 pixmaps/*.png $(DATADIR)/$(NAME)/pixmaps
