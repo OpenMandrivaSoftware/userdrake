@@ -23,7 +23,7 @@ clean:
 
 install: all
 	$(MAKE) -C po $@
-	install -d $(PREFIX)/{/etc/sysconfig,usr/{bin,sbin,share/$(NAME)/pixmaps,share/icons/{mini,large}}}
+	install -d $(PREFIX)/{/etc/sysconfig,usr/{bin,libexec,share/$(NAME)/pixmaps,share/icons/{mini,large}}}
 	install -m755 $(NAME) $(LIBEXECDIR)/drakuser
 	ln -sf drakuser $(BINDIR)/$(NAME)
 	install -d $(SYSCONFDIR)
