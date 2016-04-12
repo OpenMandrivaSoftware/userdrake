@@ -373,21 +373,31 @@ sub GetFaceIcon {
     my $current_icon;
     my $user_icon;
     if ($user) {
-	eval {
-	my $accounts_user_path = $accounts_manager->FindUserByName($user);
-	# service doens't provide Get methods; we need to use different
-	# interface to read properties    
-	my $accounts_user_get = $accounts_service->get_object(
+       my %desktop = getVarsFromSh("$::prefix/etc/sysconfig/desktop");
+       if ($desktop{DESKTOP} eq 'GNOME') {
+	  eval {
+	  my $accounts_user_path = $accounts_manager->FindUserByName($user);
+	  # service doens't provide Get methods; we need to use different
+	  # interface to read properties    
+	  my $accounts_user_get = $accounts_service->get_object(
 		$accounts_user_path,
 		"org.freedesktop.DBus.Properties");
-	my $accounts_user_set = $accounts_service->get_object(
+	  my $accounts_user_set = $accounts_service->get_object(
 		$accounts_user_path,
 		"org.freedesktop.Accounts.User");
-	$user_icon = $accounts_user_get->Get(
+	  $user_icon = $accounts_user_get->Get(
 	    "org.freedesktop.Accounts.User",
 	    "IconFile");
-	};
-	$user_icon ||= "$::prefix/usr/share/faces/$user.png";
+	  };
+        }
+        else {
+           my $local_icon = "$::prefix/home/$user/.face.icon";
+
+	   if (-e $local_icon) {
+	      $user_icon = $local_icon;
+	   }
+           $user_icon ||= "$::prefix/usr/share/faces/$user.face.icon";
+        }
     }
     gtkpack_(my $hb = Gtk3::HBox->new(0, 2),
 	     0, Gtk3::Label->new(N("Click on the icon to change it") . '    '),
@@ -526,7 +536,8 @@ sub AddUser() {
                                $ctx->UserAdd($userEnt, $is_system, $dontcreatehomedir);
                                $ctx->UserSetPass($userEnt, $u{passwd});
                                defined $us->{o}{iconval} and
-                                 any::addKdmIcon($u{username}, $us->{o}{iconval});
+                                 any::addSddmIcon($u{username}, $us->{o}{iconval}) and
+				 any::addUserFaceIcon($u{username}, $us->{o}{iconval});
                                Refresh($sysfilter, $stringsearch);
                                transfugdrake::get_windows_disk()
                                    and $in->ask_yesorno(N("Migration wizard"),
@@ -981,7 +992,7 @@ sub UserEdit_valid {
             if ($us->{o}{lockuser}->get_active) {
                 !$ctx->IsLocked($userEnt) and $ctx->Lock($userEnt);
             } else { $ctx->IsLocked($userEnt) and $ctx->UnLock($userEnt) } 
-            defined $us->{o}{iconval} and any::addKdmIcon($u{username}, $us->{o}{iconval});
+            defined $us->{o}{iconval} and any::addSddmIcon($u{username}, $us->{o}{iconval}) and any::addUserFaceIcon($u{username}, $us->{o}{iconval});
             !$error and Refresh($sysfilter, $stringsearch);
         }
     }
