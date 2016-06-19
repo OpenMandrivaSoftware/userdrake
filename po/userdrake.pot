@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-02-07 02:25+0000\n"
+"POT-Creation-Date: 2016-06-19 16:48+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -87,7 +87,7 @@ msgstr ""
 msgid "Error deleting mail spool: %s\n"
 msgstr ""
 
-#: ../userdrake:64 ../userdrake:1333
+#: ../userdrake:64 ../userdrake:1344
 #, c-format
 msgid "Userdrake"
 msgstr ""
@@ -197,7 +197,7 @@ msgstr ""
 msgid "Users"
 msgstr ""
 
-#: ../userdrake:197 ../userdrake:1095
+#: ../userdrake:197 ../userdrake:1106
 #, c-format
 msgid "Groups"
 msgstr ""
@@ -218,7 +218,7 @@ msgstr ""
 msgid "User ID"
 msgstr ""
 
-#: ../userdrake:221 ../userdrake:1092
+#: ../userdrake:221 ../userdrake:1103
 #, c-format
 msgid "Primary Group"
 msgstr ""
@@ -278,7 +278,7 @@ msgstr ""
 msgid "Add a group to the system"
 msgstr ""
 
-#: ../userdrake:233 ../userdrake:793
+#: ../userdrake:233 ../userdrake:804
 #, c-format
 msgid "Edit"
 msgstr ""
@@ -288,7 +288,7 @@ msgstr ""
 msgid "Edit selected row"
 msgstr ""
 
-#: ../userdrake:234 ../userdrake:728 ../userdrake:761 ../userdrake:793
+#: ../userdrake:234 ../userdrake:739 ../userdrake:772 ../userdrake:804
 #, c-format
 msgid "Delete"
 msgstr ""
@@ -318,59 +318,59 @@ msgstr ""
 msgid "Expired"
 msgstr ""
 
-#: ../userdrake:393
+#: ../userdrake:403
 #, c-format
 msgid "Click on the icon to change it"
 msgstr ""
 
-#: ../userdrake:439
+#: ../userdrake:449
 #, c-format
 msgid "Create New User"
 msgstr ""
 
-#: ../userdrake:445
+#: ../userdrake:455
 #, c-format
 msgid "Create Home Directory"
 msgstr ""
 
-#: ../userdrake:447
+#: ../userdrake:457
 #, c-format
 msgid "Home Directory: "
 msgstr ""
 
-#: ../userdrake:450
+#: ../userdrake:460
 #, c-format
 msgid "Create a private group for the user"
 msgstr ""
 
-#: ../userdrake:451
+#: ../userdrake:461
 #, c-format
 msgid "Specify user ID manually"
 msgstr ""
 
-#: ../userdrake:468
+#: ../userdrake:478
 #, c-format
 msgid "User already exists, please choose another User Name"
 msgstr ""
 
-#: ../userdrake:473 ../userdrake:913
+#: ../userdrake:483 ../userdrake:924
 #, c-format
 msgid "Password Mismatch"
 msgstr ""
 
-#: ../userdrake:476 ../userdrake:916
+#: ../userdrake:486 ../userdrake:927
 #, c-format
 msgid ""
 "This password is too simple. \n"
 " Good passwords should be > 6 characters"
 msgstr ""
 
-#: ../userdrake:488
+#: ../userdrake:498
 #, c-format
 msgid "User Uid is < 1000"
 msgstr ""
 
-#: ../userdrake:489
+#: ../userdrake:499
 #, c-format
 msgid ""
 "Creating a user with a UID less than 1000 is not recommended.\n"
@@ -378,91 +378,91 @@ msgid ""
 "\n"
 msgstr ""
 
-#: ../userdrake:504
+#: ../userdrake:514
 #, c-format
 msgid "Putting %s to 'users' group"
 msgstr ""
 
-#: ../userdrake:511
+#: ../userdrake:521
 #, c-format
 msgid "Creating new group: %s"
 msgstr ""
 
-#: ../userdrake:520
+#: ../userdrake:530
 #, c-format
 msgid "Adding user: %s"
 msgstr ""
 
-#: ../userdrake:532
+#: ../userdrake:543
 #, c-format
 msgid "Migration wizard"
 msgstr ""
 
-#: ../userdrake:533
+#: ../userdrake:544
 #, c-format
 msgid ""
 "Do you want to run the migration wizard in order to import Windows documents "
 "and settings in your OpenMandriva distribution?"
 msgstr ""
 
-#: ../userdrake:538 ../userdrake:582 ../userdrake:641 ../userdrake:728
-#: ../userdrake:761 ../userdrake:1221
+#: ../userdrake:549 ../userdrake:593 ../userdrake:652 ../userdrake:739
+#: ../userdrake:772 ../userdrake:1232
 #, c-format
 msgid "Cancel"
 msgstr ""
 
-#: ../userdrake:538 ../userdrake:575 ../userdrake:641 ../userdrake:1221
-#: ../userdrake:1373
+#: ../userdrake:549 ../userdrake:586 ../userdrake:652 ../userdrake:1232
+#: ../userdrake:1384
 #, c-format
 msgid "Ok"
 msgstr ""
 
-#: ../userdrake:551
+#: ../userdrake:562
 #, c-format
 msgid "UID: "
 msgstr ""
 
-#: ../userdrake:564
+#: ../userdrake:575
 #, c-format
 msgid "Choose group"
 msgstr ""
 
-#: ../userdrake:566 ../userdrake:567
+#: ../userdrake:577 ../userdrake:578
 #, c-format
 msgid "Add to the existing group"
 msgstr ""
 
-#: ../userdrake:568
+#: ../userdrake:579
 #, c-format
 msgid "Add to the 'users' group"
 msgstr ""
 
-#: ../userdrake:570
+#: ../userdrake:581
 #, c-format
 msgid "A group with this name already exists.  What would you like to do?"
 msgstr ""
 
-#: ../userdrake:600
+#: ../userdrake:611
 #, c-format
 msgid "Create New Group"
 msgstr ""
 
-#: ../userdrake:605
+#: ../userdrake:616
 #, c-format
 msgid "Specify group ID manually"
 msgstr ""
 
-#: ../userdrake:621
+#: ../userdrake:632
 #, c-format
 msgid "Group already exists, please choose another Group Name"
 msgstr ""
 
-#: ../userdrake:627
+#: ../userdrake:638
 #, c-format
 msgid " Group Gid is < 1000"
 msgstr ""
 
-#: ../userdrake:628
+#: ../userdrake:639
 #, c-format
 msgid ""
 "Creating a group with a GID less than 1000 is not recommended.\n"
@@ -470,255 +470,255 @@ msgid ""
 "\n"
 msgstr ""
 
-#: ../userdrake:635
+#: ../userdrake:646
 #, c-format
 msgid "Adding group: %s "
 msgstr ""
 
-#: ../userdrake:645
+#: ../userdrake:656
 #, c-format
 msgid "GID: "
 msgstr ""
 
-#: ../userdrake:690
+#: ../userdrake:701
 #, c-format
 msgid "Delete files or not?"
 msgstr ""
 
-#: ../userdrake:693
+#: ../userdrake:704
 #, c-format
 msgid ""
 "Deleting user %s\n"
 " Also perform the following actions\n"
 msgstr ""
 
-#: ../userdrake:695
+#: ../userdrake:706
 #, c-format
 msgid "Delete Home Directory: %s"
 msgstr ""
 
-#: ../userdrake:696
+#: ../userdrake:707
 #, c-format
 msgid "Delete Mailbox: /var/spool/mail/%s"
 msgstr ""
 
-#: ../userdrake:705
+#: ../userdrake:716
 #, c-format
 msgid "Removing user: %s"
 msgstr ""
 
-#: ../userdrake:738
+#: ../userdrake:749
 #, c-format
 msgid "Do you really want to delete the group %s?"
 msgstr ""
 
-#: ../userdrake:751
+#: ../userdrake:762
 #, c-format
 msgid ""
 "%s is a primary group for user %s\n"
 " Remove the user first"
 msgstr ""
 
-#: ../userdrake:756
+#: ../userdrake:767
 #, c-format
 msgid "Removing group: %s"
 msgstr ""
 
-#: ../userdrake:852
+#: ../userdrake:863
 #, c-format
 msgid "Full Name:"
 msgstr ""
 
-#: ../userdrake:854
+#: ../userdrake:865
 #, c-format
 msgid "Login:"
 msgstr ""
 
-#: ../userdrake:856
+#: ../userdrake:867
 #, c-format
 msgid "Password:"
 msgstr ""
 
-#: ../userdrake:858
+#: ../userdrake:869
 #, c-format
 msgid "Confirm Password:"
 msgstr ""
 
-#: ../userdrake:860
+#: ../userdrake:871
 #, c-format
 msgid "Login Shell:"
 msgstr ""
 
-#: ../userdrake:873
+#: ../userdrake:884
 #, c-format
 msgid "Group Name:"
 msgstr ""
 
-#: ../userdrake:947
+#: ../userdrake:958
 #, c-format
 msgid "Please select at least one group for the user"
 msgstr ""
 
-#: ../userdrake:957
+#: ../userdrake:968
 #, c-format
 msgid ""
 "Please specify Year, Month and Day \n"
 " for Account Expiration "
 msgstr ""
 
-#: ../userdrake:967
+#: ../userdrake:978
 #, c-format
 msgid "Please fill up all fields in password aging\n"
 msgstr ""
 
-#: ../userdrake:1019
+#: ../userdrake:1030
 #, c-format
 msgid "You cannot remove user '%s' from their primary group"
 msgstr ""
 
-#: ../userdrake:1040
+#: ../userdrake:1051
 #, c-format
 msgid "Home:"
 msgstr ""
 
-#: ../userdrake:1042
+#: ../userdrake:1053
 #, c-format
 msgid "User Data"
 msgstr ""
 
-#: ../userdrake:1046
+#: ../userdrake:1057
 #, c-format
 msgid "Enable account expiration"
 msgstr ""
 
-#: ../userdrake:1048
+#: ../userdrake:1059
 #, c-format
 msgid "Account expires (YYYY-MM-DD):"
 msgstr ""
 
-#: ../userdrake:1056
+#: ../userdrake:1067
 #, c-format
 msgid "Lock User Account"
 msgstr ""
 
-#: ../userdrake:1059
+#: ../userdrake:1070
 #, c-format
 msgid "Account Info"
 msgstr ""
 
-#: ../userdrake:1064
+#: ../userdrake:1075
 #, c-format
 msgid "User last changed password on: "
 msgstr ""
 
-#: ../userdrake:1071
+#: ../userdrake:1082
 #, c-format
 msgid "Enable Password Expiration"
 msgstr ""
 
-#: ../userdrake:1076
+#: ../userdrake:1087
 #, c-format
 msgid "Days before change allowed:"
 msgstr ""
 
-#: ../userdrake:1078
+#: ../userdrake:1089
 #, c-format
 msgid "Days before change required:"
 msgstr ""
 
-#: ../userdrake:1080
+#: ../userdrake:1091
 #, c-format
 msgid "Days warning before change:"
 msgstr ""
 
-#: ../userdrake:1082
+#: ../userdrake:1093
 #, c-format
 msgid "Days before account inactive:"
 msgstr ""
 
-#: ../userdrake:1085
+#: ../userdrake:1096
 #, c-format
 msgid "Password Info"
 msgstr ""
 
-#: ../userdrake:1089
+#: ../userdrake:1100
 #, c-format
 msgid "Select the groups that the user will be a member of:"
 msgstr ""
 
-#: ../userdrake:1156
+#: ../userdrake:1167
 #, c-format
 msgid "Group Data"
 msgstr ""
 
-#: ../userdrake:1159
+#: ../userdrake:1170
 #, c-format
 msgid "Select the users to join this group:"
 msgstr ""
 
-#: ../userdrake:1161
+#: ../userdrake:1172
 #, c-format
 msgid "Group Users"
 msgstr ""
 
-#: ../userdrake:1181
+#: ../userdrake:1192
 #, c-format
 msgid "Edit Groups / Users"
 msgstr ""
 
-#: ../userdrake:1214
+#: ../userdrake:1225
 #, c-format
 msgid "An error occurred:"
 msgstr ""
 
-#: ../userdrake:1325
+#: ../userdrake:1336
 #, c-format
 msgid "Close"
 msgstr ""
 
-#: ../userdrake:1335
+#: ../userdrake:1346
 #, c-format
 msgid "Copyright (C) %s by Mandriva"
 msgstr ""
 
-#: ../userdrake:1335
+#: ../userdrake:1346
 #, c-format
 msgid "Copyright (C) %s by OpenMandriva"
 msgstr ""
 
-#: ../userdrake:1338
+#: ../userdrake:1349
 #, c-format
 msgid "Users Management"
 msgstr ""
 
-#: ../userdrake:1340
+#: ../userdrake:1351
 #, c-format
 msgid "OpenMandriva"
 msgstr ""
 
 #. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
-#: ../userdrake:1344
+#: ../userdrake:1355
 #, c-format
 msgid "_: Translator(s) name(s) & email(s)\n"
 msgstr ""
 
-#: ../userdrake:1351
+#: ../userdrake:1362
 #, c-format
 msgid "Name field is empty please provide a name"
 msgstr ""
 
-#: ../userdrake:1353
+#: ../userdrake:1364
 #, c-format
 msgid ""
 "The name must contain only lower cased latin letters, numbers, `-' and `_'"
 msgstr ""
 
-#: ../userdrake:1356
+#: ../userdrake:1367
 #, c-format
 msgid "Name is too long"
 msgstr ""
 
-#: ../userdrake:1369
+#: ../userdrake:1380
 #, c-format
 msgid "Error"
 msgstr ""

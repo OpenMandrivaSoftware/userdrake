@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Userdrake VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-04-23 19:48+0200\n"
+"POT-Creation-Date: 2016-06-19 16:48+0200\n"
 "PO-Revision-Date: 2004-07-28 11:14+0600\n"
 "Last-Translator: Jamil Ahmed <jamil@bengalinux.org>\n"
 "Language-Team: Bangla <mdk-translation@bengalinux.org>\n"
@@ -87,279 +87,278 @@ msgstr ""
 msgid "Error deleting mail spool: %s\n"
 msgstr "মেইল স্পুল মুছার সময় সমস্যা হয়েছে।: %s\n"
 
-#: ../userdrake:59 ../userdrake:1276
+#: ../userdrake:64 ../userdrake:1344
 #, c-format
 msgid "Userdrake"
 msgstr "ইউজারড্রেক"
 
-#: ../userdrake:64
+#: ../userdrake:69
 #, c-format
 msgid "Loading Users and Groups... Please wait"
 msgstr "ব্যবহারকারী এবং দল লোড করা হচ্ছে... দয়া করে অপেক্ষা করুন"
 
-#: ../userdrake:83
+#: ../userdrake:88
 #, c-format
 msgid "OpenMandriva Users Management Tool"
 msgstr "ম্যান্ড্রেক লিনাক্স ইউসারস ম্যানেজমেন্ট টুল"
 
-#: ../userdrake:96
-#, c-format
-msgid "/_Install guest account"
-msgstr ""
-
-#: ../userdrake:97
-#, c-format
-msgid "/_Uninstall guest account"
-msgstr ""
-
-#: ../userdrake:101 ../userdrake:102 ../userdrake:103 ../userdrake:114
-#: ../userdrake:115 ../userdrake:116
-#, c-format
-msgid "/_Actions"
-msgstr "/কার্যবলী (_ক)"
-
 #: ../userdrake:101
 #, c-format
-msgid "/_Edit"
-msgstr "/সম্পাদনা (_প)"
+msgid "_Install guest account"
+msgstr ""
 
 #: ../userdrake:102
 #, c-format
-msgid "/_Delete"
+msgid "_Uninstall guest account"
+msgstr ""
+
+#: ../userdrake:106
+#, fuzzy, c-format
+msgid "_Edit"
+msgstr "/সম্পাদনা (_প)"
+
+#: ../userdrake:107
+#, fuzzy, c-format
+msgid "_Delete"
 msgstr "/মুছে ফেলা (_ছ)"
 
-#: ../userdrake:104 ../userdrake:120
-#, c-format
-msgid "/_Options"
-msgstr "/অপশন (_অ)"
-
-#: ../userdrake:104
-#, c-format
-msgid "/_Filter system users"
+#: ../userdrake:109
+#, fuzzy, c-format
+msgid "_Filter system users"
 msgstr "/সিস্টেম ব্যবহারকারীদের ফিল্টার করো (_ব)"
 
-#: ../userdrake:109 ../userdrake:110 ../userdrake:113
-#, c-format
-msgid "/_File"
+#: ../userdrake:121
+#, fuzzy, c-format
+msgid "_File"
 msgstr "/ফাইল (_ফ)"
 
-#: ../userdrake:110
-#, c-format
-msgid "/_Refresh"
+#: ../userdrake:122
+#, fuzzy, c-format
+msgid "_Refresh"
 msgstr "/নতুন করে প্রদর্শন(_ন)"
 
-#: ../userdrake:113
-#, c-format
-msgid "/_Quit"
+#: ../userdrake:123
+#, fuzzy, c-format
+msgid "_Quit"
 msgstr "/প্রস্থান (_হ)"
 
-#: ../userdrake:113
+#: ../userdrake:123
 #, c-format
 msgid "<control>Q"
 msgstr "<control>Q"
 
-#: ../userdrake:115
-#, c-format
-msgid "/_Add User"
+#: ../userdrake:124
+#, fuzzy, c-format
+msgid "_Actions"
+msgstr "/কার্যবলী (_ক)"
+
+#: ../userdrake:125
+#, fuzzy, c-format
+msgid "_Add User"
 msgstr "/ব্যবহারকারী যোগ করো (_য)"
 
-#: ../userdrake:116
-#, c-format
-msgid "/Add _Group"
+#: ../userdrake:126
+#, fuzzy, c-format
+msgid "Add _Group"
 msgstr "/দল যোগ করো (_দ)"
 
-#: ../userdrake:125 ../userdrake:126 ../userdrake:127 ../userdrake:130
-#, c-format
-msgid "/_Help"
+#: ../userdrake:130
+#, fuzzy, c-format
+msgid "_Options"
+msgstr "/অপশন (_অ)"
+
+#: ../userdrake:131 ../userdrake:132
+#, fuzzy, c-format
+msgid "_Help"
 msgstr "/সহায়িকা (_স)"
 
-#: ../userdrake:127
-#, c-format
-msgid "/_Report Bug"
+#: ../userdrake:133
+#, fuzzy, c-format
+msgid "_Report Bug"
 msgstr "/ত্রুটি পেশ (_ত)"
 
-#: ../userdrake:130
-#, c-format
-msgid "/_About..."
+#: ../userdrake:135
+#, fuzzy, c-format
+msgid "_About..."
 msgstr "/সম্বন্ধে (_ম)..."
 
-#: ../userdrake:148
+#: ../userdrake:183
 #, c-format
 msgid "Search:"
 msgstr "অনুসন্ধান:"
 
-#: ../userdrake:154
+#: ../userdrake:189
 #, c-format
 msgid "Apply filter"
 msgstr "ফিল্টার ব্যবহার করো"
 
-#: ../userdrake:158
+#: ../userdrake:193
 #, c-format
 msgid "Users"
 msgstr "ব্যবহারকারী"
 
-#: ../userdrake:162 ../userdrake:1041
+#: ../userdrake:197 ../userdrake:1106
 #, c-format
 msgid "Groups"
 msgstr "দল"
 
 #. -PO: do not translate, this is already translated in mcc
-#: ../userdrake:168
+#: ../userdrake:203
 #, c-format
 msgid "Users and groups"
 msgstr "ব্যবহারকারী এবং দল"
 
-#: ../userdrake:186
+#: ../userdrake:221
 #, c-format
 msgid "User Name"
 msgstr "ব্যবহারকারীর নাম"
 
-#: ../userdrake:186
+#: ../userdrake:221
 #, c-format
 msgid "User ID"
 msgstr "ব্যবহারকারীর ID"
 
-#: ../userdrake:186 ../userdrake:1038
+#: ../userdrake:221 ../userdrake:1103
 #, c-format
 msgid "Primary Group"
 msgstr "প্রাথমিক দল"
 
-#: ../userdrake:187
+#: ../userdrake:222
 #, c-format
 msgid "Full Name"
 msgstr "সম্পূর্ণ নাম"
 
-#: ../userdrake:187
+#: ../userdrake:222
 #, c-format
 msgid "Login Shell"
 msgstr "লগ - ইন শেল"
 
-#: ../userdrake:187
+#: ../userdrake:222
 #, c-format
 msgid "Home Directory"
 msgstr "হোম ডিরেক্টরি"
 
-#: ../userdrake:187
+#: ../userdrake:222
 #, c-format
 msgid "Status"
 msgstr "অবস্থা"
 
-#: ../userdrake:194
+#: ../userdrake:229
 #, c-format
 msgid "Group Name"
 msgstr "দলের নাম"
 
-#: ../userdrake:194
+#: ../userdrake:229
 #, c-format
 msgid "Group ID"
 msgstr "দলের ID"
 
-#: ../userdrake:194
+#: ../userdrake:229
 #, c-format
 msgid "Group Members"
 msgstr "দলের সদস্যবৃন্দ"
 
-#: ../userdrake:196
+#: ../userdrake:231
 #, c-format
 msgid "Add User"
 msgstr "ব্যবহারকারী যোগ করো"
 
-#: ../userdrake:196
+#: ../userdrake:231
 #, c-format
 msgid "Add a user to the system"
 msgstr "সিস্টেমে একজন ব্যবহারকারী যোগ করুন"
 
-#: ../userdrake:197
+#: ../userdrake:232
 #, c-format
 msgid "Add Group"
 msgstr "দল যোগ করো"
 
-#: ../userdrake:197
+#: ../userdrake:232
 #, c-format
 msgid "Add a group to the system"
 msgstr "সিস্টেমে একটি দল যোগ করুন"
 
-#: ../userdrake:198 ../userdrake:739
+#: ../userdrake:233 ../userdrake:804
 #, c-format
 msgid "Edit"
 msgstr "সম্পাদন করো"
 
-#: ../userdrake:198
+#: ../userdrake:233
 #, c-format
 msgid "Edit selected row"
 msgstr "নির্বাচিত সারি সম্পাদন করো"
 
-#: ../userdrake:199 ../userdrake:674 ../userdrake:707 ../userdrake:739
+#: ../userdrake:234 ../userdrake:739 ../userdrake:772 ../userdrake:804
 #, c-format
 msgid "Delete"
 msgstr "মুছে ফেলো"
 
-#: ../userdrake:199
+#: ../userdrake:234
 #, c-format
 msgid "Delete selected row"
 msgstr "নির্বাচিত সারি মুছে ফেলো"
 
-#: ../userdrake:200
+#: ../userdrake:235
 #, c-format
 msgid "Refresh"
 msgstr "পুনরায় প্রদর্শন করো"
 
-#: ../userdrake:200
+#: ../userdrake:235
 #, c-format
 msgid "Refresh the list"
 msgstr "তালিকা পুনরায় প্রদর্শন করো"
 
-#: ../userdrake:263
+#: ../userdrake:299
 #, c-format
 msgid "Locked"
 msgstr "লক করা হয়েছে"
 
-#: ../userdrake:263
+#: ../userdrake:299
 #, c-format
 msgid "Expired"
 msgstr "সময়সীমা পেরিয়ে গেছে"
 
-#: ../userdrake:339
+#: ../userdrake:403
 #, c-format
 msgid "Click on the icon to change it"
 msgstr "পরিবর্তন করতে হলে আইকনে ক্লিক করুন"
 
-#: ../userdrake:385
+#: ../userdrake:449
 #, c-format
 msgid "Create New User"
 msgstr "নুতন ব্যবহারকারী যোগ করো"
 
-#: ../userdrake:391
+#: ../userdrake:455
 #, c-format
 msgid "Create Home Directory"
 msgstr "হোম ডিরেক্টরি তৈরি করো"
 
-#: ../userdrake:393
+#: ../userdrake:457
 #, c-format
 msgid "Home Directory: "
 msgstr "হোম ডিরেক্টরি তৈরি করো: "
 
-#: ../userdrake:396
+#: ../userdrake:460
 #, c-format
 msgid "Create a private group for the user"
 msgstr "ব্যবহারকারীর জন্য একটি ব্যক্তিগত দল তৈরি করো"
 
-#: ../userdrake:397
+#: ../userdrake:461
 #, c-format
 msgid "Specify user ID manually"
 msgstr "ব্যবহারকারীর ID ম্যানুয়েলি নির্ধারণ করো"
 
-#: ../userdrake:414
+#: ../userdrake:478
 #, c-format
 msgid "User already exists, please choose another User Name"
 msgstr "এই নামের ব্যবহারকারী বর্তমানে উপস্থিত আছে, দয়া করে আরেকটি নাম নির্বাচন করুন"
 
-#: ../userdrake:419 ../userdrake:859
+#: ../userdrake:483 ../userdrake:924
 #, c-format
 msgid "Password Mismatch"
 msgstr "পাসওয়ার্ড মেলেনি"
 
-#: ../userdrake:422 ../userdrake:862
+#: ../userdrake:486 ../userdrake:927
 #, c-format
 msgid ""
 "This password is too simple. \n"
@@ -368,12 +367,12 @@ msgstr ""
 "এই পাসওয়ার্ডটি বেশ সহজ। \n"
 " যে কোনো ভালো পাসওয়ার্ড অন্তত ৬ টি অক্ষরের বেশি হওয়া উচিত"
 
-#: ../userdrake:434
+#: ../userdrake:498
 #, c-format
 msgid "User Uid is < 1000"
 msgstr "আপনার Uid ৫০০ নিচে"
 
-#: ../userdrake:435
+#: ../userdrake:499
 #, c-format
 msgid ""
 "Creating a user with a UID less than 1000 is not recommended.\n"
@@ -384,91 +383,91 @@ msgstr ""
 " আপনি কি এই কাজ করার বিষয়ে নিশ্চিত?\n"
 "\n"
 
-#: ../userdrake:450
+#: ../userdrake:514
 #, c-format
 msgid "Putting %s to 'users' group"
 msgstr "%s কে 'users' দলে  ঢোকানো হচ্ছে"
 
-#: ../userdrake:457
+#: ../userdrake:521
 #, c-format
 msgid "Creating new group: %s"
 msgstr "নতুন দল তৈরি করা হচ্ছে: %s"
 
-#: ../userdrake:466
+#: ../userdrake:530
 #, c-format
 msgid "Adding user: %s"
 msgstr "ব্যবহারকারী যোগ করা হচ্ছে: %s"
 
-#: ../userdrake:478
+#: ../userdrake:543
 #, c-format
 msgid "Migration wizard"
 msgstr ""
 
-#: ../userdrake:479
+#: ../userdrake:544
 #, c-format
 msgid ""
 "Do you want to run the migration wizard in order to import Windows documents "
 "and settings in your OpenMandriva distribution?"
 msgstr ""
 
-#: ../userdrake:484 ../userdrake:528 ../userdrake:587 ../userdrake:674
-#: ../userdrake:707 ../userdrake:1167
+#: ../userdrake:549 ../userdrake:593 ../userdrake:652 ../userdrake:739
+#: ../userdrake:772 ../userdrake:1232
 #, c-format
 msgid "Cancel"
 msgstr "বাতিল"
 
-#: ../userdrake:484 ../userdrake:521 ../userdrake:587 ../userdrake:1167
-#: ../userdrake:1318
+#: ../userdrake:549 ../userdrake:586 ../userdrake:652 ../userdrake:1232
+#: ../userdrake:1384
 #, c-format
 msgid "Ok"
 msgstr "ঠিক আছে"
 
-#: ../userdrake:497
+#: ../userdrake:562
 #, c-format
 msgid "UID: "
 msgstr "UID: "
 
-#: ../userdrake:510
+#: ../userdrake:575
 #, c-format
 msgid "Choose group"
 msgstr "দল নির্বাচন করুন"
 
-#: ../userdrake:512 ../userdrake:513
+#: ../userdrake:577 ../userdrake:578
 #, c-format
 msgid "Add to the existing group"
 msgstr "উপস্থিত দলে যোগ করো"
 
-#: ../userdrake:514
+#: ../userdrake:579
 #, c-format
 msgid "Add to the 'users' group"
 msgstr "'users' দলে যোগ করো"
 
-#: ../userdrake:516
+#: ../userdrake:581
 #, c-format
 msgid "A group with this name already exists.  What would you like to do?"
 msgstr "এই নামে একটি দল বর্তমানে উপস্থিত আছে। আপনি কী করতে ইচ্ছুক?"
 
-#: ../userdrake:546
+#: ../userdrake:611
 #, c-format
 msgid "Create New Group"
 msgstr "নতুন দল তৈরি করো"
 
-#: ../userdrake:551
+#: ../userdrake:616
 #, c-format
 msgid "Specify group ID manually"
 msgstr "দলের ID ম্যানুয়েলি নির্ধারণ করো"
 
-#: ../userdrake:567
+#: ../userdrake:632
 #, c-format
 msgid "Group already exists, please choose another Group Name"
 msgstr "দল বর্তমানে উপস্থিত আছে, দয়া করে দলের জন্য আরেকটি নাম নির্বাচন করুন"
 
-#: ../userdrake:573
+#: ../userdrake:638
 #, c-format
 msgid " Group Gid is < 1000"
 msgstr " দলের Gid ৫০০-র নিচে আছে"
 
-#: ../userdrake:574
+#: ../userdrake:639
 #, c-format
 msgid ""
 "Creating a group with a GID less than 1000 is not recommended.\n"
@@ -479,22 +478,22 @@ msgstr ""
 " আপনি কি এই কাজ করার বিষয়ে নিশ্চিত?\n"
 "\n"
 
-#: ../userdrake:581
+#: ../userdrake:646
 #, c-format
 msgid "Adding group: %s "
 msgstr "দল যোগ করা হচ্ছে: %s"
 
-#: ../userdrake:591
+#: ../userdrake:656
 #, c-format
 msgid "GID: "
 msgstr "GID: "
 
-#: ../userdrake:636
+#: ../userdrake:701
 #, c-format
 msgid "Delete files or not?"
 msgstr "ফাইল মুছে ফেলা হবে কি না?"
 
-#: ../userdrake:639
+#: ../userdrake:704
 #, c-format
 msgid ""
 "Deleting user %s\n"
@@ -503,27 +502,27 @@ msgstr ""
 "%s ব্যবহারকারীকে মুছে ফেলা হচ্ছে\n"
 " নিম্নোক্ত কার্যগুলিও সম্পন্ন করো\n"
 
-#: ../userdrake:641
+#: ../userdrake:706
 #, c-format
 msgid "Delete Home Directory: %s"
 msgstr "হোম ডিরেক্টরি মুছে ফেলো: %s"
 
-#: ../userdrake:642
+#: ../userdrake:707
 #, c-format
 msgid "Delete Mailbox: /var/spool/mail/%s"
 msgstr "মেইলবক্স মুছে ফেলো :/var/spool/mail/%s"
 
-#: ../userdrake:651
+#: ../userdrake:716
 #, c-format
 msgid "Removing user: %s"
 msgstr "ব্যবহারকারীকে মুছে ফেলা হচ্ছে: %s"
 
-#: ../userdrake:684
+#: ../userdrake:749
 #, c-format
 msgid "Do you really want to delete the group %s?"
 msgstr "আপনি কি %s দলটিকে মুছে ফেলার বিষয়ে নিশ্চিত"
 
-#: ../userdrake:697
+#: ../userdrake:762
 #, c-format
 msgid ""
 "%s is a primary group for user %s\n"
@@ -532,47 +531,47 @@ msgstr ""
 "%s দলটি %s ব্যবহারকারীর প্রাথমিক দল\n"
 " ব্যবহারকারীকে প্রথমে সরিয়ে ফেলো"
 
-#: ../userdrake:702
+#: ../userdrake:767
 #, c-format
 msgid "Removing group: %s"
 msgstr "দলটি সরিয়ে ফেলা হচ্ছে: %s"
 
-#: ../userdrake:798
+#: ../userdrake:863
 #, c-format
 msgid "Full Name:"
 msgstr "সম্পূর্ণ নাম:"
 
-#: ../userdrake:800
+#: ../userdrake:865
 #, c-format
 msgid "Login:"
 msgstr "লগ-ইন:"
 
-#: ../userdrake:802
+#: ../userdrake:867
 #, c-format
 msgid "Password:"
 msgstr "পাসওয়ার্ড:"
 
-#: ../userdrake:804
+#: ../userdrake:869
 #, c-format
 msgid "Confirm Password:"
 msgstr "পাসওয়ার্ড নিশ্চিত করুন:"
 
-#: ../userdrake:806
+#: ../userdrake:871
 #, c-format
 msgid "Login Shell:"
 msgstr "লগ - ইন শেল:"
 
-#: ../userdrake:819
+#: ../userdrake:884
 #, c-format
 msgid "Group Name:"
 msgstr "দলের নাম:"
 
-#: ../userdrake:893
+#: ../userdrake:958
 #, c-format
 msgid "Please select at least one group for the user"
 msgstr "ব্যবহারকারীর জন্য অন্তত একটি দল নির্বাচন করুন"
 
-#: ../userdrake:903
+#: ../userdrake:968
 #, c-format
 msgid ""
 "Please specify Year, Month and Day \n"
@@ -581,160 +580,160 @@ msgstr ""
 "অ্যাকাউন্টের সময়সীমা পূরণের বত্‌সর, মাস এবং দিন \n"
 "দয়া করে নির্ধারণ করুন "
 
-#: ../userdrake:913
+#: ../userdrake:978
 #, c-format
 msgid "Please fill up all fields in password aging\n"
 msgstr "পাসওয়ার্ড-এর সময়সীমা সম্বন্ধীয় সব ক্ষেত্রগুলিকে দয়া করে পূর্ণ করুন।\n"
 
-#: ../userdrake:965
+#: ../userdrake:1030
 #, c-format
 msgid "You cannot remove user '%s' from their primary group"
 msgstr "'%s' ব্যবহারকারীকে আপনি তাদের মূল দল থেকে সরিয়ে ফেলতে পারবেন না"
 
-#: ../userdrake:986
+#: ../userdrake:1051
 #, c-format
 msgid "Home:"
 msgstr "হোম:"
 
-#: ../userdrake:988
+#: ../userdrake:1053
 #, c-format
 msgid "User Data"
 msgstr "ব্যবহারকারীর ডাটা"
 
-#: ../userdrake:992
+#: ../userdrake:1057
 #, c-format
 msgid "Enable account expiration"
 msgstr "অ্যাকাউন্টের সময়সীমা কার্যকরী করো"
 
-#: ../userdrake:994
+#: ../userdrake:1059
 #, c-format
 msgid "Account expires (YYYY-MM-DD):"
 msgstr "অ্যাকাউন্টের সময়সীমা পার হবে এই তারিখে (YYYY-MM-DD):"
 
-#: ../userdrake:1002
+#: ../userdrake:1067
 #, c-format
 msgid "Lock User Account"
 msgstr "ব্যবহারকারীর অ্যাকাউন্ট লক করো"
 
-#: ../userdrake:1005
+#: ../userdrake:1070
 #, c-format
 msgid "Account Info"
 msgstr "অ্যাকাউন্ট সম্বন্ধিয় তথ্য"
 
-#: ../userdrake:1010
+#: ../userdrake:1075
 #, c-format
 msgid "User last changed password on: "
 msgstr "ব্যবহারকারী পাসওয়ার্ড সর্বশেষ পরিবর্তন করেছিলেন : "
 
-#: ../userdrake:1017
+#: ../userdrake:1082
 #, c-format
 msgid "Enable Password Expiration"
 msgstr "পাসওয়ার্ডের সময়সীমা কার্যকরী করো"
 
-#: ../userdrake:1022
+#: ../userdrake:1087
 #, c-format
 msgid "Days before change allowed:"
 msgstr "কতদিন পর পরিবর্তন করা যাবে :"
 
-#: ../userdrake:1024
+#: ../userdrake:1089
 #, c-format
 msgid "Days before change required:"
 msgstr "কত দিন পরে পরিবর্তন প্রয়োজন :"
 
-#: ../userdrake:1026
+#: ../userdrake:1091
 #, c-format
 msgid "Days warning before change:"
 msgstr "পরিবর্তন করার পূর্বে সতর্কবাণী দেওয়ার সময়সীমা (দিন) :"
 
-#: ../userdrake:1028
+#: ../userdrake:1093
 #, c-format
 msgid "Days before account inactive:"
 msgstr "অ্যাকাউন্টের সময়সীমা পুর্ণ হওয়ার আগের অবশিষ্ট দিন :"
 
-#: ../userdrake:1031
+#: ../userdrake:1096
 #, c-format
 msgid "Password Info"
 msgstr "পাসওয়ার্ড সম্বন্ধিয় তথ্য"
 
-#: ../userdrake:1035
+#: ../userdrake:1100
 #, c-format
 msgid "Select the groups that the user will be a member of:"
 msgstr "এই ব্যবহারকারী যে দলগুলির সদস্য হবে তা নির্বাচন করুন:"
 
-#: ../userdrake:1102
+#: ../userdrake:1167
 #, c-format
 msgid "Group Data"
 msgstr "ডাটা দলবদ্ধ করো"
 
-#: ../userdrake:1105
+#: ../userdrake:1170
 #, c-format
 msgid "Select the users to join this group:"
 msgstr "এই দলে যে ব্যবহারকারীদের যোগ করা হবে তাদের নির্বাচন করুন :"
 
-#: ../userdrake:1107
+#: ../userdrake:1172
 #, c-format
 msgid "Group Users"
 msgstr "ব্যবহারকারীদের দলবদ্ধ করো"
 
-#: ../userdrake:1127
+#: ../userdrake:1192
 #, c-format
 msgid "Edit Groups / Users"
 msgstr "দল / ব্যবহারকারী সম্পাদন করুন"
 
-#: ../userdrake:1160
+#: ../userdrake:1225
 #, fuzzy, c-format
 msgid "An error occurred:"
 msgstr "একটি ত্রুটি সম্পাদিত হয়েছে"
 
-#: ../userdrake:1268
+#: ../userdrake:1336
 #, c-format
 msgid "Close"
 msgstr "বন্ধ করো"
 
-#: ../userdrake:1278
+#: ../userdrake:1346
 #, c-format
 msgid "Copyright (C) %s by Mandriva"
 msgstr ""
 
-#: ../userdrake:1278
+#: ../userdrake:1346
 #, c-format
 msgid "Copyright (C) %s by OpenMandriva"
 msgstr ""
 
-#: ../userdrake:1281
+#: ../userdrake:1349
 #, c-format
 msgid "Users Management"
 msgstr "ব্যবহারকারীদের নিয়ন্ত্রন করা"
 
-#: ../userdrake:1283
+#: ../userdrake:1351
 #, c-format
 msgid "OpenMandriva"
 msgstr "ম্যান্ড্রিব লিনাক্স (OpenMandriva)"
 
 #. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
-#: ../userdrake:1289
+#: ../userdrake:1355
 #, c-format
 msgid "_: Translator(s) name(s) & email(s)\n"
 msgstr "Bangla team <mdk-translation@bengalinux.org>\n"
 
-#: ../userdrake:1296
+#: ../userdrake:1362
 #, c-format
 msgid "Name field is empty please provide a name"
 msgstr "নামের ক্ষেত্রটি ফঁাকা রয়েছে, দয়া করে একটি নাম লিখুন"
 
-#: ../userdrake:1298
+#: ../userdrake:1364
 #, c-format
 msgid ""
 "The name must contain only lower cased latin letters, numbers, `-' and `_'"
 msgstr ""
 "নামের মধ্যে শুধুমাত্র lowercase-এর লাতিন অক্ষর, সংখ্যা, `-' এবং `_' লেখা যাবে"
 
-#: ../userdrake:1301
+#: ../userdrake:1367
 #, c-format
 msgid "Name is too long"
 msgstr "নামটি অতিরিক্ত লম্বা"
 
-#: ../userdrake:1314
+#: ../userdrake:1380
 #, c-format
 msgid "Error"
 msgstr "সমস্যা"

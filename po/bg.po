@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: userdrake-bg\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-04-23 19:48+0200\n"
+"POT-Creation-Date: 2016-06-19 16:48+0200\n"
 "PO-Revision-Date: 2009-04-11 09:18+0200\n"
 "Last-Translator: Rossen Karpuzov <gustav cointech net>\n"
 "Language-Team: Mandriva User Group - Bulgaria  < mandriva-bg@googlegroups."
@@ -97,283 +97,282 @@ msgstr ""
 msgid "Error deleting mail spool: %s\n"
 msgstr "Грешка при изтриване на главен spool: %s\n"
 
-#: ../userdrake:59 ../userdrake:1276
+#: ../userdrake:64 ../userdrake:1344
 #, c-format
 msgid "Userdrake"
 msgstr "Userdrake"
 
-#: ../userdrake:64
+#: ../userdrake:69
 #, c-format
 msgid "Loading Users and Groups... Please wait"
 msgstr "Зареждам потребителите и групите... Моля изчакайте"
 
-#: ../userdrake:83
+#: ../userdrake:88
 #, c-format
 msgid "OpenMandriva Users Management Tool"
 msgstr "Мандрива линукс инструмент за работа с потребителски сметки"
 
-#: ../userdrake:96
-#, c-format
-msgid "/_Install guest account"
-msgstr ""
-
-#: ../userdrake:97
-#, c-format
-msgid "/_Uninstall guest account"
-msgstr ""
-
-#: ../userdrake:101 ../userdrake:102 ../userdrake:103 ../userdrake:114
-#: ../userdrake:115 ../userdrake:116
-#, c-format
-msgid "/_Actions"
-msgstr "/_Действия"
-
 #: ../userdrake:101
 #, c-format
-msgid "/_Edit"
-msgstr "/_Промени"
+msgid "_Install guest account"
+msgstr ""
 
 #: ../userdrake:102
 #, c-format
-msgid "/_Delete"
+msgid "_Uninstall guest account"
+msgstr ""
+
+#: ../userdrake:106
+#, fuzzy, c-format
+msgid "_Edit"
+msgstr "/_Промени"
+
+#: ../userdrake:107
+#, fuzzy, c-format
+msgid "_Delete"
 msgstr "/_Изтрий"
 
-#: ../userdrake:104 ../userdrake:120
-#, c-format
-msgid "/_Options"
-msgstr "/_Настройки"
-
-#: ../userdrake:104
-#, c-format
-msgid "/_Filter system users"
+#: ../userdrake:109
+#, fuzzy, c-format
+msgid "_Filter system users"
 msgstr "/_Филтрира системните потребители"
 
-#: ../userdrake:109 ../userdrake:110 ../userdrake:113
-#, c-format
-msgid "/_File"
+#: ../userdrake:121
+#, fuzzy, c-format
+msgid "_File"
 msgstr "/_Файл"
 
-#: ../userdrake:110
-#, c-format
-msgid "/_Refresh"
+#: ../userdrake:122
+#, fuzzy, c-format
+msgid "_Refresh"
 msgstr "/_Опресни"
 
-#: ../userdrake:113
-#, c-format
-msgid "/_Quit"
+#: ../userdrake:123
+#, fuzzy, c-format
+msgid "_Quit"
 msgstr "/_Изход"
 
-#: ../userdrake:113
+#: ../userdrake:123
 #, c-format
 msgid "<control>Q"
 msgstr "<control>Q"
 
-#: ../userdrake:115
-#, c-format
-msgid "/_Add User"
+#: ../userdrake:124
+#, fuzzy, c-format
+msgid "_Actions"
+msgstr "/_Действия"
+
+#: ../userdrake:125
+#, fuzzy, c-format
+msgid "_Add User"
 msgstr "/_Добави потребител"
 
-#: ../userdrake:116
-#, c-format
-msgid "/Add _Group"
+#: ../userdrake:126
+#, fuzzy, c-format
+msgid "Add _Group"
 msgstr "/Добави _група"
 
-#: ../userdrake:125 ../userdrake:126 ../userdrake:127 ../userdrake:130
-#, c-format
-msgid "/_Help"
+#: ../userdrake:130
+#, fuzzy, c-format
+msgid "_Options"
+msgstr "/_Настройки"
+
+#: ../userdrake:131 ../userdrake:132
+#, fuzzy, c-format
+msgid "_Help"
 msgstr "/Помощ"
 
-#: ../userdrake:127
-#, c-format
-msgid "/_Report Bug"
+#: ../userdrake:133
+#, fuzzy, c-format
+msgid "_Report Bug"
 msgstr "/_Уведоми за грешка"
 
-#: ../userdrake:130
-#, c-format
-msgid "/_About..."
+#: ../userdrake:135
+#, fuzzy, c-format
+msgid "_About..."
 msgstr "/_Информация..."
 
-#: ../userdrake:148
+#: ../userdrake:183
 #, c-format
 msgid "Search:"
 msgstr "Търси:"
 
-#: ../userdrake:154
+#: ../userdrake:189
 #, c-format
 msgid "Apply filter"
 msgstr "Използва филтър"
 
-#: ../userdrake:158
+#: ../userdrake:193
 #, c-format
 msgid "Users"
 msgstr "Потребители"
 
-#: ../userdrake:162 ../userdrake:1041
+#: ../userdrake:197 ../userdrake:1106
 #, c-format
 msgid "Groups"
 msgstr "Групи"
 
 #. -PO: do not translate, this is already translated in mcc
-#: ../userdrake:168
+#: ../userdrake:203
 #, c-format
 msgid "Users and groups"
 msgstr "Потребители и групи"
 
-#: ../userdrake:186
+#: ../userdrake:221
 #, c-format
 msgid "User Name"
 msgstr "Име на потребител"
 
-#: ../userdrake:186
+#: ../userdrake:221
 #, c-format
 msgid "User ID"
 msgstr "Потребителски номер"
 
-#: ../userdrake:186 ../userdrake:1038
+#: ../userdrake:221 ../userdrake:1103
 #, c-format
 msgid "Primary Group"
 msgstr "Основна група"
 
-#: ../userdrake:187
+#: ../userdrake:222
 #, c-format
 msgid "Full Name"
 msgstr "Пълно име"
 
-#: ../userdrake:187
+#: ../userdrake:222
 #, c-format
 msgid "Login Shell"
 msgstr "Влизане в системата"
 
-#: ../userdrake:187
+#: ../userdrake:222
 #, c-format
 msgid "Home Directory"
 msgstr "Домашна директория на потребител"
 
-#: ../userdrake:187
+#: ../userdrake:222
 #, c-format
 msgid "Status"
 msgstr "Статус"
 
-#: ../userdrake:194
+#: ../userdrake:229
 #, c-format
 msgid "Group Name"
 msgstr "Име на група"
 
-#: ../userdrake:194
+#: ../userdrake:229
 #, c-format
 msgid "Group ID"
 msgstr "Номер на група"
 
-#: ../userdrake:194
+#: ../userdrake:229
 #, c-format
 msgid "Group Members"
 msgstr "Членове на група"
 
 # broken into two lines to avoid too large a button
-#: ../userdrake:196
+#: ../userdrake:231
 #, c-format
 msgid "Add User"
 msgstr ""
 "Добави\n"
 "потребител"
 
-#: ../userdrake:196
+#: ../userdrake:231
 #, c-format
 msgid "Add a user to the system"
 msgstr "Добавя потребител към системата"
 
 # broken into two lines to avoid too large a button
-#: ../userdrake:197
+#: ../userdrake:232
 #, c-format
 msgid "Add Group"
 msgstr "Добави група"
 
-#: ../userdrake:197
+#: ../userdrake:232
 #, c-format
 msgid "Add a group to the system"
 msgstr "Добавя група към системата"
 
-#: ../userdrake:198 ../userdrake:739
+#: ../userdrake:233 ../userdrake:804
 #, c-format
 msgid "Edit"
 msgstr "Промени"
 
-#: ../userdrake:198
+#: ../userdrake:233
 #, c-format
 msgid "Edit selected row"
 msgstr "Редактира избраната редица"
 
-#: ../userdrake:199 ../userdrake:674 ../userdrake:707 ../userdrake:739
+#: ../userdrake:234 ../userdrake:739 ../userdrake:772 ../userdrake:804
 #, c-format
 msgid "Delete"
 msgstr "Изтрий"
 
-#: ../userdrake:199
+#: ../userdrake:234
 #, c-format
 msgid "Delete selected row"
 msgstr "Изтрива избраната редица"
 
-#: ../userdrake:200
+#: ../userdrake:235
 #, c-format
 msgid "Refresh"
 msgstr "Опресни"
 
-#: ../userdrake:200
+#: ../userdrake:235
 #, c-format
 msgid "Refresh the list"
 msgstr "Опресни списъка с потребителите"
 
-#: ../userdrake:263
+#: ../userdrake:299
 #, c-format
 msgid "Locked"
 msgstr "Заключен"
 
-#: ../userdrake:263
+#: ../userdrake:299
 #, c-format
 msgid "Expired"
 msgstr "Просрочен"
 
-#: ../userdrake:339
+#: ../userdrake:403
 #, c-format
 msgid "Click on the icon to change it"
 msgstr "Щракнете на иконата,за да я промените"
 
-#: ../userdrake:385
+#: ../userdrake:449
 #, c-format
 msgid "Create New User"
 msgstr "Създава нов потребител"
 
-#: ../userdrake:391
+#: ../userdrake:455
 #, c-format
 msgid "Create Home Directory"
 msgstr "Създава домашна директория"
 
-#: ../userdrake:393
+#: ../userdrake:457
 #, c-format
 msgid "Home Directory: "
 msgstr "Домашна директория:"
 
-#: ../userdrake:396
+#: ../userdrake:460
 #, c-format
 msgid "Create a private group for the user"
 msgstr "Създава лична група за потребителя"
 
-#: ../userdrake:397
+#: ../userdrake:461
 #, c-format
 msgid "Specify user ID manually"
 msgstr "Ръчно задаване на потребителски номер"
 
-#: ../userdrake:414
+#: ../userdrake:478
 #, c-format
 msgid "User already exists, please choose another User Name"
 msgstr "Това име вече съществува в системата,моля изберете друго"
 
-#: ../userdrake:419 ../userdrake:859
+#: ../userdrake:483 ../userdrake:924
 #, c-format
 msgid "Password Mismatch"
 msgstr "Паролите не съвпадат"
 
-#: ../userdrake:422 ../userdrake:862
+#: ../userdrake:486 ../userdrake:927
 #, c-format
 msgid ""
 "This password is too simple. \n"
@@ -382,12 +381,12 @@ msgstr ""
 "Паролата е твърде проста. \n"
 "Добри пароли са тези с поне 6 символа."
 
-#: ../userdrake:434
+#: ../userdrake:498
 #, c-format
 msgid "User Uid is < 1000"
 msgstr "Потребителският номер е по-малък от 1000"
 
-#: ../userdrake:435
+#: ../userdrake:499
 #, c-format
 msgid ""
 "Creating a user with a UID less than 1000 is not recommended.\n"
@@ -398,27 +397,27 @@ msgstr ""
 "Сигурни ли сте,че го желаете ?\n"
 "\n"
 
-#: ../userdrake:450
+#: ../userdrake:514
 #, c-format
 msgid "Putting %s to 'users' group"
 msgstr "Добавяне на %s в група \"потребители\""
 
-#: ../userdrake:457
+#: ../userdrake:521
 #, c-format
 msgid "Creating new group: %s"
 msgstr "Създаване на нова група: %s"
 
-#: ../userdrake:466
+#: ../userdrake:530
 #, c-format
 msgid "Adding user: %s"
 msgstr "Добавяне на потребител: %s"
 
-#: ../userdrake:478
+#: ../userdrake:543
 #, c-format
 msgid "Migration wizard"
 msgstr "Помощник за миграция"
 
-#: ../userdrake:479
+#: ../userdrake:544
 #, c-format
 msgid ""
 "Do you want to run the migration wizard in order to import Windows documents "
@@ -427,64 +426,64 @@ msgstr ""
 "Искате ли да бъде стартиран помощника за миграция в задание давмъкне Windows "
 "документи и настройки във вашата Мандрива Линукс?"
 
-#: ../userdrake:484 ../userdrake:528 ../userdrake:587 ../userdrake:674
-#: ../userdrake:707 ../userdrake:1167
+#: ../userdrake:549 ../userdrake:593 ../userdrake:652 ../userdrake:739
+#: ../userdrake:772 ../userdrake:1232
 #, c-format
 msgid "Cancel"
 msgstr "Отказ"
 
-#: ../userdrake:484 ../userdrake:521 ../userdrake:587 ../userdrake:1167
-#: ../userdrake:1318
+#: ../userdrake:549 ../userdrake:586 ../userdrake:652 ../userdrake:1232
+#: ../userdrake:1384
 #, c-format
 msgid "Ok"
 msgstr "Добре"
 
-#: ../userdrake:497
+#: ../userdrake:562
 #, c-format
 msgid "UID: "
 msgstr "UID: "
 
-#: ../userdrake:510
+#: ../userdrake:575
 #, c-format
 msgid "Choose group"
 msgstr "Изберете група"
 
-#: ../userdrake:512 ../userdrake:513
+#: ../userdrake:577 ../userdrake:578
 #, c-format
 msgid "Add to the existing group"
 msgstr "Добавя към съществуваща група"
 
-#: ../userdrake:514
+#: ../userdrake:579
 #, c-format
 msgid "Add to the 'users' group"
 msgstr "Добавяне към група \"потребители\""
 
-#: ../userdrake:516
+#: ../userdrake:581
 #, c-format
 msgid "A group with this name already exists.  What would you like to do?"
 msgstr " Група с това име съществува. Какво желаете да направя?"
 
-#: ../userdrake:546
+#: ../userdrake:611
 #, c-format
 msgid "Create New Group"
 msgstr "Създаване на нова група"
 
-#: ../userdrake:551
+#: ../userdrake:616
 #, c-format
 msgid "Specify group ID manually"
 msgstr "Ръчно задаване на номер на група"
 
-#: ../userdrake:567
+#: ../userdrake:632
 #, c-format
 msgid "Group already exists, please choose another Group Name"
 msgstr "Групата вече съществува,моля изберете друго име"
 
-#: ../userdrake:573
+#: ../userdrake:638
 #, c-format
 msgid " Group Gid is < 1000"
 msgstr "ГИД е по-малък от 1000"
 
-#: ../userdrake:574
+#: ../userdrake:639
 #, c-format
 msgid ""
 "Creating a group with a GID less than 1000 is not recommended.\n"
@@ -495,22 +494,22 @@ msgstr ""
 " Сигурен ли сте,че желаете да го направите ?\n"
 "\n"
 
-#: ../userdrake:581
+#: ../userdrake:646
 #, c-format
 msgid "Adding group: %s "
 msgstr "Добавяне на група: %s"
 
-#: ../userdrake:591
+#: ../userdrake:656
 #, c-format
 msgid "GID: "
 msgstr "GID: "
 
-#: ../userdrake:636
+#: ../userdrake:701
 #, c-format
 msgid "Delete files or not?"
 msgstr "Изтриване на файлове ?"
 
-#: ../userdrake:639
+#: ../userdrake:704
 #, c-format
 msgid ""
 "Deleting user %s\n"
@@ -519,27 +518,27 @@ msgstr ""
 "Изтриване на потребител %s\n"
 " Също изпълни следните действия:\n"
 
-#: ../userdrake:641
+#: ../userdrake:706
 #, c-format
 msgid "Delete Home Directory: %s"
 msgstr "Изтриване на  домашна директория: %s"
 
-#: ../userdrake:642
+#: ../userdrake:707
 #, c-format
 msgid "Delete Mailbox: /var/spool/mail/%s"
 msgstr "Изтриване на пощенска кутия: /var/spool/mail/%s"
 
-#: ../userdrake:651
+#: ../userdrake:716
 #, c-format
 msgid "Removing user: %s"
 msgstr "Изтриване на потребител: %s"
 
-#: ../userdrake:684
+#: ../userdrake:749
 #, c-format
 msgid "Do you really want to delete the group %s?"
 msgstr "Наистина ли желаете да изтриете група %s?"
 
-#: ../userdrake:697
+#: ../userdrake:762
 #, c-format
 msgid ""
 "%s is a primary group for user %s\n"
@@ -548,47 +547,47 @@ msgstr ""
 "%s е основната група на потребител %s\n"
 " Изтрийте първо потребителя."
 
-#: ../userdrake:702
+#: ../userdrake:767
 #, c-format
 msgid "Removing group: %s"
 msgstr "Изтриване на група: %s"
 
-#: ../userdrake:798
+#: ../userdrake:863
 #, c-format
 msgid "Full Name:"
 msgstr "Пълно име:"
 
-#: ../userdrake:800
+#: ../userdrake:865
 #, c-format
 msgid "Login:"
 msgstr "Влизане в с-мата:"
 
-#: ../userdrake:802
+#: ../userdrake:867
 #, c-format
 msgid "Password:"
 msgstr "Парола:"
 
-#: ../userdrake:804
+#: ../userdrake:869
 #, c-format
 msgid "Confirm Password:"
 msgstr "Потвърждение:"
 
-#: ../userdrake:806
+#: ../userdrake:871
 #, c-format
 msgid "Login Shell:"
 msgstr "Влизане в системата:"
 
-#: ../userdrake:819
+#: ../userdrake:884
 #, c-format
 msgid "Group Name:"
 msgstr "Име на група:"
 
-#: ../userdrake:893
+#: ../userdrake:958
 #, c-format
 msgid "Please select at least one group for the user"
 msgstr "Моля изберете поне една група за потребителя"
 
-#: ../userdrake:903
+#: ../userdrake:968
 #, c-format
 msgid ""
 "Please specify Year, Month and Day \n"
@@ -597,160 +596,160 @@ msgstr ""
 "Моля въведете година,месец и ден, \n"
 " до които важи сметката"
 
-#: ../userdrake:913
+#: ../userdrake:978
 #, c-format
 msgid "Please fill up all fields in password aging\n"
 msgstr "Моля попълнете всички полета за \"остаряване\" на паролата\n"
 
-#: ../userdrake:965
+#: ../userdrake:1030
 #, c-format
 msgid "You cannot remove user '%s' from their primary group"
 msgstr "Не можете да махнете потребител %s от основната му група"
 
-#: ../userdrake:986
+#: ../userdrake:1051
 #, c-format
 msgid "Home:"
 msgstr "Дом:"
 
-#: ../userdrake:988
+#: ../userdrake:1053
 #, c-format
 msgid "User Data"
 msgstr "Потребителска информация"
 
-#: ../userdrake:992
+#: ../userdrake:1057
 #, c-format
 msgid "Enable account expiration"
 msgstr "Включва валидност на сметките"
 
-#: ../userdrake:994
+#: ../userdrake:1059
 #, c-format
 msgid "Account expires (YYYY-MM-DD):"
 msgstr "Сметката е валидна до (ГГГГ-ММ-ДД):"
 
-#: ../userdrake:1002
+#: ../userdrake:1067
 #, c-format
 msgid "Lock User Account"
 msgstr "Заключва потребителска сметка"
 
-#: ../userdrake:1005
+#: ../userdrake:1070
 #, c-format
 msgid "Account Info"
 msgstr "Информация за сметка"
 
-#: ../userdrake:1010
+#: ../userdrake:1075
 #, c-format
 msgid "User last changed password on: "
 msgstr "Потребителят е сменил последно паролата си на : "
 
-#: ../userdrake:1017
+#: ../userdrake:1082
 #, c-format
 msgid "Enable Password Expiration"
 msgstr "Включва валидност на паролите"
 
-#: ../userdrake:1022
+#: ../userdrake:1087
 #, c-format
 msgid "Days before change allowed:"
 msgstr "Дни преди да бъде разрешена смяна:"
 
-#: ../userdrake:1024
+#: ../userdrake:1089
 #, c-format
 msgid "Days before change required:"
 msgstr "Дни преди да бъде наложена смяна:"
 
-#: ../userdrake:1026
+#: ../userdrake:1091
 #, c-format
 msgid "Days warning before change:"
 msgstr "Предупреждение (в дни) преди промяната:"
 
-#: ../userdrake:1028
+#: ../userdrake:1093
 #, c-format
 msgid "Days before account inactive:"
 msgstr "Дни преди сметката да стане неактивна"
 
-#: ../userdrake:1031
+#: ../userdrake:1096
 #, c-format
 msgid "Password Info"
 msgstr "Информация за паролите"
 
-#: ../userdrake:1035
+#: ../userdrake:1100
 #, c-format
 msgid "Select the groups that the user will be a member of:"
 msgstr "Изберете към на кои групи ще бъде член потребителят:"
 
-#: ../userdrake:1102
+#: ../userdrake:1167
 #, c-format
 msgid "Group Data"
 msgstr "Информация за групите"
 
-#: ../userdrake:1105
+#: ../userdrake:1170
 #, c-format
 msgid "Select the users to join this group:"
 msgstr "Изберете потребители за тази група:"
 
-#: ../userdrake:1107
+#: ../userdrake:1172
 #, c-format
 msgid "Group Users"
 msgstr "Потребители в групата"
 
-#: ../userdrake:1127
+#: ../userdrake:1192
 #, c-format
 msgid "Edit Groups / Users"
 msgstr "Промяна на потребители/групати"
 
-#: ../userdrake:1160
+#: ../userdrake:1225
 #, fuzzy, c-format
 msgid "An error occurred:"
 msgstr "Появи се грешка"
 
-#: ../userdrake:1268
+#: ../userdrake:1336
 #, c-format
 msgid "Close"
 msgstr "Затвори"
 
-#: ../userdrake:1278
+#: ../userdrake:1346
 #, c-format
 msgid "Copyright (C) %s by Mandriva"
 msgstr "Запазени права (C) %s от Мандрива"
 
-#: ../userdrake:1278
+#: ../userdrake:1346
 #, fuzzy, c-format
 msgid "Copyright (C) %s by OpenMandriva"
 msgstr "Запазени права (C) %s от Мандрива"
 
-#: ../userdrake:1281
+#: ../userdrake:1349
 #, c-format
 msgid "Users Management"
 msgstr "Работа със сметки"
 
-#: ../userdrake:1283
+#: ../userdrake:1351
 #, c-format
 msgid "OpenMandriva"
 msgstr "OpenMandriva"
 
 #. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
-#: ../userdrake:1289
+#: ../userdrake:1355
 #, c-format
 msgid "_: Translator(s) name(s) & email(s)\n"
 msgstr "Boyan Ivanov <boyan17@bulgaria.com>\n"
 
-#: ../userdrake:1296
+#: ../userdrake:1362
 #, c-format
 msgid "Name field is empty please provide a name"
 msgstr "Полето за име е празно,моля въведете нещо."
 
-#: ../userdrake:1298
+#: ../userdrake:1364
 #, c-format
 msgid ""
 "The name must contain only lower cased latin letters, numbers, `-' and `_'"
 msgstr ""
 "Името трябва да съдържа латински букви в долен регистър,цифри,`-' и `_'"
 
-#: ../userdrake:1301
+#: ../userdrake:1367
 #, c-format
 msgid "Name is too long"
 msgstr "Името е твърде дълго"
 
-#: ../userdrake:1314
+#: ../userdrake:1380
 #, c-format
 msgid "Error"
 msgstr "Грешка"
