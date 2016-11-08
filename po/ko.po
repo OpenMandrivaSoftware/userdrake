@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: userdrake2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-06-19 16:48+0200\n"
+"POT-Creation-Date: 2016-11-08 19:11+0100\n"
 "PO-Revision-Date: 2002-09-02 18:34+0900\n"
 "Last-Translator: Jaegeum Cze <baedaron@hanafos.com>\n"
 "Language-Team: Korean <baedaron@hananet.net>\n"
@@ -90,290 +90,290 @@ msgstr ""
 msgid "Error deleting mail spool: %s\n"
 msgstr "픽스맵 파일 적재 중 오류: %s"
 
-#: ../userdrake:64 ../userdrake:1344
+#: ../userdrake:66 ../userdrake:1346
 #, c-format
 msgid "Userdrake"
 msgstr "사용자 드레이크"
 
-#: ../userdrake:69
+#: ../userdrake:71
 #, c-format
 msgid "Loading Users and Groups... Please wait"
 msgstr ""
 
-#: ../userdrake:88
+#: ../userdrake:90
 #, c-format
 msgid "OpenMandriva Users Management Tool"
 msgstr ""
 
-#: ../userdrake:101
+#: ../userdrake:103
 #, c-format
 msgid "_Install guest account"
 msgstr ""
 
-#: ../userdrake:102
+#: ../userdrake:104
 #, c-format
 msgid "_Uninstall guest account"
 msgstr ""
 
-#: ../userdrake:106
+#: ../userdrake:108
 #, fuzzy, c-format
 msgid "_Edit"
 msgstr "/편집(_E)"
 
-#: ../userdrake:107
+#: ../userdrake:109
 #, fuzzy, c-format
 msgid "_Delete"
 msgstr "/삭제(_D)"
 
-#: ../userdrake:109
+#: ../userdrake:111
 #, c-format
 msgid "_Filter system users"
 msgstr ""
 
-#: ../userdrake:121
+#: ../userdrake:123
 #, fuzzy, c-format
 msgid "_File"
 msgstr "/파일(_F)"
 
-#: ../userdrake:122
+#: ../userdrake:124
 #, fuzzy, c-format
 msgid "_Refresh"
 msgstr "/새로 고침 (_R)"
 
-#: ../userdrake:123
+#: ../userdrake:125
 #, fuzzy, c-format
 msgid "_Quit"
 msgstr "/종료(_Q)"
 
-#: ../userdrake:123
+#: ../userdrake:125
 #, c-format
 msgid "<control>Q"
 msgstr "<control>Q"
 
-#: ../userdrake:124
+#: ../userdrake:126
 #, fuzzy, c-format
 msgid "_Actions"
 msgstr "/동작(_A)"
 
-#: ../userdrake:125
+#: ../userdrake:127
 #, fuzzy, c-format
 msgid "_Add User"
 msgstr "/사용자 더하기(_A)"
 
-#: ../userdrake:126
+#: ../userdrake:128
 #, fuzzy, c-format
 msgid "Add _Group"
 msgstr "/그룹 더하기(_A)"
 
-#: ../userdrake:130
+#: ../userdrake:132
 #, fuzzy, c-format
 msgid "_Options"
 msgstr "/옵션(_O)"
 
-#: ../userdrake:131 ../userdrake:132
+#: ../userdrake:133 ../userdrake:134
 #, fuzzy, c-format
 msgid "_Help"
 msgstr "/도움말(_H)"
 
-#: ../userdrake:133
+#: ../userdrake:135
 #, fuzzy, c-format
 msgid "_Report Bug"
 msgstr "/버그 보고(_R)"
 
-#: ../userdrake:135
+#: ../userdrake:137
 #, fuzzy, c-format
 msgid "_About..."
 msgstr "/정보(_A)..."
 
-#: ../userdrake:183
+#: ../userdrake:185
 #, c-format
 msgid "Search:"
 msgstr "검색:"
 
-#: ../userdrake:189
+#: ../userdrake:191
 #, c-format
 msgid "Apply filter"
 msgstr "거르게 적용"
 
-#: ../userdrake:193
+#: ../userdrake:195
 #, c-format
 msgid "Users"
 msgstr "사용자"
 
-#: ../userdrake:197 ../userdrake:1106
+#: ../userdrake:199 ../userdrake:1108
 #, c-format
 msgid "Groups"
 msgstr "그룹"
 
 #. -PO: do not translate, this is already translated in mcc
-#: ../userdrake:203
+#: ../userdrake:205
 #, fuzzy, c-format
 msgid "Users and groups"
 msgstr "소속된 그룹들"
 
-#: ../userdrake:221
+#: ../userdrake:223
 #, c-format
 msgid "User Name"
 msgstr "사용자 이름"
 
-#: ../userdrake:221
+#: ../userdrake:223
 #, c-format
 msgid "User ID"
 msgstr "사용자 ID"
 
-#: ../userdrake:221 ../userdrake:1103
+#: ../userdrake:223 ../userdrake:1105
 #, c-format
 msgid "Primary Group"
 msgstr ""
 
-#: ../userdrake:222
+#: ../userdrake:224
 #, c-format
 msgid "Full Name"
 msgstr "전체 이름"
 
-#: ../userdrake:222
+#: ../userdrake:224
 #, c-format
 msgid "Login Shell"
 msgstr "로그인명"
 
-#: ../userdrake:222
+#: ../userdrake:224
 #, c-format
 msgid "Home Directory"
 msgstr "홈 디렉토리"
 
-#: ../userdrake:222
+#: ../userdrake:224
 #, c-format
 msgid "Status"
 msgstr "상태"
 
-#: ../userdrake:229
+#: ../userdrake:231
 #, c-format
 msgid "Group Name"
 msgstr "그룹 이름"
 
-#: ../userdrake:229
+#: ../userdrake:231
 #, c-format
 msgid "Group ID"
 msgstr "그룹 ID"
 
-#: ../userdrake:229
+#: ../userdrake:231
 #, c-format
 msgid "Group Members"
 msgstr "그룹 구성원"
 
-#: ../userdrake:231
+#: ../userdrake:233
 #, c-format
 msgid "Add User"
 msgstr "사용자 추가"
 
-#: ../userdrake:231
+#: ../userdrake:233
 #, c-format
 msgid "Add a user to the system"
 msgstr ""
 
-#: ../userdrake:232
+#: ../userdrake:234
 #, c-format
 msgid "Add Group"
 msgstr "그룹 추가"
 
-#: ../userdrake:232
+#: ../userdrake:234
 #, fuzzy, c-format
 msgid "Add a group to the system"
 msgstr "그룹 추가"
 
-#: ../userdrake:233 ../userdrake:804
+#: ../userdrake:235 ../userdrake:806
 #, c-format
 msgid "Edit"
 msgstr "편집"
 
-#: ../userdrake:233
+#: ../userdrake:235
 #, c-format
 msgid "Edit selected row"
 msgstr ""
 
-#: ../userdrake:234 ../userdrake:739 ../userdrake:772 ../userdrake:804
+#: ../userdrake:236 ../userdrake:741 ../userdrake:774 ../userdrake:806
 #, c-format
 msgid "Delete"
 msgstr "삭제"
 
-#: ../userdrake:234
+#: ../userdrake:236
 #, c-format
 msgid "Delete selected row"
 msgstr ""
 
-#: ../userdrake:235
+#: ../userdrake:237
 #, c-format
 msgid "Refresh"
 msgstr "새로 고침"
 
-#: ../userdrake:235
+#: ../userdrake:237
 #, fuzzy, c-format
 msgid "Refresh the list"
 msgstr "사용자 목록"
 
-#: ../userdrake:299
+#: ../userdrake:301
 #, c-format
 msgid "Locked"
 msgstr "막힘"
 
-#: ../userdrake:299
+#: ../userdrake:301
 #, c-format
 msgid "Expired"
 msgstr ""
 
-#: ../userdrake:403
+#: ../userdrake:405
 #, c-format
 msgid "Click on the icon to change it"
 msgstr ""
 
-#: ../userdrake:449
+#: ../userdrake:451
 #, c-format
 msgid "Create New User"
 msgstr "새 사용자 생성"
 
-#: ../userdrake:455
+#: ../userdrake:457
 #, c-format
 msgid "Create Home Directory"
 msgstr "홈 디렉토리 생성"
 
-#: ../userdrake:457
+#: ../userdrake:459
 #, c-format
 msgid "Home Directory: "
 msgstr "홈 디렉토리:"
 
-#: ../userdrake:460
+#: ../userdrake:462
 #, c-format
 msgid "Create a private group for the user"
 msgstr ""
 
-#: ../userdrake:461
+#: ../userdrake:463
 #, c-format
 msgid "Specify user ID manually"
 msgstr ""
 
-#: ../userdrake:478
+#: ../userdrake:480
 #, fuzzy, c-format
 msgid "User already exists, please choose another User Name"
 msgstr "이미 존재하는 이름입니다."
 
-#: ../userdrake:483 ../userdrake:924
+#: ../userdrake:485 ../userdrake:926
 #, c-format
 msgid "Password Mismatch"
 msgstr "암호가 일치하지 않습니다"
 
-#: ../userdrake:486 ../userdrake:927
+#: ../userdrake:488 ../userdrake:929
 #, c-format
 msgid ""
 "This password is too simple. \n"
 " Good passwords should be > 6 characters"
 msgstr ""
 
-#: ../userdrake:498
+#: ../userdrake:500
 #, c-format
 msgid "User Uid is < 1000"
 msgstr ""
 
-#: ../userdrake:499
+#: ../userdrake:501
 #, c-format
 msgid ""
 "Creating a user with a UID less than 1000 is not recommended.\n"
@@ -381,91 +381,91 @@ msgid ""
 "\n"
 msgstr ""
 
-#: ../userdrake:514
+#: ../userdrake:516
 #, c-format
 msgid "Putting %s to 'users' group"
 msgstr ""
 
-#: ../userdrake:521
+#: ../userdrake:523
 #, fuzzy, c-format
 msgid "Creating new group: %s"
 msgstr "그룹 보기"
 
-#: ../userdrake:530
+#: ../userdrake:532
 #, fuzzy, c-format
 msgid "Adding user: %s"
 msgstr "사용자 추가"
 
-#: ../userdrake:543
+#: ../userdrake:545
 #, c-format
 msgid "Migration wizard"
 msgstr ""
 
-#: ../userdrake:544
+#: ../userdrake:546
 #, c-format
 msgid ""
 "Do you want to run the migration wizard in order to import Windows documents "
 "and settings in your OpenMandriva distribution?"
 msgstr ""
 
-#: ../userdrake:549 ../userdrake:593 ../userdrake:652 ../userdrake:739
-#: ../userdrake:772 ../userdrake:1232
+#: ../userdrake:551 ../userdrake:595 ../userdrake:654 ../userdrake:741
+#: ../userdrake:774 ../userdrake:1234
 #, c-format
 msgid "Cancel"
 msgstr "취소"
 
-#: ../userdrake:549 ../userdrake:586 ../userdrake:652 ../userdrake:1232
-#: ../userdrake:1384
+#: ../userdrake:551 ../userdrake:588 ../userdrake:654 ../userdrake:1234
+#: ../userdrake:1387
 #, c-format
 msgid "Ok"
 msgstr "확인"
 
-#: ../userdrake:562
+#: ../userdrake:564
 #, c-format
 msgid "UID: "
 msgstr ""
 
-#: ../userdrake:575
+#: ../userdrake:577
 #, fuzzy, c-format
 msgid "Choose group"
 msgstr "소속된 그룹들"
 
-#: ../userdrake:577 ../userdrake:578
+#: ../userdrake:579 ../userdrake:580
 #, c-format
 msgid "Add to the existing group"
 msgstr ""
 
-#: ../userdrake:579
+#: ../userdrake:581
 #, c-format
 msgid "Add to the 'users' group"
 msgstr ""
 
-#: ../userdrake:581
+#: ../userdrake:583
 #, c-format
 msgid "A group with this name already exists.  What would you like to do?"
 msgstr ""
 
-#: ../userdrake:611
+#: ../userdrake:613
 #, c-format
 msgid "Create New Group"
 msgstr "새 그룹 생성"
 
-#: ../userdrake:616
+#: ../userdrake:618
 #, c-format
 msgid "Specify group ID manually"
 msgstr ""
 
-#: ../userdrake:632
+#: ../userdrake:634
 #, c-format
 msgid "Group already exists, please choose another Group Name"
 msgstr ""
 
-#: ../userdrake:638
+#: ../userdrake:640
 #, c-format
 msgid " Group Gid is < 1000"
 msgstr ""
 
-#: ../userdrake:639
+#: ../userdrake:641
 #, c-format
 msgid ""
 "Creating a group with a GID less than 1000 is not recommended.\n"
@@ -473,255 +473,255 @@ msgid ""
 "\n"
 msgstr ""
 
-#: ../userdrake:646
+#: ../userdrake:648
 #, c-format
 msgid "Adding group: %s "
 msgstr ""
 
-#: ../userdrake:656
+#: ../userdrake:658
 #, c-format
 msgid "GID: "
 msgstr ""
 
-#: ../userdrake:701
+#: ../userdrake:703
 #, c-format
 msgid "Delete files or not?"
 msgstr ""
 
-#: ../userdrake:704
+#: ../userdrake:706
 #, c-format
 msgid ""
 "Deleting user %s\n"
 " Also perform the following actions\n"
 msgstr ""
 
-#: ../userdrake:706
+#: ../userdrake:708
 #, fuzzy, c-format
 msgid "Delete Home Directory: %s"
 msgstr "사용자 홈 디렉토리"
 
-#: ../userdrake:707
+#: ../userdrake:709
 #, c-format
 msgid "Delete Mailbox: /var/spool/mail/%s"
 msgstr ""
 
-#: ../userdrake:716
+#: ../userdrake:718
 #, fuzzy, c-format
 msgid "Removing user: %s"
 msgstr "사용자 제거"
 
-#: ../userdrake:749
+#: ../userdrake:751
 #, c-format
 msgid "Do you really want to delete the group %s?"
 msgstr ""
 
-#: ../userdrake:762
+#: ../userdrake:764
 #, c-format
 msgid ""
 "%s is a primary group for user %s\n"
 " Remove the user first"
 msgstr ""
 
-#: ../userdrake:767
+#: ../userdrake:769
 #, fuzzy, c-format
 msgid "Removing group: %s"
 msgstr "그룹 제거"
 
-#: ../userdrake:863
+#: ../userdrake:865
 #, c-format
 msgid "Full Name:"
 msgstr "전체 이름:"
 
-#: ../userdrake:865
+#: ../userdrake:867
 #, c-format
 msgid "Login:"
 msgstr "로그인명:"
 
-#: ../userdrake:867
+#: ../userdrake:869
 #, c-format
 msgid "Password:"
 msgstr "암호:"
 
-#: ../userdrake:869
+#: ../userdrake:871
 #, c-format
 msgid "Confirm Password:"
 msgstr "열쇠글 확인:"
 
-#: ../userdrake:871
+#: ../userdrake:873
 #, c-format
 msgid "Login Shell:"
 msgstr "로그인 쉘:"
 
-#: ../userdrake:884
+#: ../userdrake:886
 #, c-format
 msgid "Group Name:"
 msgstr "그룹 이름:"
 
-#: ../userdrake:958
+#: ../userdrake:960
 #, c-format
 msgid "Please select at least one group for the user"
 msgstr ""
 
-#: ../userdrake:968
+#: ../userdrake:970
 #, c-format
 msgid ""
 "Please specify Year, Month and Day \n"
 " for Account Expiration "
 msgstr ""
 
-#: ../userdrake:978
+#: ../userdrake:980
 #, c-format
 msgid "Please fill up all fields in password aging\n"
 msgstr ""
 
-#: ../userdrake:1030
+#: ../userdrake:1032
 #, c-format
 msgid "You cannot remove user '%s' from their primary group"
 msgstr ""
 
-#: ../userdrake:1051
+#: ../userdrake:1053
 #, c-format
 msgid "Home:"
 msgstr "홈 디렉토리:"
 
-#: ../userdrake:1053
+#: ../userdrake:1055
 #, fuzzy, c-format
 msgid "User Data"
 msgstr "사용자 목록"
 
-#: ../userdrake:1057
+#: ../userdrake:1059
 #, c-format
 msgid "Enable account expiration"
 msgstr ""
 
-#: ../userdrake:1059
+#: ../userdrake:1061
 #, c-format
 msgid "Account expires (YYYY-MM-DD):"
 msgstr ""
 
-#: ../userdrake:1067
+#: ../userdrake:1069
 #, c-format
 msgid "Lock User Account"
 msgstr ""
 
-#: ../userdrake:1070
+#: ../userdrake:1072
 #, c-format
 msgid "Account Info"
 msgstr ""
 
-#: ../userdrake:1075
+#: ../userdrake:1077
 #, c-format
 msgid "User last changed password on: "
 msgstr ""
 
-#: ../userdrake:1082
+#: ../userdrake:1084
 #, c-format
 msgid "Enable Password Expiration"
 msgstr ""
 
-#: ../userdrake:1087
+#: ../userdrake:1089
 #, c-format
 msgid "Days before change allowed:"
 msgstr ""
 
-#: ../userdrake:1089
+#: ../userdrake:1091
 #, c-format
 msgid "Days before change required:"
 msgstr ""
 
-#: ../userdrake:1091
+#: ../userdrake:1093
 #, c-format
 msgid "Days warning before change:"
 msgstr ""
 
-#: ../userdrake:1093
+#: ../userdrake:1095
 #, c-format
 msgid "Days before account inactive:"
 msgstr ""
 
-#: ../userdrake:1096
+#: ../userdrake:1098
 #, fuzzy, c-format
 msgid "Password Info"
 msgstr "암호"
 
-#: ../userdrake:1100
+#: ../userdrake:1102
 #, c-format
 msgid "Select the groups that the user will be a member of:"
 msgstr ""
 
-#: ../userdrake:1167
+#: ../userdrake:1169
 #, fuzzy, c-format
 msgid "Group Data"
 msgstr "그룹 목록"
 
-#: ../userdrake:1170
+#: ../userdrake:1172
 #, c-format
 msgid "Select the users to join this group:"
 msgstr ""
 
-#: ../userdrake:1172
+#: ../userdrake:1174
 #, fuzzy, c-format
 msgid "Group Users"
 msgstr "그룹"
 
-#: ../userdrake:1192
+#: ../userdrake:1194
 #, fuzzy, c-format
 msgid "Edit Groups / Users"
 msgstr "그룹"
 
-#: ../userdrake:1225
+#: ../userdrake:1227
 #, fuzzy, c-format
 msgid "An error occurred:"
 msgstr "오류 발생"
 
-#: ../userdrake:1336
+#: ../userdrake:1338
 #, c-format
 msgid "Close"
 msgstr "닫기"
 
-#: ../userdrake:1346
+#: ../userdrake:1348
 #, c-format
 msgid "Copyright (C) %s by Mandriva"
 msgstr ""
 
-#: ../userdrake:1346
+#: ../userdrake:1348
 #, c-format
 msgid "Copyright (C) %s by OpenMandriva"
 msgstr ""
 
-#: ../userdrake:1349
+#: ../userdrake:1351
 #, fuzzy, c-format
 msgid "Users Management"
 msgstr "사용자 이름"
 
-#: ../userdrake:1351
+#: ../userdrake:1354
 #, fuzzy, c-format
 msgid "OpenMandriva"
 msgstr "맨드리바 온라인"
 
 #. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
-#: ../userdrake:1355
+#: ../userdrake:1358
 #, c-format
 msgid "_: Translator(s) name(s) & email(s)\n"
 msgstr ""
 
-#: ../userdrake:1362
+#: ../userdrake:1365
 #, c-format
 msgid "Name field is empty please provide a name"
 msgstr ""
 
-#: ../userdrake:1364
+#: ../userdrake:1367
 #, c-format
 msgid ""
 "The name must contain only lower cased latin letters, numbers, `-' and `_'"
 msgstr ""
 
-#: ../userdrake:1367
+#: ../userdrake:1370
 #, c-format
 msgid "Name is too long"
 msgstr ""
 
-#: ../userdrake:1380
+#: ../userdrake:1383
 #, c-format
 msgid "Error"
 msgstr "오류"

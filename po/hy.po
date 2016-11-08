@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-06-19 16:48+0200\n"
+"POT-Creation-Date: 2016-11-08 19:11+0100\n"
 "PO-Revision-Date: 2004-03-16 02:28+0300\n"
 "Last-Translator: Artyom Abgaryan <tyoma@freenet.am>\n"
 "Language-Team: Arm <tyoma@freenet.am>\n"
@@ -85,281 +85,281 @@ msgstr ""
 msgid "Error deleting mail spool: %s\n"
 msgstr ""
 
-#: ../userdrake:64 ../userdrake:1344
+#: ../userdrake:66 ../userdrake:1346
 #, c-format
 msgid "Userdrake"
 msgstr "Userdrake"
 
-#: ../userdrake:69
+#: ../userdrake:71
 #, c-format
 msgid "Loading Users and Groups... Please wait"
 msgstr "Բեռնավորում եմ Գործածողների և Խմբերի ցանկը... Սպասեք"
 
-#: ../userdrake:88
+#: ../userdrake:90
 #, c-format
 msgid "OpenMandriva Users Management Tool"
 msgstr "OpenMandriva Գործածողների Կառավարման Գործիք"
 
-#: ../userdrake:101
+#: ../userdrake:103
 #, c-format
 msgid "_Install guest account"
 msgstr ""
 
-#: ../userdrake:102
+#: ../userdrake:104
 #, c-format
 msgid "_Uninstall guest account"
 msgstr ""
 
-#: ../userdrake:106
+#: ../userdrake:108
 #, fuzzy, c-format
 msgid "_Edit"
 msgstr "/_Խմբագրում"
 
-#: ../userdrake:107
+#: ../userdrake:109
 #, fuzzy, c-format
 msgid "_Delete"
 msgstr "/_Ջնջել"
 
-#: ../userdrake:109
+#: ../userdrake:111
 #, fuzzy, c-format
 msgid "_Filter system users"
 msgstr "/_Ֆիլտրել համակարգի օգտագործողներին"
 
-#: ../userdrake:121
+#: ../userdrake:123
 #, fuzzy, c-format
 msgid "_File"
 msgstr "/_Ֆայլ"
 
-#: ../userdrake:122
+#: ../userdrake:124
 #, fuzzy, c-format
 msgid "_Refresh"
 msgstr "/_Թարմացնել"
 
-#: ../userdrake:123
+#: ../userdrake:125
 #, fuzzy, c-format
 msgid "_Quit"
 msgstr "/_Անջատել"
 
-#: ../userdrake:123
+#: ../userdrake:125
 #, c-format
 msgid "<control>Q"
 msgstr "<control>Q"
 
-#: ../userdrake:124
+#: ../userdrake:126
 #, fuzzy, c-format
 msgid "_Actions"
 msgstr "/_Գործողություններ"
 
-#: ../userdrake:125
+#: ../userdrake:127
 #, fuzzy, c-format
 msgid "_Add User"
 msgstr "/_Ավելացնել Օգտագործող"
 
-#: ../userdrake:126
+#: ../userdrake:128
 #, fuzzy, c-format
 msgid "Add _Group"
 msgstr "/Ավելացնել _Խումբ"
 
 # ԾԾԾԾԾԾԾԾԾԾԾԾԾԾԾԾԾԾԾ
-#: ../userdrake:130
+#: ../userdrake:132
 #, fuzzy, c-format
 msgid "_Options"
 msgstr "/_Օպցիաներ"
 
-#: ../userdrake:131 ../userdrake:132
+#: ../userdrake:133 ../userdrake:134
 #, fuzzy, c-format
 msgid "_Help"
 msgstr "/_Օգնություն"
 
 # ԾԾԾԾԾԾԾԾԾԾԾԾԾԾԾԾԾԾԾ
-#: ../userdrake:133
+#: ../userdrake:135
 #, fuzzy, c-format
 msgid "_Report Bug"
 msgstr "/_Սխալի զեկուցում"
 
-#: ../userdrake:135
+#: ../userdrake:137
 #, fuzzy, c-format
 msgid "_About..."
 msgstr "/_Ընդհանուր..."
 
-#: ../userdrake:183
+#: ../userdrake:185
 #, c-format
 msgid "Search:"
 msgstr "Փնտրել:"
 
 # :)
-#: ../userdrake:189
+#: ../userdrake:191
 #, c-format
 msgid "Apply filter"
 msgstr "Կիրառել զտիչ"
 
-#: ../userdrake:193
+#: ../userdrake:195
 #, c-format
 msgid "Users"
 msgstr "Օգտագործողներ"
 
-#: ../userdrake:197 ../userdrake:1106
+#: ../userdrake:199 ../userdrake:1108
 #, c-format
 msgid "Groups"
 msgstr "խմբեր"
 
 #. -PO: do not translate, this is already translated in mcc
-#: ../userdrake:203
+#: ../userdrake:205
 #, c-format
 msgid "Users and groups"
 msgstr ""
 
-#: ../userdrake:221
+#: ../userdrake:223
 #, c-format
 msgid "User Name"
 msgstr "Օգտագործողի անուն"
 
-#: ../userdrake:221
+#: ../userdrake:223
 #, c-format
 msgid "User ID"
 msgstr "Օգտագործողի ID"
 
-#: ../userdrake:221 ../userdrake:1103
+#: ../userdrake:223 ../userdrake:1105
 #, c-format
 msgid "Primary Group"
 msgstr "Գլխավոր խումբ"
 
-#: ../userdrake:222
+#: ../userdrake:224
 #, c-format
 msgid "Full Name"
 msgstr "Անունը ամբողջությամբ"
 
-#: ../userdrake:222
+#: ../userdrake:224
 #, c-format
 msgid "Login Shell"
 msgstr "Մուտքի միջավայր"
 
-#: ../userdrake:222
+#: ../userdrake:224
 #, c-format
 msgid "Home Directory"
 msgstr "Տնային թղթապանակ"
 
-#: ../userdrake:222
+#: ../userdrake:224
 #, c-format
 msgid "Status"
 msgstr "Վիճակ"
 
-#: ../userdrake:229
+#: ../userdrake:231
 #, c-format
 msgid "Group Name"
 msgstr "Խմբի անուն"
 
-#: ../userdrake:229
+#: ../userdrake:231
 #, c-format
 msgid "Group ID"
 msgstr "Խմբի ID"
 
-#: ../userdrake:229
+#: ../userdrake:231
 #, c-format
 msgid "Group Members"
 msgstr "Անդամների խումբ"
 
-#: ../userdrake:231
+#: ../userdrake:233
 #, c-format
 msgid "Add User"
 msgstr "Ավելացնել օգտագործող"
 
-#: ../userdrake:231
+#: ../userdrake:233
 #, c-format
 msgid "Add a user to the system"
 msgstr "Ավելացնել օգտագործողին համակարգին"
 
-#: ../userdrake:232
+#: ../userdrake:234
 #, c-format
 msgid "Add Group"
 msgstr "Ավելացնել խումբ"
 
-#: ../userdrake:232
+#: ../userdrake:234
 #, c-format
 msgid "Add a group to the system"
 msgstr "Ավելացնել խումբը համակարգին"
 
-#: ../userdrake:233 ../userdrake:804
+#: ../userdrake:235 ../userdrake:806
 #, c-format
 msgid "Edit"
 msgstr "Խմբագրել"
 
-#: ../userdrake:233
+#: ../userdrake:235
 #, c-format
 msgid "Edit selected row"
 msgstr "Խմբագրել ընտրված տողը"
 
-#: ../userdrake:234 ../userdrake:739 ../userdrake:772 ../userdrake:804
+#: ../userdrake:236 ../userdrake:741 ../userdrake:774 ../userdrake:806
 #, c-format
 msgid "Delete"
 msgstr "Ջնջել"
 
-#: ../userdrake:234
+#: ../userdrake:236
 #, c-format
 msgid "Delete selected row"
 msgstr "Ջնջել ընտրված տողը"
 
-#: ../userdrake:235
+#: ../userdrake:237
 #, c-format
 msgid "Refresh"
 msgstr "Թարմացնել"
 
-#: ../userdrake:235
+#: ../userdrake:237
 #, c-format
 msgid "Refresh the list"
 msgstr "Թարմացնել ցուցակը"
 
-#: ../userdrake:299
+#: ../userdrake:301
 #, c-format
 msgid "Locked"
 msgstr "Փակված է"
 
-#: ../userdrake:299
+#: ../userdrake:301
 #, c-format
 msgid "Expired"
 msgstr "Ժամկերը լրացել է"
 
-#: ../userdrake:403
+#: ../userdrake:405
 #, c-format
 msgid "Click on the icon to change it"
 msgstr "Սեղմեք նկարի վրա այն փոփոխելու համար"
 
-#: ../userdrake:449
+#: ../userdrake:451
 #, c-format
 msgid "Create New User"
 msgstr "Ստեղծել նոր օգտագոծող"
 
-#: ../userdrake:455
+#: ../userdrake:457
 #, c-format
 msgid "Create Home Directory"
 msgstr "Ստեղծել տնային թղթապանակ"
 
-#: ../userdrake:457
+#: ../userdrake:459
 #, c-format
 msgid "Home Directory: "
 msgstr "Տնային թղթապանակ:"
 
-#: ../userdrake:460
+#: ../userdrake:462
 #, c-format
 msgid "Create a private group for the user"
 msgstr "Ստեղծել առանձին խումբ օգտագործողի համար"
 
-#: ../userdrake:461
+#: ../userdrake:463
 #, c-format
 msgid "Specify user ID manually"
 msgstr "Նշել օգտագործողի ID-ն ձեռքով"
 
-#: ../userdrake:478
+#: ../userdrake:480
 #, c-format
 msgid "User already exists, please choose another User Name"
 msgstr "Օգտագործողը գոյություն ունի, ընտրեք մեկ այլ օգտագործողի անուն"
 
-#: ../userdrake:483 ../userdrake:924
+#: ../userdrake:485 ../userdrake:926
 #, c-format
 msgid "Password Mismatch"
 msgstr "Գաղտնագրի անհամապատասխանություն"
 
-#: ../userdrake:486 ../userdrake:927
+#: ../userdrake:488 ../userdrake:929
 #, c-format
 msgid ""
 "This password is too simple. \n"
@@ -369,13 +369,13 @@ msgstr ""
 " Լավ գաղտնագիրը պետք է պարունակի ավելի քան վեց նիշ"
 
 # ԾԾԾԾԾԾԾԾԾԾԾԾԾԾԾԾԾԾԾԾ
-#: ../userdrake:498
+#: ../userdrake:500
 #, c-format
 msgid "User Uid is < 1000"
 msgstr "Օգտագործողի Uid-ը < 1000"
 
 # ԾԾԾԾԾԾԾԾԾԾԾԾԾԾԾԾԾԾԾԾԾԾԾԾԾԾ
-#: ../userdrake:499
+#: ../userdrake:501
 #, c-format
 msgid ""
 "Creating a user with a UID less than 1000 is not recommended.\n"
@@ -386,93 +386,93 @@ msgstr ""
 "Դուք համոզվա՞ծ եք, որ ուզում եք անել այդ\n"
 "\n"
 
-#: ../userdrake:514
+#: ../userdrake:516
 #, c-format
 msgid "Putting %s to 'users' group"
 msgstr "Տեղադրում եմ %s - ին 'օգտագործողներ' խմբում"
 
-#: ../userdrake:521
+#: ../userdrake:523
 #, c-format
 msgid "Creating new group: %s"
 msgstr "Ստեղծում եմ նոր խումբ: %s"
 
-#: ../userdrake:530
+#: ../userdrake:532
 #, c-format
 msgid "Adding user: %s"
 msgstr "Ավելագնում եմ %s օգտագործողին"
 
-#: ../userdrake:543
+#: ../userdrake:545
 #, c-format
 msgid "Migration wizard"
 msgstr ""
 
-#: ../userdrake:544
+#: ../userdrake:546
 #, c-format
 msgid ""
 "Do you want to run the migration wizard in order to import Windows documents "
 "and settings in your OpenMandriva distribution?"
 msgstr ""
 
-#: ../userdrake:549 ../userdrake:593 ../userdrake:652 ../userdrake:739
-#: ../userdrake:772 ../userdrake:1232
+#: ../userdrake:551 ../userdrake:595 ../userdrake:654 ../userdrake:741
+#: ../userdrake:774 ../userdrake:1234
 #, c-format
 msgid "Cancel"
 msgstr "Հրաժարվել"
 
-#: ../userdrake:549 ../userdrake:586 ../userdrake:652 ../userdrake:1232
-#: ../userdrake:1384
+#: ../userdrake:551 ../userdrake:588 ../userdrake:654 ../userdrake:1234
+#: ../userdrake:1387
 #, c-format
 msgid "Ok"
 msgstr "Լավ"
 
-#: ../userdrake:562
+#: ../userdrake:564
 #, c-format
 msgid "UID: "
 msgstr "UID: "
 
-#: ../userdrake:575
+#: ../userdrake:577
 #, c-format
 msgid "Choose group"
 msgstr "Ընտրեք խումբը"
 
-#: ../userdrake:577 ../userdrake:578
+#: ../userdrake:579 ../userdrake:580
 #, c-format
 msgid "Add to the existing group"
 msgstr "Ավելագնել գոյություն ունեցող խմբին"
 
-#: ../userdrake:579
+#: ../userdrake:581
 #, c-format
 msgid "Add to the 'users' group"
 msgstr "Ավելագնել  'օգտագործողներ' խմբին"
 
 # ԾԾԾԾԾԾԾԾԾԾ
-#: ../userdrake:581
+#: ../userdrake:583
 #, c-format
 msgid "A group with this name already exists.  What would you like to do?"
 msgstr "Խումբ այդպիսի անունով գոյություն ունի: Ին՞չ եք ուզում անել"
 
-#: ../userdrake:611
+#: ../userdrake:613
 #, c-format
 msgid "Create New Group"
 msgstr "Ստեղծել նոր խումբ"
 
-#: ../userdrake:616
+#: ../userdrake:618
 #, c-format
 msgid "Specify group ID manually"
 msgstr "Նշել խմբի ID ձեռքով"
 
-#: ../userdrake:632
+#: ../userdrake:634
 #, c-format
 msgid "Group already exists, please choose another Group Name"
 msgstr "Խումբը գոյություն ունի, ընտրեք խմբի մեկ այլ անուն"
 
-#: ../userdrake:638
+#: ../userdrake:640
 #, c-format
 msgid " Group Gid is < 1000"
 msgstr "Խմբի GID-ը < 1000"
 
 # Նոր ջան մի հատ  նայի ես ինչ եմ արե :)
-#: ../userdrake:639
+#: ../userdrake:641
 #, c-format
 msgid ""
 "Creating a group with a GID less than 1000 is not recommended.\n"
@@ -483,22 +483,22 @@ msgstr ""
 "Դուք համոզվա՞ծ եք, որ ուզում եք անել այդ\n"
 "\n"
 
-#: ../userdrake:646
+#: ../userdrake:648
 #, c-format
 msgid "Adding group: %s "
 msgstr "Ավելացնում եմ %s խումբը"
 
-#: ../userdrake:656
+#: ../userdrake:658
 #, c-format
 msgid "GID: "
 msgstr "GID: "
 
-#: ../userdrake:701
+#: ../userdrake:703
 #, c-format
 msgid "Delete files or not?"
 msgstr "Ջնջել ֆայլերը թե ոչ"
 
-#: ../userdrake:704
+#: ../userdrake:706
 #, c-format
 msgid ""
 "Deleting user %s\n"
@@ -507,27 +507,27 @@ msgstr ""
 "Ջնջում եմ %s օգտագործողին\n"
 " Նաև կատարվում եմ հետևյալ գործողությունները\n"
 
-#: ../userdrake:706
+#: ../userdrake:708
 #, c-format
 msgid "Delete Home Directory: %s"
 msgstr "Ջնջել Տնային %s թղթապանակը"
 
-#: ../userdrake:707
+#: ../userdrake:709
 #, c-format
 msgid "Delete Mailbox: /var/spool/mail/%s"
 msgstr "Ջնջել փոստարկղը :/var/spool/mail/%s"
 
-#: ../userdrake:716
+#: ../userdrake:718
 #, c-format
 msgid "Removing user: %s"
 msgstr "Հեռացնում եմ %s օգտագործողին"
 
-#: ../userdrake:749
+#: ../userdrake:751
 #, c-format
 msgid "Do you really want to delete the group %s?"
 msgstr "Դուք իսկապես ուզում եք ջնջել %s խումբը"
 
-#: ../userdrake:762
+#: ../userdrake:764
 #, c-format
 msgid ""
 "%s is a primary group for user %s\n"
@@ -536,49 +536,49 @@ msgstr ""
 "%s-ը գլխավոր խումբ է %s օտագորողի համար\n"
 " Սկզբից հեռացրեք օգտագործողին"
 
-#: ../userdrake:767
+#: ../userdrake:769
 #, c-format
 msgid "Removing group: %s"
 msgstr "Հեռացնում եմ %s խումբը"
 
-#: ../userdrake:863
+#: ../userdrake:865
 #, c-format
 msgid "Full Name:"
 msgstr "Անունը ամբողջությամբ:"
 
-#: ../userdrake:865
+#: ../userdrake:867
 #, c-format
 msgid "Login:"
 msgstr "Մուտքանուն:"
 
-#: ../userdrake:867
+#: ../userdrake:869
 #, c-format
 msgid "Password:"
 msgstr "Գաղտնագիր:"
 
 # ԾԾԾԾԾԾԾԾԾԾԾԾԾԾ
-#: ../userdrake:869
+#: ../userdrake:871
 #, c-format
 msgid "Confirm Password:"
 msgstr "Գրեք կրկին գաղտնագիրը"
 
-#: ../userdrake:871
+#: ../userdrake:873
 #, c-format
 msgid "Login Shell:"
 msgstr "Մուտքի միջավայր:"
 
-#: ../userdrake:884
+#: ../userdrake:886
 #, c-format
 msgid "Group Name:"
 msgstr "Խմբի անուն:"
 
-#: ../userdrake:958
+#: ../userdrake:960
 #, c-format
 msgid "Please select at least one group for the user"
 msgstr "Ընտրեք գոնե մեկ խումբ օգտագործողի համար"
 
 # ԾԾԾԾԾԾԾԾԾԾԾԾԾԾԾԾԾԾԾԾԾԾ
-#: ../userdrake:968
+#: ../userdrake:970
 #, c-format
 msgid ""
 "Please specify Year, Month and Day \n"
@@ -587,68 +587,68 @@ msgstr ""
 "Նշեք հաշիվը փակելու \n"
 "Տարին,Ամիսը և Օրը"
 
-#: ../userdrake:978
+#: ../userdrake:980
 #, c-format
 msgid "Please fill up all fields in password aging\n"
 msgstr "Լրացրեք բոլոր դաշտերը գաղտնագրի ժամկետի համար\n"
 
-#: ../userdrake:1030
+#: ../userdrake:1032
 #, c-format
 msgid "You cannot remove user '%s' from their primary group"
 msgstr "Դուք չեք կարող հեռացնել '%s' օգտագործողին նրա գլխավոր խմբից"
 
-#: ../userdrake:1051
+#: ../userdrake:1053
 #, c-format
 msgid "Home:"
 msgstr "Տուն:"
 
-#: ../userdrake:1053
+#: ../userdrake:1055
 #, c-format
 msgid "User Data"
 msgstr "Օգտագործողի տվյալներ"
 
-#: ../userdrake:1057
+#: ../userdrake:1059
 #, c-format
 msgid "Enable account expiration"
 msgstr "Միացնել հաշվի ժամկետի լրացումը"
 
-#: ../userdrake:1059
+#: ../userdrake:1061
 #, c-format
 msgid "Account expires (YYYY-MM-DD):"
 msgstr "Հաշվի ժանմկետը լրանում է (YYYY-MM-DD):"
 
-#: ../userdrake:1067
+#: ../userdrake:1069
 #, c-format
 msgid "Lock User Account"
 msgstr "Փակել օգտագործողի հաշիվը"
 
-#: ../userdrake:1070
+#: ../userdrake:1072
 #, c-format
 msgid "Account Info"
 msgstr "Հաշվի տվյալներ"
 
-#: ../userdrake:1075
+#: ../userdrake:1077
 #, c-format
 msgid "User last changed password on: "
 msgstr "Օգտագործողը վերջին անգամ գաղտնաբառը փոխել է:"
 
 # ԾԾԾԾԾԾԾԾԾԾԾԾԾԾԾ
-#: ../userdrake:1082
+#: ../userdrake:1084
 #, c-format
 msgid "Enable Password Expiration"
 msgstr "Միացնել գաղտնագրի ժամկետի լրացումը"
 
-#: ../userdrake:1087
+#: ../userdrake:1089
 #, c-format
 msgid "Days before change allowed:"
 msgstr "Քանի օր հետո թույլատրել փոփոխությունները:"
 
-#: ../userdrake:1089
+#: ../userdrake:1091
 #, c-format
 msgid "Days before change required:"
 msgstr "Քանի օր հետո պահանջել փոփոխություն:"
 
-#: ../userdrake:1091
+#: ../userdrake:1093
 #, c-format
 msgid "Days warning before change:"
 msgstr ""
@@ -656,83 +656,83 @@ msgstr ""
 " փոփոխությունների համար :"
 
 # ԾԾԾԾԾԾԾԾԾԾԾԾԾԾԾԾ
-#: ../userdrake:1093
+#: ../userdrake:1095
 #, c-format
 msgid "Days before account inactive:"
 msgstr "Օրերի քանակը մինչ հաշվի անջատումը:"
 
-#: ../userdrake:1096
+#: ../userdrake:1098
 #, c-format
 msgid "Password Info"
 msgstr "Գաղտնաբառի Տվյալներ"
 
-#: ../userdrake:1100
+#: ../userdrake:1102
 #, c-format
 msgid "Select the groups that the user will be a member of:"
 msgstr "Ընտրեք խումբը, որի անդամ պետք է լինի օգտագործողը:"
 
-#: ../userdrake:1167
+#: ../userdrake:1169
 #, c-format
 msgid "Group Data"
 msgstr "Խմբի Տվյալներ"
 
-#: ../userdrake:1170
+#: ../userdrake:1172
 #, c-format
 msgid "Select the users to join this group:"
 msgstr "Ընտրեք օգտագործողներին, որոնք վայելելու են այս խումբը"
 
-#: ../userdrake:1172
+#: ../userdrake:1174
 #, c-format
 msgid "Group Users"
 msgstr "Խմբի օգտագործողներ"
 
-#: ../userdrake:1192
+#: ../userdrake:1194
 #, c-format
 msgid "Edit Groups / Users"
 msgstr "Խմբագրել Խմերը/Օգտագործողներին"
 
-#: ../userdrake:1225
+#: ../userdrake:1227
 #, c-format
 msgid "An error occurred:"
 msgstr ""
 
-#: ../userdrake:1336
+#: ../userdrake:1338
 #, c-format
 msgid "Close"
 msgstr "Փակել"
 
-#: ../userdrake:1346
+#: ../userdrake:1348
 #, c-format
 msgid "Copyright (C) %s by Mandriva"
 msgstr ""
 
-#: ../userdrake:1346
+#: ../userdrake:1348
 #, c-format
 msgid "Copyright (C) %s by OpenMandriva"
 msgstr ""
 
-#: ../userdrake:1349
+#: ../userdrake:1351
 #, c-format
 msgid "Users Management"
 msgstr "Օգտագործողների կառավարում"
 
-#: ../userdrake:1351
+#: ../userdrake:1354
 #, c-format
 msgid "OpenMandriva"
 msgstr ""
 
 #. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
-#: ../userdrake:1355
+#: ../userdrake:1358
 #, c-format
 msgid "_: Translator(s) name(s) & email(s)\n"
 msgstr ""
 
-#: ../userdrake:1362
+#: ../userdrake:1365
 #, c-format
 msgid "Name field is empty please provide a name"
 msgstr "Անվան դաշտը դատարկ է, գրեք որևէ անուն"
 
-#: ../userdrake:1364
+#: ../userdrake:1367
 #, c-format
 msgid ""
 "The name must contain only lower cased latin letters, numbers, `-' and `_'"
@@ -740,12 +740,12 @@ msgstr ""
 "Անունը կարող է պարունակի միայն փոքրատառ լատիներեն տառեր, թվեր, `-' և `_' "
 "նշաններ"
 
-#: ../userdrake:1367
+#: ../userdrake:1370
 #, c-format
 msgid "Name is too long"
 msgstr "Անունը շատ երկար է"
 
-#: ../userdrake:1380
+#: ../userdrake:1383
 #, c-format
 msgid "Error"
 msgstr "Սխալ"

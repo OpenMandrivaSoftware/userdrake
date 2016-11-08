@@ -57,7 +57,9 @@ my $accounts_manager = eval { $accounts_service->get_object(
 my $in = interactive->vnew('su');
 
 my $us = {};
-$us->{VERSION} = '2.2';
+$us->{VERSION} = '2.3';
+
+my $minimum_id = 1000;
 
 my $window_splash = Gtk3::Window->new('popup');
 $window_splash->signal_connect(delete_event => \&QuitGlobal);
@@ -292,7 +294,7 @@ sub NotebookSwitch() {
 }
 
 sub ComputeLockExpire {
-    my $l = shift;
+    my ($l) = @_;
     my $ep = $l->ShadowExpire($GetValue);
     my $tm = ceil(time()/(24*60*60));
     $ep = -1 if int($tm) <= $ep;
@@ -308,7 +310,7 @@ sub RefreshUsersFull {
     my @UserReal;
   LOOP: foreach my $l (@$users) {
         next LOOP if $filterusers && $l->Uid($GetValue) <= 499 || $l->Uid($GetValue) == 65534;
-        next LOOP if $filterusers && $l->Uid($GetValue) > 499 && $l->Uid($GetValue) < 1000 && ($l->HomeDir($GetValue) =~ /^\/($|var\/|run\/)/ || $l->LoginShell($GetValue) =~ /(nologin|false)$/);
+        next LOOP if $filterusers && $l->Uid($GetValue) > 499 && $l->Uid($GetValue) < 1000 && ($l->HomeDir($GetValue) =~ m!^/($|var/|run/)! || $l->LoginShell($GetValue) =~ /(nologin|false)$/);
         push @UserReal, $l if $l->UserName($GetValue) =~ /^\Q$strfilt/;
     }
     my $i;
@@ -367,18 +369,18 @@ sub Refresh {
 }
 
 sub GetFaceIcon {
-    my ($user) = @_;
+    my ($o_user) = @_;
     my @icons = any::facesnames();
     my $i;
     my $current_icon;
     my $user_icon;
-    if ($user) {
+    if ($o_user) {
        my %desktop = getVarsFromSh("$::prefix/etc/sysconfig/desktop");
        if ($desktop{DESKTOP} eq 'GNOME') {
 	  eval {
-	  my $accounts_user_path = $accounts_manager->FindUserByName($user);
+	  my $accounts_user_path = $accounts_manager->FindUserByName($o_user);
 	  # service doens't provide Get methods; we need to use different
-	  # interface to read properties    
+	  # interface to read properties
 	  my $accounts_user_get = $accounts_service->get_object(
 		$accounts_user_path,
 		"org.freedesktop.DBus.Properties");
@@ -391,12 +393,12 @@ sub GetFaceIcon {
 	  };
         }
         else {
-           my $local_icon = "$::prefix/home/$user/.face.icon";
+           my $local_icon = "$::prefix/home/$o_user/.face.icon";
 
 	   if (-e $local_icon) {
 	      $user_icon = $local_icon;
 	   }
-           $user_icon ||= "$::prefix/usr/share/faces/$user.face.icon";
+           $user_icon ||= "$::prefix/usr/share/faces/$o_user.face.icon";
         }
     }
     gtkpack_(my $hb = Gtk3::HBox->new(0, 2),
@@ -557,10 +559,10 @@ sub AddUser() {
             $fullname or $us->{o}{fullname}->set_text($us->{o}{login}->get_text);
             0;       # Gdk expect focus event handlers to return false
         });
-    $us->{o}{uid} = Gtk3::SpinButton->new(Gtk3::Adjustment->new(500, 1, 65000, 1, 10, 10), 1, 0);
+    $us->{o}{uid} = Gtk3::SpinButton->new(Gtk3::Adjustment->new($minimum_id, 1, 65000, 1, 10, 10), 1, 0);
     $h->pack_end($us->{o}{uid}, 0, 0, 4);
     $h->pack_end(Gtk3::Label->new(N("UID: ")), 0, 0, 4);
-    GrayBox($us->{o}{userid}, $h, 0);					
+    GrayBox($us->{o}{userid}, $h, 0);
     $w->show_all;
 }
 
@@ -651,7 +653,7 @@ sub AddGroup() {
                        !$error and $w->destroy; $error = 0 });
            } ([ N("Cancel"), 1 ], [ N("Ok"), 0 ])
        );
-    $us->{o}{gid} = Gtk3::SpinButton->new(Gtk3::Adjustment->new(500, 1, 65000, 1, 10, 10), 1, 0);
+    $us->{o}{gid} = Gtk3::SpinButton->new(Gtk3::Adjustment->new($minimum_id, 1, 65000, 1, 10, 10), 1, 0);
     $h->pack_end($us->{o}{gid}, 0, 0, 4);
     $h->pack_end(Gtk3::Label->new(N("GID: ")), 0, 0, 4);
     $us->{o}{groupid}->signal_connect('clicked' => sub { $mode = !$mode; $h->set_sensitive($mode) });
@@ -1347,6 +1349,7 @@ sub About() {
                    if_(-r "$pixdir/userdrake.png", logo => "$pixdir/userdrake.png"),
                    license => $license, wrap_license => 1,
                    comments => N("Users Management"),
+                   transient_for => $::main_window,
                    website => 'http://www.openmandriva.org',
                    website_label => N("OpenMandriva"),
                    authors => [ 'Daouda Lo', 'Thierry Vignaud <tvignaud@gmail.com>' ],

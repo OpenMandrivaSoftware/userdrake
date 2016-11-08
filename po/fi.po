@@ -15,7 +15,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: userdrake\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-06-19 16:48+0200\n"
+"POT-Creation-Date: 2016-11-08 19:11+0100\n"
 "PO-Revision-Date: 2011-05-17 19:39+0300\n"
 "Last-Translator: Jani Välimaa <wally@mageia.org>\n"
 "Language-Team: Finnish <om-i18n@openmandriva.org>\n"
@@ -95,278 +95,278 @@ msgstr "Käyttäjän kotihakemistoa ei voitu poistaa: %s.\n"
 msgid "Error deleting mail spool: %s\n"
 msgstr "Virhe poistettaessa postilaatikkoa: %s\n"
 
-#: ../userdrake:64 ../userdrake:1344
+#: ../userdrake:66 ../userdrake:1346
 #, c-format
 msgid "Userdrake"
 msgstr "Userdrake"
 
-#: ../userdrake:69
+#: ../userdrake:71
 #, c-format
 msgid "Loading Users and Groups... Please wait"
 msgstr "Ladataan käyttäjät ja ryhmät... Odota hetki"
 
-#: ../userdrake:88
+#: ../userdrake:90
 #, c-format
 msgid "OpenMandriva Users Management Tool"
 msgstr "OpenMandrivain käyttäjienhallintatyökalu"
 
-#: ../userdrake:101
+#: ../userdrake:103
 #, fuzzy, c-format
 msgid "_Install guest account"
 msgstr "/Asenna _vierastili"
 
-#: ../userdrake:102
+#: ../userdrake:104
 #, fuzzy, c-format
 msgid "_Uninstall guest account"
 msgstr "/Poista _vierastili"
 
-#: ../userdrake:106
+#: ../userdrake:108
 #, fuzzy, c-format
 msgid "_Edit"
 msgstr "/_Muokkaa"
 
-#: ../userdrake:107
+#: ../userdrake:109
 #, fuzzy, c-format
 msgid "_Delete"
 msgstr "/_Poista"
 
-#: ../userdrake:109
+#: ../userdrake:111
 #, fuzzy, c-format
 msgid "_Filter system users"
 msgstr "/_Piilota järjestelmäkäyttäjät"
 
-#: ../userdrake:121
+#: ../userdrake:123
 #, fuzzy, c-format
 msgid "_File"
 msgstr "/_Tiedosto"
 
-#: ../userdrake:122
+#: ../userdrake:124
 #, fuzzy, c-format
 msgid "_Refresh"
 msgstr "/_Päivitä"
 
-#: ../userdrake:123
+#: ../userdrake:125
 #, fuzzy, c-format
 msgid "_Quit"
 msgstr "/_Lopeta"
 
-#: ../userdrake:123
+#: ../userdrake:125
 #, c-format
 msgid "<control>Q"
 msgstr "<control>L"
 
-#: ../userdrake:124
+#: ../userdrake:126
 #, fuzzy, c-format
 msgid "_Actions"
 msgstr "/T_oiminnot"
 
-#: ../userdrake:125
+#: ../userdrake:127
 #, fuzzy, c-format
 msgid "_Add User"
 msgstr "/Lisää _käyttäjä"
 
-#: ../userdrake:126
+#: ../userdrake:128
 #, fuzzy, c-format
 msgid "Add _Group"
 msgstr "/Lisää _ryhmä"
 
-#: ../userdrake:130
+#: ../userdrake:132
 #, fuzzy, c-format
 msgid "_Options"
 msgstr "/_Asetukset"
 
-#: ../userdrake:131 ../userdrake:132
+#: ../userdrake:133 ../userdrake:134
 #, fuzzy, c-format
 msgid "_Help"
 msgstr "/O_hje"
 
-#: ../userdrake:133
+#: ../userdrake:135
 #, fuzzy, c-format
 msgid "_Report Bug"
 msgstr "/_Ilmoita virheestä"
 
-#: ../userdrake:135
+#: ../userdrake:137
 #, fuzzy, c-format
 msgid "_About..."
 msgstr "/_Tietoja"
 
-#: ../userdrake:183
+#: ../userdrake:185
 #, c-format
 msgid "Search:"
 msgstr "Etsi:"
 
-#: ../userdrake:189
+#: ../userdrake:191
 #, c-format
 msgid "Apply filter"
 msgstr "Suodata"
 
-#: ../userdrake:193
+#: ../userdrake:195
 #, c-format
 msgid "Users"
 msgstr "Käyttäjät"
 
-#: ../userdrake:197 ../userdrake:1106
+#: ../userdrake:199 ../userdrake:1108
 #, c-format
 msgid "Groups"
 msgstr "Ryhmät"
 
 #. -PO: do not translate, this is already translated in mcc
-#: ../userdrake:203
+#: ../userdrake:205
 #, c-format
 msgid "Users and groups"
 msgstr "Käyttäjät ja ryhmät"
 
-#: ../userdrake:221
+#: ../userdrake:223
 #, c-format
 msgid "User Name"
 msgstr "Käyttäjätunnus"
 
-#: ../userdrake:221
+#: ../userdrake:223
 #, c-format
 msgid "User ID"
 msgstr "UID"
 
-#: ../userdrake:221 ../userdrake:1103
+#: ../userdrake:223 ../userdrake:1105
 #, c-format
 msgid "Primary Group"
 msgstr "Ensisijainen ryhmä"
 
-#: ../userdrake:222
+#: ../userdrake:224
 #, c-format
 msgid "Full Name"
 msgstr "Koko nimi"
 
-#: ../userdrake:222
+#: ../userdrake:224
 #, c-format
 msgid "Login Shell"
 msgstr "Kirjautumistulkki"
 
-#: ../userdrake:222
+#: ../userdrake:224
 #, c-format
 msgid "Home Directory"
 msgstr "Kotihakemisto"
 
-#: ../userdrake:222
+#: ../userdrake:224
 #, c-format
 msgid "Status"
 msgstr "Tila"
 
-#: ../userdrake:229
+#: ../userdrake:231
 #, c-format
 msgid "Group Name"
 msgstr "Nimi"
 
-#: ../userdrake:229
+#: ../userdrake:231
 #, c-format
 msgid "Group ID"
 msgstr "GID"
 
-#: ../userdrake:229
+#: ../userdrake:231
 #, c-format
 msgid "Group Members"
 msgstr "Jäsenet"
 
-#: ../userdrake:231
+#: ../userdrake:233
 #, c-format
 msgid "Add User"
 msgstr "Lisää käyttäjä"
 
-#: ../userdrake:231
+#: ../userdrake:233
 #, c-format
 msgid "Add a user to the system"
 msgstr "Lisää käyttäjä järjestelmään"
 
-#: ../userdrake:232
+#: ../userdrake:234
 #, c-format
 msgid "Add Group"
 msgstr "Lisää ryhmä"
 
-#: ../userdrake:232
+#: ../userdrake:234
 #, c-format
 msgid "Add a group to the system"
 msgstr "Lisää ryhmä järjestelmään"
 
-#: ../userdrake:233 ../userdrake:804
+#: ../userdrake:235 ../userdrake:806
 #, c-format
 msgid "Edit"
 msgstr "Muokkaa"
 
-#: ../userdrake:233
+#: ../userdrake:235
 #, c-format
 msgid "Edit selected row"
 msgstr "Muokkaa valittua riviä"
 
-#: ../userdrake:234 ../userdrake:739 ../userdrake:772 ../userdrake:804
+#: ../userdrake:236 ../userdrake:741 ../userdrake:774 ../userdrake:806
 #, c-format
 msgid "Delete"
 msgstr "Poista"
 
-#: ../userdrake:234
+#: ../userdrake:236
 #, c-format
 msgid "Delete selected row"
 msgstr "Poista valittu rivi"
 
-#: ../userdrake:235
+#: ../userdrake:237
 #, c-format
 msgid "Refresh"
 msgstr "Päivitä"
 
-#: ../userdrake:235
+#: ../userdrake:237
 #, c-format
 msgid "Refresh the list"
 msgstr "Päivitä lista"
 
-#: ../userdrake:299
+#: ../userdrake:301
 #, c-format
 msgid "Locked"
 msgstr "Lukittu"
 
-#: ../userdrake:299
+#: ../userdrake:301
 #, c-format
 msgid "Expired"
 msgstr "Vanhentunut"
 
-#: ../userdrake:403
+#: ../userdrake:405
 #, c-format
 msgid "Click on the icon to change it"
 msgstr "Vaihda kuvaketta napsauttamalla"
 
-#: ../userdrake:449
+#: ../userdrake:451
 #, c-format
 msgid "Create New User"
 msgstr "Luo uusi käyttäjä"
 
-#: ../userdrake:455
+#: ../userdrake:457
 #, c-format
 msgid "Create Home Directory"
 msgstr "Luo kotihakemisto"
 
-#: ../userdrake:457
+#: ../userdrake:459
 #, c-format
 msgid "Home Directory: "
 msgstr "Kotihakemisto: "
 
-#: ../userdrake:460
+#: ../userdrake:462
 #, c-format
 msgid "Create a private group for the user"
 msgstr "Luo käyttäjälle yksityinen ryhmä"
 
-#: ../userdrake:461
+#: ../userdrake:463
 #, c-format
 msgid "Specify user ID manually"
 msgstr "Määritä UID käsin"
 
-#: ../userdrake:478
+#: ../userdrake:480
 #, c-format
 msgid "User already exists, please choose another User Name"
 msgstr "Käyttäjätunnus on jo olemassa, valitse toinen käyttäjätunnus"
 
-#: ../userdrake:483 ../userdrake:924
+#: ../userdrake:485 ../userdrake:926
 #, c-format
 msgid "Password Mismatch"
 msgstr "Salasana ei täsmää"
 
-#: ../userdrake:486 ../userdrake:927
+#: ../userdrake:488 ../userdrake:929
 #, c-format
 msgid ""
 "This password is too simple. \n"
@@ -375,12 +375,12 @@ msgstr ""
 "Salasana on liian yksinkertainen.\n"
 " Hyvä salasana on vähintään kuusi merkkiä pitkä."
 
-#: ../userdrake:498
+#: ../userdrake:500
 #, c-format
 msgid "User Uid is < 1000"
 msgstr "Käyttäjän UID on pienempi kuin 1000"
 
-#: ../userdrake:499
+#: ../userdrake:501
 #, c-format
 msgid ""
 "Creating a user with a UID less than 1000 is not recommended.\n"
@@ -391,91 +391,91 @@ msgstr ""
 " Haluatko varmasti luoda käyttäjän?\n"
 "\n"
 
-#: ../userdrake:514
+#: ../userdrake:516
 #, c-format
 msgid "Putting %s to 'users' group"
 msgstr "Lisätään käyttäjä %s ryhmään \"users\"."
 
-#: ../userdrake:521
+#: ../userdrake:523
 #, c-format
 msgid "Creating new group: %s"
 msgstr "Luodaan uusi ryhmä: %s"
 
-#: ../userdrake:530
+#: ../userdrake:532
 #, c-format
 msgid "Adding user: %s"
 msgstr "Lisätään käyttäjä: %s"
 
-#: ../userdrake:543
+#: ../userdrake:545
 #, c-format
 msgid "Migration wizard"
 msgstr "Tietojen tuonti Windowsista"
 
-#: ../userdrake:544
+#: ../userdrake:546
 #, c-format
 msgid ""
 "Do you want to run the migration wizard in order to import Windows documents "
 "and settings in your OpenMandriva distribution?"
 msgstr "Haluatko tuoda Windowsin dokumentit ja asetukset OpenMandrivaiin?"
 
-#: ../userdrake:549 ../userdrake:593 ../userdrake:652 ../userdrake:739
-#: ../userdrake:772 ../userdrake:1232
+#: ../userdrake:551 ../userdrake:595 ../userdrake:654 ../userdrake:741
+#: ../userdrake:774 ../userdrake:1234
 #, c-format
 msgid "Cancel"
 msgstr "Peruuta"
 
-#: ../userdrake:549 ../userdrake:586 ../userdrake:652 ../userdrake:1232
-#: ../userdrake:1384
+#: ../userdrake:551 ../userdrake:588 ../userdrake:654 ../userdrake:1234
+#: ../userdrake:1387
 #, c-format
 msgid "Ok"
 msgstr "Ok"
 
-#: ../userdrake:562
+#: ../userdrake:564
 #, c-format
 msgid "UID: "
 msgstr "UID: "
 
-#: ../userdrake:575
+#: ../userdrake:577
 #, c-format
 msgid "Choose group"
 msgstr "Valitse ryhmä"
 
-#: ../userdrake:577 ../userdrake:578
+#: ../userdrake:579 ../userdrake:580
 #, c-format
 msgid "Add to the existing group"
 msgstr "Lisää olemassa olevaan ryhmään"
 
-#: ../userdrake:579
+#: ../userdrake:581
 #, c-format
 msgid "Add to the 'users' group"
 msgstr "Lisää ryhmään \"users\""
 
-#: ../userdrake:581
+#: ../userdrake:583
 #, c-format
 msgid "A group with this name already exists.  What would you like to do?"
 msgstr "Tällä nimellä oleva ryhmä on jo olemassa. Mitä haluat tehdä?"
 
-#: ../userdrake:611
+#: ../userdrake:613
 #, c-format
 msgid "Create New Group"
 msgstr "Luo uusi ryhmä"
 
-#: ../userdrake:616
+#: ../userdrake:618
 #, c-format
 msgid "Specify group ID manually"
 msgstr "Määritä GID käsin"
 
-#: ../userdrake:632
+#: ../userdrake:634
 #, c-format
 msgid "Group already exists, please choose another Group Name"
 msgstr "Ryhmä on jo olemassa, valitse toinen nimi ryhmälle"
 
-#: ../userdrake:638
+#: ../userdrake:640
 #, c-format
 msgid " Group Gid is < 1000"
 msgstr " Ryhmän GID on pienempi kuin 1000"
 
-#: ../userdrake:639
+#: ../userdrake:641
 #, c-format
 msgid ""
 "Creating a group with a GID less than 1000 is not recommended.\n"
@@ -486,22 +486,22 @@ msgstr ""
 " Haluatko varmasti luoda ryhmän?\n"
 "\n"
 
-#: ../userdrake:646
+#: ../userdrake:648
 #, c-format
 msgid "Adding group: %s "
 msgstr "Lisätään ryhmä: %s "
 
-#: ../userdrake:656
+#: ../userdrake:658
 #, c-format
 msgid "GID: "
 msgstr "GID: "
 
-#: ../userdrake:701
+#: ../userdrake:703
 #, c-format
 msgid "Delete files or not?"
 msgstr "Poistetaanko tiedostot?"
 
-#: ../userdrake:704
+#: ../userdrake:706
 #, c-format
 msgid ""
 "Deleting user %s\n"
@@ -510,27 +510,27 @@ msgstr ""
 "Poistetaan käyttäjä %s.\n"
 " Suorita myös seuraavat tehtävät:\n"
 
-#: ../userdrake:706
+#: ../userdrake:708
 #, c-format
 msgid "Delete Home Directory: %s"
 msgstr "Poista kotihakemisto: %s"
 
-#: ../userdrake:707
+#: ../userdrake:709
 #, c-format
 msgid "Delete Mailbox: /var/spool/mail/%s"
 msgstr "Poista sähköpostilaatikko: /var/spool/mail/%s"
 
-#: ../userdrake:716
+#: ../userdrake:718
 #, c-format
 msgid "Removing user: %s"
 msgstr "Poistetaan käyttäjä: %s"
 
-#: ../userdrake:749
+#: ../userdrake:751
 #, c-format
 msgid "Do you really want to delete the group %s?"
 msgstr "Haluatko varmasti poistaa ryhmän %s?"
 
-#: ../userdrake:762
+#: ../userdrake:764
 #, c-format
 msgid ""
 "%s is a primary group for user %s\n"
@@ -539,47 +539,47 @@ msgstr ""
 "%s on käyttäjän %s ensisijainen ryhmä\n"
 " Poista ensin käyttäjä"
 
-#: ../userdrake:767
+#: ../userdrake:769
 #, c-format
 msgid "Removing group: %s"
 msgstr "Poistetaan ryhmä: %s"
 
-#: ../userdrake:863
+#: ../userdrake:865
 #, c-format
 msgid "Full Name:"
 msgstr "Koko nimi:"
 
-#: ../userdrake:865
+#: ../userdrake:867
 #, c-format
 msgid "Login:"
 msgstr "Käyttäjätunnus:"
 
-#: ../userdrake:867
+#: ../userdrake:869
 #, c-format
 msgid "Password:"
 msgstr "Salasana:"
 
-#: ../userdrake:869
+#: ../userdrake:871
 #, c-format
 msgid "Confirm Password:"
 msgstr "Varmista salasana:"
 
-#: ../userdrake:871
+#: ../userdrake:873
 #, c-format
 msgid "Login Shell:"
 msgstr "Kirjautumistulkki:"
 
-#: ../userdrake:884
+#: ../userdrake:886
 #, c-format
 msgid "Group Name:"
 msgstr "Ryhmän nimi:"
 
-#: ../userdrake:958
+#: ../userdrake:960
 #, c-format
 msgid "Please select at least one group for the user"
 msgstr "Valitse käyttäjälle vähintään yksi ryhmä"
 
-#: ../userdrake:968
+#: ../userdrake:970
 #, c-format
 msgid ""
 "Please specify Year, Month and Day \n"
@@ -588,150 +588,150 @@ msgstr ""
 "Määrittele vuosi, kuukausi ja päivä\n"
 " jolloin käyttäjätili vanhenee "
 
-#: ../userdrake:978
+#: ../userdrake:980
 #, c-format
 msgid "Please fill up all fields in password aging\n"
 msgstr "Täytä kaikki kentät salasanan vanhenemiselle\n"
 
-#: ../userdrake:1030
+#: ../userdrake:1032
 #, c-format
 msgid "You cannot remove user '%s' from their primary group"
 msgstr "Käyttäjää %s ei voida poistaa hänen ensisijaisesta ryhmästään"
 
-#: ../userdrake:1051
+#: ../userdrake:1053
 #, c-format
 msgid "Home:"
 msgstr "Kotihakemisto:"
 
-#: ../userdrake:1053
+#: ../userdrake:1055
 #, c-format
 msgid "User Data"
 msgstr "Käyttäjän tiedot"
 
-#: ../userdrake:1057
+#: ../userdrake:1059
 #, c-format
 msgid "Enable account expiration"
 msgstr "Ota käyttöön käyttäjätilin vanheneminen"
 
-#: ../userdrake:1059
+#: ../userdrake:1061
 #, c-format
 msgid "Account expires (YYYY-MM-DD):"
 msgstr "Käyttäjätili vanhenee (VVVV-KK-PP):"
 
-#: ../userdrake:1067
+#: ../userdrake:1069
 #, c-format
 msgid "Lock User Account"
 msgstr "Lukitse käyttäjätili"
 
-#: ../userdrake:1070
+#: ../userdrake:1072
 #, c-format
 msgid "Account Info"
 msgstr "Käyttäjätili"
 
-#: ../userdrake:1075
+#: ../userdrake:1077
 #, c-format
 msgid "User last changed password on: "
 msgstr "Käyttäjä vaihtoi salasanaa viimeksi:"
 
-#: ../userdrake:1082
+#: ../userdrake:1084
 #, c-format
 msgid "Enable Password Expiration"
 msgstr "Ota käyttöön salasanan vanheneminen"
 
-#: ../userdrake:1087
+#: ../userdrake:1089
 #, c-format
 msgid "Days before change allowed:"
 msgstr "Salasanan vaihtaminen sallitaan X päivän jälkeen:"
 
-#: ../userdrake:1089
+#: ../userdrake:1091
 #, c-format
 msgid "Days before change required:"
 msgstr "Salasanan vaihtaminen vaaditaan X päivän jälkeen:"
 
-#: ../userdrake:1091
+#: ../userdrake:1093
 #, c-format
 msgid "Days warning before change:"
 msgstr "Varoita X päivää ennen vaihtamista:"
 
-#: ../userdrake:1093
+#: ../userdrake:1095
 #, c-format
 msgid "Days before account inactive:"
 msgstr "Käyttäjätunnus merkitään käyttämättömäksi X päivän jälkeen:"
 
-#: ../userdrake:1096
+#: ../userdrake:1098
 #, c-format
 msgid "Password Info"
 msgstr "Salasana"
 
-#: ../userdrake:1100
+#: ../userdrake:1102
 #, c-format
 msgid "Select the groups that the user will be a member of:"
 msgstr "Valitse ryhmät, joihin käyttäjä kuuluu:"
 
-#: ../userdrake:1167
+#: ../userdrake:1169
 #, c-format
 msgid "Group Data"
 msgstr "Ryhmän tiedot"
 
-#: ../userdrake:1170
+#: ../userdrake:1172
 #, c-format
 msgid "Select the users to join this group:"
 msgstr "Valitse ryhmään kuuluvat käyttäjät:"
 
-#: ../userdrake:1172
+#: ../userdrake:1174
 #, c-format
 msgid "Group Users"
 msgstr "Ryhmän käyttäjät"
 
-#: ../userdrake:1192
+#: ../userdrake:1194
 #, c-format
 msgid "Edit Groups / Users"
 msgstr "Muokkaa ryhmiä / käyttäjiä"
 
-#: ../userdrake:1225
+#: ../userdrake:1227
 #, c-format
 msgid "An error occurred:"
 msgstr "Virhe:"
 
-#: ../userdrake:1336
+#: ../userdrake:1338
 #, c-format
 msgid "Close"
 msgstr "Sulje"
 
-#: ../userdrake:1346
+#: ../userdrake:1348
 #, c-format
 msgid "Copyright (C) %s by Mandriva"
 msgstr "Copyright (C) %s, Mandriva"
 
-#: ../userdrake:1346
+#: ../userdrake:1348
 #, c-format
 msgid "Copyright (C) %s by OpenMandriva"
 msgstr "Copyright (C) %s, OpenMandriva"
 
-#: ../userdrake:1349
+#: ../userdrake:1351
 #, c-format
 msgid "Users Management"
 msgstr "Käyttäjienhallinta"
 
-#: ../userdrake:1351
+#: ../userdrake:1354
 #, c-format
 msgid "OpenMandriva"
 msgstr "OpenMandriva"
 
 #. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
-#: ../userdrake:1355
+#: ../userdrake:1358
 #, c-format
 msgid "_: Translator(s) name(s) & email(s)\n"
 msgstr ""
 "Thomas Backlund <tmb@mandrake.org>\n"
 "Jani Välimaa <wally@mandriva.org>\n"
 
-#: ../userdrake:1362
+#: ../userdrake:1365
 #, c-format
 msgid "Name field is empty please provide a name"
 msgstr "Käyttäjätunnus on pakollinen tieto"
 
-#: ../userdrake:1364
+#: ../userdrake:1367
 #, c-format
 msgid ""
 "The name must contain only lower cased latin letters, numbers, `-' and `_'"
@@ -739,12 +739,12 @@ msgstr ""
 "Käyttäjätunnus voi muodostua vain pienistä kirjaimista, numeroista ja "
 "merkeistä \"-\" ja \"_\""
 
-#: ../userdrake:1367
+#: ../userdrake:1370
 #, c-format
 msgid "Name is too long"
 msgstr "Nimi on liian pitkä"
 
-#: ../userdrake:1380
+#: ../userdrake:1383
 #, c-format
 msgid "Error"
 msgstr "Virhe"

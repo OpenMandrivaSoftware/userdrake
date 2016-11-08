@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: userdrake2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-06-19 16:48+0200\n"
+"POT-Creation-Date: 2016-11-08 19:11+0100\n"
 "PO-Revision-Date: 2002-11-12 23:30+0200\n"
 "Last-Translator: Naim Daka <naim70@freesurf.ch>\n"
 "Language-Team: Albanian <LL@li.org>\n"
@@ -91,281 +91,281 @@ msgstr ""
 msgid "Error deleting mail spool: %s\n"
 msgstr "Gabim gjatë ngarkimit të skedares pixmap: %s"
 
-#: ../userdrake:64 ../userdrake:1344
+#: ../userdrake:66 ../userdrake:1346
 #, c-format
 msgid "Userdrake"
 msgstr "Userdrake"
 
-#: ../userdrake:69
+#: ../userdrake:71
 #, c-format
 msgid "Loading Users and Groups... Please wait"
 msgstr "Ngarkimi i Përdoruesve dhe i Grupeve... Një moment ju lutemi"
 
-#: ../userdrake:88
+#: ../userdrake:90
 #, c-format
 msgid "OpenMandriva Users Management Tool"
 msgstr "Vegël Qeverisëse për Përdoruesit OpenMandriva"
 
-#: ../userdrake:101
+#: ../userdrake:103
 #, c-format
 msgid "_Install guest account"
 msgstr ""
 
-#: ../userdrake:102
+#: ../userdrake:104
 #, c-format
 msgid "_Uninstall guest account"
 msgstr ""
 
-#: ../userdrake:106
+#: ../userdrake:108
 #, fuzzy, c-format
 msgid "_Edit"
 msgstr "/_Boto"
 
-#: ../userdrake:107
+#: ../userdrake:109
 #, fuzzy, c-format
 msgid "_Delete"
 msgstr "/_Zhduke"
 
-#: ../userdrake:109
+#: ../userdrake:111
 #, fuzzy, c-format
 msgid "_Filter system users"
 msgstr "/_Filter i sistemit të përdoruesve"
 
-#: ../userdrake:121
+#: ../userdrake:123
 #, fuzzy, c-format
 msgid "_File"
 msgstr "/_Skedare"
 
-#: ../userdrake:122
+#: ../userdrake:124
 #, fuzzy, c-format
 msgid "_Refresh"
 msgstr "/_Rifreskoje"
 
-#: ../userdrake:123
+#: ../userdrake:125
 #, fuzzy, c-format
 msgid "_Quit"
 msgstr "/_Braktise"
 
-#: ../userdrake:123
+#: ../userdrake:125
 #, c-format
 msgid "<control>Q"
 msgstr "<control>Q"
 
-#: ../userdrake:124
+#: ../userdrake:126
 #, fuzzy, c-format
 msgid "_Actions"
 msgstr "/_Akcionet"
 
-#: ../userdrake:125
+#: ../userdrake:127
 #, fuzzy, c-format
 msgid "_Add User"
 msgstr "/_Shtoje një përdorues"
 
-#: ../userdrake:126
+#: ../userdrake:128
 #, fuzzy, c-format
 msgid "Add _Group"
 msgstr "/Shtoje një grup"
 
-#: ../userdrake:130
+#: ../userdrake:132
 #, fuzzy, c-format
 msgid "_Options"
 msgstr "/_Opcionet"
 
-#: ../userdrake:131 ../userdrake:132
+#: ../userdrake:133 ../userdrake:134
 #, fuzzy, c-format
 msgid "_Help"
 msgstr "/_Ndihmë"
 
-#: ../userdrake:133
+#: ../userdrake:135
 #, fuzzy, c-format
 msgid "_Report Bug"
 msgstr "/_Raport Bugi"
 
-#: ../userdrake:135
+#: ../userdrake:137
 #, fuzzy, c-format
 msgid "_About..."
 msgstr "/_Në lidhje me..."
 
-#: ../userdrake:183
+#: ../userdrake:185
 #, c-format
 msgid "Search:"
 msgstr "Hulumto:"
 
-#: ../userdrake:189
+#: ../userdrake:191
 #, c-format
 msgid "Apply filter"
 msgstr "Aplikoje filterin"
 
-#: ../userdrake:193
+#: ../userdrake:195
 #, c-format
 msgid "Users"
 msgstr "Përdoruesitë"
 
-#: ../userdrake:197 ../userdrake:1106
+#: ../userdrake:199 ../userdrake:1108
 #, c-format
 msgid "Groups"
 msgstr "Grupet"
 
 #. -PO: do not translate, this is already translated in mcc
-#: ../userdrake:203
+#: ../userdrake:205
 #, fuzzy, c-format
 msgid "Users and groups"
 msgstr "Në grupet"
 
-#: ../userdrake:221
+#: ../userdrake:223
 #, c-format
 msgid "User Name"
 msgstr "Emri i Përdoruesit"
 
-#: ../userdrake:221
+#: ../userdrake:223
 #, c-format
 msgid "User ID"
 msgstr "ID i Përdoruesit"
 
-#: ../userdrake:221 ../userdrake:1103
+#: ../userdrake:223 ../userdrake:1105
 #, c-format
 msgid "Primary Group"
 msgstr "Grupi Primar"
 
-#: ../userdrake:222
+#: ../userdrake:224
 #, c-format
 msgid "Full Name"
 msgstr "Emri i Plot"
 
-#: ../userdrake:222
+#: ../userdrake:224
 #, c-format
 msgid "Login Shell"
 msgstr "Login Shell"
 
-#: ../userdrake:222
+#: ../userdrake:224
 #, c-format
 msgid "Home Directory"
 msgstr "Repertori Home"
 
-#: ../userdrake:222
+#: ../userdrake:224
 #, c-format
 msgid "Status"
 msgstr "Statuti"
 
-#: ../userdrake:229
+#: ../userdrake:231
 #, c-format
 msgid "Group Name"
 msgstr "Emri i Grupit"
 
-#: ../userdrake:229
+#: ../userdrake:231
 #, c-format
 msgid "Group ID"
 msgstr "Grup ID"
 
-#: ../userdrake:229
+#: ../userdrake:231
 #, c-format
 msgid "Group Members"
 msgstr "Anëtarët e Grupit"
 
 # broken into two lines to avoid too large a button
-#: ../userdrake:231
+#: ../userdrake:233
 #, c-format
 msgid "Add User"
 msgstr "Shtoje një Përdorues"
 
-#: ../userdrake:231
+#: ../userdrake:233
 #, c-format
 msgid "Add a user to the system"
 msgstr "Shtoje një përdorues në sistem"
 
 # broken into two lines to avoid too large a button
-#: ../userdrake:232
+#: ../userdrake:234
 #, c-format
 msgid "Add Group"
 msgstr "Shtoje një Grup"
 
-#: ../userdrake:232
+#: ../userdrake:234
 #, c-format
 msgid "Add a group to the system"
 msgstr "Shtoje një grup në sistem"
 
-#: ../userdrake:233 ../userdrake:804
+#: ../userdrake:235 ../userdrake:806
 #, c-format
 msgid "Edit"
 msgstr "Boto"
 
-#: ../userdrake:233
+#: ../userdrake:235
 #, c-format
 msgid "Edit selected row"
 msgstr "Botoje rreshtin e zgjedhur"
 
-#: ../userdrake:234 ../userdrake:739 ../userdrake:772 ../userdrake:804
+#: ../userdrake:236 ../userdrake:741 ../userdrake:774 ../userdrake:806
 #, c-format
 msgid "Delete"
 msgstr "Zhduke"
 
-#: ../userdrake:234
+#: ../userdrake:236
 #, c-format
 msgid "Delete selected row"
 msgstr "Zhduke rreshtin e zgjedhur"
 
-#: ../userdrake:235
+#: ../userdrake:237
 #, c-format
 msgid "Refresh"
 msgstr "Rifreskoje"
 
-#: ../userdrake:235
+#: ../userdrake:237
 #, c-format
 msgid "Refresh the list"
 msgstr "Rifreskoje listën"
 
-#: ../userdrake:299
+#: ../userdrake:301
 #, c-format
 msgid "Locked"
 msgstr "Mbyllur"
 
-#: ../userdrake:299
+#: ../userdrake:301
 #, c-format
 msgid "Expired"
 msgstr "Skadon afati"
 
-#: ../userdrake:403
+#: ../userdrake:405
 #, c-format
 msgid "Click on the icon to change it"
 msgstr "Kliko mbi ikonë për ta ndërruar"
 
-#: ../userdrake:449
+#: ../userdrake:451
 #, c-format
 msgid "Create New User"
 msgstr "Krijo një Përdorues të Ri"
 
-#: ../userdrake:455
+#: ../userdrake:457
 #, c-format
 msgid "Create Home Directory"
 msgstr "Krijo Repertorin Home"
 
-#: ../userdrake:457
+#: ../userdrake:459
 #, c-format
 msgid "Home Directory: "
 msgstr "Repertori Home: "
 
-#: ../userdrake:460
+#: ../userdrake:462
 #, c-format
 msgid "Create a private group for the user"
 msgstr "Kroji një grup privat për përdoruesin"
 
-#: ../userdrake:461
+#: ../userdrake:463
 #, c-format
 msgid "Specify user ID manually"
 msgstr "Specifikoje ID e përdoruesit manuelisht"
 
-#: ../userdrake:478
+#: ../userdrake:480
 #, c-format
 msgid "User already exists, please choose another User Name"
 msgstr ""
 "Ky përdorues ekziston, ju lutemi zgjedheni një emër tjetër të Pëdoruesin"
 
-#: ../userdrake:483 ../userdrake:924
+#: ../userdrake:485 ../userdrake:926
 #, c-format
 msgid "Password Mismatch"
 msgstr "Parulla nuk Përputhet"
 
-#: ../userdrake:486 ../userdrake:927
+#: ../userdrake:488 ../userdrake:929
 #, c-format
 msgid ""
 "This password is too simple. \n"
@@ -374,12 +374,12 @@ msgstr ""
 "Kjo parullë është tejet e thjeshtë. \n"
 " Një parullë e mirë duhet të jetë me > 6 karaktere"
 
-#: ../userdrake:498
+#: ../userdrake:500
 #, c-format
 msgid "User Uid is < 1000"
 msgstr "Uid i përdoruesit është < 1000"
 
-#: ../userdrake:499
+#: ../userdrake:501
 #, c-format
 msgid ""
 "Creating a user with a UID less than 1000 is not recommended.\n"
@@ -390,91 +390,91 @@ msgstr ""
 " A jeni i sigurt për këtë veprim?\n"
 "\n"
 
-#: ../userdrake:514
+#: ../userdrake:516
 #, c-format
 msgid "Putting %s to 'users' group"
 msgstr "Shtimi i %s në 'përdoruesit' e grupit"
 
-#: ../userdrake:521
+#: ../userdrake:523
 #, c-format
 msgid "Creating new group: %s"
 msgstr "Krijimi i një grupi të ri: %s"
 
-#: ../userdrake:530
+#: ../userdrake:532
 #, c-format
 msgid "Adding user: %s"
 msgstr "Shtimi i një përdoruesi: %s"
 
-#: ../userdrake:543
+#: ../userdrake:545
 #, c-format
 msgid "Migration wizard"
 msgstr ""
 
-#: ../userdrake:544
+#: ../userdrake:546
 #, c-format
 msgid ""
 "Do you want to run the migration wizard in order to import Windows documents "
 "and settings in your OpenMandriva distribution?"
 msgstr ""
 
-#: ../userdrake:549 ../userdrake:593 ../userdrake:652 ../userdrake:739
-#: ../userdrake:772 ../userdrake:1232
+#: ../userdrake:551 ../userdrake:595 ../userdrake:654 ../userdrake:741
+#: ../userdrake:774 ../userdrake:1234
 #, c-format
 msgid "Cancel"
 msgstr "Anulo"
 
-#: ../userdrake:549 ../userdrake:586 ../userdrake:652 ../userdrake:1232
-#: ../userdrake:1384
+#: ../userdrake:551 ../userdrake:588 ../userdrake:654 ../userdrake:1234
+#: ../userdrake:1387
 #, c-format
 msgid "Ok"
 msgstr "Ok"
 
-#: ../userdrake:562
+#: ../userdrake:564
 #, c-format
 msgid "UID: "
 msgstr "UID: "
 
-#: ../userdrake:575
+#: ../userdrake:577
 #, fuzzy, c-format
 msgid "Choose group"
 msgstr "Zgjedhe Grupin"
 
-#: ../userdrake:577 ../userdrake:578
+#: ../userdrake:579 ../userdrake:580
 #, c-format
 msgid "Add to the existing group"
 msgstr "Shtoje në grupin ekzistues"
 
-#: ../userdrake:579
+#: ../userdrake:581
 #, c-format
 msgid "Add to the 'users' group"
 msgstr "Shtoi në 'përdoruesit' grup"
 
-#: ../userdrake:581
+#: ../userdrake:583
 #, c-format
 msgid "A group with this name already exists.  What would you like to do?"
 msgstr "Një grup me këtë emër veçse ekziston.  Çka dëshironi të bëni?"
 
-#: ../userdrake:611
+#: ../userdrake:613
 #, c-format
 msgid "Create New Group"
 msgstr "Krijo një Grup të Ri"
 
-#: ../userdrake:616
+#: ../userdrake:618
 #, c-format
 msgid "Specify group ID manually"
 msgstr "Specifoje grupin e ID manuelisht"
 
-#: ../userdrake:632
+#: ../userdrake:634
 #, c-format
 msgid "Group already exists, please choose another Group Name"
 msgstr "Grupi veçse ekziston, ju lutemi zgjedheni një Emër tjetër të Grupit"
 
-#: ../userdrake:638
+#: ../userdrake:640
 #, c-format
 msgid " Group Gid is < 1000"
 msgstr " Grupi Gid është < 1000"
 
-#: ../userdrake:639
+#: ../userdrake:641
 #, c-format
 msgid ""
 "Creating a group with a GID less than 1000 is not recommended.\n"
@@ -485,22 +485,22 @@ msgstr ""
 " A jeni i sigurt për këtë veprim?\n"
 "\n"
 
-#: ../userdrake:646
+#: ../userdrake:648
 #, c-format
 msgid "Adding group: %s "
 msgstr "Shtimi i një grupi: %s "
 
-#: ../userdrake:656
+#: ../userdrake:658
 #, c-format
 msgid "GID: "
 msgstr "GID: "
 
-#: ../userdrake:701
+#: ../userdrake:703
 #, fuzzy, c-format
 msgid "Delete files or not?"
 msgstr "Zhduke rreshtin e zgjedhur"
 
-#: ../userdrake:704
+#: ../userdrake:706
 #, c-format
 msgid ""
 "Deleting user %s\n"
@@ -509,27 +509,27 @@ msgstr ""
 "Zhdukja e përdoruesit %s\n"
 " Njashtu parashefë akcionet vijuese\n"
 
-#: ../userdrake:706
+#: ../userdrake:708
 #, c-format
 msgid "Delete Home Directory: %s"
 msgstr "Zhduke Repertorin Home: %s"
 
-#: ../userdrake:707
+#: ../userdrake:709
 #, c-format
 msgid "Delete Mailbox: /var/spool/mail/%s"
 msgstr "Zhduke Mailbox :/var/spool/mail/%s"
 
-#: ../userdrake:716
+#: ../userdrake:718
 #, c-format
 msgid "Removing user: %s"
 msgstr "Zhdukja përdoruesit: %s"
 
-#: ../userdrake:749
+#: ../userdrake:751
 #, c-format
 msgid "Do you really want to delete the group %s?"
 msgstr "A me të vërtet dëshironi ta zhdukni grupin %s?"
 
-#: ../userdrake:762
+#: ../userdrake:764
 #, c-format
 msgid ""
 "%s is a primary group for user %s\n"
@@ -538,47 +538,47 @@ msgstr ""
 "%s është grup primar për përdoruesin %s\n"
 " Zhduke përdoruesin para se të vazhdosh"
 
-#: ../userdrake:767
+#: ../userdrake:769
 #, c-format
 msgid "Removing group: %s"
 msgstr "Zhdukja e grupit: %s"
 
-#: ../userdrake:863
+#: ../userdrake:865
 #, c-format
 msgid "Full Name:"
 msgstr "Emri i Plot:"
 
-#: ../userdrake:865
+#: ../userdrake:867
 #, c-format
 msgid "Login:"
 msgstr "Login:"
 
-#: ../userdrake:867
+#: ../userdrake:869
 #, c-format
 msgid "Password:"
 msgstr "Parulla:"
 
-#: ../userdrake:869
+#: ../userdrake:871
 #, c-format
 msgid "Confirm Password:"
 msgstr "Konfirmoje Parullën:"
 
-#: ../userdrake:871
+#: ../userdrake:873
 #, c-format
 msgid "Login Shell:"
 msgstr "Login Shell:"
 
-#: ../userdrake:884
+#: ../userdrake:886
 #, c-format
 msgid "Group Name:"
 msgstr "Emri i Grupit:"
 
-#: ../userdrake:958
+#: ../userdrake:960
 #, c-format
 msgid "Please select at least one group for the user"
 msgstr "Ju lutemi zgjedheni më së paku një grup për përdoruesin"
 
-#: ../userdrake:968
+#: ../userdrake:970
 #, c-format
 msgid ""
 "Please specify Year, Month and Day \n"
@@ -587,159 +587,159 @@ msgstr ""
 "Ju lutemi zgjedheni Vitin, Muajin dhe Ditën \n"
 " për Mbarimin e afatit të Kontos "
 
-#: ../userdrake:978
+#: ../userdrake:980
 #, c-format
 msgid "Please fill up all fields in password aging\n"
 msgstr "Ju lutemi mbushni të gjitha fushat e parullës përsëri\n"
 
-#: ../userdrake:1030
+#: ../userdrake:1032
 #, c-format
 msgid "You cannot remove user '%s' from their primary group"
 msgstr "Ju nuk mund ta zhdukni përdoruesin '%s' nga grupi i tij primar"
 
-#: ../userdrake:1051
+#: ../userdrake:1053
 #, c-format
 msgid "Home:"
 msgstr "Repertori Home:"
 
-#: ../userdrake:1053
+#: ../userdrake:1055
 #, c-format
 msgid "User Data"
 msgstr "Të dhënat e përdoruesit"
 
-#: ../userdrake:1057
+#: ../userdrake:1059
 #, c-format
 msgid "Enable account expiration"
 msgstr "Mundësoje konton e afatizuar"
 
-#: ../userdrake:1059
+#: ../userdrake:1061
 #, c-format
 msgid "Account expires (YYYY-MM-DD):"
 msgstr "Kontoja skadon (YYYY-MM-DD):"
 
-#: ../userdrake:1067
+#: ../userdrake:1069
 #, c-format
 msgid "Lock User Account"
 msgstr "Lidhe Konton e Përdoruesit"
 
-#: ../userdrake:1070
+#: ../userdrake:1072
 #, c-format
 msgid "Account Info"
 msgstr "Informcion mbi Konton"
 
-#: ../userdrake:1075
+#: ../userdrake:1077
 #, c-format
 msgid "User last changed password on: "
 msgstr "Përdoruesi i fundit e ka ndrryshuar parullën më :"
 
-#: ../userdrake:1082
+#: ../userdrake:1084
 #, c-format
 msgid "Enable Password Expiration"
 msgstr "Mundësoje Mbarimin Afatzgjatës të Parullës"
 
-#: ../userdrake:1087
+#: ../userdrake:1089
 #, c-format
 msgid "Days before change allowed:"
 msgstr "Ditët para se është mundësuar ndryshimi :"
 
-#: ../userdrake:1089
+#: ../userdrake:1091
 #, c-format
 msgid "Days before change required:"
 msgstr "Ditës para se është nevojitur ndryshimi :"
 
-#: ../userdrake:1091
+#: ../userdrake:1093
 #, c-format
 msgid "Days warning before change:"
 msgstr "Ditër para se është ndryshuar vëmendja :"
 
-#: ../userdrake:1093
+#: ../userdrake:1095
 #, c-format
 msgid "Days before account inactive:"
 msgstr "Ditët para se të jetë dezaktivizuar kontoja :"
 
-#: ../userdrake:1096
+#: ../userdrake:1098
 #, c-format
 msgid "Password Info"
 msgstr "Informacion mbi Parullën"
 
-#: ../userdrake:1100
+#: ../userdrake:1102
 #, c-format
 msgid "Select the groups that the user will be a member of:"
 msgstr "Zgjedhi grupet për të cilat përdoruesi do të jetë anëtar i tyre:"
 
-#: ../userdrake:1167
+#: ../userdrake:1169
 #, c-format
 msgid "Group Data"
 msgstr "Të dhëna të Grupit"
 
-#: ../userdrake:1170
+#: ../userdrake:1172
 #, c-format
 msgid "Select the users to join this group:"
 msgstr "Zgjedhi përdoruesit të cilët do ti bashkangjiten grupit :"
 
-#: ../userdrake:1172
+#: ../userdrake:1174
 #, c-format
 msgid "Group Users"
 msgstr "Grup Përdoruesish"
 
-#: ../userdrake:1192
+#: ../userdrake:1194
 #, fuzzy, c-format
 msgid "Edit Groups / Users"
 msgstr "Grup Përdoruesish"
 
-#: ../userdrake:1225
+#: ../userdrake:1227
 #, fuzzy, c-format
 msgid "An error occurred:"
 msgstr "Një gabim është paraqitur"
 
-#: ../userdrake:1336
+#: ../userdrake:1338
 #, c-format
 msgid "Close"
 msgstr "Mbylle"
 
-#: ../userdrake:1346
+#: ../userdrake:1348
 #, fuzzy, c-format
 msgid "Copyright (C) %s by Mandriva"
 msgstr "E drejtë autori © 2003 Mandriva SA"
 
-#: ../userdrake:1346
+#: ../userdrake:1348
 #, fuzzy, c-format
 msgid "Copyright (C) %s by OpenMandriva"
 msgstr "E drejtë autori © 2003 Mandriva SA"
 
-#: ../userdrake:1349
+#: ../userdrake:1351
 #, c-format
 msgid "Users Management"
 msgstr "Menagjer për Përdorues"
 
-#: ../userdrake:1351
+#: ../userdrake:1354
 #, fuzzy, c-format
 msgid "OpenMandriva"
 msgstr "Mandriva Online"
 
 #. -PO: put here name(s) and email(s) of translator(s) (eg: "John Smith <jsmith@nowhere.com>")
-#: ../userdrake:1355
+#: ../userdrake:1358
 #, c-format
 msgid "_: Translator(s) name(s) & email(s)\n"
 msgstr ""
 
-#: ../userdrake:1362
+#: ../userdrake:1365
 #, c-format
 msgid "Name field is empty please provide a name"
 msgstr "Emri i fushës është zbrazët ju lutemi furnizoni një emër"
 
-#: ../userdrake:1364
+#: ../userdrake:1367
 #, c-format
 msgid ""
 "The name must contain only lower cased latin letters, numbers, `-' and `_'"
 msgstr "Emri duhet të përmbaj më së paku shkronja, numra, `-' dhe `_'"
 
-#: ../userdrake:1367
+#: ../userdrake:1370
 #, c-format
 msgid "Name is too long"
 msgstr "Emri është shumë i gjatë"
 
-#: ../userdrake:1380
+#: ../userdrake:1383
 #, c-format
 msgid "Error"
 msgstr "Gabim"
